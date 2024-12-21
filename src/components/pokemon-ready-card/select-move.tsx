@@ -18,10 +18,9 @@ interface SelectMovesProps {
 }
 
 interface ReadyMove extends movesDataType {
-  category: "Movimiento" | "Movimientos de Tutor" | "Movimientos de Huevo";
+  origin: "Movimiento" | "Movimientos de Tutor" | "Movimientos de Huevo";
 }
 
-// Para filtrar por tipo y categoría (ejemplo)
 const allTypes = [
   "Bug",
   "Dark",
@@ -42,24 +41,34 @@ const allTypes = [
   "Steel",
   "Water",
 ];
-const allCategories = [
+
+const allOrigins = [
   "Movimiento",
   "Movimientos de Tutor",
   "Movimientos de Huevo",
 ];
+
+// Physical, Special, Status
+const allMoveCategories = ["Physical", "Special", "Status"];
 
 export const SelectMoves: React.FC<SelectMovesProps> = ({
   pokemon,
   PokemonSpeciesData,
 }) => {
   const { updatePokemon, difficultType } = useContext(PokemonContext)!;
+
   const [readyMoves, setReadyMoves] = useState<ReadyMove[]>([]);
   const [isOpen, setIsOpen] = useState(false);
+
+  // Filtros
   const [searchTerm, setSearchTerm] = useState("");
-  // Nuevos estados para filtrar por tipo, categoría y poder mínimo.
   const [filterType, setFilterType] = useState("");
-  const [filterCategory, setFilterCategory] = useState("");
+  const [filterOrigin, setFilterOrigin] = useState("");
+  const [filterMoveCategory, setFilterMoveCategory] = useState("");
   const [minPower, setMinPower] = useState("");
+  const [maxPower, setMaxPower] = useState("");
+  const [minAccuracy, setMinAccuracy] = useState("");
+  const [maxAccuracy, setMaxAccuracy] = useState("");
 
   const [filteredMoves, setFilteredMoves] = useState<ReadyMove[]>([]);
   const [selectedMoves, setSelectedMoves] = useState<ReadyMove[]>([]);
@@ -73,12 +82,17 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
 
     const mapMoves = (
       internalNames: string[],
-      category: ReadyMove["category"]
+      origin: ReadyMove["origin"]
     ): ReadyMove[] => {
       return internalNames
         .map((internalName) => {
           const move = movesData.find((m) => m.internalName === internalName);
-          return move ? { ...move, category } : null;
+          if (!move) return null;
+          // Retornamos un objeto con la `origin` y dejando `category` como su categoría real de combate
+          return {
+            ...move,
+            origin,
+          };
         })
         .filter((move): move is ReadyMove => move !== null);
     };
@@ -111,32 +125,67 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
 
   // Carga movimientos para la dificultad actual
   useEffect(() => {
-    const mappedMoves = pokemon.moves[difficultType]?.map((move) => ({
-      ...move,
-      category: move.category as
-        | "Movimiento"
-        | "Movimientos de Tutor"
-        | "Movimientos de Huevo",
-    }));
+    const mappedMoves: ReadyMove[] = pokemon.moves[difficultType]?.map(
+      (move) => ({
+        ...move,
+        origin: "Movimiento",
+      })
+    );
     setSelectedMoves(mappedMoves || []);
   }, [difficultType, pokemon.moves]);
 
-  // Aplica filtros de búsqueda, tipo, categoría y poder mínimo
+  // Aplica filtros
   useEffect(() => {
     const lowerSearch = searchTerm.toLowerCase();
     const filtered = readyMoves.filter((move) => {
-      const { name, type, category, power } = move;
+      const {
+        name,
+        type,
+        origin,
+        category, // "Physical" | "Special" | "Status"
+        power,
+        accuracy,
+      } = move;
+
       const matchesSearch =
         name.toLowerCase().includes(lowerSearch) ||
         type.toLowerCase().includes(lowerSearch) ||
-        category.toLowerCase().includes(lowerSearch);
+        origin.toLowerCase().includes(lowerSearch);
+
       const matchesType = !filterType || type === filterType;
-      const matchesCategory = !filterCategory || category === filterCategory;
-      const matchesMinPower = !minPower || power >= parseInt(minPower);
-      return matchesSearch && matchesType && matchesCategory && matchesMinPower;
+      const matchesOrigin = !filterOrigin || origin === filterOrigin;
+      const matchesMoveCategory =
+        !filterMoveCategory || category === filterMoveCategory;
+
+      const minPow = minPower ? parseInt(minPower) : 0;
+      const maxPow = maxPower ? parseInt(maxPower) : 9999;
+      const minAcc = minAccuracy ? parseInt(minAccuracy) : 0;
+      const maxAcc = maxAccuracy ? parseInt(maxAccuracy) : 100;
+
+      const withinPower = power >= minPow && power <= maxPow;
+      const withinAccuracy = accuracy >= minAcc && accuracy <= maxAcc;
+
+      return (
+        matchesSearch &&
+        matchesType &&
+        matchesOrigin &&
+        matchesMoveCategory &&
+        withinPower &&
+        withinAccuracy
+      );
     });
     setFilteredMoves(filtered);
-  }, [searchTerm, filterType, filterCategory, minPower, readyMoves]);
+  }, [
+    searchTerm,
+    filterType,
+    filterOrigin,
+    filterMoveCategory,
+    minPower,
+    maxPower,
+    minAccuracy,
+    maxAccuracy,
+    readyMoves,
+  ]);
 
   // Selección/deselección de movimientos con límite de 4
   const toggleMoveSelection = (move: ReadyMove) => {
@@ -191,10 +240,10 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
         <DialogContent className="max-w-3xl">
           <DialogTitle>Selecciona Movimientos</DialogTitle>
           <DialogDescription>
-            Filtra por nombre, tipo, categoría o poder. Selecciona hasta 4.
+            Aplica filtros y elige hasta 4 movimientos.
           </DialogDescription>
 
-          {/* Filtro por nombre */}
+          {/* Filtrado por nombre */}
           <Input
             name="move-search"
             value={searchTerm}
@@ -203,8 +252,8 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
             className="mt-4"
           />
 
-          {/* Filtro por tipo */}
-          <div className="mt-2 flex items-center gap-2">
+          {/* Filtros de tipo, origen y categoría */}
+          <div className="mt-2 flex flex-wrap items-center gap-2">
             <label className="text-sm">Tipo:</label>
             <select
               className="border p-1 rounded"
@@ -219,30 +268,79 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
               ))}
             </select>
 
-            {/* Filtro por categoría */}
-            <label className="ml-4 text-sm">Categoría:</label>
+            <label className="text-sm">Origen:</label>
             <select
               className="border p-1 rounded"
-              value={filterCategory}
-              onChange={(e) => setFilterCategory(e.target.value)}
+              value={filterOrigin}
+              onChange={(e) => setFilterOrigin(e.target.value)}
+            >
+              <option value="">Todos</option>
+              {allOrigins.map((o) => (
+                <option key={o} value={o}>
+                  {o}
+                </option>
+              ))}
+            </select>
+
+            <label className="text-sm">Categoría:</label>
+            <select
+              className="border p-1 rounded"
+              value={filterMoveCategory}
+              onChange={(e) => setFilterMoveCategory(e.target.value)}
             >
               <option value="">Todas</option>
-              {allCategories.map((c) => (
+              {allMoveCategories.map((c) => (
                 <option key={c} value={c}>
                   {c}
                 </option>
               ))}
             </select>
+          </div>
 
-            {/* Filtro por poder mínimo */}
-            <label className="ml-4 text-sm">Poder mínimo:</label>
-            <Input
-              type="number"
-              min={0}
-              className="w-16"
-              value={minPower}
-              onChange={(e) => setMinPower(e.target.value)}
-            />
+          {/* Filtros de poder y accuracy */}
+          <div className="mt-2 flex flex-wrap items-center gap-4">
+            <div className="flex items-center gap-2">
+              <label className="text-sm">Poder min:</label>
+              <Input
+                type="number"
+                min={0}
+                className="w-16"
+                value={minPower}
+                onChange={(e) => setMinPower(e.target.value)}
+              />
+            </div>
+            <div className="flex items-center gap-2">
+              <label className="text-sm">Poder máx:</label>
+              <Input
+                type="number"
+                min={0}
+                className="w-16"
+                value={maxPower}
+                onChange={(e) => setMaxPower(e.target.value)}
+              />
+            </div>
+            <div className="flex items-center gap-2">
+              <label className="text-sm">Precisión min:</label>
+              <Input
+                type="number"
+                min={0}
+                max={100}
+                className="w-16"
+                value={minAccuracy}
+                onChange={(e) => setMinAccuracy(e.target.value)}
+              />
+            </div>
+            <div className="flex items-center gap-2">
+              <label className="text-sm">Precisión máx:</label>
+              <Input
+                type="number"
+                min={0}
+                max={100}
+                className="w-16"
+                value={maxAccuracy}
+                onChange={(e) => setMaxAccuracy(e.target.value)}
+              />
+            </div>
           </div>
 
           {selectedMoves.length >= 4 && (
@@ -258,6 +356,7 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
                 (m) => m.internalName === move.internalName
               );
               const isLimitReached = selectedMoves.length >= 4 && !isSelected;
+
               return (
                 <div
                   key={move.internalName}
@@ -270,12 +369,11 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
                 >
                   <h4 className="text-lg font-semibold">{move.name}</h4>
                   <p className="text-sm text-gray-600">Tipo: {move.type}</p>
-                  <p className="text-sm text-gray-600">
-                    Potencia: {move.power}
-                  </p>
+                  <p className="text-sm text-gray-600">Poder: {move.power}</p>
                   <p className="text-sm text-gray-600">
                     Precisión: {move.accuracy}
                   </p>
+                  <p className="text-sm text-gray-600">Origen: {move.origin}</p>
                   <p className="text-sm text-gray-600">
                     Categoría: {move.category}
                   </p>

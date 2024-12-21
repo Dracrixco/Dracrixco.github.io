@@ -4,12 +4,21 @@ import { SectionSeparator } from "./components/section-separator";
 import { PokemonProvider } from "./pokemon-context";
 import { Pokemon } from "./pokemon-context";
 import SelectPokemon from "./components/select-pokemon";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "./components/ui/button";
 import ReadyPokemonCard from "./components/ready-pokemon-card";
+import { getPokemonByInternalName } from "./utils/get-data";
 
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
+
+  useEffect(() => {
+    if (pokemons.length > 0) {
+      console.log(pokemons[0]);
+      console.log(pokemons[0].id);
+      console.log(getPokemonByInternalName(pokemons[0].id));
+    }
+  }, [pokemons]);
 
   return (
     <PokemonProvider pokemons={pokemons} setPokemons={setPokemons}>
@@ -21,7 +30,7 @@ function App() {
           <h2 className="text-lg font-semibold mb-2">Trainer Section</h2>
           <SelectTrainerType />
         </SectionSeparator>
-        <SectionSeparator className="grid grid-cols-6 gap-2 items-center">
+        <SectionSeparator className="grid grid-cols-3 gap-2 items-center">
           <h2 className="text-lg font-semibold mb-2 col-span-full">
             Pokemon Team Section
           </h2>

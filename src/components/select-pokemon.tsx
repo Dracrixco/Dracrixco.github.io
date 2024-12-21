@@ -9,7 +9,7 @@ import {
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { PokemonContext } from "@/pokemon-context";
-import { pokemonData, objectsData } from "@/data/pageData";
+import { pokemonData } from "@/data/pageData";
 import { objectsDataType } from "../data/dataTypes";
 import { pokemonDataType } from "../data/dataTypes";
 import PokemonCard from "./pokemon-card";
@@ -100,27 +100,9 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
           </div>
         )}
         {selectedPokemon && (
-          <div className="mt-4">
-            <h3 className="text-md font-semibold mt-4">Asignar Objeto</h3>
-            <div className="flex flex-wrap gap-2 mt-2">
-              {objectsData.map((obj) => (
-                <Button
-                  key={obj.internalName}
-                  variant={
-                    selectedObject?.internalName === obj.internalName
-                      ? "secondary"
-                      : "outline"
-                  }
-                  onClick={() => setSelectedObject(obj)}
-                >
-                  {obj.name}
-                </Button>
-              ))}
-            </div>
-            <Button className="mt-4" onClick={handleAddPokemon}>
-              Confirmar
-            </Button>
-          </div>
+          <Button className="mt-4" onClick={handleAddPokemon}>
+            Confirmar
+          </Button>
         )}
       </DialogContent>
     </Dialog>

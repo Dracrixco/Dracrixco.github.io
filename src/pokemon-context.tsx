@@ -22,6 +22,7 @@ interface PokemonContextType {
   updatePokemon: (updatedPokemon: Pokemon) => void;
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const PokemonContext = createContext<PokemonContextType | undefined>(
   undefined
 );

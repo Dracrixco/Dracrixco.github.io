@@ -37,9 +37,11 @@ function App() {
           {pokemons.map((pokemon) => (
             <ReadyPokemonCard key={pokemon.id} pokemon={pokemon} />
           ))}
-          <SelectPokemon>
-            <Button className="h-full">Select a Pokemon</Button>
-          </SelectPokemon>
+          {pokemons.length < 6 && (
+            <SelectPokemon>
+              <Button className="h-full">Select a Pokemon</Button>
+            </SelectPokemon>
+          )}
         </SectionSeparator>
       </div>
     </PokemonProvider>

@@ -17,13 +17,15 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
   }
 
   return (
-    <div className="flex flex-col gap-4 mt-2 w-full border rounded-lg">
+    <div className="flex flex-col gap-4 mt-2 w-full border rounded-lg relative">
       <img
         src={`src/images/Front/${pokemon.id}.png`}
         alt={pokemon.name}
-        className="w-20 h-20 object-cover mx-auto"
+        className="w-[50%] h-auto mx-auto [image-rendering:pixelated]"
       />
-      <p className="text-center font-semibold">{pokemon.name}</p>
+      <p className="text-center font-semibold absolute top-2 right-2">
+        {pokemon.name}
+      </p>
       <div className="mt-2">
         <SelectMove
           moves={PokemonSpeciesData.moves}

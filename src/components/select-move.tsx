@@ -108,7 +108,7 @@ const SelectMove: React.FC<SelectMoveProps> = ({
   };
 
   return (
-    <div className="w-full bg-gray-500 p-2">
+    <div className="w-full bg-gray-100 p-2">
       <div>
         <h3 className="text-lg font-semibold">Movimientos Seleccionados</h3>
         {readyMoves.length === 0 ? (

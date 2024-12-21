@@ -13,7 +13,7 @@ import { trainersData } from "@/data/pageData";
 import { Button } from "./ui/button";
 
 interface SelectTrainerTypeProps {
-  onChange: (id: string) => void;
+  onChange?: (id: string) => void;
 }
 
 const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
@@ -39,10 +39,12 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
   };
 
   const handleSelect = (id: string) => {
-    const trainer = trainersData.find((trainer) => trainer.id === id);
+    const trainer = trainersData.find((trainer) => trainer.internalName === id);
     if (trainer) {
       setSelectedTrainer(trainer);
-      onChange(trainer.id);
+      if (onChange) {
+        onChange(trainer.internalName);
+      }
       setIsOpen(false);
     }
   };
@@ -53,8 +55,8 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
         <DialogTrigger asChild>
           {selectedTrainer ? (
             <TrainerCard
-              id={selectedTrainer.id}
-              internalName={selectedTrainer.id}
+              id={selectedTrainer.internalName}
+              internalName={selectedTrainer.internalName}
               name={selectedTrainer.name}
               onSelect={function (id: string): void {
                 console.log(id);
@@ -80,9 +82,9 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
           <div className="max-h-72 overflow-y-auto mt-4 space-y-2">
             {filteredTrainers.map((trainer) => (
               <TrainerCard
-                key={trainer.id}
-                id={trainer.id}
-                internalName={trainer.id}
+                key={trainer.internalName}
+                id={trainer.internalName}
+                internalName={trainer.internalName}
                 name={trainer.name}
                 onSelect={handleSelect}
               />

@@ -1,4 +1,5 @@
 export interface movesDataType {
+  internalName: string;
   name: string;
   type: string;
   power: string;
@@ -18,6 +19,11 @@ export interface pokemonDataType {
 }
 
 export interface trainersDataType {
-  id: string;
+  internalName: string;
+  name: string;
+}
+
+export interface objectsDataType {
+  internalName: string;
   name: string;
 }

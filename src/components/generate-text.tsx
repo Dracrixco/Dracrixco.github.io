@@ -9,10 +9,11 @@ interface GenerateTextButtonProps {
 }
 
 export const GenerateTextButton = ({ className }: GenerateTextButtonProps) => {
-  const { pokemons, selectedTrainer } = useContext(PokemonContext)!;
+  const { pokemons, selectedTrainer, trainerName } =
+    useContext(PokemonContext)!;
 
   const generateText = () => {
-    let text = `[${selectedTrainer?.internalName}, Name]\n`;
+    let text = `[${selectedTrainer?.internalName}, ${trainerName}]\n`;
     pokemons.forEach((pokemon) => {
       text += `Pokemon = ${pokemon.id}, 5\n`;
       text += "   Moves = ";

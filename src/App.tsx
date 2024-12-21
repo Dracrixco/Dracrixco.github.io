@@ -8,24 +8,61 @@ import { useEffect, useState } from "react";
 import { Button } from "./components/ui/button";
 import ReadyPokemonCard from "./components/pokemon-ready-card/ready-pokemon-card";
 import { GenerateTextButton } from "./components/generate-text";
+import { Input } from "./components/ui/input";
+import { Label } from "./components/ui/label";
 
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
+  const [trainerName, setTrainerName] = useState<string>("");
+  const [startText, setStartText] = useState<string>("");
+  const [endText, setEndText] = useState<string>("");
 
   useEffect(() => {
     console.log(pokemons);
   }, [pokemons]);
 
   return (
-    <PokemonProvider pokemons={pokemons} setPokemons={setPokemons}>
+    <PokemonProvider
+      pokemons={pokemons}
+      setPokemons={setPokemons}
+      trainerName={trainerName}
+      setTrainerName={setTrainerName}
+      startText={startText}
+      setStartText={setStartText}
+      endText={endText}
+      setEndText={setEndText}
+    >
       <div className="relative w-screen h-screen">
         <GenerateTextButton className="absolute bottom-2 right-2" />
         <h1 className="w-full bg-black text-white text-center py-4">
           Trainer Generator
         </h1>
-        <SectionSeparator>
-          <h2 className="text-lg font-semibold mb-2">Trainer Section</h2>
+        <SectionSeparator className="flex flex-wrap space-x-2">
+          <h2 className="text-lg font-semibold mb-2 w-full">Trainer Section</h2>
           <SelectTrainerType />
+          <div>
+            <Label>Trainer Name</Label>
+            <Input
+              value={trainerName}
+              onChange={(e) => {
+                setTrainerName(e.target.value);
+              }}
+            />
+            <Label>Trainer Start Text</Label>
+            <Input
+              value={startText}
+              onChange={(e) => {
+                setStartText(e.target.value);
+              }}
+            />
+            <Label>Trainer End Text</Label>
+            <Input
+              value={endText}
+              onChange={(e) => {
+                setEndText(e.target.value);
+              }}
+            />
+          </div>
         </SectionSeparator>
         <SectionSeparator className="grid grid-cols-3 gap-2 items-center">
           <h2 className="text-lg font-semibold mb-2 col-span-full">

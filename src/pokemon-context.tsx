@@ -19,6 +19,12 @@ interface PokemonContextType {
   addPokemon: (pokemon: Pokemon) => void;
   removePokemon: (pokemonId: string) => void;
   updatePokemon: (updatedPokemon: Pokemon) => void;
+  trainerName: string;
+  setTrainerName: React.Dispatch<React.SetStateAction<string>>;
+  startText: string;
+  setStartText: React.Dispatch<React.SetStateAction<string>>;
+  endText: string;
+  setEndText: React.Dispatch<React.SetStateAction<string>>;
 }
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -30,12 +36,24 @@ interface PokemonProviderProps {
   children: ReactNode;
   pokemons: Pokemon[];
   setPokemons: React.Dispatch<React.SetStateAction<Pokemon[]>>;
+  trainerName: string;
+  setTrainerName: React.Dispatch<React.SetStateAction<string>>;
+  startText: string;
+  setStartText: React.Dispatch<React.SetStateAction<string>>;
+  endText: string;
+  setEndText: React.Dispatch<React.SetStateAction<string>>;
 }
 
 export const PokemonProvider: React.FC<PokemonProviderProps> = ({
   children,
   pokemons,
   setPokemons,
+  setTrainerName,
+  trainerName,
+  endText,
+  setEndText,
+  startText,
+  setStartText,
 }) => {
   const [selectedTrainer, setSelectedTrainer] =
     useState<trainersDataType | null>(null);
@@ -59,12 +77,18 @@ export const PokemonProvider: React.FC<PokemonProviderProps> = ({
   return (
     <PokemonContext.Provider
       value={{
+        trainerName,
+        setTrainerName,
         selectedTrainer,
         setSelectedTrainer,
         pokemons,
         addPokemon,
         removePokemon,
         updatePokemon,
+        endText,
+        setEndText,
+        startText,
+        setStartText,
       }}
     >
       {children}

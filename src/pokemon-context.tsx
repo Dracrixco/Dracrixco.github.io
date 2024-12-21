@@ -48,6 +48,8 @@ interface PokemonContextBase {
   pokemons: Pokemon[];
   difficultType: typeDifficultyType;
   setDifficultType: React.Dispatch<React.SetStateAction<typeDifficultyType>>;
+  trainerLevel: number;
+  setTrainerLevel: React.Dispatch<React.SetStateAction<number>>;
 }
 
 interface PokemonContextType extends PokemonContextBase {
@@ -85,6 +87,8 @@ export const PokemonProvider: React.FC<PokemonProviderProps> = ({
   setStartText,
   difficultType,
   setDifficultType,
+  setTrainerLevel,
+  trainerLevel,
 }) => {
   const [selectedTrainer, setSelectedTrainer] =
     useState<trainersDataType | null>(null);
@@ -108,6 +112,8 @@ export const PokemonProvider: React.FC<PokemonProviderProps> = ({
   return (
     <PokemonContext.Provider
       value={{
+        setTrainerLevel,
+        trainerLevel,
         trainerName,
         setTrainerName,
         selectedTrainer,

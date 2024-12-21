@@ -12,10 +12,12 @@ import { Input } from "./components/ui/input";
 import { Label } from "./components/ui/label";
 import { SelectDifficult } from "./components/select-difficult";
 import { typeDifficultyType } from "./pokemon-context";
+import { cn } from "./lib/utils";
 
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
   const [trainerName, setTrainerName] = useState<string>("");
+  const [trainerLevel, setTrainerLevel] = useState(10);
   const [startText, setStartText] = useState<string>("");
   const [endText, setEndText] = useState<string>("");
   const [difficultType, setDifficultType] =
@@ -38,6 +40,8 @@ function App() {
       setEndText={setEndText}
       difficultType={difficultType}
       setDifficultType={setDifficultType}
+      trainerLevel={trainerLevel}
+      setTrainerLevel={setTrainerLevel}
     >
       <div>
         <div className="flex justify-evenly items-center w-full bg-gray-500 text-white text-center py-4">
@@ -49,12 +53,23 @@ function App() {
           <h1>Trainer Generator</h1>
           <SelectDifficult />
         </div>
-        <SectionSeparator className="grid grid-cols-4 space-x-2">
+        <SectionSeparator
+          className={cn([
+            "grid",
+            "grid-cols-1",
+            "sm:grid-cols-2",
+            "md:grid-cols-3",
+            "lg:grid-cols-4",
+            "space-x-2",
+          ])}
+        >
           <h2 className="text-lg font-semibold mb-2 w-full col-span-full">
             Trainer Section
           </h2>
           <SelectTrainerType />
-          <div className="col-span-3">
+          <div
+            className={cn(["sm:col-span-1", "md:col-span-2", "lg:col-span-3"])}
+          >
             <Label>Trainer Name</Label>
             <Input
               value={trainerName}
@@ -74,6 +89,16 @@ function App() {
               value={endText}
               onChange={(e) => {
                 setEndText(e.target.value);
+              }}
+            />
+            <Label>Trainer Level: {trainerLevel}</Label>
+            <Input
+              value={trainerLevel}
+              type="range"
+              min={1}
+              max={100}
+              onChange={(e) => {
+                setTrainerLevel(parseInt(e.target.value));
               }}
             />
           </div>

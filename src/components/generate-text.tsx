@@ -13,8 +13,14 @@ export const GenerateTextButton = ({
   className,
   onTextGenerated,
 }: GenerateTextButtonProps) => {
-  const { pokemons, selectedTrainer, trainerName, startText, endText } =
-    useContext(PokemonContext)!;
+  const {
+    pokemons,
+    selectedTrainer,
+    trainerName,
+    startText,
+    endText,
+    trainerLevel,
+  } = useContext(PokemonContext)!;
 
   const generateText = () => {
     let text = "#-------------------------------\n";
@@ -29,7 +35,7 @@ export const GenerateTextButton = ({
     text += `LoseText = ${endText}\n`;
     text += `StartText = ${startText}\n`;
     pokemons.forEach((pokemon) => {
-      text += `Pokemon = ${pokemon.id},5\n`;
+      text += `Pokemon = ${pokemon.id},${trainerLevel}\n`;
       difficultTypes.forEach((difficultType) => {
         // Moves
         if (difficultType === "default") {

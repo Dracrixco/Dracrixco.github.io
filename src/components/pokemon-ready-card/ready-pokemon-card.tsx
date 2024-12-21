@@ -5,6 +5,8 @@ import { SelectMoves } from "./select-move";
 import { getPokemonByInternalName } from "@/utils/get-data";
 import { SelectItem } from "./select-item";
 import { SelectAbility } from "./select-ability";
+import { getTypeColor, PokemonType } from "@/utils/get-type-color";
+import { cn } from "@/lib/utils";
 
 interface ReadyPokemonCardProps {
   pokemon: Pokemon;
@@ -20,6 +22,19 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
 
   return (
     <div className="flex flex-col gap-4 mt-2 w-full border rounded-lg relative">
+      <div className="absolute top-2 left-2">
+        {PokemonSpeciesData.types.map((type, idx) => (
+          <p
+            className={cn([
+              "text-sm text-gray-900 rounded-sm border p-2",
+              getTypeColor(type as PokemonType),
+            ])}
+            key={idx}
+          >
+            {type}
+          </p>
+        ))}
+      </div>
       <img
         src={`./images/Front/${pokemon.id}.png`}
         alt={pokemon.name}

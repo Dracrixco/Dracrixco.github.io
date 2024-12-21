@@ -1,5 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
+import { getTypeColor, PokemonType } from "@/utils/get-type-color";
 
 interface PokemonCardProps {
   id: string;
@@ -36,7 +37,10 @@ const PokemonCard: React.FC<PokemonCardProps> = ({
         <div className="flex space-x-2">
           {types.map((type, idx) => (
             <p
-              className="text-sm text-gray-900 rounded-sm border p-2"
+              className={cn([
+                "text-sm text-gray-900 rounded-sm border p-2",
+                getTypeColor(type as PokemonType),
+              ])}
               key={idx}
             >
               {type}

@@ -155,7 +155,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
         {(!selectedPokemon || selectedPokemon === null) && (
           <div
             className={cn([
-              "max-h-60 overflow-y-auto mt-4",
+              "max-h-96 overflow-y-auto mt-4",
               "grid grid-cols-3 gap-2",
             ])}
           >

@@ -104,6 +104,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
           absolution: [],
         },
         item: {},
+        abilityIndex: {},
       });
       setIsOpen(false);
       setSearchTerm("");

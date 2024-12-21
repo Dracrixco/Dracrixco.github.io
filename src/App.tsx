@@ -44,10 +44,12 @@ function App() {
           <h1>Trainer Generator</h1>
           <SelectDifficult />
         </div>
-        <SectionSeparator className="flex flex-wrap space-x-2">
-          <h2 className="text-lg font-semibold mb-2 w-full">Trainer Section</h2>
+        <SectionSeparator className="grid grid-cols-4 space-x-2">
+          <h2 className="text-lg font-semibold mb-2 w-full col-span-full">
+            Trainer Section
+          </h2>
           <SelectTrainerType />
-          <div>
+          <div className="col-span-3">
             <Label>Trainer Name</Label>
             <Input
               value={trainerName}
@@ -71,7 +73,7 @@ function App() {
             />
           </div>
         </SectionSeparator>
-        <SectionSeparator className="grid grid-cols-3 gap-2 items-center">
+        <SectionSeparator className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 items-center">
           <h2 className="text-lg font-semibold mb-2 col-span-full">
             Pokemon Team Section
           </h2>

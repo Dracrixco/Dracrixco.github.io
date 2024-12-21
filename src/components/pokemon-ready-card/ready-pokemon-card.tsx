@@ -33,15 +33,13 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
           pokemon={pokemon}
           PokemonSpeciesData={PokemonSpeciesData}
         />
-        <SelectItem pokemon={pokemon} />
-        <SelectAbility
-          pokemon={pokemon}
-          PokemonSpeciesData={PokemonSpeciesData}
-        />
-      </div>
-      <div className="mt-2">
-        <p className="text-sm">Objeto:</p>
-        <p>{pokemon.object?.name || "Ninguno"}</p>
+        <div className="flex flex-col md:flex-row">
+          <SelectItem pokemon={pokemon} />
+          <SelectAbility
+            pokemon={pokemon}
+            PokemonSpeciesData={PokemonSpeciesData}
+          />
+        </div>
       </div>
       <Button
         variant="destructive"

@@ -57,7 +57,7 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full bg-gray-200 p-2">
       <div className="my-2">
         {pokemon.item?.[difficultType] && (
           <div
@@ -77,7 +77,7 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
       </div>
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogTrigger asChild>
-          <Button>Seleccionar Item</Button>
+          <Button className="w-full">Seleccionar Item</Button>
         </DialogTrigger>
         <DialogContent>
           <DialogTitle>Selecciona un objeto</DialogTitle>

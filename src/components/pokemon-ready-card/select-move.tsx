@@ -31,7 +31,7 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
   const [readyMoves, setReadyMoves] = useState<ReadyMove[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredMoves, setFilteredMoves] = useState<ReadyMove[]>([]);
+  const [, setFilteredMoves] = useState<ReadyMove[]>([]);
   const [selectedMoves, setSelectedMoves] = useState<ReadyMove[]>([]);
 
   useEffect(() => {
@@ -107,7 +107,6 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
   const handleConfirm = () => {
     const updatedPokemon = { ...pokemon, moves: selectedMoves };
     updatePokemon(updatedPokemon);
-    setReadyMoves(selectedMoves);
     setIsOpen(false);
   };
 
@@ -148,20 +147,18 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
             </p>
           )}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 max-h-80 overflow-y-auto">
-            {filteredMoves.map((move) => (
+            {readyMoves.map((move) => (
               <div
                 key={move.internalName}
-                className={`border rounded-lg p-4 cursor-pointer shadow ${
+                className={`border rounded-lg p-4 cursor-pointer shadow  ${
                   selectedMoves.find(
                     (m) => m.internalName === move.internalName
                   )
                     ? "border-blue-500 bg-blue-50"
                     : "border-gray-200 hover:bg-gray-100"
                 } ${
-                  selectedMoves.length >= 4 &&
-                  !selectedMoves.find(
-                    (m) => m.internalName === move.internalName
-                  )
+                  readyMoves.length >= 4 &&
+                  !readyMoves.find((m) => m.internalName === move.internalName)
                     ? "opacity-50 cursor-not-allowed"
                     : ""
                 }`}

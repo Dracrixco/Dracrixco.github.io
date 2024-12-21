@@ -7,7 +7,7 @@ import SelectPokemon from "./components/select-pokemon";
 import { useEffect, useState } from "react";
 import { Button } from "./components/ui/button";
 import ReadyPokemonCard from "./components/pokemon-ready-card/ready-pokemon-card";
-// import { getPokemonByInternalName } from "./utils/get-data";
+import { GenerateTextButton } from "./components/generate-text";
 
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
@@ -18,7 +18,8 @@ function App() {
 
   return (
     <PokemonProvider pokemons={pokemons} setPokemons={setPokemons}>
-      <div>
+      <div className="relative w-screen h-screen">
+        <GenerateTextButton className="absolute bottom-2 right-2" />
         <h1 className="w-full bg-black text-white text-center py-4">
           Trainer Generator
         </h1>

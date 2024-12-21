@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import {
   Dialog,
   DialogTrigger,
@@ -11,18 +11,18 @@ import TrainerCard from "./trainer-card";
 import { trainersDataType } from "../data/dataTypes";
 import { trainersData } from "@/data/pageData";
 import { Button } from "./ui/button";
+import { PokemonContext } from "@/pokemon-context";
 
 interface SelectTrainerTypeProps {
   onChange?: (id: string) => void;
 }
 
 const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
+  const { selectedTrainer, setSelectedTrainer } = useContext(PokemonContext)!;
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredTrainers, setFilteredTrainers] = useState<trainersDataType[]>(
     []
   );
-  const [selectedTrainer, setSelectedTrainer] =
-    useState<trainersDataType | null>(null);
   const [isOpen, setIsOpen] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {

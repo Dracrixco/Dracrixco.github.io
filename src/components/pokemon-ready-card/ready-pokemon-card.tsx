@@ -21,7 +21,7 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
   return (
     <div className="flex flex-col gap-4 mt-2 w-full border rounded-lg relative">
       <img
-        src={`/images/Front/${pokemon.id}.png`}
+        src={`./images/Front/${pokemon.id}.png`}
         alt={pokemon.name}
         className="w-[50%] h-auto mx-auto [image-rendering:pixelated]"
       />

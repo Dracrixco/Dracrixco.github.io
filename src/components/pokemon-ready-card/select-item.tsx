@@ -65,7 +65,7 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
             className={`p-2 cursor-pointer border-b flex items-center hover:bg-gray-100`}
           >
             <img
-              src={`/images/Items/${pokemon.item?.[difficultType]?.internalName}.png`}
+              src={`./images/Items/${pokemon.item?.[difficultType]?.internalName}.png`}
               alt={pokemon.item?.[difficultType]?.name}
               className="object-cover"
             />
@@ -100,7 +100,7 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
                 onClick={() => setSelectedItem(item)}
               >
                 <img
-                  src={`/images/Items/${item.internalName}.png`}
+                  src={`./images/Items/${item.internalName}.png`}
                   alt={item.name}
                   className="object-cover"
                 />

@@ -3,13 +3,19 @@ import path from "path";
 
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: "./",
+  base: "./", // Asegura rutas relativas
   plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        format: "iife", // Genera un script compatible con navegadores sin "module"
+      },
     },
   },
 });

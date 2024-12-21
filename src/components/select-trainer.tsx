@@ -12,6 +12,7 @@ import { trainersDataType } from "../data/dataTypes";
 import { trainersData } from "@/data/pageData";
 import { Button } from "./ui/button";
 import { PokemonContext } from "@/pokemon-context";
+import { useEffect } from "react";
 
 interface SelectTrainerTypeProps {
   onChange?: (id: string) => void;
@@ -25,6 +26,10 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
   );
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    setFilteredTrainers(trainersData);
+  }, []);
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearchTerm(value);
@@ -34,7 +39,7 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
       );
       setFilteredTrainers(filtered);
     } else {
-      setFilteredTrainers([]);
+      setFilteredTrainers(trainersData);
     }
   };
 
@@ -62,13 +67,12 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
                 console.log(id);
                 setIsOpen(true);
               }}
-              className="w-60 h-60"
             />
           ) : (
             <Button>Seleccionar Entrenador</Button>
           )}
         </DialogTrigger>
-        <DialogContent className="max-w-md">
+        <DialogContent className="min-w-max">
           <DialogTitle>Selecciona un Tipo de Entrenador</DialogTitle>
           <DialogDescription>
             Usa el siguiente campo para buscar y seleccionar un entrenador.
@@ -79,7 +83,7 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
             value={searchTerm}
             onChange={handleInputChange}
           />
-          <div className="max-h-72 overflow-y-auto mt-4 space-y-2">
+          <div className="max-h-96 overflow-y-auto mt-4 space-y-2 grid grid-cols-3 gap-2">
             {filteredTrainers.map((trainer) => (
               <TrainerCard
                 key={trainer.internalName}

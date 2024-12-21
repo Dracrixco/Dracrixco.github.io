@@ -27,7 +27,7 @@ const TrainerCard: React.FC<TrainerCardProps> = ({
       onClick={() => onSelect(id)}
     >
       <img
-        src={`src/images/Trainers/${id}.png`}
+        src={`/images/Trainers/${id}.png`}
         alt={name}
         className="object-cover"
       />

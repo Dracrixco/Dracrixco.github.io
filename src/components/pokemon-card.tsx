@@ -27,7 +27,7 @@ const PokemonCard: React.FC<PokemonCardProps> = ({
       onClick={() => onSelect(id)}
     >
       <img
-        src={`src/images/Front/${id}.png`}
+        src={`/images/Front/${id}.png`}
         alt={name}
         className="w-12 h-12 object-cover rounded-full mr-4"
       />

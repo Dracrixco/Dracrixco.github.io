@@ -5,27 +5,29 @@ import {
   DialogContent,
   DialogTitle,
   DialogDescription,
-} from "./ui/dialog";
-import { Input } from "./ui/input";
-import { Button } from "./ui/button";
+} from "../ui/dialog";
+import { Input } from "../ui/input";
+import { Button } from "../ui/button";
 import { movesData } from "@/data/pageData";
-import { movesDataType } from "@/data/dataTypes";
+import { movesDataType, pokemonDataType } from "@/data/dataTypes";
+import { Pokemon } from "@/pokemon-context";
+import { PokemonContext } from "@/pokemon-context";
+import { useContext } from "react";
 
-interface SelectMoveProps {
-  moves: string[];
-  tutorMoves?: string[];
-  eggMoves?: string[];
+interface SelectMovesProps {
+  pokemon: Pokemon;
+  PokemonSpeciesData: pokemonDataType;
 }
 
 interface ReadyMove extends movesDataType {
   category: "Movimiento" | "Movimientos de Tutor" | "Movimientos de Huevo";
 }
 
-const SelectMove: React.FC<SelectMoveProps> = ({
-  moves,
-  eggMoves = [],
-  tutorMoves = [],
+export const SelectMoves: React.FC<SelectMovesProps> = ({
+  pokemon,
+  PokemonSpeciesData,
 }) => {
+  const { updatePokemon } = useContext(PokemonContext)!;
   const [readyMoves, setReadyMoves] = useState<ReadyMove[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
@@ -33,6 +35,11 @@ const SelectMove: React.FC<SelectMoveProps> = ({
   const [selectedMoves, setSelectedMoves] = useState<ReadyMove[]>([]);
 
   useEffect(() => {
+    const {
+      moves,
+      tutor_moves: tutorMoves,
+      egg_moves: eggMoves,
+    } = PokemonSpeciesData;
     const mapMoves = (
       internalNames: string[],
       category: ReadyMove["category"]
@@ -68,13 +75,8 @@ const SelectMove: React.FC<SelectMoveProps> = ({
     const uniqueMoves = Object.values(uniqueMovesMap);
 
     setReadyMoves(uniqueMoves);
-    setSelectedMoves([
-      uniqueMoves[0],
-      uniqueMoves[1],
-      uniqueMoves[2],
-      uniqueMoves[3],
-    ]);
-  }, [moves, tutorMoves, eggMoves]);
+    setSelectedMoves([]);
+  }, [PokemonSpeciesData]);
 
   useEffect(() => {
     const lowerSearch = searchTerm.toLowerCase();
@@ -103,6 +105,8 @@ const SelectMove: React.FC<SelectMoveProps> = ({
   };
 
   const handleConfirm = () => {
+    const updatedPokemon = { ...pokemon, moves: selectedMoves };
+    updatePokemon(updatedPokemon);
     setReadyMoves(selectedMoves);
     setIsOpen(false);
   };
@@ -202,5 +206,3 @@ const SelectMove: React.FC<SelectMoveProps> = ({
     </div>
   );
 };
-
-export default SelectMove;

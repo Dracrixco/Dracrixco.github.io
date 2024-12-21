@@ -6,18 +6,14 @@ import { Pokemon } from "./pokemon-context";
 import SelectPokemon from "./components/select-pokemon";
 import { useEffect, useState } from "react";
 import { Button } from "./components/ui/button";
-import ReadyPokemonCard from "./components/ready-pokemon-card";
-import { getPokemonByInternalName } from "./utils/get-data";
+import ReadyPokemonCard from "./components/pokemon-ready-card/ready-pokemon-card";
+// import { getPokemonByInternalName } from "./utils/get-data";
 
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
 
   useEffect(() => {
-    if (pokemons.length > 0) {
-      console.log(pokemons[0]);
-      console.log(pokemons[0].id);
-      console.log(getPokemonByInternalName(pokemons[0].id));
-    }
+    console.log(pokemons);
   }, [pokemons]);
 
   return (

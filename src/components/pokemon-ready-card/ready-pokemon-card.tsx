@@ -1,7 +1,7 @@
 import { Pokemon, PokemonContext } from "@/pokemon-context";
 import { useContext } from "react";
-import { Button } from "./ui/button";
-import SelectMove from "./select-move";
+import { Button } from "../ui/button";
+import { SelectMoves } from "./select-move";
 import { getPokemonByInternalName } from "@/utils/get-data";
 
 interface ReadyPokemonCardProps {
@@ -27,16 +27,10 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
         {pokemon.name}
       </p>
       <div className="mt-2">
-        <SelectMove
-          moves={PokemonSpeciesData.moves}
-          eggMoves={PokemonSpeciesData.egg_moves}
-          tutorMoves={PokemonSpeciesData.tutor_moves}
+        <SelectMoves
+          pokemon={pokemon}
+          PokemonSpeciesData={PokemonSpeciesData}
         />
-        <ul className="list-disc list-inside">
-          {pokemon.moves.map((move) => (
-            <li key={move.internalName}>{move.name}</li>
-          ))}
-        </ul>
       </div>
       <div className="mt-2">
         <p className="text-sm">Objeto:</p>

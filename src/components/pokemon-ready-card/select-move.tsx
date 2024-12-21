@@ -6,11 +6,14 @@ import {
   DialogTitle,
   DialogDescription,
 } from "../ui/dialog";
+import { cn } from "@/lib/utils";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 import { movesData } from "@/data/pageData";
 import { movesDataType, pokemonDataType } from "@/data/dataTypes";
 import { Pokemon, PokemonContext } from "@/pokemon-context";
+import { allTypes } from "@/utils/get-type-color";
+import { getTypeColor } from "@/utils/get-type-color";
 
 interface SelectMovesProps {
   pokemon: Pokemon;
@@ -20,27 +23,6 @@ interface SelectMovesProps {
 interface ReadyMove extends movesDataType {
   origin: "Movimiento" | "Movimientos de Tutor" | "Movimientos de Huevo";
 }
-
-const allTypes = [
-  "Bug",
-  "Dark",
-  "Dragon",
-  "Electric",
-  "Fairy",
-  "Fighting",
-  "Fire",
-  "Flying",
-  "Ghost",
-  "Grass",
-  "Ground",
-  "Ice",
-  "Normal",
-  "Poison",
-  "Psychic",
-  "Rock",
-  "Steel",
-  "Water",
-];
 
 const allOrigins = [
   "Movimiento",
@@ -199,6 +181,10 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
     } else if (selectedMoves.length < 4) {
       setSelectedMoves([...selectedMoves, move]);
     }
+  };
+
+  const handleReset = () => {
+    setSelectedMoves([]);
   };
 
   const handleConfirm = () => {
@@ -360,11 +346,14 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
               return (
                 <div
                   key={move.internalName}
-                  className={`border rounded-lg p-4 shadow cursor-pointer ${
-                    isSelected
-                      ? "border-blue-500 bg-blue-50"
-                      : "border-gray-200 hover:bg-gray-100"
-                  } ${isLimitReached ? "opacity-50 cursor-not-allowed" : ""}`}
+                  className={cn([
+                    "border rounded-lg p-4 shadow cursor-pointer",
+                    getTypeColor(move.type),
+                    // "bg-blue-200",
+                    isSelected && "border-blue-500 bg-blue-50",
+                    !isSelected && "border-gray-200 hover:bg-gray-100",
+                    isLimitReached && "opacity-50 cursor-not-allowed",
+                  ])}
                   onClick={() => !isLimitReached && toggleMoveSelection(move)}
                 >
                   <h4 className="text-lg font-semibold">{move.name}</h4>
@@ -393,6 +382,13 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
             disabled={selectedMoves.length === 0}
           >
             Confirmar
+          </Button>
+          <Button
+            className="mt-4"
+            onClick={handleReset}
+            disabled={selectedMoves.length === 0}
+          >
+            Reset
           </Button>
         </DialogContent>
       </Dialog>

@@ -6,14 +6,19 @@ import { typeDifficultyType } from "../pokemon-context";
 
 interface GenerateTextButtonProps {
   className?: string;
+  onTextGenerated?: (text: string) => void;
 }
 
-export const GenerateTextButton = ({ className }: GenerateTextButtonProps) => {
+export const GenerateTextButton = ({
+  className,
+  onTextGenerated,
+}: GenerateTextButtonProps) => {
   const { pokemons, selectedTrainer, trainerName, startText, endText } =
     useContext(PokemonContext)!;
 
   const generateText = () => {
-    let text = `[${selectedTrainer?.internalName}, ${trainerName}]\n`;
+    let text = "#-------------------------------\n";
+    text += `[${selectedTrainer?.internalName},${trainerName}]\n`;
     const difficultTypes: typeDifficultyType[] = [
       "default",
       "easy",
@@ -56,8 +61,9 @@ export const GenerateTextButton = ({ className }: GenerateTextButtonProps) => {
       });
     });
 
-    text +=
-      "#==============================================================================";
+    if (onTextGenerated) {
+      onTextGenerated(text);
+    }
     navigator.clipboard.writeText(text);
   };
 

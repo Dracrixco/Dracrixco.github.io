@@ -1,7 +1,9 @@
+import { PokemonType } from "@/utils/get-type-color";
+
 export interface movesDataType {
   internalName: string;
   name: string;
-  type: string;
+  type: PokemonType;
   power: number;
   accuracy: number;
   new: boolean;
@@ -11,6 +13,8 @@ export interface movesDataType {
 export interface pokemonDataType {
   internalName: string;
   name: string;
+  Color: string;
+  generation: string;
   types: string[];
   moves: string[];
   tutor_moves: string[];

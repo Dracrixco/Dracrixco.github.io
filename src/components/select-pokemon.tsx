@@ -10,7 +10,7 @@ import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { PokemonContext } from "@/pokemon-context";
 import { pokemonData } from "@/data/pageData";
-import { objectsDataType, pokemonDataType } from "../data/dataTypes";
+import { itemDataType, pokemonDataType } from "../data/dataTypes";
 import PokemonCard from "./pokemon-card";
 import { cn } from "@/lib/utils";
 
@@ -51,7 +51,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
   const [selectedPokemon, setSelectedPokemon] = useState<
     (typeof pokemonData)[0] | null
   >(null);
-  const [selectedObject, setSelectedObject] = useState<objectsDataType | null>(
+  const [selectedObject, setSelectedObject] = useState<itemDataType | null>(
     null
   );
 

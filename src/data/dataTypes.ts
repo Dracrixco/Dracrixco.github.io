@@ -23,9 +23,10 @@ export interface trainersDataType {
   name: string;
 }
 
-export interface objectsDataType {
+export interface itemDataType {
   internalName: string;
   name: string;
+  pocket: number;
 }
 
 export interface typeData {

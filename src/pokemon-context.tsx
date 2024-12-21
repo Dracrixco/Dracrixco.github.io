@@ -1,7 +1,7 @@
 import React, { createContext, useState, ReactNode } from "react";
 import {
   movesDataType,
-  objectsDataType,
+  itemDataType,
   trainersDataType,
 } from "./data/dataTypes";
 
@@ -13,11 +13,20 @@ export interface DificultyMoves {
   absolution: movesDataType[];
 }
 
+export interface DificultyItem {
+  default: itemDataType;
+  easy: itemDataType;
+  normal: itemDataType;
+  hard: itemDataType;
+  absolution: itemDataType;
+}
+
 export interface Pokemon {
   id: string;
   name: string;
   moves: DificultyMoves;
-  object: objectsDataType | null;
+  item: DificultyItem;
+  object: itemDataType | null;
 }
 
 interface PokemonContextBase {

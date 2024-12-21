@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { Button } from "../ui/button";
 import { SelectMoves } from "./select-move";
 import { getPokemonByInternalName } from "@/utils/get-data";
+import { SelectItem } from "./select-item";
 
 interface ReadyPokemonCardProps {
   pokemon: Pokemon;
@@ -31,6 +32,7 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
           pokemon={pokemon}
           PokemonSpeciesData={PokemonSpeciesData}
         />
+        <SelectItem pokemon={pokemon} />
       </div>
       <div className="mt-2">
         <p className="text-sm">Objeto:</p>

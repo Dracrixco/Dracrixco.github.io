@@ -14,11 +14,11 @@ export interface DificultyMoves {
 }
 
 export interface DificultyItem {
-  default: itemDataType;
-  easy: itemDataType;
-  normal: itemDataType;
-  hard: itemDataType;
-  absolution: itemDataType;
+  default?: itemDataType;
+  easy?: itemDataType;
+  normal?: itemDataType;
+  hard?: itemDataType;
+  absolution?: itemDataType;
 }
 
 export interface Pokemon {

@@ -103,6 +103,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
           hard: [],
           absolution: [],
         },
+        item: {},
       });
       setIsOpen(false);
       setSearchTerm("");

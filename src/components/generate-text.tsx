@@ -14,19 +14,19 @@ export const GenerateTextButton = ({ className }: GenerateTextButtonProps) => {
 
   const generateText = () => {
     let text = `[${selectedTrainer?.internalName}, ${trainerName}]\n`;
+    const difficultTypes: typeDifficultyType[] = [
+      "default",
+      "easy",
+      "normal",
+      "hard",
+      "absolution",
+    ];
     text += `LoseText = ${endText}\n`;
     text += `StartText = ${startText}\n`;
     pokemons.forEach((pokemon) => {
-      text += `Pokemon = ${pokemon.id}, 5\n`;
-      (
-        [
-          "default",
-          "easy",
-          "normal",
-          "hard",
-          "absolution",
-        ] as typeDifficultyType[]
-      ).forEach((difficultType) => {
+      text += `Pokemon = ${pokemon.id},5\n`;
+      difficultTypes.forEach((difficultType) => {
+        // Moves
         if (difficultType === "default") {
           text += "   Moves = ";
         } else {
@@ -38,7 +38,16 @@ export const GenerateTextButton = ({ className }: GenerateTextButtonProps) => {
         text = text.slice(0, -1);
         text += "\n";
       });
+
+      difficultTypes.forEach((difficultType) => {
+        if (difficultType === "default") {
+          text += `   Item = ${pokemon.item.default?.internalName}\n`;
+        } else {
+          text += `   Item_${difficultType} = ${pokemon.item[difficultType]?.internalName}\n`;
+        }
+      });
     });
+
     text +=
       "#==============================================================================";
     navigator.clipboard.writeText(text);

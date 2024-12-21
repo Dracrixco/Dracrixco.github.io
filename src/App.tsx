@@ -38,12 +38,12 @@ function App() {
       difficultType={difficultType}
       setDifficultType={setDifficultType}
     >
-      <div className="relative w-screen h-screen">
-        <GenerateTextButton className="absolute bottom-2 right-2" />
-        <SelectDifficult className="absolute bottom-2 left-2" />
-        <h1 className="w-full bg-black text-white text-center py-4">
-          Trainer Generator
-        </h1>
+      <div>
+        <div className="flex justify-evenly items-center w-full bg-gray-500 text-white text-center py-4">
+          <GenerateTextButton />
+          <h1>Trainer Generator</h1>
+          <SelectDifficult />
+        </div>
         <SectionSeparator className="flex flex-wrap space-x-2">
           <h2 className="text-lg font-semibold mb-2 w-full">Trainer Section</h2>
           <SelectTrainerType />

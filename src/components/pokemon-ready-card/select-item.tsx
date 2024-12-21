@@ -41,6 +41,16 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
           [difficultType]: selectedItem,
         },
       };
+
+      if (difficultType === "default") {
+        updatedPokemon.item = {
+          ...updatedPokemon.item,
+          easy: selectedItem,
+          normal: selectedItem,
+          hard: selectedItem,
+          absolution: selectedItem,
+        };
+      }
       updatePokemon(updatedPokemon);
     }
     setIsOpen(false);
@@ -49,6 +59,19 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
   return (
     <div className="w-full">
       <div className="my-2">
+        {pokemon.item?.[difficultType] && (
+          <div
+            key={pokemon.item?.[difficultType]?.internalName}
+            className={`p-2 cursor-pointer border-b flex items-center hover:bg-gray-100`}
+          >
+            <img
+              src={`src/images/Items/${pokemon.item?.[difficultType]?.internalName}.png`}
+              alt={pokemon.item?.[difficultType]?.name}
+              className="object-cover"
+            />
+            <p>{pokemon.item?.[difficultType]?.name}</p>
+          </div>
+        )}
         <p className="font-semibold">Item Seleccionado:</p>
         {pokemon.item?.[difficultType]?.name || "Ninguno"}
       </div>
@@ -69,14 +92,19 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
             {filteredItems.map((item) => (
               <div
                 key={item.internalName}
-                className={`p-2 cursor-pointer border-b ${
+                className={`p-2 cursor-pointer border-b flex items-center ${
                   selectedItem?.internalName === item.internalName
                     ? "bg-blue-50"
                     : "hover:bg-gray-100"
                 }`}
                 onClick={() => setSelectedItem(item)}
               >
-                {item.name}
+                <img
+                  src={`src/images/Items/${item.internalName}.png`}
+                  alt={item.name}
+                  className="object-cover"
+                />
+                <p>{item.name}</p>
               </div>
             ))}
           </div>

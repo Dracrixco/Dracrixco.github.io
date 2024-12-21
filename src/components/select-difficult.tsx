@@ -30,7 +30,7 @@ export const SelectDifficult = ({ className }: SelectDifficultProps) => {
         id="difficulty-select"
         value={difficultType}
         onChange={handleChange}
-        className="border p-1 rounded"
+        className="border p-1 rounded text-black"
       >
         {allDifficulties.map((difficulty) => (
           <option key={difficulty} value={difficulty}>

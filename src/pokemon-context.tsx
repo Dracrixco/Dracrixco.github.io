@@ -6,7 +6,7 @@ interface Trainer {
   name: string;
 }
 
-interface Pokemon {
+export interface Pokemon {
   id: string;
   name: string;
   moves: movesDataType[];
@@ -28,13 +28,16 @@ export const PokemonContext = createContext<PokemonContextType | undefined>(
 
 interface PokemonProviderProps {
   children: ReactNode;
+  pokemons: Pokemon[];
+  setPokemons: React.Dispatch<React.SetStateAction<Pokemon[]>>;
 }
 
 export const PokemonProvider: React.FC<PokemonProviderProps> = ({
   children,
+  pokemons,
+  setPokemons,
 }) => {
   const [selectedTrainer, setSelectedTrainer] = useState<Trainer | null>(null);
-  const [pokemons, setPokemons] = useState<Pokemon[]>([]);
 
   const addPokemon = (pokemon: Pokemon) => {
     setPokemons((prev) => [...prev, pokemon]);

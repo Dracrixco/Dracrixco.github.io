@@ -13,6 +13,7 @@ import { pokemonData } from "@/data/pageData";
 import { itemDataType, pokemonDataType } from "../data/dataTypes";
 import PokemonCard from "./pokemon-card";
 import { cn } from "@/lib/utils";
+import { useEffect } from "react";
 
 interface SelectPokemonProps {
   children?: React.ReactNode;
@@ -54,6 +55,10 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
   const [selectedObject, setSelectedObject] = useState<itemDataType | null>(
     null
   );
+
+  useEffect(() => {
+    setFilteredPokemons(pokemonData);
+  }, []);
 
   const handleNameFilter = (nameFilter: string, typeFilter: string) => {
     if (!nameFilter && !typeFilter) {

@@ -13,6 +13,7 @@ import { pokemonData } from "@/data/pageData";
 import { objectsDataType } from "../data/dataTypes";
 import { pokemonDataType } from "../data/dataTypes";
 import PokemonCard from "./pokemon-card";
+import { cn } from "@/lib/utils";
 
 interface SelectPokemonProps {
   children?: React.ReactNode;
@@ -41,7 +42,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
       );
       setFilteredPokemons(filtered);
     } else {
-      setFilteredPokemons([]);
+      setFilteredPokemons(pokemonData);
     }
   };
 
@@ -77,7 +78,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>{children}</DialogTrigger>
-      <DialogContent className="max-w-lg">
+      <DialogContent className="min-w-max">
         <DialogTitle>Selecciona un Pokémon</DialogTitle>
         <DialogDescription>
           Usa el siguiente campo para buscar y seleccionar un Pokémon. Luego,
@@ -94,9 +95,15 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
           placeholder="Buscar Pokémon"
         />
         {!selectedPokemon && (
-          <div className="max-h-60 overflow-y-auto mt-4 space-y-2">
+          <div
+            className={cn([
+              "max-h-60 overflow-y-auto mt-4 space-y-2",
+              "grid grid-cols-3 gap-2",
+            ])}
+          >
             {filteredPokemons.map((pokemon) => (
               <PokemonCard
+                types={pokemon.types}
                 key={pokemon.internalName}
                 id={pokemon.internalName}
                 name={pokemon.name}

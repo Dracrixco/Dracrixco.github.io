@@ -2,8 +2,8 @@ export interface movesDataType {
   internalName: string;
   name: string;
   type: string;
-  power: string;
-  accuracy: string;
+  power: number;
+  accuracy: number;
   new: boolean;
   category: string;
 }
@@ -24,6 +24,11 @@ export interface trainersDataType {
 }
 
 export interface objectsDataType {
+  internalName: string;
+  name: string;
+}
+
+export interface typeData {
   internalName: string;
   name: string;
 }

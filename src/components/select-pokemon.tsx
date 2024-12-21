@@ -10,8 +10,7 @@ import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { PokemonContext } from "@/pokemon-context";
 import { pokemonData } from "@/data/pageData";
-import { objectsDataType } from "../data/dataTypes";
-import { pokemonDataType } from "../data/dataTypes";
+import { objectsDataType, pokemonDataType } from "../data/dataTypes";
 import PokemonCard from "./pokemon-card";
 import { cn } from "@/lib/utils";
 
@@ -19,12 +18,35 @@ interface SelectPokemonProps {
   children?: React.ReactNode;
 }
 
+// Lista de tipos disponibles
+const allPokemonTypes = [
+  "Normal",
+  "Fire",
+  "Water",
+  "Grass",
+  "Electric",
+  "Ice",
+  "Fighting",
+  "Poison",
+  "Ground",
+  "Flying",
+  "Psychic",
+  "Bug",
+  "Rock",
+  "Ghost",
+  "Dragon",
+  "Dark",
+  "Steel",
+  "Fairy",
+];
+
 const SelectPokemon = ({ children }: SelectPokemonProps) => {
   const { addPokemon } = useContext(PokemonContext)!;
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedType, setSelectedType] = useState<string>("");
   const [filteredPokemons, setFilteredPokemons] = useState<pokemonDataType[]>(
-    [] as pokemonDataType[]
+    []
   );
   const [selectedPokemon, setSelectedPokemon] = useState<
     (typeof pokemonData)[0] | null
@@ -33,17 +55,32 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
     null
   );
 
+  const handleNameFilter = (nameFilter: string, typeFilter: string) => {
+    if (!nameFilter && !typeFilter) {
+      setFilteredPokemons(pokemonData);
+      return;
+    }
+    const lowerName = nameFilter.toLowerCase();
+    const data = pokemonData.filter((p) => {
+      const nameMatch = !lowerName || p.name.toLowerCase().includes(lowerName);
+      const typeMatch =
+        !typeFilter ||
+        p.types.some((t) => t.toLowerCase() === typeFilter.toLowerCase());
+      return nameMatch && typeMatch;
+    });
+    setFilteredPokemons(data);
+  };
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearchTerm(value);
-    if (value.length > 0) {
-      const filtered = pokemonData.filter((pokemon) =>
-        pokemon.name.toLowerCase().includes(value.toLowerCase())
-      );
-      setFilteredPokemons(filtered);
-    } else {
-      setFilteredPokemons(pokemonData);
-    }
+    handleNameFilter(value, selectedType);
+  };
+
+  const handleTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const value = e.target.value;
+    setSelectedType(value);
+    handleNameFilter(searchTerm, value);
   };
 
   const handleSelectPokemon = (id: string) => {
@@ -69,6 +106,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
       });
       setIsOpen(false);
       setSearchTerm("");
+      setSelectedType("");
       setFilteredPokemons([]);
       setSelectedPokemon(null);
       setSelectedObject(null);
@@ -81,23 +119,36 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
       <DialogContent className="min-w-max">
         <DialogTitle>Selecciona un Pokémon</DialogTitle>
         <DialogDescription>
-          Usa el siguiente campo para buscar y seleccionar un Pokémon. Luego,
-          asigna movimientos y un objeto.
+          Usa el siguiente campo para buscar por nombre o filtrar por tipo.
         </DialogDescription>
-        <Input
-          name="pokemon-search"
-          value={selectedPokemon ? selectedPokemon.name : searchTerm}
-          onClick={() => {
-            setSelectedPokemon(null);
-            setSearchTerm("");
-          }}
-          onChange={handleInputChange}
-          placeholder="Buscar Pokémon"
-        />
-        {!selectedPokemon && (
+        <div className="flex gap-2 mt-2">
+          <Input
+            name="pokemon-search"
+            value={selectedPokemon ? selectedPokemon.name : searchTerm}
+            onClick={() => {
+              setSelectedPokemon(null);
+              setSearchTerm("");
+            }}
+            onChange={handleInputChange}
+            placeholder="Buscar Pokémon"
+          />
+          <select
+            value={selectedType}
+            onChange={handleTypeChange}
+            className="border border-gray-300 rounded p-1"
+          >
+            <option value="">Todos los tipos</option>
+            {allPokemonTypes.map((type) => (
+              <option key={type} value={type}>
+                {type}
+              </option>
+            ))}
+          </select>
+        </div>
+        {(!selectedPokemon || selectedPokemon === null) && (
           <div
             className={cn([
-              "max-h-60 overflow-y-auto mt-4 space-y-2",
+              "max-h-60 overflow-y-auto mt-4",
               "grid grid-cols-3 gap-2",
             ])}
           >

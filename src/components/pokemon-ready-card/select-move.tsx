@@ -27,7 +27,7 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
   pokemon,
   PokemonSpeciesData,
 }) => {
-  const { updatePokemon } = useContext(PokemonContext)!;
+  const { updatePokemon, difficultType } = useContext(PokemonContext)!;
   const [readyMoves, setReadyMoves] = useState<ReadyMove[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
@@ -89,6 +89,17 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
     setFilteredMoves(filtered);
   }, [searchTerm, readyMoves]);
 
+  useEffect(() => {
+    const mappedMoves = pokemon.moves[difficultType].map((move) => ({
+      ...move,
+      category: move.category as
+        | "Movimiento"
+        | "Movimientos de Tutor"
+        | "Movimientos de Huevo",
+    }));
+    setSelectedMoves(mappedMoves);
+  }, [difficultType]);
+
   const toggleMoveSelection = (move: ReadyMove) => {
     const isSelected = selectedMoves.find(
       (m) => m.internalName === move.internalName
@@ -105,7 +116,23 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
   };
 
   const handleConfirm = () => {
-    const updatedPokemon = { ...pokemon, moves: selectedMoves };
+    // selectedMoves
+    const updatedPokemon: Pokemon = {
+      ...pokemon,
+      moves: { ...pokemon.moves, [difficultType]: selectedMoves },
+    };
+
+    if (difficultType === "default") {
+      updatedPokemon.moves = {
+        ...updatedPokemon.moves,
+        easy: selectedMoves,
+        normal: selectedMoves,
+        hard: selectedMoves,
+        absolution: selectedMoves,
+      };
+    }
+
+    console.log(updatedPokemon);
     updatePokemon(updatedPokemon);
     setIsOpen(false);
   };

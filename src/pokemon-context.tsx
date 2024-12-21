@@ -5,44 +5,55 @@ import {
   trainersDataType,
 } from "./data/dataTypes";
 
+export interface DificultyMoves {
+  default: movesDataType[];
+  easy: movesDataType[];
+  normal: movesDataType[];
+  hard: movesDataType[];
+  absolution: movesDataType[];
+}
+
 export interface Pokemon {
   id: string;
   name: string;
-  moves: movesDataType[];
+  moves: DificultyMoves;
   object: objectsDataType | null;
 }
 
-interface PokemonContextType {
-  selectedTrainer: trainersDataType | null;
-  setSelectedTrainer: (trainer: trainersDataType | null) => void;
-  pokemons: Pokemon[];
-  addPokemon: (pokemon: Pokemon) => void;
-  removePokemon: (pokemonId: string) => void;
-  updatePokemon: (updatedPokemon: Pokemon) => void;
+interface PokemonContextBase {
   trainerName: string;
   setTrainerName: React.Dispatch<React.SetStateAction<string>>;
   startText: string;
   setStartText: React.Dispatch<React.SetStateAction<string>>;
   endText: string;
   setEndText: React.Dispatch<React.SetStateAction<string>>;
+  pokemons: Pokemon[];
+  difficultType: typeDifficultyType;
+  setDifficultType: React.Dispatch<React.SetStateAction<typeDifficultyType>>;
 }
 
+interface PokemonContextType extends PokemonContextBase {
+  selectedTrainer: trainersDataType | null;
+  setSelectedTrainer: (trainer: trainersDataType | null) => void;
+  addPokemon: (pokemon: Pokemon) => void;
+  removePokemon: (pokemonId: string) => void;
+  updatePokemon: (updatedPokemon: Pokemon) => void;
+}
+
+export type typeDifficultyType =
+  | "default"
+  | "easy"
+  | "normal"
+  | "hard"
+  | "absolution";
+interface PokemonProviderProps extends PokemonContextBase {
+  children: ReactNode;
+  setPokemons: React.Dispatch<React.SetStateAction<Pokemon[]>>;
+}
 // eslint-disable-next-line react-refresh/only-export-components
 export const PokemonContext = createContext<PokemonContextType | undefined>(
   undefined
 );
-
-interface PokemonProviderProps {
-  children: ReactNode;
-  pokemons: Pokemon[];
-  setPokemons: React.Dispatch<React.SetStateAction<Pokemon[]>>;
-  trainerName: string;
-  setTrainerName: React.Dispatch<React.SetStateAction<string>>;
-  startText: string;
-  setStartText: React.Dispatch<React.SetStateAction<string>>;
-  endText: string;
-  setEndText: React.Dispatch<React.SetStateAction<string>>;
-}
 
 export const PokemonProvider: React.FC<PokemonProviderProps> = ({
   children,
@@ -54,6 +65,8 @@ export const PokemonProvider: React.FC<PokemonProviderProps> = ({
   setEndText,
   startText,
   setStartText,
+  difficultType,
+  setDifficultType,
 }) => {
   const [selectedTrainer, setSelectedTrainer] =
     useState<trainersDataType | null>(null);
@@ -89,6 +102,8 @@ export const PokemonProvider: React.FC<PokemonProviderProps> = ({
         setEndText,
         startText,
         setStartText,
+        difficultType,
+        setDifficultType,
       }}
     >
       {children}

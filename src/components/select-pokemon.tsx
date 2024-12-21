@@ -58,7 +58,13 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
         id: selectedPokemon.internalName,
         name: selectedPokemon.name,
         object: selectedObject,
-        moves: [],
+        moves: {
+          default: [],
+          easy: [],
+          normal: [],
+          hard: [],
+          absolution: [],
+        },
       });
       setIsOpen(false);
       setSearchTerm("");

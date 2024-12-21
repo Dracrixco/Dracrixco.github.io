@@ -10,15 +10,19 @@ import ReadyPokemonCard from "./components/pokemon-ready-card/ready-pokemon-card
 import { GenerateTextButton } from "./components/generate-text";
 import { Input } from "./components/ui/input";
 import { Label } from "./components/ui/label";
+import { SelectDifficult } from "./components/select-difficult";
+import { typeDifficultyType } from "./pokemon-context";
 
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
   const [trainerName, setTrainerName] = useState<string>("");
   const [startText, setStartText] = useState<string>("");
   const [endText, setEndText] = useState<string>("");
+  const [difficultType, setDifficultType] =
+    useState<typeDifficultyType>("default");
 
   useEffect(() => {
-    console.log(pokemons);
+    // console.log(pokemons);
   }, [pokemons]);
 
   return (
@@ -31,9 +35,12 @@ function App() {
       setStartText={setStartText}
       endText={endText}
       setEndText={setEndText}
+      difficultType={difficultType}
+      setDifficultType={setDifficultType}
     >
       <div className="relative w-screen h-screen">
         <GenerateTextButton className="absolute bottom-2 right-2" />
+        <SelectDifficult className="absolute bottom-2 left-2" />
         <h1 className="w-full bg-black text-white text-center py-4">
           Trainer Generator
         </h1>

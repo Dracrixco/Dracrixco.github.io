@@ -59,7 +59,7 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
               internalName={selectedTrainer.internalName}
               name={selectedTrainer.name}
               onSelect={function (id: string): void {
-                console.log(id);
+                // console.log(id);
                 setIsOpen(true);
               }}
               className="w-60 h-60"

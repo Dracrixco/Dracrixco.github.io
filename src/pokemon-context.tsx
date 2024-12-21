@@ -21,11 +21,20 @@ export interface DificultyItem {
   absolution?: itemDataType;
 }
 
+export interface DificultyAbilityIndex {
+  default?: number;
+  easy?: number;
+  normal?: number;
+  hard?: number;
+  absolution?: number;
+}
+
 export interface Pokemon {
   id: string;
   name: string;
   moves: DificultyMoves;
   item: DificultyItem;
+  abilityIndex: DificultyAbilityIndex;
   object: itemDataType | null;
 }
 

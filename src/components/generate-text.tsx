@@ -46,6 +46,14 @@ export const GenerateTextButton = ({ className }: GenerateTextButtonProps) => {
           text += `   Item_${difficultType} = ${pokemon.item[difficultType]?.internalName}\n`;
         }
       });
+
+      difficultTypes.forEach((difficultType) => {
+        if (difficultType === "default") {
+          text += `   AbilityIndex = ${pokemon.abilityIndex.default}\n`;
+        } else {
+          text += `   AbilityIndex_${difficultType} = ${pokemon.abilityIndex[difficultType]}\n`;
+        }
+      });
     });
 
     text +=

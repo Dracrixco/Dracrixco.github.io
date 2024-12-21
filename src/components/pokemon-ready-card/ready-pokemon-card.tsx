@@ -4,6 +4,7 @@ import { Button } from "../ui/button";
 import { SelectMoves } from "./select-move";
 import { getPokemonByInternalName } from "@/utils/get-data";
 import { SelectItem } from "./select-item";
+import { SelectAbility } from "./select-ability";
 
 interface ReadyPokemonCardProps {
   pokemon: Pokemon;
@@ -33,6 +34,10 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
           PokemonSpeciesData={PokemonSpeciesData}
         />
         <SelectItem pokemon={pokemon} />
+        <SelectAbility
+          pokemon={pokemon}
+          PokemonSpeciesData={PokemonSpeciesData}
+        />
       </div>
       <div className="mt-2">
         <p className="text-sm">Objeto:</p>

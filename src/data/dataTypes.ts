@@ -33,3 +33,9 @@ export interface typeData {
   internalName: string;
   name: string;
 }
+
+export interface abilityData {
+  internalName: string;
+  name: string;
+  description: string;
+}

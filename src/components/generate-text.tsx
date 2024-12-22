@@ -36,6 +36,7 @@ export const GenerateTextButton = ({
     text += `StartText = ${startText}\n`;
     pokemons.forEach((pokemon) => {
       text += `Pokemon = ${pokemon.id},${trainerLevel}\n`;
+      text += `   Pokeball = ${pokemon.pokeball?.internalName || "POKEBALL"}\n`;
       difficultTypes.forEach((difficultType) => {
         // Moves
         if (difficultType === "default") {

@@ -8,31 +8,32 @@ import {
 } from "../ui/dialog";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
-import { itemDataType } from "@/data/dataTypes";
-import { itemsData } from "@/data/pageData";
+import { pokeballsDataType } from "@/data/dataTypes";
+import { pokeballsData } from "@/data/pageData";
 import { cn } from "@/lib/utils";
 import { Pokemon, PokemonContext } from "@/pokemon-context";
 
-interface SelectItemProps {
+interface SelectPokeballProps {
   pokemon: Pokemon;
 }
 
-export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
+export const SelectPokeball: React.FC<SelectPokeballProps> = ({ pokemon }) => {
   const { updatePokemon, difficultType } = useContext(PokemonContext)!;
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
-  const [pocket, setPocket] = useState<number>(0);
-  const [filteredItems, setFilteredItems] = useState<itemDataType[]>(itemsData);
-  const [selectedItem, setSelectedItem] = useState<itemDataType | null>(null);
+  const [filteredItems, setFilteredItems] =
+    useState<pokeballsDataType[]>(pokeballsData);
+  const [selectedItem, setSelectedItem] = useState<pokeballsDataType | null>(
+    null
+  );
 
   useEffect(() => {
     setFilteredItems(
-      itemsData.filter(
-        (item) =>
-          item.name.toLowerCase().includes(searchTerm) && item.pocket === pocket
+      pokeballsData.filter((item) =>
+        item.name.toLowerCase().includes(searchTerm)
       )
     );
-  }, [pocket, searchTerm]);
+  }, [searchTerm]);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const val = e.target.value.toLowerCase();
@@ -44,21 +45,9 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
       // Actualiza según tu lógica (ejemplo: un solo item para cada dificultad)
       const updatedPokemon: Pokemon = {
         ...pokemon,
-        item: {
-          ...pokemon.item,
-          [difficultType]: selectedItem,
-        },
+        pokeball: selectedItem,
       };
 
-      if (difficultType === "default") {
-        updatedPokemon.item = {
-          ...updatedPokemon.item,
-          easy: selectedItem,
-          normal: selectedItem,
-          hard: selectedItem,
-          absolution: selectedItem,
-        };
-      }
       updatePokemon(updatedPokemon);
     }
     setIsOpen(false);
@@ -73,15 +62,15 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
             className={`p-2 cursor-pointer border-b flex items-center hover:bg-gray-100`}
           >
             <img
-              src={`./images/Items/${pokemon.item?.[difficultType]?.internalName}.png`}
+              src={`./images/Items/${pokemon.pokeball?.internalName}.png`}
               alt={pokemon.item?.[difficultType]?.name}
               className="object-cover"
             />
-            <p>{pokemon.item?.[difficultType]?.name}</p>
+            <p>{pokemon.pokeball?.name}</p>
           </div>
         )}
-        <p className="font-semibold">Item Seleccionado:</p>
-        {pokemon.item?.[difficultType]?.name || "Ninguno"}
+        <p className="font-semibold">Pokeball Seleccionado:</p>
+        {pokemon.pokeball?.name || "Ninguno"}
       </div>
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogTrigger asChild>
@@ -97,20 +86,6 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
                 value={searchTerm}
                 onChange={handleSearchChange}
                 placeholder="Buscar objeto"
-              />
-            </div>
-            <div className="mt-4 w-[25%]">
-              <label htmlFor="">Bolsillo</label>
-              <Input
-                value={pocket}
-                onChange={(e) => {
-                  setPocket(parseInt(e.target.value));
-                  setFilteredItems(
-                    itemsData.filter((item) => item.pocket === pocket)
-                  );
-                }}
-                type="number"
-                placeholder="Pocket"
               />
             </div>
           </div>
@@ -134,8 +109,6 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
                 />
                 <div className="flex flex-col">
                   <p className="font-bold">{item.name}</p>
-                  <p>{item.description}</p>
-                  <p className="absolute top-2 right-2">{item.pocket}</p>
                 </div>
               </div>
             ))}

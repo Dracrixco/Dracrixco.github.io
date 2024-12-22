@@ -4,6 +4,7 @@ import {
   itemDataType,
   trainersDataType,
 } from "./data/dataTypes";
+import { pokeballsDataType } from "./data/dataTypes";
 
 export interface DificultyMoves {
   default: movesDataType[];
@@ -36,6 +37,7 @@ export interface Pokemon {
   item: DificultyItem;
   abilityIndex: DificultyAbilityIndex;
   object: itemDataType | null;
+  pokeball: pokeballsDataType | null;
 }
 
 interface PokemonContextBase {

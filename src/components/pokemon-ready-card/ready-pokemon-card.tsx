@@ -7,6 +7,7 @@ import { SelectItem } from "./select-item";
 import { SelectAbility } from "./select-ability";
 import { getTypeColor, PokemonType } from "@/utils/get-type-color";
 import { cn } from "@/lib/utils";
+import { SelectPokeball } from "./select-pokeball";
 
 interface ReadyPokemonCardProps {
   pokemon: Pokemon;
@@ -55,6 +56,7 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
             PokemonSpeciesData={PokemonSpeciesData}
           />
         </div>
+        <SelectPokeball pokemon={pokemon} />
       </div>
       <Button
         variant="destructive"

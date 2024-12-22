@@ -31,10 +31,16 @@ export interface trainersDataType {
 export interface itemDataType {
   internalName: string;
   name: string;
+  description: string;
   pocket: number;
 }
 
 export interface typeData {
+  internalName: string;
+  name: string;
+}
+
+export interface pokeballsDataType {
   internalName: string;
   name: string;
 }

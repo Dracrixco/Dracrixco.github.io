@@ -15,6 +15,12 @@ import { movesDataType, pokemonDataType } from "@/data/dataTypes";
 import { Pokemon, PokemonContext } from "@/pokemon-context";
 import { allTypes } from "@/utils/get-type-color";
 import { getTypeColor } from "@/utils/get-type-color";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "../ui/accordion";
 
 interface SelectMovesProps {
   pokemon: Pokemon;
@@ -234,33 +240,8 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
           <DialogTitle>Selecciona Movimientos</DialogTitle>
           <DialogDescription>
             Aplica filtros y elige hasta 4 movimientos.
-            <div
-              className={cn([
-                "grid grid-cols-2 xl:grid-cols-4",
-                "gap-2 mt-2 text-black",
-              ])}
-            >
-              {selectedMoves.map((move, idx) => (
-                <div
-                  key={idx}
-                  className={cn([
-                    "border rounded p-2 gap-2",
-                    "bg-white hover:bg-slate-200",
-                    "transition-all flex flex-col",
-                    getTypeColor(move.type),
-                  ])}
-                  onClick={() => removeMove(move)}
-                >
-                  <p className="font-bold">{move.name}</p>
-                  <p>Categoria: {move.category}</p>
-                  <p>Poder: {move.power}</p>
-                  <p>Precisión: {move.accuracy}</p>
-                </div>
-              ))}
-            </div>
           </DialogDescription>
 
-          {/* Filtrado por nombre */}
           <Input
             name="move-search"
             value={searchTerm}
@@ -269,106 +250,146 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
             className="mt-0 sm:mt-2 md:mt-4"
           />
 
-          {/* Filtros de tipo, origen y categoría */}
-          <div
-            className={cn([
-              "grid grid-cols-2 items-center",
-              "gap-1 sm:gap-2 md:gap-4 mt-0 sm:mt-2 md:mt-4",
-            ])}
-          >
-            <label className="text-sm">Tipo:</label>
-            <select
-              className="border p-1 rounded"
-              value={filterType}
-              onChange={(e) => setFilterType(e.target.value)}
-            >
-              <option value="">Todos</option>
-              {allTypes.map((t) => (
-                <option key={t} value={t}>
-                  {t}
-                </option>
-              ))}
-            </select>
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value="item-0">
+              <AccordionTrigger>Movimientos Seleccionados</AccordionTrigger>
+              <AccordionContent>
+                <div
+                  className={cn([
+                    "grid grid-cols-2 xl:grid-cols-4",
+                    "gap-2 mt-2 text-black",
+                  ])}
+                >
+                  {selectedMoves.map((move, idx) => (
+                    <div
+                      key={idx}
+                      className={cn([
+                        "border rounded p-2 gap-2",
+                        "bg-white hover:bg-slate-200",
+                        "transition-all flex flex-col",
+                        getTypeColor(move.type),
+                      ])}
+                      onClick={() => removeMove(move)}
+                    >
+                      <p className="font-bold">{move.name}</p>
+                      <p>Categoria: {move.category}</p>
+                      <p>Poder: {move.power}</p>
+                      <p>Precisión: {move.accuracy}</p>
+                    </div>
+                  ))}
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>
+                Filtros de tipo, origen y categoría
+              </AccordionTrigger>
+              <AccordionContent>
+                <div
+                  className={cn([
+                    "grid grid-cols-2 items-center",
+                    "gap-1 sm:gap-2 md:gap-4 mt-0 sm:mt-2 md:mt-4",
+                  ])}
+                >
+                  <label className="text-sm">Tipo:</label>
+                  <select
+                    className="border p-1 rounded"
+                    value={filterType}
+                    onChange={(e) => setFilterType(e.target.value)}
+                  >
+                    <option value="">Todos</option>
+                    {allTypes.map((t) => (
+                      <option key={t} value={t}>
+                        {t}
+                      </option>
+                    ))}
+                  </select>
 
-            <label className="text-sm">Origen:</label>
-            <select
-              className="border p-1 rounded"
-              value={filterOrigin}
-              onChange={(e) => setFilterOrigin(e.target.value)}
-            >
-              <option value="">Todos</option>
-              {allOrigins.map((o) => (
-                <option key={o} value={o}>
-                  {o}
-                </option>
-              ))}
-            </select>
+                  <label className="text-sm">Origen:</label>
+                  <select
+                    className="border p-1 rounded"
+                    value={filterOrigin}
+                    onChange={(e) => setFilterOrigin(e.target.value)}
+                  >
+                    <option value="">Todos</option>
+                    {allOrigins.map((o) => (
+                      <option key={o} value={o}>
+                        {o}
+                      </option>
+                    ))}
+                  </select>
 
-            <label className="text-sm">Categoría:</label>
-            <select
-              className="border p-1 rounded"
-              value={filterMoveCategory}
-              onChange={(e) => setFilterMoveCategory(e.target.value)}
-            >
-              <option value="">Todas</option>
-              {allMoveCategories.map((c) => (
-                <option key={c} value={c}>
-                  {c}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          {/* Filtros de poder y accuracy */}
-          <div
-            className={cn([
-              "mt-0 sm:mt-1 md:mt-2 grid grid-cols-2 md:grid-cols-4 items-center",
-              "gap-1 sm:gap-2 md:gap-4 mt-0 sm:mt-2 md:mt-4",
-            ])}
-          >
-            <div className="flex items-center justify-between gap-2">
-              <label className="text-sm">Poder min:</label>
-              <Input
-                type="number"
-                min={0}
-                className="w-20 md:w-32 lg:w-64"
-                value={minPower}
-                onChange={(e) => setMinPower(e.target.value)}
-              />
-            </div>
-            <div className="flex items-center justify-between gap-2">
-              <label className="text-sm">Poder máx:</label>
-              <Input
-                type="number"
-                min={0}
-                className="w-20 md:w-32 lg:w-64"
-                value={maxPower}
-                onChange={(e) => setMaxPower(e.target.value)}
-              />
-            </div>
-            <div className="flex items-center justify-between gap-2">
-              <label className="text-sm">Precisión min:</label>
-              <Input
-                type="number"
-                min={0}
-                max={100}
-                className="w-20 md:w-32 lg:w-64"
-                value={minAccuracy}
-                onChange={(e) => setMinAccuracy(e.target.value)}
-              />
-            </div>
-            <div className="flex items-center justify-between gap-2">
-              <label className="text-sm">Precisión máx:</label>
-              <Input
-                type="number"
-                min={0}
-                max={100}
-                className="w-20 md:w-32 lg:w-64"
-                value={maxAccuracy}
-                onChange={(e) => setMaxAccuracy(e.target.value)}
-              />
-            </div>
-          </div>
+                  <label className="text-sm">Categoría:</label>
+                  <select
+                    className="border p-1 rounded"
+                    value={filterMoveCategory}
+                    onChange={(e) => setFilterMoveCategory(e.target.value)}
+                  >
+                    <option value="">Todas</option>
+                    {allMoveCategories.map((c) => (
+                      <option key={c} value={c}>
+                        {c}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger>Filtros de poder y accuracy</AccordionTrigger>
+              <AccordionContent>
+                <div
+                  className={cn([
+                    "mt-0 sm:mt-1 md:mt-2 grid grid-cols-2 md:grid-cols-4 items-center",
+                    "gap-1 sm:gap-2 md:gap-4 mt-0 sm:mt-2 md:mt-4",
+                  ])}
+                >
+                  <div className="flex items-center justify-between gap-2">
+                    <label className="text-sm">Poder min:</label>
+                    <Input
+                      type="number"
+                      min={0}
+                      className="w-20 md:w-32 lg:w-64"
+                      value={minPower}
+                      onChange={(e) => setMinPower(e.target.value)}
+                    />
+                  </div>
+                  <div className="flex items-center justify-between gap-2">
+                    <label className="text-sm">Poder máx:</label>
+                    <Input
+                      type="number"
+                      min={0}
+                      className="w-20 md:w-32 lg:w-64"
+                      value={maxPower}
+                      onChange={(e) => setMaxPower(e.target.value)}
+                    />
+                  </div>
+                  <div className="flex items-center justify-between gap-2">
+                    <label className="text-sm">Precisión min:</label>
+                    <Input
+                      type="number"
+                      min={0}
+                      max={100}
+                      className="w-20 md:w-32 lg:w-64"
+                      value={minAccuracy}
+                      onChange={(e) => setMinAccuracy(e.target.value)}
+                    />
+                  </div>
+                  <div className="flex items-center justify-between gap-2">
+                    <label className="text-sm">Precisión máx:</label>
+                    <Input
+                      type="number"
+                      min={0}
+                      max={100}
+                      className="w-20 md:w-32 lg:w-64"
+                      value={maxAccuracy}
+                      onChange={(e) => setMaxAccuracy(e.target.value)}
+                    />
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
 
           {selectedMoves.length >= 4 && (
             <p className="text-red-500 mt-2">

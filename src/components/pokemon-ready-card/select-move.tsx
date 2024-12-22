@@ -10,7 +10,7 @@ import {
 import { cn } from "@/lib/utils";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
-import { movesData } from "@/data";
+import movesData from "@/data/DataMove.json";
 import { movesDataType, pokemonDataType } from "@/data/DataInterfaces";
 import { Pokemon, PokemonContext } from "@/pokemon-context";
 import { allTypes } from "@/utils/get-type-color";

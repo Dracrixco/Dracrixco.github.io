@@ -11,7 +11,7 @@ import { Input } from "../ui/input";
 import { Pokemon, PokemonContext } from "@/pokemon-context";
 import { pokemonDataType, abilityData } from "@/data/DataInterfaces";
 // Asegúrate de tener un array con todas las habilidades (abilityData[]) en tu pageData o similar
-import { AbilityData } from "@/data";
+import AbilityData from "@/data/DataAbility.json";
 
 interface SelectAbilityProps {
   pokemon: Pokemon;

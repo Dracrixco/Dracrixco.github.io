@@ -9,7 +9,7 @@ import {
 import { Input } from "./ui/input";
 import TrainerCard from "./trainer-card";
 import { trainersDataType } from "../data/DataInterfaces";
-import { trainersData } from "@/data";
+import trainersData from "@/data/DataTrainerType.json";
 import { Button } from "./ui/button";
 import { PokemonContext } from "@/pokemon-context";
 import { useEffect } from "react";

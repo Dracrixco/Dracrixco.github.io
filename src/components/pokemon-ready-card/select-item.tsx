@@ -9,7 +9,7 @@ import {
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 import { itemDataType } from "@/data/DataInterfaces";
-import { itemsData } from "@/data";
+import itemsData from "@/data/DataItems.json";
 import { cn } from "@/lib/utils";
 import { Pokemon, PokemonContext } from "@/pokemon-context";
 

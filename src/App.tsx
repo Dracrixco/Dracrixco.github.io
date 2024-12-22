@@ -22,7 +22,6 @@ function App() {
   const [endText, setEndText] = useState<string>("");
   const [difficultType, setDifficultType] =
     useState<typeDifficultyType>("default");
-  const [textArea, setTextArea] = useState("");
 
   useEffect(() => {
     // console.log(pokemons);
@@ -45,13 +44,9 @@ function App() {
     >
       <div>
         <div className="flex justify-evenly items-center w-full bg-gray-500 text-white text-center py-4">
-          <GenerateTextButton
-            onTextGenerated={(text: string) => {
-              setTextArea(text);
-            }}
-          />
+          <GenerateTextButton className="fixed top-4 left-4 z-50" />
           <h1>Trainer Generator</h1>
-          <SelectDifficult />
+          <SelectDifficult className="fixed top-4 right-4 z-50" />
         </div>
         <SectionSeparator
           className={cn([
@@ -116,14 +111,6 @@ function App() {
             </SelectPokemon>
           )}
         </SectionSeparator>
-
-        <textarea
-          value={textArea}
-          onChange={(e) => {
-            setTextArea(e.target.value);
-          }}
-          className="w-full"
-        ></textarea>
       </div>
     </PokemonProvider>
   );

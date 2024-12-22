@@ -23,7 +23,7 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
   }
 
   return (
-    <div className="flex flex-col gap-4 mt-2 w-full border rounded-lg relative">
+    <div className="flex flex-col gap-4 mt-2 w-full h-full border rounded-lg relative">
       <div className="absolute top-2 left-2">
         {PokemonSpeciesData.types.map((type, idx) => (
           <p

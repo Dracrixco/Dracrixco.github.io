@@ -4,7 +4,6 @@ import {
   DialogTrigger,
   DialogContent,
   DialogTitle,
-  DialogDescription,
 } from "../ui/dialog";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
@@ -54,9 +53,9 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
   const { updatePokemon } = useContext(PokemonContext)!;
   const [isOpen, setIsOpen] = useState(false);
   //:totalhp, :attack, :defense, :spatk, :spdef, :speed
-  const [evs, setEvs] = useState<number[]>([0, 0, 0, 0, 0, 0]);
-  const [ivs, setIvs] = useState<number[]>([0, 0, 0, 0, 0, 0]);
-  const [happiness, setHapiness] = useState<number>(0);
+  const [evs, setEvs] = useState<number[]>(pokemon.evs);
+  const [ivs, setIvs] = useState<number[]>(pokemon.ivs);
+  const [happiness, setHapiness] = useState<number>(pokemon.happiness);
 
   const handleConfirm = () => {
     // Actualiza según tu lógica (ejemplo: un solo item para cada dificultad)
@@ -79,8 +78,7 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
         <Button className="w-full">Modificar Stats</Button>
       </DialogTrigger>
       <DialogContent>
-        <DialogTitle>Selecciona un objeto</DialogTitle>
-        <DialogDescription>Busca y selecciona un objeto.</DialogDescription>
+        <DialogTitle>Modifica un Stat</DialogTitle>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
           <h2
             className={cn([

@@ -71,8 +71,8 @@ export const SelectPokeball: React.FC<SelectPokeballProps> = ({
         )}
       </DialogTrigger>
       <DialogContent>
-        <DialogTitle>Selecciona un objeto</DialogTitle>
-        <DialogDescription>Busca y selecciona un objeto.</DialogDescription>
+        <DialogTitle>Selecciona una Pokeball</DialogTitle>
+        <DialogDescription>Busca y selecciona una Pokeball.</DialogDescription>
         <div className="flex justify-between">
           <div className="mt-4 w-[70%]">
             <label htmlFor="">Buscar objeto</label>

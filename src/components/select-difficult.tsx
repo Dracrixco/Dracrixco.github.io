@@ -23,9 +23,6 @@ export const SelectDifficult = ({ className }: SelectDifficultProps) => {
 
   return (
     <div className={cn([className])}>
-      <label htmlFor="difficulty-select" className="mr-2">
-        Dificultad:
-      </label>
       <select
         id="difficulty-select"
         value={difficultType}

@@ -94,7 +94,7 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
         <DialogTrigger asChild>
           <Button className="w-full">Seleccionar Item</Button>
         </DialogTrigger>
-        <DialogContent>
+        <DialogContent className="w-full">
           <DialogTitle>Selecciona un objeto</DialogTitle>
           <DialogDescription>Busca y selecciona un objeto.</DialogDescription>
           <div className="flex justify-between">
@@ -121,7 +121,7 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
               />
             </div>
           </div>
-          <div className="mt-4 max-h-64 overflow-y-auto border rounded p-2">
+          <div className="mt-4 max-h-96 overflow-y-auto border rounded p-2">
             {filteredItems.map((item) => (
               <div
                 key={item.internalName}

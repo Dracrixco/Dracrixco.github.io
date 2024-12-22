@@ -32,8 +32,12 @@ export const GenerateTextButton = ({
       "hard",
       "absolution",
     ];
-    text += `LoseText = ${endText}\n`;
-    text += `StartText = ${startText}\n`;
+    if (endText) {
+      text += `LoseText = ${endText}\n`;
+    }
+    if (startText) {
+      text += `StartText = ${startText}\n`;
+    }
     pokemons.forEach((pokemon) => {
       text += `Pokemon = ${pokemon.id},${trainerLevel}\n`;
       text += `   Pokeball = ${pokemon.pokeball?.internalName || "POKEBALL"}\n`;
@@ -74,6 +78,8 @@ export const GenerateTextButton = ({
     if (onTextGenerated) {
       onTextGenerated(text);
     }
+    console.clear();
+    console.log(text);
     navigator.clipboard.writeText(text);
   };
 

@@ -41,9 +41,10 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
         alt={pokemon.name}
         className="w-[50%] h-auto mx-auto [image-rendering:pixelated]"
       />
-      <p className="text-center font-semibold absolute top-2 right-2">
-        {pokemon.name}
-      </p>
+      <div className="absolute top-2 right-2 flex items-center">
+        <SelectPokeball pokemon={pokemon} />
+        <p className="text-center font-semibold">{pokemon.name}</p>
+      </div>
       <div className="mt-2">
         <SelectMoves
           pokemon={pokemon}
@@ -56,7 +57,6 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
             PokemonSpeciesData={PokemonSpeciesData}
           />
         </div>
-        <SelectPokeball pokemon={pokemon} />
       </div>
       <Button
         variant="destructive"

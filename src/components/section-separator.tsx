@@ -11,12 +11,7 @@ export const SectionSeparator = ({
   className,
 }: SectionSeparatorProps) => {
   return (
-    <div
-      className={cn([
-        "mt-2 border rounded-sm p-2 sm:mx-5 md:mx-10 w-full",
-        className,
-      ])}
-    >
+    <div className={cn(["mt-2 border rounded-sm p-2 w-full", className])}>
       {children}
     </div>
   );

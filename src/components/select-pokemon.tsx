@@ -110,6 +110,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
         },
         item: {},
         abilityIndex: {},
+        pokeball: { internalName: "POKEBALL", name: "Poké Ball" },
       });
       setIsOpen(false);
       setSearchTerm("");

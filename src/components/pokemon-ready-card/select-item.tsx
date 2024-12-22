@@ -26,12 +26,19 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
   const [selectedItem, setSelectedItem] = useState<itemDataType | null>(null);
 
   useEffect(() => {
-    setFilteredItems(
-      itemsData.filter(
-        (item) =>
-          item.name.toLowerCase().includes(searchTerm) && item.pocket === pocket
-      )
-    );
+    if (pocket > 0) {
+      setFilteredItems(
+        itemsData.filter(
+          (item) =>
+            item.name.toLowerCase().includes(searchTerm) &&
+            item.pocket === pocket
+        )
+      );
+    } else {
+      setFilteredItems(
+        itemsData.filter((item) => item.name.toLowerCase().includes(searchTerm))
+      );
+    }
   }, [pocket, searchTerm]);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -45,7 +45,7 @@ export const GenerateTextButton = ({
       text += `   Ivs = ${pokemon.ivs.join(",")}\n`;
       text += `   Happiness = ${pokemon.happiness}\n`;
       difficultTypes.forEach((difficultType) => {
-        if (pokemon.moves[difficultType]) {
+        if (pokemon.moves[difficultType].length > 0) {
           if (difficultType === "default") {
             text += "   Moves = ";
           } else {
@@ -70,10 +70,12 @@ export const GenerateTextButton = ({
       });
 
       difficultTypes.forEach((difficultType) => {
-        if (difficultType === "default") {
-          text += `   AbilityIndex = ${pokemon.abilityIndex.default}\n`;
-        } else {
-          text += `   AbilityIndex_${difficultType} = ${pokemon.abilityIndex[difficultType]}\n`;
+        if (pokemon.abilityIndex[difficultType]) {
+          if (difficultType === "default") {
+            text += `   AbilityIndex = ${pokemon.abilityIndex.default}\n`;
+          } else {
+            text += `   AbilityIndex_${difficultType} = ${pokemon.abilityIndex[difficultType]}\n`;
+          }
         }
       });
     });

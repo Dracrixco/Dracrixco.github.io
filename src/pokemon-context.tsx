@@ -38,6 +38,9 @@ export interface Pokemon {
   abilityIndex: DificultyAbilityIndex;
   object: itemDataType | null;
   pokeball: pokeballsDataType | null;
+  evs: number[];
+  ivs: number[];
+  happiness: number;
 }
 
 interface PokemonContextBase {

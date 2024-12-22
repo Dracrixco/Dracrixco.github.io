@@ -111,6 +111,9 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
         item: {},
         abilityIndex: {},
         pokeball: { internalName: "POKEBALL", name: "Poké Ball" },
+        evs: [0, 0, 0, 0, 0, 0],
+        ivs: [31, 31, 31, 31, 31, 31],
+        happiness: 255,
       });
       setIsOpen(false);
       setSearchTerm("");

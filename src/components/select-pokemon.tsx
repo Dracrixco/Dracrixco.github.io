@@ -123,7 +123,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>{children}</DialogTrigger>
-      <DialogContent className="min-w-max">
+      <DialogContent className="md:min-w-max">
         <DialogTitle>Selecciona un Pokémon</DialogTitle>
         <DialogDescription>
           Usa el siguiente campo para buscar por nombre o filtrar por tipo.
@@ -156,7 +156,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
           <div
             className={cn([
               "max-h-96 overflow-y-auto mt-4",
-              "grid grid-cols-3 gap-2",
+              "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2",
             ])}
           >
             {filteredPokemons.map((pokemon) => (

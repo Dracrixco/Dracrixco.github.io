@@ -3,6 +3,7 @@ import {
   Dialog,
   DialogTrigger,
   DialogContent,
+  DialogFooter,
   DialogTitle,
   DialogDescription,
 } from "../ui/dialog";
@@ -223,7 +224,7 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
         <DialogTrigger asChild>
           <Button className="mt-2 w-full">Editar Movimientos</Button>
         </DialogTrigger>
-        <DialogContent className="max-w-3xl">
+        <DialogContent className="max-w-8xl h-full">
           <DialogTitle>Selecciona Movimientos</DialogTitle>
           <DialogDescription>
             Aplica filtros y elige hasta 4 movimientos.
@@ -235,11 +236,16 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Buscar Movimiento"
-            className="mt-4"
+            className="mt-0 sm:mt-2 md:mt-4"
           />
 
           {/* Filtros de tipo, origen y categoría */}
-          <div className="mt-2 flex flex-wrap items-center gap-2">
+          <div
+            className={cn([
+              "grid grid-cols-2 items-center",
+              "gap-1 sm:gap-2 md:gap-4 mt-0 sm:mt-2 md:mt-4",
+            ])}
+          >
             <label className="text-sm">Tipo:</label>
             <select
               className="border p-1 rounded"
@@ -284,45 +290,50 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
           </div>
 
           {/* Filtros de poder y accuracy */}
-          <div className="mt-2 flex flex-wrap items-center gap-4">
-            <div className="flex items-center gap-2">
+          <div
+            className={cn([
+              "mt-0 sm:mt-1 md:mt-2 grid grid-cols-2 md:grid-cols-4 items-center",
+              "gap-1 sm:gap-2 md:gap-4 mt-0 sm:mt-2 md:mt-4",
+            ])}
+          >
+            <div className="flex items-center justify-between gap-2">
               <label className="text-sm">Poder min:</label>
               <Input
                 type="number"
                 min={0}
-                className="w-16"
+                className="w-20 md:w-32 lg:w-64"
                 value={minPower}
                 onChange={(e) => setMinPower(e.target.value)}
               />
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center justify-between gap-2">
               <label className="text-sm">Poder máx:</label>
               <Input
                 type="number"
                 min={0}
-                className="w-16"
+                className="w-20 md:w-32 lg:w-64"
                 value={maxPower}
                 onChange={(e) => setMaxPower(e.target.value)}
               />
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center justify-between gap-2">
               <label className="text-sm">Precisión min:</label>
               <Input
                 type="number"
                 min={0}
                 max={100}
-                className="w-16"
+                className="w-20 md:w-32 lg:w-64"
                 value={minAccuracy}
                 onChange={(e) => setMinAccuracy(e.target.value)}
               />
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center justify-between gap-2">
               <label className="text-sm">Precisión máx:</label>
               <Input
                 type="number"
                 min={0}
                 max={100}
-                className="w-16"
+                className="w-20 md:w-32 lg:w-64"
                 value={maxAccuracy}
                 onChange={(e) => setMaxAccuracy(e.target.value)}
               />
@@ -336,7 +347,13 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
           )}
 
           {/* Lista de movimientos filtrados */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 max-h-80 overflow-y-auto">
+          <div
+            className={cn([
+              "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5",
+              "sm:max-h-40 md:max-h-80 overflow-y-auto",
+              "gap-1 sm:gap-2 md:gap-4 mt-0 sm:mt-2 md:mt-4",
+            ])}
+          >
             {filteredMoves.map((move) => {
               const isSelected = selectedMoves.some(
                 (m) => m.internalName === move.internalName
@@ -349,47 +366,50 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
                   className={cn([
                     "border rounded-lg p-4 shadow cursor-pointer",
                     getTypeColor(move.type),
-                    // "bg-blue-200",
+                    "grid grid-cols-2 text-sm text-black",
                     isSelected && "border-blue-500 bg-blue-50",
                     !isSelected && "border-gray-200 hover:bg-gray-100",
                     isLimitReached && "opacity-50 cursor-not-allowed",
                   ])}
                   onClick={() => !isLimitReached && toggleMoveSelection(move)}
                 >
-                  <h4 className="text-lg font-semibold">{move.name}</h4>
-                  <p className="text-sm text-gray-600">Tipo: {move.type}</p>
-                  <p className="text-sm text-gray-600">Poder: {move.power}</p>
-                  <p className="text-sm text-gray-600">
-                    Precisión: {move.accuracy}
-                  </p>
-                  <p className="text-sm text-gray-600">Origen: {move.origin}</p>
-                  <p className="text-sm text-gray-600">
-                    Categoría: {move.category}
-                  </p>
-                  {isSelected && (
-                    <span className="text-blue-500 mt-2 block">
-                      Seleccionado
-                    </span>
-                  )}
+                  <div className="flex flex-col">
+                    <h4 className="text-lg font-semibold">{move.name}</h4>
+                    <p>Tipo: {move.type}</p>
+                    <p>Poder: {move.power}</p>
+                    <p>Precisión: {move.accuracy}</p>
+                    <p>Origen: {move.origin}</p>
+                    <p>Categoría: {move.category}</p>
+                    {isSelected && (
+                      <span className="text-blue-500 mt-2 block">
+                        Seleccionado
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex flex-col">
+                    <h4 className="text-lg font-semibold">Description:</h4>
+                    <p>{move.description}</p>
+                  </div>
                 </div>
               );
             })}
           </div>
-
-          <Button
-            className="mt-4"
-            onClick={handleConfirm}
-            disabled={selectedMoves.length === 0}
-          >
-            Confirmar
-          </Button>
-          <Button
-            className="mt-4"
-            onClick={handleReset}
-            disabled={selectedMoves.length === 0}
-          >
-            Reset
-          </Button>
+          <DialogFooter>
+            <Button
+              className="mt-2 md:mt-4"
+              onClick={handleConfirm}
+              disabled={selectedMoves.length === 0}
+            >
+              Confirmar
+            </Button>
+            <Button
+              className="mt-2 md:mt-4"
+              onClick={handleReset}
+              disabled={selectedMoves.length === 0}
+            >
+              Reset
+            </Button>
+          </DialogFooter>
         </DialogContent>
       </Dialog>
     </div>

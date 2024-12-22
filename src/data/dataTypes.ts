@@ -8,6 +8,7 @@ export interface movesDataType {
   accuracy: number;
   new: boolean;
   category: string;
+  description: string;
 }
 
 export interface pokemonDataType {

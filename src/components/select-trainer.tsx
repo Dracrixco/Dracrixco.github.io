@@ -72,7 +72,7 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
             <Button>Seleccionar Entrenador</Button>
           )}
         </DialogTrigger>
-        <DialogContent className="min-w-max">
+        <DialogContent className="md:min-w-max">
           <DialogTitle>Selecciona un Tipo de Entrenador</DialogTitle>
           <DialogDescription>
             Usa el siguiente campo para buscar y seleccionar un entrenador.
@@ -83,7 +83,7 @@ const SelectTrainerType: React.FC<SelectTrainerTypeProps> = ({ onChange }) => {
             value={searchTerm}
             onChange={handleInputChange}
           />
-          <div className="max-h-96 overflow-y-auto mt-4 space-y-2 grid grid-cols-3 gap-2">
+          <div className="max-h-96 overflow-y-auto mt-4 space-y-2 grid-cols-1 sm:grid-cols-2 grid md:grid-cols-3 gap-2">
             {filteredTrainers.map((trainer) => (
               <TrainerCard
                 key={trainer.internalName}

@@ -117,7 +117,13 @@ function App() {
           )}
         </SectionSeparator>
 
-        <textarea value={textArea} className="w-full"></textarea>
+        <textarea
+          value={textArea}
+          onChange={(e) => {
+            setTextArea(e.target.value);
+          }}
+          className="w-full"
+        ></textarea>
       </div>
     </PokemonProvider>
   );

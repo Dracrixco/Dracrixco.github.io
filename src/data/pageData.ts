@@ -1,8 +1,10 @@
 export const movesData = [
   {
     internalName: "MEGAHORN",
-    name: "Megahorn",
-    type: "Bug",
+    name: "Megacuerno",
+    description:
+      "Usando su resistente e impresionante cuerno, el usuario embiste al objetivo sin tregua.",
+    type: "BUG",
     power: 120,
     accuracy: 85,
     new: false,
@@ -10,8 +12,10 @@ export const movesData = [
   },
   {
     internalName: "ATTACKORDER",
-    name: "Attack Order",
-    type: "Bug",
+    name: "Al Ataque",
+    description:
+      "El usuario llama a sus subordinados para que golpeen al objetivo. Los golpes críticos aterrizan más fácilmente.",
+    type: "BUG",
     power: 90,
     accuracy: 100,
     new: false,
@@ -19,8 +23,10 @@ export const movesData = [
   },
   {
     internalName: "BUGBUZZ",
-    name: "Bug Buzz",
-    type: "Bug",
+    name: "Zumbido",
+    description:
+      "El usuario hace vibrar sus alas para generar una onda sonora dañina. También puede reducir el Sp del objetivo. Estadística de definición.",
+    type: "BUG",
     power: 90,
     accuracy: 100,
     new: false,
@@ -28,8 +34,10 @@ export const movesData = [
   },
   {
     internalName: "FIRSTIMPRESSION",
-    name: "First Impression",
-    type: "Bug",
+    name: "Escaramuza",
+    description:
+      "Aunque este movimiento tiene un gran poder, sólo funciona en el primer turno en el que el usuario está en batalla.",
+    type: "BUG",
     power: 90,
     accuracy: 100,
     new: false,
@@ -37,8 +45,10 @@ export const movesData = [
   },
   {
     internalName: "POLLENPUFF",
-    name: "Pollen Puff",
-    type: "Bug",
+    name: "Bola de Polen",
+    description:
+      "Dispara una explosión de polen a los enemigos o una que restaura HP a los aliados.",
+    type: "BUG",
     power: 90,
     accuracy: 100,
     new: false,
@@ -46,8 +56,10 @@ export const movesData = [
   },
   {
     internalName: "LEECHLIFE",
-    name: "Leech Life",
-    type: "Bug",
+    name: "Chupavidas",
+    description:
+      "El usuario drena la sangre del objetivo. El HP del usuario se restaura con la mitad del daño recibido por el objetivo.",
+    type: "BUG",
     power: 80,
     accuracy: 100,
     new: false,
@@ -55,8 +67,10 @@ export const movesData = [
   },
   {
     internalName: "LUNGE",
-    name: "Lunge",
-    type: "Bug",
+    name: "Plancha",
+    description:
+      "El usuario se lanza hacia el objetivo, atacando con toda su fuerza. Esto reduce la estadística de ataque del objetivo.",
+    type: "BUG",
     power: 80,
     accuracy: 100,
     new: false,
@@ -64,8 +78,10 @@ export const movesData = [
   },
   {
     internalName: "XSCISSOR",
-    name: "X-Scissor",
-    type: "Bug",
+    name: "Tijera X",
+    description:
+      "El usuario ataca al enemigo cruzando sus guadañas o garras como si fueran un par de tijeras.",
+    type: "BUG",
     power: 80,
     accuracy: 100,
     new: false,
@@ -73,8 +89,10 @@ export const movesData = [
   },
   {
     internalName: "SIGNALBEAM",
-    name: "Signal Beam",
-    type: "Bug",
+    name: "Rayo Señal",
+    description:
+      "El usuario ataca con un siniestro rayo de luz. También puede confundir al objetivo.",
+    type: "BUG",
     power: 75,
     accuracy: 100,
     new: false,
@@ -82,8 +100,10 @@ export const movesData = [
   },
   {
     internalName: "SKITTERSMACK",
-    name: "Skitter Smack",
-    type: "Bug",
+    name: "Golpe Rastrero",
+    description:
+      "El usuario se desliza detrás del objetivo para atacar. Esto también reduce el Sp del objetivo. Estadística de ataque.",
+    type: "BUG",
     power: 70,
     accuracy: 90,
     new: false,
@@ -91,8 +111,10 @@ export const movesData = [
   },
   {
     internalName: "UTURN",
-    name: "U-turn",
-    type: "Bug",
+    name: "Ida y Vuelta",
+    description:
+      "Después de realizar su ataque, el usuario regresa corriendo para cambiar de lugar con un Pokémon del grupo esperando.",
+    type: "BUG",
     power: 70,
     accuracy: 100,
     new: false,
@@ -100,8 +122,10 @@ export const movesData = [
   },
   {
     internalName: "STEAMROLLER",
-    name: "Steamroller",
-    type: "Bug",
+    name: "Rodillo de Púas",
+    description:
+      "El usuario aplasta a sus enemigos rodando sobre ellos. Este ataque puede hacer que el objetivo se estremezca.",
+    type: "BUG",
     power: 65,
     accuracy: 100,
     new: false,
@@ -109,8 +133,10 @@ export const movesData = [
   },
   {
     internalName: "BUGBITE",
-    name: "Bug Bite",
-    type: "Bug",
+    name: "Picadura",
+    description:
+      "El usuario muerde al objetivo. Si el objetivo tiene una baya, el usuario la come y obtiene su efecto.",
+    type: "BUG",
     power: 60,
     accuracy: 100,
     new: false,
@@ -118,8 +144,10 @@ export const movesData = [
   },
   {
     internalName: "SILVERWIND",
-    name: "Silver Wind",
-    type: "Bug",
+    name: "Viento Plata",
+    description:
+      "El enemigo es atacado con escamas polvorientas arrastradas por el viento. También puede aumentar todas las estadísticas del usuario.",
+    type: "BUG",
     power: 60,
     accuracy: 100,
     new: false,
@@ -127,8 +155,10 @@ export const movesData = [
   },
   {
     internalName: "FELLSTINGER",
-    name: "Fell Stinger",
-    type: "Bug",
+    name: "Aguijón Letal",
+    description:
+      "Cuando el usuario noquea a un objetivo con este movimiento, la estadística de ataque del usuario aumenta drásticamente.",
+    type: "BUG",
     power: 50,
     accuracy: 100,
     new: false,
@@ -136,8 +166,10 @@ export const movesData = [
   },
   {
     internalName: "POUNCE",
-    name: "Pounce",
-    type: "Bug",
+    name: "Brinco",
+    description:
+      "El usuario ataca abalanzándose sobre el objetivo. Esto también reduce la estadística de Velocidad del objetivo.",
+    type: "BUG",
     power: 50,
     accuracy: 100,
     new: false,
@@ -145,8 +177,10 @@ export const movesData = [
   },
   {
     internalName: "STRUGGLEBUG",
-    name: "Struggle Bug",
-    type: "Bug",
+    name: "Estoicismo",
+    description:
+      "Mientras resiste, el usuario ataca al Pokémon contrario. El Sp de los objetivos. La estadística de ataque se reduce.",
+    type: "BUG",
     power: 50,
     accuracy: 100,
     new: false,
@@ -154,8 +188,10 @@ export const movesData = [
   },
   {
     internalName: "FURYCUTTER",
-    name: "Fury Cutter",
-    type: "Bug",
+    name: "Corte Furia",
+    description:
+      "El objetivo es cortado con guadañas o garras. Su poder aumenta si golpea en sucesión.",
+    type: "BUG",
     power: 40,
     accuracy: 95,
     new: false,
@@ -163,8 +199,10 @@ export const movesData = [
   },
   {
     internalName: "PINMISSILE",
-    name: "Pin Missile",
-    type: "Bug",
+    name: "Pin Misil",
+    description:
+      "Se disparan púas afiladas al objetivo en rápida sucesión. Golpearon de dos a cinco veces seguidas.",
+    type: "BUG",
     power: 25,
     accuracy: 95,
     new: false,
@@ -172,8 +210,10 @@ export const movesData = [
   },
   {
     internalName: "TWINEEDLE",
-    name: "Twineedle",
-    type: "Bug",
+    name: "Doble Ataque",
+    description:
+      "El enemigo es apuñalado dos veces por un par de aguijones. También puede envenenar al objetivo.",
+    type: "BUG",
     power: 25,
     accuracy: 100,
     new: false,
@@ -181,8 +221,10 @@ export const movesData = [
   },
   {
     internalName: "INFESTATION",
-    name: "Infestation",
-    type: "Bug",
+    name: "Acoso",
+    description:
+      "El objetivo está infestado y no puede huir durante cuatro o cinco turnos.",
+    type: "BUG",
     power: 20,
     accuracy: 100,
     new: false,
@@ -190,8 +232,10 @@ export const movesData = [
   },
   {
     internalName: "DEFENDORDER",
-    name: "Defend Order",
-    type: "Bug",
+    name: "A Defender",
+    description:
+      "El usuario llama a sus subordinados para proteger su cuerpo, aumentando su Defensa y Sp. Estadísticas de defensa.",
+    type: "BUG",
     power: 0,
     accuracy: 0,
     new: false,
@@ -199,8 +243,10 @@ export const movesData = [
   },
   {
     internalName: "HEALORDER",
-    name: "Heal Order",
-    type: "Bug",
+    name: "Auxilio",
+    description:
+      "El usuario llama a sus subordinados para que lo curen. El usuario recupera hasta la mitad de su HP máximo.",
+    type: "BUG",
     power: 0,
     accuracy: 0,
     new: false,
@@ -208,8 +254,10 @@ export const movesData = [
   },
   {
     internalName: "POWDER",
-    name: "Powder",
-    type: "Bug",
+    name: "Polvo Explosivo",
+    description:
+      "El objetivo está cubierto de un polvo que explota y lo daña si usa un movimiento de tipo Fuego.",
+    type: "BUG",
     power: 0,
     accuracy: 100,
     new: false,
@@ -217,8 +265,10 @@ export const movesData = [
   },
   {
     internalName: "QUIVERDANCE",
-    name: "Quiver Dance",
-    type: "Bug",
+    name: "Danza Aleteo",
+    description:
+      "El usuario realiza un hermoso baile. Aumenta la Sp del usuario. Atk, sp. Estadísticas de defensa y velocidad.",
+    type: "BUG",
     power: 0,
     accuracy: 0,
     new: false,
@@ -226,8 +276,10 @@ export const movesData = [
   },
   {
     internalName: "RAGEPOWDER",
-    name: "Rage Powder",
-    type: "Bug",
+    name: "Polvo Ira",
+    description:
+      "El usuario esparce polvos irritantes para llamar la atención. Los oponentes apuntan sólo al usuario.",
+    type: "BUG",
     power: 0,
     accuracy: 0,
     new: false,
@@ -235,8 +287,10 @@ export const movesData = [
   },
   {
     internalName: "SILKTRAP",
-    name: "Silk Trap",
-    type: "Bug",
+    name: "Telatrampa",
+    description:
+      "El usuario hace girar una trampa de seda para protegerse del daño. El contacto con él reduce la velocidad del atacante.",
+    type: "BUG",
     power: 0,
     accuracy: 0,
     new: false,
@@ -244,8 +298,10 @@ export const movesData = [
   },
   {
     internalName: "SPIDERWEB",
-    name: "Spider Web",
-    type: "Bug",
+    name: "Telaraña",
+    description:
+      "El usuario atrapa al objetivo con una seda fina y pegajosa para que no pueda huir de la batalla.",
+    type: "BUG",
     power: 0,
     accuracy: 0,
     new: false,
@@ -253,8 +309,10 @@ export const movesData = [
   },
   {
     internalName: "STICKYWEB",
-    name: "Sticky Web",
-    type: "Bug",
+    name: "Red Viscosa",
+    description:
+      "Teje una red pegajosa alrededor del equipo contrario, lo que reduce sus estadísticas de velocidad al entrar.",
+    type: "BUG",
     power: 0,
     accuracy: 0,
     new: false,
@@ -262,8 +320,10 @@ export const movesData = [
   },
   {
     internalName: "STRINGSHOT",
-    name: "String Shot",
-    type: "Bug",
+    name: "Disparo Demora",
+    description:
+      "El enemigo está atado con seda extraída de la boca del usuario. Esta seda reduce la velocidad del objetivo.",
+    type: "BUG",
     power: 0,
     accuracy: 95,
     new: false,
@@ -271,8 +331,10 @@ export const movesData = [
   },
   {
     internalName: "TAILGLOW",
-    name: "Tail Glow",
-    type: "Bug",
+    name: "Luminicola",
+    description:
+      "El usuario mira fijamente las luces parpadeantes para enfocar su mente, elevando drásticamente su Sp. Estadística de ataque.",
+    type: "BUG",
     power: 0,
     accuracy: 0,
     new: false,
@@ -280,8 +342,10 @@ export const movesData = [
   },
   {
     internalName: "HYPERSPACEFURY",
-    name: "Hyperspace Fury",
-    type: "Dark",
+    name: "Cerco Dimensión",
+    description:
+      "Desata una andanada de ataques con múltiples brazos, saltándose protecciones. La estadística de Defensa del usuario cae.",
+    type: "DARK",
     power: 100,
     accuracy: 0,
     new: false,
@@ -289,8 +353,10 @@ export const movesData = [
   },
   {
     internalName: "FOULPLAY",
-    name: "Foul Play",
-    type: "Dark",
+    name: "Juego Sucio",
+    description:
+      "El usuario vuelve el poder del enemigo en su contra. Hace más daño cuanto mayor sea la estadística de ataque del objetivo.",
+    type: "DARK",
     power: 95,
     accuracy: 100,
     new: false,
@@ -298,8 +364,10 @@ export const movesData = [
   },
   {
     internalName: "FIERYWRATH",
-    name: "Fiery Wrath",
-    type: "Dark",
+    name: "Furia Candente",
+    description:
+      "El usuario transforma su ira en un aura de fuego para atacar. Esto también puede hacer que los enemigos se estremezcan.",
+    type: "DARK",
     power: 90,
     accuracy: 100,
     new: false,
@@ -307,8 +375,10 @@ export const movesData = [
   },
   {
     internalName: "DARKESTLARIAT",
-    name: "Darkest Lariat",
-    type: "Dark",
+    name: "Lariat Oscuro",
+    description:
+      "El usuario mueve ambos brazos y da en el blanco. Ignora los cambios de estadísticas del objetivo.",
+    type: "DARK",
     power: 85,
     accuracy: 100,
     new: false,
@@ -316,8 +386,10 @@ export const movesData = [
   },
   {
     internalName: "KOWTOWCLEAVE",
-    name: "Kowtow Cleave",
-    type: "Dark",
+    name: "Genufendiente",
+    description:
+      "El usuario corta al objetivo después de hacer una reverencia para hacerle bajar la guardia. Este ataque nunca falla.",
+    type: "DARK",
     power: 85,
     accuracy: 0,
     new: false,
@@ -325,8 +397,10 @@ export const movesData = [
   },
   {
     internalName: "NIGHTDAZE",
-    name: "Night Daze",
-    type: "Dark",
+    name: "Pulso Noche",
+    description:
+      "El usuario suelta una onda de choque de tono negro hacia su objetivo. También puede reducir la precisión del objetivo.",
+    type: "DARK",
     power: 85,
     accuracy: 95,
     new: false,
@@ -334,8 +408,10 @@ export const movesData = [
   },
   {
     internalName: "CRUNCH",
-    name: "Crunch",
-    type: "Dark",
+    name: "Triturar",
+    description:
+      "El usuario aplasta al objetivo con colmillos afilados. También puede reducir la estadística de Defensa del objetivo.",
+    type: "DARK",
     power: 80,
     accuracy: 100,
     new: false,
@@ -343,8 +419,10 @@ export const movesData = [
   },
   {
     internalName: "DARKPULSE",
-    name: "Dark Pulse",
-    type: "Dark",
+    name: "Pulso Umbrío",
+    description:
+      "El usuario libera un aura horrible imbuida de pensamientos oscuros. También puede hacer que el objetivo se estremezca.",
+    type: "DARK",
     power: 80,
     accuracy: 100,
     new: false,
@@ -352,8 +430,10 @@ export const movesData = [
   },
   {
     internalName: "FALSESURRENDER",
-    name: "False Surrender",
-    type: "Dark",
+    name: "Irreverencia",
+    description:
+      "El usuario finge inclinar la cabeza, pero luego apuñala al objetivo con su cabello despeinado. Nunca falla.",
+    type: "DARK",
     power: 80,
     accuracy: 0,
     new: false,
@@ -361,8 +441,10 @@ export const movesData = [
   },
   {
     internalName: "JAWLOCK",
-    name: "Jaw Lock",
-    type: "Dark",
+    name: "Presa Maxilar",
+    description:
+      "Este movimiento evita que el usuario y el objetivo se cambien hasta que cualquiera de ellos se desmaye.",
+    type: "DARK",
     power: 80,
     accuracy: 100,
     new: false,
@@ -370,8 +452,10 @@ export const movesData = [
   },
   {
     internalName: "THROATCHOP",
-    name: "Throat Chop",
-    type: "Dark",
+    name: "Golpe Mordaza",
+    description:
+      "El usuario ataca la garganta del objetivo. El objetivo no puede utilizar movimientos basados ​​en sonido durante dos turnos.",
+    type: "DARK",
     power: 80,
     accuracy: 100,
     new: false,
@@ -379,8 +463,10 @@ export const movesData = [
   },
   {
     internalName: "WICKEDBLOW",
-    name: "Wicked Blow",
-    type: "Dark",
+    name: "Golpe Oscuro",
+    description:
+      "Asesta con un golpe feroz gracias al dominio del estilo Oscuro. Siempre resulta en un golpe crítico.",
+    type: "DARK",
     power: 75,
     accuracy: 100,
     new: false,
@@ -388,8 +474,10 @@ export const movesData = [
   },
   {
     internalName: "LASHOUT",
-    name: "Lash Out",
-    type: "Dark",
+    name: "Desahogo",
+    description:
+      "El usuario arremete para desahogar su frustración. El poder se duplica si sus estadísticas disminuyeron este turno.",
+    type: "DARK",
     power: 75,
     accuracy: 100,
     new: false,
@@ -397,8 +485,10 @@ export const movesData = [
   },
   {
     internalName: "NIGHTSLASH",
-    name: "Night Slash",
-    type: "Dark",
+    name: "Tajo Umbrío",
+    description:
+      "El usuario corta al objetivo en el instante en que surge una oportunidad. Los golpes críticos aterrizan más fácilmente.",
+    type: "DARK",
     power: 70,
     accuracy: 100,
     new: false,
@@ -406,8 +496,10 @@ export const movesData = [
   },
   {
     internalName: "SUCKERPUNCH",
-    name: "Sucker Punch",
-    type: "Dark",
+    name: "Golpe Bajo",
+    description:
+      "Este movimiento permite al usuario atacar primero. Sin embargo, falla si el objetivo no está preparado para un ataque.",
+    type: "DARK",
     power: 70,
     accuracy: 100,
     new: false,
@@ -415,8 +507,10 @@ export const movesData = [
   },
   {
     internalName: "CEASELESSEDGE",
-    name: "Ceaseless Edge",
-    type: "Dark",
+    name: "Tajo Metralla",
+    description:
+      "El usuario corta su hoja de caparazón hacia el objetivo. Esto deja astillas de proyectil debajo del objetivo como púas.",
+    type: "DARK",
     power: 65,
     accuracy: 90,
     new: false,
@@ -424,8 +518,10 @@ export const movesData = [
   },
   {
     internalName: "KNOCKOFF",
-    name: "Knock Off",
-    type: "Dark",
+    name: "Desarme",
+    description:
+      "El usuario golpea el objeto que tiene el objetivo, evitando que ese objeto se use en la batalla.",
+    type: "DARK",
     power: 65,
     accuracy: 100,
     new: false,
@@ -433,8 +529,10 @@ export const movesData = [
   },
   {
     internalName: "ASSURANCE",
-    name: "Assurance",
-    type: "Dark",
+    name: "Buena Baza",
+    description:
+      "Si el objetivo ya ha recibido algún daño en el mismo turno, el poder de este ataque se duplica.",
+    type: "DARK",
     power: 60,
     accuracy: 100,
     new: false,
@@ -442,8 +540,10 @@ export const movesData = [
   },
   {
     internalName: "BITE",
-    name: "Bite",
-    type: "Dark",
+    name: "Mordisco",
+    description:
+      "El objetivo es mordido con colmillos ferozmente afilados. Puede hacer que el objetivo se estremezca.",
+    type: "DARK",
     power: 60,
     accuracy: 100,
     new: false,
@@ -451,8 +551,10 @@ export const movesData = [
   },
   {
     internalName: "BRUTALSWING",
-    name: "Brutal Swing",
-    type: "Dark",
+    name: "Giro Vil",
+    description:
+      "El usuario mueve su cuerpo violentamente para infligir daño a todo lo que se encuentra a su alrededor.",
+    type: "DARK",
     power: 60,
     accuracy: 100,
     new: false,
@@ -460,8 +562,10 @@ export const movesData = [
   },
   {
     internalName: "FEINTATTACK",
-    name: "Feint Attack",
-    type: "Dark",
+    name: "Finta",
+    description:
+      "El usuario se acerca al enemigo desarmándolo y luego lanza un puñetazo. Golpea sin falta.",
+    type: "DARK",
     power: 60,
     accuracy: 0,
     new: false,
@@ -469,8 +573,10 @@ export const movesData = [
   },
   {
     internalName: "THIEF",
-    name: "Thief",
-    type: "Dark",
+    name: "Ladrón",
+    description:
+      "El usuario ataca y roba el objeto del enemigo simultáneamente. No puede robar si el usuario tiene un artículo en su poder.",
+    type: "DARK",
     power: 60,
     accuracy: 100,
     new: false,
@@ -478,8 +584,10 @@ export const movesData = [
   },
   {
     internalName: "SNARL",
-    name: "Snarl",
-    type: "Dark",
+    name: "Alarido",
+    description:
+      "El usuario grita como si estuviera despotricando sobre algo, haciendo que el Sp del objetivo. Disminución de las estadísticas de ataque.",
+    type: "DARK",
     power: 55,
     accuracy: 95,
     new: false,
@@ -487,8 +595,10 @@ export const movesData = [
   },
   {
     internalName: "PAYBACK",
-    name: "Payback",
-    type: "Dark",
+    name: "Vendetta",
+    description:
+      "Si el usuario se mueve detrás del objetivo, el poder de este ataque se duplicará.",
+    type: "DARK",
     power: 50,
     accuracy: 100,
     new: false,
@@ -496,8 +606,10 @@ export const movesData = [
   },
   {
     internalName: "PURSUIT",
-    name: "Pursuit",
-    type: "Dark",
+    name: "Persecución",
+    description:
+      "Un movimiento de ataque que inflige el doble de daño si se usa contra un objetivo que está fuera de batalla.",
+    type: "DARK",
     power: 40,
     accuracy: 100,
     new: false,
@@ -505,8 +617,10 @@ export const movesData = [
   },
   {
     internalName: "BEATUP",
-    name: "Beat Up",
-    type: "Dark",
+    name: "Paliza",
+    description:
+      "El usuario consigue que todos los Pokémon del grupo ataquen al enemigo. Cuantos más Pokémon del grupo, más daño.",
+    type: "DARK",
     power: 1,
     accuracy: 100,
     new: false,
@@ -514,8 +628,10 @@ export const movesData = [
   },
   {
     internalName: "COMEUPPANCE",
-    name: "Comeuppance",
-    type: "Dark",
+    name: "Resarcimiento",
+    description:
+      "El usuario toma represalias con mucha mayor fuerza contra el último oponente que le infligió daño.",
+    type: "DARK",
     power: 1,
     accuracy: 100,
     new: false,
@@ -523,8 +639,10 @@ export const movesData = [
   },
   {
     internalName: "FLING",
-    name: "Fling",
-    type: "Dark",
+    name: "Lanzamiento",
+    description:
+      "El usuario arroja el objeto que sostiene al objetivo para atacar. Su poder y efectos dependen del objeto.",
+    type: "DARK",
     power: 1,
     accuracy: 100,
     new: false,
@@ -532,8 +650,10 @@ export const movesData = [
   },
   {
     internalName: "POWERTRIP",
-    name: "Power Trip",
-    type: "Dark",
+    name: "Chulería",
+    description:
+      "El usuario se jacta de su fuerza. El poder aumenta cuanto más aumentan las estadísticas del usuario.",
+    type: "DARK",
     power: 1,
     accuracy: 100,
     new: false,
@@ -541,8 +661,10 @@ export const movesData = [
   },
   {
     internalName: "PUNISHMENT",
-    name: "Punishment",
-    type: "Dark",
+    name: "Castigo",
+    description:
+      "El poder de este ataque aumenta cuanto más se potencia el objetivo con los cambios de estadísticas.",
+    type: "DARK",
     power: 1,
     accuracy: 100,
     new: false,
@@ -550,8 +672,10 @@ export const movesData = [
   },
   {
     internalName: "RUINATION",
-    name: "Ruination",
-    type: "Dark",
+    name: "Calamidad",
+    description:
+      "El usuario invoca un desastre ruinoso. Esto reduce el HP del objetivo a la mitad.",
+    type: "DARK",
     power: 1,
     accuracy: 90,
     new: false,
@@ -559,8 +683,10 @@ export const movesData = [
   },
   {
     internalName: "DARKVOID",
-    name: "Dark Void",
-    type: "Dark",
+    name: "Brecha Negra",
+    description:
+      "Los Pokémon rivales son arrastrados a un mundo de oscuridad total que los hace dormir.",
+    type: "DARK",
     power: 0,
     accuracy: 50,
     new: false,
@@ -569,7 +695,9 @@ export const movesData = [
   {
     internalName: "EMBARGO",
     name: "Embargo",
-    type: "Dark",
+    description:
+      "Impide que el objetivo utilice el objeto que retiene. Su entrenador también tiene prohibido usar elementos sobre él.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -577,8 +705,10 @@ export const movesData = [
   },
   {
     internalName: "FAKETEARS",
-    name: "Fake Tears",
-    type: "Dark",
+    name: "Llanto Falso",
+    description:
+      "El usuario finge llorar para poner nervioso al objetivo, reduciendo bruscamente su Sp. Estadística de definición.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -586,8 +716,10 @@ export const movesData = [
   },
   {
     internalName: "FLATTER",
-    name: "Flatter",
-    type: "Dark",
+    name: "Camelo",
+    description:
+      "La adulación se utiliza para confundir al objetivo. Sin embargo, también aumenta el Sp del objetivo. Estadística de ataque.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -595,8 +727,10 @@ export const movesData = [
   },
   {
     internalName: "HONECLAWS",
-    name: "Hone Claws",
-    type: "Dark",
+    name: "Afilagarras",
+    description:
+      "El usuario afila sus garras para aumentar su estadística de ataque y precisión.",
+    type: "DARK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -604,8 +738,10 @@ export const movesData = [
   },
   {
     internalName: "MEMENTO",
-    name: "Memento",
-    type: "Dark",
+    name: "Legado",
+    description:
+      "El usuario se desmaya al utilizar este movimiento. A cambio, reduce drásticamente el ataque y la especialización del objetivo. Atk.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -613,8 +749,10 @@ export const movesData = [
   },
   {
     internalName: "NASTYPLOT",
-    name: "Nasty Plot",
-    type: "Dark",
+    name: "Maquinación",
+    description:
+      "El usuario estimula su cerebro teniendo malos pensamientos. Aumenta drásticamente la Sp del usuario. Atk.",
+    type: "DARK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -622,8 +760,10 @@ export const movesData = [
   },
   {
     internalName: "OBSTRUCT",
-    name: "Obstruct",
-    type: "Dark",
+    name: "Obstrucción",
+    description:
+      "El usuario se protege de todos los ataques. El contacto directo reduce la defensa del atacante.",
+    type: "DARK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -631,8 +771,10 @@ export const movesData = [
   },
   {
     internalName: "PARTINGSHOT",
-    name: "Parting Shot",
-    type: "Dark",
+    name: "Última Palabra",
+    description:
+      "Con una amenaza de despedida, el usuario reduce el Ataque y Sp del objetivo. Estadísticas de ataque. Luego se apaga.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -640,8 +782,10 @@ export const movesData = [
   },
   {
     internalName: "QUASH",
-    name: "Quash",
-    type: "Dark",
+    name: "Último Lugar",
+    description:
+      "El usuario suprime al objetivo y hace que su movimiento sea el último.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -649,8 +793,10 @@ export const movesData = [
   },
   {
     internalName: "SNATCH",
-    name: "Snatch",
-    type: "Dark",
+    name: "Robo",
+    description:
+      "El usuario roba los efectos de cualquier movimiento curativo o de cambio de estadísticas que el enemigo intente utilizar.",
+    type: "DARK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -658,8 +804,10 @@ export const movesData = [
   },
   {
     internalName: "SWITCHEROO",
-    name: "Switcheroo",
-    type: "Dark",
+    name: "Trapicheo",
+    description:
+      "El usuario intercambia objetos retenidos con el objetivo más rápido de lo que el ojo puede seguir.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -667,8 +815,10 @@ export const movesData = [
   },
   {
     internalName: "TAUNT",
-    name: "Taunt",
-    type: "Dark",
+    name: "Mofa",
+    description:
+      "El objetivo sufre una ira que le permite utilizar sólo movimientos de ataque durante tres turnos.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -676,8 +826,10 @@ export const movesData = [
   },
   {
     internalName: "TOPSYTURVY",
-    name: "Topsy-Turvy",
-    type: "Dark",
+    name: "Reversión",
+    description:
+      "Todos los cambios de estadísticas que afectan al objetivo se vuelven patas arriba y se convierten en lo opuesto de lo que eran.",
+    type: "DARK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -685,8 +837,10 @@ export const movesData = [
   },
   {
     internalName: "TORMENT",
-    name: "Torment",
-    type: "Dark",
+    name: "Tormento",
+    description:
+      "El usuario atormenta y enfurece al enemigo, haciéndolo incapaz de utilizar el mismo movimiento dos veces seguidas.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -694,8 +848,10 @@ export const movesData = [
   },
   {
     internalName: "ETERNABEAM",
-    name: "Eternabeam",
-    type: "Dragon",
+    name: "Rayo Infinito",
+    description:
+      "Este es el ataque más poderoso de Eternatus en su forma original. El usuario no puede moverse en el siguiente turno.",
+    type: "DRAGON",
     power: 160,
     accuracy: 90,
     new: false,
@@ -703,8 +859,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONENERGY",
-    name: "Dragon Energy",
-    type: "Dragon",
+    name: "Dracoenergía",
+    description:
+      "Convierte la fuerza vital en poder para atacar. Cuanto menor sea el HP del usuario, menor será el poder del movimiento.",
+    type: "DRAGON",
     power: 150,
     accuracy: 100,
     new: false,
@@ -712,8 +870,10 @@ export const movesData = [
   },
   {
     internalName: "ROAROFTIME",
-    name: "Roar of Time",
-    type: "Dragon",
+    name: "Distorsión",
+    description:
+      "El usuario ataca al objetivo con un poder que distorsiona incluso el tiempo. El usuario deberá descansar en el siguiente turno.",
+    type: "DRAGON",
     power: 150,
     accuracy: 90,
     new: false,
@@ -721,8 +881,10 @@ export const movesData = [
   },
   {
     internalName: "DRACOMETEOR",
-    name: "Draco Meteor",
-    type: "Dragon",
+    name: "Cometa Draco",
+    description:
+      "Los cometas son convocados desde el cielo. El retroceso del ataque reduce drásticamente el Sp del usuario. Estadística de ataque.",
+    type: "DRAGON",
     power: 130,
     accuracy: 90,
     new: false,
@@ -730,8 +892,10 @@ export const movesData = [
   },
   {
     internalName: "GLAIVERUSH",
-    name: "Glaive Rush",
-    type: "Dragon",
+    name: "Asalto Espadón",
+    description:
+      "El usuario cobra imprudentemente. Hasta su próximo turno, los ataques al usuario no pueden fallar y causar el doble de daño.",
+    type: "DRAGON",
     power: 120,
     accuracy: 100,
     new: false,
@@ -739,8 +903,10 @@ export const movesData = [
   },
   {
     internalName: "OUTRAGE",
-    name: "Outrage",
-    type: "Dragon",
+    name: "Enfado",
+    description:
+      "El usuario arrasa y ataca durante dos o tres turnos. Sin embargo, luego se vuelve confuso.",
+    type: "DRAGON",
     power: 120,
     accuracy: 100,
     new: false,
@@ -748,8 +914,10 @@ export const movesData = [
   },
   {
     internalName: "CLANGINGSCALES",
-    name: "Clanging Scales",
-    type: "Dragon",
+    name: "Fragor Escamas",
+    description:
+      "El usuario frota sus escamas y hace un ruido enorme. También reduce la estadística de Defensa del usuario.",
+    type: "DRAGON",
     power: 110,
     accuracy: 100,
     new: false,
@@ -757,8 +925,10 @@ export const movesData = [
   },
   {
     internalName: "COREENFORCER",
-    name: "Core Enforcer",
-    type: "Dragon",
+    name: "Núcleo Castigo",
+    description:
+      "Si el objetivo ya se ha movido este turno, el efecto de su habilidad es negado.",
+    type: "DRAGON",
     power: 100,
     accuracy: 100,
     new: false,
@@ -766,8 +936,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONRUSH",
-    name: "Dragon Rush",
-    type: "Dragon",
+    name: "Carga Dragón",
+    description:
+      "El usuario ataca al enemigo mientras exhibe una amenaza abrumadora. También puede hacer que el objetivo se estremezca.",
+    type: "DRAGON",
     power: 100,
     accuracy: 75,
     new: false,
@@ -775,8 +947,9 @@ export const movesData = [
   },
   {
     internalName: "DYNAMAXCANNON",
-    name: "Dynamax Cannon",
-    type: "Dragon",
+    name: "Cañón Dinamax",
+    description: "El usuario desata un fuerte rayo desde su núcleo.",
+    type: "DRAGON",
     power: 100,
     accuracy: 100,
     new: false,
@@ -784,8 +957,10 @@ export const movesData = [
   },
   {
     internalName: "SPACIALREND",
-    name: "Spacial Rend",
-    type: "Dragon",
+    name: "Corte Vacío",
+    description:
+      "El usuario rasga el objetivo junto con el espacio que lo rodea. Los golpes críticos aterrizan más fácilmente.",
+    type: "DRAGON",
     power: 100,
     accuracy: 95,
     new: false,
@@ -793,8 +968,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONHAMMER",
-    name: "Dragon Hammer",
-    type: "Dragon",
+    name: "Martillo Dragón",
+    description:
+      "El usuario usa su cuerpo como un martillo para atacar al objetivo e infligir daño.",
+    type: "DRAGON",
     power: 90,
     accuracy: 100,
     new: false,
@@ -802,8 +979,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONPULSE",
-    name: "Dragon Pulse",
-    type: "Dragon",
+    name: "Pulso Dragón",
+    description:
+      "El objetivo es atacado con una onda de choque generada por la boca abierta del usuario.",
+    type: "DRAGON",
     power: 85,
     accuracy: 100,
     new: false,
@@ -811,8 +990,9 @@ export const movesData = [
   },
   {
     internalName: "DRAGONCLAW",
-    name: "Dragon Claw",
-    type: "Dragon",
+    name: "Garra Dragón",
+    description: "El usuario corta al objetivo con garras enormes y afiladas.",
+    type: "DRAGON",
     power: 80,
     accuracy: 100,
     new: false,
@@ -820,8 +1000,10 @@ export const movesData = [
   },
   {
     internalName: "ORDERUP",
-    name: "Order Up",
-    type: "Dragon",
+    name: "Oído Cocina",
+    description:
+      "El usuario ataca con elegante aplomo. Una de las estadísticas del usuario aumenta en función del Tatsugiri en su boca.",
+    type: "DRAGON",
     power: 80,
     accuracy: 100,
     new: false,
@@ -829,8 +1011,10 @@ export const movesData = [
   },
   {
     internalName: "FICKLEBEAM",
-    name: "Fickle Beam",
-    type: "Dragon",
+    name: "Láser Veleidoso",
+    description:
+      "El usuario dispara un rayo de luz para infligir daño. A veces el poder del movimiento se duplica.",
+    type: "DRAGON",
     power: 80,
     accuracy: 100,
     new: false,
@@ -838,8 +1022,10 @@ export const movesData = [
   },
   {
     internalName: "BREAKINGSWIPE",
-    name: "Breaking Swipe",
-    type: "Dragon",
+    name: "Vasto Impacto",
+    description:
+      "El usuario mueve su dura cola salvajemente y ataca a todos los enemigos. Esto también reduce sus estadísticas de ataque.",
+    type: "DRAGON",
     power: 60,
     accuracy: 100,
     new: false,
@@ -847,8 +1033,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONBREATH",
-    name: "Dragon Breath",
-    type: "Dragon",
+    name: "Dragoaliento",
+    description:
+      "El usuario exhala una poderosa ráfaga que inflige daño. También puede dejar al objetivo con parálisis.",
+    type: "DRAGON",
     power: 60,
     accuracy: 100,
     new: false,
@@ -856,8 +1044,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONTAIL",
-    name: "Dragon Tail",
-    type: "Dragon",
+    name: "Cola Dragón",
+    description:
+      "El usuario derriba al objetivo y arrastra a otro Pokémon de su grupo. En la naturaleza, la batalla termina.",
+    type: "DRAGON",
     power: 60,
     accuracy: 90,
     new: false,
@@ -865,8 +1055,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONDARTS",
-    name: "Dragon Darts",
-    type: "Dragon",
+    name: "Dracoflechas",
+    description:
+      "El usuario ataca dos veces usando Dreepy. Si hay dos objetivos, este movimiento golpea a cada uno de ellos una vez.",
+    type: "DRAGON",
     power: 50,
     accuracy: 100,
     new: false,
@@ -874,8 +1066,10 @@ export const movesData = [
   },
   {
     internalName: "DUALCHOP",
-    name: "Dual Chop",
-    type: "Dragon",
+    name: "Golpe Bis",
+    description:
+      "El usuario ataca a su objetivo golpeándolo con golpes brutales. El objetivo recibe dos impactos seguidos.",
+    type: "DRAGON",
     power: 40,
     accuracy: 90,
     new: false,
@@ -883,8 +1077,10 @@ export const movesData = [
   },
   {
     internalName: "TWISTER",
-    name: "Twister",
-    type: "Dragon",
+    name: "Ciclón",
+    description:
+      "El usuario genera un tornado feroz para destrozar al equipo contrario. También puede hacer que los objetivos se estremezcan.",
+    type: "DRAGON",
     power: 40,
     accuracy: 100,
     new: false,
@@ -892,8 +1088,10 @@ export const movesData = [
   },
   {
     internalName: "SCALESHOT",
-    name: "Scale Shot",
-    type: "Dragon",
+    name: "Ráfaga Escamas",
+    description:
+      "Ataca disparando escamas de dos a cinco veces seguidas. Aumenta la velocidad del usuario pero reduce su defensa.",
+    type: "DRAGON",
     power: 25,
     accuracy: 90,
     new: false,
@@ -901,8 +1099,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONRAGE",
-    name: "Dragon Rage",
-    type: "Dragon",
+    name: "Furia Dragón",
+    description:
+      "Este ataque golpea al objetivo con una onda expansiva de pura rabia. Este ataque siempre inflige 40 HP de daño.",
+    type: "DRAGON",
     power: 1,
     accuracy: 100,
     new: false,
@@ -910,8 +1110,10 @@ export const movesData = [
   },
   {
     internalName: "CLANGOROUSSOUL",
-    name: "Clangorous Soul",
-    type: "Dragon",
+    name: "Estruendo Escama",
+    description:
+      "El usuario aumenta todas sus estadísticas utilizando parte de su HP.",
+    type: "DRAGON",
     power: 0,
     accuracy: 0,
     new: false,
@@ -919,8 +1121,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONCHEER",
-    name: "Dragon Cheer",
-    type: "Dragon",
+    name: "Bramido Dragón",
+    description:
+      "El usuario eleva la moral de sus aliados con un grito dracónico. Esto aumenta sus posibilidades de asestar golpes críticos.",
+    type: "DRAGON",
     power: 0,
     accuracy: 0,
     new: false,
@@ -928,8 +1132,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONDANCE",
-    name: "Dragon Dance",
-    type: "Dragon",
+    name: "Danza Dragón",
+    description:
+      "El usuario realiza vigorosamente una danza mística y poderosa que aumenta sus estadísticas de ataque y velocidad.",
+    type: "DRAGON",
     power: 0,
     accuracy: 0,
     new: false,
@@ -937,8 +1143,10 @@ export const movesData = [
   },
   {
     internalName: "BOLTSTRIKE",
-    name: "Bolt Strike",
-    type: "Electric",
+    name: "Ataque Fulgor",
+    description:
+      "El usuario carga contra su enemigo, rodeándose de relámpagos. También puede dejar al objetivo paralizado.",
+    type: "ELECTRIC",
     power: 130,
     accuracy: 85,
     new: false,
@@ -946,8 +1154,10 @@ export const movesData = [
   },
   {
     internalName: "ELECTROSHOT",
-    name: "Electro Shot",
-    type: "Electric",
+    name: "Electrorrayo",
+    description:
+      "El usuario recoge electricidad y aumenta su Sp. Estadística de ataque, luego ataca en el siguiente turno.",
+    type: "ELECTRIC",
     power: 130,
     accuracy: 100,
     new: false,
@@ -955,8 +1165,10 @@ export const movesData = [
   },
   {
     internalName: "DOUBLESHOCK",
-    name: "Double Shock",
-    type: "Electric",
+    name: "Electropalmas",
+    description:
+      "El usuario descarga toda la electricidad de su cuerpo. El usuario ya no será del tipo Eléctrico.",
+    type: "ELECTRIC",
     power: 120,
     accuracy: 100,
     new: false,
@@ -964,8 +1176,10 @@ export const movesData = [
   },
   {
     internalName: "VOLTTACKLE",
-    name: "Volt Tackle",
-    type: "Electric",
+    name: "Placaje Eléctrico",
+    description:
+      "El usuario se electrifica y luego carga contra el enemigo. También causa daños considerables al usuario.",
+    type: "ELECTRIC",
     power: 120,
     accuracy: 100,
     new: false,
@@ -973,8 +1187,10 @@ export const movesData = [
   },
   {
     internalName: "ZAPCANNON",
-    name: "Zap Cannon",
-    type: "Electric",
+    name: "Electrocañón",
+    description:
+      "El usuario dispara una ráfaga eléctrica como un cañón para infligir daño y provocar parálisis.",
+    type: "ELECTRIC",
     power: 120,
     accuracy: 50,
     new: false,
@@ -982,8 +1198,10 @@ export const movesData = [
   },
   {
     internalName: "AURAWHEEL",
-    name: "Aura Wheel",
-    type: "Electric",
+    name: "Rueda Aural",
+    description:
+      "Morpeko ataca y aumenta su velocidad con la energía almacenada en sus mejillas. El tipo cambia con el formulario del usuario.",
+    type: "ELECTRIC",
     power: 110,
     accuracy: 100,
     new: false,
@@ -991,8 +1209,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDER",
-    name: "Thunder",
-    type: "Electric",
+    name: "Trueno",
+    description:
+      "Un malvado rayo cae sobre el enemigo para infligir daño. También puede dejar al objetivo paralizado.",
+    type: "ELECTRIC",
     power: 110,
     accuracy: 70,
     new: false,
@@ -1000,8 +1220,10 @@ export const movesData = [
   },
   {
     internalName: "ELECTRODRIFT",
-    name: "Electro Drift",
-    type: "Electric",
+    name: "Electroderrape",
+    description:
+      "El usuario corre hacia adelante, atravesando con electricidad futurista. Un golpe superefectivo causa más daño.",
+    type: "ELECTRIC",
     power: 100,
     accuracy: 100,
     new: false,
@@ -1009,8 +1231,10 @@ export const movesData = [
   },
   {
     internalName: "FUSIONBOLT",
-    name: "Fusion Bolt",
-    type: "Electric",
+    name: "Rayo Fusión",
+    description:
+      "El usuario lanza un rayo gigante. Hace más daño si es influenciado por una llama enorme.",
+    type: "ELECTRIC",
     power: 100,
     accuracy: 100,
     new: false,
@@ -1018,8 +1242,10 @@ export const movesData = [
   },
   {
     internalName: "PLASMAFISTS",
-    name: "Plasma Fists",
-    type: "Electric",
+    name: "Puños Plasma",
+    description:
+      "El usuario ataca con puños cargados eléctricamente. Los movimientos de tipo normal se vuelven de tipo eléctrico.",
+    type: "ELECTRIC",
     power: 100,
     accuracy: 100,
     new: false,
@@ -1027,8 +1253,10 @@ export const movesData = [
   },
   {
     internalName: "SUPERCELLSLAM",
-    name: "Supercell Slam",
-    type: "Electric",
+    name: "Plancha Voltaica",
+    description:
+      "El usuario se electrifica y cae sobre el objetivo. Si este movimiento falla, el usuario sufre daño.",
+    type: "ELECTRIC",
     power: 100,
     accuracy: 95,
     new: false,
@@ -1036,8 +1264,10 @@ export const movesData = [
   },
   {
     internalName: "WILDBOLTSTORM",
-    name: "Wildbolt Storm",
-    type: "Electric",
+    name: "Electormenta",
+    description:
+      "El usuario ataca salvajemente con rayos y viento. Esto también puede dejar a los oponentes con parálisis.",
+    type: "ELECTRIC",
     power: 100,
     accuracy: 80,
     new: false,
@@ -1045,8 +1275,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDERBOLT",
-    name: "Thunderbolt",
-    type: "Electric",
+    name: "Rayo",
+    description:
+      "Se lanza una fuerte ráfaga eléctrica contra el objetivo. También puede dejar al objetivo con parálisis.",
+    type: "ELECTRIC",
     power: 90,
     accuracy: 100,
     new: false,
@@ -1054,8 +1286,10 @@ export const movesData = [
   },
   {
     internalName: "WILDCHARGE",
-    name: "Wild Charge",
-    type: "Electric",
+    name: "Voltio Cruel",
+    description:
+      "El usuario se envuelve en electricidad y choca contra su enemigo. También daña un poco al usuario.",
+    type: "ELECTRIC",
     power: 90,
     accuracy: 100,
     new: false,
@@ -1063,8 +1297,10 @@ export const movesData = [
   },
   {
     internalName: "BOLTBEAK",
-    name: "Bolt Beak",
-    type: "Electric",
+    name: "Electropico",
+    description:
+      "Apuñala al objetivo con un pico electrificado. El poder se duplica si el usuario ataca primero.",
+    type: "ELECTRIC",
     power: 85,
     accuracy: 100,
     new: false,
@@ -1072,8 +1308,10 @@ export const movesData = [
   },
   {
     internalName: "DISCHARGE",
-    name: "Discharge",
-    type: "Electric",
+    name: "Chispazo",
+    description:
+      "Se suelta una llamarada de electricidad que golpea el área alrededor del usuario. También puede causar parálisis.",
+    type: "ELECTRIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -1081,8 +1319,10 @@ export const movesData = [
   },
   {
     internalName: "OVERDRIVE",
-    name: "Overdrive",
-    type: "Electric",
+    name: "Amplificador",
+    description:
+      "El usuario ataca a todos los enemigos tocando una guitarra o un bajo, provocando un gran eco y una fuerte vibración.",
+    type: "ELECTRIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -1090,8 +1330,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDERCAGE",
-    name: "Thunder Cage",
-    type: "Electric",
+    name: "Electrojaula",
+    description:
+      "El usuario atrapa al objetivo en una jaula de chispas eléctricas durante cuatro o cinco vueltas.",
+    type: "ELECTRIC",
     power: 80,
     accuracy: 90,
     new: false,
@@ -1099,8 +1341,10 @@ export const movesData = [
   },
   {
     internalName: "ZINGZAP",
-    name: "Zing Zap",
-    type: "Electric",
+    name: "Electropunzada",
+    description:
+      "Una fuerte ráfaga eléctrica cae sobre el objetivo. Esto también puede hacer que el objetivo se estremezca.",
+    type: "ELECTRIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -1108,8 +1352,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDERPUNCH",
-    name: "Thunder Punch",
-    type: "Electric",
+    name: "Puño Trueno",
+    description:
+      "El objetivo es golpeado con un puño electrificado. También puede dejar al objetivo con parálisis.",
+    type: "ELECTRIC",
     power: 75,
     accuracy: 100,
     new: false,
@@ -1117,8 +1363,10 @@ export const movesData = [
   },
   {
     internalName: "RISINGVOLTAGE",
-    name: "Rising Voltage",
-    type: "Electric",
+    name: "Alto Voltaje",
+    description:
+      "El usuario ataca con voltaje eléctrico que se eleva desde el suelo. La potencia se duplica en Electric Terrain.",
+    type: "ELECTRIC",
     power: 70,
     accuracy: 100,
     new: false,
@@ -1126,8 +1374,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDERCLAP",
-    name: "Thunderclap",
-    type: "Electric",
+    name: "Relámpago Súbito",
+    description:
+      "El usuario ataca primero con una descarga eléctrica. Falla si el objetivo no está preparado para un ataque.",
+    type: "ELECTRIC",
     power: 70,
     accuracy: 100,
     new: false,
@@ -1135,8 +1385,10 @@ export const movesData = [
   },
   {
     internalName: "VOLTSWITCH",
-    name: "Volt Switch",
-    type: "Electric",
+    name: "Voltiocambio",
+    description:
+      "Después de realizar su ataque, el usuario regresa corriendo para cambiar de lugar con un Pokémon del grupo esperando.",
+    type: "ELECTRIC",
     power: 70,
     accuracy: 100,
     new: false,
@@ -1144,8 +1396,10 @@ export const movesData = [
   },
   {
     internalName: "PARABOLICCHARGE",
-    name: "Parabolic Charge",
-    type: "Electric",
+    name: "Carga Parábola",
+    description:
+      "El usuario ataca todo lo que le rodea. El HP del usuario se recupera con la mitad del daño causado.",
+    type: "ELECTRIC",
     power: 65,
     accuracy: 100,
     new: false,
@@ -1153,8 +1407,10 @@ export const movesData = [
   },
   {
     internalName: "SPARK",
-    name: "Spark",
-    type: "Electric",
+    name: "Chispa",
+    description:
+      "El usuario lanza un tackle cargado eléctricamente al objetivo. También puede dejar al objetivo con parálisis.",
+    type: "ELECTRIC",
     power: 65,
     accuracy: 100,
     new: false,
@@ -1162,8 +1418,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDERFANG",
-    name: "Thunder Fang",
-    type: "Electric",
+    name: "Colmillo Rayo",
+    description:
+      "El usuario muerde con colmillos electrificados. También puede hacer que el objetivo se estremezca o lo deje parálisis.",
+    type: "ELECTRIC",
     power: 65,
     accuracy: 95,
     new: false,
@@ -1171,8 +1429,10 @@ export const movesData = [
   },
   {
     internalName: "SHOCKWAVE",
-    name: "Shock Wave",
-    type: "Electric",
+    name: "Onda Voltio",
+    description:
+      "El usuario golpea al objetivo con una rápida descarga eléctrica. Este ataque no se puede evadir.",
+    type: "ELECTRIC",
     power: 60,
     accuracy: 0,
     new: false,
@@ -1180,8 +1440,10 @@ export const movesData = [
   },
   {
     internalName: "ELECTROWEB",
-    name: "Electroweb",
-    type: "Electric",
+    name: "Electrotela",
+    description:
+      "El usuario captura y ataca a los enemigos usando una red eléctrica, lo que reduce su estadística de Velocidad.",
+    type: "ELECTRIC",
     power: 55,
     accuracy: 95,
     new: false,
@@ -1189,8 +1451,10 @@ export const movesData = [
   },
   {
     internalName: "CHARGEBEAM",
-    name: "Charge Beam",
-    type: "Electric",
+    name: "Rayo Carga",
+    description:
+      "El usuario dispara un haz concentrado de electricidad. También puede aumentar la Sp del usuario. Estadística de ataque.",
+    type: "ELECTRIC",
     power: 50,
     accuracy: 90,
     new: false,
@@ -1198,8 +1462,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDERSHOCK",
-    name: "Thunder Shock",
-    type: "Electric",
+    name: "Impactrueno",
+    description:
+      "Se lanza una descarga eléctrica al enemigo para infligir daño. También puede dejar al objetivo con parálisis.",
+    type: "ELECTRIC",
     power: 40,
     accuracy: 100,
     new: false,
@@ -1207,8 +1473,10 @@ export const movesData = [
   },
   {
     internalName: "NUZZLE",
-    name: "Nuzzle",
-    type: "Electric",
+    name: "Moflete Estático",
+    description:
+      "El usuario acaricia sus mejillas electrificadas contra el objetivo. Esto también deja al objetivo con parálisis.",
+    type: "ELECTRIC",
     power: 20,
     accuracy: 100,
     new: false,
@@ -1216,8 +1484,10 @@ export const movesData = [
   },
   {
     internalName: "ELECTROBALL",
-    name: "Electro Ball",
-    type: "Electric",
+    name: "Bola Voltio",
+    description:
+      "El usuario lanza un orbe eléctrico al enemigo. Hace más daño cuanto más rápido es el usuario.",
+    type: "ELECTRIC",
     power: 1,
     accuracy: 100,
     new: false,
@@ -1225,8 +1495,10 @@ export const movesData = [
   },
   {
     internalName: "CHARGE",
-    name: "Charge",
-    type: "Electric",
+    name: "Carga",
+    description:
+      "El usuario aumenta el poder del movimiento eléctrico que utiliza a continuación. También aumenta la Sp del usuario. Estadística de definición.",
+    type: "ELECTRIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1234,8 +1506,10 @@ export const movesData = [
   },
   {
     internalName: "EERIEIMPULSE",
-    name: "Eerie Impulse",
-    type: "Electric",
+    name: "Onda Anómala",
+    description:
+      "El cuerpo del usuario genera un impulso espeluznante. Reduce drásticamente el Sp del objetivo. Estadística de ataque.",
+    type: "ELECTRIC",
     power: 0,
     accuracy: 100,
     new: false,
@@ -1243,8 +1517,10 @@ export const movesData = [
   },
   {
     internalName: "ELECTRICTERRAIN",
-    name: "Electric Terrain",
-    type: "Electric",
+    name: "Campo Eléctrico",
+    description:
+      "El usuario electrifica el suelo durante cinco vueltas. Los Pokémon en el suelo ya no se duermen.",
+    type: "ELECTRIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1252,8 +1528,10 @@ export const movesData = [
   },
   {
     internalName: "ELECTRIFY",
-    name: "Electrify",
-    type: "Electric",
+    name: "Electrificación",
+    description:
+      "Si el objetivo usa un movimiento después de ser electrificado, ese movimiento se vuelve de tipo Eléctrico.",
+    type: "ELECTRIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1261,8 +1539,10 @@ export const movesData = [
   },
   {
     internalName: "IONDELUGE",
-    name: "Ion Deluge",
-    type: "Electric",
+    name: "Cortina Plasma",
+    description:
+      "El usuario dispersa partículas cargadas eléctricamente. Los movimientos de tipo normal se vuelven de tipo eléctrico.",
+    type: "ELECTRIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1270,8 +1550,10 @@ export const movesData = [
   },
   {
     internalName: "MAGNETRISE",
-    name: "Magnet Rise",
-    type: "Electric",
+    name: "Levitón",
+    description:
+      "El usuario levita utilizando magnetismo generado eléctricamente durante cinco vueltas.",
+    type: "ELECTRIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1279,8 +1561,10 @@ export const movesData = [
   },
   {
     internalName: "MAGNETICFLUX",
-    name: "Magnetic Flux",
-    type: "Electric",
+    name: "Aura Magnética",
+    description:
+      "Manipula campos magnéticos para elevar la Defensa y Sp. Estadísticas de definición de aliados con habilidades más o menos.",
+    type: "ELECTRIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1288,8 +1572,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDERWAVE",
-    name: "Thunder Wave",
-    type: "Electric",
+    name: "Onda Trueno",
+    description:
+      "Se lanza una débil carga eléctrica hacia el objetivo. Provoca parálisis si golpea.",
+    type: "ELECTRIC",
     power: 0,
     accuracy: 90,
     new: false,
@@ -1297,8 +1583,10 @@ export const movesData = [
   },
   {
     internalName: "LIGHTOFRUIN",
-    name: "Light of Ruin",
-    type: "Fairy",
+    name: "Luz Aniquiladora",
+    description:
+      "Dispara un poderoso rayo de luz extraído de la Flor Eterna. También daña mucho al usuario.",
+    type: "FAIRY",
     power: 140,
     accuracy: 90,
     new: false,
@@ -1306,8 +1594,10 @@ export const movesData = [
   },
   {
     internalName: "FLEURCANNON",
-    name: "Fleur Cannon",
-    type: "Fairy",
+    name: "Cañón Floral",
+    description:
+      "El usuario desata un fuerte rayo. El retroceso del ataque reduce drásticamente el Sp del usuario. Estadística de ataque.",
+    type: "FAIRY",
     power: 130,
     accuracy: 90,
     new: false,
@@ -1315,8 +1605,10 @@ export const movesData = [
   },
   {
     internalName: "MISTYEXPLOSION",
-    name: "Misty Explosion",
-    type: "Fairy",
+    name: "Bruma Explosiva",
+    description:
+      "El usuario ataca todo a su alrededor y se desmaya al usar este movimiento. El poder aumenta en Misty Terrain.",
+    type: "FAIRY",
     power: 100,
     accuracy: 100,
     new: false,
@@ -1324,8 +1616,10 @@ export const movesData = [
   },
   {
     internalName: "SPRINGTIDESTORM",
-    name: "Springtide Storm",
-    type: "Fairy",
+    name: "Ciclón Primavera",
+    description:
+      "El usuario ataca con vientos feroces rebosantes de amor y odio. Esto también puede reducir las estadísticas de ataque de los enemigos.",
+    type: "FAIRY",
     power: 100,
     accuracy: 80,
     new: false,
@@ -1333,8 +1627,10 @@ export const movesData = [
   },
   {
     internalName: "MOONBLAST",
-    name: "Moonblast",
-    type: "Fairy",
+    name: "Fuerza Lunar",
+    description:
+      "El usuario ataca tomando prestado el poder de la luna. Esto también puede reducir la Sp del objetivo. Estadística de ataque.",
+    type: "FAIRY",
     power: 95,
     accuracy: 100,
     new: false,
@@ -1342,8 +1638,10 @@ export const movesData = [
   },
   {
     internalName: "PLAYROUGH",
-    name: "Play Rough",
-    type: "Fairy",
+    name: "Carantoña",
+    description:
+      "El usuario juega bruscamente con el objetivo y lo ataca. Esto también puede reducir la estadística de ataque del objetivo.",
+    type: "FAIRY",
     power: 90,
     accuracy: 90,
     new: false,
@@ -1351,8 +1649,10 @@ export const movesData = [
   },
   {
     internalName: "STRANGESTEAM",
-    name: "Strange Steam",
-    type: "Fairy",
+    name: "Cautivapor",
+    description:
+      "El usuario ataca al objetivo emitiendo vapor. Esto también puede confundir al objetivo.",
+    type: "FAIRY",
     power: 90,
     accuracy: 95,
     new: false,
@@ -1360,8 +1660,10 @@ export const movesData = [
   },
   {
     internalName: "ALLURINGVOICE",
-    name: "Alluring Voice",
-    type: "Fairy",
+    name: "Canto Encantador",
+    description:
+      "El usuario ataca con su voz angelical. Esto también confunde al objetivo si sus estadísticas aumentaron este turno.",
+    type: "FAIRY",
     power: 80,
     accuracy: 100,
     new: false,
@@ -1369,8 +1671,10 @@ export const movesData = [
   },
   {
     internalName: "DAZZLINGGLEAM",
-    name: "Dazzling Gleam",
-    type: "Fairy",
+    name: "Brillo Mágico",
+    description:
+      "El usuario daña al Pokémon contrario emitiendo un poderoso destello.",
+    type: "FAIRY",
     power: 80,
     accuracy: 100,
     new: false,
@@ -1378,8 +1682,10 @@ export const movesData = [
   },
   {
     internalName: "SPIRITBREAK",
-    name: "Spirit Break",
-    type: "Fairy",
+    name: "Choque Anímico",
+    description:
+      "El usuario ataca al objetivo con inmensa fuerza. Esto también reduce el Sp del objetivo. Estadística de ataque.",
+    type: "FAIRY",
     power: 75,
     accuracy: 100,
     new: false,
@@ -1387,8 +1693,10 @@ export const movesData = [
   },
   {
     internalName: "DRAININGKISS",
-    name: "Draining Kiss",
-    type: "Fairy",
+    name: "Beso Drenaje",
+    description:
+      "El usuario roba el HP del objetivo con un beso. El HP del usuario se recupera en más de la mitad del daño infligido.",
+    type: "FAIRY",
     power: 50,
     accuracy: 100,
     new: false,
@@ -1396,8 +1704,10 @@ export const movesData = [
   },
   {
     internalName: "DISARMINGVOICE",
-    name: "Disarming Voice",
-    type: "Fairy",
+    name: "Voz Cautivadora",
+    description:
+      "Al soltar un grito encantador, el usuario causa daño emocional a los enemigos. Este ataque nunca falla.",
+    type: "FAIRY",
     power: 40,
     accuracy: 0,
     new: false,
@@ -1405,8 +1715,10 @@ export const movesData = [
   },
   {
     internalName: "FAIRYWIND",
-    name: "Fairy Wind",
-    type: "Fairy",
+    name: "Viento Feérico",
+    description:
+      "El usuario provoca un viento mágico y golpea al objetivo con él.",
+    type: "FAIRY",
     power: 40,
     accuracy: 100,
     new: false,
@@ -1414,8 +1726,10 @@ export const movesData = [
   },
   {
     internalName: "NATURESMADNESS",
-    name: "Nature's Madness",
-    type: "Fairy",
+    name: "Furia Natural",
+    description:
+      "El usuario golpea el objetivo con la fuerza de la naturaleza. Reduce a la mitad el HP del objetivo.",
+    type: "FAIRY",
     power: 1,
     accuracy: 90,
     new: false,
@@ -1423,8 +1737,10 @@ export const movesData = [
   },
   {
     internalName: "AROMATICMIST",
-    name: "Aromatic Mist",
-    type: "Fairy",
+    name: "Niebla Aromática",
+    description:
+      "El usuario eleva el Sp. Def stat de un Pokémon aliado usando un aroma misterioso.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1432,8 +1748,10 @@ export const movesData = [
   },
   {
     internalName: "BABYDOLLEYES",
-    name: "Baby-Doll Eyes",
-    type: "Fairy",
+    name: "Ojitos Tiernos",
+    description:
+      "El usuario mira fijamente con sus ojos de muñeca, lo que reduce la estadística de ataque del objetivo. Siempre va primero.",
+    type: "FAIRY",
     power: 0,
     accuracy: 100,
     new: false,
@@ -1441,8 +1759,10 @@ export const movesData = [
   },
   {
     internalName: "CHARM",
-    name: "Charm",
-    type: "Fairy",
+    name: "Encanto",
+    description:
+      "El usuario mira encantadoramente al enemigo, haciéndolo menos cauteloso. El ataque del objetivo se reduce drásticamente.",
+    type: "FAIRY",
     power: 0,
     accuracy: 100,
     new: false,
@@ -1450,8 +1770,10 @@ export const movesData = [
   },
   {
     internalName: "CRAFTYSHIELD",
-    name: "Crafty Shield",
-    type: "Fairy",
+    name: "Truco Defensa",
+    description:
+      "El usuario se protege a sí mismo y a sus aliados de los movimientos de estado con un poder misterioso.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1459,8 +1781,10 @@ export const movesData = [
   },
   {
     internalName: "DECORATE",
-    name: "Decorate",
-    type: "Fairy",
+    name: "Decoración",
+    description:
+      "El usuario aumenta bruscamente el Ataque y Sp del objetivo. Estadísticas de ataque decorando el objetivo.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1468,8 +1792,10 @@ export const movesData = [
   },
   {
     internalName: "FAIRYLOCK",
-    name: "Fairy Lock",
-    type: "Fairy",
+    name: "Cerrojo Feérico",
+    description:
+      "Al bloquear el campo de batalla, el usuario evita que todos los Pokémon huyan durante el siguiente turno.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1477,8 +1803,10 @@ export const movesData = [
   },
   {
     internalName: "FLORALHEALING",
-    name: "Floral Healing",
-    type: "Fairy",
+    name: "Cura Floral",
+    description:
+      "El usuario restaura el HP del objetivo hasta en la mitad de su HP máximo. Restaura más HP cuando el terreno es pasto.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1486,8 +1814,10 @@ export const movesData = [
   },
   {
     internalName: "FLOWERSHIELD",
-    name: "Flower Shield",
-    type: "Fairy",
+    name: "Defensa Floral",
+    description:
+      "El usuario aumenta las estadísticas de Defensa de todos los Pokémon de tipo Planta en batalla con un poder misterioso.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1495,8 +1825,10 @@ export const movesData = [
   },
   {
     internalName: "GEOMANCY",
-    name: "Geomancy",
-    type: "Fairy",
+    name: "Geocontrol",
+    description:
+      "El usuario absorbe energía y aumenta bruscamente su Sp. Atk, sp. Estadísticas de Def y Velocidad en el siguiente turno.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1504,8 +1836,10 @@ export const movesData = [
   },
   {
     internalName: "MISTYTERRAIN",
-    name: "Misty Terrain",
-    type: "Fairy",
+    name: "Campo de Niebla",
+    description:
+      "El usuario cubre el suelo con niebla durante cinco turnos. Los Pokémon en tierra no pueden obtener condiciones de estado.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1513,8 +1847,10 @@ export const movesData = [
   },
   {
     internalName: "MOONLIGHT",
-    name: "Moonlight",
-    type: "Fairy",
+    name: "Luz Lunar",
+    description:
+      "El usuario restaura su propio HP. La cantidad de HP recuperada varía según el clima.",
+    type: "FAIRY",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1522,8 +1858,10 @@ export const movesData = [
   },
   {
     internalName: "SWEETKISS",
-    name: "Sweet Kiss",
-    type: "Fairy",
+    name: "Beso Dulce",
+    description:
+      "El usuario besa al objetivo con una ternura dulce y angelical que causa confusión.",
+    type: "FAIRY",
     power: 0,
     accuracy: 75,
     new: false,
@@ -1531,8 +1869,10 @@ export const movesData = [
   },
   {
     internalName: "FOCUSPUNCH",
-    name: "Focus Punch",
-    type: "Fighting",
+    name: "Puño Certero",
+    description:
+      "El usuario enfoca su mente antes de lanzar un puñetazo. Fallará si el usuario es golpeado antes de usarlo.",
+    type: "FIGHTING",
     power: 150,
     accuracy: 100,
     new: false,
@@ -1540,8 +1880,10 @@ export const movesData = [
   },
   {
     internalName: "METEORASSAULT",
-    name: "Meteor Assault",
-    type: "Fighting",
+    name: "Asalto Estelar",
+    description:
+      "El usuario ataca salvajemente con su espeso puerro. El usuario no puede moverse en el siguiente turno.",
+    type: "FIGHTING",
     power: 150,
     accuracy: 100,
     new: false,
@@ -1549,8 +1891,10 @@ export const movesData = [
   },
   {
     internalName: "HIGHJUMPKICK",
-    name: "High Jump Kick",
-    type: "Fighting",
+    name: "Patada Salto Alta",
+    description:
+      "El objetivo es atacado con una patada en la rodilla tras un salto. Si falla, el usuario resulta herido.",
+    type: "FIGHTING",
     power: 130,
     accuracy: 90,
     new: false,
@@ -1558,8 +1902,10 @@ export const movesData = [
   },
   {
     internalName: "AXEKICK",
-    name: "Axe Kick",
-    type: "Fighting",
+    name: "Patada Hacha",
+    description:
+      "El usuario patea y golpea con el talón. Esto puede confundir al objetivo. Falta dañará al usuario.",
+    type: "FIGHTING",
     power: 120,
     accuracy: 90,
     new: false,
@@ -1567,8 +1913,10 @@ export const movesData = [
   },
   {
     internalName: "CLOSECOMBAT",
-    name: "Close Combat",
-    type: "Fighting",
+    name: "A Bocajarro",
+    description:
+      "El usuario lucha contra el enemigo de cerca sin protegerse. También corta la Defensa y Sp. del usuario. Def.",
+    type: "FIGHTING",
     power: 120,
     accuracy: 100,
     new: false,
@@ -1576,8 +1924,10 @@ export const movesData = [
   },
   {
     internalName: "FOCUSBLAST",
-    name: "Focus Blast",
-    type: "Fighting",
+    name: "Onda Certera",
+    description:
+      "El usuario aumenta su concentración mental y desata su poder. También puede reducir el Sp del objetivo. Def.",
+    type: "FIGHTING",
     power: 120,
     accuracy: 70,
     new: false,
@@ -1585,8 +1935,10 @@ export const movesData = [
   },
   {
     internalName: "SUPERPOWER",
-    name: "Superpower",
-    type: "Fighting",
+    name: "Fuerza Bruta",
+    description:
+      "El usuario ataca al objetivo con gran poder. Sin embargo, también reduce el ataque y la defensa del usuario.",
+    type: "FIGHTING",
     power: 120,
     accuracy: 100,
     new: false,
@@ -1594,8 +1946,10 @@ export const movesData = [
   },
   {
     internalName: "COLLISIONCOURSE",
-    name: "Collision Course",
-    type: "Fighting",
+    name: "Nitrochoque",
+    description:
+      "El usuario falla y provoca una explosión prehistórica masiva. Un golpe superefectivo causa más daño.",
+    type: "FIGHTING",
     power: 100,
     accuracy: 100,
     new: false,
@@ -1603,8 +1957,10 @@ export const movesData = [
   },
   {
     internalName: "CROSSCHOP",
-    name: "Cross Chop",
-    type: "Fighting",
+    name: "Tajo Cruzado",
+    description:
+      "El usuario realiza un doble golpe con los antebrazos cruzados. Los golpes críticos aterrizan más fácilmente.",
+    type: "FIGHTING",
     power: 100,
     accuracy: 80,
     new: false,
@@ -1612,8 +1968,10 @@ export const movesData = [
   },
   {
     internalName: "DYNAMICPUNCH",
-    name: "Dynamic Punch",
-    type: "Fighting",
+    name: "Puño Dinámico",
+    description:
+      "El usuario golpea al objetivo con toda su potencia concentrada. Confunde al objetivo si golpea.",
+    type: "FIGHTING",
     power: 100,
     accuracy: 50,
     new: false,
@@ -1621,8 +1979,10 @@ export const movesData = [
   },
   {
     internalName: "FLYINGPRESS",
-    name: "Flying Press",
-    type: "Fighting",
+    name: "Plancha Voladora",
+    description:
+      "El usuario se lanza hacia el objetivo desde el cielo. Este movimiento es de tipo Luchar y Volar simultáneamente.",
+    type: "FIGHTING",
     power: 100,
     accuracy: 95,
     new: false,
@@ -1630,8 +1990,10 @@ export const movesData = [
   },
   {
     internalName: "HAMMERARM",
-    name: "Hammer Arm",
-    type: "Fighting",
+    name: "Machada",
+    description:
+      "El usuario balancea y golpea con su puño fuerte y pesado. Sin embargo, reduce la velocidad del usuario.",
+    type: "FIGHTING",
     power: 100,
     accuracy: 90,
     new: false,
@@ -1639,8 +2001,10 @@ export const movesData = [
   },
   {
     internalName: "JUMPKICK",
-    name: "Jump Kick",
-    type: "Fighting",
+    name: "Patada Salto",
+    description:
+      "El usuario salta alto y luego golpea con una patada. Si la patada falla, el usuario se lastima.",
+    type: "FIGHTING",
     power: 100,
     accuracy: 95,
     new: false,
@@ -1648,8 +2012,10 @@ export const movesData = [
   },
   {
     internalName: "SACREDSWORD",
-    name: "Sacred Sword",
-    type: "Fighting",
+    name: "Espada Santa",
+    description:
+      "El usuario ataca cortando con sus largos cuernos. Los cambios de estadísticas del objetivo no afectan el daño.",
+    type: "FIGHTING",
     power: 90,
     accuracy: 100,
     new: false,
@@ -1657,8 +2023,10 @@ export const movesData = [
   },
   {
     internalName: "THUNDEROUSKICK",
-    name: "Thunderous Kick",
-    type: "Fighting",
+    name: "Patada Relámpago",
+    description:
+      "Abruma al objetivo con un movimiento similar al de un rayo y luego patea. Reduce la estadística de Defensa del objetivo.",
+    type: "FIGHTING",
     power: 90,
     accuracy: 100,
     new: false,
@@ -1666,8 +2034,10 @@ export const movesData = [
   },
   {
     internalName: "TRIPLEARROWS",
-    name: "Triple Arrows",
-    type: "Fighting",
+    name: "Triple Flecha",
+    description:
+      "Es más probable que este movimiento sea un golpe crítico y también puede reducir la estadística de Defensa del objetivo o hacer que se estremezca.",
+    type: "FIGHTING",
     power: 90,
     accuracy: 100,
     new: false,
@@ -1675,8 +2045,10 @@ export const movesData = [
   },
   {
     internalName: "SECRETSWORD",
-    name: "Secret Sword",
-    type: "Fighting",
+    name: "Sable Místico",
+    description:
+      "El usuario corta con su largo cuerno. El extraño poder que contiene causa daño físico al enemigo.",
+    type: "FIGHTING",
     power: 85,
     accuracy: 100,
     new: false,
@@ -1684,8 +2056,10 @@ export const movesData = [
   },
   {
     internalName: "SKYUPPERCUT",
-    name: "Sky Uppercut",
-    type: "Fighting",
+    name: "Gancho Alto",
+    description:
+      "El usuario ataca al objetivo con un gancho lanzado hacia el cielo con fuerza.",
+    type: "FIGHTING",
     power: 85,
     accuracy: 90,
     new: false,
@@ -1693,8 +2067,10 @@ export const movesData = [
   },
   {
     internalName: "AURASPHERE",
-    name: "Aura Sphere",
-    type: "Fighting",
+    name: "Esfera Aural",
+    description:
+      "El usuario suelta una ráfaga de poder de aura desde lo más profundo de su cuerpo. Este movimiento seguramente tendrá éxito.",
+    type: "FIGHTING",
     power: 80,
     accuracy: 0,
     new: false,
@@ -1702,8 +2078,10 @@ export const movesData = [
   },
   {
     internalName: "BODYPRESS",
-    name: "Body Press",
-    type: "Fighting",
+    name: "Plancha Corporal",
+    description:
+      "El usuario ataca golpeando su cuerpo contra el objetivo. El poder aumenta cuanto mayor es la defensa del usuario.",
+    type: "FIGHTING",
     power: 80,
     accuracy: 100,
     new: false,
@@ -1711,8 +2089,10 @@ export const movesData = [
   },
   {
     internalName: "SUBMISSION",
-    name: "Submission",
-    type: "Fighting",
+    name: "Sumisión",
+    description:
+      "El usuario agarra el objetivo y se lanza imprudentemente al suelo. También duele levemente al usuario.",
+    type: "FIGHTING",
     power: 80,
     accuracy: 80,
     new: false,
@@ -1720,8 +2100,10 @@ export const movesData = [
   },
   {
     internalName: "BRICKBREAK",
-    name: "Brick Break",
-    type: "Fighting",
+    name: "Demolición",
+    description:
+      "El usuario ataca con un golpe rápido. También puede romper cualquier barrera como Light Screen y Reflect.",
+    type: "FIGHTING",
     power: 75,
     accuracy: 100,
     new: false,
@@ -1729,8 +2111,10 @@ export const movesData = [
   },
   {
     internalName: "DRAINPUNCH",
-    name: "Drain Punch",
-    type: "Fighting",
+    name: "Puño Drenaje",
+    description:
+      "Un puñetazo que drena la energía. El HP del usuario se restaura con la mitad del daño recibido por el objetivo.",
+    type: "FIGHTING",
     power: 75,
     accuracy: 100,
     new: false,
@@ -1738,8 +2122,10 @@ export const movesData = [
   },
   {
     internalName: "VITALTHROW",
-    name: "Vital Throw",
-    type: "Fighting",
+    name: "Llave Vital",
+    description:
+      "El usuario ataca al último. A cambio, se garantiza que este movimiento de lanzamiento no fallará.",
+    type: "FIGHTING",
     power: 70,
     accuracy: 0,
     new: false,
@@ -1747,8 +2133,10 @@ export const movesData = [
   },
   {
     internalName: "WAKEUPSLAP",
-    name: "Wake-Up Slap",
-    type: "Fighting",
+    name: "Espabila",
+    description:
+      "Este ataque inflige un gran daño a un objetivo dormido. Sin embargo, también despierta al objetivo.",
+    type: "FIGHTING",
     power: 70,
     accuracy: 100,
     new: false,
@@ -1756,8 +2144,10 @@ export const movesData = [
   },
   {
     internalName: "LOWSWEEP",
-    name: "Low Sweep",
-    type: "Fighting",
+    name: "Puntapié",
+    description:
+      "El usuario ataca las piernas del objetivo rápidamente, reduciendo la estadística de Velocidad del objetivo.",
+    type: "FIGHTING",
     power: 65,
     accuracy: 100,
     new: false,
@@ -1765,8 +2155,10 @@ export const movesData = [
   },
   {
     internalName: "UPPERHAND",
-    name: "Upper Hand",
-    type: "Fighting",
+    name: "Palma Rauda",
+    description:
+      "El usuario golpea con la palma, haciendo que el objetivo se estremezca. Falla si el objetivo no utiliza un movimiento prioritario.",
+    type: "FIGHTING",
     power: 65,
     accuracy: 100,
     new: false,
@@ -1774,8 +2166,10 @@ export const movesData = [
   },
   {
     internalName: "CIRCLETHROW",
-    name: "Circle Throw",
-    type: "Fighting",
+    name: "Llave Giro",
+    description:
+      "El usuario lanza el objetivo y arrastra a otro Pokémon de su grupo. En la naturaleza, la batalla termina.",
+    type: "FIGHTING",
     power: 60,
     accuracy: 90,
     new: false,
@@ -1783,8 +2177,10 @@ export const movesData = [
   },
   {
     internalName: "FORCEPALM",
-    name: "Force Palm",
-    type: "Fighting",
+    name: "Palmeo",
+    description:
+      "El objetivo es atacado con una onda de choque. También puede dejar al objetivo con parálisis.",
+    type: "FIGHTING",
     power: 60,
     accuracy: 100,
     new: false,
@@ -1792,8 +2188,10 @@ export const movesData = [
   },
   {
     internalName: "REVENGE",
-    name: "Revenge",
-    type: "Fighting",
+    name: "Desquite",
+    description:
+      "Un movimiento de ataque que inflige el doble de daño si el enemigo ha herido al usuario en el mismo turno.",
+    type: "FIGHTING",
     power: 60,
     accuracy: 100,
     new: false,
@@ -1801,8 +2199,10 @@ export const movesData = [
   },
   {
     internalName: "ROLLINGKICK",
-    name: "Rolling Kick",
-    type: "Fighting",
+    name: "Patada Giro",
+    description:
+      "El usuario ataca con una patada rápida y giratoria. También puede hacer que el objetivo se estremezca.",
+    type: "FIGHTING",
     power: 60,
     accuracy: 85,
     new: false,
@@ -1810,8 +2210,10 @@ export const movesData = [
   },
   {
     internalName: "STORMTHROW",
-    name: "Storm Throw",
-    type: "Fighting",
+    name: "Llave Corsé",
+    description:
+      "El usuario golpea al objetivo con un golpe feroz. Este ataque siempre resulta en un golpe crítico.",
+    type: "FIGHTING",
     power: 60,
     accuracy: 100,
     new: false,
@@ -1819,8 +2221,10 @@ export const movesData = [
   },
   {
     internalName: "KARATECHOP",
-    name: "Karate Chop",
-    type: "Fighting",
+    name: "Golpe Kárate",
+    description:
+      "El objetivo es atacado con un golpe fuerte. Los golpes críticos aterrizan más fácilmente.",
+    type: "FIGHTING",
     power: 50,
     accuracy: 100,
     new: false,
@@ -1828,8 +2232,10 @@ export const movesData = [
   },
   {
     internalName: "MACHPUNCH",
-    name: "Mach Punch",
-    type: "Fighting",
+    name: "Ultrapuño",
+    description:
+      "El usuario lanza un puñetazo a una velocidad cegadora. Es seguro que atacará primero.",
+    type: "FIGHTING",
     power: 40,
     accuracy: 100,
     new: false,
@@ -1837,8 +2243,10 @@ export const movesData = [
   },
   {
     internalName: "POWERUPPUNCH",
-    name: "Power-Up Punch",
-    type: "Fighting",
+    name: "Puño Incremento",
+    description:
+      "Golpear repetidamente a los oponentes hace que los puños del usuario se vuelvan más duros, lo que aumenta su estadística de ataque.",
+    type: "FIGHTING",
     power: 40,
     accuracy: 100,
     new: false,
@@ -1846,8 +2254,10 @@ export const movesData = [
   },
   {
     internalName: "ROCKSMASH",
-    name: "Rock Smash",
-    type: "Fighting",
+    name: "Golpe Roca",
+    description:
+      "El usuario ataca con un puñetazo que puede romper una roca. También puede reducir la estadística de Defensa del enemigo.",
+    type: "FIGHTING",
     power: 40,
     accuracy: 100,
     new: false,
@@ -1855,8 +2265,10 @@ export const movesData = [
   },
   {
     internalName: "VACUUMWAVE",
-    name: "Vacuum Wave",
-    type: "Fighting",
+    name: "Onda Vacío",
+    description:
+      "El usuario gira sus puños para enviar una ola de puro vacío al objetivo. Este movimiento siempre va primero.",
+    type: "FIGHTING",
     power: 40,
     accuracy: 100,
     new: false,
@@ -1864,8 +2276,10 @@ export const movesData = [
   },
   {
     internalName: "DOUBLEKICK",
-    name: "Double Kick",
-    type: "Fighting",
+    name: "Doble Patada",
+    description:
+      "El objetivo recibe rápidamente dos patadas seguidas con ambos pies.",
+    type: "FIGHTING",
     power: 30,
     accuracy: 100,
     new: false,
@@ -1873,8 +2287,10 @@ export const movesData = [
   },
   {
     internalName: "ARMTHRUST",
-    name: "Arm Thrust",
-    type: "Fighting",
+    name: "Empujón",
+    description:
+      "El usuario suelta una ráfaga de empujones con el brazo con la palma abierta que golpean de dos a cinco veces seguidas.",
+    type: "FIGHTING",
     power: 15,
     accuracy: 100,
     new: false,
@@ -1882,8 +2298,10 @@ export const movesData = [
   },
   {
     internalName: "TRIPLEKICK",
-    name: "Triple Kick",
-    type: "Fighting",
+    name: "Triple Patada",
+    description:
+      "Un ataque consecutivo de tres patadas que se vuelve más poderoso con cada golpe sucesivo.",
+    type: "FIGHTING",
     power: 10,
     accuracy: 90,
     new: false,
@@ -1891,8 +2309,10 @@ export const movesData = [
   },
   {
     internalName: "COUNTER",
-    name: "Counter",
-    type: "Fighting",
+    name: "Contraataque",
+    description:
+      "Un movimiento de represalia que contrarresta cualquier ataque físico e inflige el doble del daño recibido.",
+    type: "FIGHTING",
     power: 1,
     accuracy: 100,
     new: false,
@@ -1900,8 +2320,10 @@ export const movesData = [
   },
   {
     internalName: "FINALGAMBIT",
-    name: "Final Gambit",
-    type: "Fighting",
+    name: "Sacrificio",
+    description:
+      "El usuario lo arriesga todo para atacar al enemigo. El usuario se desmaya pero causa un daño equivalente a su HP.",
+    type: "FIGHTING",
     power: 1,
     accuracy: 100,
     new: false,
@@ -1909,8 +2331,10 @@ export const movesData = [
   },
   {
     internalName: "LOWKICK",
-    name: "Low Kick",
-    type: "Fighting",
+    name: "Patada Baja",
+    description:
+      "Una poderosa patada baja que hace caer al enemigo. Inflige mayor daño a enemigos más pesados.",
+    type: "FIGHTING",
     power: 1,
     accuracy: 100,
     new: false,
@@ -1918,8 +2342,10 @@ export const movesData = [
   },
   {
     internalName: "REVERSAL",
-    name: "Reversal",
-    type: "Fighting",
+    name: "Inversión",
+    description:
+      "Un ataque total que se vuelve más poderoso cuanto menos HP tiene el usuario.",
+    type: "FIGHTING",
     power: 1,
     accuracy: 100,
     new: false,
@@ -1927,8 +2353,10 @@ export const movesData = [
   },
   {
     internalName: "SEISMICTOSS",
-    name: "Seismic Toss",
-    type: "Fighting",
+    name: "Sísmico",
+    description:
+      "El objetivo se lanza utilizando el poder de la gravedad. Inflige daño igual al nivel del usuario.",
+    type: "FIGHTING",
     power: 1,
     accuracy: 100,
     new: false,
@@ -1936,8 +2364,10 @@ export const movesData = [
   },
   {
     internalName: "BULKUP",
-    name: "Bulk Up",
-    type: "Fighting",
+    name: "Corpulencia",
+    description:
+      "El usuario tensa sus músculos para fortalecer su cuerpo, aumentando sus estadísticas de ataque y defensa.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1945,8 +2375,10 @@ export const movesData = [
   },
   {
     internalName: "COACHING",
-    name: "Coaching",
-    type: "Fighting",
+    name: "Motivación",
+    description:
+      "El usuario entrena adecuadamente a su Pokémon aliado, aumentando sus estadísticas de ataque y defensa.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1954,8 +2386,10 @@ export const movesData = [
   },
   {
     internalName: "DETECT",
-    name: "Detect",
-    type: "Fighting",
+    name: "Detección",
+    description:
+      "Permite al usuario evadir todos los ataques. Su probabilidad de fallar aumenta si se usa sucesivamente.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1963,8 +2397,10 @@ export const movesData = [
   },
   {
     internalName: "MATBLOCK",
-    name: "Mat Block",
-    type: "Fighting",
+    name: "Escudo Tatami",
+    description:
+      "Usando una alfombra levantada como escudo, el usuario se protege a sí mismo y a sus aliados de movimientos dañinos.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1972,8 +2408,10 @@ export const movesData = [
   },
   {
     internalName: "NORETREAT",
-    name: "No Retreat",
-    type: "Fighting",
+    name: "Bastión Final",
+    description:
+      "Este movimiento aumenta todas las estadísticas del usuario pero evita que el usuario cambie o huya.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1981,8 +2419,10 @@ export const movesData = [
   },
   {
     internalName: "OCTOLOCK",
-    name: "Octolock",
-    type: "Fighting",
+    name: "Octopresa",
+    description:
+      "Encierra al objetivo y evita que huya. También reduce la Defensa y Sp. del objetivo. Def en cada turno.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 100,
     new: false,
@@ -1990,8 +2430,10 @@ export const movesData = [
   },
   {
     internalName: "QUICKGUARD",
-    name: "Quick Guard",
-    type: "Fighting",
+    name: "Anticipo",
+    description:
+      "El usuario se protege a sí mismo y a sus aliados de movimientos prioritarios. Puede fallar si se usa en sucesión.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -1999,8 +2441,10 @@ export const movesData = [
   },
   {
     internalName: "VICTORYDANCE",
-    name: "Victory Dance",
-    type: "Fighting",
+    name: "Danza Triunfal",
+    description:
+      "El usuario baila intensamente para marcar el comienzo de la victoria, aumentando sus estadísticas de Ataque, Defensa y Velocidad.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2008,8 +2452,10 @@ export const movesData = [
   },
   {
     internalName: "VCREATE",
-    name: "V-create",
-    type: "Fire",
+    name: "V de Fuego",
+    description:
+      "Con una frente ardiente, el usuario se lanza contra el enemigo. Reduce la Defensa del usuario, Sp. Defensa y velocidad.",
+    type: "FIRE",
     power: 180,
     accuracy: 95,
     new: false,
@@ -2017,8 +2463,10 @@ export const movesData = [
   },
   {
     internalName: "BLASTBURN",
-    name: "Blast Burn",
-    type: "Fire",
+    name: "Anillo Ígneo",
+    description:
+      "El objetivo es arrasado por una explosión de fuego. Sin embargo, el usuario deberá descansar en el siguiente turno.",
+    type: "FIRE",
     power: 150,
     accuracy: 90,
     new: false,
@@ -2026,8 +2474,10 @@ export const movesData = [
   },
   {
     internalName: "ERUPTION",
-    name: "Eruption",
-    type: "Fire",
+    name: "Estallido",
+    description:
+      "El usuario ataca con furia explosiva. Cuanto menor sea el HP del usuario, menos poderoso se vuelve este ataque.",
+    type: "FIRE",
     power: 150,
     accuracy: 100,
     new: false,
@@ -2035,8 +2485,10 @@ export const movesData = [
   },
   {
     internalName: "MINDBLOWN",
-    name: "Mind Blown",
-    type: "Fire",
+    name: "Cabeza Sorpresa",
+    description:
+      "El usuario ataca todo haciendo explotar su propia cabeza. Esto también perjudica al usuario.",
+    type: "FIRE",
     power: 150,
     accuracy: 100,
     new: false,
@@ -2044,8 +2496,10 @@ export const movesData = [
   },
   {
     internalName: "SHELLTRAP",
-    name: "Shell Trap",
-    type: "Fire",
+    name: "Coraza Trampa",
+    description:
+      "El usuario coloca una trampa de concha. Si es golpeado por un movimiento físico, la trampa explota y lastima al atacante.",
+    type: "FIRE",
     power: 150,
     accuracy: 100,
     new: false,
@@ -2053,8 +2507,10 @@ export const movesData = [
   },
   {
     internalName: "BLUEFLARE",
-    name: "Blue Flare",
-    type: "Fire",
+    name: "Llama Azul",
+    description:
+      "El usuario ataca envolviendo al enemigo en una llama azul hermosa pero intensa. También puede quemar al enemigo.",
+    type: "FIRE",
     power: 130,
     accuracy: 85,
     new: false,
@@ -2062,8 +2518,10 @@ export const movesData = [
   },
   {
     internalName: "BURNUP",
-    name: "Burn Up",
-    type: "Fire",
+    name: "Llama Final",
+    description:
+      "Para infligir un daño masivo, el usuario se quema. El usuario ya no será del tipo Fuego.",
+    type: "FIRE",
     power: 130,
     accuracy: 100,
     new: false,
@@ -2071,8 +2529,10 @@ export const movesData = [
   },
   {
     internalName: "OVERHEAT",
-    name: "Overheat",
-    type: "Fire",
+    name: "Sofoco",
+    description:
+      "El usuario ataca al objetivo con toda su potencia. El retroceso del ataque reduce drásticamente el Sp del usuario. Estadística de ataque.",
+    type: "FIRE",
     power: 130,
     accuracy: 90,
     new: false,
@@ -2080,8 +2540,10 @@ export const movesData = [
   },
   {
     internalName: "ARMORCANNON",
-    name: "Armor Cannon",
-    type: "Fire",
+    name: "Cañón Armadura",
+    description:
+      "El usuario dispara su propia armadura como proyectiles llameantes. Esto también reduce la Defensa y Sp. del usuario. Def.",
+    type: "FIRE",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2089,8 +2551,10 @@ export const movesData = [
   },
   {
     internalName: "FLAREBLITZ",
-    name: "Flare Blitz",
-    type: "Fire",
+    name: "Envite Ígneo",
+    description:
+      "El usuario se envuelve en fuego y carga contra el enemigo. El usuario también sufre daño y puede quemar al objetivo.",
+    type: "FIRE",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2098,8 +2562,10 @@ export const movesData = [
   },
   {
     internalName: "PYROBALL",
-    name: "Pyro Ball",
-    type: "Fire",
+    name: "Balón Ígneo",
+    description:
+      "Ataca encendiendo una pequeña piedra y lanzándola como una bola de fuego. También puede quemar al objetivo.",
+    type: "FIRE",
     power: 120,
     accuracy: 90,
     new: false,
@@ -2107,8 +2573,10 @@ export const movesData = [
   },
   {
     internalName: "RAGINGFURY",
-    name: "Raging Fury",
-    type: "Fire",
+    name: "Erupción de Ira",
+    description:
+      "El usuario arrasa arrojando llamas durante dos o tres turnos. Entonces el usuario se confunde.",
+    type: "FIRE",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2116,8 +2584,10 @@ export const movesData = [
   },
   {
     internalName: "FIREBLAST",
-    name: "Fire Blast",
-    type: "Fire",
+    name: "Llamarada",
+    description:
+      "El enemigo es atacado con una intensa ráfaga de fuego devorador. También puede dejar al objetivo con una quemadura.",
+    type: "FIRE",
     power: 110,
     accuracy: 85,
     new: false,
@@ -2125,8 +2595,10 @@ export const movesData = [
   },
   {
     internalName: "FUSIONFLARE",
-    name: "Fusion Flare",
-    type: "Fire",
+    name: "Llama Fusión",
+    description:
+      "El usuario hace caer una llama gigante. Hace más daño si es influenciado por un enorme rayo.",
+    type: "FIRE",
     power: 100,
     accuracy: 100,
     new: false,
@@ -2134,8 +2606,10 @@ export const movesData = [
   },
   {
     internalName: "INFERNO",
-    name: "Inferno",
-    type: "Fire",
+    name: "Infierno",
+    description:
+      "El usuario ataca envolviendo al objetivo en un intenso fuego. Deja al objetivo con una quemadura.",
+    type: "FIRE",
     power: 100,
     accuracy: 50,
     new: false,
@@ -2143,8 +2617,10 @@ export const movesData = [
   },
   {
     internalName: "MAGMASTORM",
-    name: "Magma Storm",
-    type: "Fire",
+    name: "Lluvia Ígnea",
+    description:
+      "El objetivo queda atrapado en una vorágine de fuego que arde durante cuatro o cinco turnos.",
+    type: "FIRE",
     power: 100,
     accuracy: 75,
     new: false,
@@ -2152,8 +2628,10 @@ export const movesData = [
   },
   {
     internalName: "SACREDFIRE",
-    name: "Sacred Fire",
-    type: "Fire",
+    name: "Fuego Sagrado",
+    description:
+      "El objetivo es arrasado por un fuego místico de gran intensidad. También puede dejar al objetivo con una quemadura.",
+    type: "FIRE",
     power: 100,
     accuracy: 95,
     new: false,
@@ -2161,8 +2639,10 @@ export const movesData = [
   },
   {
     internalName: "SEARINGSHOT",
-    name: "Searing Shot",
-    type: "Fire",
+    name: "Bomba Ígnea",
+    description:
+      "Un infierno de llamas escarlatas quema todo lo que rodea al usuario. Puede dejar al enemigo con una quemadura.",
+    type: "FIRE",
     power: 100,
     accuracy: 100,
     new: false,
@@ -2170,8 +2650,10 @@ export const movesData = [
   },
   {
     internalName: "HEATWAVE",
-    name: "Heat Wave",
-    type: "Fire",
+    name: "Onda Ígnea",
+    description:
+      "El usuario ataca exhalando aliento caliente al equipo contrario. También puede dejar a los objetivos con quemaduras.",
+    type: "FIRE",
     power: 95,
     accuracy: 90,
     new: false,
@@ -2179,8 +2661,10 @@ export const movesData = [
   },
   {
     internalName: "BITTERBLADE",
-    name: "Bitter Blade",
-    type: "Fire",
+    name: "Espada Lamento",
+    description:
+      "El usuario corta con sentimientos amargos hacia los vivos. El usuario se cura la mitad del daño infligido.",
+    type: "FIRE",
     power: 90,
     accuracy: 100,
     new: false,
@@ -2188,8 +2672,10 @@ export const movesData = [
   },
   {
     internalName: "FLAMETHROWER",
-    name: "Flamethrower",
-    type: "Fire",
+    name: "Lanzallamas",
+    description:
+      "El objetivo es quemado con una intensa ráfaga de fuego. También puede dejar al objetivo con una quemadura.",
+    type: "FIRE",
     power: 90,
     accuracy: 100,
     new: false,
@@ -2197,8 +2683,10 @@ export const movesData = [
   },
   {
     internalName: "BLAZEKICK",
-    name: "Blaze Kick",
-    type: "Fire",
+    name: "Patada Ígnea",
+    description:
+      "El usuario lanza una patada con una alta proporción de golpes críticos. También puede dejar al objetivo con una quemadura.",
+    type: "FIRE",
     power: 85,
     accuracy: 90,
     new: false,
@@ -2206,8 +2694,10 @@ export const movesData = [
   },
   {
     internalName: "FIERYDANCE",
-    name: "Fiery Dance",
-    type: "Fire",
+    name: "Danza Llama",
+    description:
+      "Envuelto en llamas, el usuario baila y bate sus alas. También puede aumentar la Sp del usuario. Estadística de ataque.",
+    type: "FIRE",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2215,8 +2705,10 @@ export const movesData = [
   },
   {
     internalName: "FIRELASH",
-    name: "Fire Lash",
-    type: "Fire",
+    name: "Látigo Ígneo",
+    description:
+      "El usuario golpea al objetivo con un látigo ardiente. Esto también reduce la estadística de Defensa del objetivo.",
+    type: "FIRE",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2224,8 +2716,10 @@ export const movesData = [
   },
   {
     internalName: "FIREPLEDGE",
-    name: "Fire Pledge",
-    type: "Fire",
+    name: "Voto Fuego",
+    description:
+      "Una columna de fuego golpea al Pokémon enemigo. Cuando se usa con su equivalente de Hierba, forma un mar de fuego.",
+    type: "FIRE",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2233,8 +2727,10 @@ export const movesData = [
   },
   {
     internalName: "LAVAPLUME",
-    name: "Lava Plume",
-    type: "Fire",
+    name: "Humareda",
+    description:
+      "Un infierno de llamas escarlatas quema todo lo que rodea al usuario. Puede dejar a los objetivos con quemaduras.",
+    type: "FIRE",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2242,8 +2738,10 @@ export const movesData = [
   },
   {
     internalName: "TORCHSONG",
-    name: "Torch Song",
-    type: "Fire",
+    name: "Canto Ardiente",
+    description:
+      "El usuario lanza llamas furiosas como si cantara una canción. Esto también aumenta la Sp del usuario. Estadística de ataque.",
+    type: "FIRE",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2251,8 +2749,10 @@ export const movesData = [
   },
   {
     internalName: "FIREPUNCH",
-    name: "Fire Punch",
-    type: "Fire",
+    name: "Puño Fuego",
+    description:
+      "El objetivo es golpeado con un puño de fuego. Puede dejar al objetivo con una quemadura.",
+    type: "FIRE",
     power: 75,
     accuracy: 100,
     new: false,
@@ -2260,8 +2760,10 @@ export const movesData = [
   },
   {
     internalName: "MYSTICALFIRE",
-    name: "Mystical Fire",
-    type: "Fire",
+    name: "Llama Embrujada",
+    description:
+      "El usuario ataca respirando un fuego caliente especial. Esto también reduce el Sp del objetivo. Estadística de ataque.",
+    type: "FIRE",
     power: 75,
     accuracy: 100,
     new: false,
@@ -2269,8 +2771,10 @@ export const movesData = [
   },
   {
     internalName: "TEMPERFLARE",
-    name: "Temper Flare",
-    type: "Fire",
+    name: "Cólera Ardiente",
+    description:
+      "El usuario ataca al objetivo con desesperación. El poder de este movimiento se duplica si el movimiento anterior del usuario falló.",
+    type: "FIRE",
     power: 75,
     accuracy: 100,
     new: false,
@@ -2278,8 +2782,10 @@ export const movesData = [
   },
   {
     internalName: "BURNINGJEALOUSY",
-    name: "Burning Jealousy",
-    type: "Fire",
+    name: "Envidia ardiente",
+    description:
+      "El usuario ataca con energía por celos. Esto quema a todos los enemigos cuyas estadísticas aumentaron este turno.",
+    type: "FIRE",
     power: 70,
     accuracy: 100,
     new: false,
@@ -2287,8 +2793,10 @@ export const movesData = [
   },
   {
     internalName: "FLAMEBURST",
-    name: "Flame Burst",
-    type: "Fire",
+    name: "Pirotecnia",
+    description:
+      "El usuario ataca al enemigo con una llama explosiva. También daña a los Pokémon que se encuentran al lado del objetivo.",
+    type: "FIRE",
     power: 70,
     accuracy: 100,
     new: false,
@@ -2296,8 +2804,10 @@ export const movesData = [
   },
   {
     internalName: "FIREFANG",
-    name: "Fire Fang",
-    type: "Fire",
+    name: "Colmillo Ígneo",
+    description:
+      "El usuario muerde con colmillos envueltos en llamas. También puede hacer que el objetivo se estremezca o queme.",
+    type: "FIRE",
     power: 65,
     accuracy: 95,
     new: false,
@@ -2305,8 +2815,10 @@ export const movesData = [
   },
   {
     internalName: "FLAMEWHEEL",
-    name: "Flame Wheel",
-    type: "Fire",
+    name: "Rueda Fuego",
+    description:
+      "El usuario se envuelve en fuego y carga contra el objetivo. También puede dejar al objetivo con una quemadura.",
+    type: "FIRE",
     power: 60,
     accuracy: 100,
     new: false,
@@ -2314,8 +2826,10 @@ export const movesData = [
   },
   {
     internalName: "INCINERATE",
-    name: "Incinerate",
-    type: "Fire",
+    name: "Calcinación",
+    description:
+      "El usuario ataca al enemigo con fuego. La baya retenida por el objetivo se quema y queda inutilizable.",
+    type: "FIRE",
     power: 60,
     accuracy: 100,
     new: false,
@@ -2323,8 +2837,10 @@ export const movesData = [
   },
   {
     internalName: "FLAMECHARGE",
-    name: "Flame Charge",
-    type: "Fire",
+    name: "Nitrocarga",
+    description:
+      "El usuario se envuelve en llamas y ataca. Al acumular más poder, aumenta la estadística de Velocidad del usuario.",
+    type: "FIRE",
     power: 50,
     accuracy: 100,
     new: false,
@@ -2332,8 +2848,10 @@ export const movesData = [
   },
   {
     internalName: "EMBER",
-    name: "Ember",
-    type: "Fire",
+    name: "Ascuas",
+    description:
+      "El objetivo es atacado con pequeñas llamas. También puede dejar al objetivo con una quemadura.",
+    type: "FIRE",
     power: 40,
     accuracy: 100,
     new: false,
@@ -2341,8 +2859,10 @@ export const movesData = [
   },
   {
     internalName: "FIRESPIN",
-    name: "Fire Spin",
-    type: "Fire",
+    name: "Giro Fuego",
+    description:
+      "El objetivo queda atrapado dentro de un feroz vórtice de fuego que arrasa durante cuatro o cinco turnos.",
+    type: "FIRE",
     power: 35,
     accuracy: 85,
     new: false,
@@ -2350,8 +2870,10 @@ export const movesData = [
   },
   {
     internalName: "HEATCRASH",
-    name: "Heat Crash",
-    type: "Fire",
+    name: "Golpe Calor",
+    description:
+      "El usuario golpea al enemigo con su cuerpo en llamas. Cuanto más pesado sea el usuario, mayor será el daño.",
+    type: "FIRE",
     power: 1,
     accuracy: 100,
     new: false,
@@ -2359,8 +2881,10 @@ export const movesData = [
   },
   {
     internalName: "BURNINGBULWARK",
-    name: "Burning Bulwark",
-    type: "Fire",
+    name: "Llama Protectora",
+    description:
+      "El pelaje intensamente caliente del usuario lo protege de los ataques y también quema a cualquier atacante que haga contacto.",
+    type: "FIRE",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2368,8 +2892,10 @@ export const movesData = [
   },
   {
     internalName: "SUNNYDAY",
-    name: "Sunny Day",
-    type: "Fire",
+    name: "Día Soleado",
+    description:
+      "El usuario intensifica el sol durante cinco turnos, potenciando movimientos de tipo Fuego.",
+    type: "FIRE",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2377,8 +2903,10 @@ export const movesData = [
   },
   {
     internalName: "WILLOWISP",
-    name: "Will-O-Wisp",
-    type: "Fire",
+    name: "Fuego Fatuo",
+    description:
+      "El usuario dispara una llama siniestra de color blanco azulado al objetivo para infligir una quemadura.",
+    type: "FIRE",
     power: 0,
     accuracy: 85,
     new: false,
@@ -2386,8 +2914,10 @@ export const movesData = [
   },
   {
     internalName: "SKYATTACK",
-    name: "Sky Attack",
-    type: "Flying",
+    name: "Ataque Aéreo",
+    description:
+      "Un movimiento de ataque de segundo turno donde los golpes críticos llegan más fácilmente. También puede hacer que el objetivo se estremezca.",
+    type: "FLYING",
     power: 140,
     accuracy: 90,
     new: false,
@@ -2395,8 +2925,10 @@ export const movesData = [
   },
   {
     internalName: "BRAVEBIRD",
-    name: "Brave Bird",
-    type: "Flying",
+    name: "Pájaro Osado",
+    description:
+      "El usuario dobla sus alas y carga desde baja altura. El usuario también sufre graves daños.",
+    type: "FLYING",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2404,8 +2936,10 @@ export const movesData = [
   },
   {
     internalName: "DRAGONASCENT",
-    name: "Dragon Ascent",
-    type: "Flying",
+    name: "Ascenso Draco",
+    description:
+      "El usuario se eleva y cae a altas velocidades. Su Defensa y Sp. Las estadísticas de defensa se reducen.",
+    type: "FLYING",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2413,8 +2947,10 @@ export const movesData = [
   },
   {
     internalName: "HURRICANE",
-    name: "Hurricane",
-    type: "Flying",
+    name: "Vendaval",
+    description:
+      "El usuario envuelve a su enemigo en un viento feroz que vuela hacia el cielo. También puede confundir al enemigo.",
+    type: "FLYING",
     power: 110,
     accuracy: 70,
     new: false,
@@ -2422,8 +2958,10 @@ export const movesData = [
   },
   {
     internalName: "AEROBLAST",
-    name: "Aeroblast",
-    type: "Flying",
+    name: "Aerochorro",
+    description:
+      "Se dispara un vórtice de aire al objetivo para infligir daño. Los golpes críticos aterrizan más fácilmente.",
+    type: "FLYING",
     power: 100,
     accuracy: 95,
     new: false,
@@ -2431,8 +2969,10 @@ export const movesData = [
   },
   {
     internalName: "BEAKBLAST",
-    name: "Beak Blast",
-    type: "Flying",
+    name: "Pico Cañón",
+    description:
+      "El usuario calienta su pico antes de atacar. Hacer contacto en este momento provoca una quemadura.",
+    type: "FLYING",
     power: 100,
     accuracy: 100,
     new: false,
@@ -2440,8 +2980,10 @@ export const movesData = [
   },
   {
     internalName: "BLEAKWINDSTORM",
-    name: "Bleakwind Storm",
-    type: "Flying",
+    name: "Vendaval Gélido",
+    description:
+      "El usuario ataca con vientos salvajemente fríos. Esto también puede reducir las estadísticas de Velocidad de los Pokémon rivales.",
+    type: "FLYING",
     power: 100,
     accuracy: 80,
     new: false,
@@ -2449,8 +2991,10 @@ export const movesData = [
   },
   {
     internalName: "FLY",
-    name: "Fly",
-    type: "Flying",
+    name: "Vuelo",
+    description:
+      "El usuario se eleva y luego ataca en el segundo turno. También se puede utilizar para volar a cualquier ciudad conocida.",
+    type: "FLYING",
     power: 90,
     accuracy: 95,
     new: false,
@@ -2458,8 +3002,10 @@ export const movesData = [
   },
   {
     internalName: "BOUNCE",
-    name: "Bounce",
-    type: "Flying",
+    name: "Bote",
+    description:
+      "El usuario rebota alto y luego cae sobre el enemigo en el segundo turno. También puede paralizar al enemigo.",
+    type: "FLYING",
     power: 85,
     accuracy: 85,
     new: false,
@@ -2467,8 +3013,10 @@ export const movesData = [
   },
   {
     internalName: "DRILLPECK",
-    name: "Drill Peck",
-    type: "Flying",
+    name: "Pico Taladro",
+    description:
+      "Un ataque en forma de sacacorchos con el pico afilado actuando como un taladro.",
+    type: "FLYING",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2476,8 +3024,10 @@ export const movesData = [
   },
   {
     internalName: "OBLIVIONWING",
-    name: "Oblivion Wing",
-    type: "Flying",
+    name: "Ala Mortífera",
+    description:
+      "El usuario absorbe el HP de su objetivo. El HP del usuario se recupera en más de la mitad del daño infligido.",
+    type: "FLYING",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2485,8 +3035,10 @@ export const movesData = [
   },
   {
     internalName: "AIRSLASH",
-    name: "Air Slash",
-    type: "Flying",
+    name: "Tajo Aéreo",
+    description:
+      "El usuario ataca con una espada de aire que corta incluso el cielo. También puede hacer que el objetivo se estremezca.",
+    type: "FLYING",
     power: 75,
     accuracy: 95,
     new: false,
@@ -2494,8 +3046,10 @@ export const movesData = [
   },
   {
     internalName: "CHATTER",
-    name: "Chatter",
-    type: "Flying",
+    name: "Cháchara",
+    description:
+      "El usuario ataca utilizando una onda sonora basada en palabras que ha aprendido. También puede confundir al objetivo.",
+    type: "FLYING",
     power: 65,
     accuracy: 100,
     new: false,
@@ -2503,8 +3057,10 @@ export const movesData = [
   },
   {
     internalName: "AERIALACE",
-    name: "Aerial Ace",
-    type: "Flying",
+    name: "Golpe Aéreo",
+    description:
+      "El usuario confunde al enemigo con velocidad y luego corta. El ataque aterriza sin falta.",
+    type: "FLYING",
     power: 60,
     accuracy: 0,
     new: false,
@@ -2512,8 +3068,10 @@ export const movesData = [
   },
   {
     internalName: "AIRCUTTER",
-    name: "Air Cutter",
-    type: "Flying",
+    name: "Aire Afilado",
+    description:
+      "El usuario lanza un viento parecido a una navaja para cortar al equipo contrario. Los golpes críticos aterrizan más fácilmente.",
+    type: "FLYING",
     power: 60,
     accuracy: 95,
     new: false,
@@ -2521,8 +3079,10 @@ export const movesData = [
   },
   {
     internalName: "PLUCK",
-    name: "Pluck",
-    type: "Flying",
+    name: "Picoteo",
+    description:
+      "El usuario picotea el objetivo. Si el objetivo tiene una baya, el usuario la come y obtiene su efecto.",
+    type: "FLYING",
     power: 60,
     accuracy: 100,
     new: false,
@@ -2530,8 +3090,10 @@ export const movesData = [
   },
   {
     internalName: "SKYDROP",
-    name: "Sky Drop",
-    type: "Flying",
+    name: "Caída Libre",
+    description:
+      "El usuario lleva al enemigo al cielo y luego lo deja caer en el siguiente turno. El enemigo no puede atacar mientras está en el aire.",
+    type: "FLYING",
     power: 60,
     accuracy: 100,
     new: false,
@@ -2539,8 +3101,10 @@ export const movesData = [
   },
   {
     internalName: "WINGATTACK",
-    name: "Wing Attack",
-    type: "Flying",
+    name: "Ataque Ala",
+    description:
+      "El objetivo es golpeado con grandes e imponentes alas extendidas para infligir daño.",
+    type: "FLYING",
     power: 60,
     accuracy: 100,
     new: false,
@@ -2548,8 +3112,10 @@ export const movesData = [
   },
   {
     internalName: "ACROBATICS",
-    name: "Acrobatics",
-    type: "Flying",
+    name: "Acróbata",
+    description:
+      "El usuario golpea ágilmente al enemigo. Este ataque causa más daño si el usuario no sostiene ningún objeto.",
+    type: "FLYING",
     power: 55,
     accuracy: 100,
     new: false,
@@ -2557,8 +3123,10 @@ export const movesData = [
   },
   {
     internalName: "DUALWINGBEAT",
-    name: "Dual Wingbeat",
-    type: "Flying",
+    name: "Ala Bis",
+    description:
+      "El usuario golpea al objetivo con sus alas. El objetivo recibe dos impactos seguidos.",
+    type: "FLYING",
     power: 40,
     accuracy: 90,
     new: false,
@@ -2566,8 +3134,10 @@ export const movesData = [
   },
   {
     internalName: "GUST",
-    name: "Gust",
-    type: "Flying",
+    name: "Tornado",
+    description:
+      "Una ráfaga de viento es azotada por las alas y lanzada hacia el objetivo para infligir daño.",
+    type: "FLYING",
     power: 40,
     accuracy: 100,
     new: false,
@@ -2575,8 +3145,9 @@ export const movesData = [
   },
   {
     internalName: "PECK",
-    name: "Peck",
-    type: "Flying",
+    name: "Picotazo",
+    description: "El objetivo es golpeado con un pico o un cuerno puntiagudo.",
+    type: "FLYING",
     power: 35,
     accuracy: 100,
     new: false,
@@ -2584,8 +3155,10 @@ export const movesData = [
   },
   {
     internalName: "DEFOG",
-    name: "Defog",
-    type: "Flying",
+    name: "Despejar",
+    description:
+      "Un fuerte viento elimina los obstáculos del enemigo, como la pantalla de luz. También reduce su evasión.",
+    type: "FLYING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2593,8 +3166,10 @@ export const movesData = [
   },
   {
     internalName: "FEATHERDANCE",
-    name: "Feather Dance",
-    type: "Flying",
+    name: "Danza Pluma",
+    description:
+      "El usuario cubre el cuerpo del objetivo con una masa de plumón que reduce drásticamente su estadística de ataque.",
+    type: "FLYING",
     power: 0,
     accuracy: 100,
     new: false,
@@ -2602,8 +3177,10 @@ export const movesData = [
   },
   {
     internalName: "MIRRORMOVE",
-    name: "Mirror Move",
-    type: "Flying",
+    name: "Espejo",
+    description:
+      "El usuario contrarresta al objetivo imitando el último movimiento del objetivo.",
+    type: "FLYING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2611,8 +3188,10 @@ export const movesData = [
   },
   {
     internalName: "ROOST",
-    name: "Roost",
-    type: "Flying",
+    name: "Respiro",
+    description:
+      "El usuario aterriza y descansa su cuerpo. Restaura el HP del usuario hasta en la mitad de su HP máximo.",
+    type: "FLYING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2620,8 +3199,10 @@ export const movesData = [
   },
   {
     internalName: "TAILWIND",
-    name: "Tailwind",
-    type: "Flying",
+    name: "Viento Afín",
+    description:
+      "El usuario genera un torbellino turbulento que aumenta la velocidad de todos los Pokémon del grupo durante cuatro turnos.",
+    type: "FLYING",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2629,8 +3210,10 @@ export const movesData = [
   },
   {
     internalName: "ASTRALBARRAGE",
-    name: "Astral Barrage",
-    type: "Ghost",
+    name: "Orbes Espectro",
+    description:
+      "El usuario ataca enviando una cantidad espantosa de pequeños fantasmas a los Pokémon enemigos.",
+    type: "GHOST",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2638,8 +3221,10 @@ export const movesData = [
   },
   {
     internalName: "SHADOWFORCE",
-    name: "Shadow Force",
-    type: "Ghost",
+    name: "Golpe Umbrío",
+    description:
+      "El usuario desaparece y luego ataca al enemigo en el segundo turno. Golpea incluso si el enemigo se protege.",
+    type: "GHOST",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2648,7 +3233,9 @@ export const movesData = [
   {
     internalName: "POLTERGEIST",
     name: "Poltergeist",
-    type: "Ghost",
+    description:
+      "Ataca al objetivo controlando su objeto. El movimiento falla si el objetivo no tiene ningún objeto.",
+    type: "GHOST",
     power: 110,
     accuracy: 90,
     new: false,
@@ -2656,8 +3243,10 @@ export const movesData = [
   },
   {
     internalName: "MOONGEISTBEAM",
-    name: "Moongeist Beam",
-    type: "Ghost",
+    name: "Rayo Umbrío",
+    description:
+      "El usuario emite un rayo siniestro. Este movimiento se puede utilizar sobre el objetivo independientemente de sus habilidades.",
+    type: "GHOST",
     power: 100,
     accuracy: 100,
     new: false,
@@ -2665,8 +3254,10 @@ export const movesData = [
   },
   {
     internalName: "PHANTOMFORCE",
-    name: "Phantom Force",
-    type: "Ghost",
+    name: "Golpe Fantasma",
+    description:
+      "El usuario desaparece en algún lugar y luego ataca en el siguiente turno. Golpea a través de protecciones.",
+    type: "GHOST",
     power: 90,
     accuracy: 100,
     new: false,
@@ -2674,8 +3265,10 @@ export const movesData = [
   },
   {
     internalName: "SPECTRALTHIEF",
-    name: "Spectral Thief",
-    type: "Ghost",
+    name: "Robasombra",
+    description:
+      "El usuario se esconde en la sombra del objetivo, roba las mejoras de estadísticas del objetivo y luego ataca.",
+    type: "GHOST",
     power: 90,
     accuracy: 100,
     new: false,
@@ -2683,8 +3276,10 @@ export const movesData = [
   },
   {
     internalName: "SHADOWBONE",
-    name: "Shadow Bone",
-    type: "Ghost",
+    name: "Hueso Sombrío",
+    description:
+      "El usuario golpea al objetivo con un hueso que contiene un espíritu. Puede reducir la estadística de Defensa del objetivo.",
+    type: "GHOST",
     power: 85,
     accuracy: 100,
     new: false,
@@ -2692,8 +3287,10 @@ export const movesData = [
   },
   {
     internalName: "SHADOWBALL",
-    name: "Shadow Ball",
-    type: "Ghost",
+    name: "Bola Sombra",
+    description:
+      "El usuario lanza una masa sombría al objetivo. También puede reducir el Sp del objetivo. Estadística de definición.",
+    type: "GHOST",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2701,8 +3298,10 @@ export const movesData = [
   },
   {
     internalName: "SPIRITSHACKLE",
-    name: "Spirit Shackle",
-    type: "Ghost",
+    name: "Puntada Sombría",
+    description:
+      "El usuario ataca y al mismo tiempo cose la sombra del objetivo en el suelo para evitar que huya.",
+    type: "GHOST",
     power: 80,
     accuracy: 100,
     new: false,
@@ -2710,8 +3309,10 @@ export const movesData = [
   },
   {
     internalName: "BITTERMALICE",
-    name: "Bitter Malice",
-    type: "Ghost",
+    name: "Rencor Reprimido",
+    description:
+      "El usuario ataca al objetivo con un resentimiento escalofriante. Esto también reduce la estadística de ataque del objetivo.",
+    type: "GHOST",
     power: 75,
     accuracy: 100,
     new: false,
@@ -2719,8 +3320,10 @@ export const movesData = [
   },
   {
     internalName: "SHADOWCLAW",
-    name: "Shadow Claw",
-    type: "Ghost",
+    name: "Garra Umbría",
+    description:
+      "El usuario corta con una garra afilada hecha de sombras. Los golpes críticos aterrizan más fácilmente.",
+    type: "GHOST",
     power: 70,
     accuracy: 100,
     new: false,
@@ -2728,8 +3331,10 @@ export const movesData = [
   },
   {
     internalName: "HEX",
-    name: "Hex",
-    type: "Ghost",
+    name: "Infortunio",
+    description:
+      "Este ataque implacable causa un daño masivo a un objetivo afectado por problemas de estado.",
+    type: "GHOST",
     power: 65,
     accuracy: 100,
     new: false,
@@ -2737,8 +3342,10 @@ export const movesData = [
   },
   {
     internalName: "INFERNALPARADE",
-    name: "Infernal Parade",
-    type: "Ghost",
+    name: "Marcha Espectral",
+    description:
+      "El usuario ataca con bolas de fuego que pueden provocar quemaduras. El poder se duplica si el objetivo tiene un problema de estado.",
+    type: "GHOST",
     power: 60,
     accuracy: 100,
     new: false,
@@ -2746,8 +3353,10 @@ export const movesData = [
   },
   {
     internalName: "OMINOUSWIND",
-    name: "Ominous Wind",
-    type: "Ghost",
+    name: "Viento Aciago",
+    description:
+      "El usuario ataca al objetivo con una ráfaga de viento repulsivo. También puede aumentar todas las estadísticas del usuario a la vez.",
+    type: "GHOST",
     power: 60,
     accuracy: 100,
     new: false,
@@ -2755,8 +3364,10 @@ export const movesData = [
   },
   {
     internalName: "SHADOWPUNCH",
-    name: "Shadow Punch",
-    type: "Ghost",
+    name: "Puño Sombra",
+    description:
+      "El usuario lanza un puñetazo desde las sombras. El puñetazo aterriza sin falta.",
+    type: "GHOST",
     power: 60,
     accuracy: 0,
     new: false,
@@ -2764,8 +3375,10 @@ export const movesData = [
   },
   {
     internalName: "LASTRESPECTS",
-    name: "Last Respects",
-    type: "Ghost",
+    name: "Homenaje Póstumo",
+    description:
+      "El usuario ataca para vengar a sus aliados. El movimiento es más fuerte si el usuario tiene más aliados derrotados.",
+    type: "GHOST",
     power: 50,
     accuracy: 100,
     new: false,
@@ -2773,8 +3386,10 @@ export const movesData = [
   },
   {
     internalName: "RAGEFIST",
-    name: "Rage Fist",
-    type: "Ghost",
+    name: "Puño Furia",
+    description:
+      "El usuario ataca con energía de rabia. El movimiento es más fuerte cuantas más veces el usuario ha sido golpeado por ataques.",
+    type: "GHOST",
     power: 50,
     accuracy: 100,
     new: false,
@@ -2782,8 +3397,10 @@ export const movesData = [
   },
   {
     internalName: "SHADOWSNEAK",
-    name: "Shadow Sneak",
-    type: "Ghost",
+    name: "Sombra Vil",
+    description:
+      "El usuario extiende su sombra y ataca al objetivo por detrás. Este movimiento siempre va primero.",
+    type: "GHOST",
     power: 40,
     accuracy: 100,
     new: false,
@@ -2791,8 +3408,10 @@ export const movesData = [
   },
   {
     internalName: "ASTONISH",
-    name: "Astonish",
-    type: "Ghost",
+    name: "Impresionar",
+    description:
+      "El usuario ataca al objetivo mientras grita de forma sorprendente. También puede hacer que el objetivo se estremezca.",
+    type: "GHOST",
     power: 30,
     accuracy: 100,
     new: false,
@@ -2800,8 +3419,10 @@ export const movesData = [
   },
   {
     internalName: "LICK",
-    name: "Lick",
-    type: "Ghost",
+    name: "Lengüetazo",
+    description:
+      "El objetivo es lamido con una lengua larga, causando daño. También puede dejar al objetivo con parálisis.",
+    type: "GHOST",
     power: 30,
     accuracy: 100,
     new: false,
@@ -2809,8 +3430,10 @@ export const movesData = [
   },
   {
     internalName: "NIGHTSHADE",
-    name: "Night Shade",
-    type: "Ghost",
+    name: "Tinieblas",
+    description:
+      "El usuario hace que el enemigo vea un espejismo aterrador. Inflige daño que coincide con el nivel del usuario.",
+    type: "GHOST",
     power: 1,
     accuracy: 100,
     new: false,
@@ -2818,8 +3441,10 @@ export const movesData = [
   },
   {
     internalName: "CONFUSERAY",
-    name: "Confuse Ray",
-    type: "Ghost",
+    name: "Rayo Confuso",
+    description:
+      "El objetivo queda expuesto a un rayo siniestro que provoca confusión.",
+    type: "GHOST",
     power: 0,
     accuracy: 100,
     new: false,
@@ -2827,8 +3452,10 @@ export const movesData = [
   },
   {
     internalName: "CURSE",
-    name: "Curse",
-    type: "Ghost",
+    name: "Maldición",
+    description:
+      "Un movimiento que funciona de manera diferente para el tipo Fantasma que para todos los demás tipos.",
+    type: "GHOST",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2836,8 +3463,10 @@ export const movesData = [
   },
   {
     internalName: "DESTINYBOND",
-    name: "Destiny Bond",
-    type: "Ghost",
+    name: "Mismo Destino",
+    description:
+      "Cuando se usa este movimiento, si el usuario se desmaya, el enemigo que asestó el golpe de gracia también se desmaya.",
+    type: "GHOST",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2845,8 +3474,10 @@ export const movesData = [
   },
   {
     internalName: "GRUDGE",
-    name: "Grudge",
-    type: "Ghost",
+    name: "Rabia",
+    description:
+      "Si el usuario se desmaya, el rencor del usuario agota por completo los PP del movimiento del enemigo que lo noqueó.",
+    type: "GHOST",
     power: 0,
     accuracy: 0,
     new: false,
@@ -2854,8 +3485,10 @@ export const movesData = [
   },
   {
     internalName: "NIGHTMARE",
-    name: "Nightmare",
-    type: "Ghost",
+    name: "Pesadilla",
+    description:
+      "Un objetivo dormido ve una pesadilla que inflige algún daño en cada turno.",
+    type: "GHOST",
     power: 0,
     accuracy: 100,
     new: false,
@@ -2863,8 +3496,10 @@ export const movesData = [
   },
   {
     internalName: "SPITE",
-    name: "Spite",
-    type: "Ghost",
+    name: "Rencor",
+    description:
+      "El usuario desata su rencor en el último movimiento utilizado por el objetivo cortándole 4 PP.",
+    type: "GHOST",
     power: 0,
     accuracy: 100,
     new: false,
@@ -2872,8 +3507,10 @@ export const movesData = [
   },
   {
     internalName: "TRICKORTREAT",
-    name: "Trick-or-Treat",
-    type: "Ghost",
+    name: "Halloween",
+    description:
+      "El usuario lleva al objetivo a pedir dulces. Esto agrega el tipo Fantasma al tipo del objetivo.",
+    type: "GHOST",
     power: 0,
     accuracy: 100,
     new: false,
@@ -2881,8 +3518,10 @@ export const movesData = [
   },
   {
     internalName: "CHLOROBLAST",
-    name: "Chloroblast",
-    type: "Grass",
+    name: "Clorofiláser",
+    description:
+      "El usuario lanza la clorofila acumulada para infligir daño al objetivo. Esto también perjudica al usuario.",
+    type: "GRASS",
     power: 150,
     accuracy: 95,
     new: false,
@@ -2890,8 +3529,10 @@ export const movesData = [
   },
   {
     internalName: "FRENZYPLANT",
-    name: "Frenzy Plant",
-    type: "Grass",
+    name: "Planta Feroz",
+    description:
+      "El usuario golpea al objetivo con un árbol enorme. El usuario no puede moverse en el siguiente turno.",
+    type: "GRASS",
     power: 150,
     accuracy: 90,
     new: false,
@@ -2899,8 +3540,10 @@ export const movesData = [
   },
   {
     internalName: "LEAFSTORM",
-    name: "Leaf Storm",
-    type: "Grass",
+    name: "Lluevehojas",
+    description:
+      "Se levanta una tormenta fuerte. El retroceso del ataque reduce drásticamente el Sp del usuario. Estadística de ataque.",
+    type: "GRASS",
     power: 130,
     accuracy: 90,
     new: false,
@@ -2908,8 +3551,10 @@ export const movesData = [
   },
   {
     internalName: "SOLARBLADE",
-    name: "Solar Blade",
-    type: "Grass",
+    name: "Cuchilla Solar",
+    description:
+      "El usuario reúne energía luminosa en una espada y ataca al objetivo en el siguiente turno.",
+    type: "GRASS",
     power: 125,
     accuracy: 100,
     new: false,
@@ -2917,8 +3562,10 @@ export const movesData = [
   },
   {
     internalName: "PETALDANCE",
-    name: "Petal Dance",
-    type: "Grass",
+    name: "Danza Pétalo",
+    description:
+      "El usuario ataca esparciendo pétalos durante dos o tres turnos. Entonces el usuario se confunde.",
+    type: "GRASS",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2926,8 +3573,10 @@ export const movesData = [
   },
   {
     internalName: "POWERWHIP",
-    name: "Power Whip",
-    type: "Grass",
+    name: "Latigazo",
+    description:
+      "El usuario hace girar violentamente sus enredaderas o tentáculos para azotar duramente al objetivo.",
+    type: "GRASS",
     power: 120,
     accuracy: 85,
     new: false,
@@ -2935,8 +3584,10 @@ export const movesData = [
   },
   {
     internalName: "SEEDFLARE",
-    name: "Seed Flare",
-    type: "Grass",
+    name: "Fulgor Semilla",
+    description:
+      "El usuario genera una onda de choque desde el interior de su cuerpo. Puede reducir drásticamente el Sp del objetivo. Def.",
+    type: "GRASS",
     power: 120,
     accuracy: 85,
     new: false,
@@ -2944,8 +3595,10 @@ export const movesData = [
   },
   {
     internalName: "SOLARBEAM",
-    name: "Solar Beam",
-    type: "Grass",
+    name: "Rayo Solar",
+    description:
+      "Un ataque de dos turnos. El usuario recoge luz y luego lanza un haz de rayos en el segundo turno.",
+    type: "GRASS",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2953,8 +3606,10 @@ export const movesData = [
   },
   {
     internalName: "WOODHAMMER",
-    name: "Wood Hammer",
-    type: "Grass",
+    name: "Mazazo",
+    description:
+      "El usuario golpea su robusto cuerpo contra el objetivo para atacar. El usuario también sufre graves daños.",
+    type: "GRASS",
     power: 120,
     accuracy: 100,
     new: false,
@@ -2962,8 +3617,10 @@ export const movesData = [
   },
   {
     internalName: "IVYCUDGEL",
-    name: "Ivy Cudgel",
-    type: "Grass",
+    name: "Garrote Liana",
+    description:
+      "El usuario golpea con un garrote envuelto en hiedra. La máscara del usuario establece el tipo de movimiento. Alta probabilidad de golpe crítico.",
+    type: "GRASS",
     power: 100,
     accuracy: 100,
     new: false,
@@ -2971,8 +3628,10 @@ export const movesData = [
   },
   {
     internalName: "ENERGYBALL",
-    name: "Energy Ball",
-    type: "Grass",
+    name: "Energibola",
+    description:
+      "El usuario extrae poder de la naturaleza y lo dispara al objetivo. También puede reducir el Sp del objetivo. Def.",
+    type: "GRASS",
     power: 90,
     accuracy: 100,
     new: false,
@@ -2980,8 +3639,10 @@ export const movesData = [
   },
   {
     internalName: "LEAFBLADE",
-    name: "Leaf Blade",
-    type: "Grass",
+    name: "Hoja Aguda",
+    description:
+      "El usuario maneja una hoja afilada como una espada y ataca cortando. Tiene una alta proporción de golpes críticos.",
+    type: "GRASS",
     power: 90,
     accuracy: 100,
     new: false,
@@ -2989,8 +3650,10 @@ export const movesData = [
   },
   {
     internalName: "PETALBLIZZARD",
-    name: "Petal Blizzard",
-    type: "Grass",
+    name: "Tormenta Floral",
+    description:
+      "El usuario provoca una violenta ventisca de pétalos y ataca todo lo que la rodea.",
+    type: "GRASS",
     power: 90,
     accuracy: 100,
     new: false,
@@ -2998,8 +3661,10 @@ export const movesData = [
   },
   {
     internalName: "APPLEACID",
-    name: "Apple Acid",
-    type: "Grass",
+    name: "Ácido Málico",
+    description:
+      "Ataca con un líquido ácido creado a partir de manzanas ácidas. Esto también reduce el Sp del objetivo. Def.",
+    type: "GRASS",
     power: 80,
     accuracy: 100,
     new: false,
@@ -3007,8 +3672,10 @@ export const movesData = [
   },
   {
     internalName: "DRUMBEATING",
-    name: "Drum Beating",
-    type: "Grass",
+    name: "Batería Asalto",
+    description:
+      "El usuario toca su tambor, controlando las raíces para atacar. Esto también reduce la estadística de Velocidad del objetivo.",
+    type: "GRASS",
     power: 80,
     accuracy: 100,
     new: false,
@@ -3016,8 +3683,10 @@ export const movesData = [
   },
   {
     internalName: "GRASSPLEDGE",
-    name: "Grass Pledge",
-    type: "Grass",
+    name: "Voto Planta",
+    description:
+      "Una columna de hierba golpea a los enemigos. Cuando se usa con su equivalente en agua, crea un vasto pantano.",
+    type: "GRASS",
     power: 80,
     accuracy: 100,
     new: false,
@@ -3025,8 +3694,10 @@ export const movesData = [
   },
   {
     internalName: "GRAVAPPLE",
-    name: "Grav Apple",
-    type: "Grass",
+    name: "Fuerza G",
+    description:
+      "El usuario inflige daño al dejar caer una manzana desde lo alto. Esto también reduce la Defensa del objetivo.",
+    type: "GRASS",
     power: 80,
     accuracy: 100,
     new: false,
@@ -3034,8 +3705,10 @@ export const movesData = [
   },
   {
     internalName: "MATCHAGOTCHA",
-    name: "Matcha Gotcha",
-    type: "Grass",
+    name: "Cañón Batidor",
+    description:
+      "El usuario dispara una ráfaga de té. El usuario se cura la mitad del daño infligido. Esto también puede quemar al objetivo.",
+    type: "GRASS",
     power: 80,
     accuracy: 90,
     new: false,
@@ -3043,8 +3716,10 @@ export const movesData = [
   },
   {
     internalName: "SEEDBOMB",
-    name: "Seed Bomb",
-    type: "Grass",
+    name: "Bomba Germen",
+    description:
+      "El usuario lanza una andanada de semillas de cáscara dura al objetivo desde arriba.",
+    type: "GRASS",
     power: 80,
     accuracy: 100,
     new: false,
@@ -3052,8 +3727,10 @@ export const movesData = [
   },
   {
     internalName: "GIGADRAIN",
-    name: "Giga Drain",
-    type: "Grass",
+    name: "Gigadrenado",
+    description:
+      "Un ataque de drenaje de nutrientes. El HP del usuario se restaura con la mitad del daño recibido por el objetivo.",
+    type: "GRASS",
     power: 75,
     accuracy: 100,
     new: false,
@@ -3061,8 +3738,10 @@ export const movesData = [
   },
   {
     internalName: "HORNLEECH",
-    name: "Horn Leech",
-    type: "Grass",
+    name: "Asta Drenaje",
+    description:
+      "El usuario drena la energía del enemigo con sus cuernos. El HP del usuario se recupera a la mitad del daño infligido.",
+    type: "GRASS",
     power: 75,
     accuracy: 100,
     new: false,
@@ -3070,8 +3749,10 @@ export const movesData = [
   },
   {
     internalName: "FLOWERTRICK",
-    name: "Flower Trick",
-    type: "Grass",
+    name: "Truco Floral",
+    description:
+      "El usuario lanza un ramo de flores amañado. Este ataque nunca falla y siempre es un golpe crítico.",
+    type: "GRASS",
     power: 70,
     accuracy: 0,
     new: false,
@@ -3079,8 +3760,10 @@ export const movesData = [
   },
   {
     internalName: "GRASSYGLIDE",
-    name: "Grassy Glide",
-    type: "Grass",
+    name: "Fitoimpulso",
+    description:
+      "Deslizándose por el suelo, el usuario ataca al objetivo. Este movimiento siempre va primero en Grassy Terrain.",
+    type: "GRASS",
     power: 55,
     accuracy: 100,
     new: false,
@@ -3088,8 +3771,10 @@ export const movesData = [
   },
   {
     internalName: "TROPKICK",
-    name: "Trop Kick",
-    type: "Grass",
+    name: "Patada Tropical",
+    description:
+      "El usuario lanza una intensa patada tropical al objetivo. Esto también reduce la estadística de ataque del objetivo.",
+    type: "GRASS",
     power: 70,
     accuracy: 100,
     new: false,
@@ -3097,8 +3782,10 @@ export const movesData = [
   },
   {
     internalName: "LEAFTORNADO",
-    name: "Leaf Tornado",
-    type: "Grass",
+    name: "Ciclón de Hojas",
+    description:
+      "El usuario ataca a su enemigo rodeándolo con hojas afiladas. Este ataque también puede reducir la precisión del enemigo.",
+    type: "GRASS",
     power: 65,
     accuracy: 90,
     new: false,
@@ -3106,8 +3793,10 @@ export const movesData = [
   },
   {
     internalName: "MAGICALLEAF",
-    name: "Magical Leaf",
-    type: "Grass",
+    name: "Hoja Mágica",
+    description:
+      "El usuario esparce curiosas hojas que persiguen al objetivo. Este ataque no fallará.",
+    type: "GRASS",
     power: 60,
     accuracy: 0,
     new: false,
@@ -3115,8 +3804,10 @@ export const movesData = [
   },
   {
     internalName: "NEEDLEARM",
-    name: "Needle Arm",
-    type: "Grass",
+    name: "Brazo Pincho",
+    description:
+      "El usuario ataca moviendo salvajemente sus brazos espinosos. También puede hacer que el objetivo se estremezca.",
+    type: "GRASS",
     power: 60,
     accuracy: 100,
     new: false,
@@ -3124,8 +3815,10 @@ export const movesData = [
   },
   {
     internalName: "SYRUPBOMB",
-    name: "Syrup Bomb",
-    type: "Grass",
+    name: "Bomba Caramelo",
+    description:
+      "El usuario provoca una explosión de jarabe pegajoso. Esto reduce la estadística de Velocidad del objetivo durante tres turnos.",
+    type: "GRASS",
     power: 60,
     accuracy: 85,
     new: false,
@@ -3133,8 +3826,10 @@ export const movesData = [
   },
   {
     internalName: "RAZORLEAF",
-    name: "Razor Leaf",
-    type: "Grass",
+    name: "Hoja Afilada",
+    description:
+      "Se lanzan hojas con bordes afilados para atacar al equipo contrario. Los golpes críticos aterrizan más fácilmente.",
+    type: "GRASS",
     power: 55,
     accuracy: 95,
     new: false,
@@ -3142,8 +3837,10 @@ export const movesData = [
   },
   {
     internalName: "TRAILBLAZE",
-    name: "Trailblaze",
-    type: "Grass",
+    name: "Abrecaminos",
+    description:
+      "El usuario ataca repentinamente como si saltara de la hierba alta. Esto también aumenta la estadística de Velocidad del usuario.",
+    type: "GRASS",
     power: 50,
     accuracy: 100,
     new: false,
@@ -3151,8 +3848,10 @@ export const movesData = [
   },
   {
     internalName: "VINEWHIP",
-    name: "Vine Whip",
-    type: "Grass",
+    name: "Látigo Cepa",
+    description:
+      "El objetivo es golpeado con enredaderas delgadas en forma de látigos para infligir daño.",
+    type: "GRASS",
     power: 45,
     accuracy: 100,
     new: false,
@@ -3160,8 +3859,10 @@ export const movesData = [
   },
   {
     internalName: "BRANCHPOKE",
-    name: "Branch Poke",
-    type: "Grass",
+    name: "Punzada Rama",
+    description:
+      "El usuario ataca al objetivo pinchándolo con una rama puntiaguda.",
+    type: "GRASS",
     power: 40,
     accuracy: 100,
     new: false,
@@ -3169,8 +3870,9 @@ export const movesData = [
   },
   {
     internalName: "LEAFAGE",
-    name: "Leafage",
-    type: "Grass",
+    name: "Follaje",
+    description: "El usuario ataca arrojando hojas al objetivo.",
+    type: "GRASS",
     power: 40,
     accuracy: 100,
     new: false,
@@ -3178,8 +3880,10 @@ export const movesData = [
   },
   {
     internalName: "MEGADRAIN",
-    name: "Mega Drain",
-    type: "Grass",
+    name: "Megaagotar",
+    description:
+      "Un ataque de drenaje de nutrientes. El HP del usuario se restaura con la mitad del daño recibido por el objetivo.",
+    type: "GRASS",
     power: 40,
     accuracy: 100,
     new: false,
@@ -3187,8 +3891,10 @@ export const movesData = [
   },
   {
     internalName: "SNAPTRAP",
-    name: "Snap Trap",
-    type: "Grass",
+    name: "Cepo",
+    description:
+      "El usuario atrapa al objetivo en una trampa rápida durante cuatro o cinco turnos.",
+    type: "GRASS",
     power: 35,
     accuracy: 100,
     new: false,
@@ -3196,8 +3902,10 @@ export const movesData = [
   },
   {
     internalName: "BULLETSEED",
-    name: "Bullet Seed",
-    type: "Grass",
+    name: "Semilladora",
+    description:
+      "El usuario dispara semillas con fuerza al objetivo. Se disparan de dos a cinco semillas en rápida sucesión.",
+    type: "GRASS",
     power: 25,
     accuracy: 100,
     new: false,
@@ -3205,8 +3913,10 @@ export const movesData = [
   },
   {
     internalName: "ABSORB",
-    name: "Absorb",
-    type: "Grass",
+    name: "Absorber",
+    description:
+      "Un ataque de drenaje de nutrientes. El HP del usuario se restaura con la mitad del daño recibido por el objetivo.",
+    type: "GRASS",
     power: 20,
     accuracy: 100,
     new: false,
@@ -3214,8 +3924,10 @@ export const movesData = [
   },
   {
     internalName: "GRASSKNOT",
-    name: "Grass Knot",
-    type: "Grass",
+    name: "Hierba Lazo",
+    description:
+      "El usuario atrapa al objetivo con hierba y lo hace tropezar. Cuanto más pesado sea el objetivo, mayor será el daño.",
+    type: "GRASS",
     power: 1,
     accuracy: 100,
     new: false,
@@ -3223,8 +3935,10 @@ export const movesData = [
   },
   {
     internalName: "AROMATHERAPY",
-    name: "Aromatherapy",
-    type: "Grass",
+    name: "Aromaterapia",
+    description:
+      "El usuario libera un aroma relajante que cura todos los problemas de estado que afectan al grupo del usuario.",
+    type: "GRASS",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3232,8 +3946,10 @@ export const movesData = [
   },
   {
     internalName: "COTTONGUARD",
-    name: "Cotton Guard",
-    type: "Grass",
+    name: "Rizo Algodón",
+    description:
+      "El usuario se protege envolviendo su cuerpo en algodón suave, aumentando drásticamente su estadística de Defensa.",
+    type: "GRASS",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3241,8 +3957,10 @@ export const movesData = [
   },
   {
     internalName: "COTTONSPORE",
-    name: "Cotton Spore",
-    type: "Grass",
+    name: "Esporagodón",
+    description:
+      "El usuario libera esporas parecidas al algodón que se adhieren al enemigo, reduciendo drásticamente su estadística de Velocidad.",
+    type: "GRASS",
     power: 0,
     accuracy: 100,
     new: false,
@@ -3250,8 +3968,10 @@ export const movesData = [
   },
   {
     internalName: "FORESTSCURSE",
-    name: "Forest's Curse",
-    type: "Grass",
+    name: "Condena Silvana",
+    description:
+      "El usuario lanza una maldición forestal sobre el objetivo. El objetivo ahora también es del tipo Planta.",
+    type: "GRASS",
     power: 0,
     accuracy: 100,
     new: false,
@@ -3259,8 +3979,10 @@ export const movesData = [
   },
   {
     internalName: "GRASSWHISTLE",
-    name: "Grass Whistle",
-    type: "Grass",
+    name: "Silbato",
+    description:
+      "El usuario toca una melodía agradable que adormece al objetivo y lo lleva a un sueño profundo.",
+    type: "GRASS",
     power: 0,
     accuracy: 55,
     new: false,
@@ -3268,8 +3990,10 @@ export const movesData = [
   },
   {
     internalName: "GRASSYTERRAIN",
-    name: "Grassy Terrain",
-    type: "Grass",
+    name: "Campo de Hierba",
+    description:
+      "El usuario convierte el suelo en hierba durante cinco turnos. Los Pokémon en tierra recuperan un poco de HP en cada turno.",
+    type: "GRASS",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3277,8 +4001,10 @@ export const movesData = [
   },
   {
     internalName: "INGRAIN",
-    name: "Ingrain",
-    type: "Grass",
+    name: "Arraigo",
+    description:
+      "El usuario coloca raíces que restauran su HP en cada turno. Como está rooteado, no puede desconectarse.",
+    type: "GRASS",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3286,8 +4012,10 @@ export const movesData = [
   },
   {
     internalName: "JUNGLEHEALING",
-    name: "Jungle Healing",
-    type: "Grass",
+    name: "Cura Selvática",
+    description:
+      "El usuario se vuelve uno con la jungla, restaura HP y cura las condiciones de estado de sí mismo y de sus aliados.",
+    type: "GRASS",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3295,8 +4023,10 @@ export const movesData = [
   },
   {
     internalName: "LEECHSEED",
-    name: "Leech Seed",
-    type: "Grass",
+    name: "Drenadoras",
+    description:
+      "Se planta una semilla en el objetivo. Roba algo de HP del objetivo en cada turno.",
+    type: "GRASS",
     power: 0,
     accuracy: 90,
     new: false,
@@ -3304,8 +4034,10 @@ export const movesData = [
   },
   {
     internalName: "SLEEPPOWDER",
-    name: "Sleep Powder",
-    type: "Grass",
+    name: "Somnífero",
+    description:
+      "El usuario esparce una gran nube de polvo que induce sueño alrededor del objetivo.",
+    type: "GRASS",
     power: 0,
     accuracy: 75,
     new: false,
@@ -3313,8 +4045,10 @@ export const movesData = [
   },
   {
     internalName: "SPICYEXTRACT",
-    name: "Spicy Extract",
-    type: "Grass",
+    name: "Extracto Picante",
+    description:
+      "El usuario emite un extracto muy picante, que aumenta drásticamente el ataque del objetivo y reduce drásticamente su defensa.",
+    type: "GRASS",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3322,8 +4056,10 @@ export const movesData = [
   },
   {
     internalName: "SPIKYSHIELD",
-    name: "Spiky Shield",
-    type: "Grass",
+    name: "Barrera Espinosa",
+    description:
+      "Protege al usuario de ataques. También daña a los atacantes que hacen contacto con el usuario.",
+    type: "GRASS",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3331,8 +4067,9 @@ export const movesData = [
   },
   {
     internalName: "SPORE",
-    name: "Spore",
-    type: "Grass",
+    name: "Espora",
+    description: "El usuario esparce ráfagas de esporas que inducen el sueño.",
+    type: "GRASS",
     power: 0,
     accuracy: 100,
     new: false,
@@ -3340,8 +4077,10 @@ export const movesData = [
   },
   {
     internalName: "STRENGTHSAP",
-    name: "Strength Sap",
-    type: "Grass",
+    name: "Absorbefuerza",
+    description:
+      "El usuario restaura su HP según la cantidad de estadísticas de ataque del objetivo. Luego reduce la estadística de ataque del objetivo.",
+    type: "GRASS",
     power: 0,
     accuracy: 100,
     new: false,
@@ -3349,8 +4088,10 @@ export const movesData = [
   },
   {
     internalName: "STUNSPORE",
-    name: "Stun Spore",
-    type: "Grass",
+    name: "Paralizador",
+    description:
+      "El usuario esparce una nube de polvo paralizante. Puede dejar al objetivo con parálisis.",
+    type: "GRASS",
     power: 0,
     accuracy: 75,
     new: false,
@@ -3358,8 +4099,10 @@ export const movesData = [
   },
   {
     internalName: "SYNTHESIS",
-    name: "Synthesis",
-    type: "Grass",
+    name: "Síntesis",
+    description:
+      "El usuario restaura su propio HP. La cantidad de HP recuperada varía según el clima.",
+    type: "GRASS",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3367,8 +4110,10 @@ export const movesData = [
   },
   {
     internalName: "WORRYSEED",
-    name: "Worry Seed",
-    type: "Grass",
+    name: "Abatidoras",
+    description:
+      "Se planta en el enemigo una semilla que causa preocupación. Previene el sueño haciendo que su habilidad sea el insomnio.",
+    type: "GRASS",
     power: 0,
     accuracy: 100,
     new: false,
@@ -3376,8 +4121,10 @@ export const movesData = [
   },
   {
     internalName: "HEADLONGRUSH",
-    name: "Headlong Rush",
-    type: "Ground",
+    name: "Arremetida",
+    description:
+      "El usuario se estrella contra el objetivo con una entrada de cuerpo entero. Esto también reduce la Defensa y Sp. del usuario. Def.",
+    type: "GROUND",
     power: 120,
     accuracy: 100,
     new: false,
@@ -3385,8 +4132,10 @@ export const movesData = [
   },
   {
     internalName: "PRECIPICEBLADES",
-    name: "Precipice Blades",
-    type: "Ground",
+    name: "Filo del Abismo",
+    description:
+      "El usuario ataca a sus enemigos manifestando el poder de la tierra en temibles hojas de piedra.",
+    type: "GROUND",
     power: 120,
     accuracy: 85,
     new: false,
@@ -3394,8 +4143,10 @@ export const movesData = [
   },
   {
     internalName: "EARTHQUAKE",
-    name: "Earthquake",
-    type: "Ground",
+    name: "Terremoto",
+    description:
+      "El usuario provoca un terremoto que golpea a todos los Pokémon a su alrededor.",
+    type: "GROUND",
     power: 100,
     accuracy: 100,
     new: false,
@@ -3403,8 +4154,10 @@ export const movesData = [
   },
   {
     internalName: "SANDSEARSTORM",
-    name: "Sandsear Storm",
-    type: "Ground",
+    name: "Simún de Arena",
+    description:
+      "El usuario envuelve al Pokémon contrario en arena abrasadora. Esto también puede causarles quemaduras.",
+    type: "GROUND",
     power: 100,
     accuracy: 80,
     new: false,
@@ -3412,8 +4165,10 @@ export const movesData = [
   },
   {
     internalName: "HIGHHORSEPOWER",
-    name: "High Horsepower",
-    type: "Ground",
+    name: "Fuerza Equina",
+    description:
+      "El usuario ataca ferozmente al objetivo usando todo su cuerpo.",
+    type: "GROUND",
     power: 95,
     accuracy: 95,
     new: false,
@@ -3421,8 +4176,10 @@ export const movesData = [
   },
   {
     internalName: "EARTHPOWER",
-    name: "Earth Power",
-    type: "Ground",
+    name: "Tierra Viva",
+    description:
+      "El usuario hace que el suelo bajo el enemigo estalle con poder. También puede reducir el Sp del objetivo. Def.",
+    type: "GROUND",
     power: 90,
     accuracy: 100,
     new: false,
@@ -3430,8 +4187,10 @@ export const movesData = [
   },
   {
     internalName: "LANDSWRATH",
-    name: "Land's Wrath",
-    type: "Ground",
+    name: "Fuerza Telúrica",
+    description:
+      "El usuario reúne la energía de la tierra y concentra ese poder en los enemigos para dañarlos.",
+    type: "GROUND",
     power: 90,
     accuracy: 100,
     new: false,
@@ -3439,8 +4198,10 @@ export const movesData = [
   },
   {
     internalName: "THOUSANDARROWS",
-    name: "Thousand Arrows",
-    type: "Ground",
+    name: "Mil Flechas",
+    description:
+      "Este movimiento también golpea a los Pokémon que están en el aire. Esos Pokémon son derribados al suelo.",
+    type: "GROUND",
     power: 90,
     accuracy: 100,
     new: false,
@@ -3448,8 +4209,10 @@ export const movesData = [
   },
   {
     internalName: "THOUSANDWAVES",
-    name: "Thousand Waves",
-    type: "Ground",
+    name: "Mil Temblores",
+    description:
+      "El usuario ataca con una ola que se arrastra por el suelo. Aquellos a quienes golpea no pueden huir de la batalla.",
+    type: "GROUND",
     power: 90,
     accuracy: 100,
     new: false,
@@ -3457,8 +4220,10 @@ export const movesData = [
   },
   {
     internalName: "DIG",
-    name: "Dig",
-    type: "Ground",
+    name: "Excavar",
+    description:
+      "El usuario excava y luego ataca en el segundo turno. También se puede utilizar para salir de mazmorras.",
+    type: "GROUND",
     power: 80,
     accuracy: 100,
     new: false,
@@ -3466,8 +4231,10 @@ export const movesData = [
   },
   {
     internalName: "DRILLRUN",
-    name: "Drill Run",
-    type: "Ground",
+    name: "Taladradora",
+    description:
+      "El usuario choca contra su objetivo mientras gira su cuerpo como un taladro. Los golpes críticos aterrizan más fácilmente.",
+    type: "GROUND",
     power: 80,
     accuracy: 95,
     new: false,
@@ -3475,8 +4242,10 @@ export const movesData = [
   },
   {
     internalName: "STOMPINGTANTRUM",
-    name: "Stomping Tantrum",
-    type: "Ground",
+    name: "Pataleta",
+    description:
+      "El usuario ataca impulsado por la frustración. El poder aumenta si el movimiento anterior del usuario falló.",
+    type: "GROUND",
     power: 75,
     accuracy: 100,
     new: false,
@@ -3484,8 +4253,10 @@ export const movesData = [
   },
   {
     internalName: "SCORCHINGSANDS",
-    name: "Scorching Sands",
-    type: "Ground",
+    name: "Arenas Ardientes",
+    description:
+      "El usuario arroja arena abrasadora al objetivo para atacar. Esto también puede quemar al objetivo.",
+    type: "GROUND",
     power: 70,
     accuracy: 100,
     new: false,
@@ -3493,8 +4264,10 @@ export const movesData = [
   },
   {
     internalName: "BONECLUB",
-    name: "Bone Club",
-    type: "Ground",
+    name: "Hueso Palo",
+    description:
+      "El usuario golpea al objetivo con un hueso. También puede hacer que el objetivo se estremezca.",
+    type: "GROUND",
     power: 65,
     accuracy: 85,
     new: false,
@@ -3502,8 +4275,10 @@ export const movesData = [
   },
   {
     internalName: "MUDBOMB",
-    name: "Mud Bomb",
-    type: "Ground",
+    name: "Bomba Fango",
+    description:
+      "El usuario lanza una bola de barro compacta para atacar. También puede reducir la precisión del objetivo.",
+    type: "GROUND",
     power: 65,
     accuracy: 85,
     new: false,
@@ -3511,8 +4286,10 @@ export const movesData = [
   },
   {
     internalName: "BULLDOZE",
-    name: "Bulldoze",
-    type: "Ground",
+    name: "Terratemblor",
+    description:
+      "El usuario golpea todo lo que le rodea pisoteando el suelo. Reduce la velocidad del Pokémon golpeado.",
+    type: "GROUND",
     power: 60,
     accuracy: 100,
     new: false,
@@ -3520,8 +4297,10 @@ export const movesData = [
   },
   {
     internalName: "MUDSHOT",
-    name: "Mud Shot",
-    type: "Ground",
+    name: "Disparo Lodo",
+    description:
+      "El usuario ataca lanzando una gota de barro al objetivo. También reduce la velocidad del objetivo.",
+    type: "GROUND",
     power: 55,
     accuracy: 95,
     new: false,
@@ -3529,8 +4308,10 @@ export const movesData = [
   },
   {
     internalName: "BONEMERANG",
-    name: "Bonemerang",
-    type: "Ground",
+    name: "Huesomerang",
+    description:
+      "El usuario arroja el hueso que sostiene. El hueso gira para alcanzar el objetivo dos veces, yendo y viniendo.",
+    type: "GROUND",
     power: 50,
     accuracy: 90,
     new: false,
@@ -3538,8 +4319,10 @@ export const movesData = [
   },
   {
     internalName: "SANDTOMB",
-    name: "Sand Tomb",
-    type: "Ground",
+    name: "Bucle Arena",
+    description:
+      "El usuario atrapa al objetivo dentro de una tormenta de arena intensa durante cuatro o cinco turnos.",
+    type: "GROUND",
     power: 35,
     accuracy: 85,
     new: false,
@@ -3547,8 +4330,10 @@ export const movesData = [
   },
   {
     internalName: "BONERUSH",
-    name: "Bone Rush",
-    type: "Ground",
+    name: "Ataque Óseo",
+    description:
+      "El usuario golpea al objetivo con un hueso duro de dos a cinco veces seguidas.",
+    type: "GROUND",
     power: 25,
     accuracy: 90,
     new: false,
@@ -3556,8 +4341,10 @@ export const movesData = [
   },
   {
     internalName: "MUDSLAP",
-    name: "Mud-Slap",
-    type: "Ground",
+    name: "Bofetón Lodo",
+    description:
+      "El usuario arroja barro a la cara del objetivo para infligir daño y reducir su precisión.",
+    type: "GROUND",
     power: 20,
     accuracy: 100,
     new: false,
@@ -3565,8 +4352,10 @@ export const movesData = [
   },
   {
     internalName: "FISSURE",
-    name: "Fissure",
-    type: "Ground",
+    name: "Fisura",
+    description:
+      "El usuario abre una fisura en el suelo y deja caer al enemigo. El objetivo se desmaya instantáneamente si lo golpea.",
+    type: "GROUND",
     power: 1,
     accuracy: 30,
     new: false,
@@ -3574,8 +4363,10 @@ export const movesData = [
   },
   {
     internalName: "MAGNITUDE",
-    name: "Magnitude",
-    type: "Ground",
+    name: "Magnitud",
+    description:
+      "El usuario pierde un terremoto que sacude el suelo y afecta a todos los que lo rodean. Su poder varía.",
+    type: "GROUND",
     power: 1,
     accuracy: 100,
     new: false,
@@ -3583,8 +4374,10 @@ export const movesData = [
   },
   {
     internalName: "MUDSPORT",
-    name: "Mud Sport",
-    type: "Ground",
+    name: "Chapoteo Lodo",
+    description:
+      "El usuario se cubre de barro. Debilita los movimientos de tipo eléctrico mientras el usuario está en la batalla.",
+    type: "GROUND",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3592,8 +4385,10 @@ export const movesData = [
   },
   {
     internalName: "ROTOTILLER",
-    name: "Rototiller",
-    type: "Ground",
+    name: "Fertilizante",
+    description:
+      "El usuario labra la tierra para estimular el crecimiento de las plantas. Esto aumenta el ataque y el sp. Atk de los tipos Grass.",
+    type: "GROUND",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3601,8 +4396,10 @@ export const movesData = [
   },
   {
     internalName: "SANDATTACK",
-    name: "Sand Attack",
-    type: "Ground",
+    name: "Ataque Arena",
+    description:
+      "Se arroja arena a la cara del objetivo, lo que reduce su precisión.",
+    type: "GROUND",
     power: 0,
     accuracy: 100,
     new: false,
@@ -3610,8 +4407,10 @@ export const movesData = [
   },
   {
     internalName: "SHOREUP",
-    name: "Shore Up",
-    type: "Ground",
+    name: "Recogearena",
+    description:
+      "El usuario recupera hasta la mitad de su HP máximo. Restaura más HP en una tormenta de arena.",
+    type: "GROUND",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3619,8 +4418,10 @@ export const movesData = [
   },
   {
     internalName: "SPIKES",
-    name: "Spikes",
-    type: "Ground",
+    name: "Púas",
+    description:
+      "El usuario coloca una trampa de púas a los pies del enemigo. La trampa daña a los enemigos que entran en batalla.",
+    type: "GROUND",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3628,8 +4429,10 @@ export const movesData = [
   },
   {
     internalName: "FREEZESHOCK",
-    name: "Freeze Shock",
-    type: "Ice",
+    name: "Rayo Gélido",
+    description:
+      "En el segundo turno, el usuario golpea al enemigo con hielo cargado eléctricamente. También puede paralizar al enemigo.",
+    type: "ICE",
     power: 140,
     accuracy: 90,
     new: false,
@@ -3637,8 +4440,10 @@ export const movesData = [
   },
   {
     internalName: "ICEBURN",
-    name: "Ice Burn",
-    type: "Ice",
+    name: "Llama Gélida",
+    description:
+      "En el segundo turno, un viento helado y ultrafrío rodea al enemigo. Esto puede dejarlo con una quemadura.",
+    type: "ICE",
     power: 140,
     accuracy: 90,
     new: false,
@@ -3646,8 +4451,10 @@ export const movesData = [
   },
   {
     internalName: "GLACIALLANCE",
-    name: "Glacial Lance",
-    type: "Ice",
+    name: "Lanza Glacial",
+    description:
+      "El usuario ataca lanzando una lanza de carámbano envuelta en una tormenta de nieve al Pokémon contrario.",
+    type: "ICE",
     power: 120,
     accuracy: 100,
     new: false,
@@ -3655,8 +4462,10 @@ export const movesData = [
   },
   {
     internalName: "BLIZZARD",
-    name: "Blizzard",
-    type: "Ice",
+    name: "Ventisca",
+    description:
+      "Se convoca una tormenta de nieve que azota al equipo contrario. También puede congelarlos.",
+    type: "ICE",
     power: 110,
     accuracy: 70,
     new: false,
@@ -3664,8 +4473,10 @@ export const movesData = [
   },
   {
     internalName: "ICEHAMMER",
-    name: "Ice Hammer",
-    type: "Ice",
+    name: "Martillo Hielo",
+    description:
+      "El usuario balancea y golpea con su puño fuerte y pesado. Sin embargo, reduce la velocidad del usuario.",
+    type: "ICE",
     power: 100,
     accuracy: 90,
     new: false,
@@ -3673,8 +4484,10 @@ export const movesData = [
   },
   {
     internalName: "MOUNTAINGALE",
-    name: "Mountain Gale",
-    type: "Ice",
+    name: "Viento Carámbano",
+    description:
+      "El usuario lanza gigantescos trozos de hielo al objetivo. Esto también puede hacer que el objetivo se estremezca.",
+    type: "ICE",
     power: 100,
     accuracy: 85,
     new: false,
@@ -3682,8 +4495,10 @@ export const movesData = [
   },
   {
     internalName: "ICEBEAM",
-    name: "Ice Beam",
-    type: "Ice",
+    name: "Rayo Hielo",
+    description:
+      "El objetivo es golpeado con un rayo de energía helado. También puede congelar el objetivo.",
+    type: "ICE",
     power: 90,
     accuracy: 100,
     new: false,
@@ -3691,8 +4506,10 @@ export const movesData = [
   },
   {
     internalName: "ICICLECRASH",
-    name: "Icicle Crash",
-    type: "Ice",
+    name: "Chuzos",
+    description:
+      "El usuario ataca lanzando con fuerza un carámbano sobre el enemigo. También puede hacer que el objetivo se estremezca.",
+    type: "ICE",
     power: 85,
     accuracy: 90,
     new: false,
@@ -3700,8 +4517,10 @@ export const movesData = [
   },
   {
     internalName: "ICESPINNER",
-    name: "Ice Spinner",
-    type: "Ice",
+    name: "Pirueta Helada",
+    description:
+      "El usuario cubre sus pies con hielo y gira, chocando contra el objetivo. Esto también destruye el terreno.",
+    type: "ICE",
     power: 80,
     accuracy: 100,
     new: false,
@@ -3709,8 +4528,10 @@ export const movesData = [
   },
   {
     internalName: "ICEPUNCH",
-    name: "Ice Punch",
-    type: "Ice",
+    name: "Puño Hielo",
+    description:
+      "El objetivo recibe un puñetazo con un puño helado. También puede dejar al objetivo congelado.",
+    type: "ICE",
     power: 75,
     accuracy: 100,
     new: false,
@@ -3718,8 +4539,10 @@ export const movesData = [
   },
   {
     internalName: "FREEZEDRY",
-    name: "Freeze-Dry",
-    type: "Ice",
+    name: "Liofilización",
+    description:
+      "El usuario enfría rápidamente el objetivo. Esto puede congelar al objetivo. Es súper efectivo en tipos de agua.",
+    type: "ICE",
     power: 70,
     accuracy: 100,
     new: false,
@@ -3727,8 +4550,10 @@ export const movesData = [
   },
   {
     internalName: "AURORABEAM",
-    name: "Aurora Beam",
-    type: "Ice",
+    name: "Rayo Aurora",
+    description:
+      "El objetivo es alcanzado con un rayo de colores del arco iris. Esto también puede reducir la estadística de ataque del objetivo.",
+    type: "ICE",
     power: 65,
     accuracy: 100,
     new: false,
@@ -3736,8 +4561,10 @@ export const movesData = [
   },
   {
     internalName: "GLACIATE",
-    name: "Glaciate",
-    type: "Ice",
+    name: "Mundo Gélido",
+    description:
+      "El usuario ataca lanzando aire helado al enemigo. Este ataque reduce la estadística de velocidad de los objetivos.",
+    type: "ICE",
     power: 65,
     accuracy: 95,
     new: false,
@@ -3745,8 +4572,10 @@ export const movesData = [
   },
   {
     internalName: "ICEFANG",
-    name: "Ice Fang",
-    type: "Ice",
+    name: "Colmillo Hielo",
+    description:
+      "El usuario muerde con colmillos infundidos en frío. También puede hacer que el objetivo se estremezca o lo deje congelado.",
+    type: "ICE",
     power: 65,
     accuracy: 95,
     new: false,
@@ -3754,8 +4583,10 @@ export const movesData = [
   },
   {
     internalName: "AVALANCHE",
-    name: "Avalanche",
-    type: "Ice",
+    name: "Alud",
+    description:
+      "Un movimiento de ataque que inflige el doble de daño si el enemigo ha herido al usuario en el mismo turno.",
+    type: "ICE",
     power: 60,
     accuracy: 100,
     new: false,
@@ -3763,8 +4594,10 @@ export const movesData = [
   },
   {
     internalName: "FROSTBREATH",
-    name: "Frost Breath",
-    type: "Ice",
+    name: "Vaho Gélido",
+    description:
+      "El usuario lanza un aliento frío al objetivo. Este ataque siempre resulta en un golpe crítico.",
+    type: "ICE",
     power: 60,
     accuracy: 90,
     new: false,
@@ -3772,8 +4605,10 @@ export const movesData = [
   },
   {
     internalName: "ICYWIND",
-    name: "Icy Wind",
-    type: "Ice",
+    name: "Viento Hielo",
+    description:
+      "El usuario ataca con una ráfaga de aire helado. También reduce la estadística de velocidad de los objetivos.",
+    type: "ICE",
     power: 55,
     accuracy: 95,
     new: false,
@@ -3781,8 +4616,10 @@ export const movesData = [
   },
   {
     internalName: "ICESHARD",
-    name: "Ice Shard",
-    type: "Ice",
+    name: "Esquirla Helada",
+    description:
+      "El flash del usuario congela trozos de hielo y los arroja al objetivo. Este movimiento siempre va primero.",
+    type: "ICE",
     power: 40,
     accuracy: 100,
     new: false,
@@ -3790,8 +4627,10 @@ export const movesData = [
   },
   {
     internalName: "POWDERSNOW",
-    name: "Powder Snow",
-    type: "Ice",
+    name: "Nieve Polvo",
+    description:
+      "El usuario ataca con una escalofriante ráfaga de nieve en polvo. También puede congelar los objetivos.",
+    type: "ICE",
     power: 40,
     accuracy: 100,
     new: false,
@@ -3799,8 +4638,10 @@ export const movesData = [
   },
   {
     internalName: "ICEBALL",
-    name: "Ice Ball",
-    type: "Ice",
+    name: "Bola Hielo",
+    description:
+      "El usuario rueda continuamente hacia el objetivo durante cinco turnos. Se vuelve más fuerte cada vez que golpea.",
+    type: "ICE",
     power: 30,
     accuracy: 90,
     new: false,
@@ -3808,8 +4649,10 @@ export const movesData = [
   },
   {
     internalName: "ICICLESPEAR",
-    name: "Icicle Spear",
-    type: "Ice",
+    name: "Carámbano",
+    description:
+      "El usuario lanza carámbanos afilados al objetivo. Golpea de dos a cinco veces seguidas.",
+    type: "ICE",
     power: 25,
     accuracy: 100,
     new: false,
@@ -3818,7 +4661,9 @@ export const movesData = [
   {
     internalName: "TRIPLEAXEL",
     name: "Triple Axel",
-    type: "Ice",
+    description:
+      "Un ataque consecutivo de tres patadas que se vuelve más poderoso con cada golpe exitoso.",
+    type: "ICE",
     power: 20,
     accuracy: 90,
     new: false,
@@ -3826,8 +4671,10 @@ export const movesData = [
   },
   {
     internalName: "SHEERCOLD",
-    name: "Sheer Cold",
-    type: "Ice",
+    name: "Frío Polar",
+    description:
+      "El enemigo es atacado con una ráfaga de frío absoluto. El objetivo se desmaya instantáneamente si lo golpea.",
+    type: "ICE",
     power: 1,
     accuracy: 30,
     new: false,
@@ -3835,8 +4682,10 @@ export const movesData = [
   },
   {
     internalName: "AURORAVEIL",
-    name: "Aurora Veil",
-    type: "Ice",
+    name: "Velo Aurora",
+    description:
+      "Este movimiento reduce el daño de los ataques durante cinco turnos. Esto sólo se puede utilizar en caso de granizada.",
+    type: "ICE",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3844,8 +4693,10 @@ export const movesData = [
   },
   {
     internalName: "CHILLYRECEPTION",
-    name: "Chilly Reception",
-    type: "Ice",
+    name: "Fría Acogida",
+    description:
+      "El usuario cuenta un chiste realmente malo antes de desconectarse. Esto invoca una tormenta de nieve que dura cinco turnos.",
+    type: "ICE",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3853,8 +4704,10 @@ export const movesData = [
   },
   {
     internalName: "HAIL",
-    name: "Hail",
-    type: "Ice",
+    name: "Granizo",
+    description:
+      "El usuario invoca una tormenta de granizo que dura cinco turnos. Daña a todos los Pokémon excepto al tipo Hielo.",
+    type: "ICE",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3862,8 +4715,10 @@ export const movesData = [
   },
   {
     internalName: "HAZE",
-    name: "Haze",
-    type: "Ice",
+    name: "Niebla",
+    description:
+      "El usuario crea una neblina que elimina cada cambio de estadísticas entre todos los Pokémon que participan en la batalla.",
+    type: "ICE",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3871,8 +4726,10 @@ export const movesData = [
   },
   {
     internalName: "MIST",
-    name: "Mist",
-    type: "Ice",
+    name: "Neblina",
+    description:
+      "El usuario cubre su cuerpo con una niebla blanca que evita que cualquiera de sus estadísticas se corte durante cinco turnos.",
+    type: "ICE",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3880,8 +4737,10 @@ export const movesData = [
   },
   {
     internalName: "SNOWSCAPE",
-    name: "Snowscape",
-    type: "Ice",
+    name: "Paisaje Nevado",
+    description:
+      "El usuario invoca una tormenta de nieve que dura cinco turnos. Esto aumenta las estadísticas de defensa de los tipos de hielo.",
+    type: "ICE",
     power: 0,
     accuracy: 0,
     new: false,
@@ -3889,8 +4748,10 @@ export const movesData = [
   },
   {
     internalName: "EXPLOSION",
-    name: "Explosion",
-    type: "Normal",
+    name: "Explosión",
+    description:
+      "El usuario explota para infligir daño a quienes lo rodean. El usuario se desmaya al utilizar este movimiento.",
+    type: "NORMAL",
     power: 250,
     accuracy: 100,
     new: false,
@@ -3898,8 +4759,10 @@ export const movesData = [
   },
   {
     internalName: "SELFDESTRUCT",
-    name: "Self-Destruct",
-    type: "Normal",
+    name: "Autodestrucción",
+    description:
+      "El usuario explota para infligir daño a todos los Pokémon en batalla. El usuario se desmaya al utilizar este movimiento.",
+    type: "NORMAL",
     power: 200,
     accuracy: 100,
     new: false,
@@ -3907,8 +4770,10 @@ export const movesData = [
   },
   {
     internalName: "GIGAIMPACT",
-    name: "Giga Impact",
-    type: "Normal",
+    name: "Gigaimpacto",
+    description:
+      "El usuario carga contra el objetivo utilizando todo su poder. El usuario deberá descansar en el siguiente turno.",
+    type: "NORMAL",
     power: 150,
     accuracy: 90,
     new: false,
@@ -3916,8 +4781,10 @@ export const movesData = [
   },
   {
     internalName: "HYPERBEAM",
-    name: "Hyper Beam",
-    type: "Normal",
+    name: "Hiperrayo",
+    description:
+      "El enemigo es atacado con un potente rayo. El usuario deberá descansar en el siguiente turno para recuperar su energía.",
+    type: "NORMAL",
     power: 150,
     accuracy: 90,
     new: false,
@@ -3925,8 +4792,10 @@ export const movesData = [
   },
   {
     internalName: "BLOODMOON",
-    name: "Blood Moon",
-    type: "Normal",
+    name: "Luna Roja",
+    description:
+      "El usuario desata todo el peso de su espíritu desde una luna roja llena. Este movimiento no se puede utilizar dos veces seguidas.",
+    type: "NORMAL",
     power: 140,
     accuracy: 100,
     new: false,
@@ -3934,8 +4803,10 @@ export const movesData = [
   },
   {
     internalName: "BOOMBURST",
-    name: "Boomburst",
-    type: "Normal",
+    name: "Estruendo",
+    description:
+      "El usuario ataca todo lo que le rodea con el poder destructivo de un sonido terrible y explosivo.",
+    type: "NORMAL",
     power: 140,
     accuracy: 100,
     new: false,
@@ -3943,8 +4814,10 @@ export const movesData = [
   },
   {
     internalName: "LASTRESORT",
-    name: "Last Resort",
-    type: "Normal",
+    name: "Última Baza",
+    description:
+      "Este movimiento sólo se puede utilizar después de que el usuario haya utilizado todos los demás movimientos que conoce en la batalla.",
+    type: "NORMAL",
     power: 140,
     accuracy: 100,
     new: false,
@@ -3952,8 +4825,10 @@ export const movesData = [
   },
   {
     internalName: "SKULLBASH",
-    name: "Skull Bash",
-    type: "Normal",
+    name: "Cabezazo",
+    description:
+      "El usuario mete la cabeza para aumentar su defensa en el primer turno y luego embiste al enemigo en el siguiente turno.",
+    type: "NORMAL",
     power: 130,
     accuracy: 100,
     new: false,
@@ -3961,8 +4836,10 @@ export const movesData = [
   },
   {
     internalName: "DOUBLEEDGE",
-    name: "Double-Edge",
-    type: "Normal",
+    name: "Doble Filo",
+    description:
+      "Una entrada imprudente y que pone en riesgo la vida. Sin embargo, también daña bastante al usuario.",
+    type: "NORMAL",
     power: 120,
     accuracy: 100,
     new: false,
@@ -3970,8 +4847,10 @@ export const movesData = [
   },
   {
     internalName: "HEADCHARGE",
-    name: "Head Charge",
-    type: "Normal",
+    name: "Ariete",
+    description:
+      "El usuario carga su cabeza contra el enemigo, usando su poderoso cabello protector. El usuario también sufre daños.",
+    type: "NORMAL",
     power: 120,
     accuracy: 100,
     new: false,
@@ -3979,8 +4858,10 @@ export const movesData = [
   },
   {
     internalName: "MEGAKICK",
-    name: "Mega Kick",
-    type: "Normal",
+    name: "Megapatada",
+    description:
+      "El objetivo es atacado con una patada lanzada con potencia llena de músculos.",
+    type: "NORMAL",
     power: 120,
     accuracy: 75,
     new: false,
@@ -3988,8 +4869,10 @@ export const movesData = [
   },
   {
     internalName: "MULTIATTACK",
-    name: "Multi-Attack",
-    type: "Normal",
+    name: "Multiataque",
+    description:
+      "Cubriéndose con alta energía, el usuario golpea al objetivo. El tipo de este movimiento depende de la memoria retenida.",
+    type: "NORMAL",
     power: 120,
     accuracy: 100,
     new: false,
@@ -3997,8 +4880,10 @@ export const movesData = [
   },
   {
     internalName: "TECHNOBLAST",
-    name: "Techno Blast",
-    type: "Normal",
+    name: "Tecno Shock",
+    description:
+      "El usuario dispara un rayo de luz a su objetivo. El tipo cambia según la unidad que tenga el usuario.",
+    type: "NORMAL",
     power: 120,
     accuracy: 100,
     new: false,
@@ -4006,8 +4891,10 @@ export const movesData = [
   },
   {
     internalName: "TERASTARSTORM",
-    name: "Tera Starstorm",
-    type: "Normal",
+    name: "Teraclúster",
+    description:
+      "Con el poder de sus cristales, el usuario bombardea y elimina al objetivo.",
+    type: "NORMAL",
     power: 120,
     accuracy: 100,
     new: false,
@@ -4015,8 +4902,10 @@ export const movesData = [
   },
   {
     internalName: "THRASH",
-    name: "Thrash",
-    type: "Normal",
+    name: "Saña",
+    description:
+      "El usuario arrasa y ataca durante dos o tres turnos. Sin embargo, luego se vuelve confuso.",
+    type: "NORMAL",
     power: 120,
     accuracy: 100,
     new: false,
@@ -4024,8 +4913,10 @@ export const movesData = [
   },
   {
     internalName: "EGGBOMB",
-    name: "Egg Bomb",
-    type: "Normal",
+    name: "Bomba Huevo",
+    description:
+      "Se lanza un huevo grande al objetivo con la máxima fuerza para infligir daño.",
+    type: "NORMAL",
     power: 100,
     accuracy: 75,
     new: false,
@@ -4033,8 +4924,10 @@ export const movesData = [
   },
   {
     internalName: "HYPERDRILL",
-    name: "Hyper Drill",
-    type: "Normal",
+    name: "Hipertaladro",
+    description:
+      "El usuario hace girar su taladro a alta velocidad para perforar el objetivo. Esto puede afectar mediante movimientos protectores.",
+    type: "NORMAL",
     power: 100,
     accuracy: 100,
     new: false,
@@ -4042,8 +4935,10 @@ export const movesData = [
   },
   {
     internalName: "JUDGMENT",
-    name: "Judgment",
-    type: "Normal",
+    name: "Sentencia",
+    description:
+      "El usuario lanza innumerables disparos de luz. Su tipo varía según el tipo de Placa que sostiene el usuario.",
+    type: "NORMAL",
     power: 100,
     accuracy: 100,
     new: false,
@@ -4051,8 +4946,10 @@ export const movesData = [
   },
   {
     internalName: "HYPERVOICE",
-    name: "Hyper Voice",
-    type: "Normal",
+    name: "Vozarrón",
+    description:
+      "El usuario suelta un grito con un eco horrible que tiene el poder de infligir daño.",
+    type: "NORMAL",
     power: 90,
     accuracy: 100,
     new: false,
@@ -4060,8 +4957,10 @@ export const movesData = [
   },
   {
     internalName: "RAGINGBULL",
-    name: "Raging Bull",
-    type: "Normal",
+    name: "Furia Taurina",
+    description:
+      "El usuario realiza una entrada furiosa. El tipo de movimiento depende de la forma del usuario. Puede romper barreras.",
+    type: "NORMAL",
     power: 90,
     accuracy: 100,
     new: false,
@@ -4069,8 +4968,10 @@ export const movesData = [
   },
   {
     internalName: "REVELATIONDANCE",
-    name: "Revelation Dance",
-    type: "Normal",
+    name: "Danza Despertar",
+    description:
+      "El usuario ataca al objetivo bailando muy fuerte. El tipo de usuario determina el tipo de este movimiento.",
+    type: "NORMAL",
     power: 90,
     accuracy: 100,
     new: false,
@@ -4078,8 +4979,10 @@ export const movesData = [
   },
   {
     internalName: "ROCKCLIMB",
-    name: "Rock Climb",
-    type: "Normal",
+    name: "Treparrocas",
+    description:
+      "El usuario ataca al objetivo estrellándolo con una fuerza increíble. También puede confundir al objetivo.",
+    type: "NORMAL",
     power: 90,
     accuracy: 85,
     new: false,
@@ -4087,8 +4990,10 @@ export const movesData = [
   },
   {
     internalName: "TAKEDOWN",
-    name: "Take Down",
-    type: "Normal",
+    name: "Derribo",
+    description:
+      "Un ataque imprudente de carga de cuerpo completo para golpear al enemigo. También daña un poco al usuario.",
+    type: "NORMAL",
     power: 90,
     accuracy: 85,
     new: false,
@@ -4096,8 +5001,10 @@ export const movesData = [
   },
   {
     internalName: "UPROAR",
-    name: "Uproar",
-    type: "Normal",
+    name: "Alboroto",
+    description:
+      "El usuario ataca alborotado durante tres turnos. Durante ese tiempo nadie podrá conciliar el sueño.",
+    type: "NORMAL",
     power: 90,
     accuracy: 100,
     new: false,
@@ -4105,8 +5012,10 @@ export const movesData = [
   },
   {
     internalName: "BODYSLAM",
-    name: "Body Slam",
-    type: "Normal",
+    name: "Golpe Cuerpo",
+    description:
+      "El usuario cae sobre el objetivo con todo su peso corporal. Puede dejar al objetivo con parálisis.",
+    type: "NORMAL",
     power: 85,
     accuracy: 100,
     new: false,
@@ -4114,8 +5023,10 @@ export const movesData = [
   },
   {
     internalName: "EXTREMESPEED",
-    name: "Extreme Speed",
-    type: "Normal",
+    name: "Velocidad Extrema",
+    description:
+      "El usuario carga contra el objetivo a una velocidad cegadora. Este ataque siempre va antes de cualquier otro movimiento.",
+    type: "NORMAL",
     power: 80,
     accuracy: 100,
     new: false,
@@ -4123,8 +5034,10 @@ export const movesData = [
   },
   {
     internalName: "HYPERFANG",
-    name: "Hyper Fang",
-    type: "Normal",
+    name: "Hipercolmillo",
+    description:
+      "El usuario muerde con fuerza al objetivo con sus afilados colmillos frontales. También puede hacer que el objetivo se estremezca.",
+    type: "NORMAL",
     power: 80,
     accuracy: 90,
     new: false,
@@ -4132,8 +5045,10 @@ export const movesData = [
   },
   {
     internalName: "MEGAPUNCH",
-    name: "Mega Punch",
-    type: "Normal",
+    name: "Megapuño",
+    description:
+      "El objetivo es golpeado con un puñetazo lanzado con potencia y fuerza muscular.",
+    type: "NORMAL",
     power: 80,
     accuracy: 85,
     new: false,
@@ -4141,8 +5056,10 @@ export const movesData = [
   },
   {
     internalName: "RAZORWIND",
-    name: "Razor Wind",
-    type: "Normal",
+    name: "Viento Cortante",
+    description:
+      "Un ataque de dos turnos. Hojas de viento golpearon al enemigo en el segundo turno. Los golpes críticos aterrizan más fácilmente.",
+    type: "NORMAL",
     power: 80,
     accuracy: 100,
     new: false,
@@ -4150,8 +5067,10 @@ export const movesData = [
   },
   {
     internalName: "SLAM",
-    name: "Slam",
-    type: "Normal",
+    name: "Atizar",
+    description:
+      "El objetivo es golpeado con una cola larga, enredaderas, etc., para infligir daño.",
+    type: "NORMAL",
     power: 80,
     accuracy: 75,
     new: false,
@@ -4159,8 +5078,10 @@ export const movesData = [
   },
   {
     internalName: "STRENGTH",
-    name: "Strength",
-    type: "Normal",
+    name: "Fuerza",
+    description:
+      "El objetivo es golpeado con un puñetazo lanzado a máxima potencia. También se puede utilizar para mover rocas pesadas.",
+    type: "NORMAL",
     power: 80,
     accuracy: 100,
     new: false,
@@ -4168,8 +5089,10 @@ export const movesData = [
   },
   {
     internalName: "TERABLAST",
-    name: "Tera Blast",
-    type: "Normal",
+    name: "TERABLAST <====",
+    description:
+      "El usuario dispara un rayo de energía Tera al objetivo para infligir daño.",
+    type: "NORMAL",
     power: 80,
     accuracy: 100,
     new: false,
@@ -4177,8 +5100,10 @@ export const movesData = [
   },
   {
     internalName: "TRIATTACK",
-    name: "Tri Attack",
-    type: "Normal",
+    name: "Triataque",
+    description:
+      "El usuario ataca con un ataque simultáneo de tres rayos. También puede paralizar, quemar o congelar al objetivo.",
+    type: "NORMAL",
     power: 80,
     accuracy: 100,
     new: false,
@@ -4186,8 +5111,10 @@ export const movesData = [
   },
   {
     internalName: "CRUSHCLAW",
-    name: "Crush Claw",
-    type: "Normal",
+    name: "Garra Brutal",
+    description:
+      "El usuario corta al objetivo con garras duras y afiladas. También puede reducir la defensa del objetivo.",
+    type: "NORMAL",
     power: 75,
     accuracy: 95,
     new: false,
@@ -4195,8 +5122,10 @@ export const movesData = [
   },
   {
     internalName: "RELICSONG",
-    name: "Relic Song",
-    type: "Normal",
+    name: "Canto Arcaico",
+    description:
+      "Una canción antigua apela al corazón de quienes la escuchan. También puede inducir el sueño.",
+    type: "NORMAL",
     power: 75,
     accuracy: 100,
     new: false,
@@ -4204,8 +5133,10 @@ export const movesData = [
   },
   {
     internalName: "CHIPAWAY",
-    name: "Chip Away",
-    type: "Normal",
+    name: "Guardia Baja",
+    description:
+      "Buscando una apertura, el usuario ataca continuamente. Los cambios en las estadísticas del enemigo no afectan el daño.",
+    type: "NORMAL",
     power: 70,
     accuracy: 100,
     new: false,
@@ -4213,8 +5144,10 @@ export const movesData = [
   },
   {
     internalName: "DIZZYPUNCH",
-    name: "Dizzy Punch",
-    type: "Normal",
+    name: "Puño Mareo",
+    description:
+      "El objetivo es golpeado con puñetazos lanzados rítmicamente que también pueden dejarlo confundido.",
+    type: "NORMAL",
     power: 70,
     accuracy: 100,
     new: false,
@@ -4222,8 +5155,10 @@ export const movesData = [
   },
   {
     internalName: "FACADE",
-    name: "Facade",
-    type: "Normal",
+    name: "Imagen",
+    description:
+      "Un movimiento de ataque que duplica su poder si el usuario está envenenado, quemado o tiene parálisis.",
+    type: "NORMAL",
     power: 70,
     accuracy: 100,
     new: false,
@@ -4231,8 +5166,10 @@ export const movesData = [
   },
   {
     internalName: "HEADBUTT",
-    name: "Headbutt",
-    type: "Normal",
+    name: "Golpe Cabeza",
+    description:
+      "El usuario saca la cabeza y ataca cargando contra el enemigo. También puede hacer que el objetivo se estremezca.",
+    type: "NORMAL",
     power: 70,
     accuracy: 100,
     new: false,
@@ -4240,8 +5177,10 @@ export const movesData = [
   },
   {
     internalName: "RETALIATE",
-    name: "Retaliate",
-    type: "Normal",
+    name: "Represalia",
+    description:
+      "Se venga de un aliado desmayado. Si un aliado se desmayó en el último turno, el daño de este ataque aumenta.",
+    type: "NORMAL",
     power: 70,
     accuracy: 100,
     new: false,
@@ -4249,8 +5188,10 @@ export const movesData = [
   },
   {
     internalName: "SECRETPOWER",
-    name: "Secret Power",
-    type: "Normal",
+    name: "Daño Secreto",
+    description:
+      "El usuario ataca con un poder secreto. Sus efectos añadidos varían según el entorno del usuario.",
+    type: "NORMAL",
     power: 70,
     accuracy: 100,
     new: false,
@@ -4258,8 +5199,10 @@ export const movesData = [
   },
   {
     internalName: "SLASH",
-    name: "Slash",
-    type: "Normal",
+    name: "Cuchillada",
+    description:
+      "El objetivo es atacado con un corte de garras o espadas. Los golpes críticos aterrizan más fácilmente.",
+    type: "NORMAL",
     power: 70,
     accuracy: 100,
     new: false,
@@ -4267,8 +5210,10 @@ export const movesData = [
   },
   {
     internalName: "SMELLINGSALTS",
-    name: "Smelling Salts",
-    type: "Normal",
+    name: "Estímulo",
+    description:
+      "Este ataque inflige el doble de daño a un enemigo paralizado. Sin embargo, también cura la parálisis del objetivo.",
+    type: "NORMAL",
     power: 70,
     accuracy: 100,
     new: false,
@@ -4276,8 +5221,10 @@ export const movesData = [
   },
   {
     internalName: "HORNATTACK",
-    name: "Horn Attack",
-    type: "Normal",
+    name: "Cornada",
+    description:
+      "El objetivo es golpeado con un cuerno puntiagudo para infligir daño.",
+    type: "NORMAL",
     power: 65,
     accuracy: 100,
     new: false,
@@ -4285,8 +5232,10 @@ export const movesData = [
   },
   {
     internalName: "STOMP",
-    name: "Stomp",
-    type: "Normal",
+    name: "Pisotón",
+    description:
+      "El objetivo es pisoteado con un gran pie. También puede hacer que el objetivo se estremezca.",
+    type: "NORMAL",
     power: 65,
     accuracy: 100,
     new: false,
@@ -4294,8 +5243,10 @@ export const movesData = [
   },
   {
     internalName: "COVET",
-    name: "Covet",
-    type: "Normal",
+    name: "Antojo",
+    description:
+      "El usuario se acerca cariñosamente al objetivo y luego roba el objeto que éste tiene.",
+    type: "NORMAL",
     power: 60,
     accuracy: 100,
     new: false,
@@ -4303,8 +5254,10 @@ export const movesData = [
   },
   {
     internalName: "HIDDENPOWER",
-    name: "Hidden Power",
-    type: "Normal",
+    name: "Poder Oculto",
+    description:
+      "Un ataque único que varía en tipo e intensidad según el Pokémon que lo utilice.",
+    type: "NORMAL",
     power: 60,
     accuracy: 100,
     new: false,
@@ -4312,8 +5265,10 @@ export const movesData = [
   },
   {
     internalName: "ROUND",
-    name: "Round",
-    type: "Normal",
+    name: "Canon",
+    description:
+      "El usuario ataca con una canción. Otros pueden unirse a la Ronda y hacer que el ataque cause mayor daño.",
+    type: "NORMAL",
     power: 60,
     accuracy: 100,
     new: false,
@@ -4321,8 +5276,10 @@ export const movesData = [
   },
   {
     internalName: "SWIFT",
-    name: "Swift",
-    type: "Normal",
+    name: "Meteoros",
+    description:
+      "Se disparan rayos en forma de estrella al equipo contrario. Este ataque nunca falla.",
+    type: "NORMAL",
     power: 60,
     accuracy: 0,
     new: false,
@@ -4330,8 +5287,10 @@ export const movesData = [
   },
   {
     internalName: "VISEGRIP",
-    name: "Vise Grip",
-    type: "Normal",
+    name: "Agarre",
+    description:
+      "El objetivo es agarrado y comprimido por ambos lados para infligir daño.",
+    type: "NORMAL",
     power: 55,
     accuracy: 100,
     new: false,
@@ -4339,8 +5298,10 @@ export const movesData = [
   },
   {
     internalName: "CUT",
-    name: "Cut",
-    type: "Normal",
+    name: "Corte",
+    description:
+      "El objetivo se corta con una guadaña o una garra. También se puede utilizar para talar árboles delgados.",
+    type: "NORMAL",
     power: 50,
     accuracy: 95,
     new: false,
@@ -4348,8 +5309,10 @@ export const movesData = [
   },
   {
     internalName: "RAPIDSPIN",
-    name: "Rapid Spin",
-    type: "Normal",
+    name: "Giro Rápido",
+    description:
+      "Un ataque giratorio que aumenta la velocidad del usuario y elimina los efectos de Bind, Spikes, etc.",
+    type: "NORMAL",
     power: 50,
     accuracy: 100,
     new: false,
@@ -4357,8 +5320,10 @@ export const movesData = [
   },
   {
     internalName: "SNORE",
-    name: "Snore",
-    type: "Normal",
+    name: "Ronquido",
+    description:
+      "Un ataque que sólo puede utilizarse si el usuario está dormido. El ruido fuerte también puede hacer que el objetivo se estremezca.",
+    type: "NORMAL",
     power: 50,
     accuracy: 100,
     new: false,
@@ -4366,8 +5331,10 @@ export const movesData = [
   },
   {
     internalName: "TERRAINPULSE",
-    name: "Terrain Pulse",
-    type: "Normal",
+    name: "Pulso de Campo",
+    description:
+      "Utiliza el poder del terreno para atacar. El tipo y el poder de este movimiento varían según el terreno.",
+    type: "NORMAL",
     power: 50,
     accuracy: 100,
     new: false,
@@ -4375,8 +5342,10 @@ export const movesData = [
   },
   {
     internalName: "WEATHERBALL",
-    name: "Weather Ball",
-    type: "Normal",
+    name: "Meteorobola",
+    description:
+      "Un movimiento de ataque que varía en potencia y tipo según el clima.",
+    type: "NORMAL",
     power: 50,
     accuracy: 100,
     new: false,
@@ -4384,8 +5353,10 @@ export const movesData = [
   },
   {
     internalName: "ECHOEDVOICE",
-    name: "Echoed Voice",
-    type: "Normal",
+    name: "Eco Voz",
+    description:
+      "El usuario ataca al enemigo con un eco de voz. Si este movimiento se usa cada turno, causa un daño mayor.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4393,8 +5364,10 @@ export const movesData = [
   },
   {
     internalName: "FAKEOUT",
-    name: "Fake Out",
-    type: "Normal",
+    name: "Sorpresa",
+    description:
+      "Un ataque que golpea primero y hace que el objetivo se estremezca. Solo funciona el primer turno en el que el usuario está en batalla.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4402,8 +5375,10 @@ export const movesData = [
   },
   {
     internalName: "FALSESWIPE",
-    name: "False Swipe",
-    type: "Normal",
+    name: "Falso Tortazo",
+    description:
+      "Un ataque restringido que evita que el objetivo se desmaye. El objetivo queda con al menos 1 HP.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4411,8 +5386,10 @@ export const movesData = [
   },
   {
     internalName: "HOLDBACK",
-    name: "Hold Back",
-    type: "Normal",
+    name: "Clemencia",
+    description:
+      "El usuario se contiene cuando ataca y el objetivo queda con al menos 1 HP.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4420,8 +5397,10 @@ export const movesData = [
   },
   {
     internalName: "PAYDAY",
-    name: "Pay Day",
-    type: "Normal",
+    name: "Día de Pago",
+    description:
+      "Se lanzan numerosas monedas al objetivo para infligir daño. El dinero se gana después de la batalla.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4429,8 +5408,10 @@ export const movesData = [
   },
   {
     internalName: "POUND",
-    name: "Pound",
-    type: "Normal",
+    name: "Destructor",
+    description:
+      "El objetivo es golpeado físicamente con una cola larga o una pata delantera, etc.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4438,8 +5419,10 @@ export const movesData = [
   },
   {
     internalName: "QUICKATTACK",
-    name: "Quick Attack",
-    type: "Normal",
+    name: "Ataque Rápido",
+    description:
+      "El usuario se lanza hacia el objetivo a una velocidad que lo hace casi invisible. Seguramente atacará primero.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4447,8 +5430,10 @@ export const movesData = [
   },
   {
     internalName: "SCRATCH",
-    name: "Scratch",
-    type: "Normal",
+    name: "Arañazo",
+    description:
+      "Garras duras, puntiagudas y afiladas rasgan al objetivo para infligir daño.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4456,8 +5441,10 @@ export const movesData = [
   },
   {
     internalName: "TACKLE",
-    name: "Tackle",
-    type: "Normal",
+    name: "Placaje",
+    description:
+      "Un ataque físico en el que el usuario carga y golpea al objetivo con todo su cuerpo.",
+    type: "NORMAL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -4465,8 +5452,10 @@ export const movesData = [
   },
   {
     internalName: "DOUBLEHIT",
-    name: "Double Hit",
-    type: "Normal",
+    name: "Doble Golpe",
+    description:
+      "El usuario golpea al objetivo con una cola larga, enredaderas o tentáculos. El objetivo recibe dos impactos seguidos.",
+    type: "NORMAL",
     power: 35,
     accuracy: 90,
     new: false,
@@ -4474,8 +5463,10 @@ export const movesData = [
   },
   {
     internalName: "FEINT",
-    name: "Feint",
-    type: "Normal",
+    name: "Amago",
+    description:
+      "Un ataque que golpea a un objetivo usando Proteger o Detectar. También aumenta los efectos de esos movimientos.",
+    type: "NORMAL",
     power: 30,
     accuracy: 100,
     new: false,
@@ -4483,8 +5474,10 @@ export const movesData = [
   },
   {
     internalName: "TAILSLAP",
-    name: "Tail Slap",
-    type: "Normal",
+    name: "Plumerazo",
+    description:
+      "El usuario ataca golpeando al objetivo con su dura cola. Golpea al Pokémon de dos a cinco veces seguidas.",
+    type: "NORMAL",
     power: 25,
     accuracy: 85,
     new: false,
@@ -4492,8 +5485,10 @@ export const movesData = [
   },
   {
     internalName: "POPULATIONBOMB",
-    name: "Population Bomb",
-    type: "Normal",
+    name: "Proliferación",
+    description:
+      "Los compañeros del usuario se reúnen en masa para realizar un ataque combinado que golpea de una a diez veces seguidas.",
+    type: "NORMAL",
     power: 20,
     accuracy: 90,
     new: false,
@@ -4501,8 +5496,10 @@ export const movesData = [
   },
   {
     internalName: "RAGE",
-    name: "Rage",
-    type: "Normal",
+    name: "Furia",
+    description:
+      "Mientras este movimiento esté en uso, el ataque del usuario aumenta cada vez que es golpeado en batalla.",
+    type: "NORMAL",
     power: 20,
     accuracy: 100,
     new: false,
@@ -4510,8 +5507,10 @@ export const movesData = [
   },
   {
     internalName: "SPIKECANNON",
-    name: "Spike Cannon",
-    type: "Normal",
+    name: "Clavo Cañón",
+    description:
+      "Se disparan púas afiladas al objetivo en rápida sucesión. Golpearon de dos a cinco veces seguidas.",
+    type: "NORMAL",
     power: 20,
     accuracy: 100,
     new: false,
@@ -4519,8 +5518,10 @@ export const movesData = [
   },
   {
     internalName: "COMETPUNCH",
-    name: "Comet Punch",
-    type: "Normal",
+    name: "Puño Cometa",
+    description:
+      "El objetivo es golpeado con una ráfaga de golpes que golpean de dos a cinco veces seguidas.",
+    type: "NORMAL",
     power: 18,
     accuracy: 85,
     new: false,
@@ -4528,8 +5529,10 @@ export const movesData = [
   },
   {
     internalName: "FURYSWIPES",
-    name: "Fury Swipes",
-    type: "Normal",
+    name: "Golpes Furia",
+    description:
+      "El objetivo es rastrillado con garras afiladas o guadañas de dos a cinco veces en rápida sucesión.",
+    type: "NORMAL",
     power: 18,
     accuracy: 80,
     new: false,
@@ -4537,8 +5540,10 @@ export const movesData = [
   },
   {
     internalName: "BARRAGE",
-    name: "Barrage",
-    type: "Normal",
+    name: "Bombardeo",
+    description:
+      "Se lanzan objetos redondos al objetivo para que golpee de dos a cinco veces seguidas.",
+    type: "NORMAL",
     power: 15,
     accuracy: 85,
     new: false,
@@ -4546,8 +5551,10 @@ export const movesData = [
   },
   {
     internalName: "BIND",
-    name: "Bind",
-    type: "Normal",
+    name: "Atadura",
+    description:
+      "Se utilizan cosas como cuerpos largos o tentáculos para atar y apretar al enemigo durante cuatro o cinco turnos.",
+    type: "NORMAL",
     power: 15,
     accuracy: 85,
     new: false,
@@ -4555,8 +5562,10 @@ export const movesData = [
   },
   {
     internalName: "DOUBLESLAP",
-    name: "Double Slap",
-    type: "Normal",
+    name: "Doble Bofetón",
+    description:
+      "El objetivo recibe bofetadas repetidas veces, de un lado a otro, de dos a cinco veces seguidas.",
+    type: "NORMAL",
     power: 15,
     accuracy: 85,
     new: false,
@@ -4564,8 +5573,10 @@ export const movesData = [
   },
   {
     internalName: "FURYATTACK",
-    name: "Fury Attack",
-    type: "Normal",
+    name: "Ataque Furia",
+    description:
+      "El objetivo es golpeado repetidamente con un cuerno o pico de dos a cinco veces seguidas.",
+    type: "NORMAL",
     power: 15,
     accuracy: 85,
     new: false,
@@ -4573,8 +5584,10 @@ export const movesData = [
   },
   {
     internalName: "WRAP",
-    name: "Wrap",
-    type: "Normal",
+    name: "Constricción",
+    description:
+      "Se utiliza un cuerpo largo o enredaderas para envolver y apretar el objetivo durante cuatro o cinco vueltas.",
+    type: "NORMAL",
     power: 15,
     accuracy: 90,
     new: false,
@@ -4582,8 +5595,10 @@ export const movesData = [
   },
   {
     internalName: "CONSTRICT",
-    name: "Constrict",
-    type: "Normal",
+    name: "Restricción",
+    description:
+      "El enemigo es atacado con tentáculos o enredaderas largos y rastreros. También puede reducir la velocidad del objetivo.",
+    type: "NORMAL",
     power: 10,
     accuracy: 100,
     new: false,
@@ -4591,8 +5606,10 @@ export const movesData = [
   },
   {
     internalName: "BIDE",
-    name: "Bide",
-    type: "Normal",
+    name: "Venganza",
+    description:
+      "El usuario soporta ataques durante dos turnos y luego contraataca para causar el doble del daño recibido.",
+    type: "NORMAL",
     power: 1,
     accuracy: 0,
     new: false,
@@ -4600,8 +5617,10 @@ export const movesData = [
   },
   {
     internalName: "CRUSHGRIP",
-    name: "Crush Grip",
-    type: "Normal",
+    name: "Agarrón",
+    description:
+      "El objetivo es aplastado con gran fuerza. El ataque es más poderoso cuanto más HP le queda al objetivo.",
+    type: "NORMAL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -4609,8 +5628,10 @@ export const movesData = [
   },
   {
     internalName: "ENDEAVOR",
-    name: "Endeavor",
-    type: "Normal",
+    name: "Esfuerzo",
+    description:
+      "Un movimiento de ataque que reduce el HP del objetivo para igualar el HP del usuario.",
+    type: "NORMAL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -4618,8 +5639,10 @@ export const movesData = [
   },
   {
     internalName: "FLAIL",
-    name: "Flail",
-    type: "Normal",
+    name: "Azote",
+    description:
+      "El usuario se agita sin rumbo para atacar. Se vuelve más poderoso cuanto menos HP tiene el usuario.",
+    type: "NORMAL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -4627,8 +5650,10 @@ export const movesData = [
   },
   {
     internalName: "FRUSTRATION",
-    name: "Frustration",
-    type: "Normal",
+    name: "Frustración",
+    description:
+      "Un ataque de máxima potencia que se vuelve más poderoso cuanto menos le gusta al usuario su Entrenador.",
+    type: "NORMAL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -4636,8 +5661,10 @@ export const movesData = [
   },
   {
     internalName: "GUILLOTINE",
-    name: "Guillotine",
-    type: "Normal",
+    name: "Guillotina",
+    description:
+      "Un ataque feroz y desgarrador con grandes pinzas. El objetivo se desmayará instantáneamente si este ataque impacta.",
+    type: "NORMAL",
     power: 1,
     accuracy: 30,
     new: false,
@@ -4645,8 +5672,10 @@ export const movesData = [
   },
   {
     internalName: "HORNDRILL",
-    name: "Horn Drill",
-    type: "Normal",
+    name: "Perforador",
+    description:
+      "El usuario apuñala al enemigo con un cuerno que gira como un taladro. Si impacta, el objetivo se desmaya instantáneamente.",
+    type: "NORMAL",
     power: 1,
     accuracy: 30,
     new: false,
@@ -4654,8 +5683,10 @@ export const movesData = [
   },
   {
     internalName: "NATURALGIFT",
-    name: "Natural Gift",
-    type: "Normal",
+    name: "Don Natural",
+    description:
+      "El usuario obtiene poder para atacar usando la baya que sostiene. La Baya determina su tipo y poder.",
+    type: "NORMAL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -4663,8 +5694,10 @@ export const movesData = [
   },
   {
     internalName: "PRESENT",
-    name: "Present",
-    type: "Normal",
+    name: "Presente",
+    description:
+      "El usuario ataca dándole al objetivo un regalo con una trampa oculta. Sin embargo, a veces restaura HP.",
+    type: "NORMAL",
     power: 1,
     accuracy: 90,
     new: false,
@@ -4672,8 +5705,10 @@ export const movesData = [
   },
   {
     internalName: "RETURN",
-    name: "Return",
-    type: "Normal",
+    name: "Retribución",
+    description:
+      "Un ataque de máxima potencia que se vuelve más poderoso cuanto más le gusta al usuario su Entrenador.",
+    type: "NORMAL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -4681,8 +5716,10 @@ export const movesData = [
   },
   {
     internalName: "SONICBOOM",
-    name: "Sonic Boom",
-    type: "Normal",
+    name: "Bomba Sónica",
+    description:
+      "El objetivo es golpeado por una onda de choque destructiva que siempre inflige 20 HP de daño.",
+    type: "NORMAL",
     power: 1,
     accuracy: 90,
     new: false,
@@ -4690,8 +5727,10 @@ export const movesData = [
   },
   {
     internalName: "SPITUP",
-    name: "Spit Up",
-    type: "Normal",
+    name: "Escupir",
+    description:
+      "El poder almacenado usando el movimiento Stockpile se libera de una vez en un ataque.",
+    type: "NORMAL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -4699,8 +5738,10 @@ export const movesData = [
   },
   {
     internalName: "SUPERFANG",
-    name: "Super Fang",
-    type: "Normal",
+    name: "Superdiente",
+    description:
+      "El usuario muerde fuertemente al objetivo con sus afilados colmillos frontales. Reduce el HP del objetivo a la mitad.",
+    type: "NORMAL",
     power: 1,
     accuracy: 90,
     new: false,
@@ -4708,8 +5749,10 @@ export const movesData = [
   },
   {
     internalName: "TRUMPCARD",
-    name: "Trump Card",
-    type: "Normal",
+    name: "As Oculto",
+    description:
+      "Cuantos menos PP tenga este movimiento, mayor será su poder de ataque.",
+    type: "NORMAL",
     power: 1,
     accuracy: 0,
     new: false,
@@ -4717,8 +5760,10 @@ export const movesData = [
   },
   {
     internalName: "WRINGOUT",
-    name: "Wring Out",
-    type: "Normal",
+    name: "Estrujón",
+    description:
+      "El usuario retuerce poderosamente al enemigo. Cuanto más HP tenga el enemigo, mayor será el poder de este ataque.",
+    type: "NORMAL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -4726,8 +5771,10 @@ export const movesData = [
   },
   {
     internalName: "ACUPRESSURE",
-    name: "Acupressure",
-    type: "Normal",
+    name: "Acupresión",
+    description:
+      "El usuario aplica presión a los puntos de estrés, aumentando drásticamente una de sus estadísticas.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4735,8 +5782,10 @@ export const movesData = [
   },
   {
     internalName: "AFTERYOU",
-    name: "After You",
-    type: "Normal",
+    name: "Cede Paso",
+    description:
+      "El usuario ayuda al objetivo y le hace usar su movimiento inmediatamente después del usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4744,8 +5793,10 @@ export const movesData = [
   },
   {
     internalName: "ASSIST",
-    name: "Assist",
-    type: "Normal",
+    name: "Ayuda",
+    description:
+      "El usuario utiliza apresuradamente y al azar un movimiento entre los conocidos por otros Pokémon del grupo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4753,8 +5804,10 @@ export const movesData = [
   },
   {
     internalName: "ATTRACT",
-    name: "Attract",
-    type: "Normal",
+    name: "Atracción",
+    description:
+      "Si es del sexo opuesto al usuario, el objetivo se enamora y es menos probable que ataque.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4762,8 +5815,10 @@ export const movesData = [
   },
   {
     internalName: "BATONPASS",
-    name: "Baton Pass",
-    type: "Normal",
+    name: "Relevo",
+    description:
+      "El usuario cambia de lugar con un Pokémon del grupo esperando, transmitiendo cualquier cambio de estadísticas.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4771,8 +5826,10 @@ export const movesData = [
   },
   {
     internalName: "BELLYDRUM",
-    name: "Belly Drum",
-    type: "Normal",
+    name: "Tambor",
+    description:
+      "El usuario maximiza su estadística de ataque a cambio de HP equivalente a la mitad de su HP máximo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4780,8 +5837,10 @@ export const movesData = [
   },
   {
     internalName: "BESTOW",
-    name: "Bestow",
-    type: "Normal",
+    name: "Ofrenda",
+    description:
+      "El usuario pasa el objeto que tiene retenido al objetivo cuando el objetivo no tiene ningún objeto en la mano.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4789,8 +5848,10 @@ export const movesData = [
   },
   {
     internalName: "BLOCK",
-    name: "Block",
-    type: "Normal",
+    name: "Bloqueo",
+    description:
+      "El usuario bloquea el camino del objetivo con los brazos abiertos para evitar que escape.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4798,8 +5859,10 @@ export const movesData = [
   },
   {
     internalName: "CAMOUFLAGE",
-    name: "Camouflage",
-    type: "Normal",
+    name: "Camuflaje",
+    description:
+      "El tipo de usuario cambia según su entorno, como al borde del agua, en la hierba o en una cueva.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4807,8 +5870,10 @@ export const movesData = [
   },
   {
     internalName: "CAPTIVATE",
-    name: "Captivate",
-    type: "Normal",
+    name: "Seducción",
+    description:
+      "Si es del sexo opuesto al usuario, el objetivo queda encantado para que reduzca bruscamente su Sp. Estadística de ataque.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4816,8 +5881,9 @@ export const movesData = [
   },
   {
     internalName: "CELEBRATE",
-    name: "Celebrate",
-    type: "Normal",
+    name: "Celebración",
+    description: "¡El Pokémon te felicita por tu día especial!",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4825,8 +5891,10 @@ export const movesData = [
   },
   {
     internalName: "CONFIDE",
-    name: "Confide",
-    type: "Normal",
+    name: "Confidencia",
+    description:
+      "El usuario le cuenta al objetivo un secreto. El objetivo pierde el foco y su Sp. La estadística de ataque se reduce.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4834,8 +5902,10 @@ export const movesData = [
   },
   {
     internalName: "CONVERSION",
-    name: "Conversion",
-    type: "Normal",
+    name: "Conversión",
+    description:
+      "El usuario cambia su tipo para convertirse en el mismo tipo que uno de sus movimientos.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4843,8 +5913,10 @@ export const movesData = [
   },
   {
     internalName: "CONVERSION2",
-    name: "Conversion 2",
-    type: "Normal",
+    name: "Conversión2",
+    description:
+      "El usuario cambia su tipo para hacerse resistente al tipo de ataque que utilizó el oponente por última vez.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4852,8 +5924,10 @@ export const movesData = [
   },
   {
     internalName: "COPYCAT",
-    name: "Copycat",
-    type: "Normal",
+    name: "Copión",
+    description:
+      "El usuario imita el movimiento utilizado inmediatamente antes. El movimiento falla si aún no se ha utilizado ningún otro movimiento.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4861,8 +5935,10 @@ export const movesData = [
   },
   {
     internalName: "COURTCHANGE",
-    name: "Court Change",
-    type: "Normal",
+    name: "Cambio de Cancha",
+    description:
+      "Con su misterioso poder, el usuario intercambia los efectos en ambos lados del campo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4870,8 +5946,10 @@ export const movesData = [
   },
   {
     internalName: "DEFENSECURL",
-    name: "Defense Curl",
-    type: "Normal",
+    name: "Rizo Defensa",
+    description:
+      "El usuario se acurruca para ocultar puntos débiles y aumentar su estadística de Defensa.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4879,8 +5957,10 @@ export const movesData = [
   },
   {
     internalName: "DISABLE",
-    name: "Disable",
-    type: "Normal",
+    name: "Anulación",
+    description:
+      "Durante cuatro turnos, este movimiento impide que el objetivo utilice el último movimiento que utilizó.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4888,8 +5968,10 @@ export const movesData = [
   },
   {
     internalName: "DOODLE",
-    name: "Doodle",
-    type: "Normal",
+    name: "Decalcomanía",
+    description:
+      "El usuario captura la esencia misma del objetivo en un boceto. El usuario y sus aliados copian la habilidad del objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4897,8 +5979,10 @@ export const movesData = [
   },
   {
     internalName: "DOUBLETEAM",
-    name: "Double Team",
-    type: "Normal",
+    name: "Doble Equipo",
+    description:
+      "Al moverse rápidamente, el usuario hace copias ilusorias de sí mismo para aumentar su evasión.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4906,8 +5990,10 @@ export const movesData = [
   },
   {
     internalName: "ENCORE",
-    name: "Encore",
-    type: "Normal",
+    name: "Otra Vez",
+    description:
+      "El usuario obliga al objetivo a seguir usando sólo el último movimiento que utilizó durante tres turnos.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4915,8 +6001,10 @@ export const movesData = [
   },
   {
     internalName: "ENDURE",
-    name: "Endure",
-    type: "Normal",
+    name: "Aguante",
+    description:
+      "El usuario aguanta cualquier ataque con al menos 1 HP. Su probabilidad de fallar aumenta si se usa sucesivamente.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4924,8 +6012,10 @@ export const movesData = [
   },
   {
     internalName: "ENTRAINMENT",
-    name: "Entrainment",
-    type: "Normal",
+    name: "Danza Amiga",
+    description:
+      "El usuario baila para obligar al objetivo a imitarlo, haciendo que la habilidad del objetivo sea la misma que la del usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4933,8 +6023,10 @@ export const movesData = [
   },
   {
     internalName: "FILLETAWAY",
-    name: "Fillet Away",
-    type: "Normal",
+    name: "Deslome",
+    description:
+      "El usuario aumenta drásticamente su ataque, Sp. Estadísticas de Atk y Velocidad usando su propio HP.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4942,8 +6034,10 @@ export const movesData = [
   },
   {
     internalName: "FLASH",
-    name: "Flash",
-    type: "Normal",
+    name: "Destello",
+    description:
+      "El usuario enciende una luz que reduce la precisión del objetivo. También se puede utilizar para iluminar cuevas.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4951,8 +6045,10 @@ export const movesData = [
   },
   {
     internalName: "FOCUSENERGY",
-    name: "Focus Energy",
-    type: "Normal",
+    name: "Foco Energía",
+    description:
+      "El usuario respira profundamente y se concentra para que los golpes críticos aterricen más fácilmente.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4960,8 +6056,10 @@ export const movesData = [
   },
   {
     internalName: "FOLLOWME",
-    name: "Follow Me",
-    type: "Normal",
+    name: "Señuelo",
+    description:
+      "El usuario llama la atención sobre sí mismo, haciendo que todos los objetivos apunten únicamente al usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4969,8 +6067,10 @@ export const movesData = [
   },
   {
     internalName: "FORESIGHT",
-    name: "Foresight",
-    type: "Normal",
+    name: "Profecía",
+    description:
+      "Permite al usuario golpear un tipo Fantasma con cualquier tipo de movimiento. También permite al usuario golpear a un enemigo evasivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -4978,8 +6078,10 @@ export const movesData = [
   },
   {
     internalName: "GLARE",
-    name: "Glare",
-    type: "Normal",
+    name: "Deslumbrar",
+    description:
+      "El usuario intimida al objetivo con el patrón en su vientre para provocar parálisis.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4987,8 +6089,10 @@ export const movesData = [
   },
   {
     internalName: "GROWL",
-    name: "Growl",
-    type: "Normal",
+    name: "Gruñido",
+    description:
+      "El usuario gruñe de una manera entrañable, lo que hace que el enemigo sea menos cauteloso. La estadística de ataque del enemigo se reduce.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -4996,8 +6100,10 @@ export const movesData = [
   },
   {
     internalName: "GROWTH",
-    name: "Growth",
-    type: "Normal",
+    name: "Desarrollo",
+    description:
+      "El cuerpo del usuario crece de una vez, aumentando el Atk y el Sp. Estadísticas de ataque.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5005,8 +6111,10 @@ export const movesData = [
   },
   {
     internalName: "HAPPYHOUR",
-    name: "Happy Hour",
-    type: "Normal",
+    name: "Paga Extra",
+    description:
+      "El uso de Happy Hour duplica la cantidad de premios en metálico recibidos después de la batalla.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5014,8 +6122,10 @@ export const movesData = [
   },
   {
     internalName: "HARDEN",
-    name: "Harden",
-    type: "Normal",
+    name: "Fortaleza",
+    description:
+      "El usuario endurece todos los músculos de su cuerpo para aumentar su estadística de Defensa.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5023,8 +6133,10 @@ export const movesData = [
   },
   {
     internalName: "HEALBELL",
-    name: "Heal Bell",
-    type: "Normal",
+    name: "Cascabel Cura",
+    description:
+      "El usuario hace sonar una campana relajante para curar los problemas de estado de todos los Pokémon del grupo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5032,8 +6144,10 @@ export const movesData = [
   },
   {
     internalName: "HELPINGHAND",
-    name: "Helping Hand",
-    type: "Normal",
+    name: "Refuerzo",
+    description:
+      "El usuario ayuda a un aliado aumentando el poder de su ataque.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5041,8 +6155,10 @@ export const movesData = [
   },
   {
     internalName: "HOLDHANDS",
-    name: "Hold Hands",
-    type: "Normal",
+    name: "Manos Juntas",
+    description:
+      "El usuario y un aliado se dan la mano. Esto los hace muy felices.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5050,8 +6166,10 @@ export const movesData = [
   },
   {
     internalName: "HOWL",
-    name: "Howl",
-    type: "Normal",
+    name: "Aullido",
+    description:
+      "El usuario aúlla fuerte para elevar su espíritu y el de sus aliados, aumentando sus estadísticas de ataque.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5059,8 +6177,10 @@ export const movesData = [
   },
   {
     internalName: "LASERFOCUS",
-    name: "Laser Focus",
-    type: "Normal",
+    name: "Aguzar",
+    description:
+      "El usuario se concentra intensamente. El ataque del siguiente turno siempre resulta en un golpe crítico.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5068,8 +6188,10 @@ export const movesData = [
   },
   {
     internalName: "LEER",
-    name: "Leer",
-    type: "Normal",
+    name: "Malicioso",
+    description:
+      "El usuario obtiene una mirada lasciva intimidante con ojos penetrantes. La estadística de Defensa del objetivo se reduce.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5077,8 +6199,10 @@ export const movesData = [
   },
   {
     internalName: "LOCKON",
-    name: "Lock-On",
-    type: "Normal",
+    name: "Fijar Blanco",
+    description:
+      "El usuario se asegura de apuntar al objetivo. Garantiza que el próximo ataque no deje de alcanzar el objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5086,8 +6210,10 @@ export const movesData = [
   },
   {
     internalName: "LOVELYKISS",
-    name: "Lovely Kiss",
-    type: "Normal",
+    name: "Beso Amoroso",
+    description:
+      "Con cara de miedo, el usuario intenta forzar un beso al objetivo. Si tiene éxito, el objetivo se queda dormido.",
+    type: "NORMAL",
     power: 0,
     accuracy: 75,
     new: false,
@@ -5095,8 +6221,10 @@ export const movesData = [
   },
   {
     internalName: "LUCKYCHANT",
-    name: "Lucky Chant",
-    type: "Normal",
+    name: "Conjuro",
+    description:
+      "El usuario canta un encantamiento hacia el cielo, evitando que el enemigo asesta golpes críticos.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5104,8 +6232,10 @@ export const movesData = [
   },
   {
     internalName: "MEFIRST",
-    name: "Me First",
-    type: "Normal",
+    name: "Yo Primero",
+    description:
+      "El usuario intenta adelantarse al enemigo para robar y utilizar el movimiento previsto por el enemigo con mayor poder.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5113,8 +6243,10 @@ export const movesData = [
   },
   {
     internalName: "MEANLOOK",
-    name: "Mean Look",
-    type: "Normal",
+    name: "Mal de Ojo",
+    description:
+      "El usuario fija al objetivo con una mirada oscura y llamativa. El objetivo se vuelve incapaz de huir.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5122,8 +6254,10 @@ export const movesData = [
   },
   {
     internalName: "METRONOME",
-    name: "Metronome",
-    type: "Normal",
+    name: "Metrónomo",
+    description:
+      "El usuario mueve un dedo y estimula su cerebro para que realice casi cualquier movimiento al azar.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5131,8 +6265,10 @@ export const movesData = [
   },
   {
     internalName: "MILKDRINK",
-    name: "Milk Drink",
-    type: "Normal",
+    name: "Batido",
+    description:
+      "El usuario restaura su propio HP hasta en la mitad de su HP máximo. También se puede utilizar en el campo para curar HP.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5140,8 +6276,10 @@ export const movesData = [
   },
   {
     internalName: "MIMIC",
-    name: "Mimic",
-    type: "Normal",
+    name: "Mimético",
+    description:
+      "El usuario copia el último movimiento utilizado por el enemigo. El movimiento se puede utilizar hasta que se cambie al usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5149,8 +6287,10 @@ export const movesData = [
   },
   {
     internalName: "MINDREADER",
-    name: "Mind Reader",
-    type: "Normal",
+    name: "Telépata",
+    description:
+      "El usuario siente los movimientos del enemigo con su mente para asegurarse de que su próximo ataque no falle.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5158,8 +6298,10 @@ export const movesData = [
   },
   {
     internalName: "MINIMIZE",
-    name: "Minimize",
-    type: "Normal",
+    name: "Reducción",
+    description:
+      "El usuario comprime su cuerpo para parecer más pequeño, lo que aumenta drásticamente su evasión.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5167,8 +6309,10 @@ export const movesData = [
   },
   {
     internalName: "MORNINGSUN",
-    name: "Morning Sun",
-    type: "Normal",
+    name: "Sol Matinal",
+    description:
+      "El usuario restaura su propio HP. La cantidad de HP recuperada varía según el clima.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5176,8 +6320,10 @@ export const movesData = [
   },
   {
     internalName: "NATUREPOWER",
-    name: "Nature Power",
-    type: "Normal",
+    name: "Adaptación",
+    description:
+      "Un ataque que hace uso del poder de la naturaleza. Sus efectos varían según el entorno del usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5185,8 +6331,10 @@ export const movesData = [
   },
   {
     internalName: "NOBLEROAR",
-    name: "Noble Roar",
-    type: "Normal",
+    name: "Rugido de Guerra",
+    description:
+      "Dejando escapar un noble rugido, el usuario intimida al objetivo y reduce su Ataque y Sp. Atk.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5194,8 +6342,10 @@ export const movesData = [
   },
   {
     internalName: "ODORSLEUTH",
-    name: "Odor Sleuth",
-    type: "Normal",
+    name: "Rastreo",
+    description:
+      "Permite al usuario golpear un tipo Fantasma con cualquier tipo de movimiento. También permite al usuario golpear a un enemigo evasivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5203,8 +6353,10 @@ export const movesData = [
   },
   {
     internalName: "PAINSPLIT",
-    name: "Pain Split",
-    type: "Normal",
+    name: "Divide Dolor",
+    description:
+      "El usuario agrega su HP al HP del objetivo y luego comparte equitativamente el HP combinado con el objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5212,8 +6364,10 @@ export const movesData = [
   },
   {
     internalName: "PERISHSONG",
-    name: "Perish Song",
-    type: "Normal",
+    name: "Canto Mortal",
+    description:
+      "Cualquier Pokémon que escuche esta canción se desmaya en tres turnos, a menos que salga de la batalla.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5221,8 +6375,10 @@ export const movesData = [
   },
   {
     internalName: "PLAYNICE",
-    name: "Play Nice",
-    type: "Normal",
+    name: "Camaradería",
+    description:
+      "El usuario y el objetivo se hacen amigos. El objetivo pierde la voluntad de luchar, lo que reduce su estadística de ataque.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5230,8 +6386,9 @@ export const movesData = [
   },
   {
     internalName: "POWERSHIFT",
-    name: "Power Shift",
-    type: "Normal",
+    name: "Cambiapoder",
+    description: "El usuario intercambia sus estadísticas de Ataque y Defensa.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5239,8 +6396,10 @@ export const movesData = [
   },
   {
     internalName: "PROTECT",
-    name: "Protect",
-    type: "Normal",
+    name: "Protección",
+    description:
+      "Permite al usuario evadir todos los ataques. Su probabilidad de fallar aumenta si se usa sucesivamente.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5248,8 +6407,10 @@ export const movesData = [
   },
   {
     internalName: "PSYCHUP",
-    name: "Psych Up",
-    type: "Normal",
+    name: "Autosugestión",
+    description:
+      "El usuario se hipnotiza a sí mismo para copiar cualquier cambio de estadística realizado por el objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5257,8 +6418,10 @@ export const movesData = [
   },
   {
     internalName: "RECOVER",
-    name: "Recover",
-    type: "Normal",
+    name: "Recuperación",
+    description:
+      "Al restaurar sus propias células, el usuario restaura su propio HP a la mitad de su HP máximo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5266,8 +6429,10 @@ export const movesData = [
   },
   {
     internalName: "RECYCLE",
-    name: "Recycle",
-    type: "Normal",
+    name: "Reciclaje",
+    description:
+      "El usuario recicla un objeto retenido que se ha usado en la batalla para poder usarlo nuevamente.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5275,8 +6440,10 @@ export const movesData = [
   },
   {
     internalName: "REFLECTTYPE",
-    name: "Reflect Type",
-    type: "Normal",
+    name: "Clonatipo",
+    description:
+      "El usuario refleja el tipo de objetivo, haciéndolo del mismo tipo que el objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5284,8 +6451,10 @@ export const movesData = [
   },
   {
     internalName: "REFRESH",
-    name: "Refresh",
-    type: "Normal",
+    name: "Alivio",
+    description:
+      "El usuario descansa para curarse de una intoxicación, una quemadura o una parálisis.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5293,8 +6462,10 @@ export const movesData = [
   },
   {
     internalName: "REVIVALBLESSING",
-    name: "Revival Blessing",
-    type: "Normal",
+    name: "Plegaria Vital",
+    description:
+      "El usuario otorga una amorosa bendición, reviviendo a un Pokémon del grupo desmayado a la mitad de su HP máximo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5302,8 +6473,10 @@ export const movesData = [
   },
   {
     internalName: "ROAR",
-    name: "Roar",
-    type: "Normal",
+    name: "Rugido",
+    description:
+      "El objetivo se asusta y es reemplazado por otro Pokémon de su grupo. En la naturaleza, la batalla termina.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5311,8 +6484,10 @@ export const movesData = [
   },
   {
     internalName: "SAFEGUARD",
-    name: "Safeguard",
-    type: "Normal",
+    name: "Velo Sagrado",
+    description:
+      "El usuario crea un campo protector que evita problemas de estado durante cinco turnos.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5320,8 +6495,10 @@ export const movesData = [
   },
   {
     internalName: "SCARYFACE",
-    name: "Scary Face",
-    type: "Normal",
+    name: "Cara Susto",
+    description:
+      "El usuario asusta al objetivo con una cara aterradora para reducir drásticamente su estadística de Velocidad.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5329,8 +6506,10 @@ export const movesData = [
   },
   {
     internalName: "SCREECH",
-    name: "Screech",
-    type: "Normal",
+    name: "Chirrido",
+    description:
+      "Un chillido ensordecedor reduce drásticamente la estadística de Defensa del objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 85,
     new: false,
@@ -5338,8 +6517,10 @@ export const movesData = [
   },
   {
     internalName: "SHARPEN",
-    name: "Sharpen",
-    type: "Normal",
+    name: "Afilar",
+    description:
+      "El usuario reduce su número de polígonos para hacerlo más irregular, lo que aumenta la estadística de ataque.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5347,8 +6528,10 @@ export const movesData = [
   },
   {
     internalName: "SHEDTAIL",
-    name: "Shed Tail",
-    type: "Normal",
+    name: "Autotomía",
+    description:
+      "El usuario crea un sustituto usando su propio HP y luego cambia de lugar con un Pokémon del grupo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5356,8 +6539,10 @@ export const movesData = [
   },
   {
     internalName: "SHELLSMASH",
-    name: "Shell Smash",
-    type: "Normal",
+    name: "Rompecoraza",
+    description:
+      "El usuario rompe su caparazón, reduciendo sus defensas pero aumentando drásticamente las estadísticas de ataque y velocidad.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5365,8 +6550,10 @@ export const movesData = [
   },
   {
     internalName: "SIMPLEBEAM",
-    name: "Simple Beam",
-    type: "Normal",
+    name: "Onda Simple",
+    description:
+      "La misteriosa onda psíquica del usuario cambia la habilidad del objetivo a Simple.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5374,8 +6561,10 @@ export const movesData = [
   },
   {
     internalName: "SING",
-    name: "Sing",
-    type: "Normal",
+    name: "Canto",
+    description:
+      "Se canta una relajante canción de cuna con una voz tranquilizadora que sumerge al objetivo en un sueño profundo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 55,
     new: false,
@@ -5383,8 +6572,10 @@ export const movesData = [
   },
   {
     internalName: "SKETCH",
-    name: "Sketch",
-    type: "Normal",
+    name: "Esquema",
+    description:
+      "Permite al usuario aprender permanentemente el último movimiento utilizado por el enemigo. Una vez utilizado, Sketch desaparece.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5392,8 +6583,10 @@ export const movesData = [
   },
   {
     internalName: "SLACKOFF",
-    name: "Slack Off",
-    type: "Normal",
+    name: "Relajo",
+    description:
+      "El usuario afloja, restaurando su propio HP hasta la mitad de su HP máximo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5401,8 +6594,10 @@ export const movesData = [
   },
   {
     internalName: "SLEEPTALK",
-    name: "Sleep Talk",
-    type: "Normal",
+    name: "Sonámbulo",
+    description:
+      "Mientras está dormido, el usuario utiliza aleatoriamente uno de los movimientos que conoce.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5410,8 +6605,10 @@ export const movesData = [
   },
   {
     internalName: "SMOKESCREEN",
-    name: "Smokescreen",
-    type: "Normal",
+    name: "Pantalla de Humo",
+    description:
+      "El usuario libera una nube de humo o tinta que oscurece. Reduce la precisión del objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5419,8 +6616,10 @@ export const movesData = [
   },
   {
     internalName: "SOFTBOILED",
-    name: "Soft-Boiled",
-    type: "Normal",
+    name: "Ovocuración",
+    description:
+      "El usuario restaura su propio HP hasta en la mitad de su HP máximo. También se puede utilizar en el campo para curar HP.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5428,8 +6627,10 @@ export const movesData = [
   },
   {
     internalName: "SPLASH",
-    name: "Splash",
-    type: "Normal",
+    name: "Salpicadura",
+    description:
+      "El usuario simplemente se deja caer y salpica sin ningún efecto...",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5437,8 +6638,10 @@ export const movesData = [
   },
   {
     internalName: "SPOTLIGHT",
-    name: "Spotlight",
-    type: "Normal",
+    name: "Foco",
+    description:
+      "El usuario ilumina al objetivo con un reflector para que solo él sea atacado durante el turno.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5446,8 +6649,10 @@ export const movesData = [
   },
   {
     internalName: "STOCKPILE",
-    name: "Stockpile",
-    type: "Normal",
+    name: "Reserva",
+    description:
+      "El usuario carga poder y aumenta tanto su Defensa como su Sp. Def. El movimiento se puede utilizar tres veces.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5455,8 +6660,10 @@ export const movesData = [
   },
   {
     internalName: "STUFFCHEEKS",
-    name: "Stuff Cheeks",
-    type: "Normal",
+    name: "Atiborramiento",
+    description:
+      "El usuario come la baya que tiene y luego aumenta drásticamente su estadística de defensa.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5464,8 +6671,10 @@ export const movesData = [
   },
   {
     internalName: "SUBSTITUTE",
-    name: "Substitute",
-    type: "Normal",
+    name: "Sustituto",
+    description:
+      "El usuario hace una copia de sí mismo usando parte de su HP. La copia sirve como señuelo para el usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5473,8 +6682,10 @@ export const movesData = [
   },
   {
     internalName: "SUPERSONIC",
-    name: "Supersonic",
-    type: "Normal",
+    name: "Supersónico",
+    description:
+      "El usuario genera extrañas ondas sonoras desde su cuerpo. Puede confundir al objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 55,
     new: false,
@@ -5482,8 +6693,10 @@ export const movesData = [
   },
   {
     internalName: "SWAGGER",
-    name: "Swagger",
-    type: "Normal",
+    name: "Contoneo",
+    description:
+      "El usuario enfurece y confunde al objetivo. Sin embargo, también aumenta considerablemente la estadística de ataque del objetivo.",
+    type: "NORMAL",
     power: 0,
     accuracy: 85,
     new: false,
@@ -5491,8 +6704,10 @@ export const movesData = [
   },
   {
     internalName: "SWALLOW",
-    name: "Swallow",
-    type: "Normal",
+    name: "Tragar",
+    description:
+      "El poder almacenado usando el movimiento Stockpile es absorbido por el usuario para curar su HP.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5500,8 +6715,10 @@ export const movesData = [
   },
   {
     internalName: "SWEETSCENT",
-    name: "Sweet Scent",
-    type: "Normal",
+    name: "Dulce Aroma",
+    description:
+      "Un dulce aroma que reduce la evasión del enemigo. También atrae a Pokémon salvajes si se usa en la hierba, etc.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5509,8 +6726,10 @@ export const movesData = [
   },
   {
     internalName: "SWORDSDANCE",
-    name: "Swords Dance",
-    type: "Normal",
+    name: "Danza Espada",
+    description:
+      "Un baile frenético para elevar el espíritu de lucha. Aumenta drásticamente la estadística de ataque del usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5518,8 +6737,10 @@ export const movesData = [
   },
   {
     internalName: "TAILWHIP",
-    name: "Tail Whip",
-    type: "Normal",
+    name: "Látigo",
+    description:
+      "El usuario mueve su cola de manera linda, lo que hace que los Pokémon rivales sean menos cautelosos y reduce su estadística de Defensa.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5527,8 +6748,10 @@ export const movesData = [
   },
   {
     internalName: "TEARFULLOOK",
-    name: "Tearful Look",
-    type: "Normal",
+    name: "Ojos Llorosos",
+    description:
+      "Se le llenan los ojos de lágrimas para hacer que el objetivo pierda las ganas de luchar. Reduce el ataque y el Sp del objetivo. Atk.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5536,8 +6759,10 @@ export const movesData = [
   },
   {
     internalName: "TEATIME",
-    name: "Teatime",
-    type: "Normal",
+    name: "Hora del Té",
+    description:
+      "El usuario tiene la hora del té con todos los Pokémon de la batalla. Cada Pokémon se come la baya que tiene.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5545,8 +6770,10 @@ export const movesData = [
   },
   {
     internalName: "TEETERDANCE",
-    name: "Teeter Dance",
-    type: "Normal",
+    name: "Danza Caos",
+    description:
+      "El usuario realiza una danza tambaleante que confunde a los Pokémon que lo rodean.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5554,8 +6781,10 @@ export const movesData = [
   },
   {
     internalName: "TICKLE",
-    name: "Tickle",
-    type: "Normal",
+    name: "Cosquillas",
+    description:
+      "El usuario hace cosquillas al objetivo para que se ría, reduciendo sus estadísticas de ataque y defensa.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5563,8 +6792,10 @@ export const movesData = [
   },
   {
     internalName: "TIDYUP",
-    name: "Tidy Up",
-    type: "Normal",
+    name: "Limpieza General",
+    description:
+      "El usuario elimina todos los obstáculos de entrada y sustitutos. Esto también aumenta el ataque y la velocidad del usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5572,8 +6803,10 @@ export const movesData = [
   },
   {
     internalName: "TRANSFORM",
-    name: "Transform",
-    type: "Normal",
+    name: "Transformación",
+    description:
+      "El usuario se transforma en una copia del objetivo hasta tener el mismo conjunto de movimientos.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5581,8 +6814,10 @@ export const movesData = [
   },
   {
     internalName: "WHIRLWIND",
-    name: "Whirlwind",
-    type: "Normal",
+    name: "Remolino",
+    description:
+      "El enemigo queda impresionado y es reemplazado por otro Pokémon de su grupo. En la naturaleza, la batalla termina.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5590,8 +6825,10 @@ export const movesData = [
   },
   {
     internalName: "WISH",
-    name: "Wish",
-    type: "Normal",
+    name: "Deseo",
+    description:
+      "Un turno después de usar este movimiento, el HP del objetivo se restaura a la mitad del HP máximo del usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5599,8 +6836,10 @@ export const movesData = [
   },
   {
     internalName: "WORKUP",
-    name: "Work Up",
-    type: "Normal",
+    name: "Avivar",
+    description:
+      "El usuario se despierta y su Ataque y Sp. Las estadísticas de ataque aumentan.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5608,8 +6847,10 @@ export const movesData = [
   },
   {
     internalName: "YAWN",
-    name: "Yawn",
-    type: "Normal",
+    name: "Bostezo",
+    description:
+      "El usuario suelta un enorme bostezo que adormece al objetivo y lo hace quedarse dormido en el siguiente turno.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5617,8 +6858,10 @@ export const movesData = [
   },
   {
     internalName: "BELCH",
-    name: "Belch",
-    type: "Poison",
+    name: "Eructo",
+    description:
+      "El usuario deja escapar un eructo dañino hacia el objetivo. El usuario debe comerse una baya retenida para utilizar este movimiento.",
+    type: "POISON",
     power: 120,
     accuracy: 90,
     new: false,
@@ -5626,8 +6869,10 @@ export const movesData = [
   },
   {
     internalName: "GUNKSHOT",
-    name: "Gunk Shot",
-    type: "Poison",
+    name: "Lanzamugre",
+    description:
+      "El usuario dispara basura sucia al objetivo para atacar. También puede envenenar al objetivo.",
+    type: "POISON",
     power: 120,
     accuracy: 80,
     new: false,
@@ -5635,8 +6880,10 @@ export const movesData = [
   },
   {
     internalName: "MALIGNANTCHAIN",
-    name: "Malignant Chain",
-    type: "Poison",
+    name: "Cadena Virulenta",
+    description:
+      "El usuario envuelve al objetivo en una cadena tóxica y corrosiva. Esto también puede envenenar gravemente al objetivo.",
+    type: "POISON",
     power: 100,
     accuracy: 100,
     new: false,
@@ -5644,8 +6891,10 @@ export const movesData = [
   },
   {
     internalName: "SLUDGEWAVE",
-    name: "Sludge Wave",
-    type: "Poison",
+    name: "Onda Tóxica",
+    description:
+      "Inunda el área alrededor del usuario con una ola de lodo gigante. También puede envenenar a los afectados.",
+    type: "POISON",
     power: 95,
     accuracy: 100,
     new: false,
@@ -5653,8 +6902,10 @@ export const movesData = [
   },
   {
     internalName: "SHELLSIDEARM",
-    name: "Shell Side Arm",
-    type: "Poison",
+    name: "Moluscañón",
+    description:
+      "Inflige daño físico o especial, lo que sea más efectivo. También puede envenenar al objetivo.",
+    type: "POISON",
     power: 90,
     accuracy: 100,
     new: false,
@@ -5662,8 +6913,10 @@ export const movesData = [
   },
   {
     internalName: "SLUDGEBOMB",
-    name: "Sludge Bomb",
-    type: "Poison",
+    name: "Bomba Lodo",
+    description:
+      "Se arroja lodo insalubre al objetivo. También puede envenenar al objetivo.",
+    type: "POISON",
     power: 90,
     accuracy: 100,
     new: false,
@@ -5671,8 +6924,10 @@ export const movesData = [
   },
   {
     internalName: "DIRECLAW",
-    name: "Dire Claw",
-    type: "Poison",
+    name: "Garra Nociva",
+    description:
+      "El usuario arremete con garras ruinosas. Esto también puede dejar al objetivo envenenado, paralizado o dormido.",
+    type: "POISON",
     power: 80,
     accuracy: 100,
     new: false,
@@ -5680,8 +6935,10 @@ export const movesData = [
   },
   {
     internalName: "POISONJAB",
-    name: "Poison Jab",
-    type: "Poison",
+    name: "Puya Nociva",
+    description:
+      "El objetivo es apuñalado con un tentáculo o un brazo impregnado de veneno. También puede envenenar al objetivo.",
+    type: "POISON",
     power: 80,
     accuracy: 100,
     new: false,
@@ -5689,8 +6946,10 @@ export const movesData = [
   },
   {
     internalName: "CROSSPOISON",
-    name: "Cross Poison",
-    type: "Poison",
+    name: "Veneno X",
+    description:
+      "Un ataque cortante con una espada venenosa que también puede envenenar al enemigo. Los golpes críticos aterrizan más fácilmente.",
+    type: "POISON",
     power: 70,
     accuracy: 100,
     new: false,
@@ -5698,8 +6957,10 @@ export const movesData = [
   },
   {
     internalName: "SLUDGE",
-    name: "Sludge",
-    type: "Poison",
+    name: "Residuos",
+    description:
+      "Se arroja lodo insalubre al objetivo. También puede envenenar al objetivo.",
+    type: "POISON",
     power: 65,
     accuracy: 100,
     new: false,
@@ -5707,8 +6968,10 @@ export const movesData = [
   },
   {
     internalName: "VENOSHOCK",
-    name: "Venoshock",
-    type: "Poison",
+    name: "Carga Tóxica",
+    description:
+      "El usuario empapa al enemigo en un líquido venenoso especial. Su poder se duplica si el objetivo está envenenado.",
+    type: "POISON",
     power: 65,
     accuracy: 100,
     new: false,
@@ -5716,8 +6979,10 @@ export const movesData = [
   },
   {
     internalName: "BARBBARRAGE",
-    name: "Barb Barrage",
-    type: "Poison",
+    name: "Mil Púas Tóxicas",
+    description:
+      "El usuario dispara púas tóxicas que pueden envenenar al objetivo. El poder se duplica si el objetivo ya está envenenado.",
+    type: "POISON",
     power: 60,
     accuracy: 100,
     new: false,
@@ -5725,8 +6990,10 @@ export const movesData = [
   },
   {
     internalName: "CLEARSMOG",
-    name: "Clear Smog",
-    type: "Poison",
+    name: "Niebla Clara",
+    description:
+      "El usuario ataca lanzando un montón de barro especial. Todos los cambios de estado vuelven a la normalidad.",
+    type: "POISON",
     power: 50,
     accuracy: 0,
     new: false,
@@ -5734,8 +7001,10 @@ export const movesData = [
   },
   {
     internalName: "POISONFANG",
-    name: "Poison Fang",
-    type: "Poison",
+    name: "Colmillo Veneno",
+    description:
+      "El usuario muerde al objetivo con colmillos tóxicos. También puede dejar al objetivo gravemente envenenado.",
+    type: "POISON",
     power: 50,
     accuracy: 100,
     new: false,
@@ -5743,8 +7012,10 @@ export const movesData = [
   },
   {
     internalName: "POISONTAIL",
-    name: "Poison Tail",
-    type: "Poison",
+    name: "Cola Veneno",
+    description:
+      "El usuario golpea al objetivo con su cola. También puede envenenar al objetivo. Los golpes críticos aterrizan más fácilmente.",
+    type: "POISON",
     power: 50,
     accuracy: 100,
     new: false,
@@ -5752,8 +7023,10 @@ export const movesData = [
   },
   {
     internalName: "ACID",
-    name: "Acid",
-    type: "Poison",
+    name: "Ácido",
+    description:
+      "El enemigo es atacado con un spray de ácido fuerte. También puede reducir el Sp del objetivo. Estadística de definición.",
+    type: "POISON",
     power: 40,
     accuracy: 100,
     new: false,
@@ -5761,8 +7034,10 @@ export const movesData = [
   },
   {
     internalName: "ACIDSPRAY",
-    name: "Acid Spray",
-    type: "Poison",
+    name: "Bomba Ácida",
+    description:
+      "El usuario escupe un líquido que sirve para derretir el objetivo. Esto reduce drásticamente el Sp del objetivo. Estadística de definición.",
+    type: "POISON",
     power: 40,
     accuracy: 100,
     new: false,
@@ -5770,8 +7045,10 @@ export const movesData = [
   },
   {
     internalName: "MORTALSPIN",
-    name: "Mortal Spin",
-    type: "Poison",
+    name: "Giro Mortífero",
+    description:
+      "Realiza un giro que elimina ciertas trampas y peligros. Esto también envenena a los Pokémon enemigos.",
+    type: "POISON",
     power: 30,
     accuracy: 100,
     new: false,
@@ -5779,8 +7056,10 @@ export const movesData = [
   },
   {
     internalName: "SMOG",
-    name: "Smog",
-    type: "Poison",
+    name: "Polución",
+    description:
+      "El objetivo es atacado con una descarga de gases inmundos. También puede envenenar al objetivo.",
+    type: "POISON",
     power: 30,
     accuracy: 70,
     new: false,
@@ -5788,8 +7067,10 @@ export const movesData = [
   },
   {
     internalName: "POISONSTING",
-    name: "Poison Sting",
-    type: "Poison",
+    name: "Picotazo Veneno",
+    description:
+      "El usuario apuñala al objetivo con un aguijón venenoso. Esto también puede envenenar al objetivo.",
+    type: "POISON",
     power: 15,
     accuracy: 100,
     new: false,
@@ -5797,8 +7078,10 @@ export const movesData = [
   },
   {
     internalName: "ACIDARMOR",
-    name: "Acid Armor",
-    type: "Poison",
+    name: "Armadura Ácida",
+    description:
+      "El usuario altera su estructura celular para licuarse, aumentando drásticamente su estadística de Defensa.",
+    type: "POISON",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5806,8 +7089,10 @@ export const movesData = [
   },
   {
     internalName: "BANEFULBUNKER",
-    name: "Baneful Bunker",
-    type: "Poison",
+    name: "Búnker",
+    description:
+      "Protege al usuario de ataques. También envenena a cualquier atacante que entre en contacto con el usuario.",
+    type: "POISON",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5815,8 +7100,10 @@ export const movesData = [
   },
   {
     internalName: "COIL",
-    name: "Coil",
-    type: "Poison",
+    name: "Enrosque",
+    description:
+      "El usuario se enrolla y se concentra. Esto aumenta sus estadísticas de ataque y defensa, así como su precisión.",
+    type: "POISON",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5824,8 +7111,10 @@ export const movesData = [
   },
   {
     internalName: "CORROSIVEGAS",
-    name: "Corrosive Gas",
-    type: "Poison",
+    name: "Gas Corrosivo",
+    description:
+      "El usuario rodea todo lo que le rodea con gas altamente ácido y derrite los objetos que contiene.",
+    type: "POISON",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5833,8 +7122,10 @@ export const movesData = [
   },
   {
     internalName: "GASTROACID",
-    name: "Gastro Acid",
-    type: "Poison",
+    name: "Bilis",
+    description:
+      "El usuario arroja los ácidos de su estómago al enemigo. El fluido niega el efecto de la habilidad del objetivo.",
+    type: "POISON",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5842,8 +7133,10 @@ export const movesData = [
   },
   {
     internalName: "POISONGAS",
-    name: "Poison Gas",
-    type: "Poison",
+    name: "Gas Venenoso",
+    description:
+      "Se rocía una nube de gas venenoso sobre la cara del Pokémon contrario. Puede envenenar a los afectados.",
+    type: "POISON",
     power: 0,
     accuracy: 90,
     new: false,
@@ -5851,8 +7144,10 @@ export const movesData = [
   },
   {
     internalName: "POISONPOWDER",
-    name: "Poison Powder",
-    type: "Poison",
+    name: "Polvo Veneno",
+    description:
+      "El usuario esparce una nube de polvo venenoso sobre el objetivo. Puede envenenar al objetivo.",
+    type: "POISON",
     power: 0,
     accuracy: 75,
     new: false,
@@ -5860,8 +7155,10 @@ export const movesData = [
   },
   {
     internalName: "PURIFY",
-    name: "Purify",
-    type: "Poison",
+    name: "Purificación",
+    description:
+      "El usuario cura la condición de estado del objetivo. Si es así, también restaura el propio HP del usuario.",
+    type: "POISON",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5869,8 +7166,10 @@ export const movesData = [
   },
   {
     internalName: "TOXIC",
-    name: "Toxic",
-    type: "Poison",
+    name: "Tóxico",
+    description:
+      "Un movimiento que deja al objetivo gravemente envenenado. Su daño por veneno empeora con cada turno.",
+    type: "POISON",
     power: 0,
     accuracy: 90,
     new: false,
@@ -5878,8 +7177,10 @@ export const movesData = [
   },
   {
     internalName: "TOXICSPIKES",
-    name: "Toxic Spikes",
-    type: "Poison",
+    name: "Púas Tóxicas",
+    description:
+      "El usuario coloca una trampa de púas venenosas a los pies del enemigo. Envenenan a los enemigos que entran en batalla.",
+    type: "POISON",
     power: 0,
     accuracy: 0,
     new: false,
@@ -5887,8 +7188,10 @@ export const movesData = [
   },
   {
     internalName: "TOXICTHREAD",
-    name: "Toxic Thread",
-    type: "Poison",
+    name: "Hilo Venenoso",
+    description:
+      "El usuario dispara hilos venenosos para envenenar al objetivo y reducir su estadística de Velocidad.",
+    type: "POISON",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5896,8 +7199,10 @@ export const movesData = [
   },
   {
     internalName: "VENOMDRENCH",
-    name: "Venom Drench",
-    type: "Poison",
+    name: "Trampa Venenosa",
+    description:
+      "Los enemigos están empapados en un líquido extraño que reduce el ataque, Sp. Atk y Velocidad de Pokémon envenenados.",
+    type: "POISON",
     power: 0,
     accuracy: 100,
     new: false,
@@ -5905,8 +7210,10 @@ export const movesData = [
   },
   {
     internalName: "PRISMATICLASER",
-    name: "Prismatic Laser",
-    type: "Psychic",
+    name: "Láser Prisma",
+    description:
+      "El usuario dispara potentes láseres utilizando el poder de un prisma. El usuario no puede moverse en el siguiente turno.",
+    type: "PSYCHIC",
     power: 160,
     accuracy: 100,
     new: false,
@@ -5914,8 +7221,10 @@ export const movesData = [
   },
   {
     internalName: "PSYCHOBOOST",
-    name: "Psycho Boost",
-    type: "Psychic",
+    name: "Psicoataque",
+    description:
+      "El usuario ataca al objetivo con toda su potencia. El retroceso del ataque reduce drásticamente el Sp del usuario. Estadística de ataque.",
+    type: "PSYCHIC",
     power: 140,
     accuracy: 90,
     new: false,
@@ -5923,8 +7232,10 @@ export const movesData = [
   },
   {
     internalName: "FUTURESIGHT",
-    name: "Future Sight",
-    type: "Psychic",
+    name: "Premonición",
+    description:
+      "Dos turnos después de usar este movimiento, un trozo de energía psíquica ataca al objetivo.",
+    type: "PSYCHIC",
     power: 120,
     accuracy: 100,
     new: false,
@@ -5932,8 +7243,10 @@ export const movesData = [
   },
   {
     internalName: "SYNCHRONOISE",
-    name: "Synchronoise",
-    type: "Psychic",
+    name: "Sincrorruido",
+    description:
+      "Usando una extraña onda de choque, el usuario daña a cualquier Pokémon del mismo tipo que él.",
+    type: "PSYCHIC",
     power: 120,
     accuracy: 100,
     new: false,
@@ -5941,8 +7254,10 @@ export const movesData = [
   },
   {
     internalName: "DREAMEATER",
-    name: "Dream Eater",
-    type: "Psychic",
+    name: "Comesueños",
+    description:
+      "El usuario se come los sueños de un enemigo dormido. Absorbe la mitad del daño causado para curar el HP del usuario.",
+    type: "PSYCHIC",
     power: 100,
     accuracy: 100,
     new: false,
@@ -5950,8 +7265,10 @@ export const movesData = [
   },
   {
     internalName: "PHOTONGEYSER",
-    name: "Photon Geyser",
-    type: "Psychic",
+    name: "Géiser Fotónico",
+    description:
+      "El usuario ataca con un pilar de luz. Este mueve el mayor entre el Ataque o Sp del usuario. Estadística de ataque.",
+    type: "PSYCHIC",
     power: 100,
     accuracy: 100,
     new: false,
@@ -5959,8 +7276,10 @@ export const movesData = [
   },
   {
     internalName: "PSYSTRIKE",
-    name: "Psystrike",
-    type: "Psychic",
+    name: "Onda Mental",
+    description:
+      "El usuario materializa una extraña onda psíquica para atacar al objetivo. Este ataque causa daño físico.",
+    type: "PSYCHIC",
     power: 100,
     accuracy: 100,
     new: false,
@@ -5968,8 +7287,10 @@ export const movesData = [
   },
   {
     internalName: "FREEZINGGLARE",
-    name: "Freezing Glare",
-    type: "Psychic",
+    name: "Mirada Heladora",
+    description:
+      "El usuario dispara su poder psíquico desde sus ojos para atacar. Esto también puede dejar al objetivo congelado.",
+    type: "PSYCHIC",
     power: 90,
     accuracy: 100,
     new: false,
@@ -5977,8 +7298,10 @@ export const movesData = [
   },
   {
     internalName: "PSYCHIC",
-    name: "Psychic",
-    type: "Psychic",
+    name: "Psíquico",
+    description:
+      "El objetivo es alcanzado por una fuerte fuerza telequinética. También puede reducir la Sp del objetivo. Estadística de definición.",
+    type: "PSYCHIC",
     power: 90,
     accuracy: 100,
     new: false,
@@ -5986,8 +7309,10 @@ export const movesData = [
   },
   {
     internalName: "PSYCHICFANGS",
-    name: "Psychic Fangs",
-    type: "Psychic",
+    name: "Psicocolmillo",
+    description:
+      "El usuario muerde al objetivo utilizando capacidades psíquicas. Esto también puede destruir Light Screen y Reflect.",
+    type: "PSYCHIC",
     power: 85,
     accuracy: 100,
     new: false,
@@ -5995,8 +7320,10 @@ export const movesData = [
   },
   {
     internalName: "EERIESPELL",
-    name: "Eerie Spell",
-    type: "Psychic",
+    name: "Conjuro Funesto",
+    description:
+      "El usuario ataca con un tremendo poder psíquico. Esto también elimina 3 PP del último movimiento del objetivo.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6004,8 +7331,10 @@ export const movesData = [
   },
   {
     internalName: "ESPERWING",
-    name: "Esper Wing",
-    type: "Psychic",
+    name: "Ala Aural",
+    description:
+      "El usuario corta con alas enriquecidas con aura y aumenta su estadística de Velocidad. Alta probabilidad de golpe crítico.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6013,8 +7342,10 @@ export const movesData = [
   },
   {
     internalName: "EXPANDINGFORCE",
-    name: "Expanding Force",
-    type: "Psychic",
+    name: "Vasta Fuerza",
+    description:
+      "El usuario ataca al objetivo con poder psíquico. Se enciende y golpea a todos los enemigos en Psychic Terrain.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6022,8 +7353,10 @@ export const movesData = [
   },
   {
     internalName: "EXTRASENSORY",
-    name: "Extrasensory",
-    type: "Psychic",
+    name: "Paranormal",
+    description:
+      "El usuario ataca con un poder extraño e invisible. También puede hacer que el objetivo se estremezca.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6031,8 +7364,10 @@ export const movesData = [
   },
   {
     internalName: "HYPERSPACEHOLE",
-    name: "Hyperspace Hole",
-    type: "Psychic",
+    name: "Cerco Dimensión",
+    description:
+      "Usando un agujero hiperespacial, el usuario aparece justo al lado del objetivo y ataca. Salta protecciones.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 0,
     new: false,
@@ -6040,8 +7375,10 @@ export const movesData = [
   },
   {
     internalName: "LUMINACRASH",
-    name: "Lumina Crash",
-    type: "Psychic",
+    name: "Fotocolisión",
+    description:
+      "El usuario ataca desatando una luz que altera la mente. Esto también reduce drásticamente el Sp del objetivo. Def.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6049,8 +7386,10 @@ export const movesData = [
   },
   {
     internalName: "PSYBLADE",
-    name: "Psyblade",
-    type: "Psychic",
+    name: "Psicohojas",
+    description:
+      "El usuario desgarra al objetivo con una espada etérea. Este movimiento es más fuerte en Electric Terrain.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6058,8 +7397,10 @@ export const movesData = [
   },
   {
     internalName: "PSYSHOCK",
-    name: "Psyshock",
-    type: "Psychic",
+    name: "Psicocarga",
+    description:
+      "El usuario materializa una extraña onda psíquica para atacar al objetivo. Este ataque causa daño físico.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6067,8 +7408,10 @@ export const movesData = [
   },
   {
     internalName: "ZENHEADBUTT",
-    name: "Zen Headbutt",
-    type: "Psychic",
+    name: "Cabezazo Zen",
+    description:
+      "El usuario concentra su fuerza de voluntad en su cabeza y ataca al enemigo. También puede hacer que el objetivo se estremezca.",
+    type: "PSYCHIC",
     power: 80,
     accuracy: 90,
     new: false,
@@ -6076,8 +7419,10 @@ export const movesData = [
   },
   {
     internalName: "PSYCHICNOISE",
-    name: "Psychic Noise",
-    type: "Psychic",
+    name: "Psicorruido",
+    description:
+      "El usuario ataca con ondas sonoras desagradables. Durante dos turnos, el objetivo no puede recuperar HP.",
+    type: "PSYCHIC",
     power: 75,
     accuracy: 100,
     new: false,
@@ -6085,8 +7430,10 @@ export const movesData = [
   },
   {
     internalName: "LUSTERPURGE",
-    name: "Luster Purge",
-    type: "Psychic",
+    name: "Resplandor",
+    description:
+      "El usuario suelta una dañina ráfaga de luz. También puede reducir la Sp del objetivo. Estadística de definición.",
+    type: "PSYCHIC",
     power: 95,
     accuracy: 100,
     new: false,
@@ -6094,8 +7441,10 @@ export const movesData = [
   },
   {
     internalName: "MISTBALL",
-    name: "Mist Ball",
-    type: "Psychic",
+    name: "Bola Neblina",
+    description:
+      "Una ráfaga de plumón parecida a una niebla envuelve y daña al objetivo. También puede reducir el Sp del objetivo. Atk.",
+    type: "PSYCHIC",
     power: 95,
     accuracy: 100,
     new: false,
@@ -6103,8 +7452,10 @@ export const movesData = [
   },
   {
     internalName: "MYSTICALPOWER",
-    name: "Mystical Power",
-    type: "Psychic",
+    name: "Poder Místico",
+    description:
+      "El usuario ataca emitiendo un poder misterioso. Esto también aumenta la Sp del usuario. Estadística de ataque.",
+    type: "PSYCHIC",
     power: 70,
     accuracy: 90,
     new: false,
@@ -6112,8 +7463,10 @@ export const movesData = [
   },
   {
     internalName: "PSYCHOCUT",
-    name: "Psycho Cut",
-    type: "Psychic",
+    name: "Psicocorte",
+    description:
+      "El usuario ataca al objetivo con espadas formadas por poder psíquico. Los golpes críticos aterrizan más fácilmente.",
+    type: "PSYCHIC",
     power: 70,
     accuracy: 100,
     new: false,
@@ -6121,8 +7474,10 @@ export const movesData = [
   },
   {
     internalName: "PSYSHIELDBASH",
-    name: "Psyshield Bash",
-    type: "Psychic",
+    name: "Asalto Barrera",
+    description:
+      "El usuario golpea al objetivo envuelto en energía psíquica. Esto también aumenta la estadística de Defensa del usuario.",
+    type: "PSYCHIC",
     power: 70,
     accuracy: 90,
     new: false,
@@ -6130,8 +7485,10 @@ export const movesData = [
   },
   {
     internalName: "PSYBEAM",
-    name: "Psybeam",
-    type: "Psychic",
+    name: "Psicorrayo",
+    description:
+      "El objetivo es atacado con un rayo peculiar. También puede causar confusión.",
+    type: "PSYCHIC",
     power: 65,
     accuracy: 100,
     new: false,
@@ -6139,8 +7496,10 @@ export const movesData = [
   },
   {
     internalName: "HEARTSTAMP",
-    name: "Heart Stamp",
-    type: "Psychic",
+    name: "Arrumaco",
+    description:
+      "El usuario desata un golpe feroz después de que su lindo acto haga que el enemigo sea menos cauteloso. También puede provocar estremecimientos.",
+    type: "PSYCHIC",
     power: 60,
     accuracy: 100,
     new: false,
@@ -6148,8 +7507,10 @@ export const movesData = [
   },
   {
     internalName: "CONFUSION",
-    name: "Confusion",
-    type: "Psychic",
+    name: "Confusión",
+    description:
+      "El objetivo es alcanzado por una débil fuerza telequinética. También puede dejar al objetivo confundido.",
+    type: "PSYCHIC",
     power: 50,
     accuracy: 100,
     new: false,
@@ -6157,8 +7518,10 @@ export const movesData = [
   },
   {
     internalName: "TWINBEAM",
-    name: "Twin Beam",
-    type: "Psychic",
+    name: "Láser Doble",
+    description:
+      "El usuario dispara rayos místicos desde sus ojos para infligir daño. El objetivo recibe dos impactos seguidos.",
+    type: "PSYCHIC",
     power: 40,
     accuracy: 100,
     new: false,
@@ -6166,8 +7529,10 @@ export const movesData = [
   },
   {
     internalName: "STOREDPOWER",
-    name: "Stored Power",
-    type: "Psychic",
+    name: "Poder Reserva",
+    description:
+      "El usuario ataca con energía almacenada. Cuanto más aumentan las estadísticas del usuario, mayor será el daño.",
+    type: "PSYCHIC",
     power: 20,
     accuracy: 100,
     new: false,
@@ -6175,8 +7540,10 @@ export const movesData = [
   },
   {
     internalName: "MIRRORCOAT",
-    name: "Mirror Coat",
-    type: "Psychic",
+    name: "Manto Espejo",
+    description:
+      "Un movimiento de represalia que contrarresta cualquier ataque especial e inflige el doble del daño recibido.",
+    type: "PSYCHIC",
     power: 1,
     accuracy: 100,
     new: false,
@@ -6184,8 +7551,10 @@ export const movesData = [
   },
   {
     internalName: "PSYWAVE",
-    name: "Psywave",
-    type: "Psychic",
+    name: "Psicoonda",
+    description:
+      "El objetivo es atacado con una extraña onda psíquica. El ataque varía en intensidad.",
+    type: "PSYCHIC",
     power: 1,
     accuracy: 100,
     new: false,
@@ -6193,8 +7562,10 @@ export const movesData = [
   },
   {
     internalName: "AGILITY",
-    name: "Agility",
-    type: "Psychic",
+    name: "Agilidad",
+    description:
+      "El usuario relaja y aligera su cuerpo para moverse más rápido. Aumenta drásticamente la estadística de velocidad.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6202,8 +7573,10 @@ export const movesData = [
   },
   {
     internalName: "ALLYSWITCH",
-    name: "Ally Switch",
-    type: "Psychic",
+    name: "Cambio de Banda",
+    description:
+      "El usuario usa un poder extraño para cambiar de lugar con un aliado. Es más probable que falle si se usa en sucesión.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6212,7 +7585,9 @@ export const movesData = [
   {
     internalName: "AMNESIA",
     name: "Amnesia",
-    type: "Psychic",
+    description:
+      "El usuario vacía temporalmente su mente para olvidar sus preocupaciones. Aumenta drásticamente la Sp del usuario. Estadística de definición.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6220,8 +7595,10 @@ export const movesData = [
   },
   {
     internalName: "BARRIER",
-    name: "Barrier",
-    type: "Psychic",
+    name: "Barrera",
+    description:
+      "El usuario levanta un muro resistente que aumenta drásticamente su estadística de Defensa.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6229,8 +7606,10 @@ export const movesData = [
   },
   {
     internalName: "CALMMIND",
-    name: "Calm Mind",
-    type: "Psychic",
+    name: "Paz Mental",
+    description:
+      "El usuario enfoca silenciosamente su mente y calma su espíritu para elevar su Sp. Atk y Sp. Estadísticas de defensa.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6238,8 +7617,10 @@ export const movesData = [
   },
   {
     internalName: "COSMICPOWER",
-    name: "Cosmic Power",
-    type: "Psychic",
+    name: "Masa Cósmica",
+    description:
+      "El usuario absorbe un poder místico del espacio para aumentar su Defensa y Sp. Estadísticas de defensa.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6247,8 +7628,10 @@ export const movesData = [
   },
   {
     internalName: "GRAVITY",
-    name: "Gravity",
-    type: "Psychic",
+    name: "Gravedad",
+    description:
+      "La gravedad se intensifica durante cinco turnos, lo que hace que los movimientos que implican volar sean inutilizables y anulan la levitación.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6256,8 +7639,10 @@ export const movesData = [
   },
   {
     internalName: "GUARDSPLIT",
-    name: "Guard Split",
-    type: "Psychic",
+    name: "Isoguardia",
+    description:
+      "El usuario emplea su poder psíquico para promediar su Defensa y Sp. Estadísticas de defensa con las de su objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6265,8 +7650,10 @@ export const movesData = [
   },
   {
     internalName: "GUARDSWAP",
-    name: "Guard Swap",
-    type: "Psychic",
+    name: "Cambiadefensa",
+    description:
+      "El usuario emplea su poder psíquico para realizar cambios en su Defensa y Sp. Def con el objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6274,8 +7661,10 @@ export const movesData = [
   },
   {
     internalName: "HEALBLOCK",
-    name: "Heal Block",
-    type: "Psychic",
+    name: "Anticura",
+    description:
+      "Durante cinco turnos, el enemigo no puede utilizar movimientos, habilidades ni elementos retenidos que recuperen HP.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 100,
     new: false,
@@ -6283,8 +7672,10 @@ export const movesData = [
   },
   {
     internalName: "HEALPULSE",
-    name: "Heal Pulse",
-    type: "Psychic",
+    name: "Pulso Cura",
+    description:
+      "El usuario emite un pulso curativo que restaura el HP del objetivo hasta la mitad de su HP máximo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6292,8 +7683,10 @@ export const movesData = [
   },
   {
     internalName: "HEALINGWISH",
-    name: "Healing Wish",
-    type: "Psychic",
+    name: "Deseo Cura",
+    description:
+      "El usuario se desmaya. A cambio, al Pokémon que ocupe su lugar se le restaurará su HP y se le curará su estado.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6301,8 +7694,10 @@ export const movesData = [
   },
   {
     internalName: "HEARTSWAP",
-    name: "Heart Swap",
-    type: "Psychic",
+    name: "Cambiaalmas",
+    description:
+      "El usuario emplea su poder psíquico para cambiar los cambios de estadísticas con el objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6310,8 +7705,10 @@ export const movesData = [
   },
   {
     internalName: "HYPNOSIS",
-    name: "Hypnosis",
-    type: "Psychic",
+    name: "Hipnosis",
+    description:
+      "El usuario emplea sugestión hipnótica para hacer que el objetivo caiga en un sueño profundo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 60,
     new: false,
@@ -6319,8 +7716,10 @@ export const movesData = [
   },
   {
     internalName: "IMPRISON",
-    name: "Imprison",
-    type: "Psychic",
+    name: "Sellar",
+    description:
+      "Si el enemigo conoce algún movimiento también conocido por el usuario, se le impide usarlo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6328,8 +7727,10 @@ export const movesData = [
   },
   {
     internalName: "INSTRUCT",
-    name: "Instruct",
-    type: "Psychic",
+    name: "Mandato",
+    description:
+      "El usuario le indica al objetivo que vuelva a utilizar el último movimiento del objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6337,8 +7738,10 @@ export const movesData = [
   },
   {
     internalName: "KINESIS",
-    name: "Kinesis",
-    type: "Psychic",
+    name: "Kinético",
+    description:
+      "El usuario distrae al objetivo doblando una cuchara. Reduce la precisión del objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 80,
     new: false,
@@ -6346,8 +7749,10 @@ export const movesData = [
   },
   {
     internalName: "LIGHTSCREEN",
-    name: "Light Screen",
-    type: "Psychic",
+    name: "Pantalla de Luz",
+    description:
+      "Se levanta un maravilloso muro de luz para suprimir el daño de los ataques especiales durante cinco turnos.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6355,8 +7760,10 @@ export const movesData = [
   },
   {
     internalName: "LUNARBLESSING",
-    name: "Lunar Blessing",
-    type: "Psychic",
+    name: "Plegaria Lunar",
+    description:
+      "El usuario recibe una bendición de la luna, que cura HP y problemas de estado para él y sus aliados.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6364,8 +7771,10 @@ export const movesData = [
   },
   {
     internalName: "LUNARDANCE",
-    name: "Lunar Dance",
-    type: "Psychic",
+    name: "Danza Lunar",
+    description:
+      "El usuario se desmaya. A cambio, el Pokémon que ocupe su lugar recuperará su estado y HP por completo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6373,8 +7782,10 @@ export const movesData = [
   },
   {
     internalName: "MAGICCOAT",
-    name: "Magic Coat",
-    type: "Psychic",
+    name: "Capa Mágica",
+    description:
+      "Una barrera refleja los movimientos del objetivo como Leech Seed y mueve ese estado de daño.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6382,8 +7793,10 @@ export const movesData = [
   },
   {
     internalName: "MAGICPOWDER",
-    name: "Magic Powder",
-    type: "Psychic",
+    name: "Polvo Mágico",
+    description:
+      "El usuario esparce una nube de polvo mágico que cambia el objetivo al tipo Psíquico.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 100,
     new: false,
@@ -6391,8 +7804,10 @@ export const movesData = [
   },
   {
     internalName: "MAGICROOM",
-    name: "Magic Room",
-    type: "Psychic",
+    name: "Zona Mágica",
+    description:
+      "El usuario crea un área extraña en la que los objetos que posee el Pokémon pierden sus efectos durante cinco turnos.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6400,8 +7815,10 @@ export const movesData = [
   },
   {
     internalName: "MEDITATE",
-    name: "Meditate",
-    type: "Psychic",
+    name: "Meditación",
+    description:
+      "El usuario medita para despertar el poder profundo dentro de su cuerpo y aumentar su estadística de Ataque.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6409,8 +7826,10 @@ export const movesData = [
   },
   {
     internalName: "MIRACLEEYE",
-    name: "Miracle Eye",
-    type: "Psychic",
+    name: "Gran Ojo",
+    description:
+      "Permite al usuario golpear a un tipo Oscuro con cualquier tipo de movimiento. También permite al usuario golpear a un enemigo evasivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6418,8 +7837,10 @@ export const movesData = [
   },
   {
     internalName: "POWERSPLIT",
-    name: "Power Split",
-    type: "Psychic",
+    name: "Isofuerza",
+    description:
+      "El usuario emplea su poder psíquico para promediar su Ataque y Sp. Estadísticas de ataque con las del objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6427,8 +7848,10 @@ export const movesData = [
   },
   {
     internalName: "POWERSWAP",
-    name: "Power Swap",
-    type: "Psychic",
+    name: "Cambiafuerza",
+    description:
+      "El usuario emplea su poder psíquico para realizar cambios en su Ataque y Sp. Ataca con el objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6436,8 +7859,10 @@ export const movesData = [
   },
   {
     internalName: "POWERTRICK",
-    name: "Power Trick",
-    type: "Psychic",
+    name: "Truco Fuerza",
+    description:
+      "El usuario emplea su poder psíquico para cambiar su ataque con su estadística de defensa.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6445,8 +7870,10 @@ export const movesData = [
   },
   {
     internalName: "PSYCHICTERRAIN",
-    name: "Psychic Terrain",
-    type: "Psychic",
+    name: "Campo Psíquico",
+    description:
+      "Protege a los Pokémon en el suelo de movimientos prioritarios y potencia los movimientos de tipo psíquico durante cinco turnos.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6454,8 +7881,10 @@ export const movesData = [
   },
   {
     internalName: "PSYCHOSHIFT",
-    name: "Psycho Shift",
-    type: "Psychic",
+    name: "Psicocambio",
+    description:
+      "Usando su poder psíquico de sugestión, el usuario transfiere sus problemas de estado al objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 100,
     new: false,
@@ -6463,8 +7892,10 @@ export const movesData = [
   },
   {
     internalName: "REFLECT",
-    name: "Reflect",
-    type: "Psychic",
+    name: "Reflejo",
+    description:
+      "Se levanta un maravilloso muro de luz para suprimir el daño de los ataques físicos durante cinco turnos.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6472,8 +7903,10 @@ export const movesData = [
   },
   {
     internalName: "REST",
-    name: "Rest",
-    type: "Psychic",
+    name: "Descanso",
+    description:
+      "El usuario se queda dormido durante dos turnos. Restaura completamente el HP del usuario y soluciona cualquier problema de estado.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6481,8 +7914,10 @@ export const movesData = [
   },
   {
     internalName: "ROLEPLAY",
-    name: "Role Play",
-    type: "Psychic",
+    name: "Imitación",
+    description:
+      "El usuario imita al objetivo por completo, copiando la habilidad natural del objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6490,8 +7925,10 @@ export const movesData = [
   },
   {
     internalName: "SKILLSWAP",
-    name: "Skill Swap",
-    type: "Psychic",
+    name: "Intercambio",
+    description:
+      "El usuario emplea su poder psíquico para intercambiar habilidades con el objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6499,8 +7936,10 @@ export const movesData = [
   },
   {
     internalName: "SPEEDSWAP",
-    name: "Speed Swap",
-    type: "Psychic",
+    name: "Cambiavelocidad",
+    description:
+      "El usuario intercambia estadísticas de velocidad con el objetivo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6508,8 +7947,10 @@ export const movesData = [
   },
   {
     internalName: "TAKEHEART",
-    name: "Take Heart",
-    type: "Psychic",
+    name: "Bálsamo Osado",
+    description:
+      "El usuario levanta el ánimo, cura sus propias condiciones de estado y aumenta su Sp. Atk y Sp. Estadísticas de defensa.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6517,8 +7958,10 @@ export const movesData = [
   },
   {
     internalName: "TELEKINESIS",
-    name: "Telekinesis",
-    type: "Psychic",
+    name: "Telequinesis",
+    description:
+      "El usuario hace flotar al objetivo con su poder psíquico. El objetivo es más fácil de alcanzar durante tres turnos.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6526,8 +7969,10 @@ export const movesData = [
   },
   {
     internalName: "TELEPORT",
-    name: "Teleport",
-    type: "Psychic",
+    name: "Teletransporte",
+    description:
+      "El usuario cambia de lugar con un Pokémon del grupo. También viaja al último Centro Pokémon visitado.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6535,8 +7980,10 @@ export const movesData = [
   },
   {
     internalName: "TRICK",
-    name: "Trick",
-    type: "Psychic",
+    name: "Truco",
+    description:
+      "El usuario toma al objetivo con la guardia baja y cambia el objeto que tiene por el suyo.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 100,
     new: false,
@@ -6544,8 +7991,10 @@ export const movesData = [
   },
   {
     internalName: "TRICKROOM",
-    name: "Trick Room",
-    type: "Psychic",
+    name: "Espacio Raro",
+    description:
+      "El usuario crea un área extraña en la que los Pokémon más lentos se mueven primero durante cinco turnos.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6553,8 +8002,10 @@ export const movesData = [
   },
   {
     internalName: "WONDERROOM",
-    name: "Wonder Room",
-    type: "Psychic",
+    name: "Zona Extraña",
+    description:
+      "El usuario crea un área extraña en la que la Defensa y el Sp del Pokémon. Las estadísticas de defensa se intercambian durante 5 turnos.",
+    type: "PSYCHIC",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6562,8 +8013,10 @@ export const movesData = [
   },
   {
     internalName: "HEADSMASH",
-    name: "Head Smash",
-    type: "Rock",
+    name: "Testarazo",
+    description:
+      "El usuario ataca al enemigo con un peligroso cabezazo con toda su potencia. El usuario también sufre un daño terrible.",
+    type: "ROCK",
     power: 150,
     accuracy: 80,
     new: false,
@@ -6571,8 +8024,10 @@ export const movesData = [
   },
   {
     internalName: "ROCKWRECKER",
-    name: "Rock Wrecker",
-    type: "Rock",
+    name: "Romperrocas",
+    description:
+      "El usuario lanza una enorme roca al objetivo para atacar. Sin embargo, debe descansar en el siguiente turno.",
+    type: "ROCK",
     power: 150,
     accuracy: 90,
     new: false,
@@ -6580,8 +8035,10 @@ export const movesData = [
   },
   {
     internalName: "METEORBEAM",
-    name: "Meteor Beam",
-    type: "Rock",
+    name: "Rayo Meteórico",
+    description:
+      "Reúne poder espacial y aumenta su Sp. Estadística de ataque en el primer turno, ataques en el siguiente turno.",
+    type: "ROCK",
     power: 120,
     accuracy: 90,
     new: false,
@@ -6589,8 +8046,10 @@ export const movesData = [
   },
   {
     internalName: "DIAMONDSTORM",
-    name: "Diamond Storm",
-    type: "Rock",
+    name: "Torm. de Diamantes",
+    description:
+      "El usuario genera una tormenta de diamantes para dañar a los enemigos. Esto también puede aumentar considerablemente la estadística de Defensa del usuario.",
+    type: "ROCK",
     power: 100,
     accuracy: 95,
     new: false,
@@ -6598,8 +8057,10 @@ export const movesData = [
   },
   {
     internalName: "STONEEDGE",
-    name: "Stone Edge",
-    type: "Rock",
+    name: "Roca Afilada",
+    description:
+      "El usuario apuñala al enemigo con piedras afiladas desde abajo. Tiene una alta proporción de golpes críticos.",
+    type: "ROCK",
     power: 100,
     accuracy: 80,
     new: false,
@@ -6607,8 +8068,10 @@ export const movesData = [
   },
   {
     internalName: "MIGHTYCLEAVE",
-    name: "Mighty Cleave",
-    type: "Rock",
+    name: "Filo Potente",
+    description:
+      "El usuario corta el objetivo con la luz acumulada sobre su cabeza. Este movimiento atraviesa protecciones.",
+    type: "ROCK",
     power: 95,
     accuracy: 100,
     new: false,
@@ -6616,8 +8079,10 @@ export const movesData = [
   },
   {
     internalName: "POWERGEM",
-    name: "Power Gem",
-    type: "Rock",
+    name: "Joya de Luz",
+    description:
+      "El usuario ataca con un rayo de luz que brilla como si estuviera hecho de piedras preciosas.",
+    type: "ROCK",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6625,8 +8090,10 @@ export const movesData = [
   },
   {
     internalName: "ROCKSLIDE",
-    name: "Rock Slide",
-    type: "Rock",
+    name: "Avalancha",
+    description:
+      "Se lanzan grandes rocas a los enemigos para infligir daño. También puede hacer que los objetivos se estremezcan.",
+    type: "ROCK",
     power: 75,
     accuracy: 90,
     new: false,
@@ -6634,8 +8101,10 @@ export const movesData = [
   },
   {
     internalName: "STONEAXE",
-    name: "Stone Axe",
-    type: "Rock",
+    name: "Hachazo Pétreo",
+    description:
+      "El usuario lanza sus hachas de piedra hacia el objetivo. Deja astillas de piedra alrededor del objetivo.",
+    type: "ROCK",
     power: 65,
     accuracy: 90,
     new: false,
@@ -6643,8 +8112,10 @@ export const movesData = [
   },
   {
     internalName: "ANCIENTPOWER",
-    name: "Ancient Power",
-    type: "Rock",
+    name: "Poder Pasado",
+    description:
+      "El usuario ataca con un poder prehistórico. También puede aumentar todas las estadísticas del usuario a la vez.",
+    type: "ROCK",
     power: 60,
     accuracy: 100,
     new: false,
@@ -6652,8 +8123,10 @@ export const movesData = [
   },
   {
     internalName: "ROCKTOMB",
-    name: "Rock Tomb",
-    type: "Rock",
+    name: "Tumba Rocas",
+    description:
+      "Se lanzan rocas al objetivo. También reduce la velocidad del objetivo al impedir su movimiento.",
+    type: "ROCK",
     power: 60,
     accuracy: 95,
     new: false,
@@ -6661,8 +8134,10 @@ export const movesData = [
   },
   {
     internalName: "ROCKTHROW",
-    name: "Rock Throw",
-    type: "Rock",
+    name: "Lanzarrocas",
+    description:
+      "El usuario recoge y lanza una pequeña piedra al objetivo para atacar.",
+    type: "ROCK",
     power: 50,
     accuracy: 90,
     new: false,
@@ -6670,8 +8145,10 @@ export const movesData = [
   },
   {
     internalName: "SMACKDOWN",
-    name: "Smack Down",
-    type: "Rock",
+    name: "Antiaéreo",
+    description:
+      "El usuario lanza una piedra o un proyectil para atacar. Un Pokémon volador caerá al suelo cuando lo golpeen.",
+    type: "ROCK",
     power: 50,
     accuracy: 100,
     new: false,
@@ -6679,8 +8156,10 @@ export const movesData = [
   },
   {
     internalName: "ACCELEROCK",
-    name: "Accelerock",
-    type: "Rock",
+    name: "Roca Veloz",
+    description:
+      "El usuario choca contra el objetivo a gran velocidad. Este movimiento siempre va primero.",
+    type: "ROCK",
     power: 40,
     accuracy: 100,
     new: false,
@@ -6688,8 +8167,10 @@ export const movesData = [
   },
   {
     internalName: "SALTCURE",
-    name: "Salt Cure",
-    type: "Rock",
+    name: "Salazón",
+    description:
+      "El usuario de sal cura al objetivo, infligiendo daño en cada turno. Los tipos Acero y Agua sufren más daño.",
+    type: "ROCK",
     power: 40,
     accuracy: 100,
     new: false,
@@ -6697,8 +8178,10 @@ export const movesData = [
   },
   {
     internalName: "ROLLOUT",
-    name: "Rollout",
-    type: "Rock",
+    name: "Rodar",
+    description:
+      "El usuario rueda continuamente hacia el objetivo durante cinco turnos. Se vuelve más fuerte cada vez que golpea.",
+    type: "ROCK",
     power: 30,
     accuracy: 90,
     new: false,
@@ -6706,8 +8189,10 @@ export const movesData = [
   },
   {
     internalName: "ROCKBLAST",
-    name: "Rock Blast",
-    type: "Rock",
+    name: "Pedrada",
+    description:
+      "El usuario lanza piedras duras al objetivo. Se lanzan de dos a cinco piedras en rápida sucesión.",
+    type: "ROCK",
     power: 25,
     accuracy: 90,
     new: false,
@@ -6715,8 +8200,10 @@ export const movesData = [
   },
   {
     internalName: "ROCKPOLISH",
-    name: "Rock Polish",
-    type: "Rock",
+    name: "Pulimento",
+    description:
+      "El usuario pule su cuerpo para reducir la resistencia. Puede aumentar drásticamente la estadística de Velocidad.",
+    type: "ROCK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6724,8 +8211,10 @@ export const movesData = [
   },
   {
     internalName: "SANDSTORM",
-    name: "Sandstorm",
-    type: "Rock",
+    name: "Tormenta Arena",
+    description:
+      "Invoca una tormenta de arena de cinco turnos que daña a todos los combatientes excepto a los de tipo Roca, Tierra y Acero.",
+    type: "ROCK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6733,8 +8222,10 @@ export const movesData = [
   },
   {
     internalName: "STEALTHROCK",
-    name: "Stealth Rock",
-    type: "Rock",
+    name: "Trampa Rocas",
+    description:
+      "El usuario coloca una trampa de piedras levitantes alrededor del enemigo. La trampa daña a los enemigos que entran en batalla.",
+    type: "ROCK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6742,8 +8233,10 @@ export const movesData = [
   },
   {
     internalName: "TARSHOT",
-    name: "Tar Shot",
-    type: "Rock",
+    name: "Alquitranazo",
+    description:
+      "Vierte alquitrán pegajoso sobre el objetivo, lo que reduce su velocidad y lo hace más débil ante movimientos de tipo Fuego.",
+    type: "ROCK",
     power: 0,
     accuracy: 100,
     new: false,
@@ -6751,8 +8244,10 @@ export const movesData = [
   },
   {
     internalName: "WIDEGUARD",
-    name: "Wide Guard",
-    type: "Rock",
+    name: "Vasta Guardia",
+    description:
+      "El usuario y sus aliados están protegidos de ataques de amplio alcance durante un turno. Puede fallar si se usa sucesivamente.",
+    type: "ROCK",
     power: 0,
     accuracy: 0,
     new: false,
@@ -6760,8 +8255,10 @@ export const movesData = [
   },
   {
     internalName: "GIGATONHAMMER",
-    name: "Gigaton Hammer",
-    type: "Steel",
+    name: "Martillo Colosal",
+    description:
+      "El usuario mueve todo su cuerpo para atacar con su enorme martillo. No se puede utilizar dos veces seguidas.",
+    type: "STEEL",
     power: 160,
     accuracy: 100,
     new: false,
@@ -6769,8 +8266,10 @@ export const movesData = [
   },
   {
     internalName: "DOOMDESIRE",
-    name: "Doom Desire",
-    type: "Steel",
+    name: "Deseo Oculto",
+    description:
+      "Dos turnos después de usar este movimiento, el usuario ataca al objetivo con un haz de luz concentrado.",
+    type: "STEEL",
     power: 140,
     accuracy: 100,
     new: false,
@@ -6778,8 +8277,10 @@ export const movesData = [
   },
   {
     internalName: "STEELBEAM",
-    name: "Steel Beam",
-    type: "Steel",
+    name: "Metaláser",
+    description:
+      "El usuario dispara una viga de acero que recogió de todo su cuerpo. Esto también perjudica al usuario.",
+    type: "STEEL",
     power: 140,
     accuracy: 95,
     new: false,
@@ -6787,8 +8288,10 @@ export const movesData = [
   },
   {
     internalName: "STEELROLLER",
-    name: "Steel Roller",
-    type: "Steel",
+    name: "Allanador Férreo",
+    description:
+      "El usuario ataca mientras destruye el terreno. Este movimiento falla cuando el suelo no es un terreno.",
+    type: "STEEL",
     power: 130,
     accuracy: 100,
     new: false,
@@ -6796,8 +8299,10 @@ export const movesData = [
   },
   {
     internalName: "MAKEITRAIN",
-    name: "Make It Rain",
-    type: "Steel",
+    name: "Fiebre Dorada",
+    description:
+      "El usuario lanza una masa de monedas. Esto también reduce la Sp del usuario. Atk. El dinero se recoge después.",
+    type: "STEEL",
     power: 120,
     accuracy: 100,
     new: false,
@@ -6805,8 +8310,10 @@ export const movesData = [
   },
   {
     internalName: "BEHEMOTHBASH",
-    name: "Behemoth Bash",
-    type: "Steel",
+    name: "Embate Supremo",
+    description:
+      "El usuario se convierte en un escudo gigantesco y golpea al objetivo.",
+    type: "STEEL",
     power: 100,
     accuracy: 100,
     new: false,
@@ -6814,8 +8321,10 @@ export const movesData = [
   },
   {
     internalName: "BEHEMOTHBLADE",
-    name: "Behemoth Blade",
-    type: "Steel",
+    name: "Tajo Supremo",
+    description:
+      "El usuario se convierte en una espada gigantesca y corta al objetivo.",
+    type: "STEEL",
     power: 100,
     accuracy: 100,
     new: false,
@@ -6823,8 +8332,10 @@ export const movesData = [
   },
   {
     internalName: "IRONTAIL",
-    name: "Iron Tail",
-    type: "Steel",
+    name: "Cola Férrea",
+    description:
+      "El objetivo es golpeado con una cola dura como el acero. También puede reducir la estadística de Defensa del objetivo.",
+    type: "STEEL",
     power: 100,
     accuracy: 75,
     new: false,
@@ -6832,8 +8343,10 @@ export const movesData = [
   },
   {
     internalName: "SPINOUT",
-    name: "Spin Out",
-    type: "Steel",
+    name: "Quemarrueda",
+    description:
+      "El usuario gira furiosamente forzando las piernas. Esto también reduce drásticamente la estadística de Velocidad del usuario.",
+    type: "STEEL",
     power: 100,
     accuracy: 100,
     new: false,
@@ -6841,8 +8354,10 @@ export const movesData = [
   },
   {
     internalName: "SUNSTEELSTRIKE",
-    name: "Sunsteel Strike",
-    type: "Steel",
+    name: "Meteoimpacto",
+    description:
+      "El usuario golpea al objetivo con la fuerza de un meteoro. No puede ser detenido por la habilidad del objetivo.",
+    type: "STEEL",
     power: 100,
     accuracy: 100,
     new: false,
@@ -6850,8 +8365,10 @@ export const movesData = [
   },
   {
     internalName: "METEORMASH",
-    name: "Meteor Mash",
-    type: "Steel",
+    name: "Puño Meteoro",
+    description:
+      "El objetivo es golpeado con un fuerte puñetazo disparado como un meteorito. También puede aumentar el ataque del usuario.",
+    type: "STEEL",
     power: 90,
     accuracy: 90,
     new: false,
@@ -6859,8 +8376,10 @@ export const movesData = [
   },
   {
     internalName: "ANCHORSHOT",
-    name: "Anchor Shot",
-    type: "Steel",
+    name: "Anclaje",
+    description:
+      "El usuario enreda al objetivo con su cadena de ancla. El objetivo se vuelve incapaz de huir.",
+    type: "STEEL",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6868,8 +8387,10 @@ export const movesData = [
   },
   {
     internalName: "FLASHCANNON",
-    name: "Flash Cannon",
-    type: "Steel",
+    name: "Foco Resplandor",
+    description:
+      "El usuario reúne toda su energía luminosa y la libera de inmediato. También puede reducir el Sp del objetivo. Estadística de definición.",
+    type: "STEEL",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6877,8 +8398,10 @@ export const movesData = [
   },
   {
     internalName: "IRONHEAD",
-    name: "Iron Head",
-    type: "Steel",
+    name: "Cabeza de Hierro",
+    description:
+      "El enemigo golpea al objetivo con su cabeza dura como el acero. También puede hacer que el objetivo se estremezca.",
+    type: "STEEL",
     power: 80,
     accuracy: 100,
     new: false,
@@ -6886,8 +8409,10 @@ export const movesData = [
   },
   {
     internalName: "SMARTSTRIKE",
-    name: "Smart Strike",
-    type: "Steel",
+    name: "Cuerno Certero",
+    description:
+      "El usuario apuñala al objetivo con un cuerno afilado. Este ataque nunca falla.",
+    type: "STEEL",
     power: 70,
     accuracy: 0,
     new: false,
@@ -6895,8 +8420,10 @@ export const movesData = [
   },
   {
     internalName: "STEELWING",
-    name: "Steel Wing",
-    type: "Steel",
+    name: "Ala de Acero",
+    description:
+      "El objetivo es alcanzado con alas de acero. También puede aumentar la estadística de Defensa del usuario.",
+    type: "STEEL",
     power: 70,
     accuracy: 90,
     new: false,
@@ -6904,8 +8431,10 @@ export const movesData = [
   },
   {
     internalName: "DOUBLEIRONBASH",
-    name: "Double Iron Bash",
-    type: "Steel",
+    name: "Ferropuño Doble",
+    description:
+      "El usuario gira, centra la tuerca hexagonal en su pecho y luego golpea dos veces. Puede provocar estremecimientos.",
+    type: "STEEL",
     power: 60,
     accuracy: 100,
     new: false,
@@ -6913,8 +8442,10 @@ export const movesData = [
   },
   {
     internalName: "MIRRORSHOT",
-    name: "Mirror Shot",
-    type: "Steel",
+    name: "Disparo Espejo",
+    description:
+      "El usuario suelta un destello de energía de su cuerpo pulido. También puede reducir la precisión del objetivo.",
+    type: "STEEL",
     power: 65,
     accuracy: 85,
     new: false,
@@ -6922,8 +8453,10 @@ export const movesData = [
   },
   {
     internalName: "MAGNETBOMB",
-    name: "Magnet Bomb",
-    type: "Steel",
+    name: "Bomba Imán",
+    description:
+      "El usuario lanza bombas de acero que se adhieren al objetivo. Este ataque no fallará.",
+    type: "STEEL",
     power: 60,
     accuracy: 0,
     new: false,
@@ -6931,8 +8464,10 @@ export const movesData = [
   },
   {
     internalName: "GEARGRIND",
-    name: "Gear Grind",
-    type: "Steel",
+    name: "Rueda Doble",
+    description:
+      "El usuario ataca lanzando dos engranajes de acero a su objetivo.",
+    type: "STEEL",
     power: 50,
     accuracy: 85,
     new: false,
@@ -6940,8 +8475,10 @@ export const movesData = [
   },
   {
     internalName: "METALCLAW",
-    name: "Metal Claw",
-    type: "Steel",
+    name: "Garra Metal",
+    description:
+      "El objetivo es rastrillado con garras de acero. También puede aumentar la estadística de ataque del usuario.",
+    type: "STEEL",
     power: 50,
     accuracy: 95,
     new: false,
@@ -6949,8 +8486,10 @@ export const movesData = [
   },
   {
     internalName: "TACHYONCUTTER",
-    name: "Tachyon Cutter",
-    type: "Steel",
+    name: "Tajo Taquión",
+    description:
+      "El usuario ataca lanzando hojas de partículas al objetivo dos veces seguidas. Este ataque nunca falla.",
+    type: "STEEL",
     power: 50,
     accuracy: 0,
     new: false,
@@ -6958,8 +8497,10 @@ export const movesData = [
   },
   {
     internalName: "BULLETPUNCH",
-    name: "Bullet Punch",
-    type: "Steel",
+    name: "Puño Bala",
+    description:
+      "El usuario golpea al objetivo con fuertes golpes tan rápidos como balas. Este movimiento siempre va primero.",
+    type: "STEEL",
     power: 40,
     accuracy: 100,
     new: false,
@@ -6967,8 +8508,10 @@ export const movesData = [
   },
   {
     internalName: "GYROBALL",
-    name: "Gyro Ball",
-    type: "Steel",
+    name: "Giro Bola",
+    description:
+      "El usuario ataca al objetivo con un giro de alta velocidad. Cuanto más lento sea el usuario, mayor será el daño.",
+    type: "STEEL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -6976,8 +8519,10 @@ export const movesData = [
   },
   {
     internalName: "HARDPRESS",
-    name: "Hard Press",
-    type: "Steel",
+    name: "Prensa Metalica",
+    description:
+      "El objetivo es aplastado con gran fuerza. El ataque es más poderoso cuanto más HP le queda al objetivo.",
+    type: "STEEL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -6985,8 +8530,10 @@ export const movesData = [
   },
   {
     internalName: "HEAVYSLAM",
-    name: "Heavy Slam",
-    type: "Steel",
+    name: "Cuerpo Pesado",
+    description:
+      "El usuario golpea al enemigo con su pesado cuerpo. Cuanto más pesado sea el usuario, mayor será el daño.",
+    type: "STEEL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -6994,8 +8541,10 @@ export const movesData = [
   },
   {
     internalName: "METALBURST",
-    name: "Metal Burst",
-    type: "Steel",
+    name: "Represión Metal",
+    description:
+      "El usuario toma represalias con mucho mayor poder contra el objetivo que le infligió el daño por última vez.",
+    type: "STEEL",
     power: 1,
     accuracy: 100,
     new: false,
@@ -7003,8 +8552,10 @@ export const movesData = [
   },
   {
     internalName: "AUTOTOMIZE",
-    name: "Autotomize",
-    type: "Steel",
+    name: "Aligerar",
+    description:
+      "El usuario se deshace de parte de su cuerpo para hacerse más liviano y aumentar drásticamente su estadística de Velocidad.",
+    type: "STEEL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7012,8 +8563,10 @@ export const movesData = [
   },
   {
     internalName: "GEARUP",
-    name: "Gear Up",
-    type: "Steel",
+    name: "Piñón Auxiliar",
+    description:
+      "El usuario activa sus marchas para aumentar el Attack y Sp. Ataque de aliados con la habilidad Más o Menos.",
+    type: "STEEL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7021,8 +8574,10 @@ export const movesData = [
   },
   {
     internalName: "IRONDEFENSE",
-    name: "Iron Defense",
-    type: "Steel",
+    name: "Defensa Férrea",
+    description:
+      "El usuario endurece la superficie de su cuerpo como si fuera hierro, aumentando drásticamente su estadística de Defensa.",
+    type: "STEEL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7030,8 +8585,10 @@ export const movesData = [
   },
   {
     internalName: "KINGSSHIELD",
-    name: "King's Shield",
-    type: "Steel",
+    name: "Escudo Real",
+    description:
+      "Se protege de daños. También reduce drásticamente el ataque de los atacantes que hacen contacto.",
+    type: "STEEL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7039,8 +8596,10 @@ export const movesData = [
   },
   {
     internalName: "METALSOUND",
-    name: "Metal Sound",
-    type: "Steel",
+    name: "Eco Metálico",
+    description:
+      "Un sonido horrible, como el de un metal raspando, reduce drásticamente el Sp del objetivo. Estadística de definición.",
+    type: "STEEL",
     power: 0,
     accuracy: 85,
     new: false,
@@ -7048,8 +8607,10 @@ export const movesData = [
   },
   {
     internalName: "SHELTER",
-    name: "Shelter",
-    type: "Steel",
+    name: "Retracción",
+    description:
+      "El usuario endurece su piel como un escudo de hierro, lo que aumenta considerablemente su estadística de Defensa.",
+    type: "STEEL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7057,8 +8618,10 @@ export const movesData = [
   },
   {
     internalName: "SHIFTGEAR",
-    name: "Shift Gear",
-    type: "Steel",
+    name: "Cambio de Marcha",
+    description:
+      "El usuario gira sus engranajes, aumentando su ataque y aumentando drásticamente su velocidad.",
+    type: "STEEL",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7066,8 +8629,10 @@ export const movesData = [
   },
   {
     internalName: "HYDROCANNON",
-    name: "Hydro Cannon",
-    type: "Water",
+    name: "Hidrocañón",
+    description:
+      "El objetivo es alcanzado por una ráfaga de agua. Sin embargo, el usuario deberá descansar en el siguiente turno.",
+    type: "WATER",
     power: 150,
     accuracy: 90,
     new: false,
@@ -7075,8 +8640,10 @@ export const movesData = [
   },
   {
     internalName: "WATERSPOUT",
-    name: "Water Spout",
-    type: "Water",
+    name: "Salpicar",
+    description:
+      "El usuario arroja agua para dañar al enemigo. Cuanto menor sea el HP del usuario, menos poderoso se volverá.",
+    type: "WATER",
     power: 150,
     accuracy: 100,
     new: false,
@@ -7084,8 +8651,10 @@ export const movesData = [
   },
   {
     internalName: "WAVECRASH",
-    name: "Wave Crash",
-    type: "Water",
+    name: "Envite Acuático",
+    description:
+      "El usuario se envuelve en agua y golpea con todo el cuerpo. Esto también perjudica bastante al usuario.",
+    type: "WATER",
     power: 120,
     accuracy: 100,
     new: false,
@@ -7093,8 +8662,10 @@ export const movesData = [
   },
   {
     internalName: "HYDROPUMP",
-    name: "Hydro Pump",
-    type: "Water",
+    name: "Hidrobomba",
+    description:
+      "El objetivo es atacado por un enorme volumen de agua lanzado bajo gran presión.",
+    type: "WATER",
     power: 110,
     accuracy: 80,
     new: false,
@@ -7102,8 +8673,10 @@ export const movesData = [
   },
   {
     internalName: "ORIGINPULSE",
-    name: "Origin Pulse",
-    type: "Water",
+    name: "Pulso Primigenio",
+    description:
+      "El usuario ataca al Pokémon enemigo con innumerables rayos de luz que brillan en un azul profundo y brillante.",
+    type: "WATER",
     power: 110,
     accuracy: 85,
     new: false,
@@ -7111,8 +8684,10 @@ export const movesData = [
   },
   {
     internalName: "STEAMERUPTION",
-    name: "Steam Eruption",
-    type: "Water",
+    name: "Chorro de Vapor",
+    description:
+      "El usuario sumerge el objetivo en vapor sobrecalentado. Esto también puede dejar al objetivo con una quemadura.",
+    type: "WATER",
     power: 110,
     accuracy: 95,
     new: false,
@@ -7120,8 +8695,10 @@ export const movesData = [
   },
   {
     internalName: "CRABHAMMER",
-    name: "Crabhammer",
-    type: "Water",
+    name: "Martillazo",
+    description:
+      "El objetivo se golpea con una pinza grande. Los golpes críticos aterrizan más fácilmente.",
+    type: "WATER",
     power: 100,
     accuracy: 90,
     new: false,
@@ -7129,8 +8706,10 @@ export const movesData = [
   },
   {
     internalName: "AQUATAIL",
-    name: "Aqua Tail",
-    type: "Water",
+    name: "Acua Cola",
+    description:
+      "El usuario ataca moviendo su cola como si fuera una ola feroz en una tormenta furiosa.",
+    type: "WATER",
     power: 90,
     accuracy: 90,
     new: false,
@@ -7138,8 +8717,10 @@ export const movesData = [
   },
   {
     internalName: "MUDDYWATER",
-    name: "Muddy Water",
-    type: "Water",
+    name: "Agua Lodosa",
+    description:
+      "El usuario ataca disparando agua fangosa al equipo contrario. También puede reducir la precisión del objetivo.",
+    type: "WATER",
     power: 90,
     accuracy: 85,
     new: false,
@@ -7147,8 +8728,10 @@ export const movesData = [
   },
   {
     internalName: "SPARKLINGARIA",
-    name: "Sparkling Aria",
-    type: "Water",
+    name: "Aria Burbuja",
+    description:
+      "El usuario estalla en una canción, emitiendo muchas burbujas. Cualquier Pokémon quemado será curado por estas burbujas.",
+    type: "WATER",
     power: 90,
     accuracy: 100,
     new: false,
@@ -7157,7 +8740,9 @@ export const movesData = [
   {
     internalName: "SURF",
     name: "Surf",
-    type: "Water",
+    description:
+      "Inunda el área alrededor del usuario con una ola gigante. También se puede utilizar para cruzar aguas.",
+    type: "WATER",
     power: 90,
     accuracy: 100,
     new: false,
@@ -7165,8 +8750,10 @@ export const movesData = [
   },
   {
     internalName: "FISHIOUSREND",
-    name: "Fishious Rend",
-    type: "Water",
+    name: "Branquibocado",
+    description:
+      "El usuario desgarra al objetivo con sus duras branquias. El poder se duplica si el usuario se mueve primero.",
+    type: "WATER",
     power: 85,
     accuracy: 100,
     new: false,
@@ -7174,8 +8761,10 @@ export const movesData = [
   },
   {
     internalName: "LIQUIDATION",
-    name: "Liquidation",
-    type: "Water",
+    name: "Hidroariete",
+    description:
+      "El usuario golpea al objetivo con una ráfaga de agua con toda su fuerza. Puede reducir la defensa del objetivo.",
+    type: "WATER",
     power: 85,
     accuracy: 100,
     new: false,
@@ -7183,8 +8772,10 @@ export const movesData = [
   },
   {
     internalName: "AQUASTEP",
-    name: "Aqua Step",
-    type: "Water",
+    name: "Danza Acuática",
+    description:
+      "El usuario ataca al objetivo utilizando pasos de baile ligeros y fluidos. Esto también aumenta la estadística de Velocidad del usuario.",
+    type: "WATER",
     power: 80,
     accuracy: 100,
     new: false,
@@ -7192,8 +8783,10 @@ export const movesData = [
   },
   {
     internalName: "DIVE",
-    name: "Dive",
-    type: "Water",
+    name: "Buceo",
+    description:
+      "Al zambullirse en el primer turno, el usuario se eleva y golpea en el siguiente turno. Se puede utilizar para bucear en el océano.",
+    type: "WATER",
     power: 80,
     accuracy: 100,
     new: false,
@@ -7201,8 +8794,10 @@ export const movesData = [
   },
   {
     internalName: "HYDROSTEAM",
-    name: "Hydro Steam",
-    type: "Water",
+    name: "Hidrovapor",
+    description:
+      "El usuario dispara al objetivo con agua hirviendo. Este movimiento es más fuerte bajo la intensa luz del sol.",
+    type: "WATER",
     power: 80,
     accuracy: 100,
     new: false,
@@ -7210,8 +8805,10 @@ export const movesData = [
   },
   {
     internalName: "SCALD",
-    name: "Scald",
-    type: "Water",
+    name: "Escaldar",
+    description:
+      "El usuario dispara agua hirviendo a su objetivo. También puede dejar al objetivo con una quemadura.",
+    type: "WATER",
     power: 80,
     accuracy: 100,
     new: false,
@@ -7219,8 +8816,10 @@ export const movesData = [
   },
   {
     internalName: "SNIPESHOT",
-    name: "Snipe Shot",
-    type: "Water",
+    name: "Disparo Certero",
+    description:
+      "El usuario ignora cualquier efecto que redirija los movimientos, permitiendo que este movimiento alcance el objetivo elegido.",
+    type: "WATER",
     power: 80,
     accuracy: 100,
     new: false,
@@ -7228,8 +8827,10 @@ export const movesData = [
   },
   {
     internalName: "WATERPLEDGE",
-    name: "Water Pledge",
-    type: "Water",
+    name: "Voto Agua",
+    description:
+      "Una columna de agua golpea el objetivo. Cuando se combina con su equivalente de fuego, forma un arcoíris.",
+    type: "WATER",
     power: 80,
     accuracy: 100,
     new: false,
@@ -7237,8 +8838,10 @@ export const movesData = [
   },
   {
     internalName: "WATERFALL",
-    name: "Waterfall",
-    type: "Water",
+    name: "Cascada",
+    description:
+      "El usuario carga contra el objetivo y puede hacerlo retroceder. También se puede utilizar para subir a una cascada.",
+    type: "WATER",
     power: 80,
     accuracy: 100,
     new: false,
@@ -7246,8 +8849,10 @@ export const movesData = [
   },
   {
     internalName: "RAZORSHELL",
-    name: "Razor Shell",
-    type: "Water",
+    name: "Concha Filo",
+    description:
+      "El usuario corta al enemigo con proyectiles afilados. También puede reducir la estadística de Defensa del objetivo.",
+    type: "WATER",
     power: 75,
     accuracy: 95,
     new: false,
@@ -7255,8 +8860,10 @@ export const movesData = [
   },
   {
     internalName: "AQUACUTTER",
-    name: "Aqua Cutter",
-    type: "Water",
+    name: "Tajo Acuático",
+    description:
+      "El usuario corta con una cuchilla de agua a presión. Es más probable que esta medida sea un golpe crítico.",
+    type: "WATER",
     power: 70,
     accuracy: 100,
     new: false,
@@ -7264,8 +8871,10 @@ export const movesData = [
   },
   {
     internalName: "BRINE",
-    name: "Brine",
-    type: "Water",
+    name: "Salmuera",
+    description:
+      "Si el HP del objetivo se reduce a aproximadamente la mitad, este ataque golpeará con el doble de potencia.",
+    type: "WATER",
     power: 65,
     accuracy: 100,
     new: false,
@@ -7273,8 +8882,10 @@ export const movesData = [
   },
   {
     internalName: "BUBBLEBEAM",
-    name: "Bubble Beam",
-    type: "Water",
+    name: "Rayo Burbuja",
+    description:
+      "Se lanza con fuerza un chorro de burbujas hacia el objetivo. También puede reducir su estadística de Velocidad.",
+    type: "WATER",
     power: 65,
     accuracy: 100,
     new: false,
@@ -7282,8 +8893,10 @@ export const movesData = [
   },
   {
     internalName: "OCTAZOOKA",
-    name: "Octazooka",
-    type: "Water",
+    name: "Pulpocañón",
+    description:
+      "El usuario ataca rociando tinta en la cara o los ojos del enemigo. También puede reducir la precisión del objetivo.",
+    type: "WATER",
     power: 65,
     accuracy: 85,
     new: false,
@@ -7291,8 +8904,10 @@ export const movesData = [
   },
   {
     internalName: "FLIPTURN",
-    name: "Flip Turn",
-    type: "Water",
+    name: "Viraje",
+    description:
+      "Después de realizar su ataque, el usuario regresa corriendo para cambiar de lugar con un Pokémon del grupo esperando.",
+    type: "WATER",
     power: 60,
     accuracy: 100,
     new: false,
@@ -7300,8 +8915,10 @@ export const movesData = [
   },
   {
     internalName: "JETPUNCH",
-    name: "Jet Punch",
-    type: "Water",
+    name: "Puño Jet",
+    description:
+      "El usuario invoca un torrente alrededor de su puño y golpea a una velocidad cegadora. Esto siempre va primero.",
+    type: "WATER",
     power: 60,
     accuracy: 100,
     new: false,
@@ -7309,8 +8926,10 @@ export const movesData = [
   },
   {
     internalName: "WATERPULSE",
-    name: "Water Pulse",
-    type: "Water",
+    name: "Hidropulso",
+    description:
+      "El usuario ataca al objetivo con una ráfaga de agua pulsante. También puede confundir al objetivo.",
+    type: "WATER",
     power: 60,
     accuracy: 100,
     new: false,
@@ -7318,8 +8937,10 @@ export const movesData = [
   },
   {
     internalName: "CHILLINGWATER",
-    name: "Chilling Water",
-    type: "Water",
+    name: "Agua Fría",
+    description:
+      "El usuario baña al objetivo con agua fría que consume energía. Esto también reduce la estadística de ataque del objetivo.",
+    type: "WATER",
     power: 50,
     accuracy: 100,
     new: false,
@@ -7327,8 +8948,10 @@ export const movesData = [
   },
   {
     internalName: "AQUAJET",
-    name: "Aqua Jet",
-    type: "Water",
+    name: "Acua Jet",
+    description:
+      "El usuario se lanza hacia el objetivo a una velocidad que lo hace casi invisible. Seguramente atacará primero.",
+    type: "WATER",
     power: 40,
     accuracy: 100,
     new: false,
@@ -7336,8 +8959,10 @@ export const movesData = [
   },
   {
     internalName: "BUBBLE",
-    name: "Bubble",
-    type: "Water",
+    name: "Burbuja",
+    description:
+      "Se lanza una lluvia de innumerables burbujas hacia el equipo contrario. También puede reducir las estadísticas de velocidad de los objetivos.",
+    type: "WATER",
     power: 40,
     accuracy: 100,
     new: false,
@@ -7345,8 +8970,9 @@ export const movesData = [
   },
   {
     internalName: "WATERGUN",
-    name: "Water Gun",
-    type: "Water",
+    name: "Pistola Agua",
+    description: "El objetivo recibe un fuerte disparo de agua.",
+    type: "WATER",
     power: 40,
     accuracy: 100,
     new: false,
@@ -7354,8 +8980,10 @@ export const movesData = [
   },
   {
     internalName: "CLAMP",
-    name: "Clamp",
-    type: "Water",
+    name: "Tenaza",
+    description:
+      "El objetivo es sujeto y apretado por el caparazón muy grueso y resistente del usuario durante cuatro o cinco vueltas.",
+    type: "WATER",
     power: 35,
     accuracy: 85,
     new: false,
@@ -7363,8 +8991,10 @@ export const movesData = [
   },
   {
     internalName: "WHIRLPOOL",
-    name: "Whirlpool",
-    type: "Water",
+    name: "Torbellino",
+    description:
+      "Atrapa a los enemigos en un violento remolino durante cuatro o cinco turnos.",
+    type: "WATER",
     power: 35,
     accuracy: 85,
     new: false,
@@ -7372,8 +9002,10 @@ export const movesData = [
   },
   {
     internalName: "TRIPLEDIVE",
-    name: "Triple Dive",
-    type: "Water",
+    name: "Triple Inmersión",
+    description:
+      "El usuario realiza una triple inmersión perfectamente sincronizada, salpicando al objetivo tres veces seguidas.",
+    type: "WATER",
     power: 30,
     accuracy: 95,
     new: false,
@@ -7381,8 +9013,10 @@ export const movesData = [
   },
   {
     internalName: "SURGINGSTRIKES",
-    name: "Surging Strikes",
-    type: "Water",
+    name: "Azote Torrencial",
+    description:
+      "Golpea tres veces seguidas con dominio del estilo Agua. Este ataque siempre causa golpes críticos.",
+    type: "WATER",
     power: 25,
     accuracy: 100,
     new: false,
@@ -7390,8 +9024,10 @@ export const movesData = [
   },
   {
     internalName: "WATERSHURIKEN",
-    name: "Water Shuriken",
-    type: "Water",
+    name: "Shuriken de Agua",
+    description:
+      "El usuario alcanza el objetivo con estrellas arrojadizas de 2 a 5 veces seguidas. Este movimiento siempre va primero.",
+    type: "WATER",
     power: 15,
     accuracy: 100,
     new: false,
@@ -7399,8 +9035,10 @@ export const movesData = [
   },
   {
     internalName: "AQUARING",
-    name: "Aqua Ring",
-    type: "Water",
+    name: "Acua Aro",
+    description:
+      "El usuario se envuelve en un velo de agua. Recupera algo de HP en cada turno.",
+    type: "WATER",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7408,8 +9046,10 @@ export const movesData = [
   },
   {
     internalName: "LIFEDEW",
-    name: "Life Dew",
-    type: "Water",
+    name: "Gota Vital",
+    description:
+      "El usuario esparce agua misteriosa y restaura su HP y el de sus aliados.",
+    type: "WATER",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7417,8 +9057,10 @@ export const movesData = [
   },
   {
     internalName: "RAINDANCE",
-    name: "Rain Dance",
-    type: "Water",
+    name: "Danza Lluvia",
+    description:
+      "El usuario invoca una fuerte lluvia que cae durante cinco turnos, potenciando los movimientos de tipo Agua.",
+    type: "WATER",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7426,8 +9068,10 @@ export const movesData = [
   },
   {
     internalName: "SOAK",
-    name: "Soak",
-    type: "Water",
+    name: "Empapar",
+    description:
+      "El usuario dispara un torrente de agua al objetivo y cambia el tipo de objetivo a Agua.",
+    type: "WATER",
     power: 0,
     accuracy: 100,
     new: false,
@@ -7435,8 +9079,10 @@ export const movesData = [
   },
   {
     internalName: "WATERSPORT",
-    name: "Water Sport",
-    type: "Water",
+    name: "Hidrochorro",
+    description:
+      "El usuario se empapa de agua. El movimiento debilita los movimientos de tipo Fuego mientras el usuario está en la batalla.",
+    type: "WATER",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7444,8 +9090,10 @@ export const movesData = [
   },
   {
     internalName: "WITHDRAW",
-    name: "Withdraw",
-    type: "Water",
+    name: "Refugio",
+    description:
+      "El usuario retira su cuerpo dentro de su caparazón duro, aumentando su estadística de Defensa.",
+    type: "WATER",
     power: 0,
     accuracy: 0,
     new: false,
@@ -7453,8 +9101,10 @@ export const movesData = [
   },
   {
     internalName: "TOUCHTHELIMIT",
-    name: "Touch The Limit",
-    type: "Fighting",
+    name: "Tocar El Límite",
+    description:
+      "Reduce mucho su vida máxima a cambio de mejorar todas sus estadísticas en 1 nivel. El movimiento falla si el usuario ya tiene vida limitada.",
+    type: "FIGHTING",
     power: 0,
     accuracy: 0,
     new: true,
@@ -7462,8 +9112,10 @@ export const movesData = [
   },
   {
     internalName: "EXPLOSIVEFEATHER",
-    name: "Explosive Feather",
-    type: "Flying",
+    name: "Pluma Explosiva",
+    description:
+      "Causa daño al objetivo pero reduce su salud máxima. Cuanto más limitada esta su vida máxima, más daño causa.",
+    type: "FLYING",
     power: 60,
     accuracy: 100,
     new: true,
@@ -7471,8 +9123,10 @@ export const movesData = [
   },
   {
     internalName: "BURNTHELIMIT",
-    name: "Burn The Limit",
-    type: "Fire",
+    name: "Quemar el límite",
+    description:
+      "Provoca daño según lo limitada que este su vida y elimina dicho limitador. El movimiento falla si el usuario no tiene vida limitada.",
+    type: "FIRE",
     power: 120,
     accuracy: 100,
     new: true,
@@ -7480,8 +9134,9 @@ export const movesData = [
   },
   {
     internalName: "PROTOSHIELD",
-    name: "Proto Shield",
-    type: "Normal",
+    name: "Protoescudo",
+    description: "Genera un proto escudo para el usuario.",
+    type: "NORMAL",
     power: 0,
     accuracy: 0,
     new: true,
@@ -7489,8 +9144,10 @@ export const movesData = [
   },
   {
     internalName: "MARKINGTERRITORY",
-    name: "Marking Territory",
-    type: "Ground",
+    name: "Marcar Territorio",
+    description:
+      "El usuario se burla de los objetivos y también llama la atención sobre sí mismo, haciendo que todos los objetivos apunten sólo al usuario. El usuario ya no podrá escapar.",
+    type: "GROUND",
     power: 0,
     accuracy: 0,
     new: true,
@@ -7498,8 +9155,9 @@ export const movesData = [
   },
   {
     internalName: "WILDPUNCH",
-    name: "Wild Punch",
-    type: "Grass",
+    name: "Puñetazo Salvaje",
+    description: "Causa más daño dependiendo del protoescudo generado.",
+    type: "GRASS",
     power: 90,
     accuracy: 100,
     new: true,
@@ -7507,8 +9165,10 @@ export const movesData = [
   },
   {
     internalName: "NULLIFYINGSMOKE",
-    name: "Nullifying Smoke",
-    type: "Dark",
+    name: "Humo Anulador",
+    description:
+      "Remueve los tipos a los objetivos alcanzados por el movimiento.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: true,
@@ -7516,8 +9176,9 @@ export const movesData = [
   },
   {
     internalName: "DEBILITATINGTOXIN",
-    name: "Debilitating Toxin",
-    type: "Poison",
+    name: "Toxinas Debilitantes",
+    description: "Aplica 3 debilidades al objetivo.",
+    type: "POISON",
     power: 50,
     accuracy: 100,
     new: true,
@@ -7525,8 +9186,10 @@ export const movesData = [
   },
   {
     internalName: "ABYSSALBITE",
-    name: "Abyssal Bite",
-    type: "Water",
+    name: "Mordedura Abisal",
+    description:
+      "Causa más daño dependiendo de la cantidad de debilidades adicionales que posea el objetivo.",
+    type: "WATER",
     power: 100,
     accuracy: 100,
     new: true,
@@ -7534,8 +9197,10 @@ export const movesData = [
   },
   {
     internalName: "FLOWERFANG",
-    name: "Flower Fang",
-    type: "Grass",
+    name: "Colmillo Floral",
+    description:
+      "Muerde al objetivo con sus grandes colmillos, reduce la evasión del objetivo.",
+    type: "GRASS",
     power: 60,
     accuracy: 100,
     new: true,
@@ -7543,8 +9208,9 @@ export const movesData = [
   },
   {
     internalName: "PREDATORYGAME",
-    name: "Predatory Game",
-    type: "Dark",
+    name: "Juego Depredatorio",
+    description: "Causa mucho daño al objetivo pero lo deja con al menos 1 HP.",
+    type: "DARK",
     power: 100,
     accuracy: 100,
     new: true,
@@ -7552,8 +9218,10 @@ export const movesData = [
   },
   {
     internalName: "SEDUCTION",
-    name: "Seduction",
-    type: "Normal",
+    name: "Seducción",
+    description:
+      "Atrae la atención de los objetivos, enamorándolos y obligándolos a atacar al usuario que utilizó el movimiento.",
+    type: "NORMAL",
     power: 0,
     accuracy: 100,
     new: true,
@@ -7561,8 +9229,10 @@ export const movesData = [
   },
   {
     internalName: "ABUSE",
-    name: "Abuse",
-    type: "Dark",
+    name: "Abuso",
+    description:
+      "Causa un daño masivo al objetivo y le elimina el efecto del enamoramiento. El movimiento falla si el objetivo no está enamorado del usuario.",
+    type: "DARK",
     power: 0,
     accuracy: 100,
     new: true,
@@ -7576,7 +9246,7 @@ export const pokemonData = [
     name: "Bulbasaur",
     Color: "Green",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -7681,7 +9351,7 @@ export const pokemonData = [
     name: "Ivysaur",
     Color: "Green",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -7773,7 +9443,7 @@ export const pokemonData = [
     name: "Venusaur",
     Color: "Green",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "PETALBLIZZARD",
       "PETALDANCE",
@@ -7881,7 +9551,7 @@ export const pokemonData = [
     name: "Charmander",
     Color: "Red",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -7999,7 +9669,7 @@ export const pokemonData = [
     name: "Charmeleon",
     Color: "Red",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -8099,7 +9769,7 @@ export const pokemonData = [
     name: "Charizard",
     Color: "Red",
     generation: "1",
-    types: ["Fire", "Flying"],
+    types: ["FIRE", "FLYING"],
     moves: [
       "AIRSLASH",
       "DRAGONCLAW",
@@ -8227,7 +9897,7 @@ export const pokemonData = [
     name: "Squirtle",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -8332,7 +10002,7 @@ export const pokemonData = [
     name: "Wartortle",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -8424,7 +10094,7 @@ export const pokemonData = [
     name: "Blastoise",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "FLASHCANNON",
       "TACKLE",
@@ -8537,7 +10207,7 @@ export const pokemonData = [
     name: "Caterpie",
     Color: "Green",
     generation: "1",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["TACKLE", "STRINGSHOT", "BUGBITE"],
     tutor_moves: ["BUGBITE", "ELECTROWEB", "STRINGSHOT"],
     egg_moves: [],
@@ -8548,7 +10218,7 @@ export const pokemonData = [
     name: "Metapod",
     Color: "Green",
     generation: "1",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["HARDEN"],
     tutor_moves: ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
     egg_moves: [],
@@ -8559,7 +10229,7 @@ export const pokemonData = [
     name: "Butterfree",
     Color: "White",
     generation: "1",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "GUST",
       "HARDEN",
@@ -8651,7 +10321,7 @@ export const pokemonData = [
     name: "Weedle",
     Color: "Brown",
     generation: "1",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: ["POISONSTING", "STRINGSHOT", "BUGBITE"],
     tutor_moves: ["BUGBITE", "ELECTROWEB", "STRINGSHOT"],
     egg_moves: [],
@@ -8662,7 +10332,7 @@ export const pokemonData = [
     name: "Kakuna",
     Color: "Yellow",
     generation: "1",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: ["HARDEN"],
     tutor_moves: ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
     egg_moves: [],
@@ -8673,7 +10343,7 @@ export const pokemonData = [
     name: "Beedrill",
     Color: "Yellow",
     generation: "1",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "FURYATTACK",
       "HARDEN",
@@ -8762,7 +10432,7 @@ export const pokemonData = [
     name: "Pidgey",
     Color: "Brown",
     generation: "1",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "TACKLE",
       "SANDATTACK",
@@ -8829,7 +10499,7 @@ export const pokemonData = [
     name: "Pidgeotto",
     Color: "Brown",
     generation: "1",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "TACKLE",
       "SANDATTACK",
@@ -8898,7 +10568,7 @@ export const pokemonData = [
     name: "Pidgeot",
     Color: "Brown",
     generation: "1",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "HURRICANE",
       "TACKLE",
@@ -8972,7 +10642,7 @@ export const pokemonData = [
     name: "Rattata",
     Color: "Purple",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -9066,7 +10736,7 @@ export const pokemonData = [
     name: "Raticate",
     Color: "Brown",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SCARYFACE",
       "SWORDSDANCE",
@@ -9159,7 +10829,7 @@ export const pokemonData = [
     name: "Spearow",
     Color: "Brown",
     generation: "1",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "GROWL",
@@ -9236,7 +10906,7 @@ export const pokemonData = [
     name: "Fearow",
     Color: "Brown",
     generation: "1",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "DRILLRUN",
       "PLUCK",
@@ -9312,7 +10982,7 @@ export const pokemonData = [
     name: "Ekans",
     Color: "Purple",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "WRAP",
       "LEER",
@@ -9419,7 +11089,7 @@ export const pokemonData = [
     name: "Arbok",
     Color: "Purple",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "CRUNCH",
       "FIREFANG",
@@ -9531,7 +11201,7 @@ export const pokemonData = [
     name: "Pikachu",
     Color: "Yellow",
     generation: "1",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "PLAYNICE",
       "SWEETKISS",
@@ -9645,7 +11315,7 @@ export const pokemonData = [
     name: "Raichu",
     Color: "Yellow",
     generation: "1",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "THUNDERPUNCH",
       "PLAYNICE",
@@ -9765,7 +11435,7 @@ export const pokemonData = [
     name: "Sandshrew",
     Color: "Yellow",
     generation: "1",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "SCRATCH",
       "DEFENSECURL",
@@ -9885,7 +11555,7 @@ export const pokemonData = [
     name: "Sandslash",
     Color: "Yellow",
     generation: "1",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "CRUSHCLAW",
       "SCRATCH",
@@ -10002,7 +11672,7 @@ export const pokemonData = [
     name: "Nidoran♀",
     Color: "Blue",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "GROWL",
       "POISONSTING",
@@ -10096,7 +11766,7 @@ export const pokemonData = [
     name: "Nidorina",
     Color: "Blue",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "GROWL",
       "POISONSTING",
@@ -10179,7 +11849,7 @@ export const pokemonData = [
     name: "Nidoqueen",
     Color: "Blue",
     generation: "1",
-    types: ["Poison", "Ground"],
+    types: ["POISON", "GROUND"],
     moves: [
       "SUPERPOWER",
       "SLUDGEWAVE",
@@ -10317,7 +11987,7 @@ export const pokemonData = [
     name: "Nidoran♂",
     Color: "Purple",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "LEER",
       "POISONSTING",
@@ -10414,7 +12084,7 @@ export const pokemonData = [
     name: "Nidorino",
     Color: "Purple",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "LEER",
       "POISONSTING",
@@ -10498,7 +12168,7 @@ export const pokemonData = [
     name: "Nidoking",
     Color: "Purple",
     generation: "1",
-    types: ["Poison", "Ground"],
+    types: ["POISON", "GROUND"],
     moves: [
       "MEGAHORN",
       "SLUDGEWAVE",
@@ -10637,7 +12307,7 @@ export const pokemonData = [
     name: "Clefairy",
     Color: "Pink",
     generation: "1",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "SING",
       "SWEETKISS",
@@ -10793,7 +12463,7 @@ export const pokemonData = [
     name: "Clefable",
     Color: "Pink",
     generation: "1",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "SING",
       "SWEETKISS",
@@ -10954,7 +12624,7 @@ export const pokemonData = [
     name: "Vulpix",
     Color: "Brown",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "EMBER",
       "TAILWHIP",
@@ -11063,7 +12733,7 @@ export const pokemonData = [
     name: "Ninetales",
     Color: "Yellow",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "EMBER",
       "DISABLE",
@@ -11169,7 +12839,7 @@ export const pokemonData = [
     name: "Jigglypuff",
     Color: "Pink",
     generation: "1",
-    types: ["Normal", "Fairy"],
+    types: ["NORMAL", "FAIRY"],
     moves: [
       "SWEETKISS",
       "DISARMINGVOICE",
@@ -11324,7 +12994,7 @@ export const pokemonData = [
     name: "Wigglytuff",
     Color: "Pink",
     generation: "1",
-    types: ["Normal", "Fairy"],
+    types: ["NORMAL", "FAIRY"],
     moves: [
       "SWEETKISS",
       "DISARMINGVOICE",
@@ -11486,7 +13156,7 @@ export const pokemonData = [
     name: "Zubat",
     Color: "Purple",
     generation: "1",
-    types: ["Poison", "Flying"],
+    types: ["POISON", "FLYING"],
     moves: [
       "ABSORB",
       "SUPERSONIC",
@@ -11580,7 +13250,7 @@ export const pokemonData = [
     name: "Golbat",
     Color: "Purple",
     generation: "1",
-    types: ["Poison", "Flying"],
+    types: ["POISON", "FLYING"],
     moves: [
       "SCREECH",
       "ABSORB",
@@ -11667,7 +13337,7 @@ export const pokemonData = [
     name: "Oddish",
     Color: "Blue",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "ABSORB",
       "GROWTH",
@@ -11753,7 +13423,7 @@ export const pokemonData = [
     name: "Gloom",
     Color: "Blue",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "ABSORB",
       "GROWTH",
@@ -11829,7 +13499,7 @@ export const pokemonData = [
     name: "Vileplume",
     Color: "Red",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "PETALBLIZZARD",
       "MEGADRAIN",
@@ -11916,7 +13586,7 @@ export const pokemonData = [
     name: "Paras",
     Color: "Red",
     generation: "1",
-    types: ["Bug", "Grass"],
+    types: ["BUG", "GRASS"],
     moves: [
       "SCRATCH",
       "STUNSPORE",
@@ -12007,7 +13677,7 @@ export const pokemonData = [
     name: "Parasect",
     Color: "Red",
     generation: "1",
-    types: ["Bug", "Grass"],
+    types: ["BUG", "GRASS"],
     moves: [
       "CROSSPOISON",
       "SCRATCH",
@@ -12092,7 +13762,7 @@ export const pokemonData = [
     name: "Venonat",
     Color: "Purple",
     generation: "1",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "TACKLE",
       "DISABLE",
@@ -12180,7 +13850,7 @@ export const pokemonData = [
     name: "Venomoth",
     Color: "Purple",
     generation: "1",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "AIRSLASH",
       "QUIVERDANCE",
@@ -12274,7 +13944,7 @@ export const pokemonData = [
     name: "Diglett",
     Color: "Brown",
     generation: "1",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "SANDATTACK",
       "SCRATCH",
@@ -12374,7 +14044,7 @@ export const pokemonData = [
     name: "Dugtrio",
     Color: "Brown",
     generation: "1",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "SANDTOMB",
       "NIGHTSLASH",
@@ -12470,7 +14140,7 @@ export const pokemonData = [
     name: "Meowth",
     Color: "Yellow",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "FAKEOUT",
       "GROWL",
@@ -12587,7 +14257,7 @@ export const pokemonData = [
     name: "Persian",
     Color: "Yellow",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "POWERGEM",
       "SWITCHEROO",
@@ -12701,7 +14371,7 @@ export const pokemonData = [
     name: "Psyduck",
     Color: "Yellow",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SCRATCH",
       "TAILWHIP",
@@ -12828,7 +14498,7 @@ export const pokemonData = [
     name: "Golduck",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "AQUAJET",
       "SCRATCH",
@@ -12956,7 +14626,7 @@ export const pokemonData = [
     name: "Mankey",
     Color: "Brown",
     generation: "1",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "COVET",
       "SCRATCH",
@@ -13081,7 +14751,7 @@ export const pokemonData = [
     name: "Primeape",
     Color: "Brown",
     generation: "1",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "FLING",
       "SCRATCH",
@@ -13203,7 +14873,7 @@ export const pokemonData = [
     name: "Growlithe",
     Color: "Brown",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "EMBER",
       "LEER",
@@ -13307,7 +14977,7 @@ export const pokemonData = [
     name: "Arcanine",
     Color: "Brown",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "EXTREMESPEED",
       "FLAMEWHEEL",
@@ -13409,7 +15079,7 @@ export const pokemonData = [
     name: "Poliwag",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "HYPNOSIS",
@@ -13498,7 +15168,7 @@ export const pokemonData = [
     name: "Poliwhirl",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "HYPNOSIS",
@@ -13590,7 +15260,7 @@ export const pokemonData = [
     name: "Poliwrath",
     Color: "Blue",
     generation: "1",
-    types: ["Water", "Fighting"],
+    types: ["WATER", "FIGHTING"],
     moves: [
       "DYNAMICPUNCH",
       "WATERGUN",
@@ -13710,7 +15380,7 @@ export const pokemonData = [
     name: "Abra",
     Color: "Brown",
     generation: "1",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: ["TELEPORT"],
     tutor_moves: [
       "ALLYSWITCH",
@@ -13815,7 +15485,7 @@ export const pokemonData = [
     name: "Kadabra",
     Color: "Brown",
     generation: "1",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "CONFUSION",
       "KINESIS",
@@ -13925,7 +15595,7 @@ export const pokemonData = [
     name: "Alakazam",
     Color: "Brown",
     generation: "1",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "CONFUSION",
       "KINESIS",
@@ -14042,7 +15712,7 @@ export const pokemonData = [
     name: "Machop",
     Color: "Gray",
     generation: "1",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "LOWKICK",
       "LEER",
@@ -14158,7 +15828,7 @@ export const pokemonData = [
     name: "Machoke",
     Color: "Gray",
     generation: "1",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "LOWKICK",
       "LEER",
@@ -14261,7 +15931,7 @@ export const pokemonData = [
     name: "Machamp",
     Color: "Gray",
     generation: "1",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "WIDEGUARD",
       "LOWKICK",
@@ -14374,7 +16044,7 @@ export const pokemonData = [
     name: "Bellsprout",
     Color: "Green",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "VINEWHIP",
       "GROWTH",
@@ -14472,7 +16142,7 @@ export const pokemonData = [
     name: "Weepinbell",
     Color: "Green",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "VINEWHIP",
       "GROWTH",
@@ -14558,7 +16228,7 @@ export const pokemonData = [
     name: "Victreebel",
     Color: "Green",
     generation: "1",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "LEAFSTORM",
       "STOCKPILE",
@@ -14644,7 +16314,7 @@ export const pokemonData = [
     name: "Tentacool",
     Color: "Blue",
     generation: "1",
-    types: ["Water", "Poison"],
+    types: ["WATER", "POISON"],
     moves: [
       "POISONSTING",
       "WATERGUN",
@@ -14745,7 +16415,7 @@ export const pokemonData = [
     name: "Tentacruel",
     Color: "Blue",
     generation: "1",
-    types: ["Water", "Poison"],
+    types: ["WATER", "POISON"],
     moves: [
       "REFLECTTYPE",
       "POISONSTING",
@@ -14843,7 +16513,7 @@ export const pokemonData = [
     name: "Geodude",
     Color: "Brown",
     generation: "1",
-    types: ["Rock", "Ground"],
+    types: ["ROCK", "GROUND"],
     moves: [
       "TACKLE",
       "DEFENSECURL",
@@ -14949,7 +16619,7 @@ export const pokemonData = [
     name: "Graveler",
     Color: "Brown",
     generation: "1",
-    types: ["Rock", "Ground"],
+    types: ["ROCK", "GROUND"],
     moves: [
       "TACKLE",
       "DEFENSECURL",
@@ -15061,7 +16731,7 @@ export const pokemonData = [
     name: "Golem",
     Color: "Brown",
     generation: "1",
-    types: ["Rock", "Ground"],
+    types: ["ROCK", "GROUND"],
     moves: [
       "HEAVYSLAM",
       "TACKLE",
@@ -15168,7 +16838,7 @@ export const pokemonData = [
     name: "Ponyta",
     Color: "Yellow",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -15254,7 +16924,7 @@ export const pokemonData = [
     name: "Rapidash",
     Color: "Yellow",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SMARTSTRIKE",
       "MEGAHORN",
@@ -15342,7 +17012,7 @@ export const pokemonData = [
     name: "Slowpoke",
     Color: "Pink",
     generation: "1",
-    types: ["Water", "Psychic"],
+    types: ["WATER", "PSYCHIC"],
     moves: [
       "TACKLE",
       "CURSE",
@@ -15467,7 +17137,7 @@ export const pokemonData = [
     name: "Slowbro",
     Color: "Pink",
     generation: "1",
-    types: ["Water", "Psychic"],
+    types: ["WATER", "PSYCHIC"],
     moves: [
       "FUTURESIGHT",
       "WITHDRAW",
@@ -15609,7 +17279,7 @@ export const pokemonData = [
     name: "Magnemite",
     Color: "Gray",
     generation: "1",
-    types: ["Electric", "Steel"],
+    types: ["ELECTRIC", "STEEL"],
     moves: [
       "THUNDERSHOCK",
       "TACKLE",
@@ -15693,7 +17363,7 @@ export const pokemonData = [
     name: "Magneton",
     Color: "Gray",
     generation: "1",
-    types: ["Electric", "Steel"],
+    types: ["ELECTRIC", "STEEL"],
     moves: [
       "TRIATTACK",
       "ELECTRICTERRAIN",
@@ -15781,7 +17451,7 @@ export const pokemonData = [
     name: "Farfetch'd",
     Color: "Brown",
     generation: "1",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "SANDATTACK",
@@ -15893,7 +17563,7 @@ export const pokemonData = [
     name: "Doduo",
     Color: "Brown",
     generation: "1",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "GROWL",
@@ -15977,7 +17647,7 @@ export const pokemonData = [
     name: "Dodrio",
     Color: "Brown",
     generation: "1",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "TRIATTACK",
       "PECK",
@@ -16064,7 +17734,7 @@ export const pokemonData = [
     name: "Seel",
     Color: "White",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "HEADBUTT",
       "GROWL",
@@ -16168,7 +17838,7 @@ export const pokemonData = [
     name: "Dewgong",
     Color: "White",
     generation: "1",
-    types: ["Water", "Ice"],
+    types: ["WATER", "ICE"],
     moves: [
       "SHEERCOLD",
       "HEADBUTT",
@@ -16266,7 +17936,7 @@ export const pokemonData = [
     name: "Grimer",
     Color: "Purple",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "POUND",
       "POISONGAS",
@@ -16378,7 +18048,7 @@ export const pokemonData = [
     name: "Muk",
     Color: "Purple",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "POUND",
       "POISONGAS",
@@ -16490,7 +18160,7 @@ export const pokemonData = [
     name: "Shellder",
     Color: "Purple",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "WATERGUN",
@@ -16580,7 +18250,7 @@ export const pokemonData = [
     name: "Cloyster",
     Color: "Purple",
     generation: "1",
-    types: ["Water", "Ice"],
+    types: ["WATER", "ICE"],
     moves: [
       "ICICLESPEAR",
       "ICICLECRASH",
@@ -16677,7 +18347,7 @@ export const pokemonData = [
     name: "Gastly",
     Color: "Purple",
     generation: "1",
-    types: ["Ghost", "Poison"],
+    types: ["GHOST", "POISON"],
     moves: [
       "LICK",
       "CONFUSERAY",
@@ -16793,7 +18463,7 @@ export const pokemonData = [
     name: "Haunter",
     Color: "Purple",
     generation: "1",
-    types: ["Ghost", "Poison"],
+    types: ["GHOST", "POISON"],
     moves: [
       "SHADOWPUNCH",
       "LICK",
@@ -16903,7 +18573,7 @@ export const pokemonData = [
     name: "Gengar",
     Color: "Purple",
     generation: "1",
-    types: ["Ghost", "Poison"],
+    types: ["GHOST", "POISON"],
     moves: [
       "SHADOWPUNCH",
       "PERISHSONG",
@@ -17035,7 +18705,7 @@ export const pokemonData = [
     name: "Onix",
     Color: "Gray",
     generation: "1",
-    types: ["Rock", "Ground"],
+    types: ["ROCK", "GROUND"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -17147,7 +18817,7 @@ export const pokemonData = [
     name: "Drowzee",
     Color: "Yellow",
     generation: "1",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "POUND",
       "HYPNOSIS",
@@ -17274,7 +18944,7 @@ export const pokemonData = [
     name: "Hypno",
     Color: "Yellow",
     generation: "1",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "SWITCHEROO",
       "POUND",
@@ -17400,7 +19070,7 @@ export const pokemonData = [
     name: "Krabby",
     Color: "Red",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "LEER",
@@ -17497,7 +19167,7 @@ export const pokemonData = [
     name: "Kingler",
     Color: "Red",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WIDEGUARD",
       "HAMMERARM",
@@ -17590,7 +19260,7 @@ export const pokemonData = [
     name: "Voltorb",
     Color: "Red",
     generation: "1",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "CHARGE",
       "TACKLE",
@@ -17671,7 +19341,7 @@ export const pokemonData = [
     name: "Electrode",
     Color: "Red",
     generation: "1",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "MAGNETICFLUX",
       "CHARGE",
@@ -17759,7 +19429,7 @@ export const pokemonData = [
     name: "Exeggcute",
     Color: "Pink",
     generation: "1",
-    types: ["Grass", "Psychic"],
+    types: ["GRASS", "PSYCHIC"],
     moves: [
       "ABSORB",
       "HYPNOSIS",
@@ -17861,7 +19531,7 @@ export const pokemonData = [
     name: "Exeggutor",
     Color: "Yellow",
     generation: "1",
-    types: ["Grass", "Psychic"],
+    types: ["GRASS", "PSYCHIC"],
     moves: [
       "STOMP",
       "GROWTH",
@@ -17974,7 +19644,7 @@ export const pokemonData = [
     name: "Cubone",
     Color: "Brown",
     generation: "1",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "MUDSLAP",
       "GROWL",
@@ -18085,7 +19755,7 @@ export const pokemonData = [
     name: "Marowak",
     Color: "Brown",
     generation: "1",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "MUDSLAP",
       "GROWL",
@@ -18192,7 +19862,7 @@ export const pokemonData = [
     name: "Hitmonlee",
     Color: "Brown",
     generation: "1",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "BRICKBREAK",
       "LOWSWEEP",
@@ -18303,7 +19973,7 @@ export const pokemonData = [
     name: "Hitmonchan",
     Color: "Brown",
     generation: "1",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "DRAINPUNCH",
       "FEINT",
@@ -18417,7 +20087,7 @@ export const pokemonData = [
     name: "Lickitung",
     Color: "Pink",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "LICK",
       "DEFENSECURL",
@@ -18541,7 +20211,7 @@ export const pokemonData = [
     name: "Koffing",
     Color: "Purple",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "POISONGAS",
       "TACKLE",
@@ -18642,7 +20312,7 @@ export const pokemonData = [
     name: "Weezing",
     Color: "Purple",
     generation: "1",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "DOUBLEHIT",
       "HEATWAVE",
@@ -18735,7 +20405,7 @@ export const pokemonData = [
     name: "Rhyhorn",
     Color: "Gray",
     generation: "1",
-    types: ["Ground", "Rock"],
+    types: ["GROUND", "ROCK"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -18858,7 +20528,7 @@ export const pokemonData = [
     name: "Rhydon",
     Color: "Gray",
     generation: "1",
-    types: ["Ground", "Rock"],
+    types: ["GROUND", "ROCK"],
     moves: [
       "HAMMERARM",
       "TACKLE",
@@ -18997,7 +20667,7 @@ export const pokemonData = [
     name: "Chansey",
     Color: "Pink",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SWEETKISS",
       "DISARMINGVOICE",
@@ -19145,7 +20815,7 @@ export const pokemonData = [
     name: "Tangela",
     Color: "Blue",
     generation: "1",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "ABSORB",
       "BIND",
@@ -19240,7 +20910,7 @@ export const pokemonData = [
     name: "Kangaskhan",
     Color: "Brown",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "POUND",
       "TAILWHIP",
@@ -19371,7 +21041,7 @@ export const pokemonData = [
     name: "Horsea",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "LEER",
@@ -19456,7 +21126,7 @@ export const pokemonData = [
     name: "Seadra",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "LEER",
@@ -19536,7 +21206,7 @@ export const pokemonData = [
     name: "Goldeen",
     Color: "Red",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "PECK",
       "TAILWHIP",
@@ -19622,7 +21292,7 @@ export const pokemonData = [
     name: "Seaking",
     Color: "Red",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "PECK",
       "TAILWHIP",
@@ -19700,7 +21370,7 @@ export const pokemonData = [
     name: "Staryu",
     Color: "Brown",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -19783,7 +21453,7 @@ export const pokemonData = [
     name: "Starmie",
     Color: "Purple",
     generation: "1",
-    types: ["Water", "Psychic"],
+    types: ["WATER", "PSYCHIC"],
     moves: [
       "RAPIDSPIN",
       "MINIMIZE",
@@ -19882,7 +21552,7 @@ export const pokemonData = [
     name: "Mr. Mime",
     Color: "Pink",
     generation: "1",
-    types: ["Psychic", "Fairy"],
+    types: ["PSYCHIC", "FAIRY"],
     moves: [
       "QUICKGUARD",
       "WIDEGUARD",
@@ -20028,7 +21698,7 @@ export const pokemonData = [
     name: "Scyther",
     Color: "Green",
     generation: "1",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -20132,7 +21802,7 @@ export const pokemonData = [
     name: "Jynx",
     Color: "Red",
     generation: "1",
-    types: ["Ice", "Psychic"],
+    types: ["ICE", "PSYCHIC"],
     moves: [
       "SWEETKISS",
       "LICK",
@@ -20252,7 +21922,7 @@ export const pokemonData = [
     name: "Electabuzz",
     Color: "Yellow",
     generation: "1",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -20358,7 +22028,7 @@ export const pokemonData = [
     name: "Magmar",
     Color: "Red",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SMOG",
       "LEER",
@@ -20462,7 +22132,7 @@ export const pokemonData = [
     name: "Pinsir",
     Color: "Brown",
     generation: "1",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "VISEGRIP",
       "HARDEN",
@@ -20563,7 +22233,7 @@ export const pokemonData = [
     name: "Tauros",
     Color: "Brown",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -20665,7 +22335,7 @@ export const pokemonData = [
     name: "Magikarp",
     Color: "Red",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: ["SPLASH", "TACKLE", "FLAIL"],
     tutor_moves: ["BOUNCE"],
     egg_moves: [],
@@ -20676,7 +22346,7 @@ export const pokemonData = [
     name: "Gyarados",
     Color: "Blue",
     generation: "1",
-    types: ["Water", "Flying"],
+    types: ["WATER", "FLYING"],
     moves: [
       "BITE",
       "FLAIL",
@@ -20789,7 +22459,7 @@ export const pokemonData = [
     name: "Lapras",
     Color: "Blue",
     generation: "1",
-    types: ["Water", "Ice"],
+    types: ["WATER", "ICE"],
     moves: [
       "GROWL",
       "WATERGUN",
@@ -20911,7 +22581,7 @@ export const pokemonData = [
     name: "Ditto",
     Color: "Purple",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: ["TRANSFORM"],
     tutor_moves: [],
     egg_moves: [],
@@ -20922,7 +22592,7 @@ export const pokemonData = [
     name: "Eevee",
     Color: "Brown",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "COVET",
       "HELPINGHAND",
@@ -21016,7 +22686,7 @@ export const pokemonData = [
     name: "Vaporeon",
     Color: "Blue",
     generation: "1",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "COVET",
@@ -21127,7 +22797,7 @@ export const pokemonData = [
     name: "Jolteon",
     Color: "Yellow",
     generation: "1",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "THUNDERSHOCK",
       "COVET",
@@ -21241,7 +22911,7 @@ export const pokemonData = [
     name: "Flareon",
     Color: "Red",
     generation: "1",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "EMBER",
       "COVET",
@@ -21350,7 +23020,7 @@ export const pokemonData = [
     name: "Porygon",
     Color: "Pink",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "CONVERSION",
@@ -21440,7 +23110,7 @@ export const pokemonData = [
     name: "Omanyte",
     Color: "Blue",
     generation: "1",
-    types: ["Rock", "Water"],
+    types: ["ROCK", "WATER"],
     moves: [
       "BIND",
       "WITHDRAW",
@@ -21538,7 +23208,7 @@ export const pokemonData = [
     name: "Omastar",
     Color: "Blue",
     generation: "1",
-    types: ["Rock", "Water"],
+    types: ["ROCK", "WATER"],
     moves: [
       "CRUNCH",
       "BIND",
@@ -21630,7 +23300,7 @@ export const pokemonData = [
     name: "Kabuto",
     Color: "Brown",
     generation: "1",
-    types: ["Rock", "Water"],
+    types: ["ROCK", "WATER"],
     moves: [
       "ABSORB",
       "HARDEN",
@@ -21727,7 +23397,7 @@ export const pokemonData = [
     name: "Kabutops",
     Color: "Brown",
     generation: "1",
-    types: ["Rock", "Water"],
+    types: ["ROCK", "WATER"],
     moves: [
       "SLASH",
       "NIGHTSLASH",
@@ -21835,7 +23505,7 @@ export const pokemonData = [
     name: "Aerodactyl",
     Color: "Purple",
     generation: "1",
-    types: ["Rock", "Flying"],
+    types: ["ROCK", "FLYING"],
     moves: [
       "BITE",
       "ANCIENTPOWER",
@@ -21950,7 +23620,7 @@ export const pokemonData = [
     name: "Snorlax",
     Color: "Black",
     generation: "1",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "RECYCLE",
       "COVET",
@@ -22109,7 +23779,7 @@ export const pokemonData = [
     name: "Articuno",
     Color: "Blue",
     generation: "1",
-    types: ["Ice", "Flying"],
+    types: ["ICE", "FLYING"],
     moves: [
       "GUST",
       "MIST",
@@ -22205,7 +23875,7 @@ export const pokemonData = [
     name: "Zapdos",
     Color: "Yellow",
     generation: "1",
-    types: ["Electric", "Flying"],
+    types: ["ELECTRIC", "FLYING"],
     moves: [
       "PECK",
       "THUNDERWAVE",
@@ -22300,7 +23970,7 @@ export const pokemonData = [
     name: "Moltres",
     Color: "Yellow",
     generation: "1",
-    types: ["Fire", "Flying"],
+    types: ["FIRE", "FLYING"],
     moves: [
       "GUST",
       "LEER",
@@ -22395,7 +24065,7 @@ export const pokemonData = [
     name: "Dratini",
     Color: "Blue",
     generation: "1",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "WRAP",
       "LEER",
@@ -22495,7 +24165,7 @@ export const pokemonData = [
     name: "Dragonair",
     Color: "Blue",
     generation: "1",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "WRAP",
       "LEER",
@@ -22586,7 +24256,7 @@ export const pokemonData = [
     name: "Dragonite",
     Color: "Brown",
     generation: "1",
-    types: ["Dragon", "Flying"],
+    types: ["DRAGON", "FLYING"],
     moves: [
       "HURRICANE",
       "WINGATTACK",
@@ -22730,7 +24400,7 @@ export const pokemonData = [
     name: "Mewtwo",
     Color: "Purple",
     generation: "1",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "LIFEDEW",
       "DISABLE",
@@ -22899,7 +24569,7 @@ export const pokemonData = [
     name: "Mew",
     Color: "Pink",
     generation: "1",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "POUND",
       "REFLECTTYPE",
@@ -23269,7 +24939,7 @@ export const pokemonData = [
     name: "Chikorita",
     Color: "Green",
     generation: "2",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -23369,7 +25039,7 @@ export const pokemonData = [
     name: "Bayleef",
     Color: "Green",
     generation: "2",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -23461,7 +25131,7 @@ export const pokemonData = [
     name: "Meganium",
     Color: "Green",
     generation: "2",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "PETALDANCE",
       "PETALBLIZZARD",
@@ -23568,7 +25238,7 @@ export const pokemonData = [
     name: "Cyndaquil",
     Color: "Yellow",
     generation: "2",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "TACKLE",
       "LEER",
@@ -23665,7 +25335,7 @@ export const pokemonData = [
     name: "Quilava",
     Color: "Yellow",
     generation: "2",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "TACKLE",
       "LEER",
@@ -23753,7 +25423,7 @@ export const pokemonData = [
     name: "Typhlosion",
     Color: "Yellow",
     generation: "2",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "ERUPTION",
       "DOUBLEEDGE",
@@ -23871,7 +25541,7 @@ export const pokemonData = [
     name: "Totodile",
     Color: "Blue",
     generation: "2",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -23989,7 +25659,7 @@ export const pokemonData = [
     name: "Croconaw",
     Color: "Blue",
     generation: "2",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -24099,7 +25769,7 @@ export const pokemonData = [
     name: "Feraligatr",
     Color: "Blue",
     generation: "2",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "AGILITY",
       "SCRATCH",
@@ -24227,7 +25897,7 @@ export const pokemonData = [
     name: "Sentret",
     Color: "Brown",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SCRATCH",
       "DEFENSECURL",
@@ -24344,7 +26014,7 @@ export const pokemonData = [
     name: "Furret",
     Color: "Brown",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "AGILITY",
       "COIL",
@@ -24459,7 +26129,7 @@ export const pokemonData = [
     name: "Hoothoot",
     Color: "Brown",
     generation: "2",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "GROWL",
@@ -24567,7 +26237,7 @@ export const pokemonData = [
     name: "Noctowl",
     Color: "Brown",
     generation: "2",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "SKYATTACK",
       "PECK",
@@ -24674,7 +26344,7 @@ export const pokemonData = [
     name: "Ledyba",
     Color: "Red",
     generation: "2",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "TACKLE",
       "SUPERSONIC",
@@ -24766,7 +26436,7 @@ export const pokemonData = [
     name: "Ledian",
     Color: "Red",
     generation: "2",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "TACKLE",
       "SUPERSONIC",
@@ -24857,7 +26527,7 @@ export const pokemonData = [
     name: "Spinarak",
     Color: "Green",
     generation: "2",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "POISONSTING",
       "STRINGSHOT",
@@ -24953,7 +26623,7 @@ export const pokemonData = [
     name: "Ariados",
     Color: "Red",
     generation: "2",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "SWORDSDANCE",
       "FOCUSENERGY",
@@ -25049,7 +26719,7 @@ export const pokemonData = [
     name: "Crobat",
     Color: "Purple",
     generation: "2",
-    types: ["Poison", "Flying"],
+    types: ["POISON", "FLYING"],
     moves: [
       "CROSSPOISON",
       "TAILWIND",
@@ -25146,7 +26816,7 @@ export const pokemonData = [
     name: "Chinchou",
     Color: "Blue",
     generation: "2",
-    types: ["Water", "Electric"],
+    types: ["WATER", "ELECTRIC"],
     moves: [
       "WATERGUN",
       "SUPERSONIC",
@@ -25246,7 +26916,7 @@ export const pokemonData = [
     name: "Lanturn",
     Color: "Blue",
     generation: "2",
-    types: ["Water", "Electric"],
+    types: ["WATER", "ELECTRIC"],
     moves: [
       "STOCKPILE",
       "SWALLOW",
@@ -25342,7 +27012,7 @@ export const pokemonData = [
     name: "Pichu",
     Color: "Yellow",
     generation: "2",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "THUNDERSHOCK",
       "TAILWHIP",
@@ -25435,7 +27105,7 @@ export const pokemonData = [
     name: "Cleffa",
     Color: "Pink",
     generation: "2",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "SPLASH",
       "POUND",
@@ -25557,7 +27227,7 @@ export const pokemonData = [
     name: "Igglybuff",
     Color: "Pink",
     generation: "2",
-    types: ["Normal", "Fairy"],
+    types: ["NORMAL", "FAIRY"],
     moves: [
       "SING",
       "POUND",
@@ -25666,7 +27336,7 @@ export const pokemonData = [
     name: "Togepi",
     Color: "White",
     generation: "2",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "GROWL",
       "POUND",
@@ -25783,7 +27453,7 @@ export const pokemonData = [
     name: "Togetic",
     Color: "White",
     generation: "2",
-    types: ["Fairy", "Flying"],
+    types: ["FAIRY", "FLYING"],
     moves: [
       "FAIRYWIND",
       "GROWL",
@@ -25913,7 +27583,7 @@ export const pokemonData = [
     name: "Natu",
     Color: "Green",
     generation: "2",
-    types: ["Psychic", "Flying"],
+    types: ["PSYCHIC", "FLYING"],
     moves: [
       "PECK",
       "LEER",
@@ -26019,7 +27689,7 @@ export const pokemonData = [
     name: "Xatu",
     Color: "Green",
     generation: "2",
-    types: ["Psychic", "Flying"],
+    types: ["PSYCHIC", "FLYING"],
     moves: [
       "AIRSLASH",
       "TAILWIND",
@@ -26123,7 +27793,7 @@ export const pokemonData = [
     name: "Mareep",
     Color: "White",
     generation: "2",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -26220,7 +27890,7 @@ export const pokemonData = [
     name: "Flaaffy",
     Color: "Pink",
     generation: "2",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -26322,7 +27992,7 @@ export const pokemonData = [
     name: "Ampharos",
     Color: "Yellow",
     generation: "2",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "THUNDERPUNCH",
       "ZAPCANNON",
@@ -26444,7 +28114,7 @@ export const pokemonData = [
     name: "Bellossom",
     Color: "Green",
     generation: "2",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "PETALBLIZZARD",
       "QUIVERDANCE",
@@ -26538,7 +28208,7 @@ export const pokemonData = [
     name: "Marill",
     Color: "Blue",
     generation: "2",
-    types: ["Water", "Fairy"],
+    types: ["WATER", "FAIRY"],
     moves: [
       "ROLLOUT",
       "DEFENSECURL",
@@ -26651,7 +28321,7 @@ export const pokemonData = [
     name: "Azumarill",
     Color: "Blue",
     generation: "2",
-    types: ["Water", "Fairy"],
+    types: ["WATER", "FAIRY"],
     moves: [
       "ROLLOUT",
       "DEFENSECURL",
@@ -26767,7 +28437,7 @@ export const pokemonData = [
     name: "Sudowoodo",
     Color: "Brown",
     generation: "2",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "SLAM",
       "STONEEDGE",
@@ -26886,7 +28556,7 @@ export const pokemonData = [
     name: "Politoed",
     Color: "Green",
     generation: "2",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "BOUNCE",
       "BODYSLAM",
@@ -26991,7 +28661,7 @@ export const pokemonData = [
     name: "Hoppip",
     Color: "Pink",
     generation: "2",
-    types: ["Grass", "Flying"],
+    types: ["GRASS", "FLYING"],
     moves: [
       "SPLASH",
       "TACKLE",
@@ -27094,7 +28764,7 @@ export const pokemonData = [
     name: "Skiploom",
     Color: "Green",
     generation: "2",
-    types: ["Grass", "Flying"],
+    types: ["GRASS", "FLYING"],
     moves: [
       "SPLASH",
       "TAILWHIP",
@@ -27184,7 +28854,7 @@ export const pokemonData = [
     name: "Jumpluff",
     Color: "Blue",
     generation: "2",
-    types: ["Grass", "Flying"],
+    types: ["GRASS", "FLYING"],
     moves: [
       "SPLASH",
       "TAILWHIP",
@@ -27276,7 +28946,7 @@ export const pokemonData = [
     name: "Aipom",
     Color: "Purple",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SCRATCH",
       "TAILWHIP",
@@ -27406,7 +29076,7 @@ export const pokemonData = [
     name: "Sunkern",
     Color: "Yellow",
     generation: "2",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "GROWTH",
@@ -27490,7 +29160,7 @@ export const pokemonData = [
     name: "Sunflora",
     Color: "Yellow",
     generation: "2",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "POUND",
       "TACKLE",
@@ -27575,7 +29245,7 @@ export const pokemonData = [
     name: "Yanma",
     Color: "Red",
     generation: "2",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "TACKLE",
       "QUICKATTACK",
@@ -27660,7 +29330,7 @@ export const pokemonData = [
     name: "Wooper",
     Color: "Blue",
     generation: "2",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "WATERGUN",
       "TAILWHIP",
@@ -27777,7 +29447,7 @@ export const pokemonData = [
     name: "Quagsire",
     Color: "Blue",
     generation: "2",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "WATERGUN",
       "TAILWHIP",
@@ -27897,7 +29567,7 @@ export const pokemonData = [
     name: "Espeon",
     Color: "Purple",
     generation: "2",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "CONFUSION",
       "COVET",
@@ -28020,7 +29690,7 @@ export const pokemonData = [
     name: "Umbreon",
     Color: "Black",
     generation: "2",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "SNARL",
       "COVET",
@@ -28140,7 +29810,7 @@ export const pokemonData = [
     name: "Murkrow",
     Color: "Black",
     generation: "2",
-    types: ["Dark", "Flying"],
+    types: ["DARK", "FLYING"],
     moves: [
       "PECK",
       "ASTONISH",
@@ -28253,7 +29923,7 @@ export const pokemonData = [
     name: "Slowking",
     Color: "Pink",
     generation: "2",
-    types: ["Water", "Psychic"],
+    types: ["WATER", "PSYCHIC"],
     moves: [
       "FUTURESIGHT",
       "CHILLYRECEPTION",
@@ -28405,7 +30075,7 @@ export const pokemonData = [
     name: "Misdreavus",
     Color: "Gray",
     generation: "2",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "GROWL",
       "CONFUSION",
@@ -28529,7 +30199,7 @@ export const pokemonData = [
     name: "Unown",
     Color: "Black",
     generation: "2",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: ["HIDDENPOWER"],
     tutor_moves: ["HIDDENPOWER"],
     egg_moves: [],
@@ -28540,7 +30210,7 @@ export const pokemonData = [
     name: "Wobbuffet",
     Color: "Blue",
     generation: "2",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "COUNTER",
       "MIRRORCOAT",
@@ -28564,7 +30234,7 @@ export const pokemonData = [
     name: "Girafarig",
     Color: "Yellow",
     generation: "2",
-    types: ["Normal", "Psychic"],
+    types: ["NORMAL", "PSYCHIC"],
     moves: [
       "POWERSWAP",
       "GUARDSWAP",
@@ -28694,7 +30364,7 @@ export const pokemonData = [
     name: "Pineco",
     Color: "Gray",
     generation: "2",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "TACKLE",
       "PROTECT",
@@ -28797,7 +30467,7 @@ export const pokemonData = [
     name: "Forretress",
     Color: "Purple",
     generation: "2",
-    types: ["Bug", "Steel"],
+    types: ["BUG", "STEEL"],
     moves: [
       "HEAVYSLAM",
       "ZAPCANNON",
@@ -28916,7 +30586,7 @@ export const pokemonData = [
     name: "Dunsparce",
     Color: "Yellow",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "FLAIL",
       "DEFENSECURL",
@@ -29054,7 +30724,7 @@ export const pokemonData = [
     name: "Gligar",
     Color: "Purple",
     generation: "2",
-    types: ["Ground", "Flying"],
+    types: ["GROUND", "FLYING"],
     moves: [
       "POISONSTING",
       "SANDATTACK",
@@ -29183,7 +30853,7 @@ export const pokemonData = [
     name: "Steelix",
     Color: "Gray",
     generation: "2",
-    types: ["Steel", "Ground"],
+    types: ["STEEL", "GROUND"],
     moves: [
       "CRUNCH",
       "THUNDERFANG",
@@ -29306,7 +30976,7 @@ export const pokemonData = [
     name: "Snubbull",
     Color: "Pink",
     generation: "2",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "ICEFANG",
       "FIREFANG",
@@ -29447,7 +31117,7 @@ export const pokemonData = [
     name: "Granbull",
     Color: "Purple",
     generation: "2",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "OUTRAGE",
       "ICEFANG",
@@ -29584,7 +31254,7 @@ export const pokemonData = [
     name: "Qwilfish",
     Color: "Gray",
     generation: "2",
-    types: ["Water", "Poison"],
+    types: ["WATER", "POISON"],
     moves: [
       "POISONSTING",
       "TACKLE",
@@ -29705,7 +31375,7 @@ export const pokemonData = [
     name: "Scizor",
     Color: "Red",
     generation: "2",
-    types: ["Bug", "Steel"],
+    types: ["BUG", "STEEL"],
     moves: [
       "BULLETPUNCH",
       "WINGATTACK",
@@ -29818,7 +31488,7 @@ export const pokemonData = [
     name: "Shuckle",
     Color: "Yellow",
     generation: "2",
-    types: ["Bug", "Rock"],
+    types: ["BUG", "ROCK"],
     moves: [
       "WITHDRAW",
       "WRAP",
@@ -29926,7 +31596,7 @@ export const pokemonData = [
     name: "Heracross",
     Color: "Blue",
     generation: "2",
-    types: ["Bug", "Fighting"],
+    types: ["BUG", "FIGHTING"],
     moves: [
       "ARMTHRUST",
       "TACKLE",
@@ -30047,7 +31717,7 @@ export const pokemonData = [
     name: "Sneasel",
     Color: "Black",
     generation: "2",
-    types: ["Dark", "Ice"],
+    types: ["DARK", "ICE"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -30175,7 +31845,7 @@ export const pokemonData = [
     name: "Teddiursa",
     Color: "Brown",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "FLING",
       "COVET",
@@ -30298,7 +31968,7 @@ export const pokemonData = [
     name: "Ursaring",
     Color: "Brown",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "COVET",
       "SCRATCH",
@@ -30417,7 +32087,7 @@ export const pokemonData = [
     name: "Slugma",
     Color: "Red",
     generation: "2",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SMOG",
       "YAWN",
@@ -30518,7 +32188,7 @@ export const pokemonData = [
     name: "Magcargo",
     Color: "Red",
     generation: "2",
-    types: ["Fire", "Rock"],
+    types: ["FIRE", "ROCK"],
     moves: [
       "SHELLSMASH",
       "EARTHPOWER",
@@ -30618,7 +32288,7 @@ export const pokemonData = [
     name: "Swinub",
     Color: "Brown",
     generation: "2",
-    types: ["Ice", "Ground"],
+    types: ["ICE", "GROUND"],
     moves: [
       "TACKLE",
       "MUDSLAP",
@@ -30717,7 +32387,7 @@ export const pokemonData = [
     name: "Piloswine",
     Color: "Brown",
     generation: "2",
-    types: ["Ice", "Ground"],
+    types: ["ICE", "GROUND"],
     moves: [
       "ICEFANG",
       "ANCIENTPOWER",
@@ -30810,7 +32480,7 @@ export const pokemonData = [
     name: "Corsola",
     Color: "Pink",
     generation: "2",
-    types: ["Water", "Rock"],
+    types: ["WATER", "ROCK"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -30921,7 +32591,7 @@ export const pokemonData = [
     name: "Remoraid",
     Color: "Gray",
     generation: "2",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "HELPINGHAND",
@@ -31018,7 +32688,7 @@ export const pokemonData = [
     name: "Octillery",
     Color: "Red",
     generation: "2",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "OCTAZOOKA",
       "GUNKSHOT",
@@ -31115,7 +32785,7 @@ export const pokemonData = [
     name: "Delibird",
     Color: "Red",
     generation: "2",
-    types: ["Ice", "Flying"],
+    types: ["ICE", "FLYING"],
     moves: ["PRESENT", "DRILLPECK"],
     tutor_moves: [
       "ACROBATICS",
@@ -31225,7 +32895,7 @@ export const pokemonData = [
     name: "Mantine",
     Color: "Purple",
     generation: "2",
-    types: ["Water", "Flying"],
+    types: ["WATER", "FLYING"],
     moves: [
       "PSYBEAM",
       "BULLETSEED",
@@ -31333,7 +33003,7 @@ export const pokemonData = [
     name: "Skarmory",
     Color: "Gray",
     generation: "2",
-    types: ["Steel", "Flying"],
+    types: ["STEEL", "FLYING"],
     moves: [
       "PECK",
       "LEER",
@@ -31447,7 +33117,7 @@ export const pokemonData = [
     name: "Houndour",
     Color: "Black",
     generation: "2",
-    types: ["Dark", "Fire"],
+    types: ["DARK", "FIRE"],
     moves: [
       "LEER",
       "EMBER",
@@ -31561,7 +33231,7 @@ export const pokemonData = [
     name: "Houndoom",
     Color: "Black",
     generation: "2",
-    types: ["Dark", "Fire"],
+    types: ["DARK", "FIRE"],
     moves: [
       "NASTYPLOT",
       "THUNDERFANG",
@@ -31671,7 +33341,7 @@ export const pokemonData = [
     name: "Kingdra",
     Color: "Blue",
     generation: "2",
-    types: ["Water", "Dragon"],
+    types: ["WATER", "DRAGON"],
     moves: [
       "WHIRLPOOL",
       "YAWN",
@@ -31763,7 +33433,7 @@ export const pokemonData = [
     name: "Phanpy",
     Color: "Blue",
     generation: "2",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -31868,7 +33538,7 @@ export const pokemonData = [
     name: "Donphan",
     Color: "Gray",
     generation: "2",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "FURYATTACK",
       "FIREFANG",
@@ -31980,7 +33650,7 @@ export const pokemonData = [
     name: "Porygon2",
     Color: "Red",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "DEFENSECURL",
       "TACKLE",
@@ -32072,7 +33742,7 @@ export const pokemonData = [
     name: "Stantler",
     Color: "Brown",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "LEER",
@@ -32188,7 +33858,7 @@ export const pokemonData = [
     name: "Smeargle",
     Color: "White",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: ["SKETCH"],
     tutor_moves: [],
     egg_moves: [],
@@ -32199,7 +33869,7 @@ export const pokemonData = [
     name: "Tyrogue",
     Color: "Purple",
     generation: "2",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: ["TACKLE", "HELPINGHAND", "FAKEOUT", "FOCUSENERGY"],
     tutor_moves: [
       "ATTRACT",
@@ -32270,7 +33940,7 @@ export const pokemonData = [
     name: "Hitmontop",
     Color: "Brown",
     generation: "2",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "TRIPLEKICK",
       "FEINT",
@@ -32373,7 +34043,7 @@ export const pokemonData = [
     name: "Smoochum",
     Color: "Pink",
     generation: "2",
-    types: ["Ice", "Psychic"],
+    types: ["ICE", "PSYCHIC"],
     moves: [
       "LICK",
       "POUND",
@@ -32472,7 +34142,7 @@ export const pokemonData = [
     name: "Elekid",
     Color: "Yellow",
     generation: "2",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -32577,7 +34247,7 @@ export const pokemonData = [
     name: "Magby",
     Color: "Red",
     generation: "2",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SMOG",
       "LEER",
@@ -32681,7 +34351,7 @@ export const pokemonData = [
     name: "Miltank",
     Color: "Pink",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -32800,7 +34470,7 @@ export const pokemonData = [
     name: "Blissey",
     Color: "Pink",
     generation: "2",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SWEETKISS",
       "DISARMINGVOICE",
@@ -32945,7 +34615,7 @@ export const pokemonData = [
     name: "Raikou",
     Color: "Yellow",
     generation: "2",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "EXTREMESPEED",
       "THUNDERSHOCK",
@@ -33046,7 +34716,7 @@ export const pokemonData = [
     name: "Entei",
     Color: "Brown",
     generation: "2",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SACREDFIRE",
       "EXTREMESPEED",
@@ -33142,7 +34812,7 @@ export const pokemonData = [
     name: "Suicune",
     Color: "Blue",
     generation: "2",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SHEERCOLD",
       "EXTREMESPEED",
@@ -33238,7 +34908,7 @@ export const pokemonData = [
     name: "Larvitar",
     Color: "Green",
     generation: "2",
-    types: ["Rock", "Ground"],
+    types: ["ROCK", "GROUND"],
     moves: [
       "TACKLE",
       "LEER",
@@ -33345,7 +35015,7 @@ export const pokemonData = [
     name: "Pupitar",
     Color: "Gray",
     generation: "2",
-    types: ["Rock", "Ground"],
+    types: ["ROCK", "GROUND"],
     moves: [
       "IRONDEFENSE",
       "TACKLE",
@@ -33446,7 +35116,7 @@ export const pokemonData = [
     name: "Tyranitar",
     Color: "Green",
     generation: "2",
-    types: ["Rock", "Dark"],
+    types: ["ROCK", "DARK"],
     moves: [
       "IRONDEFENSE",
       "DARKPULSE",
@@ -33602,7 +35272,7 @@ export const pokemonData = [
     name: "Lugia",
     Color: "White",
     generation: "2",
-    types: ["Psychic", "Flying"],
+    types: ["PSYCHIC", "FLYING"],
     moves: [
       "DRAGONRUSH",
       "GUST",
@@ -33729,7 +35399,7 @@ export const pokemonData = [
     name: "Ho-Oh",
     Color: "Red",
     generation: "2",
-    types: ["Fire", "Flying"],
+    types: ["FIRE", "FLYING"],
     moves: [
       "GUST",
       "WHIRLWIND",
@@ -33841,7 +35511,7 @@ export const pokemonData = [
     name: "Celebi",
     Color: "Green",
     generation: "2",
-    types: ["Psychic", "Grass"],
+    types: ["PSYCHIC", "GRASS"],
     moves: [
       "CONFUSION",
       "HEALBELL",
@@ -33958,7 +35628,7 @@ export const pokemonData = [
     name: "Treecko",
     Color: "Green",
     generation: "3",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "POUND",
       "LEER",
@@ -34075,7 +35745,7 @@ export const pokemonData = [
     name: "Grovyle",
     Color: "Green",
     generation: "3",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "FALSESWIPE",
       "FURYCUTTER",
@@ -34187,7 +35857,7 @@ export const pokemonData = [
     name: "Sceptile",
     Color: "Green",
     generation: "3",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "LEAFBLADE",
       "FALSESWIPE",
@@ -34323,7 +35993,7 @@ export const pokemonData = [
     name: "Torchic",
     Color: "Red",
     generation: "3",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -34429,7 +36099,7 @@ export const pokemonData = [
     name: "Combusken",
     Color: "Red",
     generation: "3",
-    types: ["Fire", "Fighting"],
+    types: ["FIRE", "FIGHTING"],
     moves: [
       "DOUBLEKICK",
       "FLAMETHROWER",
@@ -34544,7 +36214,7 @@ export const pokemonData = [
     name: "Blaziken",
     Color: "Red",
     generation: "3",
-    types: ["Fire", "Fighting"],
+    types: ["FIRE", "FIGHTING"],
     moves: [
       "BLAZEKICK",
       "FIREPUNCH",
@@ -34682,7 +36352,7 @@ export const pokemonData = [
     name: "Mudkip",
     Color: "Blue",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -34787,7 +36457,7 @@ export const pokemonData = [
     name: "Marshtomp",
     Color: "Blue",
     generation: "3",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "MUDSHOT",
       "ROCKSMASH",
@@ -34894,7 +36564,7 @@ export const pokemonData = [
     name: "Swampert",
     Color: "Blue",
     generation: "3",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "SURF",
       "EARTHQUAKE",
@@ -35023,7 +36693,7 @@ export const pokemonData = [
     name: "Poochyena",
     Color: "Gray",
     generation: "3",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "TACKLE",
       "HOWL",
@@ -35124,7 +36794,7 @@ export const pokemonData = [
     name: "Mightyena",
     Color: "Gray",
     generation: "3",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "SNARL",
       "FIREFANG",
@@ -35225,7 +36895,7 @@ export const pokemonData = [
     name: "Zigzagoon",
     Color: "Brown",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -35325,7 +36995,7 @@ export const pokemonData = [
     name: "Linoone",
     Color: "White",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SLASH",
       "SWITCHEROO",
@@ -35429,7 +37099,7 @@ export const pokemonData = [
     name: "Wurmple",
     Color: "Red",
     generation: "3",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["TACKLE", "STRINGSHOT", "POISONSTING", "BUGBITE"],
     tutor_moves: ["BUGBITE", "ELECTROWEB", "SNORE", "STRINGSHOT"],
     egg_moves: [],
@@ -35440,7 +37110,7 @@ export const pokemonData = [
     name: "Silcoon",
     Color: "White",
     generation: "3",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["HARDEN"],
     tutor_moves: ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
     egg_moves: [],
@@ -35451,7 +37121,7 @@ export const pokemonData = [
     name: "Beautifly",
     Color: "Yellow",
     generation: "3",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "GUST",
       "HARDEN",
@@ -35533,7 +37203,7 @@ export const pokemonData = [
     name: "Cascoon",
     Color: "Purple",
     generation: "3",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["HARDEN"],
     tutor_moves: ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
     egg_moves: [],
@@ -35544,7 +37214,7 @@ export const pokemonData = [
     name: "Dustox",
     Color: "Green",
     generation: "3",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "GUST",
       "HARDEN",
@@ -35628,7 +37298,7 @@ export const pokemonData = [
     name: "Lotad",
     Color: "Green",
     generation: "3",
-    types: ["Water", "Grass"],
+    types: ["WATER", "GRASS"],
     moves: [
       "ASTONISH",
       "GROWL",
@@ -35718,7 +37388,7 @@ export const pokemonData = [
     name: "Lombre",
     Color: "Green",
     generation: "3",
-    types: ["Water", "Grass"],
+    types: ["WATER", "GRASS"],
     moves: [
       "TEETERDANCE",
       "FAKEOUT",
@@ -35823,7 +37493,7 @@ export const pokemonData = [
     name: "Ludicolo",
     Color: "Green",
     generation: "3",
-    types: ["Water", "Grass"],
+    types: ["WATER", "GRASS"],
     moves: [
       "GROWL",
       "MIST",
@@ -35938,7 +37608,7 @@ export const pokemonData = [
     name: "Seedot",
     Color: "Brown",
     generation: "3",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -36035,7 +37705,7 @@ export const pokemonData = [
     name: "Nuzleaf",
     Color: "Brown",
     generation: "3",
-    types: ["Grass", "Dark"],
+    types: ["GRASS", "DARK"],
     moves: [
       "RAZORLEAF",
       "AIRCUTTER",
@@ -36155,7 +37825,7 @@ export const pokemonData = [
     name: "Shiftry",
     Color: "Brown",
     generation: "3",
-    types: ["Grass", "Dark"],
+    types: ["GRASS", "DARK"],
     moves: [
       "LEAFBLADE",
       "WHIRLWIND",
@@ -36308,7 +37978,7 @@ export const pokemonData = [
     name: "Taillow",
     Color: "Blue",
     generation: "3",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "GROWL",
@@ -36383,7 +38053,7 @@ export const pokemonData = [
     name: "Swellow",
     Color: "Blue",
     generation: "3",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "BRAVEBIRD",
       "AIRSLASH",
@@ -36459,7 +38129,7 @@ export const pokemonData = [
     name: "Wingull",
     Color: "White",
     generation: "3",
-    types: ["Water", "Flying"],
+    types: ["WATER", "FLYING"],
     moves: [
       "GROWL",
       "WATERGUN",
@@ -36555,7 +38225,7 @@ export const pokemonData = [
     name: "Pelipper",
     Color: "Yellow",
     generation: "3",
-    types: ["Water", "Flying"],
+    types: ["WATER", "FLYING"],
     moves: [
       "PROTECT",
       "SOAK",
@@ -36657,7 +38327,7 @@ export const pokemonData = [
     name: "Ralts",
     Color: "White",
     generation: "3",
-    types: ["Psychic", "Fairy"],
+    types: ["PSYCHIC", "FAIRY"],
     moves: [
       "GROWL",
       "DISARMINGVOICE",
@@ -36783,7 +38453,7 @@ export const pokemonData = [
     name: "Kirlia",
     Color: "White",
     generation: "3",
-    types: ["Psychic", "Fairy"],
+    types: ["PSYCHIC", "FAIRY"],
     moves: [
       "GROWL",
       "DISARMINGVOICE",
@@ -36898,7 +38568,7 @@ export const pokemonData = [
     name: "Gardevoir",
     Color: "White",
     generation: "3",
-    types: ["Psychic", "Fairy"],
+    types: ["PSYCHIC", "FAIRY"],
     moves: [
       "DAZZLINGGLEAM",
       "MISTYTERRAIN",
@@ -37033,7 +38703,7 @@ export const pokemonData = [
     name: "Surskit",
     Color: "Blue",
     generation: "3",
-    types: ["Bug", "Water"],
+    types: ["BUG", "WATER"],
     moves: [
       "WATERGUN",
       "QUICKATTACK",
@@ -37122,7 +38792,7 @@ export const pokemonData = [
     name: "Masquerain",
     Color: "Blue",
     generation: "3",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "WHIRLWIND",
       "WATERGUN",
@@ -37223,7 +38893,7 @@ export const pokemonData = [
     name: "Shroomish",
     Color: "Brown",
     generation: "3",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "ABSORB",
       "TACKLE",
@@ -37298,7 +38968,7 @@ export const pokemonData = [
     name: "Breloom",
     Color: "Green",
     generation: "3",
-    types: ["Grass", "Fighting"],
+    types: ["GRASS", "FIGHTING"],
     moves: [
       "MACHPUNCH",
       "SPORE",
@@ -37418,7 +39088,7 @@ export const pokemonData = [
     name: "Slakoth",
     Color: "Brown",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SCRATCH",
       "YAWN",
@@ -37533,7 +39203,7 @@ export const pokemonData = [
     name: "Vigoroth",
     Color: "White",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SCRATCH",
       "FOCUSENERGY",
@@ -37660,7 +39330,7 @@ export const pokemonData = [
     name: "Slaking",
     Color: "Brown",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SWAGGER",
       "SUCKERPUNCH",
@@ -37801,7 +39471,7 @@ export const pokemonData = [
     name: "Nincada",
     Color: "Gray",
     generation: "3",
-    types: ["Bug", "Ground"],
+    types: ["BUG", "GROUND"],
     moves: [
       "SANDATTACK",
       "SCRATCH",
@@ -37863,7 +39533,7 @@ export const pokemonData = [
     name: "Ninjask",
     Color: "Yellow",
     generation: "3",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "DOUBLETEAM",
       "SCREECH",
@@ -37954,7 +39624,7 @@ export const pokemonData = [
     name: "Shedinja",
     Color: "Brown",
     generation: "3",
-    types: ["Bug", "Ghost"],
+    types: ["BUG", "GHOST"],
     moves: [
       "SHADOWCLAW",
       "GRUDGE",
@@ -38037,7 +39707,7 @@ export const pokemonData = [
     name: "Whismur",
     Color: "Pink",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "ASTONISH",
       "POUND",
@@ -38129,7 +39799,7 @@ export const pokemonData = [
     name: "Loudred",
     Color: "Blue",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "BITE",
       "ASTONISH",
@@ -38225,7 +39895,7 @@ export const pokemonData = [
     name: "Exploud",
     Color: "Blue",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "CRUNCH",
       "BITE",
@@ -38341,7 +40011,7 @@ export const pokemonData = [
     name: "Makuhita",
     Color: "Yellow",
     generation: "3",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "TACKLE",
       "FOCUSENERGY",
@@ -38458,7 +40128,7 @@ export const pokemonData = [
     name: "Hariyama",
     Color: "Brown",
     generation: "3",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "BRINE",
       "TACKLE",
@@ -38576,7 +40246,7 @@ export const pokemonData = [
     name: "Azurill",
     Color: "Blue",
     generation: "3",
-    types: ["Normal", "Fairy"],
+    types: ["NORMAL", "FAIRY"],
     moves: [
       "SPLASH",
       "WATERGUN",
@@ -38658,7 +40328,7 @@ export const pokemonData = [
     name: "Nosepass",
     Color: "Gray",
     generation: "3",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -38758,7 +40428,7 @@ export const pokemonData = [
     name: "Skitty",
     Color: "Pink",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "FAKEOUT",
       "GROWL",
@@ -38862,7 +40532,7 @@ export const pokemonData = [
     name: "Delcatty",
     Color: "Purple",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "FAKEOUT",
       "SING",
@@ -38959,7 +40629,7 @@ export const pokemonData = [
     name: "Sableye",
     Color: "Purple",
     generation: "3",
-    types: ["Dark", "Ghost"],
+    types: ["DARK", "GHOST"],
     moves: [
       "LEER",
       "SCRATCH",
@@ -39114,7 +40784,7 @@ export const pokemonData = [
     name: "Mawile",
     Color: "Black",
     generation: "3",
-    types: ["Steel", "Fairy"],
+    types: ["STEEL", "FAIRY"],
     moves: [
       "ASTONISH",
       "GROWL",
@@ -39248,7 +40918,7 @@ export const pokemonData = [
     name: "Aron",
     Color: "Gray",
     generation: "3",
-    types: ["Steel", "Rock"],
+    types: ["STEEL", "ROCK"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -39351,7 +41021,7 @@ export const pokemonData = [
     name: "Lairon",
     Color: "Gray",
     generation: "3",
-    types: ["Steel", "Rock"],
+    types: ["STEEL", "ROCK"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -39446,7 +41116,7 @@ export const pokemonData = [
     name: "Aggron",
     Color: "Gray",
     generation: "3",
-    types: ["Steel", "Rock"],
+    types: ["STEEL", "ROCK"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -39589,7 +41259,7 @@ export const pokemonData = [
     name: "Meditite",
     Color: "Blue",
     generation: "3",
-    types: ["Fighting", "Psychic"],
+    types: ["FIGHTING", "PSYCHIC"],
     moves: [
       "CONFUSION",
       "WORKUP",
@@ -39716,7 +41386,7 @@ export const pokemonData = [
     name: "Medicham",
     Color: "Red",
     generation: "3",
-    types: ["Fighting", "Psychic"],
+    types: ["FIGHTING", "PSYCHIC"],
     moves: [
       "FIREPUNCH",
       "THUNDERPUNCH",
@@ -39841,7 +41511,7 @@ export const pokemonData = [
     name: "Electrike",
     Color: "Green",
     generation: "3",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "TACKLE",
       "THUNDERWAVE",
@@ -39933,7 +41603,7 @@ export const pokemonData = [
     name: "Manectric",
     Color: "Yellow",
     generation: "3",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "FIREFANG",
       "TACKLE",
@@ -40020,7 +41690,7 @@ export const pokemonData = [
     name: "Plusle",
     Color: "Yellow",
     generation: "3",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "NUZZLE",
       "PLAYNICE",
@@ -40129,7 +41799,7 @@ export const pokemonData = [
     name: "Minun",
     Color: "Yellow",
     generation: "3",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "NUZZLE",
       "PLAYNICE",
@@ -40236,7 +41906,7 @@ export const pokemonData = [
     name: "Volbeat",
     Color: "Gray",
     generation: "3",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "TACKLE",
       "DOUBLETEAM",
@@ -40352,7 +42022,7 @@ export const pokemonData = [
     name: "Illumise",
     Color: "Purple",
     generation: "3",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "TACKLE",
       "PLAYNICE",
@@ -40471,7 +42141,7 @@ export const pokemonData = [
     name: "Roselia",
     Color: "Green",
     generation: "3",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "POISONSTING",
       "ABSORB",
@@ -40569,7 +42239,7 @@ export const pokemonData = [
     name: "Gulpin",
     Color: "Green",
     generation: "3",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "POUND",
       "YAWN",
@@ -40676,7 +42346,7 @@ export const pokemonData = [
     name: "Swalot",
     Color: "Purple",
     generation: "3",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "BODYSLAM",
       "GUNKSHOT",
@@ -40783,7 +42453,7 @@ export const pokemonData = [
     name: "Carvanha",
     Color: "Red",
     generation: "3",
-    types: ["Water", "Dark"],
+    types: ["WATER", "DARK"],
     moves: [
       "AQUAJET",
       "LEER",
@@ -40877,7 +42547,7 @@ export const pokemonData = [
     name: "Sharpedo",
     Color: "Blue",
     generation: "3",
-    types: ["Water", "Dark"],
+    types: ["WATER", "DARK"],
     moves: [
       "SLASH",
       "NIGHTSLASH",
@@ -40976,7 +42646,7 @@ export const pokemonData = [
     name: "Wailmer",
     Color: "Blue",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SPLASH",
       "GROWL",
@@ -41073,7 +42743,7 @@ export const pokemonData = [
     name: "Wailord",
     Color: "Blue",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SOAK",
       "NOBLEROAR",
@@ -41163,7 +42833,7 @@ export const pokemonData = [
     name: "Numel",
     Color: "Yellow",
     generation: "3",
-    types: ["Fire", "Ground"],
+    types: ["FIRE", "GROUND"],
     moves: [
       "GROWL",
       "TACKLE",
@@ -41278,7 +42948,7 @@ export const pokemonData = [
     name: "Camerupt",
     Color: "Red",
     generation: "3",
-    types: ["Fire", "Ground"],
+    types: ["FIRE", "GROUND"],
     moves: [
       "ROCKSLIDE",
       "FISSURE",
@@ -41385,7 +43055,7 @@ export const pokemonData = [
     name: "Torkoal",
     Color: "Brown",
     generation: "3",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SMOG",
       "EMBER",
@@ -41494,7 +43164,7 @@ export const pokemonData = [
     name: "Spoink",
     Color: "Black",
     generation: "3",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "SPLASH",
       "CONFUSION",
@@ -41610,7 +43280,7 @@ export const pokemonData = [
     name: "Grumpig",
     Color: "Purple",
     generation: "3",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "TEETERDANCE",
       "BELCH",
@@ -41751,7 +43421,7 @@ export const pokemonData = [
     name: "Spinda",
     Color: "Brown",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "COPYCAT",
@@ -41867,7 +43537,7 @@ export const pokemonData = [
     name: "Trapinch",
     Color: "Brown",
     generation: "3",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "SANDATTACK",
       "ASTONISH",
@@ -41952,7 +43622,7 @@ export const pokemonData = [
     name: "Vibrava",
     Color: "Green",
     generation: "3",
-    types: ["Ground", "Dragon"],
+    types: ["GROUND", "DRAGON"],
     moves: [
       "DRAGONBREATH",
       "SUPERSONIC",
@@ -42060,7 +43730,7 @@ export const pokemonData = [
     name: "Flygon",
     Color: "Green",
     generation: "3",
-    types: ["Ground", "Dragon"],
+    types: ["GROUND", "DRAGON"],
     moves: [
       "DRAGONCLAW",
       "BITE",
@@ -42194,7 +43864,7 @@ export const pokemonData = [
     name: "Cacnea",
     Color: "Green",
     generation: "3",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "POISONSTING",
       "LEER",
@@ -42317,7 +43987,7 @@ export const pokemonData = [
     name: "Cacturne",
     Color: "Green",
     generation: "3",
-    types: ["Grass", "Dark"],
+    types: ["GRASS", "DARK"],
     moves: [
       "SPIKYSHIELD",
       "DESTINYBOND",
@@ -42441,7 +44111,7 @@ export const pokemonData = [
     name: "Swablu",
     Color: "Blue",
     generation: "3",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "GROWL",
@@ -42538,7 +44208,7 @@ export const pokemonData = [
     name: "Altaria",
     Color: "Blue",
     generation: "3",
-    types: ["Dragon", "Flying"],
+    types: ["DRAGON", "FLYING"],
     moves: [
       "DRAGONPULSE",
       "PLUCK",
@@ -42650,7 +44320,7 @@ export const pokemonData = [
     name: "Zangoose",
     Color: "White",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "DOUBLEKICK",
       "DISABLE",
@@ -42803,7 +44473,7 @@ export const pokemonData = [
     name: "Seviper",
     Color: "Black",
     generation: "3",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "WRAP",
       "SWAGGER",
@@ -42925,7 +44595,7 @@ export const pokemonData = [
     name: "Lunatone",
     Color: "Yellow",
     generation: "3",
-    types: ["Rock", "Psychic"],
+    types: ["ROCK", "PSYCHIC"],
     moves: [
       "MOONBLAST",
       "MOONLIGHT",
@@ -43038,7 +44708,7 @@ export const pokemonData = [
     name: "Solrock",
     Color: "Red",
     generation: "3",
-    types: ["Rock", "Psychic"],
+    types: ["ROCK", "PSYCHIC"],
     moves: [
       "FLAREBLITZ",
       "MORNINGSUN",
@@ -43156,7 +44826,7 @@ export const pokemonData = [
     name: "Barboach",
     Color: "Gray",
     generation: "3",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "MUDSLAP",
       "WATERGUN",
@@ -43249,7 +44919,7 @@ export const pokemonData = [
     name: "Whiscash",
     Color: "Blue",
     generation: "3",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "THRASH",
       "BELCH",
@@ -43345,7 +45015,7 @@ export const pokemonData = [
     name: "Corphish",
     Color: "Red",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "HARDEN",
@@ -43448,7 +45118,7 @@ export const pokemonData = [
     name: "Crawdaunt",
     Color: "Red",
     generation: "3",
-    types: ["Water", "Dark"],
+    types: ["WATER", "DARK"],
     moves: [
       "SWIFT",
       "WATERGUN",
@@ -43557,7 +45227,7 @@ export const pokemonData = [
     name: "Baltoy",
     Color: "Brown",
     generation: "3",
-    types: ["Ground", "Psychic"],
+    types: ["GROUND", "PSYCHIC"],
     moves: [
       "HARDEN",
       "MUDSLAP",
@@ -43660,7 +45330,7 @@ export const pokemonData = [
     name: "Claydol",
     Color: "Black",
     generation: "3",
-    types: ["Ground", "Psychic"],
+    types: ["GROUND", "PSYCHIC"],
     moves: [
       "HYPERBEAM",
       "TELEPORT",
@@ -43775,7 +45445,7 @@ export const pokemonData = [
     name: "Lileep",
     Color: "Purple",
     generation: "3",
-    types: ["Rock", "Grass"],
+    types: ["ROCK", "GRASS"],
     moves: [
       "WRAP",
       "ASTONISH",
@@ -43862,7 +45532,7 @@ export const pokemonData = [
     name: "Cradily",
     Color: "Green",
     generation: "3",
-    types: ["Rock", "Grass"],
+    types: ["ROCK", "GRASS"],
     moves: [
       "LEECHSEED",
       "WRAP",
@@ -43956,7 +45626,7 @@ export const pokemonData = [
     name: "Anorith",
     Color: "Gray",
     generation: "3",
-    types: ["Rock", "Bug"],
+    types: ["ROCK", "BUG"],
     moves: [
       "FURYCUTTER",
       "HARDEN",
@@ -44046,7 +45716,7 @@ export const pokemonData = [
     name: "Armaldo",
     Color: "Gray",
     generation: "3",
-    types: ["Rock", "Bug"],
+    types: ["ROCK", "BUG"],
     moves: [
       "FURYCUTTER",
       "HARDEN",
@@ -44143,7 +45813,7 @@ export const pokemonData = [
     name: "Feebas",
     Color: "Brown",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: ["SPLASH", "TACKLE", "FLAIL"],
     tutor_moves: [
       "ATTRACT",
@@ -44204,7 +45874,7 @@ export const pokemonData = [
     name: "Milotic",
     Color: "Pink",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERPULSE",
       "FLAIL",
@@ -44307,7 +45977,7 @@ export const pokemonData = [
     name: "Castform",
     Color: "Gray",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "WATERGUN",
@@ -44394,7 +46064,7 @@ export const pokemonData = [
     name: "Kecleon",
     Color: "Green",
     generation: "3",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "THIEF",
       "TAILWHIP",
@@ -44526,7 +46196,7 @@ export const pokemonData = [
     name: "Shuppet",
     Color: "Black",
     generation: "3",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "ASTONISH",
       "SCREECH",
@@ -44635,7 +46305,7 @@ export const pokemonData = [
     name: "Banette",
     Color: "Black",
     generation: "3",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "KNOCKOFF",
       "SCREECH",
@@ -44745,7 +46415,7 @@ export const pokemonData = [
     name: "Duskull",
     Color: "Black",
     generation: "3",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "ASTONISH",
       "LEER",
@@ -44845,7 +46515,7 @@ export const pokemonData = [
     name: "Dusclops",
     Color: "Black",
     generation: "3",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "SHADOWPUNCH",
       "FIREPUNCH",
@@ -44962,7 +46632,7 @@ export const pokemonData = [
     name: "Tropius",
     Color: "Green",
     generation: "3",
-    types: ["Grass", "Flying"],
+    types: ["GRASS", "FLYING"],
     moves: [
       "LEAFSTORM",
       "GUST",
@@ -45080,7 +46750,7 @@ export const pokemonData = [
     name: "Chimecho",
     Color: "Blue",
     generation: "3",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "HEALINGWISH",
       "WRAP",
@@ -45197,7 +46867,7 @@ export const pokemonData = [
     name: "Absol",
     Color: "White",
     generation: "3",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -45332,7 +47002,7 @@ export const pokemonData = [
     name: "Wynaut",
     Color: "Blue",
     generation: "3",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "COUNTER",
       "MIRRORCOAT",
@@ -45352,7 +47022,7 @@ export const pokemonData = [
     name: "Snorunt",
     Color: "Gray",
     generation: "3",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "POWDERSNOW",
       "ASTONISH",
@@ -45440,7 +47110,7 @@ export const pokemonData = [
     name: "Glalie",
     Color: "Gray",
     generation: "3",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "FREEZEDRY",
       "SHEERCOLD",
@@ -45538,7 +47208,7 @@ export const pokemonData = [
     name: "Spheal",
     Color: "Blue",
     generation: "3",
-    types: ["Ice", "Water"],
+    types: ["ICE", "WATER"],
     moves: [
       "ROLLOUT",
       "DEFENSECURL",
@@ -45628,7 +47298,7 @@ export const pokemonData = [
     name: "Sealeo",
     Color: "Blue",
     generation: "3",
-    types: ["Ice", "Water"],
+    types: ["ICE", "WATER"],
     moves: [
       "SWAGGER",
       "ROLLOUT",
@@ -45710,7 +47380,7 @@ export const pokemonData = [
     name: "Walrein",
     Color: "Blue",
     generation: "3",
-    types: ["Ice", "Water"],
+    types: ["ICE", "WATER"],
     moves: [
       "SWAGGER",
       "CRUNCH",
@@ -45808,7 +47478,7 @@ export const pokemonData = [
     name: "Clamperl",
     Color: "Blue",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: ["WATERGUN", "WHIRLPOOL", "IRONDEFENSE", "SHELLSMASH"],
     tutor_moves: [
       "ATTRACT",
@@ -45860,7 +47530,7 @@ export const pokemonData = [
     name: "Huntail",
     Color: "Blue",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "IRONDEFENSE",
@@ -45936,7 +47606,7 @@ export const pokemonData = [
     name: "Gorebyss",
     Color: "Pink",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "IRONDEFENSE",
@@ -46013,7 +47683,7 @@ export const pokemonData = [
     name: "Relicanth",
     Color: "Gray",
     generation: "3",
-    types: ["Water", "Rock"],
+    types: ["WATER", "ROCK"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -46114,7 +47784,7 @@ export const pokemonData = [
     name: "Luvdisc",
     Color: "Pink",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "CHARM",
@@ -46194,7 +47864,7 @@ export const pokemonData = [
     name: "Bagon",
     Color: "Blue",
     generation: "3",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "EMBER",
       "LEER",
@@ -46288,7 +47958,7 @@ export const pokemonData = [
     name: "Shelgon",
     Color: "White",
     generation: "3",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "PROTECT",
       "EMBER",
@@ -46378,7 +48048,7 @@ export const pokemonData = [
     name: "Salamence",
     Color: "Blue",
     generation: "3",
-    types: ["Dragon", "Flying"],
+    types: ["DRAGON", "FLYING"],
     moves: [
       "FLY",
       "PROTECT",
@@ -46494,7 +48164,7 @@ export const pokemonData = [
     name: "Beldum",
     Color: "Blue",
     generation: "3",
-    types: ["Steel", "Psychic"],
+    types: ["STEEL", "PSYCHIC"],
     moves: ["TACKLE"],
     tutor_moves: [
       "HEADBUTT",
@@ -46513,7 +48183,7 @@ export const pokemonData = [
     name: "Metang",
     Color: "Blue",
     generation: "3",
-    types: ["Steel", "Psychic"],
+    types: ["STEEL", "PSYCHIC"],
     moves: [
       "CONFUSION",
       "METALCLAW",
@@ -46626,7 +48296,7 @@ export const pokemonData = [
     name: "Metagross",
     Color: "Blue",
     generation: "3",
-    types: ["Steel", "Psychic"],
+    types: ["STEEL", "PSYCHIC"],
     moves: [
       "HAMMERARM",
       "EXPLOSION",
@@ -46751,7 +48421,7 @@ export const pokemonData = [
     name: "Regirock",
     Color: "Brown",
     generation: "3",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "CHARGEBEAM",
       "ROCKTHROW",
@@ -46858,7 +48528,7 @@ export const pokemonData = [
     name: "Regice",
     Color: "Blue",
     generation: "3",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "CHARGEBEAM",
       "ICYWIND",
@@ -46961,7 +48631,7 @@ export const pokemonData = [
     name: "Registeel",
     Color: "Gray",
     generation: "3",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "CHARGEBEAM",
       "METALCLAW",
@@ -47072,7 +48742,7 @@ export const pokemonData = [
     name: "Latias",
     Color: "Red",
     generation: "3",
-    types: ["Dragon", "Psychic"],
+    types: ["DRAGON", "PSYCHIC"],
     moves: [
       "STOREDPOWER",
       "CHARM",
@@ -47208,7 +48878,7 @@ export const pokemonData = [
     name: "Latios",
     Color: "Blue",
     generation: "3",
-    types: ["Dragon", "Psychic"],
+    types: ["DRAGON", "PSYCHIC"],
     moves: [
       "STOREDPOWER",
       "DRAGONDANCE",
@@ -47338,7 +49008,7 @@ export const pokemonData = [
     name: "Kyogre",
     Color: "Blue",
     generation: "3",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "ORIGINPULSE",
       "WATERPULSE",
@@ -47427,7 +49097,7 @@ export const pokemonData = [
     name: "Groudon",
     Color: "Red",
     generation: "3",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "PRECIPICEBLADES",
       "MUDSHOT",
@@ -47551,7 +49221,7 @@ export const pokemonData = [
     name: "Rayquaza",
     Color: "Green",
     generation: "3",
-    types: ["Dragon", "Flying"],
+    types: ["DRAGON", "FLYING"],
     moves: [
       "DRAGONASCENT",
       "TWISTER",
@@ -47677,7 +49347,7 @@ export const pokemonData = [
     name: "Jirachi",
     Color: "Yellow",
     generation: "3",
-    types: ["Steel", "Psychic"],
+    types: ["STEEL", "PSYCHIC"],
     moves: [
       "CONFUSION",
       "WISH",
@@ -47801,7 +49471,7 @@ export const pokemonData = [
     name: "Deoxys",
     Color: "Red",
     generation: "3",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "LEER",
       "WRAP",
@@ -47931,7 +49601,7 @@ export const pokemonData = [
     name: "Turtwig",
     Color: "Green",
     generation: "4",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "WITHDRAW",
@@ -48041,7 +49711,7 @@ export const pokemonData = [
     name: "Grotle",
     Color: "Green",
     generation: "4",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "WITHDRAW",
@@ -48132,7 +49802,7 @@ export const pokemonData = [
     name: "Torterra",
     Color: "Green",
     generation: "4",
-    types: ["Grass", "Ground"],
+    types: ["GRASS", "GROUND"],
     moves: [
       "EARTHQUAKE",
       "WOODHAMMER",
@@ -48246,7 +49916,7 @@ export const pokemonData = [
     name: "Chimchar",
     Color: "Brown",
     generation: "4",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -48370,7 +50040,7 @@ export const pokemonData = [
     name: "Monferno",
     Color: "Brown",
     generation: "4",
-    types: ["Fire", "Fighting"],
+    types: ["FIRE", "FIGHTING"],
     moves: [
       "MACHPUNCH",
       "SCRATCH",
@@ -48489,7 +50159,7 @@ export const pokemonData = [
     name: "Infernape",
     Color: "Brown",
     generation: "4",
-    types: ["Fire", "Fighting"],
+    types: ["FIRE", "FIGHTING"],
     moves: [
       "CLOSECOMBAT",
       "TAUNT",
@@ -48627,7 +50297,7 @@ export const pokemonData = [
     name: "Piplup",
     Color: "Blue",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "GROWL",
@@ -48729,7 +50399,7 @@ export const pokemonData = [
     name: "Prinplup",
     Color: "Blue",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "METALCLAW",
       "TACKLE",
@@ -48824,7 +50494,7 @@ export const pokemonData = [
     name: "Empoleon",
     Color: "Blue",
     generation: "4",
-    types: ["Water", "Steel"],
+    types: ["WATER", "STEEL"],
     moves: [
       "AQUAJET",
       "METALCLAW",
@@ -48952,7 +50622,7 @@ export const pokemonData = [
     name: "Starly",
     Color: "Brown",
     generation: "4",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -49036,7 +50706,7 @@ export const pokemonData = [
     name: "Staravia",
     Color: "Brown",
     generation: "4",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -49112,7 +50782,7 @@ export const pokemonData = [
     name: "Staraptor",
     Color: "Brown",
     generation: "4",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "CLOSECOMBAT",
       "TACKLE",
@@ -49195,7 +50865,7 @@ export const pokemonData = [
     name: "Bidoof",
     Color: "Brown",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -49283,7 +50953,7 @@ export const pokemonData = [
     name: "Bibarel",
     Color: "Brown",
     generation: "4",
-    types: ["Normal", "Water"],
+    types: ["NORMAL", "WATER"],
     moves: [
       "WATERGUN",
       "AQUAJET",
@@ -49380,7 +51050,7 @@ export const pokemonData = [
     name: "Kricketot",
     Color: "Red",
     generation: "4",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["GROWL", "TACKLE", "STRUGGLEBUG", "BUGBITE"],
     tutor_moves: [
       "BUGBITE",
@@ -49400,7 +51070,7 @@ export const pokemonData = [
     name: "Kricketune",
     Color: "Red",
     generation: "4",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "FURYCUTTER",
       "GROWL",
@@ -49488,7 +51158,7 @@ export const pokemonData = [
     name: "Shinx",
     Color: "Blue",
     generation: "4",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "TACKLE",
       "LEER",
@@ -49590,7 +51260,7 @@ export const pokemonData = [
     name: "Luxio",
     Color: "Blue",
     generation: "4",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "TACKLE",
       "LEER",
@@ -49677,7 +51347,7 @@ export const pokemonData = [
     name: "Luxray",
     Color: "Blue",
     generation: "4",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "ELECTRICTERRAIN",
       "TACKLE",
@@ -49773,7 +51443,7 @@ export const pokemonData = [
     name: "Budew",
     Color: "Green",
     generation: "4",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: ["ABSORB", "GROWTH", "STUNSPORE", "WORRYSEED"],
     tutor_moves: [
       "ATTRACT",
@@ -49845,7 +51515,7 @@ export const pokemonData = [
     name: "Roserade",
     Color: "Green",
     generation: "4",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "GRASSYTERRAIN",
       "POISONSTING",
@@ -49937,7 +51607,7 @@ export const pokemonData = [
     name: "Cranidos",
     Color: "Blue",
     generation: "4",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "HEADBUTT",
       "LEER",
@@ -50045,7 +51715,7 @@ export const pokemonData = [
     name: "Rampardos",
     Color: "Blue",
     generation: "4",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "ENDEAVOR",
       "HEADBUTT",
@@ -50159,7 +51829,7 @@ export const pokemonData = [
     name: "Shieldon",
     Color: "Gray",
     generation: "4",
-    types: ["Rock", "Steel"],
+    types: ["ROCK", "STEEL"],
     moves: [
       "TACKLE",
       "PROTECT",
@@ -50266,7 +51936,7 @@ export const pokemonData = [
     name: "Bastiodon",
     Color: "Gray",
     generation: "4",
-    types: ["Rock", "Steel"],
+    types: ["ROCK", "STEEL"],
     moves: [
       "BLOCK",
       "WIDEGUARD",
@@ -50373,7 +52043,7 @@ export const pokemonData = [
     name: "Burmy",
     Color: "Green",
     generation: "4",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["PROTECT", "TACKLE", "BUGBITE", "STRINGSHOT"],
     tutor_moves: [
       "BUGBITE",
@@ -50391,7 +52061,7 @@ export const pokemonData = [
     name: "Wormadam",
     Color: "Green",
     generation: "4",
-    types: ["Bug", "Grass"],
+    types: ["BUG", "GRASS"],
     moves: [
       "QUIVERDANCE",
       "SUCKERPUNCH",
@@ -50475,7 +52145,7 @@ export const pokemonData = [
     name: "Mothim",
     Color: "Yellow",
     generation: "4",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "QUIVERDANCE",
       "TACKLE",
@@ -50559,7 +52229,7 @@ export const pokemonData = [
     name: "Combee",
     Color: "Yellow",
     generation: "4",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: ["SWEETSCENT", "GUST", "STRUGGLEBUG", "BUGBITE"],
     tutor_moves: [
       "BUGBITE",
@@ -50582,7 +52252,7 @@ export const pokemonData = [
     name: "Vespiquen",
     Color: "Yellow",
     generation: "4",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "SLASH",
       "STRUGGLEBUG",
@@ -50691,7 +52361,7 @@ export const pokemonData = [
     name: "Pachirisu",
     Color: "White",
     generation: "4",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "GROWL",
       "THUNDERSHOCK",
@@ -50803,7 +52473,7 @@ export const pokemonData = [
     name: "Buizel",
     Color: "Brown",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -50905,7 +52575,7 @@ export const pokemonData = [
     name: "Floatzel",
     Color: "Brown",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "ICEFANG",
       "CRUNCH",
@@ -51007,7 +52677,7 @@ export const pokemonData = [
     name: "Cherubi",
     Color: "Pink",
     generation: "4",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "MORNINGSUN",
       "TACKLE",
@@ -51086,7 +52756,7 @@ export const pokemonData = [
     name: "Cherrim",
     Color: "Purple",
     generation: "4",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "SUNNYDAY",
       "FLOWERSHIELD",
@@ -51159,7 +52829,7 @@ export const pokemonData = [
     name: "Shellos",
     Color: "Purple",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "MUDSLAP",
@@ -51254,7 +52924,7 @@ export const pokemonData = [
     name: "Gastrodon",
     Color: "Purple",
     generation: "4",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "WATERGUN",
       "MUDSLAP",
@@ -51349,7 +53019,7 @@ export const pokemonData = [
     name: "Ambipom",
     Color: "Purple",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SCRATCH",
       "SANDATTACK",
@@ -51469,7 +53139,7 @@ export const pokemonData = [
     name: "Drifloon",
     Color: "Purple",
     generation: "4",
-    types: ["Ghost", "Flying"],
+    types: ["GHOST", "FLYING"],
     moves: [
       "MINIMIZE",
       "ASTONISH",
@@ -51585,7 +53255,7 @@ export const pokemonData = [
     name: "Drifblim",
     Color: "Purple",
     generation: "4",
-    types: ["Ghost", "Flying"],
+    types: ["GHOST", "FLYING"],
     moves: [
       "PHANTOMFORCE",
       "STRENGTHSAP",
@@ -51697,7 +53367,7 @@ export const pokemonData = [
     name: "Buneary",
     Color: "Brown",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SPLASH",
       "POUND",
@@ -51813,7 +53483,7 @@ export const pokemonData = [
     name: "Lopunny",
     Color: "Brown",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "MIRRORCOAT",
       "MAGICCOAT",
@@ -51928,7 +53598,7 @@ export const pokemonData = [
     name: "Mismagius",
     Color: "Purple",
     generation: "4",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "MYSTICALFIRE",
       "POWERGEM",
@@ -52039,7 +53709,7 @@ export const pokemonData = [
     name: "Honchkrow",
     Color: "Black",
     generation: "4",
-    types: ["Dark", "Flying"],
+    types: ["DARK", "FLYING"],
     moves: [
       "NIGHTSLASH",
       "SUCKERPUNCH",
@@ -52143,7 +53813,7 @@ export const pokemonData = [
     name: "Glameow",
     Color: "Gray",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "FAKEOUT",
       "SCRATCH",
@@ -52234,7 +53904,7 @@ export const pokemonData = [
     name: "Purugly",
     Color: "Gray",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SWAGGER",
       "FAKEOUT",
@@ -52327,7 +53997,7 @@ export const pokemonData = [
     name: "Chingling",
     Color: "Yellow",
     generation: "4",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "WRAP",
       "GROWL",
@@ -52427,7 +54097,7 @@ export const pokemonData = [
     name: "Stunky",
     Color: "Purple",
     generation: "4",
-    types: ["Poison", "Dark"],
+    types: ["POISON", "DARK"],
     moves: [
       "POISONGAS",
       "SCRATCH",
@@ -52544,7 +54214,7 @@ export const pokemonData = [
     name: "Skuntank",
     Color: "Purple",
     generation: "4",
-    types: ["Poison", "Dark"],
+    types: ["POISON", "DARK"],
     moves: [
       "FLAMETHROWER",
       "POISONGAS",
@@ -52657,7 +54327,7 @@ export const pokemonData = [
     name: "Bronzor",
     Color: "Green",
     generation: "4",
-    types: ["Steel", "Psychic"],
+    types: ["STEEL", "PSYCHIC"],
     moves: [
       "TACKLE",
       "CONFUSION",
@@ -52761,7 +54431,7 @@ export const pokemonData = [
     name: "Bronzong",
     Color: "Green",
     generation: "4",
-    types: ["Steel", "Psychic"],
+    types: ["STEEL", "PSYCHIC"],
     moves: [
       "BLOCK",
       "SUNNYDAY",
@@ -52882,7 +54552,7 @@ export const pokemonData = [
     name: "Bonsly",
     Color: "Brown",
     generation: "4",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "FAKETEARS",
       "COPYCAT",
@@ -52980,7 +54650,7 @@ export const pokemonData = [
     name: "Mime Jr.",
     Color: "Pink",
     generation: "4",
-    types: ["Psychic", "Fairy"],
+    types: ["PSYCHIC", "FAIRY"],
     moves: [
       "POUND",
       "COPYCAT",
@@ -53097,7 +54767,7 @@ export const pokemonData = [
     name: "Happiny",
     Color: "Pink",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "POUND",
       "COPYCAT",
@@ -53181,7 +54851,7 @@ export const pokemonData = [
     name: "Chatot",
     Color: "Black",
     generation: "4",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "HYPERVOICE",
       "CHATTER",
@@ -53264,7 +54934,7 @@ export const pokemonData = [
     name: "Spiritomb",
     Color: "Purple",
     generation: "4",
-    types: ["Ghost", "Dark"],
+    types: ["GHOST", "DARK"],
     moves: [
       "NIGHTSHADE",
       "CONFUSERAY",
@@ -53374,7 +55044,7 @@ export const pokemonData = [
     name: "Gible",
     Color: "Blue",
     generation: "4",
-    types: ["Dragon", "Ground"],
+    types: ["DRAGON", "GROUND"],
     moves: [
       "SANDTOMB",
       "TACKLE",
@@ -53477,7 +55147,7 @@ export const pokemonData = [
     name: "Gabite",
     Color: "Blue",
     generation: "4",
-    types: ["Dragon", "Ground"],
+    types: ["DRAGON", "GROUND"],
     moves: [
       "SANDTOMB",
       "TACKLE",
@@ -53574,7 +55244,7 @@ export const pokemonData = [
     name: "Garchomp",
     Color: "Blue",
     generation: "4",
-    types: ["Dragon", "Ground"],
+    types: ["DRAGON", "GROUND"],
     moves: [
       "CRUNCH",
       "SANDTOMB",
@@ -53683,7 +55353,7 @@ export const pokemonData = [
     name: "Munchlax",
     Color: "Black",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "LICK",
       "TACKLE",
@@ -53810,7 +55480,7 @@ export const pokemonData = [
     name: "Riolu",
     Color: "Blue",
     generation: "4",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "QUICKATTACK",
       "ENDURE",
@@ -53930,7 +55600,7 @@ export const pokemonData = [
     name: "Lucario",
     Color: "Blue",
     generation: "4",
-    types: ["Fighting", "Steel"],
+    types: ["FIGHTING", "STEEL"],
     moves: [
       "AURASPHERE",
       "LIFEDEW",
@@ -54065,7 +55735,7 @@ export const pokemonData = [
     name: "Hippopotas",
     Color: "Brown",
     generation: "4",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "TACKLE",
       "SANDATTACK",
@@ -54158,7 +55828,7 @@ export const pokemonData = [
     name: "Hippowdon",
     Color: "Brown",
     generation: "4",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "ICEFANG",
       "FIREFANG",
@@ -54250,7 +55920,7 @@ export const pokemonData = [
     name: "Skorupi",
     Color: "Purple",
     generation: "4",
-    types: ["Poison", "Bug"],
+    types: ["POISON", "BUG"],
     moves: [
       "POISONSTING",
       "LEER",
@@ -54353,7 +56023,7 @@ export const pokemonData = [
     name: "Drapion",
     Color: "Purple",
     generation: "4",
-    types: ["Poison", "Dark"],
+    types: ["POISON", "DARK"],
     moves: [
       "THUNDERFANG",
       "ICEFANG",
@@ -54470,7 +56140,7 @@ export const pokemonData = [
     name: "Croagunk",
     Color: "Blue",
     generation: "4",
-    types: ["Poison", "Fighting"],
+    types: ["POISON", "FIGHTING"],
     moves: [
       "POISONSTING",
       "MUDSLAP",
@@ -54599,7 +56269,7 @@ export const pokemonData = [
     name: "Toxicroak",
     Color: "Blue",
     generation: "4",
-    types: ["Poison", "Fighting"],
+    types: ["POISON", "FIGHTING"],
     moves: [
       "POISONSTING",
       "MUDSLAP",
@@ -54727,7 +56397,7 @@ export const pokemonData = [
     name: "Carnivine",
     Color: "Green",
     generation: "4",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "BIND",
       "GROWTH",
@@ -54811,7 +56481,7 @@ export const pokemonData = [
     name: "Finneon",
     Color: "Blue",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "WATERGUN",
@@ -54906,7 +56576,7 @@ export const pokemonData = [
     name: "Lumineon",
     Color: "Blue",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SOAK",
       "GUST",
@@ -54994,7 +56664,7 @@ export const pokemonData = [
     name: "Mantyke",
     Color: "Blue",
     generation: "4",
-    types: ["Water", "Flying"],
+    types: ["WATER", "FLYING"],
     moves: [
       "TACKLE",
       "WATERGUN",
@@ -55079,7 +56749,7 @@ export const pokemonData = [
     name: "Snover",
     Color: "White",
     generation: "4",
-    types: ["Grass", "Ice"],
+    types: ["GRASS", "ICE"],
     moves: [
       "POWDERSNOW",
       "LEER",
@@ -55173,7 +56843,7 @@ export const pokemonData = [
     name: "Abomasnow",
     Color: "White",
     generation: "4",
-    types: ["Grass", "Ice"],
+    types: ["GRASS", "ICE"],
     moves: [
       "ICEPUNCH",
       "AURORAVEIL",
@@ -55281,7 +56951,7 @@ export const pokemonData = [
     name: "Weavile",
     Color: "Black",
     generation: "4",
-    types: ["Dark", "Ice"],
+    types: ["DARK", "ICE"],
     moves: [
       "ASSURANCE",
       "QUICKATTACK",
@@ -55411,7 +57081,7 @@ export const pokemonData = [
     name: "Magnezone",
     Color: "Gray",
     generation: "4",
-    types: ["Electric", "Steel"],
+    types: ["ELECTRIC", "STEEL"],
     moves: [
       "TRIATTACK",
       "ELECTRICTERRAIN",
@@ -55510,7 +57180,7 @@ export const pokemonData = [
     name: "Lickilicky",
     Color: "Pink",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "LICK",
       "DEFENSECURL",
@@ -55628,7 +57298,7 @@ export const pokemonData = [
     name: "Rhyperior",
     Color: "Gray",
     generation: "4",
-    types: ["Ground", "Rock"],
+    types: ["GROUND", "ROCK"],
     moves: [
       "HAMMERARM",
       "TACKLE",
@@ -55773,7 +57443,7 @@ export const pokemonData = [
     name: "Tangrowth",
     Color: "Blue",
     generation: "4",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "BLOCK",
       "ABSORB",
@@ -55874,7 +57544,7 @@ export const pokemonData = [
     name: "Electivire",
     Color: "Yellow",
     generation: "4",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -55991,7 +57661,7 @@ export const pokemonData = [
     name: "Magmortar",
     Color: "Red",
     generation: "4",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SMOG",
       "LEER",
@@ -56106,7 +57776,7 @@ export const pokemonData = [
     name: "Togekiss",
     Color: "White",
     generation: "4",
-    types: ["Fairy", "Flying"],
+    types: ["FAIRY", "FLYING"],
     moves: [
       "AIRSLASH",
       "FAIRYWIND",
@@ -56248,7 +57918,7 @@ export const pokemonData = [
     name: "Yanmega",
     Color: "Green",
     generation: "4",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "HYPNOSIS",
       "BUGBUZZ",
@@ -56340,7 +58010,7 @@ export const pokemonData = [
     name: "Leafeon",
     Color: "Green",
     generation: "4",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "RAZORLEAF",
       "COVET",
@@ -56454,7 +58124,7 @@ export const pokemonData = [
     name: "Glaceon",
     Color: "Blue",
     generation: "4",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "ICYWIND",
       "COVET",
@@ -56564,7 +58234,7 @@ export const pokemonData = [
     name: "Gliscor",
     Color: "Purple",
     generation: "4",
-    types: ["Ground", "Flying"],
+    types: ["GROUND", "FLYING"],
     moves: [
       "THUNDERFANG",
       "ICEFANG",
@@ -56686,7 +58356,7 @@ export const pokemonData = [
     name: "Mamoswine",
     Color: "Brown",
     generation: "4",
-    types: ["Ice", "Ground"],
+    types: ["ICE", "GROUND"],
     moves: [
       "DOUBLEHIT",
       "ICEFANG",
@@ -56790,7 +58460,7 @@ export const pokemonData = [
     name: "Porygon-Z",
     Color: "Red",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TRICKROOM",
       "NASTYPLOT",
@@ -56889,7 +58559,7 @@ export const pokemonData = [
     name: "Gallade",
     Color: "White",
     generation: "4",
-    types: ["Psychic", "Fighting"],
+    types: ["PSYCHIC", "FIGHTING"],
     moves: [
       "SLASH",
       "NIGHTSLASH",
@@ -57067,7 +58737,7 @@ export const pokemonData = [
     name: "Probopass",
     Color: "Gray",
     generation: "4",
-    types: ["Rock", "Steel"],
+    types: ["ROCK", "STEEL"],
     moves: [
       "TRIATTACK",
       "MAGNETICFLUX",
@@ -57179,7 +58849,7 @@ export const pokemonData = [
     name: "Dusknoir",
     Color: "Black",
     generation: "4",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "SHADOWPUNCH",
       "FIREPUNCH",
@@ -57305,7 +58975,7 @@ export const pokemonData = [
     name: "Froslass",
     Color: "White",
     generation: "4",
-    types: ["Ice", "Ghost"],
+    types: ["ICE", "GHOST"],
     moves: [
       "HEX",
       "DESTINYBOND",
@@ -57426,7 +59096,7 @@ export const pokemonData = [
     name: "Rotom",
     Color: "Red",
     generation: "4",
-    types: ["Electric", "Ghost"],
+    types: ["ELECTRIC", "GHOST"],
     moves: [
       "ASTONISH",
       "DOUBLETEAM",
@@ -57512,7 +59182,7 @@ export const pokemonData = [
     name: "Uxie",
     Color: "Yellow",
     generation: "4",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "TRIATTACK",
       "SNORE",
@@ -57640,7 +59310,7 @@ export const pokemonData = [
     name: "Mesprit",
     Color: "Pink",
     generation: "4",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "TRIATTACK",
       "SNORE",
@@ -57766,7 +59436,7 @@ export const pokemonData = [
     name: "Azelf",
     Color: "Blue",
     generation: "4",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "SELFDESTRUCT",
       "TRIATTACK",
@@ -57902,7 +59572,7 @@ export const pokemonData = [
     name: "Dialga",
     Color: "White",
     generation: "4",
-    types: ["Steel", "Dragon"],
+    types: ["STEEL", "DRAGON"],
     moves: [
       "SCARYFACE",
       "METALCLAW",
@@ -58013,7 +59683,7 @@ export const pokemonData = [
     name: "Palkia",
     Color: "Purple",
     generation: "4",
-    types: ["Water", "Dragon"],
+    types: ["WATER", "DRAGON"],
     moves: [
       "SCARYFACE",
       "WATERPULSE",
@@ -58129,7 +59799,7 @@ export const pokemonData = [
     name: "Heatran",
     Color: "Brown",
     generation: "4",
-    types: ["Fire", "Steel"],
+    types: ["FIRE", "STEEL"],
     moves: [
       "FIRESPIN",
       "LEER",
@@ -58234,7 +59904,7 @@ export const pokemonData = [
     name: "Regigigas",
     Color: "White",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "POUND",
       "CONFUSERAY",
@@ -58336,7 +60006,7 @@ export const pokemonData = [
     name: "Giratina",
     Color: "Black",
     generation: "4",
-    types: ["Ghost", "Dragon"],
+    types: ["GHOST", "DRAGON"],
     moves: [
       "SHADOWSNEAK",
       "DEFOG",
@@ -58447,7 +60117,7 @@ export const pokemonData = [
     name: "Cresselia",
     Color: "Yellow",
     generation: "4",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "CONFUSION",
       "DOUBLETEAM",
@@ -58546,7 +60216,7 @@ export const pokemonData = [
     name: "Phione",
     Color: "Blue",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "CHARM",
@@ -58625,7 +60295,7 @@ export const pokemonData = [
     name: "Manaphy",
     Color: "Blue",
     generation: "4",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "HEARTSWAP",
       "TAILGLOW",
@@ -58720,7 +60390,7 @@ export const pokemonData = [
     name: "Darkrai",
     Color: "Black",
     generation: "4",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "DISABLE",
       "QUICKATTACK",
@@ -58827,7 +60497,7 @@ export const pokemonData = [
     name: "Shaymin",
     Color: "Green",
     generation: "4",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "GROWTH",
       "MAGICALLEAF",
@@ -58910,7 +60580,7 @@ export const pokemonData = [
     name: "Arceus",
     Color: "White",
     generation: "4",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "SEISMICTOSS",
       "COSMICPOWER",
@@ -59092,7 +60762,7 @@ export const pokemonData = [
     name: "Victini",
     Color: "Yellow",
     generation: "5",
-    types: ["Psychic", "Fire"],
+    types: ["PSYCHIC", "FIRE"],
     moves: [
       "VCREATE",
       "QUICKATTACK",
@@ -59210,7 +60880,7 @@ export const pokemonData = [
     name: "Snivy",
     Color: "Green",
     generation: "5",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "LEER",
@@ -59309,7 +60979,7 @@ export const pokemonData = [
     name: "Servine",
     Color: "Green",
     generation: "5",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "LEER",
@@ -59395,7 +61065,7 @@ export const pokemonData = [
     name: "Serperior",
     Color: "Green",
     generation: "5",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "LEER",
@@ -59494,7 +61164,7 @@ export const pokemonData = [
     name: "Tepig",
     Color: "Red",
     generation: "5",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -59595,7 +61265,7 @@ export const pokemonData = [
     name: "Pignite",
     Color: "Red",
     generation: "5",
-    types: ["Fire", "Fighting"],
+    types: ["FIRE", "FIGHTING"],
     moves: [
       "ARMTHRUST",
       "TACKLE",
@@ -59704,7 +61374,7 @@ export const pokemonData = [
     name: "Emboar",
     Color: "Red",
     generation: "5",
-    types: ["Fire", "Fighting"],
+    types: ["FIRE", "FIGHTING"],
     moves: [
       "ENDURE",
       "HAMMERARM",
@@ -59824,7 +61494,7 @@ export const pokemonData = [
     name: "Oshawott",
     Color: "Blue",
     generation: "5",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -59923,7 +61593,7 @@ export const pokemonData = [
     name: "Dewott",
     Color: "Blue",
     generation: "5",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -60012,7 +61682,7 @@ export const pokemonData = [
     name: "Samurott",
     Color: "Blue",
     generation: "5",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SLASH",
       "MEGAHORN",
@@ -60115,7 +61785,7 @@ export const pokemonData = [
     name: "Patrat",
     Color: "Brown",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "LEER",
@@ -60200,7 +61870,7 @@ export const pokemonData = [
     name: "Watchog",
     Color: "Brown",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "CONFUSERAY",
       "ROTOTILLER",
@@ -60300,7 +61970,7 @@ export const pokemonData = [
     name: "Lillipup",
     Color: "Brown",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "LEER",
@@ -60378,7 +62048,7 @@ export const pokemonData = [
     name: "Herdier",
     Color: "Gray",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "LEER",
@@ -60458,7 +62128,7 @@ export const pokemonData = [
     name: "Stoutland",
     Color: "Gray",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "ICEFANG",
       "FIREFANG",
@@ -60546,7 +62216,7 @@ export const pokemonData = [
     name: "Purrloin",
     Color: "Purple",
     generation: "5",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -60640,7 +62310,7 @@ export const pokemonData = [
     name: "Liepard",
     Color: "Purple",
     generation: "5",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -60735,7 +62405,7 @@ export const pokemonData = [
     name: "Pansage",
     Color: "Green",
     generation: "5",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "SCRATCH",
       "PLAYNICE",
@@ -60834,7 +62504,7 @@ export const pokemonData = [
     name: "Simisage",
     Color: "Green",
     generation: "5",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: ["LEER", "LICK", "FURYSWIPES", "SEEDBOMB"],
     tutor_moves: [
       "ACROBATICS",
@@ -60911,7 +62581,7 @@ export const pokemonData = [
     name: "Pansear",
     Color: "Red",
     generation: "5",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "PLAYNICE",
@@ -61012,7 +62682,7 @@ export const pokemonData = [
     name: "Simisear",
     Color: "Red",
     generation: "5",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: ["LEER", "LICK", "FURYSWIPES", "FLAMEBURST"],
     tutor_moves: [
       "ACROBATICS",
@@ -61090,7 +62760,7 @@ export const pokemonData = [
     name: "Panpour",
     Color: "Blue",
     generation: "5",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SCRATCH",
       "PLAYNICE",
@@ -61191,7 +62861,7 @@ export const pokemonData = [
     name: "Simipour",
     Color: "Blue",
     generation: "5",
-    types: ["Water"],
+    types: ["WATER"],
     moves: ["LEER", "LICK", "FURYSWIPES", "SCALD"],
     tutor_moves: [
       "ACROBATICS",
@@ -61271,7 +62941,7 @@ export const pokemonData = [
     name: "Munna",
     Color: "Pink",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "STOREDPOWER",
       "DEFENSECURL",
@@ -61362,7 +63032,7 @@ export const pokemonData = [
     name: "Musharna",
     Color: "Pink",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "PSYCHICTERRAIN",
       "IMPRISON",
@@ -61458,7 +63128,7 @@ export const pokemonData = [
     name: "Pidove",
     Color: "Gray",
     generation: "5",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "GUST",
       "GROWL",
@@ -61525,7 +63195,7 @@ export const pokemonData = [
     name: "Tranquill",
     Color: "Gray",
     generation: "5",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "GUST",
       "GROWL",
@@ -61592,7 +63262,7 @@ export const pokemonData = [
     name: "Unfezant",
     Color: "Gray",
     generation: "5",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "GUST",
       "GROWL",
@@ -61664,7 +63334,7 @@ export const pokemonData = [
     name: "Blitzle",
     Color: "Black",
     generation: "5",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "QUICKATTACK",
       "TAILWHIP",
@@ -61755,7 +63425,7 @@ export const pokemonData = [
     name: "Zebstrika",
     Color: "Black",
     generation: "5",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "QUICKATTACK",
       "TAILWHIP",
@@ -61844,7 +63514,7 @@ export const pokemonData = [
     name: "Roggenrola",
     Color: "Blue",
     generation: "5",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "SANDATTACK",
       "TACKLE",
@@ -61913,7 +63583,7 @@ export const pokemonData = [
     name: "Boldore",
     Color: "Blue",
     generation: "5",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "POWERGEM",
       "SANDATTACK",
@@ -61985,7 +63655,7 @@ export const pokemonData = [
     name: "Gigalith",
     Color: "Blue",
     generation: "5",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "POWERGEM",
       "SANDATTACK",
@@ -62066,7 +63736,7 @@ export const pokemonData = [
     name: "Woobat",
     Color: "Blue",
     generation: "5",
-    types: ["Psychic", "Flying"],
+    types: ["PSYCHIC", "FLYING"],
     moves: [
       "GUST",
       "ATTRACT",
@@ -62173,7 +63843,7 @@ export const pokemonData = [
     name: "Swoobat",
     Color: "Blue",
     generation: "5",
-    types: ["Psychic", "Flying"],
+    types: ["PSYCHIC", "FLYING"],
     moves: [
       "GUST",
       "ATTRACT",
@@ -62285,7 +63955,7 @@ export const pokemonData = [
     name: "Drilbur",
     Color: "Gray",
     generation: "5",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "MUDSLAP",
       "RAPIDSPIN",
@@ -62366,7 +64036,7 @@ export const pokemonData = [
     name: "Excadrill",
     Color: "Gray",
     generation: "5",
-    types: ["Ground", "Steel"],
+    types: ["GROUND", "STEEL"],
     moves: [
       "HORNDRILL",
       "MUDSLAP",
@@ -62460,7 +64130,7 @@ export const pokemonData = [
     name: "Audino",
     Color: "Pink",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "POUND",
       "PLAYNICE",
@@ -62581,7 +64251,7 @@ export const pokemonData = [
     name: "Timburr",
     Color: "Gray",
     generation: "5",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "POUND",
       "LEER",
@@ -62679,7 +64349,7 @@ export const pokemonData = [
     name: "Gurdurr",
     Color: "Gray",
     generation: "5",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "POUND",
       "LEER",
@@ -62771,7 +64441,7 @@ export const pokemonData = [
     name: "Conkeldurr",
     Color: "Brown",
     generation: "5",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "POUND",
       "LEER",
@@ -62872,7 +64542,7 @@ export const pokemonData = [
     name: "Tympole",
     Color: "Blue",
     generation: "5",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "ECHOEDVOICE",
       "GROWL",
@@ -62941,7 +64611,7 @@ export const pokemonData = [
     name: "Palpitoad",
     Color: "Blue",
     generation: "5",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "ECHOEDVOICE",
       "GROWL",
@@ -63016,7 +64686,7 @@ export const pokemonData = [
     name: "Seismitoad",
     Color: "Blue",
     generation: "5",
-    types: ["Water", "Ground"],
+    types: ["WATER", "GROUND"],
     moves: [
       "DRAINPUNCH",
       "GASTROACID",
@@ -63117,7 +64787,7 @@ export const pokemonData = [
     name: "Throh",
     Color: "Red",
     generation: "5",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "BIND",
       "LEER",
@@ -63208,7 +64878,7 @@ export const pokemonData = [
     name: "Sawk",
     Color: "Blue",
     generation: "5",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "ROCKSMASH",
       "LEER",
@@ -63299,7 +64969,7 @@ export const pokemonData = [
     name: "Sewaddle",
     Color: "Yellow",
     generation: "5",
-    types: ["Bug", "Grass"],
+    types: ["BUG", "GRASS"],
     moves: [
       "TACKLE",
       "STRINGSHOT",
@@ -63388,7 +65058,7 @@ export const pokemonData = [
     name: "Swadloon",
     Color: "Green",
     generation: "5",
-    types: ["Bug", "Grass"],
+    types: ["BUG", "GRASS"],
     moves: [
       "PROTECT",
       "TACKLE",
@@ -63464,7 +65134,7 @@ export const pokemonData = [
     name: "Leavanny",
     Color: "Yellow",
     generation: "5",
-    types: ["Bug", "Grass"],
+    types: ["BUG", "GRASS"],
     moves: [
       "SLASH",
       "BUGBITE",
@@ -63568,7 +65238,7 @@ export const pokemonData = [
     name: "Venipede",
     Color: "Red",
     generation: "5",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "POISONSTING",
       "DEFENSECURL",
@@ -63637,7 +65307,7 @@ export const pokemonData = [
     name: "Whirlipede",
     Color: "Gray",
     generation: "5",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "IRONDEFENSE",
       "POISONSTING",
@@ -63707,7 +65377,7 @@ export const pokemonData = [
     name: "Scolipede",
     Color: "Red",
     generation: "5",
-    types: ["Bug", "Poison"],
+    types: ["BUG", "POISON"],
     moves: [
       "IRONDEFENSE",
       "BATONPASS",
@@ -63801,7 +65471,7 @@ export const pokemonData = [
     name: "Cottonee",
     Color: "Green",
     generation: "5",
-    types: ["Grass", "Fairy"],
+    types: ["GRASS", "FAIRY"],
     moves: [
       "ABSORB",
       "HELPINGHAND",
@@ -63883,7 +65553,7 @@ export const pokemonData = [
     name: "Whimsicott",
     Color: "Green",
     generation: "5",
-    types: ["Grass", "Fairy"],
+    types: ["GRASS", "FAIRY"],
     moves: [
       "GUST",
       "TAILWIND",
@@ -63975,7 +65645,7 @@ export const pokemonData = [
     name: "Petilil",
     Color: "Green",
     generation: "5",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "ABSORB",
       "GROWTH",
@@ -64050,7 +65720,7 @@ export const pokemonData = [
     name: "Lilligant",
     Color: "Green",
     generation: "5",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "PETALDANCE",
       "PETALBLIZZARD",
@@ -64141,7 +65811,7 @@ export const pokemonData = [
     name: "Basculin",
     Color: "Green",
     generation: "5",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "TAILWHIP",
@@ -64229,7 +65899,7 @@ export const pokemonData = [
     name: "Sandile",
     Color: "Brown",
     generation: "5",
-    types: ["Ground", "Dark"],
+    types: ["GROUND", "DARK"],
     moves: [
       "POWERTRIP",
       "LEER",
@@ -64327,7 +65997,7 @@ export const pokemonData = [
     name: "Krokorok",
     Color: "Brown",
     generation: "5",
-    types: ["Ground", "Dark"],
+    types: ["GROUND", "DARK"],
     moves: [
       "POWERTRIP",
       "LEER",
@@ -64442,7 +66112,7 @@ export const pokemonData = [
     name: "Krookodile",
     Color: "Red",
     generation: "5",
-    types: ["Ground", "Dark"],
+    types: ["GROUND", "DARK"],
     moves: [
       "POWERTRIP",
       "LEER",
@@ -64572,7 +66242,7 @@ export const pokemonData = [
     name: "Darumaka",
     Color: "Red",
     generation: "5",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "EMBER",
       "TACKLE",
@@ -64664,7 +66334,7 @@ export const pokemonData = [
     name: "Darmanitan",
     Color: "Red",
     generation: "5",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "HAMMERARM",
       "EMBER",
@@ -64775,7 +66445,7 @@ export const pokemonData = [
     name: "Maractus",
     Color: "Green",
     generation: "5",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "SPIKYSHIELD",
       "PECK",
@@ -64859,7 +66529,7 @@ export const pokemonData = [
     name: "Dwebble",
     Color: "Red",
     generation: "5",
-    types: ["Bug", "Rock"],
+    types: ["BUG", "ROCK"],
     moves: [
       "FURYCUTTER",
       "SANDATTACK",
@@ -64943,7 +66613,7 @@ export const pokemonData = [
     name: "Crustle",
     Color: "Red",
     generation: "5",
-    types: ["Bug", "Rock"],
+    types: ["BUG", "ROCK"],
     moves: [
       "FURYCUTTER",
       "SANDATTACK",
@@ -65027,7 +66697,7 @@ export const pokemonData = [
     name: "Scraggy",
     Color: "Yellow",
     generation: "5",
-    types: ["Dark", "Fighting"],
+    types: ["DARK", "FIGHTING"],
     moves: [
       "LOWKICK",
       "LEER",
@@ -65152,7 +66822,7 @@ export const pokemonData = [
     name: "Scrafty",
     Color: "Red",
     generation: "5",
-    types: ["Dark", "Fighting"],
+    types: ["DARK", "FIGHTING"],
     moves: [
       "LOWKICK",
       "LEER",
@@ -65278,7 +66948,7 @@ export const pokemonData = [
     name: "Sigilyph",
     Color: "Black",
     generation: "5",
-    types: ["Psychic", "Flying"],
+    types: ["PSYCHIC", "FLYING"],
     moves: [
       "GUST",
       "CONFUSION",
@@ -65380,7 +67050,7 @@ export const pokemonData = [
     name: "Yamask",
     Color: "Black",
     generation: "5",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "ASTONISH",
       "PROTECT",
@@ -65467,7 +67137,7 @@ export const pokemonData = [
     name: "Cofagrigus",
     Color: "Yellow",
     generation: "5",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "SHADOWCLAW",
       "SCARYFACE",
@@ -65566,7 +67236,7 @@ export const pokemonData = [
     name: "Tirtouga",
     Color: "Blue",
     generation: "5",
-    types: ["Water", "Rock"],
+    types: ["WATER", "ROCK"],
     moves: [
       "WATERGUN",
       "WITHDRAW",
@@ -65662,7 +67332,7 @@ export const pokemonData = [
     name: "Carracosta",
     Color: "Blue",
     generation: "5",
-    types: ["Water", "Rock"],
+    types: ["WATER", "ROCK"],
     moves: [
       "WATERGUN",
       "WITHDRAW",
@@ -65758,7 +67428,7 @@ export const pokemonData = [
     name: "Archen",
     Color: "Yellow",
     generation: "5",
-    types: ["Rock", "Flying"],
+    types: ["ROCK", "FLYING"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -65862,7 +67532,7 @@ export const pokemonData = [
     name: "Archeops",
     Color: "Yellow",
     generation: "5",
-    types: ["Rock", "Flying"],
+    types: ["ROCK", "FLYING"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -65967,7 +67637,7 @@ export const pokemonData = [
     name: "Trubbish",
     Color: "Green",
     generation: "5",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "POUND",
       "POISONGAS",
@@ -66041,7 +67711,7 @@ export const pokemonData = [
     name: "Garbodor",
     Color: "Green",
     generation: "5",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "TAKEDOWN",
       "METALCLAW",
@@ -66131,7 +67801,7 @@ export const pokemonData = [
     name: "Zorua",
     Color: "Gray",
     generation: "5",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -66235,7 +67905,7 @@ export const pokemonData = [
     name: "Zoroark",
     Color: "Gray",
     generation: "5",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "NIGHTSLASH",
       "UTURN",
@@ -66350,7 +68020,7 @@ export const pokemonData = [
     name: "Minccino",
     Color: "Gray",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "POUND",
       "BABYDOLLEYES",
@@ -66440,7 +68110,7 @@ export const pokemonData = [
     name: "Cinccino",
     Color: "Gray",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TAILSLAP",
       "SLAM",
@@ -66541,7 +68211,7 @@ export const pokemonData = [
     name: "Gothita",
     Color: "Purple",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "POUND",
       "CONFUSION",
@@ -66642,7 +68312,7 @@ export const pokemonData = [
     name: "Gothorita",
     Color: "Purple",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "POUND",
       "CONFUSION",
@@ -66743,7 +68413,7 @@ export const pokemonData = [
     name: "Gothitelle",
     Color: "Purple",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "POUND",
       "CONFUSION",
@@ -66854,7 +68524,7 @@ export const pokemonData = [
     name: "Solosis",
     Color: "Green",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "CONFUSION",
       "PROTECT",
@@ -66956,7 +68626,7 @@ export const pokemonData = [
     name: "Duosion",
     Color: "Green",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "CONFUSION",
       "RECOVER",
@@ -67058,7 +68728,7 @@ export const pokemonData = [
     name: "Reuniclus",
     Color: "Green",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "HAMMERARM",
       "CONFUSION",
@@ -67180,7 +68850,7 @@ export const pokemonData = [
     name: "Ducklett",
     Color: "Blue",
     generation: "5",
-    types: ["Water", "Flying"],
+    types: ["WATER", "FLYING"],
     moves: [
       "WATERGUN",
       "DEFOG",
@@ -67266,7 +68936,7 @@ export const pokemonData = [
     name: "Swanna",
     Color: "White",
     generation: "5",
-    types: ["Water", "Flying"],
+    types: ["WATER", "FLYING"],
     moves: [
       "WINGATTACK",
       "WATERGUN",
@@ -67349,7 +69019,7 @@ export const pokemonData = [
     name: "Vanillite",
     Color: "White",
     generation: "5",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "ASTONISH",
       "HARDEN",
@@ -67426,7 +69096,7 @@ export const pokemonData = [
     name: "Vanillish",
     Color: "White",
     generation: "5",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "ASTONISH",
       "HARDEN",
@@ -67496,7 +69166,7 @@ export const pokemonData = [
     name: "Vanilluxe",
     Color: "White",
     generation: "5",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "WEATHERBALL",
       "ICICLECRASH",
@@ -67573,7 +69243,7 @@ export const pokemonData = [
     name: "Deerling",
     Color: "Pink",
     generation: "5",
-    types: ["Normal", "Grass"],
+    types: ["NORMAL", "GRASS"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -67669,7 +69339,7 @@ export const pokemonData = [
     name: "Sawsbuck",
     Color: "Brown",
     generation: "5",
-    types: ["Normal", "Grass"],
+    types: ["NORMAL", "GRASS"],
     moves: [
       "HORNLEECH",
       "MEGAHORN",
@@ -67767,7 +69437,7 @@ export const pokemonData = [
     name: "Emolga",
     Color: "White",
     generation: "5",
-    types: ["Electric", "Flying"],
+    types: ["ELECTRIC", "FLYING"],
     moves: [
       "NUZZLE",
       "TAILWHIP",
@@ -67852,7 +69522,7 @@ export const pokemonData = [
     name: "Karrablast",
     Color: "Blue",
     generation: "5",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "PECK",
       "LEER",
@@ -67920,7 +69590,7 @@ export const pokemonData = [
     name: "Escavalier",
     Color: "Gray",
     generation: "5",
-    types: ["Bug", "Steel"],
+    types: ["BUG", "STEEL"],
     moves: [
       "FELLSTINGER",
       "ENDURE",
@@ -68010,7 +69680,7 @@ export const pokemonData = [
     name: "Foongus",
     Color: "White",
     generation: "5",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "ABSORB",
       "ASTONISH",
@@ -68081,7 +69751,7 @@ export const pokemonData = [
     name: "Amoonguss",
     Color: "White",
     generation: "5",
-    types: ["Grass", "Poison"],
+    types: ["GRASS", "POISON"],
     moves: [
       "ABSORB",
       "ASTONISH",
@@ -68157,7 +69827,7 @@ export const pokemonData = [
     name: "Frillish",
     Color: "White",
     generation: "5",
-    types: ["Water", "Ghost"],
+    types: ["WATER", "GHOST"],
     moves: [
       "ABSORB",
       "WATERGUN",
@@ -68248,7 +69918,7 @@ export const pokemonData = [
     name: "Jellicent",
     Color: "White",
     generation: "5",
-    types: ["Water", "Ghost"],
+    types: ["WATER", "GHOST"],
     moves: [
       "ACIDARMOR",
       "ABSORB",
@@ -68336,7 +70006,7 @@ export const pokemonData = [
     name: "Alomomola",
     Color: "Pink",
     generation: "5",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "PLAYNICE",
       "POUND",
@@ -68429,7 +70099,7 @@ export const pokemonData = [
     name: "Joltik",
     Color: "Yellow",
     generation: "5",
-    types: ["Bug", "Electric"],
+    types: ["BUG", "ELECTRIC"],
     moves: [
       "ABSORB",
       "FURYCUTTER",
@@ -68520,7 +70190,7 @@ export const pokemonData = [
     name: "Galvantula",
     Color: "Yellow",
     generation: "5",
-    types: ["Bug", "Electric"],
+    types: ["BUG", "ELECTRIC"],
     moves: [
       "STICKYWEB",
       "ABSORB",
@@ -68610,7 +70280,7 @@ export const pokemonData = [
     name: "Ferroseed",
     Color: "Gray",
     generation: "5",
-    types: ["Grass", "Steel"],
+    types: ["GRASS", "STEEL"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -68688,7 +70358,7 @@ export const pokemonData = [
     name: "Ferrothorn",
     Color: "Gray",
     generation: "5",
-    types: ["Grass", "Steel"],
+    types: ["GRASS", "STEEL"],
     moves: [
       "POWERWHIP",
       "TACKLE",
@@ -68783,7 +70453,7 @@ export const pokemonData = [
     name: "Klink",
     Color: "Gray",
     generation: "5",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "THUNDERSHOCK",
       "VISEGRIP",
@@ -68854,7 +70524,7 @@ export const pokemonData = [
     name: "Klang",
     Color: "Gray",
     generation: "5",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "THUNDERSHOCK",
       "VISEGRIP",
@@ -68926,7 +70596,7 @@ export const pokemonData = [
     name: "Klinklang",
     Color: "Gray",
     generation: "5",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "GEARUP",
       "MAGNETICFLUX",
@@ -69005,7 +70675,7 @@ export const pokemonData = [
     name: "Tynamo",
     Color: "White",
     generation: "5",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: ["TACKLE", "THUNDERWAVE", "SPARK", "CHARGEBEAM"],
     tutor_moves: [
       "CHARGE",
@@ -69023,7 +70693,7 @@ export const pokemonData = [
     name: "Eelektrik",
     Color: "Blue",
     generation: "5",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "CRUNCH",
       "HEADBUTT",
@@ -69107,7 +70777,7 @@ export const pokemonData = [
     name: "Eelektross",
     Color: "Blue",
     generation: "5",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "CRUNCH",
       "THRASH",
@@ -69220,7 +70890,7 @@ export const pokemonData = [
     name: "Elgyem",
     Color: "Blue",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "CONFUSION",
       "GROWL",
@@ -69315,7 +70985,7 @@ export const pokemonData = [
     name: "Beheeyem",
     Color: "Brown",
     generation: "5",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "PSYCHICTERRAIN",
       "CONFUSION",
@@ -69417,7 +71087,7 @@ export const pokemonData = [
     name: "Litwick",
     Color: "White",
     generation: "5",
-    types: ["Ghost", "Fire"],
+    types: ["GHOST", "FIRE"],
     moves: [
       "ASTONISH",
       "SMOG",
@@ -69508,7 +71178,7 @@ export const pokemonData = [
     name: "Lampent",
     Color: "Black",
     generation: "5",
-    types: ["Ghost", "Fire"],
+    types: ["GHOST", "FIRE"],
     moves: [
       "ASTONISH",
       "SMOG",
@@ -69600,7 +71270,7 @@ export const pokemonData = [
     name: "Chandelure",
     Color: "Black",
     generation: "5",
-    types: ["Ghost", "Fire"],
+    types: ["GHOST", "FIRE"],
     moves: [
       "CONFUSERAY",
       "HEX",
@@ -69696,7 +71366,7 @@ export const pokemonData = [
     name: "Axew",
     Color: "Green",
     generation: "5",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -69805,7 +71475,7 @@ export const pokemonData = [
     name: "Fraxure",
     Color: "Green",
     generation: "5",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -69907,7 +71577,7 @@ export const pokemonData = [
     name: "Haxorus",
     Color: "Yellow",
     generation: "5",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -70020,7 +71690,7 @@ export const pokemonData = [
     name: "Cubchoo",
     Color: "White",
     generation: "5",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "POWDERSNOW",
       "GROWL",
@@ -70123,7 +71793,7 @@ export const pokemonData = [
     name: "Beartic",
     Color: "White",
     generation: "5",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "ICICLECRASH",
       "AQUAJET",
@@ -70247,7 +71917,7 @@ export const pokemonData = [
     name: "Cryogonal",
     Color: "Blue",
     generation: "5",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "BIND",
       "ICESHARD",
@@ -70332,7 +72002,7 @@ export const pokemonData = [
     name: "Shelmet",
     Color: "Red",
     generation: "5",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "ABSORB",
       "PROTECT",
@@ -70399,7 +72069,7 @@ export const pokemonData = [
     name: "Accelgor",
     Color: "Red",
     generation: "5",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "WATERSHURIKEN",
       "ACID",
@@ -70487,7 +72157,7 @@ export const pokemonData = [
     name: "Stunfisk",
     Color: "Brown",
     generation: "5",
-    types: ["Ground", "Electric"],
+    types: ["GROUND", "ELECTRIC"],
     moves: [
       "MUDSLAP",
       "TACKLE",
@@ -70581,7 +72251,7 @@ export const pokemonData = [
     name: "Mienfoo",
     Color: "Yellow",
     generation: "5",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "POUND",
       "DETECT",
@@ -70676,7 +72346,7 @@ export const pokemonData = [
     name: "Mienshao",
     Color: "Purple",
     generation: "5",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "QUICKGUARD",
       "POUND",
@@ -70782,7 +72452,7 @@ export const pokemonData = [
     name: "Druddigon",
     Color: "Red",
     generation: "5",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -70887,7 +72557,7 @@ export const pokemonData = [
     name: "Golett",
     Color: "Green",
     generation: "5",
-    types: ["Ground", "Ghost"],
+    types: ["GROUND", "GHOST"],
     moves: [
       "MUDSLAP",
       "ASTONISH",
@@ -70998,7 +72668,7 @@ export const pokemonData = [
     name: "Golurk",
     Color: "Green",
     generation: "5",
-    types: ["Ground", "Ghost"],
+    types: ["GROUND", "GHOST"],
     moves: [
       "MUDSLAP",
       "FOCUSPUNCH",
@@ -71127,7 +72797,7 @@ export const pokemonData = [
     name: "Pawniard",
     Color: "Red",
     generation: "5",
-    types: ["Dark", "Steel"],
+    types: ["DARK", "STEEL"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -71227,7 +72897,7 @@ export const pokemonData = [
     name: "Bisharp",
     Color: "Red",
     generation: "5",
-    types: ["Dark", "Steel"],
+    types: ["DARK", "STEEL"],
     moves: [
       "METALBURST",
       "SCRATCH",
@@ -71334,7 +73004,7 @@ export const pokemonData = [
     name: "Bouffalant",
     Color: "Brown",
     generation: "5",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "LEER",
@@ -71429,7 +73099,7 @@ export const pokemonData = [
     name: "Rufflet",
     Color: "White",
     generation: "5",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "LEER",
@@ -71516,7 +73186,7 @@ export const pokemonData = [
     name: "Braviary",
     Color: "Red",
     generation: "5",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "SUPERPOWER",
       "SKYATTACK",
@@ -71611,7 +73281,7 @@ export const pokemonData = [
     name: "Vullaby",
     Color: "Brown",
     generation: "5",
-    types: ["Dark", "Flying"],
+    types: ["DARK", "FLYING"],
     moves: [
       "GUST",
       "LEER",
@@ -71704,7 +73374,7 @@ export const pokemonData = [
     name: "Mandibuzz",
     Color: "Brown",
     generation: "5",
-    types: ["Dark", "Flying"],
+    types: ["DARK", "FLYING"],
     moves: [
       "BONERUSH",
       "GUST",
@@ -71807,7 +73477,7 @@ export const pokemonData = [
     name: "Heatmor",
     Color: "Red",
     generation: "5",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "LICK",
       "TACKLE",
@@ -71900,7 +73570,7 @@ export const pokemonData = [
     name: "Durant",
     Color: "Gray",
     generation: "5",
-    types: ["Bug", "Steel"],
+    types: ["BUG", "STEEL"],
     moves: [
       "FURYCUTTER",
       "SANDATTACK",
@@ -71989,7 +73659,7 @@ export const pokemonData = [
     name: "Deino",
     Color: "Blue",
     generation: "5",
-    types: ["Dark", "Dragon"],
+    types: ["DARK", "DRAGON"],
     moves: [
       "TACKLE",
       "FOCUSENERGY",
@@ -72076,7 +73746,7 @@ export const pokemonData = [
     name: "Zweilous",
     Color: "Blue",
     generation: "5",
-    types: ["Dark", "Dragon"],
+    types: ["DARK", "DRAGON"],
     moves: [
       "DOUBLEHIT",
       "TACKLE",
@@ -72168,7 +73838,7 @@ export const pokemonData = [
     name: "Hydreigon",
     Color: "Blue",
     generation: "5",
-    types: ["Dark", "Dragon"],
+    types: ["DARK", "DRAGON"],
     moves: [
       "TRIATTACK",
       "DOUBLEHIT",
@@ -72297,7 +73967,7 @@ export const pokemonData = [
     name: "Larvesta",
     Color: "White",
     generation: "5",
-    types: ["Bug", "Fire"],
+    types: ["BUG", "FIRE"],
     moves: [
       "EMBER",
       "STRINGSHOT",
@@ -72378,7 +74048,7 @@ export const pokemonData = [
     name: "Volcarona",
     Color: "White",
     generation: "5",
-    types: ["Bug", "Fire"],
+    types: ["BUG", "FIRE"],
     moves: [
       "QUIVERDANCE",
       "FIERYDANCE",
@@ -72481,7 +74151,7 @@ export const pokemonData = [
     name: "Cobalion",
     Color: "Blue",
     generation: "5",
-    types: ["Steel", "Fighting"],
+    types: ["STEEL", "FIGHTING"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -72585,7 +74255,7 @@ export const pokemonData = [
     name: "Terrakion",
     Color: "Gray",
     generation: "5",
-    types: ["Rock", "Fighting"],
+    types: ["ROCK", "FIGHTING"],
     moves: [
       "QUICKATTACK",
       "LEER",
@@ -72683,7 +74353,7 @@ export const pokemonData = [
     name: "Virizion",
     Color: "Green",
     generation: "5",
-    types: ["Grass", "Fighting"],
+    types: ["GRASS", "FIGHTING"],
     moves: [
       "TAKEDOWN",
       "QUICKATTACK",
@@ -72788,7 +74458,7 @@ export const pokemonData = [
     name: "Tornadus",
     Color: "Green",
     generation: "5",
-    types: ["Flying"],
+    types: ["FLYING"],
     moves: [
       "ASTONISH",
       "GUST",
@@ -72894,7 +74564,7 @@ export const pokemonData = [
     name: "Thundurus",
     Color: "Blue",
     generation: "5",
-    types: ["Electric", "Flying"],
+    types: ["ELECTRIC", "FLYING"],
     moves: [
       "ASTONISH",
       "THUNDERSHOCK",
@@ -73007,7 +74677,7 @@ export const pokemonData = [
     name: "Reshiram",
     Color: "White",
     generation: "5",
-    types: ["Dragon", "Fire"],
+    types: ["DRAGON", "FIRE"],
     moves: [
       "DRAGONBREATH",
       "NOBLEROAR",
@@ -73119,7 +74789,7 @@ export const pokemonData = [
     name: "Zekrom",
     Color: "Black",
     generation: "5",
-    types: ["Dragon", "Electric"],
+    types: ["DRAGON", "ELECTRIC"],
     moves: [
       "DRAGONBREATH",
       "NOBLEROAR",
@@ -73239,7 +74909,7 @@ export const pokemonData = [
     name: "Landorus",
     Color: "Brown",
     generation: "5",
-    types: ["Ground", "Flying"],
+    types: ["GROUND", "FLYING"],
     moves: [
       "SANDTOMB",
       "SMACKDOWN",
@@ -73342,7 +75012,7 @@ export const pokemonData = [
     name: "Kyurem",
     Color: "Gray",
     generation: "5",
-    types: ["Dragon", "Ice"],
+    types: ["DRAGON", "ICE"],
     moves: [
       "DRAGONBREATH",
       "NOBLEROAR",
@@ -73449,7 +75119,7 @@ export const pokemonData = [
     name: "Keldeo",
     Color: "Yellow",
     generation: "5",
-    types: ["Water", "Fighting"],
+    types: ["WATER", "FIGHTING"],
     moves: [
       "AQUAJET",
       "LEER",
@@ -73550,7 +75220,7 @@ export const pokemonData = [
     name: "Meloetta",
     Color: "White",
     generation: "5",
-    types: ["Normal", "Psychic"],
+    types: ["NORMAL", "PSYCHIC"],
     moves: [
       "ROUND",
       "QUICKATTACK",
@@ -73676,7 +75346,7 @@ export const pokemonData = [
     name: "Genesect",
     Color: "Purple",
     generation: "5",
-    types: ["Bug", "Steel"],
+    types: ["BUG", "STEEL"],
     moves: [
       "FURYCUTTER",
       "QUICKATTACK",
@@ -73775,7 +75445,7 @@ export const pokemonData = [
     name: "Chespin",
     Color: "Green",
     generation: "6",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "GROWL",
       "VINEWHIP",
@@ -73888,7 +75558,7 @@ export const pokemonData = [
     name: "Quilladin",
     Color: "Green",
     generation: "6",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "GROWL",
       "VINEWHIP",
@@ -73998,7 +75668,7 @@ export const pokemonData = [
     name: "Chesnaught",
     Color: "Green",
     generation: "6",
-    types: ["Grass", "Fighting"],
+    types: ["GRASS", "FIGHTING"],
     moves: [
       "SPIKYSHIELD",
       "HAMMERARM",
@@ -74132,7 +75802,7 @@ export const pokemonData = [
     name: "Fennekin",
     Color: "Red",
     generation: "6",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "TAILWHIP",
@@ -74234,7 +75904,7 @@ export const pokemonData = [
     name: "Braixen",
     Color: "Red",
     generation: "6",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "TAILWHIP",
@@ -74340,7 +76010,7 @@ export const pokemonData = [
     name: "Delphox",
     Color: "Red",
     generation: "6",
-    types: ["Fire", "Psychic"],
+    types: ["FIRE", "PSYCHIC"],
     moves: [
       "MYSTICALFIRE",
       "FUTURESIGHT",
@@ -74471,7 +76141,7 @@ export const pokemonData = [
     name: "Froakie",
     Color: "Blue",
     generation: "6",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "GROWL",
@@ -74573,7 +76243,7 @@ export const pokemonData = [
     name: "Frogadier",
     Color: "Blue",
     generation: "6",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "GROWL",
@@ -74667,7 +76337,7 @@ export const pokemonData = [
     name: "Greninja",
     Color: "Blue",
     generation: "6",
-    types: ["Water", "Dark"],
+    types: ["WATER", "DARK"],
     moves: [
       "WATERSHURIKEN",
       "NIGHTSLASH",
@@ -74776,7 +76446,7 @@ export const pokemonData = [
     name: "Bunnelby",
     Color: "Brown",
     generation: "6",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "MUDSLAP",
       "LEER",
@@ -74860,7 +76530,7 @@ export const pokemonData = [
     name: "Diggersby",
     Color: "Brown",
     generation: "6",
-    types: ["Normal", "Ground"],
+    types: ["NORMAL", "GROUND"],
     moves: [
       "MUDSLAP",
       "LEER",
@@ -74968,7 +76638,7 @@ export const pokemonData = [
     name: "Fletchling",
     Color: "Red",
     generation: "6",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "GROWL",
@@ -75042,7 +76712,7 @@ export const pokemonData = [
     name: "Fletchinder",
     Color: "Red",
     generation: "6",
-    types: ["Fire", "Flying"],
+    types: ["FIRE", "FLYING"],
     moves: [
       "FLAMECHARGE",
       "FEINT",
@@ -75124,7 +76794,7 @@ export const pokemonData = [
     name: "Talonflame",
     Color: "Red",
     generation: "6",
-    types: ["Fire", "Flying"],
+    types: ["FIRE", "FLYING"],
     moves: [
       "FLAMECHARGE",
       "FLAREBLITZ",
@@ -75214,7 +76884,7 @@ export const pokemonData = [
     name: "Scatterbug",
     Color: "Black",
     generation: "6",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["TACKLE", "STRINGSHOT", "STUNSPORE", "BUGBITE"],
     tutor_moves: ["BUGBITE", "POUNCE", "STRUGGLEBUG", "TERABLAST"],
     egg_moves: ["POISONPOWDER", "RAGEPOWDER", "STUNSPORE"],
@@ -75225,7 +76895,7 @@ export const pokemonData = [
     name: "Spewpa",
     Color: "Black",
     generation: "6",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["PROTECT", "HARDEN"],
     tutor_moves: [
       "BUGBITE",
@@ -75243,7 +76913,7 @@ export const pokemonData = [
     name: "Vivillon",
     Color: "White",
     generation: "6",
-    types: ["Bug", "Flying"],
+    types: ["BUG", "FLYING"],
     moves: [
       "GUST",
       "SLEEPPOWDER",
@@ -75325,7 +76995,7 @@ export const pokemonData = [
     name: "Litleo",
     Color: "Brown",
     generation: "6",
-    types: ["Fire", "Normal"],
+    types: ["FIRE", "NORMAL"],
     moves: [
       "TACKLE",
       "LEER",
@@ -75414,7 +77084,7 @@ export const pokemonData = [
     name: "Pyroar",
     Color: "Brown",
     generation: "6",
-    types: ["Fire", "Normal"],
+    types: ["FIRE", "NORMAL"],
     moves: [
       "HYPERBEAM",
       "TACKLE",
@@ -75510,7 +77180,7 @@ export const pokemonData = [
     name: "Flabébé",
     Color: "White",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "TACKLE",
       "VINEWHIP",
@@ -75601,7 +77271,7 @@ export const pokemonData = [
     name: "Floette",
     Color: "White",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "TACKLE",
       "VINEWHIP",
@@ -75689,7 +77359,7 @@ export const pokemonData = [
     name: "Florges",
     Color: "White",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "DISARMINGVOICE",
       "SAFEGUARD",
@@ -75780,7 +77450,7 @@ export const pokemonData = [
     name: "Skiddo",
     Color: "Brown",
     generation: "6",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "GROWTH",
@@ -75868,7 +77538,7 @@ export const pokemonData = [
     name: "Gogoat",
     Color: "Brown",
     generation: "6",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "AERIALACE",
       "EARTHQUAKE",
@@ -75967,7 +77637,7 @@ export const pokemonData = [
     name: "Pancham",
     Color: "White",
     generation: "6",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "TACKLE",
       "LEER",
@@ -76076,7 +77746,7 @@ export const pokemonData = [
     name: "Pangoro",
     Color: "White",
     generation: "6",
-    types: ["Fighting", "Dark"],
+    types: ["FIGHTING", "DARK"],
     moves: [
       "NIGHTSLASH",
       "BULLETPUNCH",
@@ -76206,7 +77876,7 @@ export const pokemonData = [
     name: "Furfrou",
     Color: "White",
     generation: "6",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -76278,7 +77948,7 @@ export const pokemonData = [
     name: "Espurr",
     Color: "Gray",
     generation: "6",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -76372,7 +78042,7 @@ export const pokemonData = [
     name: "Meowstic",
     Color: "Blue",
     generation: "6",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "MEANLOOK",
       "SCRATCH",
@@ -76487,7 +78157,7 @@ export const pokemonData = [
     name: "Honedge",
     Color: "Brown",
     generation: "6",
-    types: ["Steel", "Ghost"],
+    types: ["STEEL", "GHOST"],
     moves: [
       "TACKLE",
       "FURYCUTTER",
@@ -76561,7 +78231,7 @@ export const pokemonData = [
     name: "Doublade",
     Color: "Brown",
     generation: "6",
-    types: ["Steel", "Ghost"],
+    types: ["STEEL", "GHOST"],
     moves: [
       "TACKLE",
       "FURYCUTTER",
@@ -76635,7 +78305,7 @@ export const pokemonData = [
     name: "Aegislash",
     Color: "Brown",
     generation: "6",
-    types: ["Steel", "Ghost"],
+    types: ["STEEL", "GHOST"],
     moves: [
       "KINGSSHIELD",
       "HEADSMASH",
@@ -76717,7 +78387,7 @@ export const pokemonData = [
     name: "Spritzee",
     Color: "Pink",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "FAIRYWIND",
       "SWEETSCENT",
@@ -76799,7 +78469,7 @@ export const pokemonData = [
     name: "Aromatisse",
     Color: "Pink",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "AROMATICMIST",
       "HEALPULSE",
@@ -76890,7 +78560,7 @@ export const pokemonData = [
     name: "Swirlix",
     Color: "White",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "TACKLE",
       "SWEETSCENT",
@@ -76966,7 +78636,7 @@ export const pokemonData = [
     name: "Slurpuff",
     Color: "White",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "TACKLE",
       "SWEETSCENT",
@@ -77048,7 +78718,7 @@ export const pokemonData = [
     name: "Inkay",
     Color: "Blue",
     generation: "6",
-    types: ["Dark", "Psychic"],
+    types: ["DARK", "PSYCHIC"],
     moves: [
       "PECK",
       "TACKLE",
@@ -77145,7 +78815,7 @@ export const pokemonData = [
     name: "Malamar",
     Color: "Blue",
     generation: "6",
-    types: ["Dark", "Psychic"],
+    types: ["DARK", "PSYCHIC"],
     moves: [
       "REVERSAL",
       "PECK",
@@ -77253,7 +78923,7 @@ export const pokemonData = [
     name: "Binacle",
     Color: "Brown",
     generation: "6",
-    types: ["Rock", "Water"],
+    types: ["ROCK", "WATER"],
     moves: [
       "SCRATCH",
       "MUDSLAP",
@@ -77352,7 +79022,7 @@ export const pokemonData = [
     name: "Barbaracle",
     Color: "Brown",
     generation: "6",
-    types: ["Rock", "Water"],
+    types: ["ROCK", "WATER"],
     moves: [
       "SKULLBASH",
       "SCRATCH",
@@ -77467,7 +79137,7 @@ export const pokemonData = [
     name: "Skrelp",
     Color: "Brown",
     generation: "6",
-    types: ["Poison", "Water"],
+    types: ["POISON", "WATER"],
     moves: [
       "TACKLE",
       "SMOKESCREEN",
@@ -77554,7 +79224,7 @@ export const pokemonData = [
     name: "Dragalge",
     Color: "Brown",
     generation: "6",
-    types: ["Poison", "Dragon"],
+    types: ["POISON", "DRAGON"],
     moves: [
       "TACKLE",
       "SMOKESCREEN",
@@ -77647,7 +79317,7 @@ export const pokemonData = [
     name: "Clauncher",
     Color: "Blue",
     generation: "6",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SPLASH",
       "WATERGUN",
@@ -77728,7 +79398,7 @@ export const pokemonData = [
     name: "Clawitzer",
     Color: "Blue",
     generation: "6",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "DARKPULSE",
       "DRAGONPULSE",
@@ -77820,7 +79490,7 @@ export const pokemonData = [
     name: "Helioptile",
     Color: "Yellow",
     generation: "6",
-    types: ["Electric", "Normal"],
+    types: ["ELECTRIC", "NORMAL"],
     moves: [
       "MUDSLAP",
       "TAILWHIP",
@@ -77900,7 +79570,7 @@ export const pokemonData = [
     name: "Heliolisk",
     Color: "Yellow",
     generation: "6",
-    types: ["Electric", "Normal"],
+    types: ["ELECTRIC", "NORMAL"],
     moves: [
       "EERIEIMPULSE",
       "DISCHARGE",
@@ -77998,7 +79668,7 @@ export const pokemonData = [
     name: "Tyrunt",
     Color: "Brown",
     generation: "6",
-    types: ["Rock", "Dragon"],
+    types: ["ROCK", "DRAGON"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -78092,7 +79762,7 @@ export const pokemonData = [
     name: "Tyrantrum",
     Color: "Red",
     generation: "6",
-    types: ["Rock", "Dragon"],
+    types: ["ROCK", "DRAGON"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -78193,7 +79863,7 @@ export const pokemonData = [
     name: "Amaura",
     Color: "Blue",
     generation: "6",
-    types: ["Rock", "Ice"],
+    types: ["ROCK", "ICE"],
     moves: [
       "POWDERSNOW",
       "GROWL",
@@ -78298,7 +79968,7 @@ export const pokemonData = [
     name: "Aurorus",
     Color: "Blue",
     generation: "6",
-    types: ["Rock", "Ice"],
+    types: ["ROCK", "ICE"],
     moves: [
       "POWDERSNOW",
       "GROWL",
@@ -78401,7 +80071,7 @@ export const pokemonData = [
     name: "Sylveon",
     Color: "Pink",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "DISARMINGVOICE",
       "COVET",
@@ -78510,7 +80180,7 @@ export const pokemonData = [
     name: "Hawlucha",
     Color: "Green",
     generation: "6",
-    types: ["Fighting", "Flying"],
+    types: ["FIGHTING", "FLYING"],
     moves: [
       "TACKLE",
       "HONECLAWS",
@@ -78641,7 +80311,7 @@ export const pokemonData = [
     name: "Dedenne",
     Color: "Yellow",
     generation: "6",
-    types: ["Electric", "Fairy"],
+    types: ["ELECTRIC", "FAIRY"],
     moves: [
       "NUZZLE",
       "TAILWHIP",
@@ -78736,7 +80406,7 @@ export const pokemonData = [
     name: "Carbink",
     Color: "Gray",
     generation: "6",
-    types: ["Rock", "Fairy"],
+    types: ["ROCK", "FAIRY"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -78834,7 +80504,7 @@ export const pokemonData = [
     name: "Goomy",
     Color: "Purple",
     generation: "6",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "ABSORB",
       "TACKLE",
@@ -78900,7 +80570,7 @@ export const pokemonData = [
     name: "Sliggoo",
     Color: "Purple",
     generation: "6",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "ACIDSPRAY",
       "ACIDARMOR",
@@ -78973,7 +80643,7 @@ export const pokemonData = [
     name: "Goodra",
     Color: "Purple",
     generation: "6",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "AQUATAIL",
       "ACIDSPRAY",
@@ -79083,7 +80753,7 @@ export const pokemonData = [
     name: "Klefki",
     Color: "Gray",
     generation: "6",
-    types: ["Steel", "Fairy"],
+    types: ["STEEL", "FAIRY"],
     moves: [
       "ASTONISH",
       "TACKLE",
@@ -79168,7 +80838,7 @@ export const pokemonData = [
     name: "Phantump",
     Color: "Brown",
     generation: "6",
-    types: ["Ghost", "Grass"],
+    types: ["GHOST", "GRASS"],
     moves: [
       "ASTONISH",
       "TACKLE",
@@ -79266,7 +80936,7 @@ export const pokemonData = [
     name: "Trevenant",
     Color: "Brown",
     generation: "6",
-    types: ["Ghost", "Grass"],
+    types: ["GHOST", "GRASS"],
     moves: [
       "SHADOWCLAW",
       "ASTONISH",
@@ -79384,7 +81054,7 @@ export const pokemonData = [
     name: "Pumpkaboo",
     Color: "Brown",
     generation: "6",
-    types: ["Ghost", "Grass"],
+    types: ["GHOST", "GRASS"],
     moves: [
       "TRICKORTREAT",
       "ASTONISH",
@@ -79479,7 +81149,7 @@ export const pokemonData = [
     name: "Gourgeist",
     Color: "Brown",
     generation: "6",
-    types: ["Ghost", "Grass"],
+    types: ["GHOST", "GRASS"],
     moves: [
       "EXPLOSION",
       "MOONBLAST",
@@ -79584,7 +81254,7 @@ export const pokemonData = [
     name: "Bergmite",
     Color: "Blue",
     generation: "6",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "RAPIDSPIN",
       "HARDEN",
@@ -79662,7 +81332,7 @@ export const pokemonData = [
     name: "Avalugg",
     Color: "Blue",
     generation: "6",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "BODYSLAM",
       "WIDEGUARD",
@@ -79757,7 +81427,7 @@ export const pokemonData = [
     name: "Noibat",
     Color: "Purple",
     generation: "6",
-    types: ["Flying", "Dragon"],
+    types: ["FLYING", "DRAGON"],
     moves: [
       "TACKLE",
       "ABSORB",
@@ -79852,7 +81522,7 @@ export const pokemonData = [
     name: "Noivern",
     Color: "Purple",
     generation: "6",
-    types: ["Flying", "Dragon"],
+    types: ["FLYING", "DRAGON"],
     moves: [
       "DRAGONPULSE",
       "MOONLIGHT",
@@ -79961,7 +81631,7 @@ export const pokemonData = [
     name: "Xerneas",
     Color: "Blue",
     generation: "6",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "TACKLE",
       "GRAVITY",
@@ -80054,7 +81724,7 @@ export const pokemonData = [
     name: "Yveltal",
     Color: "Red",
     generation: "6",
-    types: ["Dark", "Flying"],
+    types: ["DARK", "FLYING"],
     moves: [
       "GUST",
       "DOUBLETEAM",
@@ -80148,7 +81818,7 @@ export const pokemonData = [
     name: "Zygarde",
     Color: "Green",
     generation: "6",
-    types: ["Dragon", "Ground"],
+    types: ["DRAGON", "GROUND"],
     moves: [
       "THOUSANDARROWS",
       "THOUSANDWAVES",
@@ -80240,7 +81910,7 @@ export const pokemonData = [
     name: "Diancie",
     Color: "Pink",
     generation: "6",
-    types: ["Rock", "Fairy"],
+    types: ["ROCK", "FAIRY"],
     moves: [
       "DIAMONDSTORM",
       "TACKLE",
@@ -80350,7 +82020,7 @@ export const pokemonData = [
     name: "Hoopa",
     Color: "Purple",
     generation: "6",
-    types: ["Psychic", "Ghost"],
+    types: ["PSYCHIC", "GHOST"],
     moves: [
       "DESTINYBOND",
       "ALLYSWITCH",
@@ -80470,7 +82140,7 @@ export const pokemonData = [
     name: "Volcanion",
     Color: "Brown",
     generation: "6",
-    types: ["Fire", "Water"],
+    types: ["FIRE", "WATER"],
     moves: [
       "STEAMERUPTION",
       "FIRESPIN",
@@ -80579,7 +82249,7 @@ export const pokemonData = [
     name: "Rowlet",
     Color: "Brown",
     generation: "7",
-    types: ["Grass", "Flying"],
+    types: ["GRASS", "FLYING"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -80670,7 +82340,7 @@ export const pokemonData = [
     name: "Dartrix",
     Color: "Brown",
     generation: "7",
-    types: ["Grass", "Flying"],
+    types: ["GRASS", "FLYING"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -80763,7 +82433,7 @@ export const pokemonData = [
     name: "Decidueye",
     Color: "Brown",
     generation: "7",
-    types: ["Grass", "Ghost"],
+    types: ["GRASS", "GHOST"],
     moves: [
       "SPIRITSHACKLE",
       "PHANTOMFORCE",
@@ -80881,7 +82551,7 @@ export const pokemonData = [
     name: "Litten",
     Color: "Red",
     generation: "7",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -80963,7 +82633,7 @@ export const pokemonData = [
     name: "Torracat",
     Color: "Red",
     generation: "7",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -81046,7 +82716,7 @@ export const pokemonData = [
     name: "Incineroar",
     Color: "Red",
     generation: "7",
-    types: ["Fire", "Dark"],
+    types: ["FIRE", "DARK"],
     moves: [
       "DARKESTLARIAT",
       "SCRATCH",
@@ -81173,7 +82843,7 @@ export const pokemonData = [
     name: "Popplio",
     Color: "Blue",
     generation: "7",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "GROWL",
@@ -81254,7 +82924,7 @@ export const pokemonData = [
     name: "Brionne",
     Color: "Blue",
     generation: "7",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "GROWL",
@@ -81336,7 +83006,7 @@ export const pokemonData = [
     name: "Primarina",
     Color: "Blue",
     generation: "7",
-    types: ["Water", "Fairy"],
+    types: ["WATER", "FAIRY"],
     moves: [
       "SPARKLINGARIA",
       "POUND",
@@ -81440,7 +83110,7 @@ export const pokemonData = [
     name: "Pikipek",
     Color: "Black",
     generation: "7",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "PECK",
       "GROWL",
@@ -81525,7 +83195,7 @@ export const pokemonData = [
     name: "Trumbeak",
     Color: "Black",
     generation: "7",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "ECHOEDVOICE",
       "ROCKBLAST",
@@ -81605,7 +83275,7 @@ export const pokemonData = [
     name: "Toucannon",
     Color: "Black",
     generation: "7",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "BEAKBLAST",
       "ROCKBLAST",
@@ -81697,7 +83367,7 @@ export const pokemonData = [
     name: "Yungoos",
     Color: "Brown",
     generation: "7",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "LEER",
@@ -81787,7 +83457,7 @@ export const pokemonData = [
     name: "Gumshoos",
     Color: "Brown",
     generation: "7",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "LEER",
@@ -81886,7 +83556,7 @@ export const pokemonData = [
     name: "Grubbin",
     Color: "Gray",
     generation: "7",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "VISEGRIP",
       "MUDSLAP",
@@ -81956,7 +83626,7 @@ export const pokemonData = [
     name: "Charjabug",
     Color: "Green",
     generation: "7",
-    types: ["Bug", "Electric"],
+    types: ["BUG", "ELECTRIC"],
     moves: [
       "CHARGE",
       "VISEGRIP",
@@ -82033,7 +83703,7 @@ export const pokemonData = [
     name: "Vikavolt",
     Color: "Blue",
     generation: "7",
-    types: ["Bug", "Electric"],
+    types: ["BUG", "ELECTRIC"],
     moves: [
       "THUNDERBOLT",
       "VISEGRIP",
@@ -82133,7 +83803,7 @@ export const pokemonData = [
     name: "Crabrawler",
     Color: "Purple",
     generation: "7",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "VISEGRIP",
       "ROCKSMASH",
@@ -82221,7 +83891,7 @@ export const pokemonData = [
     name: "Crabominable",
     Color: "White",
     generation: "7",
-    types: ["Fighting", "Ice"],
+    types: ["FIGHTING", "ICE"],
     moves: [
       "ICEPUNCH",
       "ROCKSMASH",
@@ -82322,7 +83992,7 @@ export const pokemonData = [
     name: "Oricorio",
     Color: "Red",
     generation: "7",
-    types: ["Fire", "Flying"],
+    types: ["FIRE", "FLYING"],
     moves: [
       "POUND",
       "GROWL",
@@ -82415,7 +84085,7 @@ export const pokemonData = [
     name: "Cutiefly",
     Color: "Yellow",
     generation: "7",
-    types: ["Bug", "Fairy"],
+    types: ["BUG", "FAIRY"],
     moves: [
       "ABSORB",
       "FAIRYWIND",
@@ -82505,7 +84175,7 @@ export const pokemonData = [
     name: "Ribombee",
     Color: "Yellow",
     generation: "7",
-    types: ["Bug", "Fairy"],
+    types: ["BUG", "FAIRY"],
     moves: [
       "POLLENPUFF",
       "ABSORB",
@@ -82607,7 +84277,7 @@ export const pokemonData = [
     name: "Rockruff",
     Color: "Brown",
     generation: "7",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "TACKLE",
       "LEER",
@@ -82690,7 +84360,7 @@ export const pokemonData = [
     name: "Lycanroc",
     Color: "Brown",
     generation: "7",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "SUCKERPUNCH",
       "ACCELEROCK",
@@ -82788,7 +84458,7 @@ export const pokemonData = [
     name: "Wishiwashi",
     Color: "Blue",
     generation: "7",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "GROWL",
@@ -82861,7 +84531,7 @@ export const pokemonData = [
     name: "Mareanie",
     Color: "Blue",
     generation: "7",
-    types: ["Poison", "Water"],
+    types: ["POISON", "WATER"],
     moves: [
       "POISONSTING",
       "PECK",
@@ -82943,7 +84613,7 @@ export const pokemonData = [
     name: "Toxapex",
     Color: "Blue",
     generation: "7",
-    types: ["Poison", "Water"],
+    types: ["POISON", "WATER"],
     moves: [
       "BANEFULBUNKER",
       "POISONSTING",
@@ -83034,7 +84704,7 @@ export const pokemonData = [
     name: "Mudbray",
     Color: "Brown",
     generation: "7",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "MUDSLAP",
       "ROCKSMASH",
@@ -83109,7 +84779,7 @@ export const pokemonData = [
     name: "Mudsdale",
     Color: "Brown",
     generation: "7",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "MUDSLAP",
       "ROCKSMASH",
@@ -83192,7 +84862,7 @@ export const pokemonData = [
     name: "Dewpider",
     Color: "Green",
     generation: "7",
-    types: ["Water", "Bug"],
+    types: ["WATER", "BUG"],
     moves: [
       "WATERGUN",
       "INFESTATION",
@@ -83268,7 +84938,7 @@ export const pokemonData = [
     name: "Araquanid",
     Color: "Green",
     generation: "7",
-    types: ["Water", "Bug"],
+    types: ["WATER", "BUG"],
     moves: [
       "WIDEGUARD",
       "WATERGUN",
@@ -83353,7 +85023,7 @@ export const pokemonData = [
     name: "Fomantis",
     Color: "Pink",
     generation: "7",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "LEAFAGE",
       "FURYCUTTER",
@@ -83429,7 +85099,7 @@ export const pokemonData = [
     name: "Lurantis",
     Color: "Pink",
     generation: "7",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "PETALBLIZZARD",
       "NIGHTSLASH",
@@ -83522,7 +85192,7 @@ export const pokemonData = [
     name: "Morelull",
     Color: "Purple",
     generation: "7",
-    types: ["Grass", "Fairy"],
+    types: ["GRASS", "FAIRY"],
     moves: [
       "ABSORB",
       "ASTONISH",
@@ -83592,7 +85262,7 @@ export const pokemonData = [
     name: "Shiinotic",
     Color: "Purple",
     generation: "7",
-    types: ["Grass", "Fairy"],
+    types: ["GRASS", "FAIRY"],
     moves: [
       "ABSORB",
       "ASTONISH",
@@ -83668,7 +85338,7 @@ export const pokemonData = [
     name: "Salandit",
     Color: "Black",
     generation: "7",
-    types: ["Poison", "Fire"],
+    types: ["POISON", "FIRE"],
     moves: [
       "SCRATCH",
       "POISONGAS",
@@ -83762,7 +85432,7 @@ export const pokemonData = [
     name: "Salazzle",
     Color: "Black",
     generation: "7",
-    types: ["Poison", "Fire"],
+    types: ["POISON", "FIRE"],
     moves: [
       "FIRELASH",
       "KNOCKOFF",
@@ -83877,7 +85547,7 @@ export const pokemonData = [
     name: "Stufful",
     Color: "Pink",
     generation: "7",
-    types: ["Normal", "Fighting"],
+    types: ["NORMAL", "FIGHTING"],
     moves: [
       "TACKLE",
       "LEER",
@@ -83955,7 +85625,7 @@ export const pokemonData = [
     name: "Bewear",
     Color: "Pink",
     generation: "7",
-    types: ["Normal", "Fighting"],
+    types: ["NORMAL", "FIGHTING"],
     moves: [
       "BIND",
       "TACKLE",
@@ -84047,7 +85717,7 @@ export const pokemonData = [
     name: "Bounsweet",
     Color: "Purple",
     generation: "7",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "SPLASH",
       "PLAYNICE",
@@ -84118,7 +85788,7 @@ export const pokemonData = [
     name: "Steenee",
     Color: "Purple",
     generation: "7",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "FLAIL",
       "SPLASH",
@@ -84196,7 +85866,7 @@ export const pokemonData = [
     name: "Tsareena",
     Color: "Purple",
     generation: "7",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TROPKICK",
       "POWERWHIP",
@@ -84289,7 +85959,7 @@ export const pokemonData = [
     name: "Comfey",
     Color: "Green",
     generation: "7",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "WRAP",
       "GROWTH",
@@ -84392,7 +86062,7 @@ export const pokemonData = [
     name: "Oranguru",
     Color: "White",
     generation: "7",
-    types: ["Normal", "Psychic"],
+    types: ["NORMAL", "PSYCHIC"],
     moves: [
       "CONFUSION",
       "TAUNT",
@@ -84506,7 +86176,7 @@ export const pokemonData = [
     name: "Passimian",
     Color: "White",
     generation: "7",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "TACKLE",
       "LEER",
@@ -84622,7 +86292,7 @@ export const pokemonData = [
     name: "Wimpod",
     Color: "Gray",
     generation: "7",
-    types: ["Bug", "Water"],
+    types: ["BUG", "WATER"],
     moves: ["STRUGGLEBUG", "SANDATTACK", "DEFENSECURL"],
     tutor_moves: [
       "ASSURANCE",
@@ -84668,7 +86338,7 @@ export const pokemonData = [
     name: "Golisopod",
     Color: "Gray",
     generation: "7",
-    types: ["Bug", "Water"],
+    types: ["BUG", "WATER"],
     moves: [
       "FIRSTIMPRESSION",
       "STRUGGLEBUG",
@@ -84774,7 +86444,7 @@ export const pokemonData = [
     name: "Sandygast",
     Color: "Brown",
     generation: "7",
-    types: ["Ghost", "Ground"],
+    types: ["GHOST", "GROUND"],
     moves: [
       "ABSORB",
       "HARDEN",
@@ -84871,7 +86541,7 @@ export const pokemonData = [
     name: "Palossand",
     Color: "Brown",
     generation: "7",
-    types: ["Ghost", "Ground"],
+    types: ["GHOST", "GROUND"],
     moves: [
       "ABSORB",
       "HARDEN",
@@ -84967,7 +86637,7 @@ export const pokemonData = [
     name: "Pyukumuku",
     Color: "Black",
     generation: "7",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "BATONPASS",
       "HARDEN",
@@ -85025,7 +86695,7 @@ export const pokemonData = [
     name: "Type: Null",
     Color: "Gray",
     generation: "7",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "IMPRISON",
@@ -85099,7 +86769,7 @@ export const pokemonData = [
     name: "Silvally",
     Color: "Gray",
     generation: "7",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "MULTIATTACK",
       "EXPLOSION",
@@ -85208,7 +86878,7 @@ export const pokemonData = [
     name: "Minior",
     Color: "Brown",
     generation: "7",
-    types: ["Rock", "Flying"],
+    types: ["ROCK", "FLYING"],
     moves: [
       "TACKLE",
       "DEFENSECURL",
@@ -85294,7 +86964,7 @@ export const pokemonData = [
     name: "Komala",
     Color: "Blue",
     generation: "7",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "DEFENSECURL",
       "ROLLOUT",
@@ -85382,7 +87052,7 @@ export const pokemonData = [
     name: "Turtonator",
     Color: "Red",
     generation: "7",
-    types: ["Fire", "Dragon"],
+    types: ["FIRE", "DRAGON"],
     moves: [
       "SMOG",
       "TACKLE",
@@ -85483,7 +87153,7 @@ export const pokemonData = [
     name: "Togedemaru",
     Color: "Gray",
     generation: "7",
-    types: ["Electric", "Steel"],
+    types: ["ELECTRIC", "STEEL"],
     moves: [
       "NUZZLE",
       "TACKLE",
@@ -85581,7 +87251,7 @@ export const pokemonData = [
     name: "Mimikyu",
     Color: "Yellow",
     generation: "7",
-    types: ["Ghost", "Fairy"],
+    types: ["GHOST", "FAIRY"],
     moves: [
       "SPLASH",
       "SCRATCH",
@@ -85684,7 +87354,7 @@ export const pokemonData = [
     name: "Bruxish",
     Color: "Pink",
     generation: "7",
-    types: ["Water", "Psychic"],
+    types: ["WATER", "PSYCHIC"],
     moves: [
       "WATERGUN",
       "ASTONISH",
@@ -85780,7 +87450,7 @@ export const pokemonData = [
     name: "Drampa",
     Color: "White",
     generation: "7",
-    types: ["Normal", "Dragon"],
+    types: ["NORMAL", "DRAGON"],
     moves: [
       "PLAYNICE",
       "ECHOEDVOICE",
@@ -85887,7 +87557,7 @@ export const pokemonData = [
     name: "Dhelmise",
     Color: "Green",
     generation: "7",
-    types: ["Ghost", "Grass"],
+    types: ["GHOST", "GRASS"],
     moves: [
       "ABSORB",
       "RAPIDSPIN",
@@ -85986,7 +87656,7 @@ export const pokemonData = [
     name: "Jangmo-o",
     Color: "Gray",
     generation: "7",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "TACKLE",
       "LEER",
@@ -86071,7 +87741,7 @@ export const pokemonData = [
     name: "Hakamo-o",
     Color: "Gray",
     generation: "7",
-    types: ["Dragon", "Fighting"],
+    types: ["DRAGON", "FIGHTING"],
     moves: [
       "TACKLE",
       "LEER",
@@ -86171,7 +87841,7 @@ export const pokemonData = [
     name: "Kommo-o",
     Color: "Gray",
     generation: "7",
-    types: ["Dragon", "Fighting"],
+    types: ["DRAGON", "FIGHTING"],
     moves: [
       "CLANGINGSCALES",
       "BELLYDRUM",
@@ -86297,7 +87967,7 @@ export const pokemonData = [
     name: "Tapu Koko",
     Color: "Yellow",
     generation: "7",
-    types: ["Electric", "Fairy"],
+    types: ["ELECTRIC", "FAIRY"],
     moves: [
       "QUICKATTACK",
       "THUNDERSHOCK",
@@ -86394,7 +88064,7 @@ export const pokemonData = [
     name: "Tapu Lele",
     Color: "Pink",
     generation: "7",
-    types: ["Psychic", "Fairy"],
+    types: ["PSYCHIC", "FAIRY"],
     moves: [
       "ASTONISH",
       "CONFUSION",
@@ -86484,7 +88154,7 @@ export const pokemonData = [
     name: "Tapu Bulu",
     Color: "Red",
     generation: "7",
-    types: ["Grass", "Fairy"],
+    types: ["GRASS", "FAIRY"],
     moves: [
       "LEAFAGE",
       "ROCKSMASH",
@@ -86584,7 +88254,7 @@ export const pokemonData = [
     name: "Tapu Fini",
     Color: "Purple",
     generation: "7",
-    types: ["Water", "Fairy"],
+    types: ["WATER", "FAIRY"],
     moves: [
       "DISARMINGVOICE",
       "WATERGUN",
@@ -86677,7 +88347,7 @@ export const pokemonData = [
     name: "Cosmog",
     Color: "Blue",
     generation: "7",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: ["SPLASH", "TELEPORT"],
     tutor_moves: [],
     egg_moves: [],
@@ -86688,7 +88358,7 @@ export const pokemonData = [
     name: "Cosmoem",
     Color: "Blue",
     generation: "7",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: ["COSMICPOWER", "TELEPORT"],
     tutor_moves: ["COSMICPOWER"],
     egg_moves: [],
@@ -86699,7 +88369,7 @@ export const pokemonData = [
     name: "Solgaleo",
     Color: "White",
     generation: "7",
-    types: ["Psychic", "Steel"],
+    types: ["PSYCHIC", "STEEL"],
     moves: [
       "SUNSTEELSTRIKE",
       "COSMICPOWER",
@@ -86810,7 +88480,7 @@ export const pokemonData = [
     name: "Lunala",
     Color: "Purple",
     generation: "7",
-    types: ["Psychic", "Ghost"],
+    types: ["PSYCHIC", "GHOST"],
     moves: [
       "MOONGEISTBEAM",
       "COSMICPOWER",
@@ -86916,7 +88586,7 @@ export const pokemonData = [
     name: "Nihilego",
     Color: "White",
     generation: "7",
-    types: ["Rock", "Poison"],
+    types: ["ROCK", "POISON"],
     moves: [
       "WRAP",
       "POUND",
@@ -87007,7 +88677,7 @@ export const pokemonData = [
     name: "Buzzwole",
     Color: "Red",
     generation: "7",
-    types: ["Bug", "Fighting"],
+    types: ["BUG", "FIGHTING"],
     moves: [
       "POWERUPPUNCH",
       "HARDEN",
@@ -87095,7 +88765,7 @@ export const pokemonData = [
     name: "Pheromosa",
     Color: "White",
     generation: "7",
-    types: ["Bug", "Fighting"],
+    types: ["BUG", "FIGHTING"],
     moves: [
       "FEINT",
       "RAPIDSPIN",
@@ -87180,7 +88850,7 @@ export const pokemonData = [
     name: "Xurkitree",
     Color: "Black",
     generation: "7",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "WRAP",
       "THUNDERSHOCK",
@@ -87260,7 +88930,7 @@ export const pokemonData = [
     name: "Celesteela",
     Color: "Green",
     generation: "7",
-    types: ["Steel", "Flying"],
+    types: ["STEEL", "FLYING"],
     moves: [
       "ABSORB",
       "TACKLE",
@@ -87346,7 +89016,7 @@ export const pokemonData = [
     name: "Kartana",
     Color: "White",
     generation: "7",
-    types: ["Grass", "Steel"],
+    types: ["GRASS", "STEEL"],
     moves: [
       "FURYCUTTER",
       "VACUUMWAVE",
@@ -87414,7 +89084,7 @@ export const pokemonData = [
     name: "Guzzlord",
     Color: "Black",
     generation: "7",
-    types: ["Dark", "Dragon"],
+    types: ["DARK", "DRAGON"],
     moves: [
       "BITE",
       "DRAGONTAIL",
@@ -87511,7 +89181,7 @@ export const pokemonData = [
     name: "Necrozma",
     Color: "Black",
     generation: "7",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "MOONLIGHT",
       "MORNINGSUN",
@@ -87620,7 +89290,7 @@ export const pokemonData = [
     name: "Magearna",
     Color: "Gray",
     generation: "7",
-    types: ["Steel", "Fairy"],
+    types: ["STEEL", "FAIRY"],
     moves: [
       "GYROBALL",
       "HELPINGHAND",
@@ -87741,7 +89411,7 @@ export const pokemonData = [
     name: "Marshadow",
     Color: "Gray",
     generation: "7",
-    types: ["Fighting", "Ghost"],
+    types: ["FIGHTING", "GHOST"],
     moves: [
       "THUNDERPUNCH",
       "FIREPUNCH",
@@ -87848,7 +89518,7 @@ export const pokemonData = [
     name: "Poipole",
     Color: "Purple",
     generation: "7",
-    types: ["Poison"],
+    types: ["POISON"],
     moves: [
       "DRAGONPULSE",
       "PECK",
@@ -87910,7 +89580,7 @@ export const pokemonData = [
     name: "Naganadel",
     Color: "Purple",
     generation: "7",
-    types: ["Poison", "Dragon"],
+    types: ["POISON", "DRAGON"],
     moves: [
       "AIRCUTTER",
       "AIRSLASH",
@@ -88013,7 +89683,7 @@ export const pokemonData = [
     name: "Stakataka",
     Color: "Gray",
     generation: "7",
-    types: ["Rock", "Steel"],
+    types: ["ROCK", "STEEL"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -88102,7 +89772,7 @@ export const pokemonData = [
     name: "Blacephalon",
     Color: "White",
     generation: "7",
-    types: ["Fire", "Ghost"],
+    types: ["FIRE", "GHOST"],
     moves: [
       "ASTONISH",
       "FIRESPIN",
@@ -88191,7 +89861,7 @@ export const pokemonData = [
     name: "Zeraora",
     Color: "Yellow",
     generation: "7",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "POWERUPPUNCH",
       "FAKEOUT",
@@ -88296,7 +89966,7 @@ export const pokemonData = [
     name: "Meltan",
     Color: "Gray",
     generation: "7",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "THUNDERSHOCK",
       "HARDEN",
@@ -88341,7 +90011,7 @@ export const pokemonData = [
     name: "Melmetal",
     Color: "Gray",
     generation: "7",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "THUNDERPUNCH",
       "THUNDERSHOCK",
@@ -88418,7 +90088,7 @@ export const pokemonData = [
     name: "Grookey",
     Color: "Green",
     generation: "8",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -88505,7 +90175,7 @@ export const pokemonData = [
     name: "Thwackey",
     Color: "Green",
     generation: "8",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "DOUBLEHIT",
       "SCRATCH",
@@ -88587,7 +90257,7 @@ export const pokemonData = [
     name: "Rillaboom",
     Color: "Green",
     generation: "8",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "DRUMBEATING",
       "DOUBLEHIT",
@@ -88693,7 +90363,7 @@ export const pokemonData = [
     name: "Scorbunny",
     Color: "White",
     generation: "8",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -88772,7 +90442,7 @@ export const pokemonData = [
     name: "Raboot",
     Color: "Gray",
     generation: "8",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -88855,7 +90525,7 @@ export const pokemonData = [
     name: "Cinderace",
     Color: "White",
     generation: "8",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "PYROBALL",
       "FEINT",
@@ -88957,7 +90627,7 @@ export const pokemonData = [
     name: "Sobble",
     Color: "Blue",
     generation: "8",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "GROWL",
@@ -89031,7 +90701,7 @@ export const pokemonData = [
     name: "Drizzile",
     Color: "Blue",
     generation: "8",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "GROWL",
@@ -89099,7 +90769,7 @@ export const pokemonData = [
     name: "Inteleon",
     Color: "Blue",
     generation: "8",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "SNIPESHOT",
       "ACROBATICS",
@@ -89196,7 +90866,7 @@ export const pokemonData = [
     name: "Skwovet",
     Color: "Brown",
     generation: "8",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -89265,7 +90935,7 @@ export const pokemonData = [
     name: "Greedent",
     Color: "Brown",
     generation: "8",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "COVET",
       "TACKLE",
@@ -89352,7 +91022,7 @@ export const pokemonData = [
     name: "Rookidee",
     Color: "Blue",
     generation: "8",
-    types: ["Flying"],
+    types: ["FLYING"],
     moves: [
       "PECK",
       "LEER",
@@ -89428,7 +91098,7 @@ export const pokemonData = [
     name: "Corvisquire",
     Color: "Blue",
     generation: "8",
-    types: ["Flying"],
+    types: ["FLYING"],
     moves: [
       "PECK",
       "LEER",
@@ -89498,7 +91168,7 @@ export const pokemonData = [
     name: "Corviknight",
     Color: "Purple",
     generation: "8",
-    types: ["Flying", "Steel"],
+    types: ["FLYING", "STEEL"],
     moves: [
       "STEELWING",
       "SCREECH",
@@ -89591,7 +91261,7 @@ export const pokemonData = [
     name: "Blipbug",
     Color: "Blue",
     generation: "8",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: ["STRUGGLEBUG"],
     tutor_moves: [],
     egg_moves: ["INFESTATION", "RECOVER", "STICKYWEB", "SUPERSONIC"],
@@ -89602,7 +91272,7 @@ export const pokemonData = [
     name: "Dottler",
     Color: "Yellow",
     generation: "8",
-    types: ["Bug", "Psychic"],
+    types: ["BUG", "PSYCHIC"],
     moves: ["REFLECT", "LIGHTSCREEN", "CONFUSION", "STRUGGLEBUG"],
     tutor_moves: [
       "ALLYSWITCH",
@@ -89663,7 +91333,7 @@ export const pokemonData = [
     name: "Orbeetle",
     Color: "Red",
     generation: "8",
-    types: ["Bug", "Psychic"],
+    types: ["BUG", "PSYCHIC"],
     moves: [
       "REFLECT",
       "LIGHTSCREEN",
@@ -89748,7 +91418,7 @@ export const pokemonData = [
     name: "Nickit",
     Color: "Brown",
     generation: "8",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "QUICKATTACK",
       "TAILWHIP",
@@ -89809,7 +91479,7 @@ export const pokemonData = [
     name: "Thievul",
     Color: "Brown",
     generation: "8",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "THIEF",
       "QUICKATTACK",
@@ -89886,7 +91556,7 @@ export const pokemonData = [
     name: "Gossifleur",
     Color: "Green",
     generation: "8",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "LEAFAGE",
       "SING",
@@ -89952,7 +91622,7 @@ export const pokemonData = [
     name: "Eldegoss",
     Color: "Green",
     generation: "8",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "COTTONSPORE",
       "LEAFAGE",
@@ -90017,7 +91687,7 @@ export const pokemonData = [
     name: "Wooloo",
     Color: "White",
     generation: "8",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -90070,7 +91740,7 @@ export const pokemonData = [
     name: "Dubwool",
     Color: "White",
     generation: "8",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -90134,7 +91804,7 @@ export const pokemonData = [
     name: "Chewtle",
     Color: "Green",
     generation: "8",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "WATERGUN",
@@ -90199,7 +91869,7 @@ export const pokemonData = [
     name: "Drednaw",
     Color: "Green",
     generation: "8",
-    types: ["Water", "Rock"],
+    types: ["WATER", "ROCK"],
     moves: [
       "ROCKTOMB",
       "RAZORSHELL",
@@ -90299,7 +91969,7 @@ export const pokemonData = [
     name: "Yamper",
     Color: "Yellow",
     generation: "8",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -90360,7 +92030,7 @@ export const pokemonData = [
     name: "Boltund",
     Color: "Yellow",
     generation: "8",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "ELECTRIFY",
       "TACKLE",
@@ -90432,7 +92102,7 @@ export const pokemonData = [
     name: "Rolycoly",
     Color: "Black",
     generation: "8",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "TACKLE",
       "SMOKESCREEN",
@@ -90500,7 +92170,7 @@ export const pokemonData = [
     name: "Carkol",
     Color: "Black",
     generation: "8",
-    types: ["Rock", "Fire"],
+    types: ["ROCK", "FIRE"],
     moves: [
       "FLAMECHARGE",
       "TACKLE",
@@ -90582,7 +92252,7 @@ export const pokemonData = [
     name: "Coalossal",
     Color: "Black",
     generation: "8",
-    types: ["Rock", "Fire"],
+    types: ["ROCK", "FIRE"],
     moves: [
       "TARSHOT",
       "FLAMECHARGE",
@@ -90674,7 +92344,7 @@ export const pokemonData = [
     name: "Applin",
     Color: "Green",
     generation: "8",
-    types: ["Grass", "Dragon"],
+    types: ["GRASS", "DRAGON"],
     moves: ["WITHDRAW", "ASTONISH"],
     tutor_moves: ["ATTRACT", "POUNCE", "TERABLAST"],
     egg_moves: ["DEFENSECURL", "RECYCLE", "ROLLOUT", "SUCKERPUNCH"],
@@ -90685,7 +92355,7 @@ export const pokemonData = [
     name: "Flapple",
     Color: "Green",
     generation: "8",
-    types: ["Grass", "Dragon"],
+    types: ["GRASS", "DRAGON"],
     moves: [
       "WINGATTACK",
       "RECYCLE",
@@ -90767,7 +92437,7 @@ export const pokemonData = [
     name: "Appletun",
     Color: "Green",
     generation: "8",
-    types: ["Grass", "Dragon"],
+    types: ["GRASS", "DRAGON"],
     moves: [
       "HEADBUTT",
       "RECYCLE",
@@ -90857,7 +92527,7 @@ export const pokemonData = [
     name: "Silicobra",
     Color: "Green",
     generation: "8",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "WRAP",
       "SANDATTACK",
@@ -90925,7 +92595,7 @@ export const pokemonData = [
     name: "Sandaconda",
     Color: "Green",
     generation: "8",
-    types: ["Ground"],
+    types: ["GROUND"],
     moves: [
       "WRAP",
       "SANDATTACK",
@@ -91005,7 +92675,7 @@ export const pokemonData = [
     name: "Cramorant",
     Color: "Blue",
     generation: "8",
-    types: ["Flying", "Water"],
+    types: ["FLYING", "WATER"],
     moves: [
       "BELCH",
       "PECK",
@@ -91094,7 +92764,7 @@ export const pokemonData = [
     name: "Arrokuda",
     Color: "Brown",
     generation: "8",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "PECK",
       "AQUAJET",
@@ -91162,7 +92832,7 @@ export const pokemonData = [
     name: "Barraskewda",
     Color: "Brown",
     generation: "8",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "THROATCHOP",
       "PECK",
@@ -91237,7 +92907,7 @@ export const pokemonData = [
     name: "Toxel",
     Color: "Purple",
     generation: "8",
-    types: ["Electric", "Poison"],
+    types: ["ELECTRIC", "POISON"],
     moves: ["BELCH", "TEARFULLOOK", "NUZZLE", "GROWL", "FLAIL", "ACID"],
     tutor_moves: [
       "ATTRACT",
@@ -91273,7 +92943,7 @@ export const pokemonData = [
     name: "Toxtricity",
     Color: "Purple",
     generation: "8",
-    types: ["Electric", "Poison"],
+    types: ["ELECTRIC", "POISON"],
     moves: [
       "SPARK",
       "BELCH",
@@ -91383,7 +93053,7 @@ export const pokemonData = [
     name: "Sizzlipede",
     Color: "Red",
     generation: "8",
-    types: ["Fire", "Bug"],
+    types: ["FIRE", "BUG"],
     moves: [
       "EMBER",
       "SMOKESCREEN",
@@ -91442,7 +93112,7 @@ export const pokemonData = [
     name: "Centiskorch",
     Color: "Red",
     generation: "8",
-    types: ["Fire", "Bug"],
+    types: ["FIRE", "BUG"],
     moves: [
       "INFERNO",
       "EMBER",
@@ -91514,7 +93184,7 @@ export const pokemonData = [
     name: "Clobbopus",
     Color: "Brown",
     generation: "8",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "ROCKSMASH",
       "LEER",
@@ -91586,7 +93256,7 @@ export const pokemonData = [
     name: "Grapploct",
     Color: "Blue",
     generation: "8",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "OCTOLOCK",
       "OCTAZOOKA",
@@ -91665,7 +93335,7 @@ export const pokemonData = [
     name: "Sinistea",
     Color: "Purple",
     generation: "8",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "ASTONISH",
       "WITHDRAW",
@@ -91735,7 +93405,7 @@ export const pokemonData = [
     name: "Polteageist",
     Color: "Purple",
     generation: "8",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "TEATIME",
       "STRENGTHSAP",
@@ -91815,7 +93485,7 @@ export const pokemonData = [
     name: "Hatenna",
     Color: "Pink",
     generation: "8",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "CONFUSION",
       "PLAYNICE",
@@ -91890,7 +93560,7 @@ export const pokemonData = [
     name: "Hattrem",
     Color: "Pink",
     generation: "8",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "BRUTALSWING",
       "CONFUSION",
@@ -91967,7 +93637,7 @@ export const pokemonData = [
     name: "Hatterene",
     Color: "Pink",
     generation: "8",
-    types: ["Psychic", "Fairy"],
+    types: ["PSYCHIC", "FAIRY"],
     moves: [
       "PSYCHOCUT",
       "BRUTALSWING",
@@ -92062,7 +93732,7 @@ export const pokemonData = [
     name: "Impidimp",
     Color: "Pink",
     generation: "8",
-    types: ["Dark", "Fairy"],
+    types: ["DARK", "FAIRY"],
     moves: [
       "FAKEOUT",
       "CONFIDE",
@@ -92139,7 +93809,7 @@ export const pokemonData = [
     name: "Morgrem",
     Color: "Pink",
     generation: "8",
-    types: ["Dark", "Fairy"],
+    types: ["DARK", "FAIRY"],
     moves: [
       "FALSESURRENDER",
       "FAKEOUT",
@@ -92219,7 +93889,7 @@ export const pokemonData = [
     name: "Grimmsnarl",
     Color: "Purple",
     generation: "8",
-    types: ["Dark", "Fairy"],
+    types: ["DARK", "FAIRY"],
     moves: [
       "SPIRITBREAK",
       "FALSESURRENDER",
@@ -92322,7 +93992,7 @@ export const pokemonData = [
     name: "Obstagoon",
     Color: "Gray",
     generation: "8",
-    types: ["Dark", "Normal"],
+    types: ["DARK", "NORMAL"],
     moves: [
       "OBSTRUCT",
       "CROSSCHOP",
@@ -92432,7 +94102,7 @@ export const pokemonData = [
     name: "Perrserker",
     Color: "Brown",
     generation: "8",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "IRONHEAD",
       "METALBURST",
@@ -92551,7 +94221,7 @@ export const pokemonData = [
     name: "Cursola",
     Color: "White",
     generation: "8",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "PERISHSONG",
       "TACKLE",
@@ -92653,7 +94323,7 @@ export const pokemonData = [
     name: "Sirfetch'd",
     Color: "White",
     generation: "8",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "IRONDEFENSE",
       "FIRSTIMPRESSION",
@@ -92739,7 +94409,7 @@ export const pokemonData = [
     name: "Mr. Rime",
     Color: "Purple",
     generation: "8",
-    types: ["Ice", "Psychic"],
+    types: ["ICE", "PSYCHIC"],
     moves: [
       "FAKETEARS",
       "SLACKOFF",
@@ -92881,7 +94551,7 @@ export const pokemonData = [
     name: "Runerigus",
     Color: "Gray",
     generation: "8",
-    types: ["Ground", "Ghost"],
+    types: ["GROUND", "GHOST"],
     moves: [
       "SHADOWCLAW",
       "SCARYFACE",
@@ -92980,7 +94650,7 @@ export const pokemonData = [
     name: "Milcery",
     Color: "White",
     generation: "8",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "TACKLE",
       "AROMATICMIST",
@@ -93031,7 +94701,7 @@ export const pokemonData = [
     name: "Alcremie",
     Color: "White",
     generation: "8",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "DECORATE",
       "TACKLE",
@@ -93111,7 +94781,7 @@ export const pokemonData = [
     name: "Falinks",
     Color: "Yellow",
     generation: "8",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "TACKLE",
       "PROTECT",
@@ -93198,7 +94868,7 @@ export const pokemonData = [
     name: "Pincurchin",
     Color: "Purple",
     generation: "8",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "PECK",
       "THUNDERSHOCK",
@@ -93283,7 +94953,7 @@ export const pokemonData = [
     name: "Snom",
     Color: "White",
     generation: "8",
-    types: ["Ice", "Bug"],
+    types: ["ICE", "BUG"],
     moves: ["POWDERSNOW", "STRUGGLEBUG"],
     tutor_moves: [
       "ATTRACT",
@@ -93322,7 +94992,7 @@ export const pokemonData = [
     name: "Frosmoth",
     Color: "White",
     generation: "8",
-    types: ["Ice", "Bug"],
+    types: ["ICE", "BUG"],
     moves: [
       "ICYWIND",
       "POWDERSNOW",
@@ -93409,7 +95079,7 @@ export const pokemonData = [
     name: "Stonjourner",
     Color: "Gray",
     generation: "8",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "ROCKTHROW",
       "BLOCK",
@@ -93494,7 +95164,7 @@ export const pokemonData = [
     name: "Eiscue",
     Color: "Blue",
     generation: "8",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "POWDERSNOW",
       "TACKLE",
@@ -93580,7 +95250,7 @@ export const pokemonData = [
     name: "Indeedee",
     Color: "Purple",
     generation: "8",
-    types: ["Psychic", "Normal"],
+    types: ["PSYCHIC", "NORMAL"],
     moves: [
       "STOREDPOWER",
       "PLAYNICE",
@@ -93664,7 +95334,7 @@ export const pokemonData = [
     name: "Morpeko",
     Color: "Yellow",
     generation: "8",
-    types: ["Electric", "Dark"],
+    types: ["ELECTRIC", "DARK"],
     moves: [
       "THUNDERSHOCK",
       "TAILWHIP",
@@ -93767,7 +95437,7 @@ export const pokemonData = [
     name: "Cufant",
     Color: "Yellow",
     generation: "8",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -93857,7 +95527,7 @@ export const pokemonData = [
     name: "Copperajah",
     Color: "Green",
     generation: "8",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "HEAVYSLAM",
       "TACKLE",
@@ -93951,7 +95621,7 @@ export const pokemonData = [
     name: "Dracozolt",
     Color: "Green",
     generation: "8",
-    types: ["Electric", "Dragon"],
+    types: ["ELECTRIC", "DRAGON"],
     moves: [
       "TACKLE",
       "THUNDERSHOCK",
@@ -94033,7 +95703,7 @@ export const pokemonData = [
     name: "Arctozolt",
     Color: "Blue",
     generation: "8",
-    types: ["Electric", "Ice"],
+    types: ["ELECTRIC", "ICE"],
     moves: [
       "POWDERSNOW",
       "THUNDERSHOCK",
@@ -94112,7 +95782,7 @@ export const pokemonData = [
     name: "Dracovish",
     Color: "Green",
     generation: "8",
-    types: ["Water", "Dragon"],
+    types: ["WATER", "DRAGON"],
     moves: [
       "TACKLE",
       "WATERGUN",
@@ -94189,7 +95859,7 @@ export const pokemonData = [
     name: "Arctovish",
     Color: "Blue",
     generation: "8",
-    types: ["Water", "Ice"],
+    types: ["WATER", "ICE"],
     moves: [
       "POWDERSNOW",
       "WATERGUN",
@@ -94261,7 +95931,7 @@ export const pokemonData = [
     name: "Duraludon",
     Color: "White",
     generation: "8",
-    types: ["Steel", "Dragon"],
+    types: ["STEEL", "DRAGON"],
     moves: [
       "LEER",
       "METALCLAW",
@@ -94347,7 +96017,7 @@ export const pokemonData = [
     name: "Dreepy",
     Color: "Green",
     generation: "8",
-    types: ["Dragon", "Ghost"],
+    types: ["DRAGON", "GHOST"],
     moves: ["ASTONISH", "INFESTATION", "QUICKATTACK", "BITE"],
     tutor_moves: [
       "ATTRACT",
@@ -94395,7 +96065,7 @@ export const pokemonData = [
     name: "Drakloak",
     Color: "Green",
     generation: "8",
-    types: ["Dragon", "Ghost"],
+    types: ["DRAGON", "GHOST"],
     moves: [
       "DRAGONPULSE",
       "ASTONISH",
@@ -94486,7 +96156,7 @@ export const pokemonData = [
     name: "Dragapult",
     Color: "Green",
     generation: "8",
-    types: ["Dragon", "Ghost"],
+    types: ["DRAGON", "GHOST"],
     moves: [
       "DRAGONDARTS",
       "DRAGONBREATH",
@@ -94585,7 +96255,7 @@ export const pokemonData = [
     name: "Zacian",
     Color: "Blue",
     generation: "8",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "SACREDSWORD",
       "QUICKGUARD",
@@ -94675,7 +96345,7 @@ export const pokemonData = [
     name: "Zamazenta",
     Color: "Red",
     generation: "8",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "WIDEGUARD",
       "METALCLAW",
@@ -94770,7 +96440,7 @@ export const pokemonData = [
     name: "Eternatus",
     Color: "Purple",
     generation: "8",
-    types: ["Poison", "Dragon"],
+    types: ["POISON", "DRAGON"],
     moves: [
       "POISONTAIL",
       "CONFUSERAY",
@@ -94857,7 +96527,7 @@ export const pokemonData = [
     name: "Kubfu",
     Color: "Gray",
     generation: "8",
-    types: ["Fighting"],
+    types: ["FIGHTING"],
     moves: [
       "ROCKSMASH",
       "LEER",
@@ -94936,7 +96606,7 @@ export const pokemonData = [
     name: "Urshifu",
     Color: "Gray",
     generation: "8",
-    types: ["Fighting", "Dark"],
+    types: ["FIGHTING", "DARK"],
     moves: [
       "WICKEDBLOW",
       "SUCKERPUNCH",
@@ -95043,7 +96713,7 @@ export const pokemonData = [
     name: "Zarude",
     Color: "Black",
     generation: "8",
-    types: ["Dark", "Grass"],
+    types: ["DARK", "GRASS"],
     moves: [
       "BIND",
       "SCRATCH",
@@ -95152,7 +96822,7 @@ export const pokemonData = [
     name: "Regieleki",
     Color: "Yellow",
     generation: "8",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "THUNDERSHOCK",
       "RAPIDSPIN",
@@ -95225,7 +96895,7 @@ export const pokemonData = [
     name: "Regidrago",
     Color: "Green",
     generation: "8",
-    types: ["Dragon"],
+    types: ["DRAGON"],
     moves: [
       "TWISTER",
       "VISEGRIP",
@@ -95294,7 +96964,7 @@ export const pokemonData = [
     name: "Glastrier",
     Color: "White",
     generation: "8",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -95375,7 +97045,7 @@ export const pokemonData = [
     name: "Spectrier",
     Color: "Black",
     generation: "8",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -95454,7 +97124,7 @@ export const pokemonData = [
     name: "Calyrex",
     Color: "Green",
     generation: "8",
-    types: ["Psychic", "Grass"],
+    types: ["PSYCHIC", "GRASS"],
     moves: [
       "POUND",
       "MEGADRAIN",
@@ -95553,7 +97223,7 @@ export const pokemonData = [
     name: "Wyrdeer",
     Color: "Gray",
     generation: "8",
-    types: ["Normal", "Psychic"],
+    types: ["NORMAL", "PSYCHIC"],
     moves: [
       "PSYSHIELDBASH",
       "TACKLE",
@@ -95638,7 +97308,7 @@ export const pokemonData = [
     name: "Kleavor",
     Color: "Brown",
     generation: "8",
-    types: ["Bug", "Rock"],
+    types: ["BUG", "ROCK"],
     moves: [
       "STONEAXE",
       "QUICKATTACK",
@@ -95713,7 +97383,7 @@ export const pokemonData = [
     name: "Ursaluna",
     Color: "Brown",
     generation: "8",
-    types: ["Ground", "Normal"],
+    types: ["GROUND", "NORMAL"],
     moves: [
       "HEADLONGRUSH",
       "COVET",
@@ -95805,7 +97475,7 @@ export const pokemonData = [
     name: "Basculegion",
     Color: "Green",
     generation: "8",
-    types: ["Water", "Ghost"],
+    types: ["WATER", "GHOST"],
     moves: [
       "SHADOWBALL",
       "PHANTOMFORCE",
@@ -95881,7 +97551,7 @@ export const pokemonData = [
     name: "Sneasler",
     Color: "Blue",
     generation: "8",
-    types: ["Fighting", "Poison"],
+    types: ["FIGHTING", "POISON"],
     moves: [
       "DIRECLAW",
       "FLING",
@@ -95966,7 +97636,7 @@ export const pokemonData = [
     name: "Overqwil",
     Color: "Black",
     generation: "8",
-    types: ["Dark", "Poison"],
+    types: ["DARK", "POISON"],
     moves: [
       "POISONSTING",
       "TACKLE",
@@ -96047,7 +97717,7 @@ export const pokemonData = [
     name: "Enamorus",
     Color: "Pink",
     generation: "8",
-    types: ["Fairy", "Flying"],
+    types: ["FAIRY", "FLYING"],
     moves: [
       "ASTONISH",
       "FAIRYWIND",
@@ -96117,7 +97787,7 @@ export const pokemonData = [
     name: "Sprigatito",
     Color: "Green",
     generation: "9",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "SCRATCH",
       "TAILWHIP",
@@ -96183,7 +97853,7 @@ export const pokemonData = [
     name: "Floragato",
     Color: "Green",
     generation: "9",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "SCRATCH",
       "TAILWHIP",
@@ -96249,7 +97919,7 @@ export const pokemonData = [
     name: "Meowscarada",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Dark"],
+    types: ["GRASS", "DARK"],
     moves: [
       "FLOWERTRICK",
       "DOUBLETEAM",
@@ -96343,7 +98013,7 @@ export const pokemonData = [
     name: "Fuecoco",
     Color: "Red",
     generation: "9",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "TACKLE",
       "LEER",
@@ -96404,7 +98074,7 @@ export const pokemonData = [
     name: "Crocalor",
     Color: "Red",
     generation: "9",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "TACKLE",
       "LEER",
@@ -96467,7 +98137,7 @@ export const pokemonData = [
     name: "Skeledirge",
     Color: "Red",
     generation: "9",
-    types: ["Fire", "Ghost"],
+    types: ["FIRE", "GHOST"],
     moves: [
       "TORCHSONG",
       "SING",
@@ -96552,7 +98222,7 @@ export const pokemonData = [
     name: "Quaxly",
     Color: "Blue",
     generation: "9",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "GROWL",
@@ -96605,7 +98275,7 @@ export const pokemonData = [
     name: "Quaxwell",
     Color: "Blue",
     generation: "9",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "DOUBLEHIT",
       "POUND",
@@ -96666,7 +98336,7 @@ export const pokemonData = [
     name: "Quaquaval",
     Color: "Blue",
     generation: "9",
-    types: ["Water", "Fighting"],
+    types: ["WATER", "FIGHTING"],
     moves: [
       "AQUASTEP",
       "COUNTER",
@@ -96751,7 +98421,7 @@ export const pokemonData = [
     name: "Lechonk",
     Color: "Gray",
     generation: "9",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -96808,7 +98478,7 @@ export const pokemonData = [
     name: "Oinkologne",
     Color: "Gray",
     generation: "9",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "TAILWHIP",
@@ -96875,7 +98545,7 @@ export const pokemonData = [
     name: "Tarountula",
     Color: "White",
     generation: "9",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "TACKLE",
       "STRINGSHOT",
@@ -96933,7 +98603,7 @@ export const pokemonData = [
     name: "Spidops",
     Color: "Green",
     generation: "9",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "SILKTRAP",
       "TACKLE",
@@ -97005,7 +98675,7 @@ export const pokemonData = [
     name: "Nymble",
     Color: "Gray",
     generation: "9",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "TACKLE",
       "LEER",
@@ -97052,7 +98722,7 @@ export const pokemonData = [
     name: "Lokix",
     Color: "Gray",
     generation: "9",
-    types: ["Bug", "Dark"],
+    types: ["BUG", "DARK"],
     moves: [
       "LUNGE",
       "LOWKICK",
@@ -97122,7 +98792,7 @@ export const pokemonData = [
     name: "Pawmi",
     Color: "Yellow",
     generation: "9",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "SCRATCH",
       "GROWL",
@@ -97185,7 +98855,7 @@ export const pokemonData = [
     name: "Pawmo",
     Color: "Yellow",
     generation: "9",
-    types: ["Electric", "Fighting"],
+    types: ["ELECTRIC", "FIGHTING"],
     moves: [
       "ARMTHRUST",
       "SCRATCH",
@@ -97256,7 +98926,7 @@ export const pokemonData = [
     name: "Pawmot",
     Color: "Yellow",
     generation: "9",
-    types: ["Electric", "Fighting"],
+    types: ["ELECTRIC", "FIGHTING"],
     moves: [
       "REVIVALBLESSING",
       "WILDCHARGE",
@@ -97346,7 +99016,7 @@ export const pokemonData = [
     name: "Tandemaus",
     Color: "White",
     generation: "9",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "POUND",
       "BABYDOLLEYES",
@@ -97417,7 +99087,7 @@ export const pokemonData = [
     name: "Maushold",
     Color: "White",
     generation: "9",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "FOLLOWME",
       "TIDYUP",
@@ -97487,7 +99157,7 @@ export const pokemonData = [
     name: "Fidough",
     Color: "Yellow",
     generation: "9",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -97549,7 +99219,7 @@ export const pokemonData = [
     name: "Dachsbun",
     Color: "Brown",
     generation: "9",
-    types: ["Fairy"],
+    types: ["FAIRY"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -97616,7 +99286,7 @@ export const pokemonData = [
     name: "Smoliv",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Normal"],
+    types: ["GRASS", "NORMAL"],
     moves: [
       "TACKLE",
       "SWEETSCENT",
@@ -97666,7 +99336,7 @@ export const pokemonData = [
     name: "Dolliv",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Normal"],
+    types: ["GRASS", "NORMAL"],
     moves: [
       "TACKLE",
       "SWEETSCENT",
@@ -97716,7 +99386,7 @@ export const pokemonData = [
     name: "Arboliva",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Normal"],
+    types: ["GRASS", "NORMAL"],
     moves: [
       "MIRRORCOAT",
       "SAFEGUARD",
@@ -97783,7 +99453,7 @@ export const pokemonData = [
     name: "Squawkabilly",
     Color: "Green",
     generation: "9",
-    types: ["Normal", "Flying"],
+    types: ["NORMAL", "FLYING"],
     moves: [
       "GROWL",
       "PECK",
@@ -97847,7 +99517,7 @@ export const pokemonData = [
     name: "Nacli",
     Color: "Brown",
     generation: "9",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "TACKLE",
       "HARDEN",
@@ -97905,7 +99575,7 @@ export const pokemonData = [
     name: "Naclstack",
     Color: "Brown",
     generation: "9",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "SALTCURE",
       "TACKLE",
@@ -97968,7 +99638,7 @@ export const pokemonData = [
     name: "Garganacl",
     Color: "Brown",
     generation: "9",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "HAMMERARM",
       "BLOCK",
@@ -98046,7 +99716,7 @@ export const pokemonData = [
     name: "Charcadet",
     Color: "Red",
     generation: "9",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "EMBER",
       "LEER",
@@ -98090,7 +99760,7 @@ export const pokemonData = [
     name: "Armarouge",
     Color: "Red",
     generation: "9",
-    types: ["Fire", "Psychic"],
+    types: ["FIRE", "PSYCHIC"],
     moves: [
       "PSYSHOCK",
       "MYSTICALFIRE",
@@ -98169,7 +99839,7 @@ export const pokemonData = [
     name: "Ceruledge",
     Color: "Purple",
     generation: "9",
-    types: ["Fire", "Ghost"],
+    types: ["FIRE", "GHOST"],
     moves: [
       "SHADOWCLAW",
       "NIGHTSLASH",
@@ -98248,7 +99918,7 @@ export const pokemonData = [
     name: "Tadbulb",
     Color: "Yellow",
     generation: "9",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "TACKLE",
       "MUDSLAP",
@@ -98304,7 +99974,7 @@ export const pokemonData = [
     name: "Bellibolt",
     Color: "Green",
     generation: "9",
-    types: ["Electric"],
+    types: ["ELECTRIC"],
     moves: [
       "SLACKOFF",
       "TACKLE",
@@ -98365,7 +100035,7 @@ export const pokemonData = [
     name: "Wattrel",
     Color: "Black",
     generation: "9",
-    types: ["Electric", "Flying"],
+    types: ["ELECTRIC", "FLYING"],
     moves: [
       "PECK",
       "GROWL",
@@ -98432,7 +100102,7 @@ export const pokemonData = [
     name: "Kilowattrel",
     Color: "Yellow",
     generation: "9",
-    types: ["Electric", "Flying"],
+    types: ["ELECTRIC", "FLYING"],
     moves: [
       "ELECTROBALL",
       "PECK",
@@ -98498,7 +100168,7 @@ export const pokemonData = [
     name: "Maschiff",
     Color: "Brown",
     generation: "9",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "TACKLE",
       "LEER",
@@ -98558,7 +100228,7 @@ export const pokemonData = [
     name: "Mabosstiff",
     Color: "Gray",
     generation: "9",
-    types: ["Dark"],
+    types: ["DARK"],
     moves: [
       "COMEUPPANCE",
       "TACKLE",
@@ -98628,7 +100298,7 @@ export const pokemonData = [
     name: "Shroodle",
     Color: "Gray",
     generation: "9",
-    types: ["Poison", "Normal"],
+    types: ["POISON", "NORMAL"],
     moves: [
       "SCRATCH",
       "LEER",
@@ -98704,7 +100374,7 @@ export const pokemonData = [
     name: "Grafaiai",
     Color: "Gray",
     generation: "9",
-    types: ["Poison", "Normal"],
+    types: ["POISON", "NORMAL"],
     moves: [
       "DOODLE",
       "SCRATCH",
@@ -98780,7 +100450,7 @@ export const pokemonData = [
     name: "Bramblin",
     Color: "Brown",
     generation: "9",
-    types: ["Grass", "Ghost"],
+    types: ["GRASS", "GHOST"],
     moves: [
       "ASTONISH",
       "DEFENSECURL",
@@ -98838,7 +100508,7 @@ export const pokemonData = [
     name: "Brambleghast",
     Color: "Brown",
     generation: "9",
-    types: ["Grass", "Ghost"],
+    types: ["GRASS", "GHOST"],
     moves: [
       "ASTONISH",
       "DEFENSECURL",
@@ -98899,7 +100569,7 @@ export const pokemonData = [
     name: "Toedscool",
     Color: "Yellow",
     generation: "9",
-    types: ["Ground", "Grass"],
+    types: ["GROUND", "GRASS"],
     moves: [
       "WRAP",
       "MUDSLAP",
@@ -98979,7 +100649,7 @@ export const pokemonData = [
     name: "Toedscruel",
     Color: "Black",
     generation: "9",
-    types: ["Ground", "Grass"],
+    types: ["GROUND", "GRASS"],
     moves: [
       "REFLECTTYPE",
       "WRAP",
@@ -99054,7 +100724,7 @@ export const pokemonData = [
     name: "Klawf",
     Color: "Red",
     generation: "9",
-    types: ["Rock"],
+    types: ["ROCK"],
     moves: [
       "VISEGRIP",
       "ROCKTHROW",
@@ -99128,7 +100798,7 @@ export const pokemonData = [
     name: "Capsakid",
     Color: "Green",
     generation: "9",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "LEAFAGE",
       "LEER",
@@ -99181,7 +100851,7 @@ export const pokemonData = [
     name: "Scovillain",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Fire"],
+    types: ["GRASS", "FIRE"],
     moves: [
       "SPICYEXTRACT",
       "FLAMETHROWER",
@@ -99250,7 +100920,7 @@ export const pokemonData = [
     name: "Rellor",
     Color: "Brown",
     generation: "9",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "TACKLE",
       "DEFENSECURL",
@@ -99299,7 +100969,7 @@ export const pokemonData = [
     name: "Rabsca",
     Color: "Green",
     generation: "9",
-    types: ["Bug", "Psychic"],
+    types: ["BUG", "PSYCHIC"],
     moves: [
       "REVIVALBLESSING",
       "SAFEGUARD",
@@ -99388,7 +101058,7 @@ export const pokemonData = [
     name: "Flittle",
     Color: "Yellow",
     generation: "9",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "PECK",
       "GROWL",
@@ -99447,7 +101117,7 @@ export const pokemonData = [
     name: "Espathra",
     Color: "Yellow",
     generation: "9",
-    types: ["Psychic"],
+    types: ["PSYCHIC"],
     moves: [
       "LUMINACRASH",
       "DRILLPECK",
@@ -99529,7 +101199,7 @@ export const pokemonData = [
     name: "Tinkatink",
     Color: "Pink",
     generation: "9",
-    types: ["Fairy", "Steel"],
+    types: ["FAIRY", "STEEL"],
     moves: [
       "ASTONISH",
       "FAIRYWIND",
@@ -99591,7 +101261,7 @@ export const pokemonData = [
     name: "Tinkatuff",
     Color: "Pink",
     generation: "9",
-    types: ["Fairy", "Steel"],
+    types: ["FAIRY", "STEEL"],
     moves: [
       "ASTONISH",
       "FAIRYWIND",
@@ -99654,7 +101324,7 @@ export const pokemonData = [
     name: "Tinkaton",
     Color: "Pink",
     generation: "9",
-    types: ["Fairy", "Steel"],
+    types: ["FAIRY", "STEEL"],
     moves: [
       "GIGATONHAMMER",
       "ASTONISH",
@@ -99722,7 +101392,7 @@ export const pokemonData = [
     name: "Wiglett",
     Color: "White",
     generation: "9",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "SANDATTACK",
@@ -99777,7 +101447,7 @@ export const pokemonData = [
     name: "Wugtrio",
     Color: "Red",
     generation: "9",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "SANDATTACK",
@@ -99836,7 +101506,7 @@ export const pokemonData = [
     name: "Bombirdier",
     Color: "White",
     generation: "9",
-    types: ["Flying", "Dark"],
+    types: ["FLYING", "DARK"],
     moves: [
       "WINGATTACK",
       "LEER",
@@ -99917,7 +101587,7 @@ export const pokemonData = [
     name: "Finizen",
     Color: "Blue",
     generation: "9",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "WATERGUN",
       "SUPERSONIC",
@@ -99974,7 +101644,7 @@ export const pokemonData = [
     name: "Palafin",
     Color: "Blue",
     generation: "9",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "FLIPTURN",
       "JETPUNCH",
@@ -100055,7 +101725,7 @@ export const pokemonData = [
     name: "Varoom",
     Color: "Gray",
     generation: "9",
-    types: ["Steel", "Poison"],
+    types: ["STEEL", "POISON"],
     moves: [
       "LICK",
       "POISONGAS",
@@ -100118,7 +101788,7 @@ export const pokemonData = [
     name: "Revavroom",
     Color: "Gray",
     generation: "9",
-    types: ["Steel", "Poison"],
+    types: ["STEEL", "POISON"],
     moves: [
       "SHIFTGEAR",
       "MAGNETRISE",
@@ -100192,7 +101862,7 @@ export const pokemonData = [
     name: "Cyclizar",
     Color: "Green",
     generation: "9",
-    types: ["Dragon", "Normal"],
+    types: ["DRAGON", "NORMAL"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -100264,7 +101934,7 @@ export const pokemonData = [
     name: "Orthworm",
     Color: "Pink",
     generation: "9",
-    types: ["Steel"],
+    types: ["STEEL"],
     moves: [
       "TACKLE",
       "WRAP",
@@ -100328,7 +101998,7 @@ export const pokemonData = [
     name: "Glimmet",
     Color: "Blue",
     generation: "9",
-    types: ["Rock", "Poison"],
+    types: ["ROCK", "POISON"],
     moves: [
       "ROCKTHROW",
       "HARDEN",
@@ -100388,7 +102058,7 @@ export const pokemonData = [
     name: "Glimmora",
     Color: "Blue",
     generation: "9",
-    types: ["Rock", "Poison"],
+    types: ["ROCK", "POISON"],
     moves: [
       "MORTALSPIN",
       "SPIKYSHIELD",
@@ -100457,7 +102127,7 @@ export const pokemonData = [
     name: "Greavard",
     Color: "White",
     generation: "9",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -100532,7 +102202,7 @@ export const pokemonData = [
     name: "Houndstone",
     Color: "White",
     generation: "9",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: [
       "LASTRESPECTS",
       "TACKLE",
@@ -100604,7 +102274,7 @@ export const pokemonData = [
     name: "Flamigo",
     Color: "Pink",
     generation: "9",
-    types: ["Flying", "Fighting"],
+    types: ["FLYING", "FIGHTING"],
     moves: [
       "PECK",
       "COPYCAT",
@@ -100672,7 +102342,7 @@ export const pokemonData = [
     name: "Cetoddle",
     Color: "White",
     generation: "9",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "TACKLE",
       "POWDERSNOW",
@@ -100743,7 +102413,7 @@ export const pokemonData = [
     name: "Cetitan",
     Color: "White",
     generation: "9",
-    types: ["Ice"],
+    types: ["ICE"],
     moves: [
       "TACKLE",
       "POWDERSNOW",
@@ -100811,7 +102481,7 @@ export const pokemonData = [
     name: "Veluza",
     Color: "Gray",
     generation: "9",
-    types: ["Water", "Psychic"],
+    types: ["WATER", "PSYCHIC"],
     moves: [
       "TACKLE",
       "AQUAJET",
@@ -100874,7 +102544,7 @@ export const pokemonData = [
     name: "Dondozo",
     Color: "Blue",
     generation: "9",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "TACKLE",
       "SUPERSONIC",
@@ -100936,7 +102606,7 @@ export const pokemonData = [
     name: "Tatsugiri",
     Color: "Red",
     generation: "9",
-    types: ["Dragon", "Water"],
+    types: ["DRAGON", "WATER"],
     moves: [
       "WATERGUN",
       "SPLASH",
@@ -100989,7 +102659,7 @@ export const pokemonData = [
     name: "Annihilape",
     Color: "Gray",
     generation: "9",
-    types: ["Fighting", "Ghost"],
+    types: ["FIGHTING", "GHOST"],
     moves: [
       "SHADOWPUNCH",
       "COUNTER",
@@ -101085,7 +102755,7 @@ export const pokemonData = [
     name: "Clodsire",
     Color: "Brown",
     generation: "9",
-    types: ["Poison", "Ground"],
+    types: ["POISON", "GROUND"],
     moves: [
       "AMNESIA",
       "TAILWHIP",
@@ -101164,7 +102834,7 @@ export const pokemonData = [
     name: "Farigiraf",
     Color: "Brown",
     generation: "9",
-    types: ["Normal", "Psychic"],
+    types: ["NORMAL", "PSYCHIC"],
     moves: [
       "POWERSWAP",
       "GUARDSWAP",
@@ -101257,7 +102927,7 @@ export const pokemonData = [
     name: "Dudunsparce",
     Color: "Yellow",
     generation: "9",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "FLAIL",
       "DEFENSECURL",
@@ -101361,7 +103031,7 @@ export const pokemonData = [
     name: "Kingambit",
     Color: "Black",
     generation: "9",
-    types: ["Dark", "Steel"],
+    types: ["DARK", "STEEL"],
     moves: [
       "KOWTOWCLEAVE",
       "METALBURST",
@@ -101438,7 +103108,7 @@ export const pokemonData = [
     name: "Great Tusk",
     Color: "Purple",
     generation: "9",
-    types: ["Ground", "Fighting"],
+    types: ["GROUND", "FIGHTING"],
     moves: [
       "SUNNYDAY",
       "HORNATTACK",
@@ -101519,7 +103189,7 @@ export const pokemonData = [
     name: "Scream Tail",
     Color: "Pink",
     generation: "9",
-    types: ["Fairy", "Psychic"],
+    types: ["FAIRY", "PSYCHIC"],
     moves: [
       "SUNNYDAY",
       "POUND",
@@ -101621,7 +103291,7 @@ export const pokemonData = [
     name: "Brute Bonnet",
     Color: "White",
     generation: "9",
-    types: ["Grass", "Dark"],
+    types: ["GRASS", "DARK"],
     moves: [
       "SUNNYDAY",
       "ABSORB",
@@ -101688,7 +103358,7 @@ export const pokemonData = [
     name: "Flutter Mane",
     Color: "Gray",
     generation: "9",
-    types: ["Ghost", "Fairy"],
+    types: ["GHOST", "FAIRY"],
     moves: [
       "SUNNYDAY",
       "CONFUSERAY",
@@ -101760,7 +103430,7 @@ export const pokemonData = [
     name: "Slither Wing",
     Color: "White",
     generation: "9",
-    types: ["Bug", "Fighting"],
+    types: ["BUG", "FIGHTING"],
     moves: [
       "SUNNYDAY",
       "GUST",
@@ -101838,7 +103508,7 @@ export const pokemonData = [
     name: "Sandy Shocks",
     Color: "Gray",
     generation: "9",
-    types: ["Electric", "Ground"],
+    types: ["ELECTRIC", "GROUND"],
     moves: [
       "SUNNYDAY",
       "THUNDERWAVE",
@@ -101914,7 +103584,7 @@ export const pokemonData = [
     name: "Iron Treads",
     Color: "Gray",
     generation: "9",
-    types: ["Ground", "Steel"],
+    types: ["GROUND", "STEEL"],
     moves: [
       "ELECTRICTERRAIN",
       "HORNATTACK",
@@ -101989,7 +103659,7 @@ export const pokemonData = [
     name: "Iron Bundle",
     Color: "Red",
     generation: "9",
-    types: ["Ice", "Water"],
+    types: ["ICE", "WATER"],
     moves: [
       "ELECTRICTERRAIN",
       "PRESENT",
@@ -102054,7 +103724,7 @@ export const pokemonData = [
     name: "Iron Hands",
     Color: "Gray",
     generation: "9",
-    types: ["Fighting", "Electric"],
+    types: ["FIGHTING", "ELECTRIC"],
     moves: [
       "ELECTRICTERRAIN",
       "SANDATTACK",
@@ -102130,7 +103800,7 @@ export const pokemonData = [
     name: "Iron Jugulis",
     Color: "Blue",
     generation: "9",
-    types: ["Dark", "Flying"],
+    types: ["DARK", "FLYING"],
     moves: [
       "ELECTRICTERRAIN",
       "WORKUP",
@@ -102211,7 +103881,7 @@ export const pokemonData = [
     name: "Iron Moth",
     Color: "White",
     generation: "9",
-    types: ["Fire", "Poison"],
+    types: ["FIRE", "POISON"],
     moves: [
       "ELECTRICTERRAIN",
       "GUST",
@@ -102287,7 +103957,7 @@ export const pokemonData = [
     name: "Iron Thorns",
     Color: "Green",
     generation: "9",
-    types: ["Rock", "Electric"],
+    types: ["ROCK", "ELECTRIC"],
     moves: [
       "ELECTRICTERRAIN",
       "ROCKTHROW",
@@ -102390,7 +104060,7 @@ export const pokemonData = [
     name: "Frigibax",
     Color: "Gray",
     generation: "9",
-    types: ["Dragon", "Ice"],
+    types: ["DRAGON", "ICE"],
     moves: [
       "TACKLE",
       "LEER",
@@ -102443,7 +104113,7 @@ export const pokemonData = [
     name: "Arctibax",
     Color: "Blue",
     generation: "9",
-    types: ["Dragon", "Ice"],
+    types: ["DRAGON", "ICE"],
     moves: [
       "TACKLE",
       "LEER",
@@ -102499,7 +104169,7 @@ export const pokemonData = [
     name: "Baxcalibur",
     Color: "Blue",
     generation: "9",
-    types: ["Dragon", "Ice"],
+    types: ["DRAGON", "ICE"],
     moves: [
       "GLAIVERUSH",
       "SNOWSCAPE",
@@ -102575,7 +104245,7 @@ export const pokemonData = [
     name: "Gimmighoul",
     Color: "Red",
     generation: "9",
-    types: ["Ghost"],
+    types: ["GHOST"],
     moves: ["ASTONISH", "TACKLE"],
     tutor_moves: [
       "CONFUSERAY",
@@ -102603,7 +104273,7 @@ export const pokemonData = [
     name: "Gholdengo",
     Color: "Yellow",
     generation: "9",
-    types: ["Steel", "Ghost"],
+    types: ["STEEL", "GHOST"],
     moves: [
       "ASTONISH",
       "TACKLE",
@@ -102668,7 +104338,7 @@ export const pokemonData = [
     name: "Wo-Chien",
     Color: "Brown",
     generation: "9",
-    types: ["Dark", "Grass"],
+    types: ["DARK", "GRASS"],
     moves: [
       "ABSORB",
       "SPITE",
@@ -102740,7 +104410,7 @@ export const pokemonData = [
     name: "Chien-Pao",
     Color: "White",
     generation: "9",
-    types: ["Dark", "Ice"],
+    types: ["DARK", "ICE"],
     moves: [
       "POWDERSNOW",
       "SPITE",
@@ -102806,7 +104476,7 @@ export const pokemonData = [
     name: "Ting-Lu",
     Color: "Brown",
     generation: "9",
-    types: ["Dark", "Ground"],
+    types: ["DARK", "GROUND"],
     moves: [
       "SANDTOMB",
       "SPITE",
@@ -102875,7 +104545,7 @@ export const pokemonData = [
     name: "Chi-Yu",
     Color: "Red",
     generation: "9",
-    types: ["Dark", "Fire"],
+    types: ["DARK", "FIRE"],
     moves: [
       "EMBER",
       "SPITE",
@@ -102941,7 +104611,7 @@ export const pokemonData = [
     name: "Roaring Moon",
     Color: "Blue",
     generation: "9",
-    types: ["Dragon", "Dark"],
+    types: ["DRAGON", "DARK"],
     moves: [
       "SUNNYDAY",
       "JAWLOCK",
@@ -103033,7 +104703,7 @@ export const pokemonData = [
     name: "Iron Valiant",
     Color: "White",
     generation: "9",
-    types: ["Fairy", "Fighting"],
+    types: ["FAIRY", "FIGHTING"],
     moves: [
       "ELECTRICTERRAIN",
       "DISABLE",
@@ -103131,7 +104801,7 @@ export const pokemonData = [
     name: "Koraidon",
     Color: "Red",
     generation: "9",
-    types: ["Fighting", "Dragon"],
+    types: ["FIGHTING", "DRAGON"],
     moves: [
       "SUNNYDAY",
       "BREAKINGSWIPE",
@@ -103227,7 +104897,7 @@ export const pokemonData = [
     name: "Miraidon",
     Color: "Purple",
     generation: "9",
-    types: ["Electric", "Dragon"],
+    types: ["ELECTRIC", "DRAGON"],
     moves: [
       "ELECTRICTERRAIN",
       "THUNDERSHOCK",
@@ -103306,7 +104976,7 @@ export const pokemonData = [
     name: "Walking Wake",
     Color: "Blue",
     generation: "9",
-    types: ["Water", "Dragon"],
+    types: ["WATER", "DRAGON"],
     moves: [
       "SUNNYDAY",
       "HONECLAWS",
@@ -103380,7 +105050,7 @@ export const pokemonData = [
     name: "Iron Leaves",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Psychic"],
+    types: ["GRASS", "PSYCHIC"],
     moves: [
       "ELECTRICTERRAIN",
       "QUASH",
@@ -103457,7 +105127,7 @@ export const pokemonData = [
     name: "Dipplin",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Dragon"],
+    types: ["GRASS", "DRAGON"],
     moves: [
       "DOUBLEHIT",
       "INFESTATION",
@@ -103517,7 +105187,7 @@ export const pokemonData = [
     name: "Poltchageist",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Ghost"],
+    types: ["GRASS", "GHOST"],
     moves: [
       "ASTONISH",
       "WITHDRAW",
@@ -103573,7 +105243,7 @@ export const pokemonData = [
     name: "Sinistcha",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Ghost"],
+    types: ["GRASS", "GHOST"],
     moves: [
       "MATCHAGOTCHA",
       "ASTONISH",
@@ -103631,7 +105301,7 @@ export const pokemonData = [
     name: "Okidogi",
     Color: "Black",
     generation: "9",
-    types: ["Poison", "Fighting"],
+    types: ["POISON", "FIGHTING"],
     moves: [
       "BITE",
       "LOWKICK",
@@ -103714,7 +105384,7 @@ export const pokemonData = [
     name: "Munkidori",
     Color: "Black",
     generation: "9",
-    types: ["Poison", "Psychic"],
+    types: ["POISON", "PSYCHIC"],
     moves: [
       "SCRATCH",
       "CONFUSION",
@@ -103790,7 +105460,7 @@ export const pokemonData = [
     name: "Fezandipiti",
     Color: "Black",
     generation: "9",
-    types: ["Poison", "Fairy"],
+    types: ["POISON", "FAIRY"],
     moves: [
       "DOUBLEKICK",
       "PECK",
@@ -103867,7 +105537,7 @@ export const pokemonData = [
     name: "Ogerpon",
     Color: "Green",
     generation: "9",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "DOUBLEKICK",
       "COUNTER",
@@ -103944,7 +105614,7 @@ export const pokemonData = [
     name: "Archaludon",
     Color: "White",
     generation: "9",
-    types: ["Steel", "Dragon"],
+    types: ["STEEL", "DRAGON"],
     moves: [
       "ELECTROSHOT",
       "LEER",
@@ -104021,7 +105691,7 @@ export const pokemonData = [
     name: "Hydrapple",
     Color: "Green",
     generation: "9",
-    types: ["Grass", "Dragon"],
+    types: ["GRASS", "DRAGON"],
     moves: [
       "FICKLEBEAM",
       "YAWN",
@@ -104096,7 +105766,7 @@ export const pokemonData = [
     name: "Gouging Fire",
     Color: "Brown",
     generation: "9",
-    types: ["Fire", "Dragon"],
+    types: ["FIRE", "DRAGON"],
     moves: [
       "DOUBLEKICK",
       "ANCIENTPOWER",
@@ -104176,7 +105846,7 @@ export const pokemonData = [
     name: "Raging Bolt",
     Color: "Yellow",
     generation: "9",
-    types: ["Electric", "Dragon"],
+    types: ["ELECTRIC", "DRAGON"],
     moves: [
       "ANCIENTPOWER",
       "TWISTER",
@@ -104252,7 +105922,7 @@ export const pokemonData = [
     name: "Iron Boulder",
     Color: "Gray",
     generation: "9",
-    types: ["Rock", "Psychic"],
+    types: ["ROCK", "PSYCHIC"],
     moves: [
       "HORNATTACK",
       "LEER",
@@ -104320,7 +105990,7 @@ export const pokemonData = [
     name: "Iron Crown",
     Color: "Blue",
     generation: "9",
-    types: ["Steel", "Psychic"],
+    types: ["STEEL", "PSYCHIC"],
     moves: [
       "LEER",
       "ELECTRICTERRAIN",
@@ -104391,7 +106061,7 @@ export const pokemonData = [
     name: "Terapagos",
     Color: "Blue",
     generation: "9",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "WITHDRAW",
       "TRIATTACK",
@@ -104468,7 +106138,7 @@ export const pokemonData = [
     name: "Pecharunt",
     Color: "Purple",
     generation: "9",
-    types: ["Poison", "Ghost"],
+    types: ["POISON", "GHOST"],
     moves: [
       "DEFENSECURL",
       "ROLLOUT",
@@ -104520,7 +106190,7 @@ export const pokemonData = [
     name: "Behbidar",
     Color: "Red",
     generation: "0",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -104558,7 +106228,7 @@ export const pokemonData = [
     name: "Behcedro",
     Color: "Red",
     generation: "0",
-    types: ["Grass"],
+    types: ["GRASS"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -104596,7 +106266,7 @@ export const pokemonData = [
     name: "Behdarex",
     Color: "Red",
     generation: "0",
-    types: ["Grass", "Ground"],
+    types: ["GRASS", "GROUND"],
     moves: [
       "TACKLE",
       "GROWL",
@@ -104634,7 +106304,7 @@ export const pokemonData = [
     name: "Zisinge",
     Color: "Red",
     generation: "0",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "SANDATTACK",
@@ -104672,7 +106342,7 @@ export const pokemonData = [
     name: "Zissun",
     Color: "Red",
     generation: "0",
-    types: ["Fire"],
+    types: ["FIRE"],
     moves: [
       "SCRATCH",
       "SANDATTACK",
@@ -104710,7 +106380,7 @@ export const pokemonData = [
     name: "Zizzenit",
     Color: "Red",
     generation: "0",
-    types: ["Fire", "Flying"],
+    types: ["FIRE", "FLYING"],
     moves: [
       "SCRATCH",
       "SANDATTACK",
@@ -104748,7 +106418,7 @@ export const pokemonData = [
     name: "Leviatiny",
     Color: "Red",
     generation: "0",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "TAILWHIP",
@@ -104786,7 +106456,7 @@ export const pokemonData = [
     name: "Leviateen",
     Color: "Red",
     generation: "0",
-    types: ["Water"],
+    types: ["WATER"],
     moves: [
       "POUND",
       "TAILWHIP",
@@ -104824,7 +106494,7 @@ export const pokemonData = [
     name: "Leviatitan",
     Color: "Red",
     generation: "0",
-    types: ["Water", "Poison"],
+    types: ["WATER", "POISON"],
     moves: [
       "POUND",
       "TAILWHIP",
@@ -104862,7 +106532,7 @@ export const pokemonData = [
     name: "Fataltty",
     Color: "Black",
     generation: "10",
-    types: ["Dark", "Ghost"],
+    types: ["DARK", "GHOST"],
     moves: [
       "TACKLE",
       "ATTRACT",
@@ -104900,7 +106570,7 @@ export const pokemonData = [
     name: "Sorrowoof",
     Color: "Brown",
     generation: "10",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [
       "TACKLE",
       "HOWL",
@@ -104925,7 +106595,7 @@ export const pokemonData = [
     name: "Woofighter",
     Color: "Brown",
     generation: "10",
-    types: ["Normal", "Fighting"],
+    types: ["NORMAL", "FIGHTING"],
     moves: [
       "CLOSECOMBAT",
       "TACKLE",
@@ -104964,7 +106634,7 @@ export const pokemonData = [
     name: "Growrage",
     Color: "Red",
     generation: "0",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [],
     tutor_moves: [],
     egg_moves: [],
@@ -104975,7 +106645,7 @@ export const pokemonData = [
     name: "Twylican",
     Color: "Red",
     generation: "0",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [],
     tutor_moves: [],
     egg_moves: [],
@@ -104986,7 +106656,7 @@ export const pokemonData = [
     name: "Spibby",
     Color: "Red",
     generation: "0",
-    types: ["Bug", "Dark"],
+    types: ["BUG", "DARK"],
     moves: [
       "TWINEEDLE",
       "STRINGSHOT",
@@ -105019,7 +106689,7 @@ export const pokemonData = [
     name: "Kingder",
     Color: "Red",
     generation: "0",
-    types: ["Bug", "Dark"],
+    types: ["BUG", "DARK"],
     moves: [
       "TWINEEDLE",
       "STRINGSHOT",
@@ -105055,7 +106725,7 @@ export const pokemonData = [
     name: "Yuntter",
     Color: "Red",
     generation: "0",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [],
     tutor_moves: ["CRABHAMMER"],
     egg_moves: [],
@@ -105066,7 +106736,7 @@ export const pokemonData = [
     name: "Gumstter",
     Color: "Red",
     generation: "0",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [],
     tutor_moves: [],
     egg_moves: [],
@@ -105077,7 +106747,7 @@ export const pokemonData = [
     name: "Woolarva",
     Color: "Red",
     generation: "0",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "TACKLE",
       "STRINGSHOT",
@@ -105110,7 +106780,7 @@ export const pokemonData = [
     name: "Woobacoon",
     Color: "Red",
     generation: "0",
-    types: ["Bug"],
+    types: ["BUG"],
     moves: [
       "TACKLE",
       "STRINGSHOT",
@@ -105143,7 +106813,7 @@ export const pokemonData = [
     name: "Weamoth",
     Color: "Red",
     generation: "0",
-    types: ["Bug", "Fairy"],
+    types: ["BUG", "FAIRY"],
     moves: [
       "TACKLE",
       "STRINGSHOT",
@@ -105181,7 +106851,7 @@ export const pokemonData = [
     name: "Lizarobos",
     Color: "Red",
     generation: "0",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [],
     tutor_moves: [],
     egg_moves: [],
@@ -105192,7 +106862,7 @@ export const pokemonData = [
     name: "Komoboros",
     Color: "Red",
     generation: "0",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [],
     tutor_moves: [],
     egg_moves: [],
@@ -105203,7 +106873,7 @@ export const pokemonData = [
     name: "Ryuroboros",
     Color: "Red",
     generation: "0",
-    types: ["Normal"],
+    types: ["NORMAL"],
     moves: [],
     tutor_moves: [],
     egg_moves: [],
@@ -105214,7 +106884,7 @@ export const pokemonData = [
     name: "Puprout",
     Color: "Red",
     generation: "0",
-    types: ["Grass", "Dark"],
+    types: ["GRASS", "DARK"],
     moves: [
       "TACKLE",
       "HOWL",
@@ -105252,7 +106922,7 @@ export const pokemonData = [
     name: "Bushiera",
     Color: "Red",
     generation: "0",
-    types: ["Grass", "Dark"],
+    types: ["GRASS", "DARK"],
     moves: [
       "TACKLE",
       "HOWL",
@@ -105290,7 +106960,7 @@ export const pokemonData = [
     name: "Werewoods",
     Color: "Red",
     generation: "0",
-    types: ["Grass", "Dark"],
+    types: ["GRASS", "DARK"],
     moves: [
       "TACKLE",
       "HOWL",
@@ -105519,4504 +107189,4802 @@ export const trainersData = [
 export const itemsData = [
   {
     internalName: "REPEL",
-    name: "Repel",
+    name: "Repelente",
     description:
-      "An item that prevents weak wild Pokémon from appearing for 100 steps after its use.",
+      "Un elemento que evita que aparezcan Pokémon salvajes débiles durante 100 pasos después de su uso.",
     pocket: 1,
   },
   {
     internalName: "SUPERREPEL",
-    name: "Super Repel",
+    name: "Superrepelente",
     description:
-      "An item that prevents weak wild Pokémon from appearing for 200 steps after its use.",
+      "Un objeto que evita que aparezcan Pokémon salvajes débiles durante 200 pasos después de su uso.",
     pocket: 1,
   },
   {
     internalName: "MAXREPEL",
-    name: "Max Repel",
+    name: "Repelente Máximo",
     description:
-      "An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",
+      "Un objeto que evita que aparezcan Pokémon salvajes débiles durante 250 pasos después de su uso.",
     pocket: 1,
   },
   {
     internalName: "BLACKFLUTE",
-    name: "Black Flute",
+    name: "Flauta Negra",
     description:
-      "A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear.",
+      "Una flauta negra hecha de vidrio soplado. Su melodía hace que sea menos probable que aparezcan Pokémon salvajes.",
     pocket: 1,
   },
   {
     internalName: "WHITEFLUTE",
-    name: "White Flute",
+    name: "Flauta Blanca",
     description:
-      "A white flute made from blown glass. Its melody makes wild Pokémon more likely to appear.",
+      "Una flauta blanca hecha de vidrio soplado. Su melodía hace que sea más probable que aparezcan Pokémon salvajes.",
     pocket: 1,
   },
   {
     internalName: "HONEY",
-    name: "Honey",
+    name: "Miel",
     description:
-      "A sweet honey with a lush aroma that attracts wild Pokémon when used in tall grass, in caves, or elsewhere.",
+      "Una miel dulce con un aroma exuberante que atrae a los Pokémon salvajes cuando se usa en la hierba alta, en cuevas o en otros lugares.",
     pocket: 1,
   },
   {
     internalName: "REDSHARD",
-    name: "Red Shard",
+    name: "Parte Roja",
     description:
-      "A small red shard. It appears to be from some sort of implement made long ago.",
+      "Un pequeño fragmento rojo. Parece ser de algún tipo de implemento fabricado hace mucho tiempo.",
     pocket: 1,
   },
   {
     internalName: "YELLOWSHARD",
-    name: "Yellow Shard",
+    name: "Parte Amarilla",
     description:
-      "A small yellow shard. It appears to be from some sort of implement made long ago.",
+      "Un pequeño fragmento amarillo. Parece ser de algún tipo de implemento fabricado hace mucho tiempo.",
     pocket: 1,
   },
   {
     internalName: "BLUESHARD",
-    name: "Blue Shard",
+    name: "Parte Azul",
     description:
-      "A small blue shard. It appears to be from some sort of implement made long ago.",
+      "Un pequeño fragmento azul. Parece ser de algún tipo de implemento fabricado hace mucho tiempo.",
     pocket: 1,
   },
   {
     internalName: "GREENSHARD",
-    name: "Green Shard",
+    name: "Parte Verde",
     description:
-      "A small green shard. It appears to be from some sort of implement made long ago.",
+      "Un pequeño fragmento verde. Parece ser de algún tipo de implemento fabricado hace mucho tiempo.",
     pocket: 1,
   },
   {
     internalName: "FIRESTONE",
-    name: "Fire Stone",
+    name: "Piedra Fuego",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Es de color naranja.",
     pocket: 1,
   },
   {
     internalName: "THUNDERSTONE",
-    name: "Thunder Stone",
+    name: "Piedra Trueno",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Tiene un patrón de rayo.",
     pocket: 1,
   },
   {
     internalName: "WATERSTONE",
-    name: "Water Stone",
+    name: "Piedra Agua",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Es un azul claro y claro.",
     pocket: 1,
   },
   {
     internalName: "LEAFSTONE",
-    name: "Leaf Stone",
+    name: "Piedra Hoja",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Tiene un patrón de hojas.",
     pocket: 1,
   },
   {
     internalName: "MOONSTONE",
-    name: "Moon Stone",
+    name: "Piedra Lunar",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Es tan negro como el cielo nocturno.",
     pocket: 1,
   },
   {
     internalName: "SUNSTONE",
-    name: "Sun Stone",
+    name: "Piedra Solar",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Es tan rojo como el sol.",
     pocket: 1,
   },
   {
     internalName: "DUSKSTONE",
-    name: "Dusk Stone",
+    name: "Piedra Noche",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Es tan oscuro como puede serlo.",
     pocket: 1,
   },
   {
     internalName: "DAWNSTONE",
-    name: "Dawn Stone",
+    name: "Piedra Alba",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Brilla como ojos.",
     pocket: 1,
   },
   {
     internalName: "SHINYSTONE",
-    name: "Shiny Stone",
+    name: "Piedra Día",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Brilla con una luz deslumbrante.",
     pocket: 1,
   },
   {
     internalName: "ICESTONE",
-    name: "Ice Stone",
+    name: "Piedra Hielo",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Tiene un estampado de copos de nieve.",
     pocket: 1,
   },
   {
     internalName: "SWEETAPPLE",
-    name: "Sweet Apple",
+    name: "Manzana Dulce",
     description:
-      "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally sweet.",
+      "Una peculiar manzana que puede hacer evolucionar a una determinada especie de Pokémon. Es excepcionalmente dulce.",
     pocket: 1,
   },
   {
     internalName: "TARTAPPLE",
-    name: "Tart Apple",
+    name: "Manzana Ácida",
     description:
-      "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally tart.",
+      "Una peculiar manzana que puede hacer evolucionar a una determinada especie de Pokémon. Es excepcionalmente ácido.",
     pocket: 1,
   },
   {
     internalName: "CRACKEDPOT",
-    name: "Cracked Pot",
+    name: "Tetera Agrietada",
     description:
-      "A peculiar cracked teapot that can make a certain species of Pokémon evolve. It makes delicious tea.",
+      "Una peculiar tetera rota que puede hacer evolucionar a una determinada especie de Pokémon. Hace un té delicioso.",
     pocket: 1,
   },
   {
     internalName: "CHIPPEDPOT",
-    name: "Chipped Pot",
+    name: "Tetera Rota",
     description:
-      "A peculiar chipped teapot that can make a certain species of Pokémon evolve. It makes delicious tea.",
+      "Una peculiar tetera astillada que puede hacer evolucionar a una determinada especie de Pokémon. Hace un té delicioso.",
     pocket: 1,
   },
   {
     internalName: "GALARICACUFF",
-    name: "Galarica Cuff",
+    name: "Brazal Galanuez",
     description:
-      "A cuff made from woven-together Galarica Twigs. Giving it to a Galarian Slowpoke would make it very happy.",
+      "Un brazalete hecho de Galarica Twigs entretejidas. Dárselo a un Slowpoke de Galar lo haría muy feliz.",
     pocket: 1,
   },
   {
     internalName: "GALARICAWREATH",
-    name: "Galarica Wreath",
+    name: "Corona Galanuez",
     description:
-      "A wreath made from woven-together Galarica Twigs. A Galarian Slowpoke wearing this would be very happy.",
+      "Una corona hecha de ramitas de Galarica entretejidas. Un Slowpoke de Galar que usara esto sería muy feliz.",
     pocket: 1,
   },
   {
     internalName: "BLACKAUGURITE",
-    name: "Black Augurite",
+    name: "Mineral Negro",
     description:
-      "A glassy black stone that produces a sharp cutting edge when split. It's loved by a certain Pokémon.",
+      "Una piedra negra vítrea que produce un filo cortante cuando se parte. Es amado por cierto Pokémon.",
     pocket: 1,
   },
   {
     internalName: "PEATBLOCK",
-    name: "Peat Block",
+    name: "Bloque de Turba",
     description:
-      "A block of muddy material that can be used as fuel when it is dried. It's loved by a certain Pokémon.",
+      "Un bloque de material fangoso que puede usarse como combustible cuando se seca. Es amado por cierto Pokémon.",
     pocket: 1,
   },
   {
     internalName: "SYRUPYAPPLE",
-    name: "Syrupy Apple",
+    name: "Manzana Melosa",
     description:
-      "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.",
+      "Una peculiar manzana que puede hacer evolucionar a una determinada especie de Pokémon. Es excepcionalmente almibarado.",
     pocket: 1,
   },
   {
     internalName: "UNREMARKABLETEACUP",
-    name: "Unremarkable Teacup",
+    name: "Cuenco Mediocre",
     description:
-      "A peculiar cracked teacup that can make a certain species of Pokémon evolve.",
+      "Una peculiar taza de té rota que puede hacer evolucionar a una determinada especie de Pokémon.",
     pocket: 1,
   },
   {
     internalName: "MASTERPIECETEACUP",
-    name: "Masterpiece Teacup",
+    name: "Cuenco Exquisito",
     description:
-      "A peculiar chipped teacup that can make a certain species of Pokémon evolve.",
+      "Una peculiar taza de té desportillada que puede hacer evolucionar a una determinada especie de Pokémon.",
     pocket: 1,
   },
   {
     internalName: "METALALLOY",
-    name: "Metal Alloy",
+    name: "Metal Compuesto",
     description:
-      "A peculiar metal that can make certain species of Pokémon evolve. It is composed of many layers.",
+      "Un peculiar metal que puede hacer evolucionar a determinadas especies de Pokémon. Está compuesto de muchas capas.",
     pocket: 1,
   },
   {
     internalName: "MALICIOUSARMOR",
-    name: "Malicious Armor",
+    name: "Armadura Maldita",
     description:
-      "A peculiar set of armor that can make a certain species of Pokémon evolve. Malicious will lurks within it.",
+      "Un peculiar conjunto de armadura que puede hacer evolucionar a una determinada especie de Pokémon. En su interior se esconde una voluntad maliciosa.",
     pocket: 1,
   },
   {
     internalName: "AUSPICIOUSARMOR",
-    name: "Auspicious Armor",
+    name: "Armadura Auspiciosa",
     description:
-      "A peculiar set of armor that can make a certain species of Pokémon evolve. Auspicious wishes live within it.",
+      "Un peculiar conjunto de armadura que puede hacer evolucionar a una determinada especie de Pokémon. En él viven deseos auspiciosos.",
     pocket: 1,
   },
   {
     internalName: "REDAPRICORN",
-    name: "Red Apricorn",
-    description: "A red Apricorn. It assails your nostrils.",
+    name: "Bonguri Roja",
+    description: "Un albaricoque rojo. Asalta tus fosas nasales.",
     pocket: 1,
   },
   {
     internalName: "YELLOWAPRICORN",
-    name: "Yellow Apricorn",
-    description: "A yellow Apricorn. It has an invigorating scent.",
+    name: "Bonguri Amarilla",
+    description: "Un albaricoque amarillo. Tiene un aroma vigorizante.",
     pocket: 1,
   },
   {
     internalName: "BLUEAPRICORN",
-    name: "Blue Apricorn",
-    description: "A blue Apricorn. It smells a bit like grass.",
+    name: "Bonguri Azul",
+    description: "Un albaricoque azul. Huele un poco a hierba.",
     pocket: 1,
   },
   {
     internalName: "GREENAPRICORN",
-    name: "Green Apricorn",
-    description: "A green Apricorn. It has a mysterious, aromatic scent.",
+    name: "Bonguri Verde",
+    description: "Un albaricoque verde. Tiene un aroma misterioso y aromático.",
     pocket: 1,
   },
   {
     internalName: "PINKAPRICORN",
-    name: "Pink Apricorn",
-    description: "A pink Apricorn. It has a nice, sweet scent.",
+    name: "Bonguri Rosa",
+    description: "Un albaricoque rosado. Tiene un aroma agradable y dulce.",
     pocket: 1,
   },
   {
     internalName: "WHITEAPRICORN",
-    name: "White Apricorn",
-    description: "A white Apricorn. It doesn't smell like anything.",
+    name: "Bonguri Blanca",
+    description: "Un albaricoque blanco. No huele a nada.",
     pocket: 1,
   },
   {
     internalName: "BLACKAPRICORN",
-    name: "Black Apricorn",
-    description: "A black Apricorn. It has an indescribable scent.",
+    name: "Bonguri Negra",
+    description: "Un Albaricornio negro. Tiene un olor indescriptible.",
     pocket: 1,
   },
   {
     internalName: "HELIXFOSSIL",
-    name: "Helix Fossil",
+    name: "Fósil Helix",
     description:
-      "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.",
+      "Un fósil de un antiguo Pokémon que vivía en el mar. Parece ser parte de una concha marina.",
     pocket: 1,
   },
   {
     internalName: "DOMEFOSSIL",
-    name: "Dome Fossil",
+    name: "Fósil Domo",
     description:
-      "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell.",
+      "Un fósil de un antiguo Pokémon que vivía en el mar. Parece ser parte de un caparazón.",
     pocket: 1,
   },
   {
     internalName: "OLDAMBER",
-    name: "Old Amber",
+    name: "Ámbar Viejo",
     description:
-      "A piece of amber that contains the genes of an ancient Pokémon. It is clear with a reddish tint.",
+      "Un trozo de ámbar que contiene los genes de un Pokémon antiguo. Es claro con un tinte rojizo.",
     pocket: 1,
   },
   {
     internalName: "ROOTFOSSIL",
-    name: "Root Fossil",
+    name: "Fósil Raíz",
     description:
-      "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.",
+      "Un fósil de un antiguo Pokémon que vivía en el mar. Parece ser parte de la raíz de una planta.",
     pocket: 1,
   },
   {
     internalName: "CLAWFOSSIL",
-    name: "Claw Fossil",
+    name: "Fósil Garra",
     description:
-      "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.",
+      "Un fósil de un antiguo Pokémon que vivía en el mar. Parece ser parte de una garra.",
     pocket: 1,
   },
   {
     internalName: "SKULLFOSSIL",
-    name: "Skull Fossil",
+    name: "Fósil Cráneo",
     description:
-      "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.",
+      "Un fósil de un Pokémon prehistórico que vivió en la tierra. Parece ser parte de una cabeza.",
     pocket: 1,
   },
   {
     internalName: "ARMORFOSSIL",
-    name: "Armor Fossil",
+    name: "Fósil Coraza",
     description:
-      "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar.",
+      "Un fósil de un Pokémon prehistórico que vivió en la tierra. Parece ser parte de un collar.",
     pocket: 1,
   },
   {
     internalName: "COVERFOSSIL",
-    name: "Cover Fossil",
+    name: "Fósil Tapa",
     description:
-      "A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back.",
+      "Un fósil de un antiguo Pokémon que vivió en el mar en la antigüedad. Parece ser parte de su espalda.",
     pocket: 1,
   },
   {
     internalName: "PLUMEFOSSIL",
-    name: "Plume Fossil",
+    name: "Fósil Pluma",
     description:
-      "A fossil of an ancient Pokémon that flew in the sky in ancient times. It appears to be part of its wing.",
+      "Un fósil de un Pokémon antiguo que volaba por el cielo en la antigüedad. Parece ser parte de su ala.",
     pocket: 1,
   },
   {
     internalName: "JAWFOSSIL",
-    name: "Jaw Fossil",
+    name: "Fósil Mandíbula",
     description:
-      "A fossil from a prehistoric Pokémon that once lived on the land. It appears to be part of a large jaw.",
+      "Un fósil de un Pokémon prehistórico que alguna vez vivió en la tierra. Parece ser parte de una mandíbula grande.",
     pocket: 1,
   },
   {
     internalName: "SAILFOSSIL",
-    name: "Sail Fossil",
+    name: "Fósil Aleta",
     description:
-      "A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail.",
+      "Un fósil de un Pokémon prehistórico que alguna vez vivió en la tierra. Parece la impresión de una vela de piel.",
     pocket: 1,
   },
   {
     internalName: "FOSSILIZEDBIRD",
-    name: "Fossilized Bird",
+    name: "Ornitofósil",
     description:
-      "The fossil of an ancient Pokémon that once soared through the sky. What it looked like is a mystery.",
+      "El fósil de un Pokémon antiguo que una vez surcó el cielo. Lo que parecía es un misterio.",
     pocket: 1,
   },
   {
     internalName: "FOSSILIZEDFISH",
-    name: "Fossilized Fish",
+    name: "Ictiofósil",
     description:
-      "The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.",
+      "El fósil de un antiguo Pokémon que alguna vez vivió en el mar. Lo que parecía es un misterio.",
     pocket: 1,
   },
   {
     internalName: "FOSSILIZEDDRAKE",
-    name: "Fossilized Drake",
+    name: "Dracofósil",
     description:
-      "The fossil of an ancient Pokémon that once roamed the land. What it looked like is a mystery.",
+      "El fósil de un antiguo Pokémon que una vez vagaba por la tierra. Lo que parecía es un misterio.",
     pocket: 1,
   },
   {
     internalName: "FOSSILIZEDDINO",
-    name: "Fossilized Dino",
+    name: "Plesiofósil",
     description:
-      "The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.",
+      "El fósil de un antiguo Pokémon que alguna vez vivió en el mar. Lo que parecía es un misterio.",
     pocket: 1,
   },
   {
     internalName: "PRETTYFEATHER",
-    name: "Pretty Feather",
+    name: "Pluma Bella",
     description:
-      "Though this feather is beautiful, it's just a regular feather and has no effect on Pokémon.",
+      "Aunque esta pluma es hermosa, es simplemente una pluma normal y no tiene ningún efecto en los Pokémon.",
     pocket: 1,
   },
   {
     internalName: "TINYMUSHROOM",
-    name: "Tiny Mushroom",
-    description: "A small and rare mushroom. It is sought after by collectors.",
+    name: "Mini Seta",
+    description: "Un hongo pequeño y raro. Es buscado por los coleccionistas.",
     pocket: 1,
   },
   {
     internalName: "BIGMUSHROOM",
-    name: "Big Mushroom",
-    description: "A large and rare mushroom. It is sought after by collectors.",
+    name: "Seta Grande",
+    description: "Un hongo grande y raro. Es buscado por los coleccionistas.",
     pocket: 1,
   },
   {
     internalName: "BALMMUSHROOM",
-    name: "Balm Mushroom",
+    name: "Seta Aroma",
     description:
-      "A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.",
+      "Un hongo poco común que desprende una agradable fragancia. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "PEARL",
-    name: "Pearl",
+    name: "Perla",
     description:
-      "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
+      "Una perla algo pequeña que brilla en un bonito color plateado. Se puede vender a bajo precio en las tiendas.",
     pocket: 1,
   },
   {
     internalName: "BIGPEARL",
-    name: "Big Pearl",
+    name: "Perla Grande",
     description:
-      "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.",
+      "Una perla bastante grande que brilla en un bonito color plateado. Se puede vender a un precio elevado en las tiendas.",
     pocket: 1,
   },
   {
     internalName: "PEARLSTRING",
-    name: "Pearl String",
+    name: "Sarta de perlas",
     description:
-      "Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.",
+      "Perlas muy grandes que brillan en un bonito color plateado. Un maníaco los comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "STARDUST",
-    name: "Stardust",
+    name: "Polvoestelar",
     description:
-      "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.",
+      "Preciosa arena de color rojo y tacto suelto y sedoso. Se puede vender a un precio elevado en las tiendas.",
     pocket: 1,
   },
   {
     internalName: "STARPIECE",
-    name: "Star Piece",
+    name: "Trozo Estrella",
     description:
-      "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
+      "Un fragmento de una bonita gema que brilla en color rojo. Se puede vender a un precio elevado en las tiendas.",
     pocket: 1,
   },
   {
     internalName: "COMETSHARD",
-    name: "Comet Shard",
+    name: "Fragmento Cometa",
     description:
-      "A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.",
+      "Un fragmento que cayó al suelo cuando se acercó un cometa. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "NUGGET",
-    name: "Nugget",
+    name: "Pepita",
     description:
-      "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.",
+      "Una pepita de oro puro que desprende un brillo lustroso. Se puede vender a un precio elevado en las tiendas.",
     pocket: 1,
   },
   {
     internalName: "BIGNUGGET",
-    name: "Big Nugget",
+    name: "Maxipepita",
     description:
-      "A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.",
+      "Una gran pepita de oro puro que desprende un brillo lustroso. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "HEARTSCALE",
-    name: "Heart Scale",
+    name: "Escama Corazón",
     description:
-      "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
+      "Una bonita escama en forma de corazón que es extremadamente rara. Brilla débilmente con los colores del arco iris.",
     pocket: 1,
   },
   {
     internalName: "SLOWPOKETAIL",
-    name: "Slowpoke Tail",
+    name: "Cola Slowpoke",
     description:
-      "A very tasty tail of something. It can be sold at a high price to shops.",
+      "Un rabo de algo muy sabroso. Se puede vender a un precio elevado en las tiendas.",
     pocket: 1,
   },
   {
     internalName: "RAREBONE",
-    name: "Rare Bone",
+    name: "Hueso Raro",
     description:
-      "A bone that is extremely valuable for Pokémon archaeology. It can be sold for a high price to shops.",
+      "Un hueso sumamente valioso para la arqueología Pokémon. Se puede vender a un precio elevado en las tiendas.",
     pocket: 1,
   },
   {
     internalName: "RELICCOPPER",
-    name: "Relic Copper",
+    name: "Real de cobre",
     description:
-      "A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+      "Moneda de cobre utilizada en una civilización hace unos 3.000 años. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "RELICSILVER",
-    name: "Relic Silver",
+    name: "Real de plata",
     description:
-      "A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+      "Moneda de plata utilizada en una civilización hace unos 3.000 años. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "RELICGOLD",
-    name: "Relic Gold",
+    name: "Real de oro",
     description:
-      "A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+      "Una moneda de oro utilizada en una civilización hace unos 3.000 años. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "RELICVASE",
-    name: "Relic Vase",
+    name: "Ánfora Antigua",
     description:
-      "A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+      "Un jarrón elaborado en una civilización hace unos 3.000 años. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "RELICBAND",
-    name: "Relic Band",
+    name: "Brazal antiguo",
     description:
-      "A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+      "Una pulsera fabricada en una civilización de hace unos 3.000 años. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "RELICSTATUE",
-    name: "Relic Statue",
+    name: "Efigie Antigua",
     description:
-      "A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+      "Figura de piedra realizada en una civilización hace unos 3.000 años. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "RELICCROWN",
-    name: "Relic Crown",
+    name: "Corona Antigua",
     description:
-      "A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+      "Una corona fabricada en una civilización hace unos 3.000 años. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "TINYBAMBOOSHOOT",
-    name: "Tiny Bamboo Shoot",
+    name: "Bambú Pequeño",
     description:
-      "A small and rare bamboo shoot. It's quite popular with a certain class of gourmands.",
+      "Un pequeño y raro brote de bambú. Es bastante popular entre cierta clase de golosos.",
     pocket: 1,
   },
   {
     internalName: "BIGBAMBOOSHOOT",
-    name: "Big Bamboo Shoot",
+    name: "Bambú Grande",
     description:
-      "A large and rare bamboo shoot. It's extremely popular with a certain class of gourmands.",
+      "Un brote de bambú grande y raro. Es extremadamente popular entre cierta clase de golosos.",
     pocket: 1,
   },
   {
     internalName: "GROWTHMULCH",
-    name: "Growth Mulch",
+    name: "Abono Rápido",
     description:
-      "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
+      "Fertilizante para esparcir en suelos blandos en regiones donde se cultivan bayas. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "DAMPMULCH",
-    name: "Damp Mulch",
+    name: "Abono Lento",
     description:
-      "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
+      "Fertilizante para esparcir en suelos blandos en regiones donde se cultivan bayas. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "STABLEMULCH",
-    name: "Stable Mulch",
+    name: "Abono Fijador",
     description:
-      "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
+      "Fertilizante para esparcir en suelos blandos en regiones donde se cultivan bayas. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "GOOEYMULCH",
-    name: "Gooey Mulch",
+    name: "Abono Brote",
     description:
-      "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
+      "Fertilizante para esparcir en suelos blandos en regiones donde se cultivan bayas. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "SHOALSALT",
-    name: "Shoal Salt",
+    name: "Sal Cardumen",
     description:
-      "Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.",
+      "Sal pura que se puede descubrir en lo profundo de la Cueva Shoal. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "SHOALSHELL",
-    name: "Shoal Shell",
+    name: "Concha Cardumen",
     description:
-      "A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.",
+      "Una bonita concha que se puede encontrar en lo profundo de la cueva Shoal. Un maníaco lo comprará por un precio elevado.",
     pocket: 1,
   },
   {
     internalName: "ODDKEYSTONE",
-    name: "Odd Keystone",
+    name: "Piedra Espíritu",
     description:
-      "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
+      "Un elemento vital que se necesita para evitar que una torre de piedra se derrumbe. De vez en cuando se pueden escuchar voces.",
     pocket: 1,
   },
   {
     internalName: "REDNECTAR",
-    name: "Red Nectar",
+    name: "Néctar Rojo",
     description:
-      "A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pokémon.",
+      "Néctar de flores obtenido en la pradera de Ula'ula. Cambia la forma de ciertas especies de Pokémon.",
     pocket: 1,
   },
   {
     internalName: "YELLOWNECTAR",
-    name: "Yellow Nectar",
+    name: "Néctar Amarillo",
     description:
-      "A flower nectar obtained at Melemele Meadow. It changes the form of certain species of Pokémon.",
+      "Néctar de flores obtenido en Melemele Meadow. Cambia la forma de ciertas especies de Pokémon.",
     pocket: 1,
   },
   {
     internalName: "PINKNECTAR",
-    name: "Pink Nectar",
+    name: "Néctar Rosa",
     description:
-      "A flower nectar obtained from shrubs on Royal Avenue. It changes the form of certain species of Pokémon.",
+      "Un néctar de flores obtenido de los arbustos de Royal Avenue. Cambia la forma de ciertas especies de Pokémon.",
     pocket: 1,
   },
   {
     internalName: "PURPLENECTAR",
-    name: "Purple Nectar",
+    name: "Néctar Violeta",
     description:
-      "A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon.",
+      "Néctar de flores obtenido en Poni Meadow. Cambia la forma de ciertas especies de Pokémon.",
     pocket: 1,
   },
   {
     internalName: "AIRBALLOON",
-    name: "Air Balloon",
+    name: "Globo Helio",
     description:
-      "An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.",
+      "Un objeto que debe tener un Pokémon. El soporte flotará en el aire hasta que lo golpeen. Una vez golpeado, este objeto explotará.",
     pocket: 1,
   },
   {
     internalName: "BRIGHTPOWDER",
-    name: "Bright Powder",
+    name: "Polvo Brillo",
     description:
-      "An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.",
+      "Un objeto que debe tener un Pokémon. Lanza una mirada engañosa que reduce la precisión del oponente.",
     pocket: 1,
   },
   {
     internalName: "EVIOLITE",
-    name: "Eviolite",
+    name: "Mineral Evolutivo",
     description:
-      "A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def if the holder can still evolve.",
+      "Un misterioso bulto evolutivo. Cuando se mantiene, aumenta la Defensa y Sp. Definitivamente si el titular aún puede evolucionar.",
     pocket: 1,
   },
   {
     internalName: "FLOATSTONE",
-    name: "Float Stone",
+    name: "Piedra Pómez",
     description:
-      "A very light stone. It reduces the weight of a Pokémon when held.",
+      "Una piedra muy ligera. Reduce el peso de un Pokémon cuando se sostiene.",
     pocket: 1,
   },
   {
     internalName: "DESTINYKNOT",
-    name: "Destiny Knot",
+    name: "Lazo Destino",
     description:
-      "A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, so does the foe.",
+      "Un hilo largo, fino y de color rojo brillante que debe sujetar un Pokémon. Si el poseedor se enamora, el enemigo también.",
     pocket: 1,
   },
   {
     internalName: "ROCKYHELMET",
-    name: "Rocky Helmet",
+    name: "Casco Dentado",
     description:
-      "If the holder of this item takes damage, the attacker will also be damaged upon contact.",
+      "Si el poseedor de este objeto sufre daño, el atacante también resultará dañado al contacto.",
     pocket: 1,
   },
   {
     internalName: "ASSAULTVEST",
-    name: "Assault Vest",
+    name: "Chaleco Asalto",
     description:
-      "An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.",
+      "Un objeto que debe tener un Pokémon. Este chaleco ofensivo plantea Sp. Def pero evita el uso de movimientos de estado.",
     pocket: 1,
   },
   {
     internalName: "SAFETYGOGGLES",
-    name: "Safety Goggles",
+    name: "Gafa Protectora",
     description:
-      "An item to be held by a Pokémon. They protect the holder from weather-related damage and powder.",
+      "Un objeto que debe tener un Pokémon. Protegen al soporte de los daños causados ​​por las inclemencias del tiempo y del polvo.",
     pocket: 1,
   },
   {
     internalName: "PROTECTIVEPADS",
-    name: "Protective Pads",
+    name: "Paracontacto",
     description:
-      "An item to be held by a Pokémon. They protect the holder from effects caused by making contact.",
+      "Un objeto que debe tener un Pokémon. Protegen al titular de los efectos causados ​​por el contacto.",
     pocket: 1,
   },
   {
     internalName: "HEAVYDUTYBOOTS",
-    name: "Heavy-Duty Boots",
+    name: "Botas Gruesas",
     description:
-      "These boots prevent the effects of traps set on the battlefield.",
+      "Estas botas previenen los efectos de las trampas colocadas en el campo de batalla.",
     pocket: 1,
   },
   {
     internalName: "UTILITYUMBRELLA",
-    name: "Utility Umbrella",
+    name: "Parasol Multiuso",
     description:
-      "An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and sun.",
+      "Un objeto que debe tener un Pokémon. Este resistente paraguas protege al titular de los efectos de la lluvia y el sol.",
     pocket: 1,
   },
   {
     internalName: "ABILITYSHIELD",
-    name: "Ability Shield",
+    name: "Escudo Habilidad",
     description:
-      "An item to be held by a Pokémon. This cute shield protects the holder from having its Ability changed by others.",
+      "Un objeto que debe tener un Pokémon. Este lindo escudo protege al poseedor de que otros cambien su habilidad.",
     pocket: 1,
   },
   {
     internalName: "CLEARAMULET",
-    name: "Clear Amulet",
+    name: "Amuleto Puro",
     description:
-      "An item to be held by a Pokémon. It protects the holder from having its stats lowered by other Pokémon.",
+      "Un objeto que debe tener un Pokémon. Protege al poseedor de que otros Pokémon reduzcan sus estadísticas.",
     pocket: 1,
   },
   {
     internalName: "COVERTCLOAK",
-    name: "Covert Cloak",
+    name: "Capa Furtiva",
     description:
-      "An item to be held by a Pokémon. This hooded cloak protects the holder from moves' additional effects.",
+      "Un objeto que debe tener un Pokémon. Esta capa con capucha protege al poseedor de los efectos adicionales de los movimientos.",
     pocket: 1,
   },
   {
     internalName: "EJECTBUTTON",
-    name: "Eject Button",
+    name: "Botón Escape",
     description:
-      "If the holder is hit by an attack, it will switch with another Pokémon in your party.",
+      "Si el poseedor es golpeado por un ataque, cambiará con otro Pokémon de tu grupo.",
     pocket: 1,
   },
   {
     internalName: "EJECTPACK",
-    name: "Eject Pack",
+    name: "Mochila Escape",
     description:
-      "An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.",
+      "Un objeto que debe tener un Pokémon. Cuando las estadísticas del poseedor bajen, será retirado de la batalla.",
     pocket: 1,
   },
   {
     internalName: "REDCARD",
-    name: "Red Card",
+    name: "Tarjeta Roja",
     description:
-      "A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.",
+      "Una carta con un poder misterioso. Cuando el portador es golpeado por un enemigo, el atacante es retirado de la batalla.",
     pocket: 1,
   },
   {
     internalName: "SHEDSHELL",
-    name: "Shed Shell",
+    name: "Muda Concha",
     description:
-      "An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.",
+      "Un objeto que debe tener un Pokémon. Este caparazón desechado permite a quien lo posee salir de la batalla sin falta.",
     pocket: 1,
   },
   {
     internalName: "SMOKEBALL",
-    name: "Smoke Ball",
+    name: "Bola Humo",
     description:
-      "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.",
+      "Un objeto que debe tener un Pokémon. Permite al poseedor huir de cualquier Pokémon salvaje sin falta.",
     pocket: 1,
   },
   {
     internalName: "LUCKYEGG",
-    name: "Lucky Egg",
+    name: "Huevo Suerte",
     description:
-      "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.",
+      "Un objeto que debe tener un Pokémon. Es un huevo lleno de felicidad que gana Exp extra. Puntos en batalla.",
     pocket: 1,
   },
   {
     internalName: "EXPSHARE",
-    name: "Exp. Share",
+    name: "Repartir Exp",
     description:
-      "An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.",
+      "Un objeto que debe tener un Pokémon. El poseedor recibe una parte de la Exp. de una batalla. Puntos sin luchar.",
     pocket: 1,
   },
   {
     internalName: "AMULETCOIN",
-    name: "Amulet Coin",
+    name: "Moneda Amuleto",
     description:
-      "An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.",
+      "Un objeto que debe tener un Pokémon. Duplica el premio en metálico de una batalla si el Pokémon que lo posee se une.",
     pocket: 1,
   },
   {
     internalName: "SOOTHEBELL",
-    name: "Soothe Bell",
+    name: "Campana Alivio",
     description:
-      "An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.",
+      "Un objeto que debe tener un Pokémon. El reconfortante timbre de esta campana calma a quien la posee, haciéndolo amigable.",
     pocket: 1,
   },
   {
     internalName: "CLEANSETAG",
-    name: "Cleanse Tag",
+    name: "Amuleto",
     description:
-      "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
+      "Un objeto que debe tener un Pokémon. Ayuda a mantener alejados a los Pokémon salvajes si el poseedor es el primero en el grupo.",
     pocket: 1,
   },
   {
     internalName: "CHOICEBAND",
-    name: "Choice Band",
+    name: "Cinta Elegida",
     description:
-      "An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move.",
+      "Un objeto que debe tener un Pokémon. Esta diadema aumenta el ataque, pero permite el uso de un solo movimiento.",
     pocket: 1,
   },
   {
     internalName: "CHOICESPECS",
-    name: "Choice Specs",
+    name: "Gafas Elegidas",
     description:
-      "An item to be held by a Pokémon. These curious glasses boost Sp. Atk but allows the use of only one move.",
+      "Un objeto que debe tener un Pokémon. Estas curiosas gafas potencian Sp. Atk pero permite el uso de un solo movimiento.",
     pocket: 1,
   },
   {
     internalName: "CHOICESCARF",
-    name: "Choice Scarf",
+    name: "Pañuelo Elegido",
     description:
-      "An item to be held by a Pokémon. This scarf boosts Speed but allows the use of only one move.",
+      "Un objeto que debe tener un Pokémon. Esta bufanda aumenta la velocidad pero permite el uso de un solo movimiento.",
     pocket: 1,
   },
   {
     internalName: "HEATROCK",
-    name: "Heat Rock",
+    name: "Roca Calor",
     description:
-      "A Pokémon held item that extends the duration of the move Sunny Day used by the holder.",
+      "Un objeto Pokémon que extiende la duración del movimiento Sunny Day utilizado por su poseedor.",
     pocket: 1,
   },
   {
     internalName: "DAMPROCK",
-    name: "Damp Rock",
+    name: "Roca Lluvia",
     description:
-      "A Pokémon held item that extends the duration of the move Rain Dance used by the holder.",
+      "Un objeto Pokémon que extiende la duración del movimiento Rain Dance utilizado por su poseedor.",
     pocket: 1,
   },
   {
     internalName: "SMOOTHROCK",
-    name: "Smooth Rock",
+    name: "Roca Suave",
     description:
-      "A Pokémon held item that extends the duration of the move Sandstorm used by the holder.",
+      "Un objeto retenido por Pokémon que extiende la duración del movimiento Tormenta de Arena utilizado por su poseedor.",
     pocket: 1,
   },
   {
     internalName: "ICYROCK",
-    name: "Icy Rock",
+    name: "Roca Helada",
     description:
-      "A Pokémon held item that extends the duration of the move Hail used by the holder.",
+      "Un objeto Pokémon que extiende la duración del movimiento Hail utilizado por el poseedor.",
     pocket: 1,
   },
   {
     internalName: "TERRAINEXTENDER",
-    name: "Terrain Extender",
+    name: "Cubresuelos",
     description:
-      "An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder.",
+      "Un objeto que debe tener un Pokémon. Prolonga la duración del terreno provocado por el titular.",
     pocket: 1,
   },
   {
     internalName: "LIGHTCLAY",
-    name: "Light Clay",
+    name: "Refleluz",
     description:
-      "An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.",
+      "Un objeto que debe tener un Pokémon. Los movimientos protectores como Light Screen y Reflect serán efectivos por más tiempo.",
     pocket: 1,
   },
   {
     internalName: "GRIPCLAW",
-    name: "Grip Claw",
+    name: "Garra Garfio",
     description:
-      "A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.",
+      "Un objeto Pokémon que extiende la duración de los ataques multiturno como Bind and Wrap.",
     pocket: 1,
   },
   {
     internalName: "LOADEDDICE",
-    name: "Loaded Dice",
+    name: "Dado Trucado",
     description:
-      "An item to be held by a Pokémon. This dice ensures that the holder's multistrike moves hit more times.",
+      "Un objeto que debe tener un Pokémon. Este dado asegura que los movimientos multigolpe del poseedor acierten más veces.",
     pocket: 1,
   },
   {
     internalName: "BINDINGBAND",
-    name: "Binding Band",
-    description: "A band that increases the power of binding moves when held.",
+    name: "Banda Atadura",
+    description:
+      "Una banda que aumenta el poder de los movimientos vinculantes cuando se sostiene.",
     pocket: 1,
   },
   {
     internalName: "BIGROOT",
-    name: "Big Root",
+    name: "Raíz Grande",
     description:
-      "A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.",
+      "Un objeto Pokémon que aumenta el poder de los movimientos de robo de HP para permitir que su poseedor recupere más HP.",
     pocket: 1,
   },
   {
     internalName: "BLACKSLUDGE",
-    name: "Black Sludge",
+    name: "Lodo Negro",
     description:
-      "A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.",
+      "Un objeto retenido que restaura gradualmente el HP de los Pokémon de tipo Veneno. Inflige daño a todos los demás tipos.",
     pocket: 1,
   },
   {
     internalName: "LEFTOVERS",
-    name: "Leftovers",
+    name: "Restos",
     description:
-      "An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",
+      "Un objeto que debe tener un Pokémon. El HP del poseedor se recupera gradualmente durante la batalla.",
     pocket: 1,
   },
   {
     internalName: "SHELLBELL",
-    name: "Shell Bell",
+    name: "Campana Concha",
     description:
-      "An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.",
+      "Un objeto que debe tener un Pokémon. El HP del poseedor se restaura un poco cada vez que inflige daño.",
     pocket: 1,
   },
   {
     internalName: "MENTALHERB",
-    name: "Mental Herb",
+    name: "Hierba Mental",
     description:
-      "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.",
+      "Un objeto que debe tener un Pokémon. Saca al titular del enamoramiento. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "WHITEHERB",
-    name: "White Herb",
+    name: "Hierba Blanca",
     description:
-      "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
+      "Un objeto que debe tener un Pokémon. Restaura cualquier estadística reducida en la batalla. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "POWERHERB",
-    name: "Power Herb",
+    name: "Hierba Única",
     description:
-      "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.",
+      "Un objeto de un solo uso que puede llevar un Pokémon. Permite el uso inmediato de un movimiento que se carga primero.",
     pocket: 1,
   },
   {
     internalName: "MIRRORHERB",
-    name: "Mirror Herb",
+    name: "Hierba Copia",
     description:
-      "An item to be held by a Pokémon. It allows the holder to copy an opponent's stat increases once.",
+      "Un objeto que debe tener un Pokémon. Le permite al poseedor copiar los aumentos de estadísticas de un oponente una vez.",
     pocket: 1,
   },
   {
     internalName: "ABSORBBULB",
-    name: "Absorb Bulb",
+    name: "Tubérculo",
     description:
-      "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",
+      "Una bombilla consumible. Si el poseedor es golpeado por un movimiento de tipo Agua, su Sp. El ataque aumentará.",
     pocket: 1,
   },
   {
     internalName: "CELLBATTERY",
-    name: "Cell Battery",
+    name: "Pila",
     description:
-      "A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.",
+      "Una batería consumible. Si el portador es golpeado por un movimiento de tipo Eléctrico, su Ataque aumentará.",
     pocket: 1,
   },
   {
     internalName: "LUMINOUSMOSS",
-    name: "Luminous Moss",
+    name: "Musgo Brillante",
     description:
-      "An item to be held by a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.",
+      "Un objeto que debe tener un Pokémon. Aumenta Sp. Def si es golpeado por un ataque de tipo Agua. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "SNOWBALL",
-    name: "Snowball",
+    name: "Bola de Nieve",
     description:
-      "An item to be held by a Pokémon. It boosts Attack if hit by an Ice-type attack. It can only be used once.",
+      "Un objeto que debe tener un Pokémon. Aumenta el ataque si recibe un ataque de tipo Hielo. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "WEAKNESSPOLICY",
-    name: "Weakness Policy",
+    name: "Seguro Debilidad",
     description:
-      "An item to be held by a Pokémon. The holder's Attack and Sp. Atk sharply increase if hit by a move it's weak to.",
+      "Un objeto que debe tener un Pokémon. El Ataque del titular y Sp. El ataque aumenta considerablemente si es golpeado por un movimiento al que es débil.",
     pocket: 1,
   },
   {
     internalName: "BLUNDERPOLICY",
-    name: "Blunder Policy",
+    name: "Seguro Fallo",
     description:
-      "Raises Speed sharply when a Pokémon misses with a move because of accuracy.",
+      "Aumenta drásticamente la velocidad cuando un Pokémon falla con un movimiento debido a su precisión.",
     pocket: 1,
   },
   {
     internalName: "THROATSPRAY",
-    name: "Throat Spray",
-    description: "Raises Sp. Atk when a Pokémon uses a sound-based move.",
+    name: "Espray Bucal",
+    description:
+      "Aumenta sp. Atk cuando un Pokémon usa un movimiento basado en sonido.",
     pocket: 1,
   },
   {
     internalName: "ADRENALINEORB",
-    name: "Adrenaline Orb",
+    name: "Nerviosfera",
     description:
-      "An item to be held by a Pokémon. It boosts Speed when intimidated. It can be used only once.",
+      "Un objeto que debe tener un Pokémon. Aumenta la velocidad cuando se siente intimidado. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "BOOSTERENERGY",
-    name: "Booster Energy",
+    name: "Energía Potenciadora",
     description:
-      "An item to be held by Pokémon with certain Abilities. Its energy boosts the strength of the Pokémon.",
+      "Un objeto que deben tener los Pokémon con ciertas habilidades. Su energía aumenta la fuerza del Pokémon.",
     pocket: 1,
   },
   {
     internalName: "ROOMSERVICE",
-    name: "Room Service",
+    name: "Servicio Raro",
     description:
-      "An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.",
+      "Un objeto que debe tener un Pokémon. Reduce la velocidad cuando Trick Room entra en vigor.",
     pocket: 1,
   },
   {
     internalName: "ELECTRICSEED",
-    name: "Electric Seed",
+    name: "Semilla Electro",
     description:
-      "An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.",
+      "Un objeto que debe tener un Pokémon. Aumenta la defensa en terreno eléctrico. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "GRASSYSEED",
-    name: "Grassy Seed",
+    name: "Semilla Hierba",
     description:
-      "An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.",
+      "Un objeto que debe tener un Pokémon. Aumenta la defensa en terrenos cubiertos de hierba. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "MISTYSEED",
-    name: "Misty Seed",
+    name: "Semilla Bruma",
     description:
-      "An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.",
+      "Un objeto que debe tener un Pokémon. Aumenta Sp. Def en terreno brumoso. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "PSYCHICSEED",
-    name: "Psychic Seed",
+    name: "Semilla Psique",
     description:
-      "An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.",
+      "Un objeto que debe tener un Pokémon. Aumenta Sp. Def en terreno psíquico. Sólo se puede utilizar una vez.",
     pocket: 1,
   },
   {
     internalName: "LIFEORB",
-    name: "Life Orb",
+    name: "Vidasfera",
     description:
-      "An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.",
+      "Un objeto que debe tener un Pokémon. Aumenta el poder de los movimientos, pero a costa de algo de HP con cada golpe.",
     pocket: 1,
   },
   {
     internalName: "EXPERTBELT",
-    name: "Expert Belt",
+    name: "Cinta Experto",
     description:
-      "An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.",
+      "Un objeto que debe tener un Pokémon. Es un cinturón muy usado que aumenta ligeramente el poder de los movimientos supereficaces.",
     pocket: 1,
   },
   {
     internalName: "METRONOME",
-    name: "Metronome",
+    name: "Metrónomo",
     description:
-      "A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.",
+      "Un objeto Pokémon que potencia un movimiento usado consecutivamente. Su efecto se reinicia si se utiliza otro movimiento.",
     pocket: 1,
   },
   {
     internalName: "PUNCHINGGLOVE",
-    name: "Punching Glove",
+    name: "Guante de Boxeo",
     description:
-      "An item to be held by a Pokémon. It powers up the holder's punching moves and prevents direct contact.",
+      "Un objeto que debe tener un Pokémon. Potencia los movimientos de golpe del titular y evita el contacto directo.",
     pocket: 1,
   },
   {
     internalName: "MUSCLEBAND",
-    name: "Muscle Band",
+    name: "Cinta Fuerte",
     description:
-      "An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.",
+      "Un objeto que debe tener un Pokémon. Es una diadema que aumenta ligeramente el poder de los movimientos físicos.",
     pocket: 1,
   },
   {
     internalName: "WISEGLASSES",
-    name: "Wise Glasses",
+    name: "Gafas Especiales",
     description:
-      "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
+      "Un objeto que debe tener un Pokémon. Es un par de gafas gruesas que aumentan ligeramente el poder de los movimientos especiales.",
     pocket: 1,
   },
   {
     internalName: "RAZORCLAW",
-    name: "Razor Claw",
+    name: "Garra Afilada",
     description:
-      "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.",
+      "Un objeto que debe tener un Pokémon. Es una garra con forma de gancho afilado que aumenta la proporción de golpes críticos del portador.",
     pocket: 1,
   },
   {
     internalName: "SCOPELENS",
-    name: "Scope Lens",
+    name: "Periscopio",
     description:
-      "An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.",
+      "Un objeto que debe tener un Pokémon. Es una lente que aumenta la proporción de golpes críticos del portador.",
     pocket: 1,
   },
   {
     internalName: "WIDELENS",
-    name: "Wide Lens",
+    name: "Lupa",
     description:
-      "An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.",
+      "Un objeto que debe tener un Pokémon. Es una lupa que aumenta ligeramente la precisión de los movimientos.",
     pocket: 1,
   },
   {
     internalName: "ZOOMLENS",
-    name: "Zoom Lens",
+    name: "Telescopio",
     description:
-      "An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.",
+      "Un objeto que debe tener un Pokémon. Si el portador se mueve detrás de su objetivo, su precisión aumentará.",
     pocket: 1,
   },
   {
     internalName: "KINGSROCK",
-    name: "King's Rock",
+    name: "Roca del Rey",
     description:
-      "An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.",
+      "Un objeto que debe tener un Pokémon. Cuando el poseedor inflige daño, el objetivo puede estremecerse.",
     pocket: 1,
   },
   {
     internalName: "RAZORFANG",
-    name: "Razor Fang",
+    name: "Colmillo Agudo",
     description:
-      "An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.",
+      "Un objeto que debe tener un Pokémon. Puede hacer que enemigos y aliados se estremezcan cuando su portador inflige daño.",
     pocket: 1,
   },
   {
     internalName: "LAGGINGTAIL",
-    name: "Lagging Tail",
+    name: "Cola Plúmbea",
     description:
-      "An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.",
+      "Un objeto que debe tener un Pokémon. Es tremendamente pesado y hace que el soporte se mueva más lento de lo habitual.",
     pocket: 1,
   },
   {
     internalName: "QUICKCLAW",
-    name: "Quick Claw",
+    name: "Garra Rápida",
     description:
-      "An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.",
+      "Un objeto que debe tener un Pokémon. Una garra ligera y afilada que permite al portador moverse primero en ocasiones.",
     pocket: 1,
   },
   {
     internalName: "FOCUSBAND",
-    name: "Focus Band",
+    name: "Cinta Aguante",
     description:
-      "An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.",
+      "Un objeto que debe tener un Pokémon. El poseedor puede soportar un posible ataque de KO, dejándolo con sólo 1 HP.",
     pocket: 1,
   },
   {
     internalName: "FOCUSSASH",
-    name: "Focus Sash",
+    name: "Banda Aguante",
     description:
-      "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
+      "Un objeto que debe tener un Pokémon. Si tiene HP completo, el poseedor soportará un ataque potencial de KO, dejando 1 HP.",
     pocket: 1,
   },
   {
     internalName: "FLAMEORB",
-    name: "Flame Orb",
+    name: "Llamasfera",
     description:
-      "An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.",
+      "Un objeto que debe tener un Pokémon. Es un orbe extraño que inflige una quemadura a quien lo posee en batalla.",
     pocket: 1,
   },
   {
     internalName: "TOXICORB",
-    name: "Toxic Orb",
+    name: "Toxisfera",
     description:
-      "An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.",
+      "Un objeto que debe tener un Pokémon. Es un orbe extraño que envenena gravemente a quien lo posee en batalla.",
     pocket: 1,
   },
   {
     internalName: "STICKYBARB",
-    name: "Sticky Barb",
+    name: "Toxiestrella",
     description:
-      "A held item that damages the holder on every turn. It may latch on to Pokémon that touch the holder.",
+      "Un objeto retenido que daña al poseedor en cada turno. Puede aferrarse a Pokémon que toquen al portador.",
     pocket: 1,
   },
   {
     internalName: "IRONBALL",
-    name: "Iron Ball",
+    name: "Bola Férrea",
     description:
-      "A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.",
+      "Un objeto Pokémon que corta la velocidad. Hace que los poseedores de tipo Volador y levitantes sean susceptibles a los movimientos terrestres.",
     pocket: 1,
   },
   {
     internalName: "RINGTARGET",
-    name: "Ring Target",
+    name: "Blanco",
     description:
-      "Moves that would otherwise have no effect will land on the Pokémon that holds it.",
+      "Los movimientos que de otro modo no tendrían ningún efecto aterrizarán en el Pokémon que los tenga.",
     pocket: 1,
   },
   {
     internalName: "MACHOBRACE",
-    name: "Macho Brace",
+    name: "Brazal Firme",
     description:
-      "An item to be held by a Pokémon. It is a stiff, heavy brace that promotes strong growth but lowers Speed.",
+      "Un objeto que debe tener un Pokémon. Es un aparato ortopédico rígido y pesado que promueve un fuerte crecimiento pero reduce la velocidad.",
     pocket: 1,
   },
   {
     internalName: "POWERWEIGHT",
-    name: "Power Weight",
+    name: "Pesa Recia",
     description:
-      "A Pokémon held item that promotes HP gain on leveling, but reduces the Speed stat.",
+      "Un objeto que posee Pokémon que promueve la ganancia de HP al subir de nivel, pero reduce la estadística de Velocidad.",
     pocket: 1,
   },
   {
     internalName: "POWERBRACER",
-    name: "Power Bracer",
+    name: "Brazal Recio",
     description:
-      "A Pokémon held item that promotes Attack gain on leveling, but reduces the Speed stat.",
+      "Un objeto Pokémon que promueve la ganancia de ataque al subir de nivel, pero reduce la estadística de velocidad.",
     pocket: 1,
   },
   {
     internalName: "POWERBELT",
-    name: "Power Belt",
+    name: "Cinto Recio",
     description:
-      "A Pokémon held item that promotes Defense gain on leveling, but reduces the Speed stat.",
+      "Un objeto que posee Pokémon que promueve la ganancia de defensa al subir de nivel, pero reduce la estadística de velocidad.",
     pocket: 1,
   },
   {
     internalName: "POWERLENS",
-    name: "Power Lens",
+    name: "Lente Recia",
     description:
-      "A Pokémon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat.",
+      "Un objeto Pokémon que promueve Sp. El ataque gana al subir de nivel, pero reduce la estadística de velocidad.",
     pocket: 1,
   },
   {
     internalName: "POWERBAND",
-    name: "Power Band",
+    name: "Banda Recia",
     description:
-      "A Pokémon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat.",
+      "Un objeto Pokémon que promueve Sp. Ganancia de definición al subir de nivel, pero reduce la estadística de velocidad.",
     pocket: 1,
   },
   {
     internalName: "POWERANKLET",
-    name: "Power Anklet",
+    name: "Franja Recia",
     description:
-      "A Pokémon held item that promotes Speed gain on leveling, but reduces the Speed stat.",
+      "Un objeto que posee Pokémon y que promueve la ganancia de velocidad al subir de nivel, pero reduce la estadística de velocidad.",
     pocket: 1,
   },
   {
     internalName: "LAXINCENSE",
-    name: "Lax Incense",
+    name: "Incienso Suave",
     description:
-      "An item to be held by a Pokémon. The tricky aroma of this incense may make attacks miss the holder.",
+      "Un objeto que debe tener un Pokémon. El delicado aroma de este incienso puede hacer que los ataques no alcancen a quien lo posee.",
     pocket: 1,
   },
   {
     internalName: "FULLINCENSE",
-    name: "Full Incense",
+    name: "Incienso Lento",
     description:
-      "An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving.",
+      "Un objeto que debe tener un Pokémon. Este incienso de olor exótico hace que quien lo sostiene se hinche y se mueva lentamente.",
     pocket: 1,
   },
   {
     internalName: "LUCKINCENSE",
-    name: "Luck Incense",
+    name: "Incienso Duplo",
     description:
-      "An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.",
+      "Un objeto que debe tener un Pokémon. Duplica el premio en metálico de una batalla si el Pokémon que lo posee se une.",
     pocket: 1,
   },
   {
     internalName: "PUREINCENSE",
-    name: "Pure Incense",
+    name: "Incienso Puro",
     description:
-      "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
+      "Un objeto que debe tener un Pokémon. Ayuda a mantener alejados a los Pokémon salvajes si el poseedor es el primero en el grupo.",
     pocket: 1,
   },
   {
     internalName: "SEAINCENSE",
-    name: "Sea Incense",
+    name: "Incienso Marino",
     description:
-      "An item to be held by a Pokémon. It has a curious aroma that boosts the power of Water-type moves.",
+      "Un objeto que debe tener un Pokémon. Tiene un curioso aroma que potencia el poder de los movimientos de tipo Agua.",
     pocket: 1,
   },
   {
     internalName: "WAVEINCENSE",
-    name: "Wave Incense",
+    name: "Incienso Aqua",
     description:
-      "An item to be held by a Pokémon. It has a curious aroma that boosts the power of Water-type moves.",
+      "Un objeto que debe tener un Pokémon. Tiene un curioso aroma que potencia el poder de los movimientos de tipo Agua.",
     pocket: 1,
   },
   {
     internalName: "ROSEINCENSE",
-    name: "Rose Incense",
+    name: "Incienso Floral",
     description:
-      "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves.",
+      "Un objeto que debe tener un Pokémon. Este incienso de olor exótico aumenta el poder de los movimientos de tipo Planta.",
     pocket: 1,
   },
   {
     internalName: "ODDINCENSE",
-    name: "Odd Incense",
+    name: "Incienso Raro",
     description:
-      "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Psychic-type moves.",
+      "Un objeto que debe tener un Pokémon. Este incienso de olor exótico aumenta el poder de los movimientos de tipo psíquico.",
     pocket: 1,
   },
   {
     internalName: "ROCKINCENSE",
-    name: "Rock Incense",
+    name: "Incienso Roca",
     description:
-      "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves.",
+      "Un objeto que debe tener un Pokémon. Este incienso de olor exótico aumenta el poder de los movimientos tipo Roca.",
     pocket: 1,
   },
   {
     internalName: "CHARCOAL",
-    name: "Charcoal",
+    name: "Carbón",
     description:
-      "An item to be held by a Pokémon. It is a combustible fuel that boosts the power of Fire-type moves.",
+      "Un objeto que debe tener un Pokémon. Es un combustible que aumenta el poder de los movimientos de tipo Fuego.",
     pocket: 1,
   },
   {
     internalName: "MYSTICWATER",
-    name: "Mystic Water",
+    name: "Agua Mística",
     description:
-      "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una gema en forma de lágrima que aumenta el poder de los movimientos de tipo Agua.",
     pocket: 1,
   },
   {
     internalName: "MAGNET",
-    name: "Magnet",
+    name: "Imán",
     description:
-      "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
+      "Un objeto que debe tener un Pokémon. Es un poderoso imán que aumenta el poder de los movimientos de tipo eléctrico.",
     pocket: 1,
   },
   {
     internalName: "MIRACLESEED",
-    name: "Miracle Seed",
+    name: "Semilla Milagro",
     description:
-      "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una semilla imbuida de vida que aumenta el poder de los movimientos tipo Planta.",
     pocket: 1,
   },
   {
     internalName: "NEVERMELTICE",
-    name: "Never-Melt Ice",
+    name: "Antiderretir",
     description:
-      "An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.",
+      "Un objeto que debe tener un Pokémon. Es un trozo de hielo que repele el calor y potencia los movimientos tipo Hielo.",
     pocket: 1,
   },
   {
     internalName: "BLACKBELT",
-    name: "Black Belt",
+    name: "Cinturón Negro",
     description:
-      "An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.",
+      "Un objeto que debe tener un Pokémon. Es un cinturón que potencia la determinación y los movimientos de tipo Lucha.",
     pocket: 1,
   },
   {
     internalName: "POISONBARB",
-    name: "Poison Barb",
+    name: "Flecha Venenosa",
     description:
-      "An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una púa pequeña y venenosa que aumenta el poder de los movimientos de tipo Veneno.",
     pocket: 1,
   },
   {
     internalName: "SOFTSAND",
-    name: "Soft Sand",
+    name: "Arena Fina",
     description:
-      "An item to be held by a Pokémon. It is a loose, silky sand that boosts the power of Ground-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una arena suelta y sedosa que potencia el poder de los movimientos de tipo Tierra.",
     pocket: 1,
   },
   {
     internalName: "SHARPBEAK",
-    name: "Sharp Beak",
+    name: "Pico Afilado",
     description:
-      "An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.",
+      "Un objeto que debe tener un Pokémon. Es un pico largo y afilado que aumenta el poder de los movimientos de tipo Volador.",
     pocket: 1,
   },
   {
     internalName: "TWISTEDSPOON",
-    name: "Twisted Spoon",
+    name: "Cuchara Torcida",
     description:
-      "An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una cuchara imbuida de poder telequinético que potencia los movimientos de tipo psíquico.",
     pocket: 1,
   },
   {
     internalName: "SILVERPOWDER",
-    name: "Silver Powder",
+    name: "Polvo Plata",
     description:
-      "An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.",
+      "Un objeto que debe tener un Pokémon. Es un polvo plateado brillante que aumenta el poder de los movimientos tipo Bug.",
     pocket: 1,
   },
   {
     internalName: "HARDSTONE",
-    name: "Hard Stone",
+    name: "Piedra Dura",
     description:
-      "An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una piedra irrompible que aumenta el poder de los movimientos tipo Roca.",
     pocket: 1,
   },
   {
     internalName: "SPELLTAG",
-    name: "Spell Tag",
+    name: "Hechizo",
     description:
-      "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una etiqueta siniestra y espeluznante que aumenta el poder de los movimientos de tipo Fantasma.",
     pocket: 1,
   },
   {
     internalName: "DRAGONFANG",
-    name: "Dragon Fang",
+    name: "Colmillo Dragón",
     description:
-      "An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.",
+      "Un objeto que debe tener un Pokémon. Es un colmillo duro y afilado que aumenta el poder de los movimientos de tipo Dragón.",
     pocket: 1,
   },
   {
     internalName: "BLACKGLASSES",
-    name: "Black Glasses",
+    name: "Gafas de Sol",
     description:
-      "An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.",
+      "Un objeto que debe tener un Pokémon. Es un par de gafas de aspecto sombrío que potencian los movimientos de tipo Oscuro.",
     pocket: 1,
   },
   {
     internalName: "METALCOAT",
-    name: "Metal Coat",
+    name: "Revestim. Metálico",
     description:
-      "An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una película metálica especial que aumenta el poder de los movimientos de tipo Acero.",
     pocket: 1,
   },
   {
     internalName: "FAIRYFEATHER",
-    name: "Fairy Feather",
+    name: "Pluma Feérica",
     description:
-      "An item to be held by a Pokémon. This gleaming feather boosts the power of the holder's Fairy-type moves.",
+      "Un objeto que debe tener un Pokémon. Esta pluma brillante aumenta el poder de los movimientos tipo Hada del poseedor.",
     pocket: 1,
   },
   {
     internalName: "SILKSCARF",
-    name: "Silk Scarf",
+    name: "Pañuelo Seda",
     description:
-      "An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una suntuosa bufanda que aumenta el poder de los movimientos de tipo Normal.",
     pocket: 1,
   },
   {
     internalName: "FLAMEPLATE",
-    name: "Flame Plate",
+    name: "Tabla Llama",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Fuego.",
     pocket: 1,
   },
   {
     internalName: "SPLASHPLATE",
-    name: "Splash Plate",
+    name: "Tabla Linfa",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Water-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Agua.",
     pocket: 1,
   },
   {
     internalName: "ZAPPLATE",
-    name: "Zap Plate",
+    name: "Tabla Trueno",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Electric-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo eléctrico.",
     pocket: 1,
   },
   {
     internalName: "MEADOWPLATE",
-    name: "Meadow Plate",
+    name: "Tabla Pradal",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Grass-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Hierba.",
     pocket: 1,
   },
   {
     internalName: "ICICLEPLATE",
-    name: "Icicle Plate",
+    name: "Tabla Helada",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ice-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Hielo.",
     pocket: 1,
   },
   {
     internalName: "FISTPLATE",
-    name: "Fist Plate",
+    name: "Tabla Fuerte",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Lucha.",
     pocket: 1,
   },
   {
     internalName: "TOXICPLATE",
-    name: "Toxic Plate",
+    name: "Tabla Tóxica",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Poison-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tablilla de piedra que aumenta el poder de los movimientos de tipo Veneno.",
     pocket: 1,
   },
   {
     internalName: "EARTHPLATE",
-    name: "Earth Plate",
+    name: "Tabla Terrax",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Tierra.",
     pocket: 1,
   },
   {
     internalName: "SKYPLATE",
-    name: "Sky Plate",
+    name: "Tabla Cielo",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Flying-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Volador.",
     pocket: 1,
   },
   {
     internalName: "MINDPLATE",
-    name: "Mind Plate",
+    name: "Tabla Mental",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Psychic-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo psíquico.",
     pocket: 1,
   },
   {
     internalName: "INSECTPLATE",
-    name: "Insect Plate",
+    name: "Tabla Bicho",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tablilla de piedra que aumenta el poder de los movimientos tipo Bug.",
     pocket: 1,
   },
   {
     internalName: "STONEPLATE",
-    name: "Stone Plate",
+    name: "Tabla Pétrea",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Rock-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos tipo Roca.",
     pocket: 1,
   },
   {
     internalName: "SPOOKYPLATE",
-    name: "Spooky Plate",
+    name: "Tabla Terror",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ghost-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Fantasma.",
     pocket: 1,
   },
   {
     internalName: "DRACOPLATE",
-    name: "Draco Plate",
+    name: "Tabla Draco",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dragon-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tablilla de piedra que aumenta el poder de los movimientos de tipo Dragón.",
     pocket: 1,
   },
   {
     internalName: "DREADPLATE",
-    name: "Dread Plate",
+    name: "Tabla Oscura",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Oscuro.",
     pocket: 1,
   },
   {
     internalName: "IRONPLATE",
-    name: "Iron Plate",
+    name: "Tabla Acero",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tableta de piedra que aumenta el poder de los movimientos de tipo Acero.",
     pocket: 1,
   },
   {
     internalName: "PIXIEPLATE",
-    name: "Pixie Plate",
+    name: "Tabla Duende",
     description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fairy-type moves.",
+      "Un objeto que debe tener un Pokémon. Es una tablilla de piedra que aumenta el poder de los movimientos de tipo Hada.",
     pocket: 1,
   },
   {
     internalName: "FIREGEM",
-    name: "Fire Gem",
+    name: "Gema Fuego",
     description:
-      "A gem with an essence of fire. When held, it strengthens the power of a Fire-type move only once.",
+      "Una joya con esencia de fuego. Cuando se mantiene, fortalece el poder de un movimiento de tipo Fuego sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "WATERGEM",
-    name: "Water Gem",
+    name: "Gema Agua",
     description:
-      "A gem with an essence of water. When held, it strengthens the power of a Water-type move only once.",
+      "Una joya con esencia de agua. Cuando se sostiene, fortalece el poder de un movimiento de tipo Agua solo una vez.",
     pocket: 1,
   },
   {
     internalName: "ELECTRICGEM",
-    name: "Electric Gem",
+    name: "Gema Eléctrico",
     description:
-      "A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move only once.",
+      "Una joya con esencia de electricidad. Cuando se sostiene, fortalece el poder de un movimiento de tipo Eléctrico solo una vez.",
     pocket: 1,
   },
   {
     internalName: "GRASSGEM",
-    name: "Grass Gem",
+    name: "Gema Planta",
     description:
-      "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move only once.",
+      "Una joya con esencia de naturaleza. Cuando se sostiene, fortalece el poder de un movimiento de tipo Planta solo una vez.",
     pocket: 1,
   },
   {
     internalName: "ICEGEM",
-    name: "Ice Gem",
+    name: "Gema Hielo",
     description:
-      "A gem with an essence of ice. When held, it strengthens the power of an Ice-type move only once.",
+      "Una joya con esencia de hielo. Cuando se sostiene, fortalece el poder de un movimiento de tipo Hielo solo una vez.",
     pocket: 1,
   },
   {
     internalName: "FIGHTINGGEM",
-    name: "Fighting Gem",
+    name: "Gema Lucha",
     description:
-      "A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move only once.",
+      "Una joya con esencia de combate. Cuando se mantiene, fortalece el poder de un movimiento de tipo Lucha solo una vez.",
     pocket: 1,
   },
   {
     internalName: "POISONGEM",
-    name: "Poison Gem",
+    name: "Gema Veneno",
     description:
-      "A gem with an essence of poison. When held, it strengthens the power of a Poison-type move only once.",
+      "Una gema con esencia de veneno. Cuando se mantiene, fortalece el poder de un movimiento de tipo Veneno sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "GROUNDGEM",
-    name: "Ground Gem",
+    name: "Gema Tierra",
     description:
-      "A gem with an essence of land. When held, it strengthens the power of a Ground-type move only once.",
+      "Una joya con esencia de tierra. Cuando se sostiene, fortalece el poder de un movimiento de tipo Tierra solo una vez.",
     pocket: 1,
   },
   {
     internalName: "FLYINGGEM",
-    name: "Flying Gem",
+    name: "Gema Volador",
     description:
-      "A gem with an essence of air. When held, it strengthens the power of a Flying-type move only once.",
+      "Una joya con esencia de aire. Cuando se sostiene, fortalece el poder de un movimiento de tipo Volador solo una vez.",
     pocket: 1,
   },
   {
     internalName: "PSYCHICGEM",
-    name: "Psychic Gem",
+    name: "Gema Psíquico",
     description:
-      "A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move only once.",
+      "Una joya con esencia de la mente. Cuando se mantiene, fortalece el poder de un movimiento de tipo psíquico sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "BUGGEM",
-    name: "Bug Gem",
+    name: "Gema Bicho",
     description:
-      "A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move only once.",
+      "Una gema con esencia de insecto. Cuando se mantiene, fortalece el poder de un movimiento tipo Bicho sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "ROCKGEM",
-    name: "Rock Gem",
+    name: "Gema Roca",
     description:
-      "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move only once.",
+      "Una joya con esencia de rock. Cuando se sostiene, fortalece el poder de un movimiento tipo Roca solo una vez.",
     pocket: 1,
   },
   {
     internalName: "GHOSTGEM",
-    name: "Ghost Gem",
+    name: "Gema Fantasma",
     description:
-      "A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move only once.",
+      "Una joya con esencia espectral. Cuando se mantiene, fortalece el poder de un movimiento de tipo Fantasma sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "DRAGONGEM",
-    name: "Dragon Gem",
+    name: "Gema Dragón",
     description:
-      "A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move only once.",
+      "Una joya con esencia dracónica. Cuando se mantiene, fortalece el poder de un movimiento de tipo Dragón sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "DARKGEM",
-    name: "Dark Gem",
+    name: "Gema Siniestro",
     description:
-      "A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move only once.",
+      "Una joya con esencia de oscuridad. Cuando se mantiene, fortalece el poder de un movimiento de tipo Oscuro sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "STEELGEM",
-    name: "Steel Gem",
+    name: "Gema Acero",
     description:
-      "A gem with an essence of steel. When held, it strengthens the power of a Steel-type move only once.",
+      "Una joya con esencia de acero. Cuando se sostiene, fortalece el poder de un movimiento de tipo Acero solo una vez.",
     pocket: 1,
   },
   {
     internalName: "FAIRYGEM",
-    name: "Fairy Gem",
+    name: "Gema Hada",
     description:
-      "A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move only once.",
+      "Una joya con esencia de hada. Cuando se mantiene, fortalece el poder de un movimiento tipo Hada sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "NORMALGEM",
-    name: "Normal Gem",
+    name: "Gema Normal",
     description:
-      "A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.",
+      "Una joya con una esencia ordinaria. Cuando se mantiene, fortalece el poder de un movimiento de tipo Normal sólo una vez.",
     pocket: 1,
   },
   {
     internalName: "LIGHTBALL",
-    name: "Light Ball",
+    name: "Bolaluminosa",
     description:
-      "An item to be held by Pikachu. It is a puzzling orb that raises the Attack and Sp. Atk stat.",
+      "Un objeto que debe tener Pikachu. Es un orbe desconcertante que aumenta el Ataque y Sp. Estadística de ataque.",
     pocket: 1,
   },
   {
     internalName: "LUCKYPUNCH",
-    name: "Lucky Punch",
+    name: "Puño Suerte",
     description:
-      "An item to be held by Chansey. It is a pair of gloves that boosts Chansey's critical-hit ratio.",
+      "Un objeto que debe tener Chansey. Es un par de guantes lo que aumenta la proporción de golpes críticos de Chansey.",
     pocket: 1,
   },
   {
     internalName: "METALPOWDER",
-    name: "Metal Powder",
+    name: "Polvo Metálico",
     description:
-      "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat.",
+      "Un artículo que estará en manos de Ditto. Extremadamente fino pero duro, este extraño polvo aumenta la estadística de Defensa.",
     pocket: 1,
   },
   {
     internalName: "QUICKPOWDER",
-    name: "Quick Powder",
+    name: "Polvo Veloz",
     description:
-      "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat.",
+      "Un artículo que estará en manos de Ditto. Extremadamente fino pero duro, este extraño polvo aumenta la estadística de Velocidad.",
     pocket: 1,
   },
   {
     internalName: "THICKCLUB",
-    name: "Thick Club",
+    name: "Hueso Grueso",
     description:
-      "An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat.",
+      "Un objeto que debe tener Cubone o Marowak. Es una especie de hueso duro que aumenta la estadística de ataque.",
     pocket: 1,
   },
   {
     internalName: "LEEK",
-    name: "Leek",
+    name: "Palo",
     description:
-      "An item to be held by Farfetch'd. It is a very long and stiff stalk of leek that boosts the critical-hit ratio.",
+      "Un artículo que estará en manos de Farfetch'd. Es un tallo de puerro muy largo y rígido que aumenta la proporción de golpes críticos.",
     pocket: 1,
   },
   {
     internalName: "SOULDEW",
-    name: "Soul Dew",
+    name: "Rocío Bondad",
     description:
-      "A wondrous orb to be held by either Latios or Latias. It raises the power of Psychic- and Dragon-type moves.",
+      "Un orbe maravilloso que podrá ser sostenido por Latios o Latias. Aumenta el poder de los movimientos de tipo Psíquico y Dragón.",
     pocket: 1,
   },
   {
     internalName: "DEEPSEATOOTH",
-    name: "Deep Sea Tooth",
+    name: "Diente Marino",
     description:
-      "An item to be held by Clamperl. A fang that gleams a sharp silver, it raises the Sp. Atk stat.",
+      "Un objeto que estará en manos de Clamperl. Un colmillo que brilla con un brillo plateado, levanta el Sp. Estadística de ataque.",
     pocket: 1,
   },
   {
     internalName: "DEEPSEASCALE",
-    name: "Deep Sea Scale",
+    name: "Escama Marina",
     description:
-      "An item to be held by Clamperl. A scale that shines a faint pink, it raises the Sp. Def stat.",
+      "Un objeto que estará en manos de Clamperl. Una escama que brilla de un rosa tenue, eleva el Sp. Estadística de definición.",
     pocket: 1,
   },
   {
     internalName: "ADAMANTORB",
-    name: "Adamant Orb",
+    name: "Diamansfera",
     description:
-      "A brightly gleaming orb to be held by Dialga. It boosts the power of Dragon- and Steel-type moves.",
+      "Un orbe brillante que sostendrá Dialga. Aumenta el poder de los movimientos de tipo Dragón y Acero.",
     pocket: 1,
   },
   {
     internalName: "LUSTROUSORB",
-    name: "Lustrous Orb",
+    name: "Lustresfera",
     description:
-      "A beautifully glowing orb to be held by Palkia. It boosts the power of Dragon- and Water-type moves.",
+      "Un orbe bellamente brillante que sostendrá Palkia. Aumenta el poder de los movimientos de tipo Dragón y Agua.",
     pocket: 1,
   },
   {
     internalName: "GRISEOUSORB",
-    name: "Griseous Orb",
+    name: "Griseosfera",
     description:
-      "A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves.",
+      "Un orbe brillante que sostendrá Giratina. Aumenta el poder de los movimientos de tipo Dragón y Fantasma.",
     pocket: 1,
   },
   {
     internalName: "ADAMANTCRYSTAL",
-    name: "Adamant Crystal",
+    name: "Gran Diamansfera",
     description:
-      "A large, glowing gem to be held by Dialga. It wells with power and allows the Pokémon to change form.",
+      "Una gema grande y brillante que estará en manos de Dialga. Rebosa poder y permite que el Pokémon cambie de forma.",
     pocket: 1,
   },
   {
     internalName: "LUSTROUSGLOBE",
-    name: "Lustrous Globe",
+    name: "Gran Lustresfera",
     description:
-      "A large, glowing orb to be held by Palkia. It wells with power and allows the Pokémon to change form.",
+      "Un orbe grande y brillante que Palkia sostendrá. Rebosa poder y permite que el Pokémon cambie de forma.",
     pocket: 1,
   },
   {
     internalName: "GRISEOUSCORE",
-    name: "Griseous Core",
+    name: "Gran Griseosfera",
     description:
-      "A large, glowing gem to be held by Giratina. It wells with power and allows the Pokémon to change form.",
+      "Una gema grande y brillante que sostendrá Giratina. Rebosa poder y permite que el Pokémon cambie de forma.",
     pocket: 1,
   },
   {
     internalName: "RUSTEDSWORD",
-    name: "Rusted Sword",
+    name: "Espada Oxidada",
     description:
-      "It is said that a hero used this sword to halt a disaster in ancient times. But it's grown rusty and worn.",
+      "Se dice que un héroe utilizó esta espada para detener un desastre en la antigüedad. Pero está oxidado y desgastado.",
     pocket: 1,
   },
   {
     internalName: "RUSTEDSHIELD",
-    name: "Rusted Shield",
+    name: "Escudo Oxidado",
     description:
-      "It is said that a hero used this shield to halt a disaster in ancient times. But it's grown rusty and worn.",
+      "Se dice que un héroe utilizó este escudo para detener un desastre en la antigüedad. Pero está oxidado y desgastado.",
     pocket: 1,
   },
   {
     internalName: "WELLSPRINGMASK",
-    name: "Wellspring Mask",
+    name: "Máscara Fuente",
     description:
-      "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Water type in battle.",
+      "Un objeto que estará en manos de Ogerpon. Esta máscara de madera tallada le permite a Ogerpon ejercer el tipo Agua en batalla.",
     pocket: 1,
   },
   {
     internalName: "HEARTHFLAMEMASK",
-    name: "Hearthflame Mask",
+    name: "Máscara Horno",
     description:
-      "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Fire type in battle.",
+      "Un objeto que estará en manos de Ogerpon. Esta máscara de madera tallada le permite a Ogerpon ejercer el tipo Fuego en batalla.",
     pocket: 1,
   },
   {
     internalName: "CORNERSTONEMASK",
-    name: "Cornerstone Mask",
+    name: "Máscara Cimiento",
     description:
-      "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Rock type in battle.",
+      "Un objeto que estará en manos de Ogerpon. Esta máscara de madera tallada le permite a Ogerpon empuñar el tipo Roca en batalla.",
     pocket: 1,
   },
   {
     internalName: "DOUSEDRIVE",
-    name: "Douse Drive",
+    name: "HidroROM",
     description:
-      "A cassette to be held by Genesect. It changes Techno Blast to a Water-type move.",
+      "Un casete que estará en manos de Genesect. Cambia Techno Blast a un movimiento de tipo Agua.",
     pocket: 1,
   },
   {
     internalName: "SHOCKDRIVE",
-    name: "Shock Drive",
+    name: "FulgoROM",
     description:
-      "A cassette to be held by Genesect. It changes Techno Blast to an Electric-type move.",
+      "Un casete que estará en manos de Genesect. Cambia Techno Blast a un movimiento de tipo eléctrico.",
     pocket: 1,
   },
   {
     internalName: "BURNDRIVE",
-    name: "Burn Drive",
+    name: "PiroROM",
     description:
-      "A cassette to be held by Genesect. It changes Techno Blast to a Fire-type move.",
+      "Un casete que estará en manos de Genesect. Cambia Techno Blast a un movimiento de tipo Fuego.",
     pocket: 1,
   },
   {
     internalName: "CHILLDRIVE",
-    name: "Chill Drive",
+    name: "CrioROM",
     description:
-      "A cassette to be held by Genesect. It changes Techno Blast to an Ice-type move.",
+      "Un casete que estará en manos de Genesect. Cambia Techno Blast a un movimiento de tipo Hielo.",
     pocket: 1,
   },
   {
     internalName: "FIREMEMORY",
-    name: "Fire Memory",
+    name: "Disco Fuego",
     description:
-      "A memory disc containing Fire-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Fuego. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "WATERMEMORY",
-    name: "Water Memory",
+    name: "Disco Agua",
     description:
-      "A memory disc containing Water-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo agua. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "ELECTRICMEMORY",
-    name: "Electric Memory",
+    name: "Disco Eléctrico",
     description:
-      "A memory disc containing Electric-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo eléctrico. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "GRASSMEMORY",
-    name: "Grass Memory",
+    name: "Disco Planta",
     description:
-      "A memory disc containing Grass-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Grass. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "ICEMEMORY",
-    name: "Ice Memory",
+    name: "Disco Hielo",
     description:
-      "A memory disc containing Ice-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Ice. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "FIGHTINGMEMORY",
-    name: "Fighting Memory",
+    name: "Disco Lucha",
     description:
-      "A memory disc containing Fighting-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Fighting. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "POISONMEMORY",
-    name: "Poison Memory",
+    name: "Disco Veneno",
     description:
-      "A memory disc containing Poison-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Veneno. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "GROUNDMEMORY",
-    name: "Ground Memory",
+    name: "Disco Tierra",
     description:
-      "A memory disc containing Ground-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo terrestre. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "FLYINGMEMORY",
-    name: "Flying Memory",
+    name: "Disco Volador",
     description:
-      "A memory disc containing Flying-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo volador. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "PSYCHICMEMORY",
-    name: "Psychic Memory",
+    name: "Disco Psíquico",
     description:
-      "A memory disc containing Psychic-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo psíquico. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "BUGMEMORY",
-    name: "Bug Memory",
+    name: "Disco Bicho",
     description:
-      "A memory disc containing Bug-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Bug. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "ROCKMEMORY",
-    name: "Rock Memory",
+    name: "Disco Roca",
     description:
-      "A memory disc containing Rock-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Rock. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "GHOSTMEMORY",
-    name: "Ghost Memory",
+    name: "Disco Fantasma",
     description:
-      "A memory disc containing Ghost-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo fantasma. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "DRAGONMEMORY",
-    name: "Dragon Memory",
+    name: "Disco Dragón",
     description:
-      "A memory disc containing Dragon-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Dragon. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "DARKMEMORY",
-    name: "Dark Memory",
+    name: "Disco Siniestro",
     description:
-      "A memory disc containing Dark-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo oscuro. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "STEELMEMORY",
-    name: "Steel Memory",
+    name: "Disco Acero",
     description:
-      "A memory disc containing Steel-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos de tipo Steel. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "FAIRYMEMORY",
-    name: "Fairy Memory",
+    name: "Disco Hada",
     description:
-      "A memory disc containing Fairy-type data. It changes the holder's type if held by a certain Pokémon.",
+      "Un disco de memoria que contiene datos tipo Hada. Cambia el tipo de poseedor si lo posee un determinado Pokémon.",
     pocket: 1,
   },
   {
     internalName: "EVERSTONE",
-    name: "Everstone",
+    name: "Piedra Eterna",
     description:
-      "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.",
+      "Un objeto que debe tener un Pokémon. El Pokémon que porta esta peculiar piedra no puede evolucionar.",
     pocket: 1,
   },
   {
     internalName: "DRAGONSCALE",
-    name: "Dragon Scale",
+    name: "Escamadragón",
     description:
-      "A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.",
+      "Una escama gruesa y dura. Los Pokémon de tipo Dragón pueden tener este objeto en la mano cuando los atrapan.",
     pocket: 1,
   },
   {
     internalName: "UPGRADE",
-    name: "Upgrade",
+    name: "Mejora",
     description:
-      "A transparent device filled with all sorts of data. It was produced by Silph Co.",
+      "Un dispositivo transparente lleno de todo tipo de datos. Fue producido por Silph Co.",
     pocket: 1,
   },
   {
     internalName: "DUBIOUSDISC",
-    name: "Dubious Disc",
+    name: "Disco Extraño",
     description:
-      "A transparent device overflowing with dubious data.  Its producer is unknown.",
+      "Un dispositivo transparente repleto de datos dudosos. Se desconoce su productor.",
     pocket: 1,
   },
   {
     internalName: "PROTECTOR",
     name: "Protector",
     description:
-      "A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.",
+      "Un elemento protector de algún tipo. Es extremadamente rígido y pesado. Es amado por cierto Pokémon.",
     pocket: 1,
   },
   {
     internalName: "ELECTIRIZER",
-    name: "Electirizer",
+    name: "Electrizador",
     description:
-      "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.",
+      "Una caja repleta de una tremenda cantidad de energía eléctrica. Es amado por cierto Pokémon.",
     pocket: 1,
   },
   {
     internalName: "MAGMARIZER",
-    name: "Magmarizer",
+    name: "Magmatizador",
     description:
-      "A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.",
+      "Una caja repleta de una tremenda cantidad de energía de magma. Es amado por cierto Pokémon.",
     pocket: 1,
   },
   {
     internalName: "REAPERCLOTH",
-    name: "Reaper Cloth",
+    name: "Tela Terrible",
     description:
-      "A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.",
+      "Una tela imbuida de una energía espiritual terriblemente fuerte. Es amado por cierto Pokémon.",
     pocket: 1,
   },
   {
     internalName: "PRISMSCALE",
-    name: "Prism Scale",
+    name: "Escama Bella",
     description:
-      "A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.",
+      "Una escama misteriosa que hace evolucionar a ciertos Pokémon. Brilla con los colores del arcoíris.",
     pocket: 1,
   },
   {
     internalName: "OVALSTONE",
-    name: "Oval Stone",
+    name: "Piedra Oval",
     description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.",
+      "Una peculiar piedra que hace evolucionar a determinadas especies de Pokémon. Tiene forma de huevo.",
     pocket: 1,
   },
   {
     internalName: "WHIPPEDDREAM",
-    name: "Whipped Dream",
+    name: "Dulce de Nata",
     description:
-      "A soft and sweet treat made of fluffy, puffy and whirled cream. It's loved by a certain Pokémon.",
+      "Una delicia suave y dulce hecha de crema esponjosa, esponjosa y batida. Es amado por cierto Pokémon.",
     pocket: 1,
   },
   {
     internalName: "SACHET",
-    name: "Sachet",
+    name: "Saquito Fragante",
     description:
-      "A sachet filled with slightly overwhelming fragrant perfumes. Yet it's loved by a certain Pokémon.",
+      "Un sobre lleno de perfumes fragantes ligeramente abrumadores. Sin embargo, es amado por cierto Pokémon.",
     pocket: 1,
   },
   {
     internalName: "STRAWBERRYSWEET",
-    name: "Strawberry Sweet",
+    name: "Confite Fresa",
     description:
-      "A strawberry-shaped sweet. When a Milcery holds this, it will spin around happily.",
+      "Un dulce con forma de fresa. Cuando un Milcery sostiene esto, girará felizmente.",
     pocket: 1,
   },
   {
     internalName: "LOVESWEET",
-    name: "Love Sweet",
+    name: "Confite Corazón",
     description:
-      "A heart-shaped sweet. When a Milcery holds this, it spins around happily.",
+      "Un dulce en forma de corazón. Cuando un Milcery sostiene esto, gira felizmente.",
     pocket: 1,
   },
   {
     internalName: "BERRYSWEET",
-    name: "Berry Sweet",
+    name: "Confite Fruto",
     description:
-      "A berry-shaped sweet. When a Milcery holds this, it spins around happily.",
+      "Un dulce con forma de baya. Cuando un Milcery sostiene esto, gira felizmente.",
     pocket: 1,
   },
   {
     internalName: "CLOVERSWEET",
-    name: "Clover Sweet",
+    name: "Confite Trébol",
     description:
-      "A clover-shaped sweet. When a Milcery holds this, it spins around happily.",
+      "Un dulce con forma de trébol. Cuando un Milcery sostiene esto, gira felizmente.",
     pocket: 1,
   },
   {
     internalName: "FLOWERSWEET",
-    name: "Flower Sweet",
+    name: "Confite Flor",
     description:
-      "A flower-shaped sweet. When a Milcery holds this, it spins around happily.",
+      "Un dulce con forma de flor. Cuando un Milcery sostiene esto, gira felizmente.",
     pocket: 1,
   },
   {
     internalName: "STARSWEET",
-    name: "Star Sweet",
+    name: "Confite Estrella",
     description:
-      "A star-shaped sweet. When a Milcery holds this, it spins around happily.",
+      "Un dulce en forma de estrella. Cuando un Milcery sostiene esto, gira felizmente.",
     pocket: 1,
   },
   {
     internalName: "RIBBONSWEET",
-    name: "Ribbon Sweet",
+    name: "Confite Lazo",
     description:
-      "A ribbon-shaped sweet. When a Milcery holds this, it spins around happily.",
+      "Un dulce en forma de cinta. Cuando un Milcery sostiene esto, gira felizmente.",
     pocket: 1,
   },
   {
     internalName: "VENUSAURITE",
-    name: "Venusaurite",
+    name: "Venusaurita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Venusaur hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Venusaur lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "CHARIZARDITEX",
-    name: "Charizardite X",
+    name: "Charizardita X",
     description:
-      "One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Charizard lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "CHARIZARDITEY",
-    name: "Charizardite Y",
+    name: "Charizardita Y",
     description:
-      "One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Charizard lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "BLASTOISINITE",
-    name: "Blastoisinite",
+    name: "Blastoisita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Blastoise hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Blastoise lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "BEEDRILLITE",
-    name: "Beedrillite",
+    name: "Beedrillita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Beedrill hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Beedrill lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "PIDGEOTITE",
-    name: "Pidgeotite",
+    name: "Pidgeotita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Pidgeot lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "ALAKAZITE",
-    name: "Alakazite",
+    name: "Alakazamita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Alakazam hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Alakazam lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "SLOWBRONITE",
-    name: "Slowbronite",
+    name: "Slowbronita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Slowbro hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Slowbro lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "GENGARITE",
-    name: "Gengarite",
+    name: "Gengarita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Gengar hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Gengar lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "KANGASKHANITE",
-    name: "Kangaskhanite",
+    name: "Kangaskhanita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Kangaskhan hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Kangaskhan lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "PINSIRITE",
-    name: "Pinsirite",
+    name: "Pinsirita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Pinsir hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Pinsir lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "GYARADOSITE",
-    name: "Gyaradosite",
+    name: "Gyaradosita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Gyarados hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Gyarados lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "AERODACTYLITE",
-    name: "Aerodactylite",
+    name: "Aerodactylita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Aerodactyl hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Aerodactyl lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "MEWTWONITEX",
-    name: "Mewtwonite X",
+    name: "Mewtwoita X",
     description:
-      "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Mewtwo lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "MEWTWONITEY",
-    name: "Mewtwonite Y",
+    name: "Mewtwoita Y",
     description:
-      "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Mewtwo lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "AMPHAROSITE",
-    name: "Ampharosite",
+    name: "Ampharosita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Ampharos hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Ampharos lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "STEELIXITE",
-    name: "Steelixite",
+    name: "Steelixita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Steelix hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Steelix lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "SCIZORITE",
-    name: "Scizorite",
+    name: "Scizorita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Scizor hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Scizor lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "HERACRONITE",
-    name: "Heracronite",
+    name: "Heracrossita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Heracross hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Heracross lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "HOUNDOOMINITE",
-    name: "Houndoominite",
+    name: "Houndoomita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Houndoom hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Houndoom lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "TYRANITARITE",
-    name: "Tyranitarite",
+    name: "Tyranitarita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Tyranitar hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Tyranitar lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "SCEPTILITE",
-    name: "Sceptilite",
+    name: "Sceptilita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Sceptile hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Sceptile lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "BLAZIKENITE",
-    name: "Blazikenite",
+    name: "Blazikenita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Blaziken hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Blaziken lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "SWAMPERTITE",
-    name: "Swampertite",
+    name: "Swampertita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Swampert hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Swampert lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "GARDEVOIRITE",
-    name: "Gardevoirite",
+    name: "Gardevoirita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Gardevoir hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Gardevoir lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "SABLENITE",
-    name: "Sablenite",
+    name: "Sableynita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Sableye hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Sableye lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "MAWILITE",
-    name: "Mawilite",
+    name: "Mawilita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Mawile hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Mawile lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "AGGRONITE",
-    name: "Aggronite",
+    name: "Aggronita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Aggron hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Aggron lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "MEDICHAMITE",
-    name: "Medichamite",
+    name: "Medichamita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Medicham hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Medicham lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "MANECTITE",
-    name: "Manectite",
+    name: "Manectricita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Manectric hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Manectric lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "SHARPEDONITE",
-    name: "Sharpedonite",
+    name: "Sharpedonita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Sharpedo lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "CAMERUPTITE",
-    name: "Cameruptite",
+    name: "Cameruptita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Camerupt lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "ALTARIANITE",
-    name: "Altarianite",
+    name: "Altarianita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Altaria hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Altaria lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "BANETTITE",
-    name: "Banettite",
+    name: "Banettita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Banette hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Banette lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "ABSOLITE",
-    name: "Absolite",
+    name: "Absolita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Absol hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Absol lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "GLALITITE",
-    name: "Glalitite",
+    name: "Glalita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Glalie hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Glalie lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "SALAMENCITE",
-    name: "Salamencite",
+    name: "Salamencita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Salamence hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Salamence lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "METAGROSSITE",
-    name: "Metagrossite",
+    name: "Metagrossita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Metagross hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Metagross lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "LATIASITE",
-    name: "Latiasite",
+    name: "Latiasita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Latias hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Latias lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "LATIOSITE",
-    name: "Latiosite",
+    name: "Latiosita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Latios hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Latios lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "LOPUNNITE",
-    name: "Lopunnite",
+    name: "Lopunnita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Lopunny hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Lopunny lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "GARCHOMPITE",
-    name: "Garchompite",
+    name: "Garchompita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Garchomp hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Garchomp lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "LUCARIONITE",
-    name: "Lucarionite",
+    name: "Lucarita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Lucario hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Lucario lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "ABOMASITE",
-    name: "Abomasite",
+    name: "Abomasnowita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Abomasnow hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Abomasnow lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "GALLADITE",
-    name: "Galladite",
+    name: "Galladita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Gallade hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Gallade lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "AUDINITE",
-    name: "Audinite",
+    name: "Audinita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Audino hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Audino lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "DIANCITE",
-    name: "Diancite",
+    name: "Diancita",
     description:
-      "One of a variety of mysterious Mega Stones. Have Diancie hold it, and it will be able to Mega Evolve.",
+      "Una de una variedad de misteriosas Mega Piedras. Haz que Diancie lo sostenga y podrá megaevolucionar.",
     pocket: 1,
   },
   {
     internalName: "REDORB",
-    name: "Red Orb",
+    name: "Prisma Rojo",
     description:
-      "A shiny red orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.",
+      "Un orbe rojo brillante que se dice que tiene una leyenda ligada a él. Se sabe que está conectado con la región de Hoenn.",
     pocket: 1,
   },
   {
     internalName: "BLUEORB",
-    name: "Blue Orb",
+    name: "Prisma Azul",
     description:
-      "A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.",
+      "Un orbe azul brillante que se dice que tiene una leyenda ligada a él. Se sabe que está conectado con la región de Hoenn.",
     pocket: 1,
   },
   {
     internalName: "CHERIBERRY",
-    name: "Cheri Berry",
+    name: "Baya Zreza",
     description:
-      "It may be used or held by a Pokémon to recover from paralysis.",
+      "Un Pokémon puede usarlo o sostenerlo para recuperarse de una parálisis.",
     pocket: 5,
   },
   {
     internalName: "CHESTOBERRY",
-    name: "Chesto Berry",
-    description: "It may be used or held by a Pokémon to recover from sleep.",
+    name: "Baya Atania",
+    description:
+      "Un Pokémon puede usarlo o sostenerlo para recuperarse del sueño.",
     pocket: 5,
   },
   {
     internalName: "PECHABERRY",
-    name: "Pecha Berry",
-    description: "It may be used or held by a Pokémon to recover from poison.",
+    name: "Baya Meloc",
+    description:
+      "Un Pokémon puede usarlo o sostenerlo para recuperarse del veneno.",
     pocket: 5,
   },
   {
     internalName: "RAWSTBERRY",
-    name: "Rawst Berry",
-    description: "It may be used or held by a Pokémon to recover from a burn.",
+    name: "Baya Safre",
+    description:
+      "Un Pokémon puede usarlo o sostenerlo para recuperarse de una quemadura.",
     pocket: 5,
   },
   {
     internalName: "ASPEARBERRY",
-    name: "Aspear Berry",
-    description: "It may be used or held by a Pokémon to defrost it.",
+    name: "Baya Perasi",
+    description: "Un Pokémon puede usarlo o sostenerlo para descongelarlo.",
     pocket: 5,
   },
   {
     internalName: "LEPPABERRY",
-    name: "Leppa Berry",
+    name: "Baya Zanama",
     description:
-      "It may be used or held by a Pokémon to restore a move's PP by 10.",
+      "Un Pokémon puede usarlo o sostenerlo para restaurar los PP de un movimiento en 10.",
     pocket: 5,
   },
   {
     internalName: "ORANBERRY",
-    name: "Oran Berry",
+    name: "Baya Aranja",
     description:
-      "It may be used or held by a Pokémon to heal the user by just 10 HP.",
+      "Un Pokémon puede usarlo o sostenerlo para curar al usuario con solo 10 HP.",
     pocket: 5,
   },
   {
     internalName: "PERSIMBERRY",
-    name: "Persim Berry",
+    name: "Baya Caquic",
     description:
-      "It may be used or held by a Pokémon to recover from confusion.",
+      "Un Pokémon puede usarlo o sostenerlo para recuperarse de una confusión.",
     pocket: 5,
   },
   {
     internalName: "LUMBERRY",
-    name: "Lum Berry",
+    name: "Baya Ziuela",
     description:
-      "It may be used or held by a Pokémon to recover from any status problem.",
+      "Un Pokémon puede usarlo o retenerlo para recuperarse de cualquier problema de estado.",
     pocket: 5,
   },
   {
     internalName: "SITRUSBERRY",
-    name: "Sitrus Berry",
+    name: "Baya Zidra",
     description:
-      "It may be used or held by a Pokémon to heal the user's HP a little.",
+      "Un Pokémon puede usarlo o sostenerlo para curar un poco el HP del usuario.",
     pocket: 5,
   },
   {
     internalName: "FIGYBERRY",
-    name: "Figy Berry",
+    name: "Baya Higog",
     description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+      "Si lo tiene un Pokémon, restaura el HP del usuario en caso de necesidad, pero causará confusión si odia su sabor.",
     pocket: 5,
   },
   {
     internalName: "WIKIBERRY",
-    name: "Wiki Berry",
+    name: "Baya Wiki",
     description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+      "Si lo tiene un Pokémon, restaura el HP del usuario en caso de necesidad, pero causará confusión si odia su sabor.",
     pocket: 5,
   },
   {
     internalName: "MAGOBERRY",
-    name: "Mago Berry",
+    name: "Baya Ango",
     description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+      "Si lo tiene un Pokémon, restaura el HP del usuario en caso de necesidad, pero causará confusión si odia su sabor.",
     pocket: 5,
   },
   {
     internalName: "AGUAVBERRY",
-    name: "Aguav Berry",
+    name: "Baya Guaya",
     description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+      "Si lo tiene un Pokémon, restaura el HP del usuario en caso de necesidad, pero causará confusión si odia su sabor.",
     pocket: 5,
   },
   {
     internalName: "IAPAPABERRY",
-    name: "Iapapa Berry",
+    name: "Baya Pabaya",
     description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+      "Si lo tiene un Pokémon, restaura el HP del usuario en caso de necesidad, pero causará confusión si odia su sabor.",
     pocket: 5,
   },
   {
     internalName: "RAZZBERRY",
-    name: "Razz Berry",
+    name: "Baya Frambu",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "BLUKBERRY",
-    name: "Bluk Berry",
+    name: "Baya Oram",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "NANABBERRY",
-    name: "Nanab Berry",
+    name: "Baya Latano",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "WEPEARBERRY",
-    name: "Wepear Berry",
+    name: "Baya Peragu",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "PINAPBERRY",
-    name: "Pinap Berry",
+    name: "Baya Pinia",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "POMEGBERRY",
-    name: "Pomeg Berry",
+    name: "Baya Grana",
     description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base HP.",
+      "Usarlo en un Pokémon lo hace más amigable, pero también reduce su HP base.",
     pocket: 5,
   },
   {
     internalName: "KELPSYBERRY",
-    name: "Kelpsy Berry",
+    name: "Baya Algama",
     description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Attack stat.",
+      "Usarlo en un Pokémon lo hace más amigable, pero también reduce su estadística de ataque base.",
     pocket: 5,
   },
   {
     internalName: "QUALOTBERRY",
-    name: "Qualot Berry",
+    name: "Baya Ispero",
     description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Defense stat.",
+      "Usarlo en un Pokémon lo hace más amigable, pero también reduce su estadística de Defensa base.",
     pocket: 5,
   },
   {
     internalName: "HONDEWBERRY",
-    name: "Hondew Berry",
+    name: "Baya Meluce",
     description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Atk stat.",
+      "Usarlo en un Pokémon lo hace más amigable, pero también reduce su Sp base. Estadística de ataque.",
     pocket: 5,
   },
   {
     internalName: "GREPABERRY",
-    name: "Grepa Berry",
+    name: "Baya Uvav",
     description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Def stat.",
+      "Usarlo en un Pokémon lo hace más amigable, pero también reduce su Sp base. Estadística de definición.",
     pocket: 5,
   },
   {
     internalName: "TAMATOBERRY",
-    name: "Tamato Berry",
+    name: "Baya Tamate",
     description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat.",
+      "Usarlo en un Pokémon lo hace más amigable, pero también reduce su estadística de Velocidad base.",
     pocket: 5,
   },
   {
     internalName: "CORNNBERRY",
-    name: "Cornn Berry",
+    name: "Baya Mais",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "MAGOSTBERRY",
-    name: "Magost Berry",
+    name: "Baya Aostan",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "RABUTABERRY",
-    name: "Rabuta Berry",
+    name: "Baya Rautan",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "NOMELBERRY",
-    name: "Nomel Berry",
+    name: "Baya Monli",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "SPELONBERRY",
-    name: "Spelon Berry",
+    name: "Baya Wikano",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "PAMTREBERRY",
-    name: "Pamtre Berry",
+    name: "Baya Plama",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "WATMELBERRY",
-    name: "Watmel Berry",
+    name: "Baya Sambia",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "DURINBERRY",
-    name: "Durin Berry",
+    name: "Baya Rudion",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "BELUEBERRY",
-    name: "Belue Berry",
+    name: "Baya Andano",
     description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+      "En la región de Sinnoh les gusta hacer dulces conocidos como Poffins con esta baya.",
     pocket: 5,
   },
   {
     internalName: "OCCABERRY",
-    name: "Occa Berry",
+    name: "Baya Caoca",
     description:
-      "Weakens a supereffective Fire-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Fuego contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "PASSHOBERRY",
-    name: "Passho Berry",
+    name: "Baya Pasio",
     description:
-      "Weakens a supereffective Water-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Agua contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "WACANBERRY",
-    name: "Wacan Berry",
+    name: "Baya Gualot",
     description:
-      "Weakens a supereffective Electric-type attack against the holding Pokémon.",
+      "Debilita un ataque de tipo Eléctrico superefectivo contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "RINDOBERRY",
-    name: "Rindo Berry",
+    name: "Baya Tamar",
     description:
-      "Weakens a supereffective Grass-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Planta contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "YACHEBERRY",
-    name: "Yache Berry",
+    name: "Baya Rimoya",
     description:
-      "Weakens a supereffective Ice-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Hielo contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "CHOPLEBERRY",
-    name: "Chople Berry",
+    name: "Baya Pomaro",
     description:
-      "Weakens a supereffective Fighting-type attack against the holding Pokémon.",
+      "Debilita un ataque de tipo Lucha superefectivo contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "KEBIABERRY",
-    name: "Kebia Berry",
+    name: "Baya Kebia",
     description:
-      "Weakens a supereffective Poison-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Veneno contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "SHUCABERRY",
-    name: "Shuca Berry",
+    name: "Baya Acardo",
     description:
-      "Weakens a supereffective Ground-type attack against the holding Pokémon.",
+      "Debilita un ataque de tipo Tierra superefectivo contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "COBABERRY",
-    name: "Coba Berry",
+    name: "Baya Kouba",
     description:
-      "Weakens a supereffective Flying-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Volador contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "PAYAPABERRY",
-    name: "Payapa Berry",
+    name: "Baya Payapa",
     description:
-      "Weakens a supereffective Psychic-type attack against the holding Pokémon.",
+      "Debilita un ataque de tipo Psíquico superefectivo contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "TANGABERRY",
-    name: "Tanga Berry",
+    name: "Baya Yecana",
     description:
-      "Weakens a supereffective Bug-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Bicho contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "CHARTIBERRY",
-    name: "Charti Berry",
+    name: "Baya Alcho",
     description:
-      "Weakens a supereffective Rock-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Roca contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "KASIBBERRY",
-    name: "Kasib Berry",
+    name: "Baya Drasi",
     description:
-      "Weakens a supereffective Ghost-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Fantasma contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "HABANBERRY",
-    name: "Haban Berry",
+    name: "Baya Anjiro",
     description:
-      "Weakens a supereffective Dragon-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Dragón contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "COLBURBERRY",
-    name: "Colbur Berry",
+    name: "Baya Dillo",
     description:
-      "Weakens a supereffective Dark-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Oscuro contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "BABIRIBERRY",
-    name: "Babiri Berry",
+    name: "Baya Baribá",
     description:
-      "Weakens a supereffective Steel-type attack against the holding Pokémon.",
+      "Debilita un ataque superefectivo de tipo Acero contra el Pokémon que lo retiene.",
     pocket: 5,
   },
   {
     internalName: "ROSELIBERRY",
-    name: "Roseli Berry",
+    name: "Baya Hibis",
     description:
-      "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.",
+      "Si la sostiene un Pokémon, esta baya reducirá el daño recibido por un ataque superefectivo de tipo Hada.",
     pocket: 5,
   },
   {
     internalName: "CHILANBERRY",
-    name: "Chilan Berry",
+    name: "Baya Chilan",
     description:
-      "Weakens a Normal-type attack against the Pokémon holding this berry.",
+      "Debilita un ataque de tipo Normal contra el Pokémon que porta esta baya.",
     pocket: 5,
   },
   {
     internalName: "LIECHIBERRY",
-    name: "Liechi Berry",
-    description: "If held by a Pokémon, it raises its Attack stat in a pinch.",
+    name: "Baya Lichi",
+    description:
+      "Si lo sostiene un Pokémon, aumenta su estadística de Ataque en caso de necesidad.",
     pocket: 5,
   },
   {
     internalName: "GANLONBERRY",
-    name: "Ganlon Berry",
-    description: "If held by a Pokémon, it raises its Defense stat in a pinch.",
+    name: "Baya Gonlan",
+    description:
+      "Si lo sostiene un Pokémon, aumenta su estadística de Defensa en caso de necesidad.",
     pocket: 5,
   },
   {
     internalName: "SALACBERRY",
-    name: "Salac Berry",
-    description: "If held by a Pokémon, it raises its Speed stat in a pinch.",
+    name: "Baya Aslac",
+    description:
+      "Si lo sostiene un Pokémon, aumenta su estadística de Velocidad en caso de necesidad.",
     pocket: 5,
   },
   {
     internalName: "PETAYABERRY",
-    name: "Petaya Berry",
-    description: "If held by a Pokémon, it raises its Sp. Atk stat in a pinch.",
+    name: "Baya Yapati",
+    description:
+      "Si lo lleva un Pokémon, aumenta su Sp. Estadística de ataque en caso de apuro.",
     pocket: 5,
   },
   {
     internalName: "APICOTBERRY",
-    name: "Apicot Berry",
-    description: "If held by a Pokémon, it raises its Sp. Def stat in a pinch.",
+    name: "Baya Aricoc",
+    description:
+      "Si lo lleva un Pokémon, aumenta su Sp. Definitivamente estadística en caso de apuro.",
     pocket: 5,
   },
   {
     internalName: "LANSATBERRY",
-    name: "Lansat Berry",
+    name: "Baya Zonlan",
     description:
-      "If held by a Pokémon, it raises its critical-hit ratio in a pinch.",
+      "Si lo sostiene un Pokémon, aumenta su índice de golpes críticos en caso de necesidad.",
     pocket: 5,
   },
   {
     internalName: "STARFBERRY",
-    name: "Starf Berry",
+    name: "Baya Arabol",
     description:
-      "If held by a Pokémon, it sharply raises one of its stats in a pinch.",
+      "Si lo sostiene un Pokémon, aumenta drásticamente una de sus estadísticas en caso de necesidad.",
     pocket: 5,
   },
   {
     internalName: "ENIGMABERRY",
-    name: "Enigma Berry",
+    name: "Baya Enigma",
     description:
-      "If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.",
+      "Si lo sostiene un Pokémon, restaura su HP si es golpeado por algún ataque supereficaz.",
     pocket: 5,
   },
   {
     internalName: "MICLEBERRY",
-    name: "Micle Berry",
+    name: "Baya Lagro",
     description:
-      "If held by a Pokémon, it raises the accuracy of a move just once in a pinch.",
+      "Si lo sostiene un Pokémon, aumenta la precisión de un movimiento solo una vez en caso de necesidad.",
     pocket: 5,
   },
   {
     internalName: "CUSTAPBERRY",
-    name: "Custap Berry",
+    name: "Baya Chiri",
     description:
-      "If held by a Pokémon, it gets to move first just once in a pinch.",
+      "Si lo sostiene un Pokémon, este se moverá primero solo una vez en caso de necesidad.",
     pocket: 5,
   },
   {
     internalName: "JABOCABERRY",
-    name: "Jaboca Berry",
+    name: "Baya Jaboca",
     description:
-      "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
+      "Si lo retiene un Pokémon y aterriza un ataque físico, el atacante también sufre daño.",
     pocket: 5,
   },
   {
     internalName: "ROWAPBERRY",
-    name: "Rowap Berry",
+    name: "Baya Magua",
     description:
-      "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
+      "Si lo retiene un Pokémon y aterriza un ataque especial, el atacante también sufre daño.",
     pocket: 5,
   },
   {
     internalName: "KEEBERRY",
-    name: "Kee Berry",
+    name: "Baya Biglia",
     description:
-      "If held by a Pokémon, this Berry will increase the holder's Defense if it's hit with a physical move.",
+      "Si la posee un Pokémon, esta baya aumentará la defensa de su poseedor si la golpea con un movimiento físico.",
     pocket: 5,
   },
   {
     internalName: "MARANGABERRY",
-    name: "Maranga Berry",
+    name: "Baya Maranga",
     description:
-      "If held by a Pokémon, this Berry will increase the holder's Sp. Def if it's hit with a special move.",
+      "Si la posee un Pokémon, esta baya aumentará la Sp. del poseedor. Definitivamente si lo golpean con un movimiento especial.",
     pocket: 5,
   },
   {
     internalName: "SHINYPOTION",
-    name: "Shiny Potion",
-    description: "A special potion that makes the Pokemon shiny.",
+    name: "Poción brillante",
+    description: "Una poción especial que hace que el Pokémon brille.",
     pocket: 1,
   },
 ];
 
 export const typeData = [
   { internalName: "NORMAL", name: "Normal" },
-  { internalName: "FIGHTING", name: "Fighting" },
-  { internalName: "FLYING", name: "Flying" },
-  { internalName: "POISON", name: "Poison" },
-  { internalName: "GROUND", name: "Ground" },
-  { internalName: "ROCK", name: "Rock" },
-  { internalName: "BUG", name: "Bug" },
-  { internalName: "GHOST", name: "Ghost" },
-  { internalName: "STEEL", name: "Steel" },
+  { internalName: "FIGHTING", name: "Lucha" },
+  { internalName: "FLYING", name: "Volador" },
+  { internalName: "POISON", name: "Veneno" },
+  { internalName: "GROUND", name: "Tierra" },
+  { internalName: "ROCK", name: "Roca" },
+  { internalName: "BUG", name: "Bicho" },
+  { internalName: "GHOST", name: "Fantasma" },
+  { internalName: "STEEL", name: "Acero" },
   { internalName: "QMARKS", name: "???" },
-  { internalName: "FIRE", name: "Fire" },
-  { internalName: "WATER", name: "Water" },
-  { internalName: "GRASS", name: "Grass" },
-  { internalName: "ELECTRIC", name: "Electric" },
-  { internalName: "PSYCHIC", name: "Psychic" },
-  { internalName: "ICE", name: "Ice" },
-  { internalName: "DRAGON", name: "Dragon" },
-  { internalName: "DARK", name: "Dark" },
-  { internalName: "FAIRY", name: "Fairy" },
+  { internalName: "FIRE", name: "Fuego" },
+  { internalName: "WATER", name: "Agua" },
+  { internalName: "GRASS", name: "Planta" },
+  { internalName: "ELECTRIC", name: "Eléctrico" },
+  { internalName: "PSYCHIC", name: "Psíquico" },
+  { internalName: "ICE", name: "Hielo" },
+  { internalName: "DRAGON", name: "Dragón" },
+  { internalName: "DARK", name: "Siniestro" },
+  { internalName: "FAIRY", name: "Hada" },
 ];
 
 export const AbilityData = [
   {
     internalName: "STENCH",
-    name: "Stench",
-    description: "The stench may cause the target to flinch.",
+    name: "Hedor",
+    description:
+      "El Pokémon tiene un 10% de probabilidad de amedrentar al rival al usar un mov. de daño directo. No se acumula con Colmillo agudo o Roca del rey.",
   },
   {
     internalName: "DRIZZLE",
-    name: "Drizzle",
-    description: "The Pokémon makes it rain if it appears in battle.",
+    name: "Llovizna",
+    description:
+      "Cuando entra en combate invoca una lluvia que dura 5 turnos. Si el Pokémon lleva equipada Roca lluvia durará 8 turnos.",
   },
   {
     internalName: "SPEEDBOOST",
-    name: "Speed Boost",
-    description: "Its Speed stat is gradually boosted.",
+    name: "Impulso",
+    description:
+      "Aumenta en un nivel la Velocidad  del usuario al final de cada turno.",
   },
   {
     internalName: "BATTLEARMOR",
-    name: "Battle Armor",
-    description: "The Pokémon is protected against critical hits.",
+    name: "Armadura Batalla",
+    description:
+      "La robusta coraza que lo protege bloquea los golpes críticos.",
   },
   {
     internalName: "STURDY",
-    name: "Sturdy",
-    description: "It cannot be knocked out with one hit.",
+    name: "Robustez",
+    description:
+      "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo.",
   },
   {
     internalName: "DAMP",
-    name: "Damp",
-    description: "Prevents the use of self-destructing moves.",
+    name: "Humedad",
+    description:
+      "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos. También impide que la habilidad Detonación se active.",
   },
   {
     internalName: "LIMBER",
-    name: "Limber",
-    description: "The Pokémon is protected from paralysis.",
+    name: "Flexibilidad",
+    description: "Evita ser paralizado gracias a la flexibilidad de su cuerpo.",
   },
   {
     internalName: "SANDVEIL",
-    name: "Sand Veil",
-    description: "Boosts the Pokémon's evasion in a sandstorm.",
+    name: "Velo arena",
+    description:
+      "Aumenta la Evasión durante las tormentas de arena en un 20%, y evita que el poseedor reciba daño de Tormenta de arena.",
   },
   {
     internalName: "STATIC",
-    name: "Static",
-    description: "Contact with the Pokémon may cause paralysis.",
+    name: "Elec. Estática",
+    description:
+      "Si un Pokémon lo ataca con un ataque de contacto, tiene un 30% de probabilidad de resultar paralizado. También afecta a Pokémon tipo tierra.",
   },
   {
     internalName: "VOLTABSORB",
-    name: "Volt Absorb",
-    description: "Restores HP if hit by an Electric-type move.",
+    name: "Absorbe Elec.",
+    description:
+      "Si le alcanza un movimiento de tipo Eléctrico, éste no le afecta y recupera 1/4 de sus PS máximos. También funciona con movs. de estado.",
   },
   {
     internalName: "WATERABSORB",
-    name: "Water Absorb",
-    description: "Restores HP if hit by a Water-type move.",
+    name: "Absorbe Agua",
+    description:
+      "Si le alcanza un movimiento de tipo Agua, éste no le afecta y recupera 1/4 de sus PS máximos. También funciona con movs. de estado.",
   },
   {
     internalName: "OBLIVIOUS",
-    name: "Oblivious",
-    description: "Prevents it from becoming infatuated.",
+    name: "Despiste",
+    description:
+      "La indiferencia del Pokémon evita que caiga presa del enamoramiento o sea provocado. También evita que sea afectado por Mofa o Intimidación.",
   },
   {
     internalName: "CLOUDNINE",
-    name: "Cloud Nine",
-    description: "Eliminates the effects of weather.",
+    name: "Aclimatación",
+    description:
+      "Anula todos los efectos del tiempo atmosférico, aunque no hace que éste desaparezca del campo.",
   },
   {
     internalName: "COMPOUNDEYES",
-    name: "Compound Eyes",
-    description: "The Pokémon's accuracy is boosted.",
+    name: "Ojo Compuesto",
+    description:
+      "Aumenta la precisión de sus movimientos en un 30%. También aumenta la probabilidad de que los Pokémon salvajes lleven un objeto equipado.",
   },
   {
     internalName: "INSOMNIA",
-    name: "Insomnia",
-    description: "Prevents the Pokémon from falling asleep.",
+    name: "Insomnio",
+    description:
+      "Su resistencia al sueño le impide quedarse dormido. También le impide el uso de Descanso. Si un Pokémon dormido adquiere esta habilidad, se desertará.",
   },
   {
     internalName: "COLORCHANGE",
-    name: "Color Change",
-    description: "Changes the Pokémon's type to the foe's move.",
+    name: "Cambio Color",
+    description:
+      "Adopta el tipo del último movimiento del que se es blanco. Si recibe un movimiento multigolpe, lo adoptará al recibir el último golpe.",
   },
   {
     internalName: "IMMUNITY",
-    name: "Immunity",
-    description: "Prevents the Pokémon from getting poisoned.",
+    name: "Inmunidad",
+    description:
+      "Su sistema inmunitario evita el envenenamiento. Si un Pokémon con esta habilidad es envenenado, la baya se activa antes que la habilidad.",
   },
   {
     internalName: "FLASHFIRE",
-    name: "Flash Fire",
-    description: "It powers up Fire-type moves if it's hit by one.",
+    name: "Absorbe Fuego",
+    description:
+      "Si le alcanza un movimiento de tipo Fuego, éste no le afecta y recupera 1/4 de sus PS máximos. También funciona con movs. de estado.",
   },
   {
     internalName: "SHIELDDUST",
-    name: "Shield Dust",
-    description: "Blocks the added effects of attacks taken.",
+    name: "Polvo Escudo",
+    description:
+      "El polvo de escamas que lo envuelve protege al Pokémon de los efectos secundarios de los ataques recibidos.",
   },
   {
     internalName: "OWNTEMPO",
-    name: "Own Tempo",
-    description: "Prevents the Pokémon from becoming confused.",
+    name: "Ritmo Propio",
+    description:
+      "Evita que el Pokémon sea confundido, incluso cuando es causado por sus propios movimientos. También evita ser afectado por intimidación.",
   },
   {
     internalName: "SUCTIONCUPS",
-    name: "Suction Cups",
-    description: "Negates all moves that force switching out.",
+    name: "Ventosas",
+    description:
+      "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
   },
   {
     internalName: "INTIMIDATE",
-    name: "Intimidate",
-    description: "Lowers the foe's Attack stat.",
+    name: "Intimidación",
+    description:
+      "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye un nivel.",
   },
   {
     internalName: "SHADOWTAG",
-    name: "Shadow Tag",
-    description: "Prevents the foe from escaping.",
+    name: "Sombra Trampa",
+    description:
+      "Evita que el enemigo huya o sea cambiado por otro, salvo que sea de tipo Fantasma, lleve equipado Muda concha o use un movimiento de cambio.",
   },
   {
     internalName: "ROUGHSKIN",
-    name: "Rough Skin",
-    description: "Inflicts damage to the foe on contact.",
+    name: "Piel Tosca",
+    description:
+      "Hiere con su piel áspera al rival que lo ataque con un movimiento de contacto, restándole 1/16 de sus PS máximos.",
   },
   {
     internalName: "WONDERGUARD",
-    name: "Wonder Guard",
-    description: "Only super-effective moves will hit.",
+    name: "Superguarda",
+    description:
+      "Gracias a un poder misterioso, solo le hacen daño los movimientos supereficaces.",
   },
   {
     internalName: "LEVITATE",
-    name: "Levitate",
-    description: "Gives full immunity to all Ground-type moves.",
+    name: "Levitación",
+    description:
+      "Su capacidad de flotar sobre el suelo le proporciona inmunidad frente a los movimientos de tipo Tierra.",
   },
   {
     internalName: "EFFECTSPORE",
-    name: "Effect Spore",
-    description: "Contact may poison or cause paralysis or sleep.",
+    name: "Efecto Espora",
+    description:
+      "Hay un 30% de probabilidad de dormir, envenenar o paralizar al Pokémon rival con el que entre en contacto al recibir un ataque.",
   },
   {
     internalName: "SYNCHRONIZE",
-    name: "Synchronize",
-    description: "Passes a burn, poison, or paralysis to the foe.",
+    name: "Sincronía",
+    description:
+      "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado, aunque se encuentre tras un sustituto.",
   },
   {
     internalName: "CLEARBODY",
-    name: "Clear Body",
-    description: "Prevents other Pokémon from lowering its stats.",
+    name: "Cuerpo Puro",
+    description:
+      "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon, pero no de los suyos.",
   },
   {
     internalName: "NATURALCURE",
-    name: "Natural Cure",
-    description: "All status problems heal when it switches out.",
+    name: "Cura Natural",
+    description:
+      "Cura problemas de estado al cambiar de Pokémon. También ocurre al finalizar el combate.",
   },
   {
     internalName: "LIGHTNINGROD",
-    name: "Lightning Rod",
-    description: "Draws in all Electric-type moves to up Sp. Attack.",
+    name: "Pararrayos",
+    description:
+      "Además de atraer y neutralizar los movimientos de tipo Eléctrico, se sube un nivel el Ataque Especial, incluso aunque el Pokémon sea tipo Tierra.",
   },
   {
     internalName: "SERENEGRACE",
-    name: "Serene Grace",
-    description: "Boosts the likelihood of added effects appearing.",
+    name: "Dicha",
+    description:
+      "Duplica la probabilidad de que los movimientos causen efectos secundarios. También se aplica a los objetos Roca del rey y Colmillo agudo.",
   },
   {
     internalName: "SWIFTSWIM",
-    name: "Swift Swim",
-    description: "Boosts the Pokémon's Speed in rain.",
+    name: "Nado Rápido",
+    description:
+      "Mientras haya lluvia en el combate el Pokémon duplica su estadística de Velocidad.",
   },
   {
     internalName: "CHLOROPHYLL",
-    name: "Chlorophyll",
-    description: "Boosts the Pokémon's Speed in sunshine.",
+    name: "Clorofila",
+    description:
+      "Mientras haya clima soleado en el combate el Pokémon duplica su estadística de Velocidad.",
   },
   {
     internalName: "ILLUMINATE",
-    name: "Illuminate",
-    description: "Raises the likelihood of meeting wild Pokémon.",
+    name: "Iluminación",
+    description:
+      "Evita que baje su precisión. Fuera de combate aumenta la probabilidad de encontrar Pokémon salvajes.",
   },
   {
     internalName: "TRACE",
-    name: "Trace",
-    description: "The Pokémon copies a foe's Ability.",
+    name: "Calco",
+    description:
+      "Al entrar en combate copia la habilidad de uno de los rivales adyacentes al azar.",
   },
   {
     internalName: "HUGEPOWER",
-    name: "Huge Power",
-    description: "Raises the Pokémon's Attack stat.",
+    name: "Potencia",
+    description:
+      "Duplica la estadística de Ataque del Pokémon, por lo que sólo afecta a ataques físicos.",
   },
   {
     internalName: "POISONPOINT",
-    name: "Poison Point",
-    description: "Contact with the Pokémon may poison the attacker.",
+    name: "Punto Tóxico",
+    description:
+      "Si un Pokémon lo ataca con un ataque de contacto, tiene un 30% de probabilidad de resultar envenenado.",
   },
   {
     internalName: "INNERFOCUS",
-    name: "Inner Focus",
-    description: "The Pokémon is protected from flinching.",
+    name: "Fuerza Mental",
+    description:
+      "Gracias a su profunda concentración, no puede ser amedrentado por los ataques del rival. También evita ser intimidado.",
   },
   {
     internalName: "MAGMAARMOR",
-    name: "Magma Armor",
-    description: "Prevents the Pokémon from becoming frozen.",
+    name: "Escudo Magma",
+    description:
+      "Gracias al magma candente que lo envuelve, evita la congelación. Fuera de combate reduce a la mitad los pasos para eclosionar huevos.",
   },
   {
     internalName: "WATERVEIL",
-    name: "Water Veil",
-    description: "Prevents the Pokémon from getting a burn.",
+    name: "Velo Agua",
+    description:
+      "Evita las quemaduras gracias a la capa de agua que lo envuelve. Si un Pokémon quemado adquiere esta habilidad se curará de las quemaduras.",
   },
   {
     internalName: "MAGNETPULL",
-    name: "Magnet Pull",
-    description: "Prevents Steel-type Pokémon from escaping.",
+    name: "Imán",
+    description:
+      "Evita que el enemigo huya o sea cambiado por otro si es de tipo Acero, salvo que lleve equipado Muda concha o use un movimiento de cambio.",
   },
   {
     internalName: "SOUNDPROOF",
-    name: "Soundproof",
-    description: "Gives full immunity to all sound-based moves.",
+    name: "Insonorizar",
+    description:
+      "Su aislamiento acústico lo protege de movimientos que usan sonido, salvo los que use el propio Pokémon.",
   },
   {
     internalName: "RAINDISH",
-    name: "Rain Dish",
-    description: "The Pokémon gradually regains HP in rain.",
+    name: "Cura Lluvia",
+    description:
+      "Recupera 1/16 de sus PS al final de cada turno cuando llueve en el combate.",
   },
   {
     internalName: "SANDSTREAM",
-    name: "Sand Stream",
-    description: "The Pokémon summons a sandstorm in battle.",
+    name: "Chorro Arena",
+    description:
+      "Cuando entra en combate invoca una tormenta de arena que dura 5 turnos. Si el Pokémon lleva equipada Roca suave durará 8 turnos.",
   },
   {
     internalName: "PRESSURE",
-    name: "Pressure",
-    description: "The Pokémon raises the foe's PP usage.",
+    name: "Presión",
+    description:
+      "Presiona al rival para que sus PP se acaben antes, gastando 2 PP por cada movimiento que use contra este Pokémon.",
   },
   {
     internalName: "THICKFAT",
-    name: "Thick Fat",
-    description: "Ups resistance to Fire- and Ice-type moves.",
+    name: "Sebo",
+    description:
+      "Gracias a la gruesa capa de grasa que lo protege, reduce a la mitad el daño recibido por ataques de tipo Fuego y Hielo.",
   },
   {
     internalName: "EARLYBIRD",
-    name: "Early Bird",
-    description: "The Pokémon awakens quickly from sleep.",
+    name: "Madrugar",
+    description:
+      "Si el Pokémon se duerme, tardará la mitad de turnos en despertarse. En caso de ser un número impar de turnos, se redondea a la baja.",
   },
   {
     internalName: "FLAMEBODY",
-    name: "Flame Body",
-    description: "Contact with the Pokémon may burn the attacker.",
+    name: "Cuerpo Llama",
+    description:
+      "Si un Pokémon lo ataca con un ataque de contacto, tiene un 30% de probabilidad de resultar quemado.",
   },
   {
     internalName: "RUNAWAY",
-    name: "Run Away",
-    description: "Enables a sure getaway from wild Pokémon.",
+    name: "Fuga",
+    description:
+      "Permite escapar de combate contra todos los Pokémon salvajes, ignorando la habilidad del rival. No tiene efecto al cambiar de Pokémon.",
   },
   {
     internalName: "KEENEYE",
-    name: "Keen Eye",
-    description: "Prevents other Pokémon from lowering accuracy.",
+    name: "Vista Lince",
+    description:
+      "La aguda vista de este Pokémon evita que disminuya su Precisión. También ignora aumentos de evasión del Pokémon rival.",
   },
   {
     internalName: "HYPERCUTTER",
-    name: "Hyper Cutter",
-    description: "Prevents other Pokémon from lowering Attack stat.",
+    name: "Corte Fuerte",
+    description:
+      "Evita que el rival le baje el Ataque. Reduciones por ataques propios o por los movimientos Cambia fuerza, Cambia almas e Isofuerta sí tienen efecto.",
   },
   {
     internalName: "PICKUP",
-    name: "Pickup",
-    description: "The Pokémon may pick up items.",
+    name: "Recogida",
+    description:
+      "Tras un combate tiene un 10% de probabilidad de encontrar un objeto. Si un Pokémon aliado o enemigo pierde un objeto en combate, también lo recogerá.",
   },
   {
     internalName: "TRUANT",
-    name: "Truant",
-    description: "Pokémon can't attack on consecutive turns.",
+    name: "Pereza",
+    description:
+      "Cada dos turnos el Pokémon estará ausente y no realizará ninguna acción.",
   },
   {
     internalName: "HUSTLE",
-    name: "Hustle",
-    description: "Boosts the Attack stat, but lowers accuracy.",
+    name: "Entusiasmo",
+    description:
+      "Aumenta el Ataque del usuario en un 50%, pero reduce la Precisión de los movimientos físicos en un 20%. Los movs. especiales o de estado no se ven afectados.",
   },
   {
     internalName: "CUTECHARM",
-    name: "Cute Charm",
-    description: "Contact with the Pokémon may cause infatuation.",
+    name: "Gran Encanto",
+    description:
+      "Si el rival golpea con un movimiento de contacto al usuario y es del género opuesto, tiene una probabilidad del 30% de quedarse enamorado.",
   },
   {
     internalName: "PLUS",
-    name: "Plus",
-    description: "Ups Sp. Atk if another Pokémon has Plus or Minus.",
+    name: "Más",
+    description:
+      "Potencia el Ataque Especial un 50% si un Pokémon aliado tiene la habilidad Más o Menos.",
   },
   {
     internalName: "MINUS",
-    name: "Minus",
-    description: "Ups Sp. Atk if another Pokémon has Plus or Minus.",
+    name: "Menos",
+    description:
+      "Potencia el Ataque Especial un 50% si un Pokémon aliado tiene la habilidad Más o Menos.",
   },
   {
     internalName: "FORECAST",
-    name: "Forecast",
-    description: "Castform transforms with the weather.",
+    name: "Predicción",
+    description:
+      "Cambia a tipo Agua, Fuego o Hielo en función del tiempo atmosférico. Si éste deja de ejercer efecto cambia a tipo Normal.",
   },
   {
     internalName: "STICKYHOLD",
-    name: "Sticky Hold",
-    description: "Protects the Pokémon from item theft.",
+    name: "Viscosidad",
+    description:
+      "Protege al Pokémon del robo de objetos ante cualquier ataque del Pokémon rival, al quedarse pegados a su cuerpo.",
   },
   {
     internalName: "SHEDSKIN",
-    name: "Shed Skin",
-    description: "The Pokémon may heal its own status problems.",
+    name: "Mudar",
+    description:
+      "El Pokémon tiene una probabilidad del 30% de curar sus problemas de estado al final de cada turno, al mudar la piel.",
   },
   {
     internalName: "GUTS",
-    name: "Guts",
-    description: "Boosts Attack if there is a status problem.",
+    name: "Agallas",
+    description:
+      "Si sufre un problema de estado, aumenta su Ataque en un 50%, ignorando la reducción de Ataque en caso de estar quemado.",
   },
   {
     internalName: "MARVELSCALE",
-    name: "Marvel Scale",
-    description: "Ups Defense if there is a status problem.",
+    name: "Escama Especial",
+    description:
+      "Sube la Defensa del poseedor en un 50% si este sufre un problema de estado.",
   },
   {
     internalName: "LIQUIDOOZE",
-    name: "Liquid Ooze",
-    description: "Damages attackers using any draining move.",
+    name: "Viscosecreción",
+    description:
+      "Hiere a los Pokémon que intentan drenarle los PS. Estos pierden tantos PS como los que hubiesen absorbido. No afecta a Comesueños.",
   },
   {
     internalName: "OVERGROW",
-    name: "Overgrow",
-    description: "Powers up Grass-type moves in a pinch.",
+    name: "Espesura",
+    description:
+      "Potencia los movimientos de tipo Planta del Pokémon en un 50% cuando tenga 1/3 o menos de sus PS máximos.",
   },
   {
     internalName: "BLAZE",
-    name: "Blaze",
-    description: "Powers up Fire-type moves in a pinch.",
+    name: "Mar Llamas",
+    description:
+      "Potencia los movimientos de tipo Fuego del Pokémon en un 50% cuando tenga 1/3 o menos de sus PS máximos.",
   },
   {
     internalName: "TORRENT",
-    name: "Torrent",
-    description: "Powers up Water-type moves in a pinch.",
+    name: "Torrente",
+    description:
+      "Potencia los movimientos de tipo Agua del Pokémon en un 50% cuando tenga 1/3 o menos de sus PS máximos.",
   },
   {
     internalName: "SWARM",
-    name: "Swarm",
-    description: "Powers up Bug-type moves in a pinch.",
+    name: "Enjambre",
+    description:
+      "Potencia los movimientos de tipo Bicho del Pokémon en un 50% cuando tenga 1/3 o menos de sus PS máximos.",
   },
   {
     internalName: "ROCKHEAD",
-    name: "Rock Head",
-    description: "Protects the Pokémon from recoil damage.",
+    name: "Cabeza Roca",
+    description:
+      "Impide que el Pokémon se dañe con sus propios movimientos, salvo en caso de usar Forcejeo.",
   },
   {
     internalName: "DROUGHT",
-    name: "Drought",
-    description: "Turns the sunlight harsh if it is in battle.",
+    name: "Sequía",
+    description:
+      "Cuando entra en combate induce clima soleado, que dura 5 turnos. Si el Pokémon lleva equipada Roca calor durará 8 turnos.",
   },
   {
     internalName: "ARENATRAP",
-    name: "Arena Trap",
-    description: "Prevents the foe from fleeing.",
+    name: "Trampa Arena",
+    description:
+      "Evita que el enemigo huya o sea cambiado, salvo que sea tipo Fantasma o Volador, levite, lleve equipado Muda concha o use un movimiento de cambio.",
   },
   {
     internalName: "VITALSPIRIT",
-    name: "Vital Spirit",
-    description: "Prevents the Pokémon from falling asleep.",
+    name: "Espíritu Vital",
+    description:
+      "Su resistencia al sueño le impide quedarse dormido. También le impide el uso de Descanso. Si un Pokémon dormido adquiere esta habilidad, se desertará.",
   },
   {
     internalName: "WHITESMOKE",
-    name: "White Smoke",
-    description: "Prevents other Pokémon from lowering its stats.",
+    name: "Humo Blanco",
+    description:
+      "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon, pero no de los suyos.",
   },
   {
     internalName: "PUREPOWER",
-    name: "Pure Power",
-    description: "Raises the Pokémon's Attack stat.",
+    name: "Energía Pura",
+    description:
+      "Duplica la estadística de Ataque del Pokémon, por lo que sólo afecta a ataques físicos.",
   },
   {
     internalName: "SHELLARMOR",
-    name: "Shell Armor",
-    description: "The Pokémon is protected against critical hits.",
+    name: "Caparazón",
+    description:
+      "La robusta coraza que lo protege bloquea los golpes críticos.",
   },
   {
     internalName: "AIRLOCK",
-    name: "Air Lock",
-    description: "Eliminates the effects of weather.",
+    name: "Esclusa de Aire",
+    description:
+      "Anula todos los efectos del tiempo atmosférico, aunque no hace que éste desaparezca del campo.",
   },
   {
     internalName: "TANGLEDFEET",
-    name: "Tangled Feet",
-    description: "Raises evasion if the Pokémon is confused.",
+    name: "Tumbos",
+    description:
+      "Su determinación le impide quedarse dormido. Si utiliza el movimiento Descanso, este fallará.",
   },
   {
     internalName: "MOTORDRIVE",
-    name: "Motor Drive",
-    description: "Raises Speed if hit by an Electric-type move.",
+    name: "Electromotor",
+    description:
+      "El humo blanco que lo protege evita que otro Pokémon le baje las características, pero no evita que bajen por movimientos propios.",
   },
   {
     internalName: "RIVALRY",
-    name: "Rivalry",
-    description: "Deals more damage to a foe of the same gender.",
+    name: "Rivalidad",
+    description: "Duplica el Ataque del poseedor de la habilidad.",
   },
   {
     internalName: "STEADFAST",
-    name: "Steadfast",
-    description: "Raises Speed each time the Pokémon flinches.",
+    name: "Impasible",
+    description:
+      "Neutraliza todos los efectos del tiempo atmosférico, salvo la capacidad de negar el cambio de clima de Sol abrasador, Diluvio y Turbulencias.",
   },
   {
     internalName: "SNOWCLOAK",
-    name: "Snow Cloak",
-    description: "Raises evasion in a hailstorm.",
+    name: "Manto Níveo",
+    description:
+      "Disminuye la Precisión de los movimientos del rival usados contra el poseedor de la habilidad a la mitad si este está confuso.",
   },
   {
     internalName: "GLUTTONY",
-    name: "Gluttony",
-    description: "Encourages the early use of a held Berry.",
+    name: "Gula",
+    description:
+      "Si le alcanza un movimiento tipo Eléctrico, aumenta un nivel la Velocidad y no sufre daño. No afecta a Poder oculto, Don natural y Sentencia.",
   },
   {
     internalName: "ANGERPOINT",
-    name: "Anger Point",
-    description: "Maxes Attack after taking a critical hit.",
+    name: "Irascible",
+    description:
+      "Aumenta la potencia de sus movimientos en un 25% si el objetivo es del mismo sexo. Ya no disminuye un 25% si es del sexo contrario.",
   },
   {
     internalName: "UNBURDEN",
-    name: "Unburden",
-    description: "Raises Speed if a held item is used.",
+    name: "Liviano",
+    description:
+      "Cada vez que se amedrenta sube un nivel su Velocidad, debido a su voluntad inquebrantable.",
   },
   {
     internalName: "HEATPROOF",
-    name: "Heatproof",
-    description: "Weakens the power of Fire-type moves.",
+    name: "Ignífugo",
+    description:
+      "Disminuye en un 20% la Precisión de los movimientos usados contra él cuando hay clima de Granizo.",
   },
   {
     internalName: "SIMPLE",
     name: "Simple",
-    description: "The Pokémon is prone to wild stat changes.",
+    description:
+      "El Pokémon utilizará las bayas que se consumen con un 25% o menos de sus PS máximos cuando le queden un 50% o menos de sus PS máximos.",
   },
   {
     internalName: "DRYSKIN",
-    name: "Dry Skin",
-    description: "Reduces HP if it is hot. Water restores HP.",
+    name: "Piel Seca",
+    description:
+      "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
   },
   {
     internalName: "DOWNLOAD",
-    name: "Download",
-    description: "Adjusts power according to a foe's defenses.",
+    name: "Descarga",
+    description:
+      "El Pokémon duplica la Velocidad si usa o pierde el objeto que lleva. El efecto desaparece al ser cambiado. No se activa con Truco o Trapicheo.",
   },
   {
     internalName: "IRONFIST",
-    name: "Iron Fist",
-    description: "Boosts the power of punching moves.",
+    name: "Puño Férreo",
+    description:
+      "Reduce a la mitad el daño recibido por movimientos de tipo Fuego. Si está quemado perderá cada turno 1/32 de sus PS máximos en lugar de 1/16.",
   },
   {
     internalName: "POISONHEAL",
-    name: "Poison Heal",
-    description: "Restores HP if the Pokémon is poisoned.",
+    name: "Antídoto",
+    description:
+      "Duplica los cambios en las características, tanto positivos como negativos.",
   },
   {
     internalName: "ADAPTABILITY",
-    name: "Adaptability",
-    description: "Powers up moves of the same type.",
+    name: "Adaptable",
+    description:
+      "Cada turno pierde 1/8 de sus PS si hace sol, y los gana si llueve. Los mov. tipo Fuego le hacen un 25% más de daño, y los de agua le recuperan un 25% de sus PS.",
   },
   {
     internalName: "SKILLLINK",
-    name: "Skill Link",
-    description: "Increases the frequency of multi-strike moves.",
+    name: "Encadenado",
+    description:
+      "Compara la Defensa y la Defensa Especial del rival para ver cuál es inferior y aumenta su propio Ataque o Ataque Especial, según corresponda.",
   },
   {
     internalName: "HYDRATION",
-    name: "Hydration",
-    description: "Heals status problems if it is raining.",
+    name: "Hidratación",
+    description:
+      "Aumenta la potencia de los movimientos basados en puños en un 20%.",
   },
   {
     internalName: "SOLARPOWER",
-    name: "Solar Power",
-    description: "In sunshine, Sp. Atk is boosted but HP decreases.",
+    name: "Poder Solar",
+    description:
+      "Si el Pokémon resulta envenenado, recupera 1/8 de sus PS máximos cada turno.",
   },
   {
     internalName: "QUICKFEET",
-    name: "Quick Feet",
-    description: "Boosts Speed if there is a status problem.",
+    name: "Pies Rápidos",
+    description:
+      "Aumenta la bonificación de usar movimientos del mismo tipo del Pokémon x2 en lugar de x1,5.",
   },
   {
     internalName: "NORMALIZE",
-    name: "Normalize",
-    description: "All the Pokémon's moves become the Normal type.",
+    name: "Normalidad",
+    description:
+      "Los movimientos múltiples se ejecutarán siempre con el número máximo de golpes.",
   },
   {
     internalName: "SNIPER",
-    name: "Sniper",
-    description: "Powers up moves if they become critical hits.",
+    name: "Francotirador",
+    description:
+      "Al final de cada turno cura los problemas de estado del Pokémon si está lloviendo.",
   },
   {
     internalName: "MAGICGUARD",
-    name: "Magic Guard",
-    description: "The Pokémon only takes damage from attacks.",
+    name: "Muro Mágico",
+    description:
+      "Si hace sol, aumenta su Ataque Especial en un 50%, pero pierde 1/8 de sus PS máximos al final de cada turno.",
   },
   {
     internalName: "NOGUARD",
-    name: "No Guard",
-    description: "Ensures attacks by or against the Pokémon land.",
+    name: "Indefenso",
+    description:
+      "Aumenta la Velocidad en un 50% si sufre problemas de estado. En caso de estar paralizado, no se aplica la reducción de velocidad.",
   },
   {
     internalName: "STALL",
-    name: "Stall",
-    description: "The Pokémon moves after all other Pokémon do.",
+    name: "Rezagado",
+    description:
+      "Todos sus movs. son tipo Normal y aumentan su potencia en un 20%. No afecta a Pod. oculto, Metereobola, Don natural, Sentencia, Tecno shock y Multiat.",
   },
   {
     internalName: "TECHNICIAN",
-    name: "Technician",
-    description: "Powers up the Pokémon's weaker moves.",
+    name: "Experto",
+    description:
+      "La potencia de los golpes críticos se ve aumenta de x1,5 a x2,25.",
   },
   {
     internalName: "LEAFGUARD",
-    name: "Leaf Guard",
-    description: "Prevents problems with status in sunny weather.",
+    name: "Defensa Hoja",
+    description:
+      "El Pokémon solo recibe daño de ataques directos. No recibe daño indirecto de ataques, habilidades u objetos, ni puede ser atrapado por movimientos.",
   },
   {
     internalName: "KLUTZ",
-    name: "Klutz",
-    description: "The Pokémon can't use any held items.",
+    name: "Zoquete",
+    description:
+      "Todos los movimientos acertarán siempre, tanto del Pokémon como del rival.",
   },
   {
     internalName: "MOLDBREAKER",
-    name: "Mold Breaker",
-    description: "Moves can be used regardless of Abilities.",
+    name: "Rompemoldes",
+    description:
+      "El Pokémon se mueve el último, siempre que los movimientos tengan la misma prioridad, salvo que algún otro tenga equipado Cola plúmbea o Incienso lento.",
   },
   {
     internalName: "SUPERLUCK",
-    name: "Super Luck",
-    description: "Heightens the critical-hit ratios of moves.",
+    name: "Afortunado",
+    description:
+      "Potencia los movimientos que tengan una Potencia de 60 o menos x1,5.",
   },
   {
     internalName: "AFTERMATH",
-    name: "Aftermath",
-    description: "Damages the attacker landing the finishing hit.",
+    name: "Detonación",
+    description:
+      "Evita los problemas de estado si hace sol, al igual que no puede usar descanso o no se activan los objetos llamasfera y toxisfera.",
   },
   {
     internalName: "ANTICIPATION",
-    name: "Anticipation",
-    description: "Senses a foe's dangerous moves.",
+    name: "Anticipación",
+    description:
+      "El Pokémon no puede usar objetos equipados, y anula su efecto. También afecta al uso de lanzamiento. Los objetos que afectan exp. y dinero funcionan.",
   },
   {
     internalName: "FOREWARN",
-    name: "Forewarn",
-    description: "Determines what moves a foe has.",
+    name: "Alerta",
+    description:
+      "Las habilidades del objetivo no afectan al daño o efectos de los movimientos empleados.",
   },
   {
     internalName: "UNAWARE",
-    name: "Unaware",
-    description: "Ignores any stat changes in the Pokémon.",
+    name: "Ignorante",
+    description:
+      "Su buena suerte aumenta la probabilidad de asestar golpes críticos en uno.",
   },
   {
     internalName: "TINTEDLENS",
-    name: "Tinted Lens",
-    description: "Powers up 'not very effective' moves.",
+    name: "Cromolente",
+    description: "Potencia los movimientos 'poco efectivos'.",
   },
   {
     internalName: "FILTER",
-    name: "Filter",
-    description: "Reduces damage from super-effective attacks.",
+    name: "Filtro",
+    description:
+      "Si el rival tiene un movimiento que resulte eficaz contra él, el Pokémon se estremecerá.",
   },
   {
     internalName: "SLOWSTART",
-    name: "Slow Start",
-    description: "Temporarily halves Attack and Speed.",
+    name: "Inicio Lento",
+    description:
+      "Determina el movimiento más potente del rival al entrar en combate.",
   },
   {
     internalName: "SCRAPPY",
-    name: "Scrappy",
-    description: "Enables moves to hit Ghost-type Pokémon.",
+    name: "Intrépido",
+    description:
+      "Ignora los cambios tanto positivos como negaticos en las características del rival al atacar, salvo la Velocidad.",
   },
   {
     internalName: "STORMDRAIN",
-    name: "Storm Drain",
-    description: "Draws in all Water-type moves to up Sp. Attack.",
+    name: "Colector",
+    description:
+      "Potencia los movimientos que no son muy eficaces, haciendo estos el doble de daño.",
   },
   {
     internalName: "ICEBODY",
-    name: "Ice Body",
-    description: "The Pokémon gradually regains HP in a hailstorm.",
+    name: "Gélido",
+    description:
+      "Mitiga el daño que le infligen los movimientos supereficaces, reduciéndolos a 3/4 del daño inicial.",
   },
   {
     internalName: "SOLIDROCK",
-    name: "Solid Rock",
-    description: "Reduces damage from super-effective attacks.",
+    name: "Roca Solida",
+    description:
+      "Si el rival tiene un movimiento que resulte eficaz contra él, el Pokémon se estremecerá.",
   },
   {
     internalName: "SNOWWARNING",
-    name: "Snow Warning",
-    description: "The Pokémon summons a hailstorm in battle.",
+    name: "Nevada",
+    description:
+      "Baja a la mitad el Ataque y la Velocidad durante cinco turnos. Al cambiar de Pokémon se reinicia la cuenta.",
   },
   {
     internalName: "HONEYGATHER",
-    name: "Honey Gather",
-    description: "The Pokémon may gather Honey from somewhere.",
+    name: "Recogemiel",
+    description:
+      "Los movimientos de tipo Normal o Lucha alcanzan a los Pokémon de tipo Fantasma. Además es inmune a la Intimidación.",
   },
   {
     internalName: "FRISK",
-    name: "Frisk",
-    description: "The Pokémon can check a foe's held item.",
+    name: "Cacheo",
+    description:
+      "Atrae los movimientos de tipo Agua, aumenta un nivel el Ataque Especial y no sufre daño. No afecta a Poder oculto, Don natural y Sentencia.",
   },
   {
     internalName: "RECKLESS",
-    name: "Reckless",
-    description: "Powers up moves that have recoil damage.",
+    name: "Audaz",
+    description:
+      "Recupera 1/16 de sus PS máximos añl final de cada turno cuando hay tormentas de granizo.",
   },
   {
     internalName: "MULTITYPE",
-    name: "Multitype",
-    description: "Changes type to match the held Plate.",
+    name: "Multitipo",
+    description:
+      "Cuando entra en combate invoca una nevada que dura 5 turnos. Si el Pokémon lleva equipada Roca helada durará 8 turnos.",
   },
   {
     internalName: "FLOWERGIFT",
-    name: "Flower Gift",
-    description: "Powers up party Pokémon when it is sunny.",
+    name: "Don Floral",
+    description:
+      "Es posible que el Pokémon encuentre Miel una vez concluido el combate. La probabilidad aumenta según aumenta el nivel del Pokémon.",
   },
   {
     internalName: "BADDREAMS",
-    name: "Bad Dreams",
-    description: "Reduces a sleeping foe's HP.",
+    name: "Mal Sueño",
+    description:
+      "El Pokémon puede ver el objeto que lleva el rival al entrar en combate.",
   },
   {
     internalName: "PICKPOCKET",
-    name: "Pickpocket",
-    description: "Steals an item when hit by another Pokémon.",
+    name: "Hurto",
+    description:
+      "Potencia la potencia de los movimientos que también dañan al usuario en un 20%.",
   },
   {
     internalName: "SHEERFORCE",
-    name: "Sheer Force",
-    description: "Removes added effects to increase move damage.",
+    name: "Potencia Bruta",
+    description:
+      "Cambia el tipo del Pokémon al de la tabla o cristal Z que lleve equipado.",
   },
   {
     internalName: "CONTRARY",
-    name: "Contrary",
-    description: "Makes stat changes have an opposite effect.",
+    name: "Respondón",
+    description:
+      "Aumenta el Ataque y la Defensa Especial de todos los Pokémon del equipo en combate si hace sol.",
   },
   {
     internalName: "UNNERVE",
-    name: "Unnerve",
-    description: "Makes the foe nervous and unable to eat Berries.",
+    name: "Nerviosismo",
+    description:
+      "Inflige 1/8 de sus PS máximos de daño a cualquier rival que esté dormido en combate al final de cada turno.",
   },
   {
     internalName: "DEFIANT",
-    name: "Defiant",
-    description: "When its stats are lowered its Attack increases.",
+    name: "Competitivo",
+    description:
+      "Si el rival usa un movimiento de contacto al atacar, le roba el objeto si no lleva ya uno equipado. No afecta con ciertos objetos o habilidades.",
   },
   {
     internalName: "DEFEATIST",
-    name: "Defeatist",
-    description: "Lowers stats when HP becomes half or less.",
+    name: "Flaqueza",
+    description:
+      "Sube la potencia en un 30% de los movimientos con efectos secundarios, pero anula el efecto.",
   },
   {
     internalName: "CURSEDBODY",
-    name: "Cursed Body",
-    description: "May disable a move used on the Pokémon.",
+    name: "Cuerpo Maldito",
+    description:
+      "Invierte los cambios en las características: bajan cuando les toca subir y suben cuando les toca bajar.",
   },
   {
     internalName: "HEALER",
-    name: "Healer",
-    description: "May heal an ally's status conditions.",
+    name: "Alma Cura",
+    description:
+      "Pone nervioso al rival y le impide usar bayas. No impide su uso si es a través de movimientos como Lanzamiento, Picadura o Picoteo.",
   },
   {
     internalName: "FRIENDGUARD",
-    name: "Friend Guard",
-    description: "Reduces damage done to allies.",
+    name: "Compiescolta",
+    description:
+      "Sube dos niveles el Ataque del usuario cuando el rival le baja una de sus características. Se activa tantas veces como reducciones ocurran.",
   },
   {
     internalName: "WEAKARMOR",
-    name: "Weak Armor",
-    description: "Physical attacks lower Defense and raise Speed.",
+    name: "Armadura Frágil",
+    description:
+      "Se debilita tanto cuando sus PS se ven reducidos por debajo del 50% de sus PS máximos que su Ataque y su Ataque Especial bajan a la mitad.",
   },
   {
     internalName: "HEAVYMETAL",
-    name: "Heavy Metal",
-    description: "Doubles the Pokémon's weight.",
+    name: "Metal Pesado",
+    description:
+      "Tiene una probabilidad del 30% de anular el movimiento usado en su contra durante 4 turnos.",
   },
   {
     internalName: "LIGHTMETAL",
-    name: "Light Metal",
-    description: "Halves the Pokémon's weight.",
+    name: "Metal Liviano",
+    description:
+      "Al final de cada turno tiene una probabilidad del 30% de curar los problemas de estado de un compañero Pokémon en combate.",
   },
   {
     internalName: "MULTISCALE",
-    name: "Multiscale",
-    description: "Reduces damage when HP is full.",
+    name: "Compensación",
+    description:
+      "Reduce el daño que sufren los aliados en combate en un 25%, pero no el propio.",
   },
   {
     internalName: "TOXICBOOST",
-    name: "Toxic Boost",
-    description: "Powers up physical attacks when poisoned.",
+    name: "Ímpetu Tóxico",
+    description:
+      "Al recibir daño por un ataque físico, baja un nivel la Defensa, pero sube dos niveles la Velocidad del Pokémon.",
   },
   {
     internalName: "FLAREBOOST",
-    name: "Flare Boost",
-    description: "Powers up special attacks when burned.",
+    name: "Ímpetu Ardiente",
+    description:
+      "Duplica el peso del Pokémon, lo cual afecta a los movimientos tanto propios como del rival que se basan en el peso.",
   },
   {
     internalName: "HARVEST",
-    name: "Harvest",
-    description: "May create another Berry after one is used.",
+    name: "Cosecha",
+    description:
+      "Reduce a la mitad el peso del Pokémon, lo cual afecta a los movimientos tanto propios como del rival que se basan en el peso.",
   },
   {
     internalName: "TELEPATHY",
-    name: "Telepathy",
-    description: "Anticipates an ally's attack and dodges it.",
+    name: "Telepatía",
+    description:
+      "Reduce el daño sufrido a la mitad si los PS están al máximo. No afecta a movimientos de daño fijo como por ejemplo Furia Dragón o Contraataque.",
   },
   {
     internalName: "MOODY",
-    name: "Moody",
-    description: "Raises one stat and lowers another.",
+    name: "Veleta",
+    description:
+      "Aumenta la potencia de los ataques físicos en un 50% cuando el Pokémon está envenenado.",
   },
   {
     internalName: "OVERCOAT",
-    name: "Overcoat",
-    description: "Protects the Pokémon from damage from weather.",
+    name: "Funda",
+    description:
+      "Aumenta la potencia de los ataques especiales en un 50% cuando el Pokémon sufre quemaduras.",
   },
   {
     internalName: "POISONTOUCH",
-    name: "Poison Touch",
-    description: "May poison targets when a Pokémon makes contact.",
+    name: "Toque Tóxico",
+    description:
+      "El Pokémon tiene un 50% de probabilidad de recuperar la baya usada en combate al final de cada turno. Con clima soleado la recupera siempre.",
   },
   {
     internalName: "REGENERATOR",
-    name: "Regenerator",
-    description: "Restores a little HP when withdrawn from battle.",
+    name: "Regeneración",
+    description: "Elude los ataques de los aliados durante el combate.",
   },
   {
     internalName: "BIGPECKS",
-    name: "Big Pecks",
-    description: "Protects from Defense-lowering attacks.",
+    name: "Sacapecho",
+    description:
+      "Cada turno sube dos niveles una característica del Pokémon al azar, pero a costa de bajar un nivel otra también al azar.",
   },
   {
     internalName: "SANDRUSH",
-    name: "Sand Rush",
-    description: "Boosts the Pokémon's Speed in a sandstorm.",
+    name: "Ímpetu Arena",
+    description:
+      "Protege al Pokémon de las tormentas de arena, el granizo y los movimientos basados en polvos y esporas.",
   },
   {
     internalName: "WONDERSKIN",
-    name: "Wonder Skin",
-    description: "Makes status-changing moves more likely to miss.",
+    name: "Piel Milagro",
+    description:
+      "Puede envenenar al objetivo con solo tocarlo un 30% de las veces.",
   },
   {
     internalName: "ANALYTIC",
-    name: "Analytic",
-    description: "Boosts move power when the Pokémon moves last.",
+    name: "Cálculo Final",
+    description:
+      "Recupera 1/3 de sus PS máximos cuando el Pokémon vuelve a su Pokéball en combate, tanto si es un cambio manual como causado por un mov. del rival.",
   },
   {
     internalName: "ILLUSION",
-    name: "Illusion",
-    description: "Comes out disguised as the Pokémon in back.",
+    name: "Ilusión",
+    description:
+      "Impide que el rival baje la Defensa del Pokémon, pero no que baje por usar movimientos propios.",
   },
   {
     internalName: "IMPOSTER",
-    name: "Imposter",
-    description: "It transforms itself into the Pokémon it is facing.",
+    name: "Impostor",
+    description:
+      "Aumenta x2 la Velocidad del Pokémon durante las tormentas de arena, y evita que sufra daño de esta.",
   },
   {
     internalName: "INFILTRATOR",
-    name: "Infiltrator",
-    description: "Passes through the foe's barrier and strikes.",
+    name: "Allanamiento",
+    description:
+      "Reduce la precisión de los movs. de estado dirigidos contra el poseedor de la habilidad al 50%. No baja por debajo del 50%.",
   },
   {
     internalName: "MUMMY",
-    name: "Mummy",
-    description: "Contact with this Pokémon spreads this Ability.",
+    name: "Momia",
+    description:
+      "Aumenta la potencia del movimiento en un 30% si es el último en atacar.",
   },
   {
     internalName: "MOXIE",
-    name: "Moxie",
-    description: "Boosts Attack after knocking out any Pokémon.",
+    name: "Autoestima",
+    description:
+      "Adopta el aspecto del último Pokémon del equipo al entrar en combate para desconcertar al rival.",
   },
   {
     internalName: "JUSTIFIED",
-    name: "Justified",
-    description: "Raises Attack when hit by a Dark-type move.",
+    name: "Justiciero",
+    description:
+      "El Pokémon se transforma en el que tiene enfrente, copiando todos sus stats a excepción de los PS.",
   },
   {
     internalName: "RATTLED",
-    name: "Rattled",
-    description: "Some move types scare it and boost its Speed.",
+    name: "Cobardía",
+    description: "Ataca rodeando la barrera o el sustituto del rival.",
   },
   {
     internalName: "MAGICBOUNCE",
-    name: "Magic Bounce",
-    description: "Reflects status-changing moves.",
+    name: "Espejo Mágico",
+    description:
+      "Contagia la habilidad Momia al rival que entre en contacto con él.",
   },
   {
     internalName: "SAPSIPPER",
-    name: "Sap Sipper",
-    description: "Boosts Attack when hit by a Grass-type move.",
+    name: "Herbívoro",
+    description:
+      "Al debilitar a un objetivo, su confianza se refuerza de tal manera que aumenta en un nivel el Ataque.",
   },
   {
     internalName: "PRANKSTER",
-    name: "Prankster",
-    description: "Gives priority to a status move.",
+    name: "Bromista",
+    description:
+      "Si le alcanza un movimiento de tipo Siniestro, aumenta en un nivel el Ataque debido a su integridad.",
   },
   {
     internalName: "SANDFORCE",
-    name: "Sand Force",
-    description: "Boosts certain moves' power in a sandstorm.",
+    name: "Poder Arena",
+    description:
+      "Si le alcanza un movimiento de tipo Siniestro, Bicho o Fantasma, sube un nivel la Velocidad. También lo hace al recibir Intimidación.",
   },
   {
     internalName: "IRONBARBS",
-    name: "Iron Barbs",
-    description: "Inflicts damage to the Pokémon on contact.",
+    name: "Punta Acero",
+    description:
+      "Permite devolver los ataques de estado lanzados por el rival, sin verse afectado por ellos.",
   },
   {
     internalName: "ZENMODE",
-    name: "Zen Mode",
-    description: "Changes the Pokémon's shape when HP is halved.",
+    name: "Modo Daruma",
+    description:
+      "Neutraliza los movimientos de tipo Planta y sube el Ataque en un nivel, incluídos movimientos de estado.",
   },
   {
     internalName: "VICTORYSTAR",
-    name: "Victory Star",
-    description: "Boosts the accuracy of its allies and itself.",
+    name: "Tinovictoria",
+    description:
+      "Permite lanzar ataques de estado en primer lugar. Los Pokémon tipo Siniestro son inmunes a movimientos usados con esta habilidad.",
   },
   {
     internalName: "TURBOBLAZE",
-    name: "Turboblaze",
-    description: "Moves can be used regardless of Abilities.",
+    name: "Turbollama",
+    description:
+      "El Pokémon se mueve el último, siempre que los movimientos tengan la misma prioridad, salvo que algún otro tenga equipado Cola plúmbea o Incienso lento.",
   },
   {
     internalName: "TERAVOLT",
-    name: "Teravolt",
-    description: "Moves can be used regardless of Abilities.",
+    name: "Terravoltaje",
+    description:
+      "El Pokémon se mueve el último, siempre que los movimientos tengan la misma prioridad, salvo que algún otro tenga equipado Cola plúmbea o Incienso lento.",
   },
   {
     internalName: "AROMAVEIL",
-    name: "Aroma Veil",
-    description: "Protects against attacks that limit move choices.",
+    name: "Velo Aroma",
+    description:
+      "Potencia los movimientos de tipo Tierra, Acero y Roca durante las tormentas de arena en un 30%.",
   },
   {
     internalName: "FLOWERVEIL",
-    name: "Flower Veil",
-    description: "Protects Grass-type allies from stat/status effects.",
+    name: "Velo Flor",
+    description:
+      "Inflige al rival 1/8 de sus PS máximos de daño si este golpea al Pokémon con un movimiento de contacto.",
   },
   {
     internalName: "CHEEKPOUCH",
-    name: "Cheek Pouch",
-    description: "Restores HP as well when the Pokémon eats a Berry.",
+    name: "Carrillo",
+    description: "Cambia de forma si sus PS se ven reducidos a la mitad.",
   },
   {
     internalName: "PROTEAN",
-    name: "Protean",
-    description: "It changes type to that of the move it's about to use.",
+    name: "Mutatipo",
+    description:
+      "Sube la Precisión del poseedor y sus aliados en combate en un 10%.",
   },
   {
     internalName: "FURCOAT",
-    name: "Fur Coat",
-    description: "Halves the damage from physical moves.",
+    name: "Pelaje Recio",
+    description:
+      "Las habilidades del objetivo no afectan a los movimientos empleados.",
   },
   {
     internalName: "MAGICIAN",
-    name: "Magician",
-    description: "Steals the held item of a Pokémon it hits.",
+    name: "Prestidigitador",
+    description:
+      "Protege al poseedor y sus aliados de ataques que impiden elegir movimientos, como anticura, mofa, anulación o la habilidad cuerpo maldito.",
   },
   {
     internalName: "BULLETPROOF",
-    name: "Bulletproof",
-    description: "Protects the Pokémon from some ball and bomb moves.",
+    name: "Antibalas",
+    description:
+      "Evita que los Pokémon de tipo Planta aliados sufran problemas de estado o que bajen sus características.",
   },
   {
     internalName: "COMPETITIVE",
-    name: "Competitive",
-    description: "Sharply boosts Sp. Atk when a stat is lowered.",
+    name: "Tenacidad",
+    description:
+      "Recupera 1/3 de sus PS máximos al comer cualquier baya, después de aplicar los efectos de esta.",
   },
   {
     internalName: "STRONGJAW",
-    name: "Strong Jaw",
-    description: "Boosts the power of biting moves.",
+    name: "Mandíbula Fuerte",
+    description:
+      "Cambia su tipo al del movimiento que va a usar, antes de usarlo. Aunque el ataque falle cambiará su tipo igualmente.",
   },
   {
     internalName: "REFRIGERATE",
-    name: "Refrigerate",
-    description: "Normal-type moves become Ice-type and powered up.",
+    name: "Piel Helada",
+    description:
+      "Reduce a la mitad el daño recibido por ataques físicos del rival o que actúen sobre la defensa del usuario.",
   },
   {
     internalName: "SWEETVEIL",
-    name: "Sweet Veil",
-    description: "Prevents itself and allies from falling asleep.",
+    name: "Velo Dulce",
+    description:
+      "Roba el objeto del Pokémon al que alcance con un movimiento de daño directo. No lo hace con ciertos objetos o habilidades.",
   },
   {
     internalName: "STANCECHANGE",
-    name: "Stance Change",
-    description: "Changes between Blade and Shield Forme with attacks.",
+    name: "Cambio Táctico",
+    description:
+      "EL poseedor es inmune a todos los movimientos basados en balas, cañones, bombas y bolas.",
   },
   {
     internalName: "GALEWINGS",
-    name: "Gale Wings",
-    description: "Flying-type moves gain priority when its HP is full.",
+    name: "Alas Vendaval",
+    description:
+      "Sube dos niveles el At. Especial del usuario cuando el rival le baja una de sus caract. Se activa tantas veces como reducciones ocurran.",
   },
   {
     internalName: "MEGALAUNCHER",
-    name: "Mega Launcher",
-    description: "Powers up aura and pulse moves.",
+    name: "Megadisparador",
+    description:
+      "Aumenta la potencia de los movimientos basados en mordiscos en un 50%.",
   },
   {
     internalName: "GRASSPELT",
-    name: "Grass Pelt",
-    description: "Boosts the Defense stat on Grassy Terrain.",
+    name: "Manto Frondoso",
+    description:
+      "Convierte los movimientos de tipo Normal en tipo Hielo y aumenta su potencia en un 20%.",
   },
   {
     internalName: "SYMBIOSIS",
-    name: "Symbiosis",
-    description: "Passes its held item to an ally that has used theirs.",
+    name: "Simbiosis",
+    description:
+      "Evita que el Pokémon o sus aliados en combate se duerman. También impide el uso de Descanso.",
   },
   {
     internalName: "TOUGHCLAWS",
-    name: "Tough Claws",
-    description: "Powers up moves that make direct contact.",
+    name: "Garra Dura",
+    description:
+      "Adopta la Forma Filo al lanzar un ataque de daño directo, o bien la Forma Escudo si usa el movimiento Escudo Real.",
   },
   {
     internalName: "PIXILATE",
-    name: "Pixilate",
-    description: "Normal-type moves become Fairy-type and powered up.",
+    name: "Piel Feérica",
+    description:
+      "Da prioridad a los movimientos de tipo Volador si los PS del usuario están al máximo.",
   },
   {
     internalName: "GOOEY",
-    name: "Gooey",
-    description: "Contact with it lowers the attacker's Speed stat.",
+    name: "Baba",
+    description:
+      "Aumenta la potencia de los movimientos de pulsos y auras en un 50%.",
   },
   {
     internalName: "AERILATE",
-    name: "Aerilate",
-    description: "Normal-type moves become Flying-type and power up.",
+    name: "Piel Celeste",
+    description:
+      "Aumenta la Defensa en un 50% si hay un campo de hierba en el terreno de combate.",
   },
   {
     internalName: "PARENTALBOND",
-    name: "Parental Bond",
-    description: "Parent and child each attacks.",
+    name: "Amor Filial",
+    description:
+      "El Pokémon pasa su objeto a su aliado cuando el aliado utiliza el suyo.",
   },
   {
     internalName: "DARKAURA",
-    name: "Dark Aura",
-    description: "Powers up each Pokémon's Dark-type moves.",
+    name: "Aura Oscura",
+    description: "Aumenta la potencia de los movimientos de contacto en 1/3.",
   },
   {
     internalName: "FAIRYAURA",
-    name: "Fairy Aura",
-    description: "Powers up each Pokémon's Fairy-type moves.",
+    name: "Aura Feérica",
+    description:
+      "Convierte los movimientos de tipo Normal en tipo Hada y aumenta su potencia en un 20%.",
   },
   {
     internalName: "AURABREAK",
-    name: "Aura Break",
-    description: "Reverses 'Aura' Abilities to weaken affected moves.",
+    name: "Rompeaura",
+    description:
+      "Invierte las habilidades de aura para debilitar los movimientos afectados.",
   },
   {
     internalName: "PRIMORDIALSEA",
-    name: "Primordial Sea",
-    description: "Changes the weather to nullify Fire-type moves.",
+    name: "Mar del Albor",
+    description:
+      "Convierte los movimientos de tipo Normal en tipo Volador y aumenta su potencia en un 20%.",
   },
   {
     internalName: "DESOLATELAND",
-    name: "Desolate Land",
-    description: "Changes the weather to nullify Water-type moves.",
+    name: "Tierra del Ocaso",
+    description:
+      "El Pokémon ataca dos veces por turno si usa movimientos de daño, siendo la potencia del segundo un 25% de la del primero.",
   },
   {
     internalName: "DELTASTREAM",
-    name: "Delta Stream",
-    description: "Alters weather to remove Flying-type's weaknesses.",
+    name: "Ráfaga Delta",
+    description:
+      "Aumenta la potencia de todos los movimientos de tipo Siniestro en 1/3.",
   },
   {
     internalName: "STAMINA",
-    name: "Stamina",
-    description: "Boosts Defense when hit by an attack.",
+    name: "Firmeza",
+    description:
+      "Aumenta la potencia de todos los movimientos de tipo Hada en 1/3.",
   },
   {
     internalName: "WIMPOUT",
-    name: "Wimp Out",
-    description: "Cowardly switches out if its HP becomes half or less.",
+    name: "Huida",
+    description:
+      "Invierte los efectos de las auras, por lo que bajan la potencia de los movs. hada y siniestro en 1/3 en vez de subirlos.",
   },
   {
     internalName: "EMERGENCYEXIT",
-    name: "Emergency Exit",
-    description: "Switches out if its HP becomes half or less.",
+    name: "Retirada",
+    description:
+      "Altera el clima con una poderosa lluvia para anular los ataques de tipo Fuego. Los climas básicos no eliminan este clima.",
   },
   {
     internalName: "WATERCOMPACTION",
-    name: "Water Compaction",
-    description: "Sharply ups Defense when hit by a Water-type move.",
+    name: "Hidrorrefuerzo",
+    description:
+      "Altera el clima con un abrasador sol para anular los ataques de tipo Agua. Los climas básicos no eliminan este clima.",
   },
   {
     internalName: "MERCILESS",
-    name: "Merciless",
-    description: "Its attacks are critical hits when it is poisoned.",
+    name: "Ensañamiento",
+    description:
+      "Altera el clima para anular las vulnerabilidades del tipo Volador. Los climas básicos no eliminan este clima.",
   },
   {
     internalName: "SHIELDSDOWN",
-    name: "Shields Down",
-    description: "Its shell breaks if its HP becomes half or less.",
+    name: "Escudo Limitado",
+    description:
+      "Aumenta la Defensa en un nivel al recibir un ataque de daño directo en combate.",
   },
   {
     internalName: "STAKEOUT",
-    name: "Stakeout",
-    description: "Deals doubles damage to a target's replacement.",
+    name: "Vigilante",
+    description:
+      "Se asusta y abandona el terreno de combate cuando sus PS se ven reducidos por debajo del 50%, tanto por daño directo como indirecto.",
   },
   {
     internalName: "WATERBUBBLE",
-    name: "Water Bubble",
-    description: "Weakens incoming Fire-type moves and prevents burns.",
+    name: "Pompa",
+    description:
+      "Abandona el terreno de combate cuando sus PS se ven reducidos por debajo del 50% para evitar males mayores.",
   },
   {
     internalName: "STEELWORKER",
-    name: "Steelworker",
-    description: "Powers up Steel-type moves.",
+    name: "Acero Templado",
+    description:
+      "Aumenta en dos niveles la Defensa si le alcanza un movimiento de tipo Agua, pero no le hace inmune al ataque.",
   },
   {
     internalName: "BERSERK",
-    name: "Berserk",
-    description: "Ups Sp. Atk if a hit makes its HP half or less.",
+    name: "Cólera",
+    description:
+      "Hace que los movimientos asesten siempre un golpe crítico si el rival está envenenado.",
   },
   {
     internalName: "SLUSHRUSH",
-    name: "Slush Rush",
-    description: "Boosts the Pokémon's Speed stat in a hailstorm.",
+    name: "Quitanieves",
+    description:
+      "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva.",
   },
   {
     internalName: "LONGREACH",
-    name: "Long Reach",
-    description: "Uses moves without making contact with the target.",
+    name: "Remoto",
+    description:
+      "Duplica el daño infligido a un Pokémon que se haya incorporado al combate en ese turno mediante un cambio.",
   },
   {
     internalName: "LIQUIDVOICE",
-    name: "Liquid Voice",
-    description: "Its sound-based moves become Water-type.",
+    name: "Voz Fluida",
+    description:
+      "Duplica la potencia de los movs. de tipo Agua, reduce a la mitad el daño de los movs. de tipo Fuego e impide que sufra quemaduras.",
   },
   {
     internalName: "TRIAGE",
-    name: "Triage",
-    description: "Gives priority to a healing move.",
+    name: "Primer Auxilio",
+    description:
+      "Potencia los movimientos de tipo Acero del usuario en un 50%.",
   },
   {
     internalName: "GALVANIZE",
-    name: "Galvanize",
-    description: "Normal-type moves become Electric-type and powered.",
+    name: "Piel Eléctrica",
+    description:
+      "Aumenta el At. Especial en un nivel cada vez que los ataques del oponente le reduzcan los PS por debajo del 50%, pudiéndose activar más de una vez.",
   },
   {
     internalName: "SURGESURFER",
-    name: "Surge Surfer",
-    description: "Doubles Speed on Electric Terrain.",
+    name: "Cola Surf",
+    description:
+      "Duplica la Velocidad del usuario si está granizando, y lo hace inmune al granizo.",
   },
   {
     internalName: "SCHOOLING",
-    name: "Schooling",
-    description: "Forms a powerful school while it has a lot of HP.",
+    name: "Banco",
+    description:
+      "Permite usar cualquier movimiento sin entrar en contacto con el rival.",
   },
   {
     internalName: "DISGUISE",
-    name: "Disguise",
-    description: "Its shroud protects it from an attack just once.",
+    name: "Disfraz",
+    description:
+      "Hace que todos los movimientos del Pokémon basados en sonido pasen a ser de tipo Agua. Los movimientos de estado también se activan.",
   },
   {
     internalName: "BATTLEBOND",
-    name: "Battle Bond",
-    description: "Defeating a foe lets it become Ash-Greninja.",
+    name: "Fuerte Afecto",
+    description:
+      "Aumenta en 3 la prioridad de los movimientos que curan PS directamente al usuario u otros Pokémon.",
   },
   {
     internalName: "POWERCONSTRUCT",
-    name: "Power Construct",
-    description: "Changes with other Cells if HP becomes half or less.",
+    name: "Agrupamiento",
+    description:
+      "Convierte los movimientos de tipo Normal en tipo Eléctrico y aumenta su potencia en un 20%.",
   },
   {
     internalName: "CORROSION",
-    name: "Corrosion",
-    description: "It can poison Steel- and Poison-type targets.",
+    name: "Corrosión",
+    description:
+      "Duplica la Velocidad si hay un campo eléctrico en el terreno de combate.",
   },
   {
     internalName: "COMATOSE",
-    name: "Comatose",
-    description: "It's always drowsing, and attacks without waking.",
+    name: "Letargo Perenne",
+    description:
+      "A partir del nivel 20, Wishiwashi se transforma a su forma banco si sus PS están por encima del 25%. Vuelve a su forma individual si bajan del 25%.",
   },
   {
     internalName: "QUEENLYMAJESTY",
-    name: "Queenly Majesty",
-    description: "Makes foes unable to use priority attacks.",
+    name: "Regia Presencia",
+    description:
+      "El Pokémon perderá sólo 1/8 de sus PS máximos del primer ataque que reciba del rival, independientemente del daño que reciba.",
   },
   {
     internalName: "INNARDSOUT",
-    name: "Innards Out",
-    description: "Damages an attacker that lands the finishing hit.",
+    name: "Revés",
+    description:
+      "Al derrotar a un rival, los vínculos con su entrenador se refuerzan y se convierte en Greninja Ash.",
   },
   {
     internalName: "DANCER",
-    name: "Dancer",
-    description: "Repeats another Pokémon's dance move immediately.",
+    name: "Pareja de Baile",
+    description:
+      "Cuando sus PS se ven reducidos a la mitad, las células se reagrupan y adopta su Forma Completa.",
   },
   {
     internalName: "BATTERY",
-    name: "Battery",
-    description: "Powers up ally Pokémon's special moves.",
+    name: "Batería",
+    description:
+      "Permite envenenar incluso a rivales de tipo Acero o Veneno. No permite atacar a Pokémon tipo Acero con movs. tipo Veneno de daño directo.",
   },
   {
     internalName: "FLUFFY",
-    name: "Fluffy",
-    description: "Resists contact damage but weaker to Fire-type.",
+    name: "Peluche",
+    description:
+      "No despierta jamás de su profundo letargo e incluso ataca dormido.",
   },
   {
     internalName: "DAZZLING",
-    name: "Dazzling",
-    description: "Makes foes unable to use priority attacks.",
+    name: "Cuerpo Vívido",
+    description:
+      "El Pokémon perderá sólo 1/8 de sus PS máximos del primer ataque que reciba del rival, independientemente del daño que reciba.",
   },
   {
     internalName: "SOULHEART",
-    name: "Soul-Heart",
-    description: "Boosts Sp. Atk each time a Pokémon faints.",
+    name: "Coránima",
+    description:
+      "Impide al rival usar movimientos con prioridad dirigidos al Pokémon, haciéndoles consumir PP como si el mov. hubiese fallado.",
   },
   {
     internalName: "TANGLINGHAIR",
-    name: "Tangling Hair",
-    description: "Contact with it lowers the attacker's Speed.",
+    name: "Rizos Rebeldes",
+    description:
+      "Al caer debilitado, inflige al rival un daño equivalente a los PS que le quedaban. No se activa cuando es debilitado por daño indirecto.",
   },
   {
     internalName: "RECEIVER",
-    name: "Receiver",
-    description: "Copies the Ability of a defeated ally.",
+    name: "Receptor",
+    description:
+      "Permite copiar cualquier movimiento de baile que haya usado otro Pokémon presente en el combate.",
   },
   {
     internalName: "POWEROFALCHEMY",
-    name: "Power of Alchemy",
-    description: "Copies the Ability of a defeated ally.",
+    name: "Reacción Química",
+    description:
+      "Permite copiar cualquier movimiento de baile que haya usado otro Pokémon presente en el combate.",
   },
   {
     internalName: "BEASTBOOST",
-    name: "Beast Boost",
-    description: "Boosts its best stat each time it deals a KO.",
+    name: "Ultraimpulso",
+    description:
+      "Potencia los movimientos especiales de los aliados en un 30%.",
   },
   {
     internalName: "RKSSYSTEM",
-    name: "RKS System",
-    description: "Its type matches the memory disc it holds.",
+    name: "Sistema Alfa",
+    description:
+      "Reduce a la mitad el daño provocado por los movimientos de contacto, pero duplica el infligido por los de tipo Fuego.",
   },
   {
     internalName: "ELECTRICSURGE",
-    name: "Electric Surge",
-    description: "Turns the ground into Electric Terrain.",
+    name: "Electrogénesis",
+    description:
+      "Desconcierta al rival y le impide utilizar movimientos con prioridad contra el usuario o sus aliados.",
   },
   {
     internalName: "PSYCHICSURGE",
-    name: "Psychic Surge",
-    description: "Turns the ground into Psychic Terrain.",
+    name: "Psicogénesis",
+    description:
+      "Aumenta el Ataque Especial cada vez que un Pokémon cae debilitado, sea aliado o rival.",
   },
   {
     internalName: "MISTYSURGE",
-    name: "Misty Surge",
-    description: "Turns the ground into Misty Terrain.",
+    name: "Nebulogénesis",
+    description:
+      "Baja un nivel la Velocidad del rival cuando este ataca al Pokémon con un movimiento de contacto.",
   },
   {
     internalName: "GRASSYSURGE",
-    name: "Grassy Surge",
-    description: "Turns the ground into Grassy Terrain.",
+    name: "Herbogénesis",
+    description:
+      "Adquiere la habilidad de un aliado cuando el aliado cae debilitado.",
   },
   {
     internalName: "FULLMETALBODY",
-    name: "Full Metal Body",
-    description: "Prevents other Pokémon from lowering its stats.",
+    name: "Guardia Metálica",
+    description:
+      "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon, pero no de los suyos.",
   },
   {
     internalName: "SHADOWSHIELD",
-    name: "Shadow Shield",
-    description: "Resists damage while its HP is full.",
+    name: "Guardia Espectro",
+    description:
+      "Reacciona copiando la habilidad de un aliado cuando este aliado cae debilitado.",
   },
   {
     internalName: "PRISMARMOR",
-    name: "Prism Armor",
-    description: "Reduces damage from super-effective attacks.",
+    name: "Armadura Prisma",
+    description:
+      "Si el rival tiene un movimiento que resulte eficaz contra él, el Pokémon se estremecerá.",
   },
   {
     internalName: "NEUROFORCE",
-    name: "Neuroforce",
-    description: "Powers up moves that are super-effective.",
+    name: "Fuerza Cerebral",
+    description:
+      "Si el Pokémon derrota a un rival en ese turno, aumenta su característica más elevada en un nivel.",
   },
   {
     internalName: "INTREPIDSWORD",
-    name: "Intrepid Sword",
-    description: "Boosts Attack when entering a battle.",
+    name: "Espada Indómita",
+    description:
+      "Cambia su tipo según el disco que lleve instalado, cambiando también el tipo del ataque Multiataque.",
   },
   {
     internalName: "DAUNTLESSSHIELD",
-    name: "Dauntless Shield",
-    description: "Boosts Defense when entering a battle.",
+    name: "Escudo Recio",
+    description: "Crea un campo eléctrico al entrar en combate.",
   },
   {
     internalName: "LIBERO",
-    name: "Libero",
-    description: "It changes type to that of the move it's about to use.",
+    name: "Líbero",
+    description:
+      "Sube la Precisión del poseedor y sus aliados en combate en un 10%.",
   },
   {
     internalName: "BALLFETCH",
-    name: "Ball Fetch",
-    description: "Retrieves the first thrown Poké Ball if it failed.",
+    name: "Recogebolas",
+    description: "Crea un campo psíquico al entrar en combate.",
   },
   {
     internalName: "COTTONDOWN",
-    name: "Cotton Down",
-    description: "Scatters Speed-lowering cotton fluff when hit.",
+    name: "Pelusa",
+    description: "Crea un campo de niebla al entrar en combate.",
   },
   {
     internalName: "PROPELLERTAIL",
-    name: "Propeller Tail",
-    description: "This Pokémon's moves cannot be redirected.",
+    name: "Hélice Caudal",
+    description: "Crea un campo de hierba al entrar en combate.",
   },
   {
     internalName: "MIRRORARMOR",
-    name: "Mirror Armor",
-    description: "Bounces back stat-lowering effects.",
+    name: "Coraza Reflejo",
+    description:
+      "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon.",
   },
   {
     internalName: "GULPMISSILE",
-    name: "Gulp Missile",
-    description: "Catches prey via Surf or Dive, spits it out when hit.",
+    name: "Tragamisil",
+    description: "Reduce el daño sufrido a la mitad si los PS están al máximo.",
   },
   {
     internalName: "STALWART",
-    name: "Stalwart",
-    description: "This Pokémon's moves cannot be redirected.",
+    name: "Acérrimo",
+    description: "Crea un campo de hierba al entrar en combate.",
   },
   {
     internalName: "STEAMENGINE",
-    name: "Steam Engine",
-    description: "Boosts Speed drastically if hit by a Fire or Water move.",
+    name: "Combustible",
+    description:
+      "Mitiga el daño que le infligen los movimientos supereficaces en 1/4.",
   },
   {
     internalName: "PUNKROCK",
     name: "Punk Rock",
-    description: "Powers up own sound moves. Resists other sound moves.",
+    description: "Potencia los ataques supereficaces en un 25%.",
   },
   {
     internalName: "SANDSPIT",
-    name: "Sand Spit",
-    description: "Creates a sandstorm when hit by an attack.",
+    name: "Expulsarena",
+    description:
+      "Aumenta el Ataque del usuario en un nivel la primera vez que entra en combate.",
   },
   {
     internalName: "ICESCALES",
-    name: "Ice Scales",
-    description: "Halves the damage taken from special moves.",
+    name: "Escama de Hielo",
+    description:
+      "Aumenta la Defensa del usuario en un nivel la primera vez que entra en combate.",
   },
   {
     internalName: "RIPEN",
-    name: "Ripen",
-    description: "Ripens Berries and doubles their effect.",
+    name: "Maduración",
+    description:
+      "Cambia el tipo del poseedor al del movimiento a usar antes de ejecutarlo, incluso aunque el movimiento falle.",
   },
   {
     internalName: "ICEFACE",
-    name: "Ice Face",
-    description: "Blocks a physical hit, but the ice head breaks.",
+    name: "Cara de Hielo",
+    description:
+      "Si no lleva equipado ningún objeto, recupera la Poké Ball del primer intento de captura fallido.",
   },
   {
     internalName: "POWERSPOT",
-    name: "Power Spot",
-    description: "Just being next to the Pokémon powers up moves.",
+    name: "Fuente Energía",
+    description:
+      "Cuando es afectado por un ataque, con su pelusa reduce la Velocidad en un nivel de los demás Pokémon en combate.",
   },
   {
     internalName: "MIMICRY",
-    name: "Mimicry",
-    description: "Changes type depending on the terrain.",
+    name: "Mimetismo",
+    description:
+      "Los movimientos del usuario ignoran ser atraídos por los movimientos o habilidades del adversario que los atraen.",
   },
   {
     internalName: "SCREENCLEANER",
-    name: "Screen Cleaner",
-    description: "On entering battle, clears effects of Reflect, etc.",
+    name: "Antibarrera",
+    description:
+      "Devuelve los efectos de habilidades o movimientos que reducen las características al Pokémon que los provoque.",
   },
   {
     internalName: "STEELYSPIRIT",
-    name: "Steely Spirit",
-    description: "Powers up ally Pokémon's Steel-type moves.",
+    name: "Alma Acerada",
+    description:
+      "Tras usar Surf o Buceo, si tiene más del 50% de sus PS máximos pasa a su forma tragatodo, mientras que si tiene menos pasa a su forma engulletodo.",
   },
   {
     internalName: "PERISHBODY",
-    name: "Perish Body",
-    description: "Both Pokémon faint 3 turns after taking a contact hit.",
+    name: "Cuerpo Mortal",
+    description:
+      "Si le alcanza un movimiento de tipo Fuego o Agua, le sube la Velocidad en seis niveles.",
   },
   {
     internalName: "WANDERINGSPIRIT",
-    name: "Wandering Spirit",
-    description: "Swaps Abilities with contact-making Pokémon.",
+    name: "Alma Errante",
+    description:
+      "Potencia los ataques de sonido en un 30% y, si el poseedor es atacado por uno, el daño recibido será la mitad.",
   },
   {
     internalName: "GORILLATACTICS",
-    name: "Gorilla Tactics",
-    description: "Boosts Attack, but allows only one move to be used.",
+    name: "Monotema",
+    description:
+      "Provoca una Tormenta de Arena al recibir un ataque. Si lleva equipada Roca suave, la tormenta durará 8 turnos.",
   },
   {
     internalName: "NEUTRALIZINGGAS",
-    name: "Neutralizing Gas",
-    description: "Nullifies the effects of all other Abilities.",
+    name: "Gas Reactivo",
+    description:
+      "Las gélidas escamas que protegen su cuerpo reducen a la mitad el daño que le infligen los ataques especiales.",
   },
   {
     internalName: "PASTELVEIL",
-    name: "Pastel Veil",
-    description: "Protects the Pokémon and its allies from poisoning.",
+    name: "Velo Pastel",
+    description:
+      "Hace madurar las bayas, por lo que duplica sus efectos al consumirlas.",
   },
   {
     internalName: "HUNGERSWITCH",
-    name: "Hunger Switch",
-    description: "Changes between Full Belly and Hangry Mode each turn.",
+    name: "Mutapetito",
+    description:
+      "Si recibe un ataque físico del rival o suyo por confusión cambiará a su forma cara deshielo. Recupera su anterior forma una vez si graniza.",
   },
   {
     internalName: "QUICKDRAW",
-    name: "Quick Draw",
-    description: "Enables the Pokémon to move first occasionally.",
+    name: "Mano Rápida",
+    description:
+      "Potencia los movimientos de los Pokémon adyacentes en combate en un 30%.",
   },
   {
     internalName: "UNSEENFIST",
-    name: "Unseen Fist",
-    description: "The Pokémon's contact moves ignore protections.",
+    name: "Puño Invisible",
+    description:
+      "Cambia el tipo del Pokémon según el campo que haya en el terreno de combate. Si se acaba el campo recupera su anterior tipo.",
   },
   {
     internalName: "CURIOUSMEDICINE",
-    name: "Curious Medicine",
-    description: "Removes all allies' stat changes on joining battle.",
+    name: "Medicina Extraña",
+    description:
+      "Anula los efectos de Pantalla de Luz, Reflejo y Velo Aurora tanto de rivales como de aliados al entrar en combate.",
   },
   {
     internalName: "TRANSISTOR",
     name: "Transistor",
-    description: "Powers up Electric-type moves.",
+    description:
+      "Aumenta el poder de los ataques de tipo Acero tanto del usuario como de sus aliados en un 50%.",
   },
   {
     internalName: "DRAGONSMAW",
-    name: "Dragon's Maw",
-    description: "Powers up Dragon-type moves.",
+    name: "Mandíbula dragón",
+    description:
+      "Al ser alcanzado por un movimiento de contacto, tanto el atacante como el Pokémon usuario de la habilidad caerán debilitados tras haber pasado 3 turnos.",
   },
   {
     internalName: "CHILLINGNEIGH",
-    name: "Chilling Neigh",
-    description: "When knocking out a target, raises Attack.",
+    name: "Relincho Blanco",
+    description:
+      "Si le alcanza un movimiento de contacto, intercambia su habilidad con la del agresor, salvo algunas excepciones.",
   },
   {
     internalName: "GRIMNEIGH",
-    name: "Grim Neigh",
-    description: "When knocking out a target, raises Sp. Atk.",
+    name: "Relincho Negro",
+    description:
+      "Potencia su Ataque en un 50%, pero solo puede usar el primer movimiento escogido.",
   },
   {
     internalName: "ASONECHILLINGNEIGH",
-    name: "As One",
-    description: "Combines Unnerve and Chilling Neigh Abilities.",
+    name: "Unidad Ecuestre",
+    description:
+      "Anula las habilidades de los Pokémon en el campo de batalla. Al cambiar o caer debilitado se activan todas de nuevo.",
   },
   {
     internalName: "ASONEGRIMNEIGH",
-    name: "As One",
-    description: "Combines Unnerve and Grim Neigh Abilities.",
+    name: "Unidad Ecuestre",
+    description:
+      "Se protege a sí mismo y a sus aliados del envenenamiento. Al entrar en combate cura del veneno a los aliados.",
   },
   {
     internalName: "LINGERINGAROMA",
-    name: "Lingering Aroma",
-    description: "Contact with this Pokémon spreads this Ability.",
+    name: "Olor Persistente",
+    description:
+      "Aumenta la potencia del movimiento en un 30% si es el último en atacar.",
   },
   {
     internalName: "SEEDSOWER",
-    name: "Seed Sower",
-    description: "When the Pokémon is hit, creates Grassy Terrain.",
+    name: "Disemillar",
+    description:
+      "Alterna entre su Forma Saciada y Forma Voraz al final de cada turno, cambiando el tipo del movimiento Rueda aural.",
   },
   {
     internalName: "THERMALEXCHANGE",
-    name: "Thermal Exchange",
-    description: "Raises Attack when hit by a Fire move. Can't be burned.",
+    name: "Termoconversión",
+    description:
+      "Si usa un movimiento especial o físico tiene un 30% de probabilidad de atacar primero si se usan movimientos con la misma prioridad.",
   },
   {
     internalName: "ANGERSHELL",
-    name: "Anger Shell",
-    description: "Lowers defences and ups offences/Speed at half HP.",
+    name: "Coraza Ira",
+    description:
+      "Si usa un movimiento de contacto, puede infligir daño al objetivo aunque este se proteja.",
   },
   {
     internalName: "PURIFYINGSALT",
-    name: "Purifying Salt",
-    description: "Immune to status problems and resists Ghost damage.",
+    name: "Sal Purificadora",
+    description:
+      "Cuando entra en combate elimina los cambios de características de los aliados, tanto positivos como negativos.",
   },
   {
     internalName: "WELLBAKEDBODY",
-    name: "Well-Baked Body",
-    description: "Sharply boosts Defense when hit by Fire moves.",
+    name: "Cuerpo Horneado",
+    description: "Potencia los movimientos tipo Eléctrico un 30%.",
   },
   {
     internalName: "WINDRIDER",
-    name: "Wind Rider",
-    description: "Boosts Attack if hit or affected by a wind move.",
+    name: "Surcavientos",
+    description: "Potencia los movimientos tipo Dragón un 50%.",
   },
   {
     internalName: "GUARDDOG",
-    name: "Guard Dog",
-    description: "Can't be forced to switch out. Intimidate ups Attack.",
+    name: "Perro Guardián",
+    description: "Sube un nivel su Ataque al derrotar a un Pokémon.",
   },
   {
     internalName: "ROCKYPAYLOAD",
-    name: "Rocky Payload",
-    description: "Powers up Rock-type moves.",
+    name: "Transportarrocas",
+    description: "Sube un nivel su Ataque Especial al derrotar a un Pokémon.",
   },
   {
     internalName: "WINDPOWER",
-    name: "Wind Power",
-    description: "Powers up an Electric move if hit by a wind move.",
+    name: "Energía Eólica",
+    description:
+      "Combina las habilidades Nerviosismo (impide al rival usar bayas) y Relincho Blanco (al derrotar a un objetivo aumenta su Ataque).",
   },
   {
     internalName: "ZEROTOHERO",
-    name: "Zero to Hero",
-    description: "Transforms into its Hero Form when it switches out.",
+    name: "Cambio Heroico",
+    description:
+      "Combina las habilidades Nerviosismo (impide al rival usar bayas) y Relincho Blanco (al derrotar a un objetivo aumenta su At. Especial).",
   },
   {
     internalName: "COMMANDER",
-    name: "Commander",
-    description: "On entering battle, enters an ally Dodonzo's mouth.",
+    name: "Comandar",
+    description:
+      "Cuando un ataque reduce sus PS a la mitad, un arrebato de cólera reduce su Defensa y su Defensa Especial, pero aumenta su Ataque, su Ataque Especial y su Velocidad.",
   },
   {
     internalName: "ELECTROMORPHOSIS",
-    name: "Electromorphosis",
-    description: "Powers up the next Electric move when it is hit.",
+    name: "Dinamo",
+    description:
+      "La extraña cola que le envuelve la cabeza impide al rival usar movimientos con prioridad contra él y sus aliados.",
   },
   {
     internalName: "PROTOSYNTHESIS",
-    name: "Protosynthesis",
-    description: "Boosts the highest stat in sun or with Booster Energy.",
+    name: "Paleosíntesis",
+    description:
+      "Reduce la Defensa Especial de todos los demás Pokémon con el poder de sus abalorios malditos.",
   },
   {
     internalName: "QUARKDRIVE",
-    name: "Quark Drive",
-    description: "Boosts the highest stat on Electric Terrain.",
+    name: "Carga Cuark",
+    description:
+      "Si al entrar en combate coincide con un Dondozo aliado, se cuela en el interior de su boca para tomar el control.",
   },
   {
     internalName: "GOODASGOLD",
-    name: "Good as Gold",
-    description: "Full immunity to other Pokémon's status moves.",
+    name: "Cuerpo Áureo",
+    description:
+      "Al entrar en combate, copia los cambios en las características de su aliado.",
   },
   {
     internalName: "VESSELOFRUIN",
-    name: "Vessel of Ruin",
-    description: "Lowers the Sp. Atk of all Pokémon except itself.",
+    name: "Caldero Debacle",
+    description:
+      "Cuando ingiere una baya, la regurgita al final del siguiente turno y se la come por segunda vez.",
   },
   {
     internalName: "SWORDOFRUIN",
-    name: "Sword of Ruin",
-    description: "Lowers the Defense of all Pokémon except itself.",
+    name: "Espada Debacle",
+    description:
+      "Si lo alcanza un movimiento de tipo Tierra, recupera PS en vez de sufrir daño.",
   },
   {
     internalName: "TABLETSOFRUIN",
-    name: "Tablets of Ruin",
-    description: "Lowers the Attack of all Pokémon except itself.",
+    name: "Tablilla Debacle",
+    description:
+      "Su cuerpo se carga de electricidad al recibir daño, lo que potencia su siguiente movimiento de tipo Eléctrico.",
   },
   {
     internalName: "BEADSOFRUIN",
-    name: "Beads of Ruin",
-    description: "Lowers the Sp. Def of all Pokémon except itself.",
+    name: "Abalorio Debacle",
+    description:
+      "Su robusto cuerpo de oro inoxidable lo hace inmune frente a movimientos de estado de otros Pokémon.",
   },
   {
     internalName: "ORICHALCUMPULSE",
-    name: "Orichalcum Pulse",
-    description: "Causes harsh sunlight and boosts Attack in sunlight.",
+    name: "Latido Oricalco",
+    description:
+      "Aumenta su Ataque si sufre los efectos de Intimidación. También anula movimientos y objetos que fuercen el cambio de Pokémon.",
   },
   {
     internalName: "HADRONENGINE",
-    name: "Hadron Engine",
-    description: "Creates Electric Terrain and ups Sp. Atk stat on it.",
+    name: "Motor Hadrónico",
+    description:
+      "Crea un campo eléctrico al entrar en combate. Si hay un campo eléctrico, su Ataque Especial aumenta gracias a su motor futurista.",
   },
   {
     internalName: "OPPORTUNIST",
-    name: "Opportunist",
-    description: "Copies boosts when an opponent's stat raises.",
+    name: "Oportunista",
+    description:
+      "Contagia la habilidad Olor Persistente al Pokémon que lo ataque con un movimiento de contacto.",
   },
   {
     internalName: "CUDCHEW",
-    name: "Cud Chew",
-    description: "After consuming a Berry, eats it again next turn.",
+    name: "Rumia",
+    description:
+      "El Pokémon siempre actúa con lentitud cuando usa movimientos de estado, pero estos no se ven afectados por la habilidad del objetivo.",
   },
   {
     internalName: "SHARPNESS",
-    name: "Sharpness",
-    description: "Powers up slicing moves.",
+    name: "Cortante",
+    description:
+      "Copia las mejoras en las características del rival, aprovechándose de la situación.",
   },
   {
     internalName: "SUPREMEOVERLORD",
-    name: "Supreme Overlord",
-    description: "Raises Attack and Sp. Atk for each defeated ally.",
+    name: "General Supremo",
+    description:
+      "El tiempo pasa a ser soleado cuando entra en combate. Si hace mucho sol, su Ataque aumenta gracias a su pulso primigenio.",
   },
   {
     internalName: "COSTAR",
-    name: "Costar",
-    description: "On entering battle, copies an ally's stat changes.",
+    name: "Unísono",
+    description:
+      "Si hace sol o lleva un tanque de Energía Potenciadora, aumenta su característica más alta.",
   },
   {
     internalName: "TOXICDEBRIS",
-    name: "Toxic Debris",
-    description: "Scatters poison spikes when hit by physical moves.",
+    name: "Capa Tóxica",
+    description:
+      "Su sal pura lo protege de los problemas de estado y reduce a la mitad el daño que recibe de ataques de tipo Fantasma.",
   },
   {
     internalName: "ARMORTAIL",
-    name: "Armor Tail",
-    description: "Prevents opponents from using priority moves.",
+    name: "Cola Armadura",
+    description:
+      "Si hay un campo eléctrico en el terreno de combate o lleva un tanque de Energía Potenciadora, aumenta su característica más alta.",
   },
   {
     internalName: "EARTHEATER",
-    name: "Earth Eater",
-    description: "Restores HP when hit by a Ground-type move.",
+    name: "Geofagia",
+    description: "Potencia los movimientos de tipo Roca del usuario en un 50%.",
   },
   {
     internalName: "MYCELIUMMIGHT",
-    name: "Mycelium Might",
-    description: "Status moves ignore foe Abilities by acting slowly.",
+    name: "Poder Fúngico",
+    description: "Crea un campo de hierba al recibir un ataque.",
   },
   {
     internalName: "HOSPITALITY",
-    name: "Hospitality",
-    description: "On entering battle, the ally restores a little HP.",
+    name: "Hospitalidad",
+    description: "Aumenta la potencia de los movimientos cortantes en un 50%.",
   },
   {
     internalName: "MINDSEYE",
-    name: "Mind's Eye",
-    description: "Ignores Ghost immunities. Cannot lose accuracy.",
+    name: "Ojo Mental",
+    description:
+      "Al entrar en combate, su Ataque y su Ataque Especial aumentan un poco por cada miembro del equipo que haya sido derrotado hasta el momento.",
   },
   {
     internalName: "EMBODYASPECTSPEED",
-    name: "Embody Aspect",
-    description: "The Pokémon's shining mask boosts its Speed stat.",
+    name: "EMBODYASPECTDEFENSE <====",
+    description:
+      "Reduce la Defensa de todos los demás Pokémon con el poder de su espada maldita.",
   },
   {
     internalName: "EMBODYASPECTATTACK",
-    name: "Embody Aspect",
-    description: "The Pokémon's shining mask boosts its Attack stat.",
+    name: "EMBODYASPECTDEFENSE <====",
+    description:
+      "Reduce el Ataque de todos los demás Pokémon con el poder de sus tablillas malditas.",
   },
   {
     internalName: "EMBODYASPECTSPDEF",
-    name: "Embody Aspect",
-    description: "The Pokémon's shining mask boosts its Sp. Def stat.",
+    name: "EMBODYASPECTDEFENSE <====",
+    description:
+      "Evita las quemaduras y, si lo alcanza un movimiento de tipo Fuego, aumenta su Ataque.",
   },
   {
     internalName: "EMBODYASPECTDEFENSE",
-    name: "Embody Aspect",
-    description: "The Pokémon's shining mask boosts its Defense stat.",
+    name: "EMBODYASPECTDEFENSE <====",
+    description:
+      "Al recibir daño de un ataque físico, lanza una trampa de púas tóxicas a los pies del rival.",
   },
   {
     internalName: "TOXICCHAIN",
-    name: "Toxic Chain",
-    description: "The Pokémon may badly poison any target it hits.",
+    name: "Cadena Tóxica",
+    description:
+      "Reduce el Ataque Especial de todos los demás Pokémon con el poder de su caldero maldito.",
   },
   {
     internalName: "SUPERSWEETSYRUP",
-    name: "Supersweet Syrup",
-    description: "On entering battle, lowers the foes' evasiveness.",
+    name: "Néctar dulce",
+    description:
+      "Si lo alcanza un movimiento de tipo Fuego, aumenta mucho su Defensa en vez de sufrir daño.",
   },
   {
     internalName: "TERASHIFT",
-    name: "Tera Shift",
-    description: "Transforms into its Terastal Form in battle.",
+    name: "Teracambio",
+    description:
+      "Su cuerpo se carga de electricidad si lo alcanza un movimiento que usa viento, lo que potencia su siguiente movimiento de tipo Eléctrico.",
   },
   {
     internalName: "TERASHELL",
-    name: "Tera Shell",
-    description: "At full HP, damage taken is not very effective.",
+    name: "Teracaparazón",
+    description:
+      "Si sopla un Viento Afín o lo alcanza un movimiento que usa viento, aumenta su Ataque. Tampoco recibe daño de este último.",
   },
   {
     internalName: "TERAFORMZERO",
-    name: "Teraform Zero",
-    description: "Eliminates all effects of weather and terrain.",
+    name: "Teracaparazón",
+    description: "Adopta la Forma Heroica cuando se retira del combate.",
   },
   {
     internalName: "POISONPUPPETEER",
-    name: "Poison Puppeteer",
-    description: "Poisoning another Pokémon also causes confusion.",
+    name: "Títere Tóxico",
+    description:
+      "Al entrar en combate por primera vez, esparce un aroma dulzón a néctar que reduce la Evasión del rival.",
   },
   {
     internalName: "JUNGLEPROTECTOR",
-    name: "Jungle Protector",
+    name: "Protector de la Selva",
     description:
-      "If the Pokémon is unable to escape or be changed, it starts generating proto-shield each turn.",
+      "Si el Pokémon es incapaz de escapar o ser cambiado, empieza a generar protoescudo en cada turno.",
   },
   {
     internalName: "TOTHELIMIT",
-    name: "To The Limit",
+    name: "Hasta El Límite",
     description:
-      "Each time the maximum life is limited, the Pokemon increases a random stat.",
+      "Cada vez que se limita la vida máxima, el Pokemon aumenta una estadística aleatoria.",
   },
   {
     internalName: "NEUROTOXIN",
-    name: "Neurotoxin",
+    name: "Neurotoxina",
     description:
-      "Contact applies a random weakness to the target, also reduces evasion to the target.",
+      "El contacto aplica una debilidad aleatoria al objetivo, también reduce la evasión al mismo.",
   },
   {
     internalName: "PREDATORTRACKING",
-    name: "Predator Tracking",
+    name: "Seguimiento Depredatorio",
     description:
-      "Moves have more accuracy and damage the less health the target has. The user has more speed if there is an enemy with low health.",
+      "Los movimientos tienen más precisión y daño cuanto menos salud tenga el objetivo. El usuario tiene más velocidad si hay un enemigo con poca salud.",
   },
   {
     internalName: "ETERNALHUNGER",
-    name: "Eternal hunger",
+    name: "Hambre Eterna",
     description:
-      "Increases its attack and speed when its health drops below half.",
+      "Aumenta su ataque y velocidad cuando su salud cae por debajo de la mitad.",
   },
   {
     internalName: "VAMP",
     name: "Vamp",
     description:
-      "The user receives less damage from targets that are in love with the user.",
+      "El usuario recibe menos daño de los objetivos que están enamorados del usuario.",
   },
 ];

@@ -8,8 +8,8 @@ import {
 } from "../ui/dialog";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
-import { pokeballsDataType } from "@/data/dataTypes";
-import { pokeballsData } from "@/data/pageData";
+import { pokeballsDataType } from "@/data/DataInterfaces";
+import { pokeballsData } from "@/data";
 import { cn } from "@/lib/utils";
 import { Pokemon, PokemonContext } from "@/pokemon-context";
 

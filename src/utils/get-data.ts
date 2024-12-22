@@ -1,5 +1,5 @@
-import { pokemonDataType } from "@/data/dataTypes";
-import { pokemonData } from "@/data/pageData";
+import { pokemonDataType } from "@/data/DataInterfaces";
+import { pokemonData } from "@/data";
 
 export const getPokemonByInternalName = (
   internalName: string

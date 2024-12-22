@@ -9,8 +9,8 @@ import {
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { PokemonContext } from "@/pokemon-context";
-import { pokemonData } from "@/data/pageData";
-import { itemDataType, pokemonDataType } from "../data/dataTypes";
+import { pokemonData } from "@/data";
+import { itemDataType, pokemonDataType } from "../data/DataInterfaces";
 import PokemonCard from "./pokemon-card";
 import { cn } from "@/lib/utils";
 import { useEffect } from "react";

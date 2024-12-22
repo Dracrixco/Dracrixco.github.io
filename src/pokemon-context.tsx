@@ -3,8 +3,8 @@ import {
   movesDataType,
   itemDataType,
   trainersDataType,
-} from "./data/dataTypes";
-import { pokeballsDataType } from "./data/dataTypes";
+} from "./data/DataInterfaces";
+import { pokeballsDataType } from "./data/DataInterfaces";
 
 export interface DificultyMoves {
   default: movesDataType[];

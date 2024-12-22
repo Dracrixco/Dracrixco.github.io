@@ -90,6 +90,7 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
           </h2>
           {statLabels.map((label, index) => (
             <StatInput
+              key={index}
               label={label}
               max={252}
               value={evs[index]}
@@ -105,6 +106,7 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
           <h2 className="col-span-full font-bold">Ivs</h2>
           {statLabels.map((label, index) => (
             <StatInput
+              key={index}
               max={31}
               label={label}
               value={ivs[index]}

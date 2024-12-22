@@ -45,7 +45,7 @@ export interface pokeballsDataType {
   name: string;
 }
 
-export interface abilityData {
+export interface abilityDataType {
   internalName: string;
   name: string;
   description: string;

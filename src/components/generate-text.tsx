@@ -45,24 +45,27 @@ export const GenerateTextButton = ({
       text += `   Ivs = ${pokemon.ivs.join(",")}\n`;
       text += `   Happiness = ${pokemon.happiness}\n`;
       difficultTypes.forEach((difficultType) => {
-        // Moves
-        if (difficultType === "default") {
-          text += "   Moves = ";
-        } else {
-          text += `   Moves_${difficultType} = `;
+        if (pokemon.moves[difficultType]) {
+          if (difficultType === "default") {
+            text += "   Moves = ";
+          } else {
+            text += `   Moves_${difficultType} = `;
+          }
+          pokemon.moves[difficultType].forEach((move) => {
+            text += `${move.internalName},`;
+          });
+          text = text.slice(0, -1);
+          text += "\n";
         }
-        pokemon.moves[difficultType].forEach((move) => {
-          text += `${move.internalName},`;
-        });
-        text = text.slice(0, -1);
-        text += "\n";
       });
 
       difficultTypes.forEach((difficultType) => {
-        if (difficultType === "default") {
-          text += `   Item = ${pokemon.item.default?.internalName}\n`;
-        } else {
-          text += `   Item_${difficultType} = ${pokemon.item[difficultType]?.internalName}\n`;
+        if (pokemon.item[difficultType]) {
+          if (difficultType === "default") {
+            text += `   Item = ${pokemon.item.default?.internalName}\n`;
+          } else {
+            text += `   Item_${difficultType} = ${pokemon.item[difficultType].internalName}\n`;
+          }
         }
       });
 

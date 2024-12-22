@@ -207,6 +207,12 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
     setIsOpen(false);
   };
 
+  const removeMove = (move: ReadyMove) => {
+    setSelectedMoves(
+      selectedMoves.filter((m) => m.internalName !== move.internalName)
+    );
+  };
+
   return (
     <div className="w-full bg-gray-100 p-2">
       <h3 className="text-lg font-semibold">Movimientos Seleccionados</h3>
@@ -228,6 +234,30 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
           <DialogTitle>Selecciona Movimientos</DialogTitle>
           <DialogDescription>
             Aplica filtros y elige hasta 4 movimientos.
+            <div
+              className={cn([
+                "grid grid-cols-2 xl:grid-cols-4",
+                "gap-2 mt-2 text-black",
+              ])}
+            >
+              {selectedMoves.map((move, idx) => (
+                <div
+                  key={idx}
+                  className={cn([
+                    "border rounded p-2 gap-2",
+                    "bg-white hover:bg-slate-200",
+                    "transition-all flex flex-col",
+                    getTypeColor(move.type),
+                  ])}
+                  onClick={() => removeMove(move)}
+                >
+                  <p className="font-bold">{move.name}</p>
+                  <p>Categoria: {move.category}</p>
+                  <p>Poder: {move.power}</p>
+                  <p>Precisión: {move.accuracy}</p>
+                </div>
+              ))}
+            </div>
           </DialogDescription>
 
           {/* Filtrado por nombre */}

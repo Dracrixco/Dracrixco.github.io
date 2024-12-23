@@ -200,15 +200,42 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
       moves: { ...pokemon.moves, [difficultType]: selectedMoves },
     };
 
-    if (difficultType === "default") {
-      updatedPokemon.moves = {
-        ...updatedPokemon.moves,
-        easy: selectedMoves,
-        normal: selectedMoves,
-        hard: selectedMoves,
-        absolution: selectedMoves,
-      };
+    switch (difficultType) {
+      case "default":
+        updatedPokemon.moves = {
+          ...updatedPokemon.moves,
+          easy: selectedMoves,
+          normal: selectedMoves,
+          hard: selectedMoves,
+          absolution: selectedMoves,
+        };
+        break;
+      case "easy":
+        updatedPokemon.moves = {
+          ...updatedPokemon.moves,
+          easy: selectedMoves,
+          normal: selectedMoves,
+          hard: selectedMoves,
+          absolution: selectedMoves,
+        };
+        break;
+      case "normal":
+        updatedPokemon.moves = {
+          ...updatedPokemon.moves,
+          normal: selectedMoves,
+          hard: selectedMoves,
+          absolution: selectedMoves,
+        };
+        break;
+      case "hard":
+        updatedPokemon.moves = {
+          ...updatedPokemon.moves,
+          hard: selectedMoves,
+          absolution: selectedMoves,
+        };
+        break;
     }
+
     updatePokemon(updatedPokemon);
     setIsOpen(false);
   };
@@ -227,7 +254,15 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
       ) : (
         <div className="grid grid-cols-2 gap-2 mt-2">
           {selectedMoves.map((move) => (
-            <p key={move.internalName}>{move.name}</p>
+            <div key={move.internalName} className="flex items-center">
+              <div
+                className={cn([
+                  "w-3 h-3 border rounded mr-2",
+                  getTypeColor(move.type),
+                ])}
+              ></div>
+              <p>{move.name}</p>
+            </div>
           ))}
         </div>
       )}

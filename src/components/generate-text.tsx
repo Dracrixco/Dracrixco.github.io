@@ -70,12 +70,10 @@ export const GenerateTextButton = ({
       });
 
       difficultTypes.forEach((difficultType) => {
-        if (pokemon.abilityIndex[difficultType]) {
-          if (difficultType === "default") {
-            text += `   AbilityIndex = ${pokemon.abilityIndex.default}\n`;
-          } else {
-            text += `   AbilityIndex_${difficultType} = ${pokemon.abilityIndex[difficultType]}\n`;
-          }
+        if (difficultType === "default") {
+          text += `   AbilityIndex = ${pokemon.abilityIndex.default}\n`;
+        } else {
+          text += `   AbilityIndex_${difficultType} = ${pokemon.abilityIndex[difficultType]}\n`;
         }
       });
     });

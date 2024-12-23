@@ -57,14 +57,46 @@ export const SelectItem: React.FC<SelectItemProps> = ({ pokemon }) => {
         },
       };
 
-      if (difficultType === "default") {
-        updatedPokemon.item = {
-          ...updatedPokemon.item,
-          easy: selectedItem,
-          normal: selectedItem,
-          hard: selectedItem,
-          absolution: selectedItem,
-        };
+      switch (difficultType) {
+        case "default":
+          updatedPokemon.item = {
+            ...updatedPokemon.item,
+            easy: selectedItem,
+            normal: selectedItem,
+            hard: selectedItem,
+            absolution: selectedItem,
+          };
+          break;
+        case "easy":
+          updatedPokemon.item = {
+            ...updatedPokemon.item,
+            easy: selectedItem,
+            normal: selectedItem,
+            hard: selectedItem,
+            absolution: selectedItem,
+          };
+          break;
+        case "normal":
+          updatedPokemon.item = {
+            ...updatedPokemon.item,
+            normal: selectedItem,
+            hard: selectedItem,
+            absolution: selectedItem,
+          };
+          break;
+        case "hard":
+          updatedPokemon.item = {
+            ...updatedPokemon.item,
+            hard: selectedItem,
+            absolution: selectedItem,
+          };
+          break;
+        case "absolution":
+          updatedPokemon.item = {
+            ...updatedPokemon.item,
+            absolution: selectedItem,
+          };
+          break;
       }
       updatePokemon(updatedPokemon);
     }

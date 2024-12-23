@@ -59,16 +59,19 @@ export const SelectAbility: React.FC<SelectAbilityProps> = ({
   );
 
   const handleConfirm = () => {
-    if (selectedIndex !== null && selectedIndex >= 0) {
-      const updatedPokemon: Pokemon = {
-        ...pokemon,
-        abilityIndex: {
-          ...pokemon.abilityIndex,
-          [difficultType]: selectedIndex,
-        },
-      };
-      // Si está en default, aplicamos el mismo índice a todas las dificultades
-      if (difficultType === "default") {
+    if (selectedIndex == null) {
+      return;
+    }
+    const updatedPokemon: Pokemon = {
+      ...pokemon,
+      abilityIndex: {
+        ...pokemon.abilityIndex,
+        [difficultType]: selectedIndex,
+      },
+    };
+
+    switch (difficultType) {
+      case "default":
         updatedPokemon.abilityIndex = {
           ...updatedPokemon.abilityIndex,
           easy: selectedIndex,
@@ -76,9 +79,40 @@ export const SelectAbility: React.FC<SelectAbilityProps> = ({
           hard: selectedIndex,
           absolution: selectedIndex,
         };
-      }
-      updatePokemon(updatedPokemon);
+        break;
+      case "easy":
+        updatedPokemon.abilityIndex = {
+          ...updatedPokemon.abilityIndex,
+          easy: selectedIndex,
+          normal: selectedIndex,
+          hard: selectedIndex,
+          absolution: selectedIndex,
+        };
+        break;
+      case "normal":
+        updatedPokemon.abilityIndex = {
+          ...updatedPokemon.abilityIndex,
+          normal: selectedIndex,
+          hard: selectedIndex,
+          absolution: selectedIndex,
+        };
+        break;
+      case "hard":
+        updatedPokemon.abilityIndex = {
+          ...updatedPokemon.abilityIndex,
+          hard: selectedIndex,
+          absolution: selectedIndex,
+        };
+        break;
+      case "absolution":
+        updatedPokemon.abilityIndex = {
+          ...updatedPokemon.abilityIndex,
+          absolution: selectedIndex,
+        };
+        break;
     }
+
+    updatePokemon(updatedPokemon);
     setIsOpen(false);
   };
 
@@ -86,7 +120,7 @@ export const SelectAbility: React.FC<SelectAbilityProps> = ({
   const currentIndex = pokemon.abilityIndex?.[difficultType] ?? -1;
   let currentAbilityName = "None";
   let currentAbilityDesc = "";
-  if (currentIndex >= 0 && currentIndex < PokemonSpeciesData.abilities.length) {
+  if (currentIndex < PokemonSpeciesData.abilities.length) {
     const abilityInternal = PokemonSpeciesData.abilities[currentIndex];
     const abData = AbilityData.find(
       (ab) => ab.internalName === abilityInternal

@@ -1,1582 +1,1582 @@
 [
   {
     "internalName": "STENCH",
-    "name": "Stench",
-    "description": "The stench may cause the target to flinch."
+    "name": "Hedor",
+    "description": "El hedor puede hacer que el objetivo se estremezca."
   },
   {
     "internalName": "DRIZZLE",
-    "name": "Drizzle",
-    "description": "The Pokémon makes it rain if it appears in battle."
+    "name": "Llovizna",
+    "description": "El Pokémon hace llover si aparece en batalla."
   },
   {
     "internalName": "SPEEDBOOST",
-    "name": "Speed Boost",
-    "description": "Its Speed stat is gradually boosted."
+    "name": "Impulso",
+    "description": "Su estadística de Velocidad aumenta gradualmente."
   },
   {
     "internalName": "BATTLEARMOR",
-    "name": "Battle Armor",
-    "description": "The Pokémon is protected against critical hits."
+    "name": "Armadura Batalla",
+    "description": "El Pokémon está protegido contra golpes críticos."
   },
   {
     "internalName": "STURDY",
-    "name": "Sturdy",
-    "description": "It cannot be knocked out with one hit."
+    "name": "Robustez",
+    "description": "No puede ser eliminado de un solo golpe."
   },
   {
     "internalName": "DAMP",
-    "name": "Damp",
-    "description": "Prevents the use of self-destructing moves."
+    "name": "Humedad",
+    "description": "Previene el uso de movimientos autodestructivos."
   },
   {
     "internalName": "LIMBER",
-    "name": "Limber",
-    "description": "The Pokémon is protected from paralysis."
+    "name": "Flexibilidad",
+    "description": "El Pokémon está protegido de la parálisis."
   },
   {
     "internalName": "SANDVEIL",
-    "name": "Sand Veil",
-    "description": "Boosts the Pokémon's evasion in a sandstorm."
+    "name": "Velo arena",
+    "description": "Aumenta la evasión del Pokémon en una tormenta de arena."
   },
   {
     "internalName": "STATIC",
-    "name": "Static",
-    "description": "Contact with the Pokémon may cause paralysis."
+    "name": "Elec. Estática",
+    "description": "El contacto con el Pokémon puede provocar parálisis."
   },
   {
     "internalName": "VOLTABSORB",
-    "name": "Volt Absorb",
-    "description": "Restores HP if hit by an Electric-type move."
+    "name": "Absorbe Elec.",
+    "description": "Restaura HP si es golpeado por un movimiento de tipo eléctrico."
   },
   {
     "internalName": "WATERABSORB",
-    "name": "Water Absorb",
-    "description": "Restores HP if hit by a Water-type move."
+    "name": "Absorbe Agua",
+    "description": "Restaura HP si es golpeado por un movimiento de tipo Agua."
   },
   {
     "internalName": "OBLIVIOUS",
-    "name": "Oblivious",
-    "description": "Prevents it from becoming infatuated."
+    "name": "Despiste",
+    "description": "Evita que se encapriche."
   },
   {
     "internalName": "CLOUDNINE",
-    "name": "Cloud Nine",
-    "description": "Eliminates the effects of weather."
+    "name": "Aclimatación",
+    "description": "Elimina los efectos del clima."
   },
   {
     "internalName": "COMPOUNDEYES",
-    "name": "Compound Eyes",
-    "description": "The Pokémon's accuracy is boosted."
+    "name": "Ojo Compuesto",
+    "description": "La precisión del Pokémon aumenta."
   },
   {
     "internalName": "INSOMNIA",
-    "name": "Insomnia",
-    "description": "Prevents the Pokémon from falling asleep."
+    "name": "Insomnio",
+    "description": "Evita que el Pokémon se duerma."
   },
   {
     "internalName": "COLORCHANGE",
-    "name": "Color Change",
-    "description": "Changes the Pokémon's type to the foe's move."
+    "name": "Cambio Color",
+    "description": "Cambia el tipo de Pokémon según el movimiento del enemigo."
   },
   {
     "internalName": "IMMUNITY",
-    "name": "Immunity",
-    "description": "Prevents the Pokémon from getting poisoned."
+    "name": "Inmunidad",
+    "description": "Evita que el Pokémon sea envenenado."
   },
   {
     "internalName": "FLASHFIRE",
-    "name": "Flash Fire",
-    "description": "It powers up Fire-type moves if it's hit by one."
+    "name": "Absorbe Fuego",
+    "description": "Potencia los movimientos de tipo Fuego si es golpeado por uno."
   },
   {
     "internalName": "SHIELDDUST",
-    "name": "Shield Dust",
-    "description": "Blocks the added effects of attacks taken."
+    "name": "Polvo Escudo",
+    "description": "Bloquea los efectos añadidos de los ataques recibidos."
   },
   {
     "internalName": "OWNTEMPO",
-    "name": "Own Tempo",
-    "description": "Prevents the Pokémon from becoming confused."
+    "name": "Ritmo Propio",
+    "description": "Evita que el Pokémon se confunda."
   },
   {
     "internalName": "SUCTIONCUPS",
-    "name": "Suction Cups",
-    "description": "Negates all moves that force switching out."
+    "name": "Ventosas",
+    "description": "Niega todos los movimientos que obligan a cambiar."
   },
   {
     "internalName": "INTIMIDATE",
-    "name": "Intimidate",
-    "description": "Lowers the foe's Attack stat."
+    "name": "Intimidación",
+    "description": "Reduce la estadística de ataque del enemigo."
   },
   {
     "internalName": "SHADOWTAG",
-    "name": "Shadow Tag",
-    "description": "Prevents the foe from escaping."
+    "name": "Sombra Trampa",
+    "description": "Impide que el enemigo escape."
   },
   {
     "internalName": "ROUGHSKIN",
-    "name": "Rough Skin",
-    "description": "Inflicts damage to the foe on contact."
+    "name": "Piel Tosca",
+    "description": "Inflige daño al enemigo al contacto."
   },
   {
     "internalName": "WONDERGUARD",
-    "name": "Wonder Guard",
-    "description": "Only super-effective moves will hit."
+    "name": "Superguarda",
+    "description": "Sólo lograrán movimientos súper efectivos."
   },
   {
     "internalName": "LEVITATE",
-    "name": "Levitate",
-    "description": "Gives full immunity to all Ground-type moves."
+    "name": "Levitación",
+    "description": "Otorga inmunidad total a todos los movimientos de tipo Tierra."
   },
   {
     "internalName": "EFFECTSPORE",
-    "name": "Effect Spore",
-    "description": "Contact may poison or cause paralysis or sleep."
+    "name": "Efecto Espora",
+    "description": "El contacto puede envenenar o causar parálisis o sueño."
   },
   {
     "internalName": "SYNCHRONIZE",
-    "name": "Synchronize",
-    "description": "Passes a burn, poison, or paralysis to the foe."
+    "name": "Sincronía",
+    "description": "Pasa una quemadura, veneno o parálisis al enemigo."
   },
   {
     "internalName": "CLEARBODY",
-    "name": "Clear Body",
-    "description": "Prevents other Pokémon from lowering its stats."
+    "name": "Cuerpo Puro",
+    "description": "Evita que otros Pokémon bajen sus estadísticas."
   },
   {
     "internalName": "NATURALCURE",
-    "name": "Natural Cure",
-    "description": "All status problems heal when it switches out."
+    "name": "Cura Natural",
+    "description": "Todos los problemas de estado se solucionan cuando se apaga."
   },
   {
     "internalName": "LIGHTNINGROD",
-    "name": "Lightning Rod",
-    "description": "Draws in all Electric-type moves to up Sp. Attack."
+    "name": "Pararrayos",
+    "description": "Atrae todos los movimientos de tipo eléctrico hasta Sp. Ataque."
   },
   {
     "internalName": "SERENEGRACE",
-    "name": "Serene Grace",
-    "description": "Boosts the likelihood of added effects appearing."
+    "name": "Dicha",
+    "description": "Aumenta la probabilidad de que aparezcan efectos añadidos."
   },
   {
     "internalName": "SWIFTSWIM",
-    "name": "Swift Swim",
-    "description": "Boosts the Pokémon's Speed in rain."
+    "name": "Nado Rápido",
+    "description": "Aumenta la velocidad del Pokémon bajo la lluvia."
   },
   {
     "internalName": "CHLOROPHYLL",
-    "name": "Chlorophyll",
-    "description": "Boosts the Pokémon's Speed in sunshine."
+    "name": "Clorofila",
+    "description": "Aumenta la velocidad del Pokémon bajo el sol."
   },
   {
     "internalName": "ILLUMINATE",
-    "name": "Illuminate",
-    "description": "Raises the likelihood of meeting wild Pokémon."
+    "name": "Iluminación",
+    "description": "Aumenta la probabilidad de encontrar Pokémon salvajes."
   },
   {
     "internalName": "TRACE",
-    "name": "Trace",
-    "description": "The Pokémon copies a foe's Ability."
+    "name": "Calco",
+    "description": "El Pokémon copia la habilidad de un enemigo."
   },
   {
     "internalName": "HUGEPOWER",
-    "name": "Huge Power",
-    "description": "Raises the Pokémon's Attack stat."
+    "name": "Potencia",
+    "description": "Aumenta la estadística de ataque del Pokémon."
   },
   {
     "internalName": "POISONPOINT",
-    "name": "Poison Point",
-    "description": "Contact with the Pokémon may poison the attacker."
+    "name": "Punto Tóxico",
+    "description": "El contacto con el Pokémon puede envenenar al atacante."
   },
   {
     "internalName": "INNERFOCUS",
-    "name": "Inner Focus",
-    "description": "The Pokémon is protected from flinching."
+    "name": "Fuerza Mental",
+    "description": "El Pokémon está protegido contra estremecimientos."
   },
   {
     "internalName": "MAGMAARMOR",
-    "name": "Magma Armor",
-    "description": "Prevents the Pokémon from becoming frozen."
+    "name": "Escudo Magma",
+    "description": "Evita que el Pokémon quede congelado."
   },
   {
     "internalName": "WATERVEIL",
-    "name": "Water Veil",
-    "description": "Prevents the Pokémon from getting a burn."
+    "name": "Velo Agua",
+    "description": "Evita que el Pokémon se queme."
   },
   {
     "internalName": "MAGNETPULL",
-    "name": "Magnet Pull",
-    "description": "Prevents Steel-type Pokémon from escaping."
+    "name": "Imán",
+    "description": "Evita que los Pokémon de tipo Acero escapen."
   },
   {
     "internalName": "SOUNDPROOF",
-    "name": "Soundproof",
-    "description": "Gives full immunity to all sound-based moves."
+    "name": "Insonorizar",
+    "description": "Da inmunidad total a todos los movimientos basados ​​en sonido."
   },
   {
     "internalName": "RAINDISH",
-    "name": "Rain Dish",
-    "description": "The Pokémon gradually regains HP in rain."
+    "name": "Cura Lluvia",
+    "description": "El Pokémon recupera gradualmente HP cuando llueve."
   },
   {
     "internalName": "SANDSTREAM",
-    "name": "Sand Stream",
-    "description": "The Pokémon summons a sandstorm in battle."
+    "name": "Chorro Arena",
+    "description": "El Pokémon invoca una tormenta de arena en batalla."
   },
   {
     "internalName": "PRESSURE",
-    "name": "Pressure",
-    "description": "The Pokémon raises the foe's PP usage."
+    "name": "Presión",
+    "description": "El Pokémon aumenta el uso de PP del enemigo."
   },
   {
     "internalName": "THICKFAT",
-    "name": "Thick Fat",
-    "description": "Ups resistance to Fire- and Ice-type moves."
+    "name": "Sebo",
+    "description": "Aumenta la resistencia a movimientos de tipo Fuego y Hielo."
   },
   {
     "internalName": "EARLYBIRD",
-    "name": "Early Bird",
-    "description": "The Pokémon awakens quickly from sleep."
+    "name": "Madrugar",
+    "description": "El Pokémon se despierta rápidamente del sueño."
   },
   {
     "internalName": "FLAMEBODY",
-    "name": "Flame Body",
-    "description": "Contact with the Pokémon may burn the attacker."
+    "name": "Cuerpo Llama",
+    "description": "El contacto con el Pokémon puede quemar al atacante."
   },
   {
     "internalName": "RUNAWAY",
-    "name": "Run Away",
-    "description": "Enables a sure getaway from wild Pokémon."
+    "name": "Fuga",
+    "description": "Permite una escapada segura de los Pokémon salvajes."
   },
   {
     "internalName": "KEENEYE",
-    "name": "Keen Eye",
-    "description": "Prevents other Pokémon from lowering accuracy."
+    "name": "Vista Lince",
+    "description": "Evita que otros Pokémon reduzcan la precisión."
   },
   {
     "internalName": "HYPERCUTTER",
-    "name": "Hyper Cutter",
-    "description": "Prevents other Pokémon from lowering Attack stat."
+    "name": "Corte Fuerte",
+    "description": "Evita que otros Pokémon reduzcan la estadística de Ataque."
   },
   {
     "internalName": "PICKUP",
-    "name": "Pickup",
-    "description": "The Pokémon may pick up items."
+    "name": "Recogida",
+    "description": "El Pokémon puede recoger objetos."
   },
   {
     "internalName": "TRUANT",
-    "name": "Truant",
-    "description": "Pokémon can't attack on consecutive turns."
+    "name": "Pereza",
+    "description": "Los Pokémon no pueden atacar en turnos consecutivos."
   },
   {
     "internalName": "HUSTLE",
-    "name": "Hustle",
-    "description": "Boosts the Attack stat, but lowers accuracy."
+    "name": "Entusiasmo",
+    "description": "Aumenta la estadística de ataque, pero reduce la precisión."
   },
   {
     "internalName": "CUTECHARM",
-    "name": "Cute Charm",
-    "description": "Contact with the Pokémon may cause infatuation."
+    "name": "Gran Encanto",
+    "description": "El contacto con el Pokémon puede causar enamoramiento."
   },
   {
     "internalName": "PLUS",
-    "name": "Plus",
-    "description": "Ups Sp. Atk if another Pokémon has Plus or Minus."
+    "name": "Más",
+    "description": "Ups sp. Atk si otro Pokémon tiene Más o Menos."
   },
   {
     "internalName": "MINUS",
-    "name": "Minus",
-    "description": "Ups Sp. Atk if another Pokémon has Plus or Minus."
+    "name": "Menos",
+    "description": "Ups sp. Atk si otro Pokémon tiene Más o Menos."
   },
   {
     "internalName": "FORECAST",
-    "name": "Forecast",
-    "description": "Castform transforms with the weather."
+    "name": "Predicción",
+    "description": "Castform se transforma con el clima."
   },
   {
     "internalName": "STICKYHOLD",
-    "name": "Sticky Hold",
-    "description": "Protects the Pokémon from item theft."
+    "name": "Viscosidad",
+    "description": "Protege al Pokémon del robo de objetos."
   },
   {
     "internalName": "SHEDSKIN",
-    "name": "Shed Skin",
-    "description": "The Pokémon may heal its own status problems."
+    "name": "Mudar",
+    "description": "El Pokémon puede solucionar sus propios problemas de estado."
   },
   {
     "internalName": "GUTS",
-    "name": "Guts",
-    "description": "Boosts Attack if there is a status problem."
+    "name": "Agallas",
+    "description": "Aumenta el ataque si hay un problema de estado."
   },
   {
     "internalName": "MARVELSCALE",
-    "name": "Marvel Scale",
-    "description": "Ups Defense if there is a status problem."
+    "name": "Escama Especial",
+    "description": "Aumenta la defensa si hay un problema de estado."
   },
   {
     "internalName": "LIQUIDOOZE",
-    "name": "Liquid Ooze",
-    "description": "Damages attackers using any draining move."
+    "name": "Viscosecreción",
+    "description": "Daña a los atacantes usando cualquier movimiento de drenaje."
   },
   {
     "internalName": "OVERGROW",
-    "name": "Overgrow",
-    "description": "Powers up Grass-type moves in a pinch."
+    "name": "Espesura",
+    "description": "Potencia los movimientos tipo Planta en caso de apuro."
   },
   {
     "internalName": "BLAZE",
-    "name": "Blaze",
-    "description": "Powers up Fire-type moves in a pinch."
+    "name": "Mar Llamas",
+    "description": "Potencia los movimientos tipo Fuego en caso de apuro."
   },
   {
     "internalName": "TORRENT",
-    "name": "Torrent",
-    "description": "Powers up Water-type moves in a pinch."
+    "name": "Torrente",
+    "description": "Potencia los movimientos tipo agua en caso de apuro."
   },
   {
     "internalName": "SWARM",
-    "name": "Swarm",
-    "description": "Powers up Bug-type moves in a pinch."
+    "name": "Enjambre",
+    "description": "Potencia los movimientos tipo insecto en caso de apuro."
   },
   {
     "internalName": "ROCKHEAD",
-    "name": "Rock Head",
-    "description": "Protects the Pokémon from recoil damage."
+    "name": "Cabeza Roca",
+    "description": "Protege al Pokémon del daño por retroceso."
   },
   {
     "internalName": "DROUGHT",
-    "name": "Drought",
-    "description": "Turns the sunlight harsh if it is in battle."
+    "name": "Sequía",
+    "description": "Hace que la luz del sol sea dura si está en batalla."
   },
   {
     "internalName": "ARENATRAP",
-    "name": "Arena Trap",
-    "description": "Prevents the foe from fleeing."
+    "name": "Trampa Arena",
+    "description": "Evita que el enemigo huya."
   },
   {
     "internalName": "VITALSPIRIT",
-    "name": "Vital Spirit",
-    "description": "Prevents the Pokémon from falling asleep."
+    "name": "Espíritu Vital",
+    "description": "Evita que el Pokémon se duerma."
   },
   {
     "internalName": "WHITESMOKE",
-    "name": "White Smoke",
-    "description": "Prevents other Pokémon from lowering its stats."
+    "name": "Humo Blanco",
+    "description": "Evita que otros Pokémon bajen sus estadísticas."
   },
   {
     "internalName": "PUREPOWER",
-    "name": "Pure Power",
-    "description": "Raises the Pokémon's Attack stat."
+    "name": "Energía Pura",
+    "description": "Aumenta la estadística de ataque del Pokémon."
   },
   {
     "internalName": "SHELLARMOR",
-    "name": "Shell Armor",
-    "description": "The Pokémon is protected against critical hits."
+    "name": "Caparazón",
+    "description": "El Pokémon está protegido contra golpes críticos."
   },
   {
     "internalName": "AIRLOCK",
-    "name": "Air Lock",
-    "description": "Eliminates the effects of weather."
+    "name": "Esclusa de Aire",
+    "description": "Elimina los efectos del clima."
   },
   {
     "internalName": "TANGLEDFEET",
-    "name": "Tangled Feet",
-    "description": "Raises evasion if the Pokémon is confused."
+    "name": "Tumbos",
+    "description": "Aumenta la evasión si el Pokémon está confundido."
   },
   {
     "internalName": "MOTORDRIVE",
-    "name": "Motor Drive",
-    "description": "Raises Speed if hit by an Electric-type move."
+    "name": "Electromotor",
+    "description": "Aumenta la velocidad si es golpeado por un movimiento de tipo eléctrico."
   },
   {
     "internalName": "RIVALRY",
-    "name": "Rivalry",
-    "description": "Deals more damage to a foe of the same gender."
+    "name": "Rivalidad",
+    "description": "Inflige más daño a un enemigo del mismo sexo."
   },
   {
     "internalName": "STEADFAST",
-    "name": "Steadfast",
-    "description": "Raises Speed each time the Pokémon flinches."
+    "name": "Impasible",
+    "description": "Aumenta la velocidad cada vez que el Pokémon retrocede."
   },
   {
     "internalName": "SNOWCLOAK",
-    "name": "Snow Cloak",
-    "description": "Raises evasion in a hailstorm."
+    "name": "Manto Níveo",
+    "description": "Aumenta la evasión en caso de granizada."
   },
   {
     "internalName": "GLUTTONY",
-    "name": "Gluttony",
-    "description": "Encourages the early use of a held Berry."
+    "name": "Gula",
+    "description": "Fomenta el uso temprano de una baya retenida."
   },
   {
     "internalName": "ANGERPOINT",
-    "name": "Anger Point",
-    "description": "Maxes Attack after taking a critical hit."
+    "name": "Irascible",
+    "description": "Ataque máximo después de recibir un golpe crítico."
   },
   {
     "internalName": "UNBURDEN",
-    "name": "Unburden",
-    "description": "Raises Speed if a held item is used."
+    "name": "Liviano",
+    "description": "Aumenta la velocidad si se utiliza un objeto retenido."
   },
   {
     "internalName": "HEATPROOF",
-    "name": "Heatproof",
-    "description": "Weakens the power of Fire-type moves."
+    "name": "Ignífugo",
+    "description": "Debilita el poder de los movimientos de tipo Fuego."
   },
   {
     "internalName": "SIMPLE",
     "name": "Simple",
-    "description": "The Pokémon is prone to wild stat changes."
+    "description": "El Pokémon es propenso a sufrir cambios salvajes en sus estadísticas."
   },
   {
     "internalName": "DRYSKIN",
-    "name": "Dry Skin",
-    "description": "Reduces HP if it is hot. Water restores HP."
+    "name": "Piel Seca",
+    "description": "Reduce HP si hace calor. El agua restaura HP."
   },
   {
     "internalName": "DOWNLOAD",
-    "name": "Download",
-    "description": "Adjusts power according to a foe's defenses."
+    "name": "Descarga",
+    "description": "Ajusta el poder según las defensas del enemigo."
   },
   {
     "internalName": "IRONFIST",
-    "name": "Iron Fist",
-    "description": "Boosts the power of punching moves."
+    "name": "Puño Férreo",
+    "description": "Aumenta el poder de los movimientos de puñetazo."
   },
   {
     "internalName": "POISONHEAL",
-    "name": "Poison Heal",
-    "description": "Restores HP if the Pokémon is poisoned."
+    "name": "Antídoto",
+    "description": "Restaura HP si el Pokémon está envenenado."
   },
   {
     "internalName": "ADAPTABILITY",
-    "name": "Adaptability",
-    "description": "Powers up moves of the same type."
+    "name": "Adaptable",
+    "description": "Potencia movimientos del mismo tipo."
   },
   {
     "internalName": "SKILLLINK",
-    "name": "Skill Link",
-    "description": "Increases the frequency of multi-strike moves."
+    "name": "Encadenado",
+    "description": "Aumenta la frecuencia de los movimientos de múltiples golpes."
   },
   {
     "internalName": "HYDRATION",
-    "name": "Hydration",
-    "description": "Heals status problems if it is raining."
+    "name": "Hidratación",
+    "description": "Cura problemas de estado si está lloviendo."
   },
   {
     "internalName": "SOLARPOWER",
-    "name": "Solar Power",
-    "description": "In sunshine, Sp. Atk is boosted but HP decreases."
+    "name": "Poder Solar",
+    "description": "Al sol, Sp. El Atk aumenta pero el HP disminuye."
   },
   {
     "internalName": "QUICKFEET",
-    "name": "Quick Feet",
-    "description": "Boosts Speed if there is a status problem."
+    "name": "Pies Rápidos",
+    "description": "Aumenta la velocidad si hay un problema de estado."
   },
   {
     "internalName": "NORMALIZE",
-    "name": "Normalize",
-    "description": "All the Pokémon's moves become the Normal type."
+    "name": "Normalidad",
+    "description": "Todos los movimientos del Pokémon pasan a ser de tipo Normal."
   },
   {
     "internalName": "SNIPER",
-    "name": "Sniper",
-    "description": "Powers up moves if they become critical hits."
+    "name": "Francotirador",
+    "description": "Mejora los movimientos si se convierten en golpes críticos."
   },
   {
     "internalName": "MAGICGUARD",
-    "name": "Magic Guard",
-    "description": "The Pokémon only takes damage from attacks."
+    "name": "Muro Mágico",
+    "description": "El Pokémon sólo sufre daño de los ataques."
   },
   {
     "internalName": "NOGUARD",
-    "name": "No Guard",
-    "description": "Ensures attacks by or against the Pokémon land."
+    "name": "Indefenso",
+    "description": "Asegura ataques por o contra la tierra Pokémon."
   },
   {
     "internalName": "STALL",
-    "name": "Stall",
-    "description": "The Pokémon moves after all other Pokémon do."
+    "name": "Rezagado",
+    "description": "El Pokémon se mueve después que todos los demás Pokémon."
   },
   {
     "internalName": "TECHNICIAN",
-    "name": "Technician",
-    "description": "Powers up the Pokémon's weaker moves."
+    "name": "Experto",
+    "description": "Potencia los movimientos más débiles del Pokémon."
   },
   {
     "internalName": "LEAFGUARD",
-    "name": "Leaf Guard",
-    "description": "Prevents problems with status in sunny weather."
+    "name": "Defensa Hoja",
+    "description": "Previene problemas con el estado en climas soleados."
   },
   {
     "internalName": "KLUTZ",
-    "name": "Klutz",
-    "description": "The Pokémon can't use any held items."
+    "name": "Zoquete",
+    "description": "El Pokémon no puede usar ningún objeto retenido."
   },
   {
     "internalName": "MOLDBREAKER",
-    "name": "Mold Breaker",
-    "description": "Moves can be used regardless of Abilities."
+    "name": "Rompemoldes",
+    "description": "Los movimientos se pueden utilizar independientemente de las habilidades."
   },
   {
     "internalName": "SUPERLUCK",
-    "name": "Super Luck",
-    "description": "Heightens the critical-hit ratios of moves."
+    "name": "Afortunado",
+    "description": "Aumenta las proporciones de golpes críticos de los movimientos."
   },
   {
     "internalName": "AFTERMATH",
-    "name": "Aftermath",
-    "description": "Damages the attacker landing the finishing hit."
+    "name": "Detonación",
+    "description": "Daña al atacante que da el golpe final."
   },
   {
     "internalName": "ANTICIPATION",
-    "name": "Anticipation",
-    "description": "Senses a foe's dangerous moves."
+    "name": "Anticipación",
+    "description": "Detecta los movimientos peligrosos de un enemigo."
   },
   {
     "internalName": "FOREWARN",
-    "name": "Forewarn",
-    "description": "Determines what moves a foe has."
+    "name": "Alerta",
+    "description": "Determina qué movimientos tiene un enemigo."
   },
   {
     "internalName": "UNAWARE",
-    "name": "Unaware",
-    "description": "Ignores any stat changes in the Pokémon."
+    "name": "Ignorante",
+    "description": "Ignora cualquier cambio de estadísticas en el Pokémon."
   },
   {
     "internalName": "TINTEDLENS",
-    "name": "Tinted Lens",
-    "description": "Powers up 'not very effective' moves."
+    "name": "Cromolente",
+    "description": "Potencia movimientos 'no muy efectivos'."
   },
   {
     "internalName": "FILTER",
-    "name": "Filter",
-    "description": "Reduces damage from super-effective attacks."
+    "name": "Filtro",
+    "description": "Reduce el daño de ataques súper efectivos."
   },
   {
     "internalName": "SLOWSTART",
-    "name": "Slow Start",
-    "description": "Temporarily halves Attack and Speed."
+    "name": "Inicio Lento",
+    "description": "Reduce temporalmente a la mitad el ataque y la velocidad."
   },
   {
     "internalName": "SCRAPPY",
-    "name": "Scrappy",
-    "description": "Enables moves to hit Ghost-type Pokémon."
+    "name": "Intrépido",
+    "description": "Permite movimientos para golpear a Pokémon de tipo Fantasma."
   },
   {
     "internalName": "STORMDRAIN",
-    "name": "Storm Drain",
-    "description": "Draws in all Water-type moves to up Sp. Attack."
+    "name": "Colector",
+    "description": "Atrae todos los movimientos de tipo Agua hasta Sp. Ataque."
   },
   {
     "internalName": "ICEBODY",
-    "name": "Ice Body",
-    "description": "The Pokémon gradually regains HP in a hailstorm."
+    "name": "Gélido",
+    "description": "El Pokémon recupera gradualmente HP durante una tormenta de granizo."
   },
   {
     "internalName": "SOLIDROCK",
-    "name": "Solid Rock",
-    "description": "Reduces damage from super-effective attacks."
+    "name": "Roca Solida",
+    "description": "Reduce el daño de ataques súper efectivos."
   },
   {
     "internalName": "SNOWWARNING",
-    "name": "Snow Warning",
-    "description": "The Pokémon summons a hailstorm in battle."
+    "name": "Nevada",
+    "description": "El Pokémon invoca una granizada en combate."
   },
   {
     "internalName": "HONEYGATHER",
-    "name": "Honey Gather",
-    "description": "The Pokémon may gather Honey from somewhere."
+    "name": "Recogemiel",
+    "description": "El Pokémon puede recolectar miel de algún lugar."
   },
   {
     "internalName": "FRISK",
-    "name": "Frisk",
-    "description": "The Pokémon can check a foe's held item."
+    "name": "Cacheo",
+    "description": "El Pokémon puede controlar el objeto que tiene un enemigo."
   },
   {
     "internalName": "RECKLESS",
-    "name": "Reckless",
-    "description": "Powers up moves that have recoil damage."
+    "name": "Audaz",
+    "description": "Potencia movimientos que tienen daño de retroceso."
   },
   {
     "internalName": "MULTITYPE",
-    "name": "Multitype",
-    "description": "Changes type to match the held Plate."
+    "name": "Multitipo",
+    "description": "Cambia el tipo para que coincida con el plato retenido."
   },
   {
     "internalName": "FLOWERGIFT",
-    "name": "Flower Gift",
-    "description": "Powers up party Pokémon when it is sunny."
+    "name": "Don Floral",
+    "description": "Aumenta el poder de los Pokémon del grupo cuando hace sol."
   },
   {
     "internalName": "BADDREAMS",
-    "name": "Bad Dreams",
-    "description": "Reduces a sleeping foe's HP."
+    "name": "Mal Sueño",
+    "description": "Reduce el HP de un enemigo dormido."
   },
   {
     "internalName": "PICKPOCKET",
-    "name": "Pickpocket",
-    "description": "Steals an item when hit by another Pokémon."
+    "name": "Hurto",
+    "description": "Roba un objeto cuando es golpeado por otro Pokémon."
   },
   {
     "internalName": "SHEERFORCE",
-    "name": "Sheer Force",
-    "description": "Removes added effects to increase move damage."
+    "name": "Potencia Bruta",
+    "description": "Elimina efectos agregados para aumentar el daño del movimiento."
   },
   {
     "internalName": "CONTRARY",
-    "name": "Contrary",
-    "description": "Makes stat changes have an opposite effect."
+    "name": "Respondón",
+    "description": "Hace que los cambios de estadísticas tengan el efecto contrario."
   },
   {
     "internalName": "UNNERVE",
-    "name": "Unnerve",
-    "description": "Makes the foe nervous and unable to eat Berries."
+    "name": "Nerviosismo",
+    "description": "Pone nervioso al enemigo y le impide comer bayas."
   },
   {
     "internalName": "DEFIANT",
-    "name": "Defiant",
-    "description": "When its stats are lowered its Attack increases."
+    "name": "Competitivo",
+    "description": "Cuando sus estadísticas disminuyen, su ataque aumenta."
   },
   {
     "internalName": "DEFEATIST",
-    "name": "Defeatist",
-    "description": "Lowers stats when HP becomes half or less."
+    "name": "Flaqueza",
+    "description": "Reduce las estadísticas cuando HP llega a la mitad o menos."
   },
   {
     "internalName": "CURSEDBODY",
-    "name": "Cursed Body",
-    "description": "May disable a move used on the Pokémon."
+    "name": "Cuerpo Maldito",
+    "description": "Puede desactivar un movimiento utilizado en el Pokémon."
   },
   {
     "internalName": "HEALER",
-    "name": "Healer",
-    "description": "May heal an ally's status conditions."
+    "name": "Alma Cura",
+    "description": "Puede curar las condiciones de estado de un aliado."
   },
   {
     "internalName": "FRIENDGUARD",
-    "name": "Friend Guard",
-    "description": "Reduces damage done to allies."
+    "name": "Compiescolta",
+    "description": "Reduce el daño causado a los aliados."
   },
   {
     "internalName": "WEAKARMOR",
-    "name": "Weak Armor",
-    "description": "Physical attacks lower Defense and raise Speed."
+    "name": "Armadura Frágil",
+    "description": "Los ataques físicos reducen la defensa y aumentan la velocidad."
   },
   {
     "internalName": "HEAVYMETAL",
-    "name": "Heavy Metal",
-    "description": "Doubles the Pokémon's weight."
+    "name": "Metal Pesado",
+    "description": "Duplica el peso del Pokémon."
   },
   {
     "internalName": "LIGHTMETAL",
-    "name": "Light Metal",
-    "description": "Halves the Pokémon's weight."
+    "name": "Metal Liviano",
+    "description": "Reduce a la mitad el peso del Pokémon."
   },
   {
     "internalName": "MULTISCALE",
-    "name": "Multiscale",
-    "description": "Reduces damage when HP is full."
+    "name": "Compensación",
+    "description": "Reduce el daño cuando HP está lleno."
   },
   {
     "internalName": "TOXICBOOST",
-    "name": "Toxic Boost",
-    "description": "Powers up physical attacks when poisoned."
+    "name": "Ímpetu Tóxico",
+    "description": "Potencia los ataques físicos cuando está envenenado."
   },
   {
     "internalName": "FLAREBOOST",
-    "name": "Flare Boost",
-    "description": "Powers up special attacks when burned."
+    "name": "Ímpetu Ardiente",
+    "description": "Potencia ataques especiales cuando se quema."
   },
   {
     "internalName": "HARVEST",
-    "name": "Harvest",
-    "description": "May create another Berry after one is used."
+    "name": "Cosecha",
+    "description": "Puede crear otra baya después de usar una."
   },
   {
     "internalName": "TELEPATHY",
-    "name": "Telepathy",
-    "description": "Anticipates an ally's attack and dodges it."
+    "name": "Telepatía",
+    "description": "Anticipa el ataque de un aliado y lo esquiva."
   },
   {
     "internalName": "MOODY",
-    "name": "Moody",
-    "description": "Raises one stat and lowers another."
+    "name": "Veleta",
+    "description": "Aumenta una estadística y reduce otra."
   },
   {
     "internalName": "OVERCOAT",
-    "name": "Overcoat",
-    "description": "Protects the Pokémon from damage from weather."
+    "name": "Funda",
+    "description": "Protege al Pokémon del daño causado por el clima."
   },
   {
     "internalName": "POISONTOUCH",
-    "name": "Poison Touch",
-    "description": "May poison targets when a Pokémon makes contact."
+    "name": "Toque Tóxico",
+    "description": "Puede envenenar a los objetivos cuando un Pokémon hace contacto."
   },
   {
     "internalName": "REGENERATOR",
-    "name": "Regenerator",
-    "description": "Restores a little HP when withdrawn from battle."
+    "name": "Regeneración",
+    "description": "Restaura un poco de HP cuando se retira de la batalla."
   },
   {
     "internalName": "BIGPECKS",
-    "name": "Big Pecks",
-    "description": "Protects from Defense-lowering attacks."
+    "name": "Sacapecho",
+    "description": "Protege de ataques que reducen la defensa."
   },
   {
     "internalName": "SANDRUSH",
-    "name": "Sand Rush",
-    "description": "Boosts the Pokémon's Speed in a sandstorm."
+    "name": "Ímpetu Arena",
+    "description": "Aumenta la velocidad del Pokémon en una tormenta de arena."
   },
   {
     "internalName": "WONDERSKIN",
-    "name": "Wonder Skin",
-    "description": "Makes status-changing moves more likely to miss."
+    "name": "Piel Milagro",
+    "description": "Hace que los movimientos que cambian de estado sean más propensos a fallar."
   },
   {
     "internalName": "ANALYTIC",
-    "name": "Analytic",
-    "description": "Boosts move power when the Pokémon moves last."
+    "name": "Cálculo Final",
+    "description": "Aumenta el poder de movimiento cuando el Pokémon se mueve por última vez."
   },
   {
     "internalName": "ILLUSION",
-    "name": "Illusion",
-    "description": "Comes out disguised as the Pokémon in back."
+    "name": "Ilusión",
+    "description": "Sale disfrazado del Pokémon de atrás."
   },
   {
     "internalName": "IMPOSTER",
-    "name": "Imposter",
-    "description": "It transforms itself into the Pokémon it is facing."
+    "name": "Impostor",
+    "description": "Se transforma en el Pokémon al que se enfrenta."
   },
   {
     "internalName": "INFILTRATOR",
-    "name": "Infiltrator",
-    "description": "Passes through the foe's barrier and strikes."
+    "name": "Allanamiento",
+    "description": "Atraviesa la barrera del enemigo y ataca."
   },
   {
     "internalName": "MUMMY",
-    "name": "Mummy",
-    "description": "Contact with this Pokémon spreads this Ability."
+    "name": "Momia",
+    "description": "El contacto con este Pokémon propaga esta habilidad."
   },
   {
     "internalName": "MOXIE",
-    "name": "Moxie",
-    "description": "Boosts Attack after knocking out any Pokémon."
+    "name": "Autoestima",
+    "description": "Aumenta el ataque después de noquear a cualquier Pokémon."
   },
   {
     "internalName": "JUSTIFIED",
-    "name": "Justified",
-    "description": "Raises Attack when hit by a Dark-type move."
+    "name": "Justiciero",
+    "description": "Aumenta el ataque cuando es golpeado por un movimiento de tipo Oscuro."
   },
   {
     "internalName": "RATTLED",
-    "name": "Rattled",
-    "description": "Some move types scare it and boost its Speed."
+    "name": "Cobardía",
+    "description": "Algunos tipos de movimientos lo asustan y aumentan su velocidad."
   },
   {
     "internalName": "MAGICBOUNCE",
-    "name": "Magic Bounce",
-    "description": "Reflects status-changing moves."
+    "name": "Espejo Mágico",
+    "description": "Refleja movimientos de cambio de estado."
   },
   {
     "internalName": "SAPSIPPER",
-    "name": "Sap Sipper",
-    "description": "Boosts Attack when hit by a Grass-type move."
+    "name": "Herbívoro",
+    "description": "Aumenta el ataque cuando es golpeado por un movimiento tipo Hierba."
   },
   {
     "internalName": "PRANKSTER",
-    "name": "Prankster",
-    "description": "Gives priority to a status move."
+    "name": "Bromista",
+    "description": "Da prioridad a un movimiento de estado."
   },
   {
     "internalName": "SANDFORCE",
-    "name": "Sand Force",
-    "description": "Boosts certain moves' power in a sandstorm."
+    "name": "Poder Arena",
+    "description": "Aumenta el poder de ciertos movimientos en una tormenta de arena."
   },
   {
     "internalName": "IRONBARBS",
-    "name": "Iron Barbs",
-    "description": "Inflicts damage to the Pokémon on contact."
+    "name": "Punta Acero",
+    "description": "Inflige daño al Pokémon al contacto."
   },
   {
     "internalName": "ZENMODE",
-    "name": "Zen Mode",
-    "description": "Changes the Pokémon's shape when HP is halved."
+    "name": "Modo Daruma",
+    "description": "Cambia la forma del Pokémon cuando los HP se reducen a la mitad."
   },
   {
     "internalName": "VICTORYSTAR",
-    "name": "Victory Star",
-    "description": "Boosts the accuracy of its allies and itself."
+    "name": "Tinovictoria",
+    "description": "Aumenta la precisión de sus aliados y de sí mismo."
   },
   {
     "internalName": "TURBOBLAZE",
-    "name": "Turboblaze",
-    "description": "Moves can be used regardless of Abilities."
+    "name": "Turbollama",
+    "description": "Los movimientos se pueden utilizar independientemente de las habilidades."
   },
   {
     "internalName": "TERAVOLT",
-    "name": "Teravolt",
-    "description": "Moves can be used regardless of Abilities."
+    "name": "Terravoltaje",
+    "description": "Los movimientos se pueden utilizar independientemente de las habilidades."
   },
   {
     "internalName": "AROMAVEIL",
-    "name": "Aroma Veil",
-    "description": "Protects against attacks that limit move choices."
+    "name": "Velo Aroma",
+    "description": "Protege contra ataques que limitan las opciones de movimiento."
   },
   {
     "internalName": "FLOWERVEIL",
-    "name": "Flower Veil",
-    "description": "Protects Grass-type allies from stat/status effects."
+    "name": "Velo Flor",
+    "description": "Protege a los aliados de tipo Planta de los efectos de estadísticas/estado."
   },
   {
     "internalName": "CHEEKPOUCH",
-    "name": "Cheek Pouch",
-    "description": "Restores HP as well when the Pokémon eats a Berry."
+    "name": "Carrillo",
+    "description": "También restaura HP cuando el Pokémon come una baya."
   },
   {
     "internalName": "PROTEAN",
-    "name": "Protean",
-    "description": "It changes type to that of the move it's about to use."
+    "name": "Mutatipo",
+    "description": "Cambia de tipo al del movimiento que está a punto de utilizar."
   },
   {
     "internalName": "FURCOAT",
-    "name": "Fur Coat",
-    "description": "Halves the damage from physical moves."
+    "name": "Pelaje Recio",
+    "description": "Reduce a la mitad el daño de los movimientos físicos."
   },
   {
     "internalName": "MAGICIAN",
-    "name": "Magician",
-    "description": "Steals the held item of a Pokémon it hits."
+    "name": "Prestidigitador",
+    "description": "Roba el objeto retenido de un Pokémon al que golpea."
   },
   {
     "internalName": "BULLETPROOF",
-    "name": "Bulletproof",
-    "description": "Protects the Pokémon from some ball and bomb moves."
+    "name": "Antibalas",
+    "description": "Protege al Pokémon de algunos movimientos de bolas y bombas."
   },
   {
     "internalName": "COMPETITIVE",
-    "name": "Competitive",
-    "description": "Sharply boosts Sp. Atk when a stat is lowered."
+    "name": "Tenacidad",
+    "description": "Aumenta bruscamente Sp. Atk cuando se reduce una estadística."
   },
   {
     "internalName": "STRONGJAW",
-    "name": "Strong Jaw",
-    "description": "Boosts the power of biting moves."
+    "name": "Mandíbula Fuerte",
+    "description": "Aumenta el poder de los movimientos de mordida."
   },
   {
     "internalName": "REFRIGERATE",
-    "name": "Refrigerate",
-    "description": "Normal-type moves become Ice-type and powered up."
+    "name": "Piel Helada",
+    "description": "Los movimientos de tipo normal se vuelven de tipo hielo y se potencian."
   },
   {
     "internalName": "SWEETVEIL",
-    "name": "Sweet Veil",
-    "description": "Prevents itself and allies from falling asleep."
+    "name": "Velo Dulce",
+    "description": "Evita que él mismo y sus aliados se queden dormidos."
   },
   {
     "internalName": "STANCECHANGE",
-    "name": "Stance Change",
-    "description": "Changes between Blade and Shield Forme with attacks."
+    "name": "Cambio Táctico",
+    "description": "Cambia entre Blade y Shield Forme con los ataques."
   },
   {
     "internalName": "GALEWINGS",
-    "name": "Gale Wings",
-    "description": "Flying-type moves gain priority when its HP is full."
+    "name": "Alas Vendaval",
+    "description": "Los movimientos de tipo volador ganan prioridad cuando su HP está lleno."
   },
   {
     "internalName": "MEGALAUNCHER",
-    "name": "Mega Launcher",
-    "description": "Powers up aura and pulse moves."
+    "name": "Megadisparador",
+    "description": "Activa los movimientos del aura y el pulso."
   },
   {
     "internalName": "GRASSPELT",
-    "name": "Grass Pelt",
-    "description": "Boosts the Defense stat on Grassy Terrain."
+    "name": "Manto Frondoso",
+    "description": "Aumenta la estadística de Defensa en Grassy Terrain."
   },
   {
     "internalName": "SYMBIOSIS",
-    "name": "Symbiosis",
-    "description": "Passes its held item to an ally that has used theirs."
+    "name": "Simbiosis",
+    "description": "Pasa el objeto que tiene a un aliado que haya usado el suyo."
   },
   {
     "internalName": "TOUGHCLAWS",
-    "name": "Tough Claws",
-    "description": "Powers up moves that make direct contact."
+    "name": "Garra Dura",
+    "description": "Potencia los movimientos que hacen contacto directo."
   },
   {
     "internalName": "PIXILATE",
-    "name": "Pixilate",
-    "description": "Normal-type moves become Fairy-type and powered up."
+    "name": "Piel Feérica",
+    "description": "Los movimientos de tipo normal se vuelven de tipo Hada y se potencian."
   },
   {
     "internalName": "GOOEY",
-    "name": "Gooey",
-    "description": "Contact with it lowers the attacker's Speed stat."
+    "name": "Baba",
+    "description": "El contacto con él reduce la estadística de velocidad del atacante."
   },
   {
     "internalName": "AERILATE",
-    "name": "Aerilate",
-    "description": "Normal-type moves become Flying-type and power up."
+    "name": "Piel Celeste",
+    "description": "Los movimientos de tipo normal se vuelven de tipo volador y se potencian."
   },
   {
     "internalName": "PARENTALBOND",
-    "name": "Parental Bond",
-    "description": "Parent and child each attacks."
+    "name": "Amor Filial",
+    "description": "Tanto el padre como el niño atacan."
   },
   {
     "internalName": "DARKAURA",
-    "name": "Dark Aura",
-    "description": "Powers up each Pokémon's Dark-type moves."
+    "name": "Aura Oscura",
+    "description": "Potencia los movimientos de tipo Oscuro de cada Pokémon."
   },
   {
     "internalName": "FAIRYAURA",
-    "name": "Fairy Aura",
-    "description": "Powers up each Pokémon's Fairy-type moves."
+    "name": "Aura Feérica",
+    "description": "Potencia los movimientos tipo Hada de cada Pokémon."
   },
   {
     "internalName": "AURABREAK",
-    "name": "Aura Break",
-    "description": "Reverses 'Aura' Abilities to weaken affected moves."
+    "name": "Rompeaura",
+    "description": "Invierte las habilidades de 'Aura' para debilitar los movimientos afectados."
   },
   {
     "internalName": "PRIMORDIALSEA",
-    "name": "Primordial Sea",
-    "description": "Changes the weather to nullify Fire-type moves."
+    "name": "Mar del Albor",
+    "description": "Cambia el clima para anular los movimientos de tipo Fuego."
   },
   {
     "internalName": "DESOLATELAND",
-    "name": "Desolate Land",
-    "description": "Changes the weather to nullify Water-type moves."
+    "name": "Tierra del Ocaso",
+    "description": "Cambia el clima para anular los movimientos de tipo Agua."
   },
   {
     "internalName": "DELTASTREAM",
-    "name": "Delta Stream",
-    "description": "Alters weather to remove Flying-type's weaknesses."
+    "name": "Ráfaga Delta",
+    "description": "Altera el clima para eliminar las debilidades del tipo Volador."
   },
   {
     "internalName": "STAMINA",
-    "name": "Stamina",
-    "description": "Boosts Defense when hit by an attack."
+    "name": "Firmeza",
+    "description": "Aumenta la defensa cuando es golpeado por un ataque."
   },
   {
     "internalName": "WIMPOUT",
-    "name": "Wimp Out",
-    "description": "Cowardly switches out if its HP becomes half or less."
+    "name": "Huida",
+    "description": "Cobarde cambia si su HP se reduce a la mitad o menos."
   },
   {
     "internalName": "EMERGENCYEXIT",
-    "name": "Emergency Exit",
-    "description": "Switches out if its HP becomes half or less."
+    "name": "Retirada",
+    "description": "Se apaga si su HP se reduce a la mitad o menos."
   },
   {
     "internalName": "WATERCOMPACTION",
-    "name": "Water Compaction",
-    "description": "Sharply ups Defense when hit by a Water-type move."
+    "name": "Hidrorrefuerzo",
+    "description": "Aumenta drásticamente la defensa cuando te golpea un movimiento de tipo Agua."
   },
   {
     "internalName": "MERCILESS",
-    "name": "Merciless",
-    "description": "Its attacks are critical hits when it is poisoned."
+    "name": "Ensañamiento",
+    "description": "Sus ataques son críticos cuando está envenenado."
   },
   {
     "internalName": "SHIELDSDOWN",
-    "name": "Shields Down",
-    "description": "Its shell breaks if its HP becomes half or less."
+    "name": "Escudo Limitado",
+    "description": "Su caparazón se rompe si su HP se reduce a la mitad o menos."
   },
   {
     "internalName": "STAKEOUT",
-    "name": "Stakeout",
-    "description": "Deals doubles damage to a target's replacement."
+    "name": "Vigilante",
+    "description": "Inflige el doble de daño al reemplazo de un objetivo."
   },
   {
     "internalName": "WATERBUBBLE",
-    "name": "Water Bubble",
-    "description": "Weakens incoming Fire-type moves and prevents burns."
+    "name": "Pompa",
+    "description": "Debilita los movimientos de tipo Fuego entrantes y previene quemaduras."
   },
   {
     "internalName": "STEELWORKER",
-    "name": "Steelworker",
-    "description": "Powers up Steel-type moves."
+    "name": "Acero Templado",
+    "description": "Potencia los movimientos tipo acero."
   },
   {
     "internalName": "BERSERK",
-    "name": "Berserk",
-    "description": "Ups Sp. Atk if a hit makes its HP half or less."
+    "name": "Cólera",
+    "description": "Ups sp. Atk si un golpe reduce su HP a la mitad o menos."
   },
   {
     "internalName": "SLUSHRUSH",
-    "name": "Slush Rush",
-    "description": "Boosts the Pokémon's Speed stat in a hailstorm."
+    "name": "Quitanieves",
+    "description": "Aumenta la estadística de Velocidad del Pokémon durante una tormenta de granizo."
   },
   {
     "internalName": "LONGREACH",
-    "name": "Long Reach",
-    "description": "Uses moves without making contact with the target."
+    "name": "Remoto",
+    "description": "Utiliza movimientos sin hacer contacto con el objetivo."
   },
   {
     "internalName": "LIQUIDVOICE",
-    "name": "Liquid Voice",
-    "description": "Its sound-based moves become Water-type."
+    "name": "Voz Fluida",
+    "description": "Sus movimientos basados ​​en sonido se vuelven de tipo Agua."
   },
   {
     "internalName": "TRIAGE",
-    "name": "Triage",
-    "description": "Gives priority to a healing move."
+    "name": "Primer Auxilio",
+    "description": "Da prioridad a un movimiento curativo."
   },
   {
     "internalName": "GALVANIZE",
-    "name": "Galvanize",
-    "description": "Normal-type moves become Electric-type and powered."
+    "name": "Piel Eléctrica",
+    "description": "Los movimientos de tipo normal se vuelven de tipo eléctrico y motorizados."
   },
   {
     "internalName": "SURGESURFER",
-    "name": "Surge Surfer",
-    "description": "Doubles Speed on Electric Terrain."
+    "name": "Cola Surf",
+    "description": "Duplica la velocidad en terreno eléctrico."
   },
   {
     "internalName": "SCHOOLING",
-    "name": "Schooling",
-    "description": "Forms a powerful school while it has a lot of HP."
+    "name": "Banco",
+    "description": "Forma una escuela poderosa mientras tiene mucho HP."
   },
   {
     "internalName": "DISGUISE",
-    "name": "Disguise",
-    "description": "Its shroud protects it from an attack just once."
+    "name": "Disfraz",
+    "description": "Su mortaja lo protege de un ataque sólo una vez."
   },
   {
     "internalName": "BATTLEBOND",
-    "name": "Battle Bond",
-    "description": "Defeating a foe lets it become Ash-Greninja."
+    "name": "Fuerte Afecto",
+    "description": "Derrotar a un enemigo le permite convertirse en Ash-Greninja."
   },
   {
     "internalName": "POWERCONSTRUCT",
-    "name": "Power Construct",
-    "description": "Changes with other Cells if HP becomes half or less."
+    "name": "Agrupamiento",
+    "description": "Cambia con otras células si HP se reduce a la mitad o menos."
   },
   {
     "internalName": "CORROSION",
-    "name": "Corrosion",
-    "description": "It can poison Steel- and Poison-type targets."
+    "name": "Corrosión",
+    "description": "Puede envenenar objetivos de tipo Acero y Veneno."
   },
   {
     "internalName": "COMATOSE",
-    "name": "Comatose",
-    "description": "It's always drowsing, and attacks without waking."
+    "name": "Letargo Perenne",
+    "description": "Siempre está adormecido y ataca sin despertar."
   },
   {
     "internalName": "QUEENLYMAJESTY",
-    "name": "Queenly Majesty",
-    "description": "Makes foes unable to use priority attacks."
+    "name": "Regia Presencia",
+    "description": "Hace que los enemigos no puedan usar ataques prioritarios."
   },
   {
     "internalName": "INNARDSOUT",
-    "name": "Innards Out",
-    "description": "Damages an attacker that lands the finishing hit."
+    "name": "Revés",
+    "description": "Daña al atacante que da el golpe final."
   },
   {
     "internalName": "DANCER",
-    "name": "Dancer",
-    "description": "Repeats another Pokémon's dance move immediately."
+    "name": "Pareja de Baile",
+    "description": "Repite el movimiento de baile de otro Pokémon inmediatamente."
   },
   {
     "internalName": "BATTERY",
-    "name": "Battery",
-    "description": "Powers up ally Pokémon's special moves."
+    "name": "Batería",
+    "description": "Potencia los movimientos especiales de los Pokémon aliados."
   },
   {
     "internalName": "FLUFFY",
-    "name": "Fluffy",
-    "description": "Resists contact damage but weaker to Fire-type."
+    "name": "Peluche",
+    "description": "Resiste el daño por contacto pero es más débil al tipo Fuego."
   },
   {
     "internalName": "DAZZLING",
-    "name": "Dazzling",
-    "description": "Makes foes unable to use priority attacks."
+    "name": "Cuerpo Vívido",
+    "description": "Hace que los enemigos no puedan usar ataques prioritarios."
   },
   {
     "internalName": "SOULHEART",
-    "name": "Soul-Heart",
-    "description": "Boosts Sp. Atk each time a Pokémon faints."
+    "name": "Coránima",
+    "description": "Aumenta Sp. Atk cada vez que un Pokémon se desmaya."
   },
   {
     "internalName": "TANGLINGHAIR",
-    "name": "Tangling Hair",
-    "description": "Contact with it lowers the attacker's Speed."
+    "name": "Rizos Rebeldes",
+    "description": "El contacto con él reduce la velocidad del atacante."
   },
   {
     "internalName": "RECEIVER",
-    "name": "Receiver",
-    "description": "Copies the Ability of a defeated ally."
+    "name": "Receptor",
+    "description": "Copia la habilidad de un aliado derrotado."
   },
   {
     "internalName": "POWEROFALCHEMY",
-    "name": "Power of Alchemy",
-    "description": "Copies the Ability of a defeated ally."
+    "name": "Reacción Química",
+    "description": "Copia la habilidad de un aliado derrotado."
   },
   {
     "internalName": "BEASTBOOST",
-    "name": "Beast Boost",
-    "description": "Boosts its best stat each time it deals a KO."
+    "name": "Ultraimpulso",
+    "description": "Aumenta su mejor estadística cada vez que inflige un KO."
   },
   {
     "internalName": "RKSSYSTEM",
-    "name": "RKS System",
-    "description": "Its type matches the memory disc it holds."
+    "name": "Sistema Alfa",
+    "description": "Su tipo coincide con el disco de memoria que contiene."
   },
   {
     "internalName": "ELECTRICSURGE",
-    "name": "Electric Surge",
-    "description": "Turns the ground into Electric Terrain."
+    "name": "Electrogénesis",
+    "description": "Convierte el suelo en Terreno Eléctrico."
   },
   {
     "internalName": "PSYCHICSURGE",
-    "name": "Psychic Surge",
-    "description": "Turns the ground into Psychic Terrain."
+    "name": "Psicogénesis",
+    "description": "Convierte el suelo en Terreno Psíquico."
   },
   {
     "internalName": "MISTYSURGE",
-    "name": "Misty Surge",
-    "description": "Turns the ground into Misty Terrain."
+    "name": "Nebulogénesis",
+    "description": "Convierte el suelo en Misty Terrain."
   },
   {
     "internalName": "GRASSYSURGE",
-    "name": "Grassy Surge",
-    "description": "Turns the ground into Grassy Terrain."
+    "name": "Herbogénesis",
+    "description": "Convierte el suelo en un terreno cubierto de hierba."
   },
   {
     "internalName": "FULLMETALBODY",
-    "name": "Full Metal Body",
-    "description": "Prevents other Pokémon from lowering its stats."
+    "name": "Guardia Metálica",
+    "description": "Evita que otros Pokémon bajen sus estadísticas."
   },
   {
     "internalName": "SHADOWSHIELD",
-    "name": "Shadow Shield",
-    "description": "Resists damage while its HP is full."
+    "name": "Guardia Espectro",
+    "description": "Resiste daños mientras su HP está lleno."
   },
   {
     "internalName": "PRISMARMOR",
-    "name": "Prism Armor",
-    "description": "Reduces damage from super-effective attacks."
+    "name": "Armadura Prisma",
+    "description": "Reduce el daño de ataques súper efectivos."
   },
   {
     "internalName": "NEUROFORCE",
-    "name": "Neuroforce",
-    "description": "Powers up moves that are super-effective."
+    "name": "Fuerza Cerebral",
+    "description": "Potencia movimientos que son súper efectivos."
   },
   {
     "internalName": "INTREPIDSWORD",
-    "name": "Intrepid Sword",
-    "description": "Boosts Attack when entering a battle."
+    "name": "Espada Indómita",
+    "description": "Aumenta el ataque al entrar en una batalla."
   },
   {
     "internalName": "DAUNTLESSSHIELD",
-    "name": "Dauntless Shield",
-    "description": "Boosts Defense when entering a battle."
+    "name": "Escudo Recio",
+    "description": "Aumenta la defensa al entrar en una batalla."
   },
   {
     "internalName": "LIBERO",
-    "name": "Libero",
-    "description": "It changes type to that of the move it's about to use."
+    "name": "Líbero",
+    "description": "Cambia de tipo al del movimiento que está a punto de utilizar."
   },
   {
     "internalName": "BALLFETCH",
-    "name": "Ball Fetch",
-    "description": "Retrieves the first thrown Poké Ball if it failed."
+    "name": "Recogebolas",
+    "description": "Recupera la primera Poké Ball lanzada si falla."
   },
   {
     "internalName": "COTTONDOWN",
-    "name": "Cotton Down",
-    "description": "Scatters Speed-lowering cotton fluff when hit."
+    "name": "Pelusa",
+    "description": "Dispersa la pelusa de algodón que reduce la velocidad cuando se golpea."
   },
   {
     "internalName": "PROPELLERTAIL",
-    "name": "Propeller Tail",
-    "description": "This Pokémon's moves cannot be redirected."
+    "name": "Hélice Caudal",
+    "description": "Los movimientos de este Pokémon no se pueden redirigir."
   },
   {
     "internalName": "MIRRORARMOR",
-    "name": "Mirror Armor",
-    "description": "Bounces back stat-lowering effects."
+    "name": "Coraza Reflejo",
+    "description": "Recupera los efectos que reducen las estadísticas."
   },
   {
     "internalName": "GULPMISSILE",
-    "name": "Gulp Missile",
-    "description": "Catches prey via Surf or Dive, spits it out when hit."
+    "name": "Tragamisil",
+    "description": "Atrapa presas mediante Surf o Dive, la escupe cuando la golpea."
   },
   {
     "internalName": "STALWART",
-    "name": "Stalwart",
-    "description": "This Pokémon's moves cannot be redirected."
+    "name": "Acérrimo",
+    "description": "Los movimientos de este Pokémon no se pueden redirigir."
   },
   {
     "internalName": "STEAMENGINE",
-    "name": "Steam Engine",
-    "description": "Boosts Speed drastically if hit by a Fire or Water move."
+    "name": "Combustible",
+    "description": "Aumenta drásticamente la velocidad si lo golpea un movimiento de fuego o agua."
   },
   {
     "internalName": "PUNKROCK",
     "name": "Punk Rock",
-    "description": "Powers up own sound moves. Resists other sound moves."
+    "description": "Potencia tus propios movimientos sonoros. Resiste otros movimientos sonoros."
   },
   {
     "internalName": "SANDSPIT",
-    "name": "Sand Spit",
-    "description": "Creates a sandstorm when hit by an attack."
+    "name": "Expulsarena",
+    "description": "Crea una tormenta de arena cuando es golpeado por un ataque."
   },
   {
     "internalName": "ICESCALES",
-    "name": "Ice Scales",
-    "description": "Halves the damage taken from special moves."
+    "name": "Escama de Hielo",
+    "description": "Reduce a la mitad el daño recibido por movimientos especiales."
   },
   {
     "internalName": "RIPEN",
-    "name": "Ripen",
-    "description": "Ripens Berries and doubles their effect."
+    "name": "Maduración",
+    "description": "Madura las bayas y duplica su efecto."
   },
   {
     "internalName": "ICEFACE",
-    "name": "Ice Face",
-    "description": "Blocks a physical hit, but the ice head breaks."
+    "name": "Cara de Hielo",
+    "description": "Bloquea un golpe físico, pero la cabeza de hielo se rompe."
   },
   {
     "internalName": "POWERSPOT",
-    "name": "Power Spot",
-    "description": "Just being next to the Pokémon powers up moves."
+    "name": "Fuente Energía",
+    "description": "El solo hecho de estar al lado de los Pokémon potencia los movimientos."
   },
   {
     "internalName": "MIMICRY",
-    "name": "Mimicry",
-    "description": "Changes type depending on the terrain."
+    "name": "Mimetismo",
+    "description": "Cambia de tipo dependiendo del terreno."
   },
   {
     "internalName": "SCREENCLEANER",
-    "name": "Screen Cleaner",
-    "description": "On entering battle, clears effects of Reflect, etc."
+    "name": "Antibarrera",
+    "description": "Al entrar en batalla, elimina los efectos de Reflect, etc."
   },
   {
     "internalName": "STEELYSPIRIT",
-    "name": "Steely Spirit",
-    "description": "Powers up ally Pokémon's Steel-type moves."
+    "name": "Alma Acerada",
+    "description": "Potencia los movimientos tipo Acero de los Pokémon aliados."
   },
   {
     "internalName": "PERISHBODY",
-    "name": "Perish Body",
-    "description": "Both Pokémon faint 3 turns after taking a contact hit."
+    "name": "Cuerpo Mortal",
+    "description": "Ambos Pokémon se debilitan 3 turnos después de recibir un golpe de contacto."
   },
   {
     "internalName": "WANDERINGSPIRIT",
-    "name": "Wandering Spirit",
-    "description": "Swaps Abilities with contact-making Pokémon."
+    "name": "Alma Errante",
+    "description": "Intercambia habilidades con Pokémon que hacen contacto."
   },
   {
     "internalName": "GORILLATACTICS",
-    "name": "Gorilla Tactics",
-    "description": "Boosts Attack, but allows only one move to be used."
+    "name": "Monotema",
+    "description": "Aumenta el ataque, pero solo permite utilizar un movimiento."
   },
   {
     "internalName": "NEUTRALIZINGGAS",
-    "name": "Neutralizing Gas",
-    "description": "Nullifies the effects of all other Abilities."
+    "name": "Gas Reactivo",
+    "description": "Anula los efectos de todas las demás habilidades."
   },
   {
     "internalName": "PASTELVEIL",
-    "name": "Pastel Veil",
-    "description": "Protects the Pokémon and its allies from poisoning."
+    "name": "Velo Pastel",
+    "description": "Protege al Pokémon y sus aliados del envenenamiento."
   },
   {
     "internalName": "HUNGERSWITCH",
-    "name": "Hunger Switch",
-    "description": "Changes between Full Belly and Hangry Mode each turn."
+    "name": "Mutapetito",
+    "description": "Cambia entre Full Belly y Hangry Mode en cada turno."
   },
   {
     "internalName": "QUICKDRAW",
-    "name": "Quick Draw",
-    "description": "Enables the Pokémon to move first occasionally."
+    "name": "Mano Rápida",
+    "description": "Permite que el Pokémon se mueva primero ocasionalmente."
   },
   {
     "internalName": "UNSEENFIST",
-    "name": "Unseen Fist",
-    "description": "The Pokémon's contact moves ignore protections."
+    "name": "Puño Invisible",
+    "description": "Los movimientos de contacto del Pokémon ignoran las protecciones."
   },
   {
     "internalName": "CURIOUSMEDICINE",
-    "name": "Curious Medicine",
-    "description": "Removes all allies' stat changes on joining battle."
+    "name": "Medicina Extraña",
+    "description": "Elimina los cambios de estadísticas de todos los aliados al unirse a la batalla."
   },
   {
     "internalName": "TRANSISTOR",
     "name": "Transistor",
-    "description": "Powers up Electric-type moves."
+    "description": "Potencia los movimientos de tipo eléctrico."
   },
   {
     "internalName": "DRAGONSMAW",
-    "name": "Dragon's Maw",
-    "description": "Powers up Dragon-type moves."
+    "name": "Mandíbula dragón",
+    "description": "Potencia los movimientos tipo Dragón."
   },
   {
     "internalName": "CHILLINGNEIGH",
-    "name": "Chilling Neigh",
-    "description": "When knocking out a target, raises Attack."
+    "name": "Relincho Blanco",
+    "description": "Al noquear a un objetivo, aumenta el ataque."
   },
   {
     "internalName": "GRIMNEIGH",
-    "name": "Grim Neigh",
-    "description": "When knocking out a target, raises Sp. Atk."
+    "name": "Relincho Negro",
+    "description": "Al noquear a un objetivo, aumenta Sp. Atk."
   },
   {
     "internalName": "ASONECHILLINGNEIGH",
-    "name": "As One",
-    "description": "Combines Unnerve and Chilling Neigh Abilities."
+    "name": "Unidad Ecuestre",
+    "description": "Combina habilidades de inquietante y escalofriante relincho."
   },
   {
     "internalName": "ASONEGRIMNEIGH",
-    "name": "As One",
-    "description": "Combines Unnerve and Grim Neigh Abilities."
+    "name": "Unidad Ecuestre",
+    "description": "Combina las habilidades Inquietante y Grim Neigh."
   },
   {
     "internalName": "LINGERINGAROMA",
-    "name": "Lingering Aroma",
-    "description": "Contact with this Pokémon spreads this Ability."
+    "name": "Olor Persistente",
+    "description": "El contacto con este Pokémon propaga esta habilidad."
   },
   {
     "internalName": "SEEDSOWER",
-    "name": "Seed Sower",
-    "description": "When the Pokémon is hit, creates Grassy Terrain."
+    "name": "Disemillar",
+    "description": "Cuando el Pokémon es golpeado, crea Grassy Terrain."
   },
   {
     "internalName": "THERMALEXCHANGE",
-    "name": "Thermal Exchange",
-    "description": "Raises Attack when hit by a Fire move. Can't be burned."
+    "name": "Termoconversión",
+    "description": "Aumenta el ataque cuando es golpeado por un movimiento de Fuego. No se puede quemar."
   },
   {
     "internalName": "ANGERSHELL",
-    "name": "Anger Shell",
-    "description": "Lowers defences and ups offences/Speed at half HP."
+    "name": "Coraza Ira",
+    "description": "Reduce las defensas y aumenta las ofensivas/Velocidad a la mitad de HP."
   },
   {
     "internalName": "PURIFYINGSALT",
-    "name": "Purifying Salt",
-    "description": "Immune to status problems and resists Ghost damage."
+    "name": "Sal Purificadora",
+    "description": "Inmune a problemas de estado y resiste el daño de los Fantasmas."
   },
   {
     "internalName": "WELLBAKEDBODY",
-    "name": "Well-Baked Body",
-    "description": "Sharply boosts Defense when hit by Fire moves."
+    "name": "Cuerpo Horneado",
+    "description": "Aumenta considerablemente la defensa cuando es golpeado por movimientos de fuego."
   },
   {
     "internalName": "WINDRIDER",
-    "name": "Wind Rider",
-    "description": "Boosts Attack if hit or affected by a wind move."
+    "name": "Surcavientos",
+    "description": "Aumenta el ataque si es golpeado o afectado por un movimiento de viento."
   },
   {
     "internalName": "GUARDDOG",
-    "name": "Guard Dog",
-    "description": "Can't be forced to switch out. Intimidate ups Attack."
+    "name": "Perro Guardián",
+    "description": "No se le puede obligar a cambiar. Intimidar ataques."
   },
   {
     "internalName": "ROCKYPAYLOAD",
-    "name": "Rocky Payload",
-    "description": "Powers up Rock-type moves."
+    "name": "Transportarrocas",
+    "description": "Potencia los movimientos tipo Roca."
   },
   {
     "internalName": "WINDPOWER",
-    "name": "Wind Power",
-    "description": "Powers up an Electric move if hit by a wind move."
+    "name": "Energía Eólica",
+    "description": "Activa un movimiento eléctrico si lo golpea un movimiento de viento."
   },
   {
     "internalName": "ZEROTOHERO",
-    "name": "Zero to Hero",
-    "description": "Transforms into its Hero Form when it switches out."
+    "name": "Cambio Heroico",
+    "description": "Se transforma en su forma de héroe cuando se apaga."
   },
   {
     "internalName": "COMMANDER",
-    "name": "Commander",
-    "description": "On entering battle, enters an ally Dodonzo's mouth."
+    "name": "Comandar",
+    "description": "Al entrar en batalla, entra en la boca de un aliado, Dodonzo."
   },
   {
     "internalName": "ELECTROMORPHOSIS",
-    "name": "Electromorphosis",
-    "description": "Powers up the next Electric move when it is hit."
+    "name": "Dinamo",
+    "description": "Activa el siguiente movimiento eléctrico cuando es golpeado."
   },
   {
     "internalName": "PROTOSYNTHESIS",
-    "name": "Protosynthesis",
-    "description": "Boosts the highest stat in sun or with Booster Energy."
+    "name": "Paleosíntesis",
+    "description": "Aumenta la estadística más alta bajo el sol o con Booster Energy."
   },
   {
     "internalName": "QUARKDRIVE",
-    "name": "Quark Drive",
-    "description": "Boosts the highest stat on Electric Terrain."
+    "name": "Carga Cuark",
+    "description": "Aumenta la estadística más alta en Electric Terrain."
   },
   {
     "internalName": "GOODASGOLD",
-    "name": "Good as Gold",
-    "description": "Full immunity to other Pokémon's status moves."
+    "name": "Cuerpo Áureo",
+    "description": "Inmunidad total a los movimientos de estado de otros Pokémon."
   },
   {
     "internalName": "VESSELOFRUIN",
-    "name": "Vessel of Ruin",
-    "description": "Lowers the Sp. Atk of all Pokémon except itself."
+    "name": "Caldero Debacle",
+    "description": "Reduce el Sp. Atk de todos los Pokémon excepto de sí mismo."
   },
   {
     "internalName": "SWORDOFRUIN",
-    "name": "Sword of Ruin",
-    "description": "Lowers the Defense of all Pokémon except itself."
+    "name": "Espada Debacle",
+    "description": "Reduce la defensa de todos los Pokémon excepto de sí mismo."
   },
   {
     "internalName": "TABLETSOFRUIN",
-    "name": "Tablets of Ruin",
-    "description": "Lowers the Attack of all Pokémon except itself."
+    "name": "Tablilla Debacle",
+    "description": "Reduce el ataque de todos los Pokémon excepto de sí mismo."
   },
   {
     "internalName": "BEADSOFRUIN",
-    "name": "Beads of Ruin",
-    "description": "Lowers the Sp. Def of all Pokémon except itself."
+    "name": "Abalorio Debacle",
+    "description": "Reduce el Sp. Def de todos los Pokémon excepto de sí mismo."
   },
   {
     "internalName": "ORICHALCUMPULSE",
-    "name": "Orichalcum Pulse",
-    "description": "Causes harsh sunlight and boosts Attack in sunlight."
+    "name": "Latido Oricalco",
+    "description": "Provoca luz solar intensa y aumenta el ataque a la luz solar."
   },
   {
     "internalName": "HADRONENGINE",
-    "name": "Hadron Engine",
-    "description": "Creates Electric Terrain and ups Sp. Atk stat on it."
+    "name": "Motor Hadrónico",
+    "description": "Crea terreno eléctrico y aumenta Sp. Estadística de ataque."
   },
   {
     "internalName": "OPPORTUNIST",
-    "name": "Opportunist",
-    "description": "Copies boosts when an opponent's stat raises."
+    "name": "Oportunista",
+    "description": "Copia los aumentos cuando aumentan las estadísticas de un oponente."
   },
   {
     "internalName": "CUDCHEW",
-    "name": "Cud Chew",
-    "description": "After consuming a Berry, eats it again next turn."
+    "name": "Rumia",
+    "description": "Después de consumir una baya, la vuelve a comer en el siguiente turno."
   },
   {
     "internalName": "SHARPNESS",
-    "name": "Sharpness",
-    "description": "Powers up slicing moves."
+    "name": "Cortante",
+    "description": "Potencia los movimientos de corte."
   },
   {
     "internalName": "SUPREMEOVERLORD",
-    "name": "Supreme Overlord",
-    "description": "Raises Attack and Sp. Atk for each defeated ally."
+    "name": "General Supremo",
+    "description": "Aumenta el ataque y el sp. Atk por cada aliado derrotado."
   },
   {
     "internalName": "COSTAR",
-    "name": "Costar",
-    "description": "On entering battle, copies an ally's stat changes."
+    "name": "Unísono",
+    "description": "Al entrar en batalla, copia los cambios de estadísticas de un aliado."
   },
   {
     "internalName": "TOXICDEBRIS",
-    "name": "Toxic Debris",
-    "description": "Scatters poison spikes when hit by physical moves."
+    "name": "Capa Tóxica",
+    "description": "Dispersa picos de veneno cuando es golpeado por movimientos físicos."
   },
   {
     "internalName": "ARMORTAIL",
-    "name": "Armor Tail",
-    "description": "Prevents opponents from using priority moves."
+    "name": "Cola Armadura",
+    "description": "Evita que los oponentes utilicen movimientos prioritarios."
   },
   {
     "internalName": "EARTHEATER",
-    "name": "Earth Eater",
-    "description": "Restores HP when hit by a Ground-type move."
+    "name": "Geofagia",
+    "description": "Restaura HP cuando es golpeado por un movimiento de tipo Tierra."
   },
   {
     "internalName": "MYCELIUMMIGHT",
-    "name": "Mycelium Might",
-    "description": "Status moves ignore foe Abilities by acting slowly."
+    "name": "Poder Fúngico",
+    "description": "Los movimientos de estado ignoran las habilidades del enemigo al actuar lentamente."
   },
   {
     "internalName": "HOSPITALITY",
-    "name": "Hospitality",
-    "description": "On entering battle, the ally restores a little HP."
+    "name": "Hospitalidad",
+    "description": "Al entrar en batalla, el aliado recupera un poco de HP."
   },
   {
     "internalName": "MINDSEYE",
-    "name": "Mind's Eye",
-    "description": "Ignores Ghost immunities. Cannot lose accuracy."
+    "name": "Ojo Mental",
+    "description": "Ignora las inmunidades fantasma. No se puede perder la precisión."
   },
   {
     "internalName": "EMBODYASPECTSPEED",
-    "name": "Embody Aspect",
-    "description": "The Pokémon's shining mask boosts its Speed stat."
+    "name": "EMBODYASPECTDEFENSE <====",
+    "description": "La máscara brillante del Pokémon aumenta su estadística de Velocidad."
   },
   {
     "internalName": "EMBODYASPECTATTACK",
-    "name": "Embody Aspect",
-    "description": "The Pokémon's shining mask boosts its Attack stat."
+    "name": "EMBODYASPECTDEFENSE <====",
+    "description": "La máscara brillante del Pokémon aumenta su estadística de Ataque."
   },
   {
     "internalName": "EMBODYASPECTSPDEF",
-    "name": "Embody Aspect",
-    "description": "The Pokémon's shining mask boosts its Sp. Def stat."
+    "name": "EMBODYASPECTDEFENSE <====",
+    "description": "La brillante máscara del Pokémon aumenta su Sp. Estadística de definición."
   },
   {
     "internalName": "EMBODYASPECTDEFENSE",
-    "name": "Embody Aspect",
-    "description": "The Pokémon's shining mask boosts its Defense stat."
+    "name": "EMBODYASPECTDEFENSE <====",
+    "description": "La brillante máscara del Pokémon aumenta su estadística de Defensa."
   },
   {
     "internalName": "TOXICCHAIN",
-    "name": "Toxic Chain",
-    "description": "The Pokémon may badly poison any target it hits."
+    "name": "Cadena Tóxica",
+    "description": "El Pokémon puede envenenar gravemente a cualquier objetivo al que golpee."
   },
   {
     "internalName": "SUPERSWEETSYRUP",
-    "name": "Supersweet Syrup",
-    "description": "On entering battle, lowers the foes' evasiveness."
+    "name": "Néctar dulce",
+    "description": "Al entrar en batalla, reduce la evasión de los enemigos."
   },
   {
     "internalName": "TERASHIFT",
-    "name": "Tera Shift",
-    "description": "Transforms into its Terastal Form in battle."
+    "name": "Teracambio",
+    "description": "Se transforma en su forma Terastal en batalla."
   },
   {
     "internalName": "TERASHELL",
-    "name": "Tera Shell",
-    "description": "At full HP, damage taken is not very effective."
+    "name": "Teracaparazón",
+    "description": "Con HP completo, el daño recibido no es muy efectivo."
   },
   {
     "internalName": "TERAFORMZERO",
-    "name": "Teraform Zero",
-    "description": "Eliminates all effects of weather and terrain."
+    "name": "Teracaparazón",
+    "description": "Elimina todos los efectos del clima y el terreno."
   },
   {
     "internalName": "POISONPUPPETEER",
-    "name": "Poison Puppeteer",
-    "description": "Poisoning another Pokémon also causes confusion."
+    "name": "Títere Tóxico",
+    "description": "Envenenar a otro Pokémon también causa confusión."
   },
   {
     "internalName": "JUNGLEPROTECTOR",
-    "name": "Jungle Protector",
-    "description": "If the Pokémon is unable to escape or be changed, it starts generating proto-shield each turn."
+    "name": "Protector de la Selva",
+    "description": "Si el Pokémon no puede escapar o ser transformado, comienza a generar un protoescudo en cada turno."
   },
   {
     "internalName": "TOTHELIMIT",
-    "name": "To The Limit",
-    "description": "Each time the maximum life is limited, the Pokemon increases a random stat."
+    "name": "Hasta El Límite",
+    "description": "Cada vez que se limita la vida máxima, el Pokémon aumenta una estadística aleatoria."
   },
   {
     "internalName": "NEUROTOXIN",
-    "name": "Neurotoxin",
-    "description": "Contact applies a random weakness to the target, also reduces evasion to the target."
+    "name": "Neurotoxina",
+    "description": "El contacto aplica una debilidad aleatoria al objetivo y también reduce la evasión del objetivo."
   },
   {
     "internalName": "PREDATORTRACKING",
-    "name": "Predator Tracking",
-    "description": "Moves have more accuracy and damage the less health the target has. The user has more speed if there is an enemy with low health."
+    "name": "Seguimiento Depredatorio",
+    "description": "Los movimientos tienen más precisión y daño cuanto menos salud tenga el objetivo. El usuario tiene más velocidad si hay un enemigo con poca salud."
   },
   {
     "internalName": "ETERNALHUNGER",
-    "name": "Eternal hunger",
-    "description": "Increases its attack and speed when its health drops below half."
+    "name": "Hambre Eterna",
+    "description": "Aumenta su ataque y velocidad cuando su salud cae por debajo de la mitad."
   },
   {
     "internalName": "VAMP",
     "name": "Vamp",
-    "description": "The user receives less damage from targets that are in love with the user."
+    "description": "El usuario recibe menos daño de los objetivos que están enamorados del usuario."
   }
 ]

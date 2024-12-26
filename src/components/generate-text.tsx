@@ -40,7 +40,7 @@ export const GenerateTextButton = ({
     }
     pokemons.forEach((pokemon) => {
       text += `Pokemon = ${pokemon.id},${trainerLevel}\n`;
-      text += `   Pokeball = ${pokemon.pokeball?.internalName || "POKEBALL"}\n`;
+      text += `   Ball = ${pokemon.pokeball?.internalName || "POKEBALL"}\n`;
       text += `   Evs = ${pokemon.evs.join(",")}\n`;
       text += `   Ivs = ${pokemon.ivs.join(",")}\n`;
       text += `   Happiness = ${pokemon.happiness}\n`;

@@ -9,6 +9,7 @@ export interface movesDataType {
   new: boolean;
   category: string;
   description: string;
+  PasiveDescription?: string;
 }
 
 export interface pokemonDataType {

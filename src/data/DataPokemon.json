@@ -105765,14 +105765,14 @@
     ],
     "tutor_moves": [],
     "egg_moves": [],
-    "abilities": [],
+    "abilities": ["INTIMIDATE", "INNERFOCUS", "JUSTIFIED"],
     "baseStats": {
-      "HP": 1,
-      "ATTACK": 1,
-      "DEFENSE": 1,
-      "SPECIAL_ATTACK": 1,
-      "SPECIAL_DEFENSE": 1,
-      "SPEED": 1
+      "HP": 60,
+      "ATTACK": 60,
+      "DEFENSE": 55,
+      "SPECIAL_ATTACK": 60,
+      "SPECIAL_DEFENSE": 55,
+      "SPEED": 60
     }
   },
   {
@@ -105811,14 +105811,14 @@
     ],
     "tutor_moves": [],
     "egg_moves": [],
-    "abilities": [],
+    "abilities": ["INTIMIDATE", "INNERFOCUS", "JUSTIFIED"],
     "baseStats": {
-      "HP": 1,
-      "ATTACK": 1,
-      "DEFENSE": 1,
-      "SPECIAL_ATTACK": 1,
-      "SPECIAL_DEFENSE": 1,
-      "SPEED": 1
+      "HP": 90,
+      "ATTACK": 110,
+      "DEFENSE": 70,
+      "SPECIAL_ATTACK": 100,
+      "SPECIAL_DEFENSE": 75,
+      "SPEED": 110
     }
   },
   {

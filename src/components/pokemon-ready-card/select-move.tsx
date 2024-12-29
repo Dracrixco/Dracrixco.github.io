@@ -475,6 +475,9 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
                   <div className="flex flex-col">
                     <h4 className="text-lg font-semibold">Description:</h4>
                     <p>{move.description}</p>
+                    {move.PasiveDescription && (
+                      <p>Passive: {move.PasiveDescription}</p>
+                    )}
                   </div>
                 </div>
               );

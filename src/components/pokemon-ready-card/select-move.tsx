@@ -282,7 +282,7 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Buscar Movimiento"
-            className="mt-0 sm:mt-2 md:mt-4"
+            // className="mt-0 sm:mt-2 md:mt-4"
           />
 
           <Accordion type="single" collapsible className="w-full">
@@ -436,7 +436,7 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
           <div
             className={cn([
               "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5",
-              "sm:max-h-40 md:max-h-80 overflow-y-auto",
+              "sm:max-h-40 md:max-h-[500px] overflow-y-auto",
               "gap-1 sm:gap-2 md:gap-4 mt-0 sm:mt-2 md:mt-4",
             ])}
           >

@@ -1,3 +1,21 @@
-
-
-[{internalName: "NORMAL", name: "Normal", },{internalName: "FIGHTING", name: "Fighting", },{internalName: "FLYING", name: "Flying", },{internalName: "POISON", name: "Poison", },{internalName: "GROUND", name: "Ground", },{internalName: "ROCK", name: "Rock", },{internalName: "BUG", name: "Bug", },{internalName: "GHOST", name: "Ghost", },{internalName: "STEEL", name: "Steel", },{internalName: "QMARKS", name: "???", },{internalName: "FIRE", name: "Fire", },{internalName: "WATER", name: "Water", },{internalName: "GRASS", name: "Grass", },{internalName: "ELECTRIC", name: "Electric", },{internalName: "PSYCHIC", name: "Psychic", },{internalName: "ICE", name: "Ice", },{internalName: "DRAGON", name: "Dragon", },{internalName: "DARK", name: "Dark", },{internalName: "FAIRY", name: "Fairy", },]
+[
+  { "internalName": "NORMAL", "name": "Normal" },
+  { "internalName": "FIGHTING", "name": "Fighting" },
+  { "internalName": "FLYING", "name": "Flying" },
+  { "internalName": "POISON", "name": "Poison" },
+  { "internalName": "GROUND", "name": "Ground" },
+  { "internalName": "ROCK", "name": "Rock" },
+  { "internalName": "BUG", "name": "Bug" },
+  { "internalName": "GHOST", "name": "Ghost" },
+  { "internalName": "STEEL", "name": "Steel" },
+  { "internalName": "QMARKS", "name": "???" },
+  { "internalName": "FIRE", "name": "Fire" },
+  { "internalName": "WATER", "name": "Water" },
+  { "internalName": "GRASS", "name": "Grass" },
+  { "internalName": "ELECTRIC", "name": "Electric" },
+  { "internalName": "PSYCHIC", "name": "Psychic" },
+  { "internalName": "ICE", "name": "Ice" },
+  { "internalName": "DRAGON", "name": "Dragon" },
+  { "internalName": "DARK", "name": "Dark" },
+  { "internalName": "FAIRY", "name": "Fairy" }
+]

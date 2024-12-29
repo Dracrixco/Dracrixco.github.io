@@ -21,6 +21,14 @@ export interface pokemonDataType {
   tutor_moves: string[];
   egg_moves: string[];
   abilities: string[];
+  baseStats: {
+    HP: number;
+    ATTACK: number;
+    DEFENSE: number;
+    SPECIAL_ATTACK: number;
+    SPECIAL_DEFENSE: number;
+    SPEED: number;
+  };
 }
 
 export interface trainersDataType {

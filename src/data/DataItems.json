@@ -4275,13 +4275,13 @@
     "internalName": "THICK_GLOVES",
     "name": "Thick Gloves",
     "description": "A pair of thick gloves that provide excellent protection.",
-    "pocket": 7
+    "pocket": 8
   },
   {
     "internalName": "MEDICINE_RECIPE",
     "name": "Medicine Recipe",
     "description": "A recipe for creating various medicinal items.",
-    "pocket": 7
+    "pocket": 8
   },
   {
     "internalName": "SHINYPOTION",

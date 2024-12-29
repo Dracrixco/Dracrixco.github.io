@@ -8418,5 +8418,25 @@
     "accuracy": 100,
     "new": true,
     "category": "Status"
+  },
+  {
+    "internalName": "SHERIFFSHOT",
+    "name": "Sheriff Shot",
+    "description": "The user ignores any effects that redirect moves, allowing this move to hit the chosen target.",
+    "type": "GROUND",
+    "power": 90,
+    "accuracy": 90,
+    "new": true,
+    "category": "Special"
+  },
+  {
+    "internalName": "INTHESPOTLIGHT",
+    "name": "In The Spotlight",
+    "description": "Places a target in <b>crosshairs</b>, increasing the damage and accuracy towards that target. The user cannot change and is forced to use damage moves.",
+    "type": "DARK",
+    "power": 0,
+    "accuracy": 100,
+    "new": true,
+    "category": "Status"
   }
 ]

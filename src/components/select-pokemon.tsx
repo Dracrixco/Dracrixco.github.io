@@ -41,11 +41,14 @@ const allPokemonTypes = [
   "Fairy",
 ];
 
+const possibleFlags = ["Legendary", "Mythical", "Corrupted"];
+
 const SelectPokemon = ({ children }: SelectPokemonProps) => {
   const { addPokemon } = useContext(PokemonContext)!;
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedType, setSelectedType] = useState<string>("");
+  const [selectedFlag, setSelectedFlag] = useState<string>("");
   const [filteredPokemons, setFilteredPokemons] = useState<pokemonDataType[]>(
     []
   );
@@ -60,32 +63,44 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
     setFilteredPokemons(pokemonData);
   }, []);
 
-  const handleNameFilter = (nameFilter: string, typeFilter: string) => {
-    if (!nameFilter && !typeFilter) {
+  const handleFilters = (
+    nameFilter: string,
+    typeFilter: string,
+    flagFilter: string
+  ) => {
+    if (!nameFilter && !typeFilter && !flagFilter) {
       setFilteredPokemons(pokemonData);
       return;
     }
     const lowerName = nameFilter.toLowerCase();
-    const data = pokemonData.filter((p) => {
+    const filtered = pokemonData.filter((p) => {
       const nameMatch = !lowerName || p.name.toLowerCase().includes(lowerName);
       const typeMatch =
         !typeFilter ||
         p.types.some((t) => t.toLowerCase() === typeFilter.toLowerCase());
-      return nameMatch && typeMatch;
+      const flagMatch =
+        !flagFilter || (p.flags && p.flags.includes(flagFilter));
+      return nameMatch && typeMatch && flagMatch;
     });
-    setFilteredPokemons(data);
+    setFilteredPokemons(filtered);
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearchTerm(value);
-    handleNameFilter(value, selectedType);
+    handleFilters(value, selectedType, selectedFlag);
   };
 
   const handleTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const value = e.target.value;
     setSelectedType(value);
-    handleNameFilter(searchTerm, value);
+    handleFilters(searchTerm, value, selectedFlag);
+  };
+
+  const handleFlagChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const value = e.target.value;
+    setSelectedFlag(value);
+    handleFilters(searchTerm, selectedType, value);
   };
 
   const handleSelectPokemon = (id: string) => {
@@ -136,9 +151,9 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
       <DialogContent className="md:min-w-max">
         <DialogTitle>Selecciona un Pokémon</DialogTitle>
         <DialogDescription>
-          Usa el siguiente campo para buscar por nombre o filtrar por tipo.
+          Usa el siguiente campo para buscar por nombre, tipo o flag.
         </DialogDescription>
-        <div className="flex gap-2 mt-2">
+        <div className="flex flex-col md:flex-row gap-2 mt-2">
           <Input
             name="pokemon-search"
             value={selectedPokemon ? selectedPokemon.name : searchTerm}
@@ -149,6 +164,7 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
             onChange={handleInputChange}
             placeholder="Buscar Pokémon"
           />
+
           <select
             value={selectedType}
             onChange={handleTypeChange}
@@ -158,6 +174,19 @@ const SelectPokemon = ({ children }: SelectPokemonProps) => {
             {allPokemonTypes.map((type) => (
               <option key={type} value={type}>
                 {type}
+              </option>
+            ))}
+          </select>
+
+          <select
+            value={selectedFlag}
+            onChange={handleFlagChange}
+            className="border border-gray-300 rounded p-1"
+          >
+            <option value="">Todas las flags</option>
+            {possibleFlags.map((flag) => (
+              <option key={flag} value={flag}>
+                {flag}
               </option>
             ))}
           </select>

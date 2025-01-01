@@ -41,6 +41,7 @@ export interface Pokemon {
   evs: number[];
   ivs: number[];
   happiness: number;
+  isCorrupted?: boolean;
 }
 
 interface PokemonContextBase {

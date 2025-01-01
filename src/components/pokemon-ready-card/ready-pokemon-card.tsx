@@ -9,6 +9,7 @@ import { getTypeColor, PokemonType } from "@/utils/get-type-color";
 import { cn } from "@/lib/utils";
 import { SelectPokeball } from "./select-pokeball";
 import { SelectStats } from "./select-stats";
+import SetCorruptButton from "./set-corrupt-button";
 
 interface ReadyPokemonCardProps {
   pokemon: Pokemon;
@@ -37,6 +38,7 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
           </p>
         ))}
       </div>
+
       <img
         src={`./images/Front/${pokemon.id}.png`}
         alt={pokemon.name}
@@ -59,6 +61,10 @@ const ReadyPokemonCard = ({ pokemon }: ReadyPokemonCardProps) => {
           />
         </div>
         <SelectStats pokemon={pokemon} />
+        <SetCorruptButton
+          pokemon={pokemon}
+          PokemonSpeciesData={PokemonSpeciesData}
+        />
       </div>
       <Button
         variant="destructive"

@@ -20,6 +20,7 @@ export interface pokemonDataType {
   types: string[];
   moves: string[];
   tutor_moves: string[];
+  flags: string[];
   egg_moves: string[];
   abilities: string[];
   baseStats: {

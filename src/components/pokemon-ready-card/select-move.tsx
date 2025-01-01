@@ -29,6 +29,7 @@ interface SelectMovesProps {
 
 interface ReadyMove extends movesDataType {
   origin: "Movimiento" | "Movimientos de Tutor" | "Movimientos de Huevo";
+  flags: [];
 }
 
 const allOrigins = [
@@ -81,6 +82,7 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
           return {
             ...move,
             origin,
+            flags: [],
           };
         })
         .filter((move): move is ReadyMove => move !== null);
@@ -118,6 +120,7 @@ export const SelectMoves: React.FC<SelectMovesProps> = ({
       (move) => ({
         ...move,
         origin: "Movimiento",
+        flags: [],
       })
     );
     setSelectedMoves(mappedMoves || []);

@@ -43,6 +43,9 @@ export const GenerateTextButton = ({
       text += `   Ball = ${pokemon.pokeball?.internalName || "POKEBALL"}\n`;
       text += `   Evs = ${pokemon.evs.join(",")}\n`;
       text += `   Ivs = ${pokemon.ivs.join(",")}\n`;
+      if (pokemon.isCorrupted != undefined) {
+        text += `   Corrupted = ${pokemon.isCorrupted}\n`;
+      }
       text += `   Happiness = ${pokemon.happiness}\n`;
       difficultTypes.forEach((difficultType) => {
         if (pokemon.moves[difficultType].length > 0) {

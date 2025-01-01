@@ -186,5 +186,7 @@
   { "internalName": "TWINS2", "name": "Twins" },
   { "internalName": "TWINS3", "name": "Twins" },
   { "internalName": "YOUNGCOUPLE", "name": "Young Couple" },
-  { "internalName": "YOUNGCOUPLE2", "name": "Young Couple" }
+  { "internalName": "YOUNGCOUPLE2", "name": "Young Couple" },
+  { "internalName": "CORRUPT_RECRUIT_M", "name": "Recluta Corrupto" },
+  { "internalName": "CORRUPT_RECRUIT_F", "name": "Recluta Corrupto" }
 ]

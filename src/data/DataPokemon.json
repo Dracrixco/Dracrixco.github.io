@@ -4,6 +4,7 @@
     "name": "Bulbasaur",
     "Color": "Green",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": [
       "TACKLE",
@@ -117,6 +118,7 @@
     "name": "Ivysaur",
     "Color": "Green",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": [
       "TACKLE",
@@ -217,6 +219,7 @@
     "name": "Venusaur",
     "Color": "Green",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "POISON"],
     "moves": [
       "PETALBLIZZARD",
@@ -333,6 +336,7 @@
     "name": "Charmander",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -459,6 +463,7 @@
     "name": "Charmeleon",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -567,6 +572,7 @@
     "name": "Charizard",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE", "FLYING"],
     "moves": [
       "AIRSLASH",
@@ -703,6 +709,7 @@
     "name": "Squirtle",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -816,6 +823,7 @@
     "name": "Wartortle",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -916,6 +924,7 @@
     "name": "Blastoise",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "FLASHCANNON",
@@ -1037,6 +1046,7 @@
     "name": "Caterpie",
     "Color": "Green",
     "generation": "1",
+    "flags": [],
     "types": ["BUG"],
     "moves": ["TACKLE", "STRINGSHOT", "BUGBITE"],
     "tutor_moves": ["BUGBITE", "ELECTROWEB", "STRINGSHOT"],
@@ -1056,6 +1066,7 @@
     "name": "Metapod",
     "Color": "Green",
     "generation": "1",
+    "flags": [],
     "types": ["BUG"],
     "moves": ["HARDEN"],
     "tutor_moves": ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
@@ -1075,6 +1086,7 @@
     "name": "Butterfree",
     "Color": "White",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG", "FLYING"],
     "moves": [
       "GUST",
@@ -1175,6 +1187,7 @@
     "name": "Weedle",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": ["POISONSTING", "STRINGSHOT", "BUGBITE"],
     "tutor_moves": ["BUGBITE", "ELECTROWEB", "STRINGSHOT"],
@@ -1194,6 +1207,7 @@
     "name": "Kakuna",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": ["HARDEN"],
     "tutor_moves": ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
@@ -1213,6 +1227,7 @@
     "name": "Beedrill",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": [
       "FURYATTACK",
@@ -1310,6 +1325,7 @@
     "name": "Pidgey",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "TACKLE",
@@ -1385,6 +1401,7 @@
     "name": "Pidgeotto",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "TACKLE",
@@ -1462,6 +1479,7 @@
     "name": "Pidgeot",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "HURRICANE",
@@ -1544,6 +1562,7 @@
     "name": "Rattata",
     "Color": "Purple",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -1646,6 +1665,7 @@
     "name": "Raticate",
     "Color": "Brown",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL"],
     "moves": [
       "SCARYFACE",
@@ -1747,6 +1767,7 @@
     "name": "Spearow",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -1832,6 +1853,7 @@
     "name": "Fearow",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "DRILLRUN",
@@ -1916,6 +1938,7 @@
     "name": "Ekans",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "WRAP",
@@ -2031,6 +2054,7 @@
     "name": "Arbok",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "CRUNCH",
@@ -2151,6 +2175,7 @@
     "name": "Pikachu",
     "Color": "Yellow",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["ELECTRIC"],
     "moves": [
       "PLAYNICE",
@@ -2273,6 +2298,7 @@
     "name": "Raichu",
     "Color": "Yellow",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["ELECTRIC"],
     "moves": [
       "THUNDERPUNCH",
@@ -2401,6 +2427,7 @@
     "name": "Sandshrew",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "SCRATCH",
@@ -2529,6 +2556,7 @@
     "name": "Sandslash",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "CRUSHCLAW",
@@ -2654,6 +2682,7 @@
     "name": "Nidoran♀",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "GROWL",
@@ -2756,6 +2785,7 @@
     "name": "Nidorina",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "GROWL",
@@ -2847,6 +2877,7 @@
     "name": "Nidoqueen",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["POISON", "GROUND"],
     "moves": [
       "SUPERPOWER",
@@ -2993,6 +3024,7 @@
     "name": "Nidoran♂",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "LEER",
@@ -3098,6 +3130,7 @@
     "name": "Nidorino",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "LEER",
@@ -3190,6 +3223,7 @@
     "name": "Nidoking",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON", "GROUND"],
     "moves": [
       "MEGAHORN",
@@ -3337,6 +3371,7 @@
     "name": "Clefairy",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "SING",
@@ -3501,6 +3536,7 @@
     "name": "Clefable",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "SING",
@@ -3670,6 +3706,7 @@
     "name": "Vulpix",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "EMBER",
@@ -3787,6 +3824,7 @@
     "name": "Ninetales",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "EMBER",
@@ -3901,6 +3939,7 @@
     "name": "Jigglypuff",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL", "FAIRY"],
     "moves": [
       "SWEETKISS",
@@ -4064,6 +4103,7 @@
     "name": "Wigglytuff",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL", "FAIRY"],
     "moves": [
       "SWEETKISS",
@@ -4234,6 +4274,7 @@
     "name": "Zubat",
     "Color": "Purple",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["POISON", "FLYING"],
     "moves": [
       "ABSORB",
@@ -4336,6 +4377,7 @@
     "name": "Golbat",
     "Color": "Purple",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["POISON", "FLYING"],
     "moves": [
       "SCREECH",
@@ -4431,6 +4473,7 @@
     "name": "Oddish",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": [
       "ABSORB",
@@ -4525,6 +4568,7 @@
     "name": "Gloom",
     "Color": "Blue",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "POISON"],
     "moves": [
       "ABSORB",
@@ -4609,6 +4653,7 @@
     "name": "Vileplume",
     "Color": "Red",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "POISON"],
     "moves": [
       "PETALBLIZZARD",
@@ -4704,6 +4749,7 @@
     "name": "Paras",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["BUG", "GRASS"],
     "moves": [
       "SCRATCH",
@@ -4803,6 +4849,7 @@
     "name": "Parasect",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["BUG", "GRASS"],
     "moves": [
       "CROSSPOISON",
@@ -4896,6 +4943,7 @@
     "name": "Venonat",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": [
       "TACKLE",
@@ -4992,6 +5040,7 @@
     "name": "Venomoth",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": [
       "AIRSLASH",
@@ -5094,6 +5143,7 @@
     "name": "Diglett",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "SANDATTACK",
@@ -5202,6 +5252,7 @@
     "name": "Dugtrio",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "SANDTOMB",
@@ -5306,6 +5357,7 @@
     "name": "Meowth",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "FAKEOUT",
@@ -5431,6 +5483,7 @@
     "name": "Persian",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "POWERGEM",
@@ -5553,6 +5606,7 @@
     "name": "Psyduck",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SCRATCH",
@@ -5688,6 +5742,7 @@
     "name": "Golduck",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "AQUAJET",
@@ -5824,6 +5879,7 @@
     "name": "Mankey",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "COVET",
@@ -5957,6 +6013,7 @@
     "name": "Primeape",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "FLING",
@@ -6087,6 +6144,7 @@
     "name": "Growlithe",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "EMBER",
@@ -6199,6 +6257,7 @@
     "name": "Arcanine",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "EXTREMESPEED",
@@ -6309,6 +6368,7 @@
     "name": "Poliwag",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -6406,6 +6466,7 @@
     "name": "Poliwhirl",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -6506,6 +6567,7 @@
     "name": "Poliwrath",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "FIGHTING"],
     "moves": [
       "DYNAMICPUNCH",
@@ -6634,6 +6696,7 @@
     "name": "Abra",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": ["TELEPORT"],
     "tutor_moves": [
@@ -6747,6 +6810,7 @@
     "name": "Kadabra",
     "Color": "Brown",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -6865,6 +6929,7 @@
     "name": "Alakazam",
     "Color": "Brown",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -6990,6 +7055,7 @@
     "name": "Machop",
     "Color": "Gray",
     "generation": "1",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "LOWKICK",
@@ -7114,6 +7180,7 @@
     "name": "Machoke",
     "Color": "Gray",
     "generation": "1",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "LOWKICK",
@@ -7225,6 +7292,7 @@
     "name": "Machamp",
     "Color": "Gray",
     "generation": "1",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "WIDEGUARD",
@@ -7346,6 +7414,7 @@
     "name": "Bellsprout",
     "Color": "Green",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": [
       "VINEWHIP",
@@ -7452,6 +7521,7 @@
     "name": "Weepinbell",
     "Color": "Green",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": [
       "VINEWHIP",
@@ -7546,6 +7616,7 @@
     "name": "Victreebel",
     "Color": "Green",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": [
       "LEAFSTORM",
@@ -7640,6 +7711,7 @@
     "name": "Tentacool",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "POISON"],
     "moves": [
       "POISONSTING",
@@ -7749,6 +7821,7 @@
     "name": "Tentacruel",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "POISON"],
     "moves": [
       "REFLECTTYPE",
@@ -7855,6 +7928,7 @@
     "name": "Geodude",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "GROUND"],
     "moves": [
       "TACKLE",
@@ -7969,6 +8043,7 @@
     "name": "Graveler",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "GROUND"],
     "moves": [
       "TACKLE",
@@ -8089,6 +8164,7 @@
     "name": "Golem",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "GROUND"],
     "moves": [
       "HEAVYSLAM",
@@ -8204,6 +8280,7 @@
     "name": "Ponyta",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "TACKLE",
@@ -8298,6 +8375,7 @@
     "name": "Rapidash",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SMARTSTRIKE",
@@ -8394,6 +8472,7 @@
     "name": "Slowpoke",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "PSYCHIC"],
     "moves": [
       "TACKLE",
@@ -8527,6 +8606,7 @@
     "name": "Slowbro",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "PSYCHIC"],
     "moves": [
       "FUTURESIGHT",
@@ -8677,6 +8757,7 @@
     "name": "Magnemite",
     "Color": "Gray",
     "generation": "1",
+    "flags": [],
     "types": ["ELECTRIC", "STEEL"],
     "moves": [
       "THUNDERSHOCK",
@@ -8769,6 +8850,7 @@
     "name": "Magneton",
     "Color": "Gray",
     "generation": "1",
+    "flags": [],
     "types": ["ELECTRIC", "STEEL"],
     "moves": [
       "TRIATTACK",
@@ -8865,6 +8947,7 @@
     "name": "Farfetch'd",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -8985,6 +9068,7 @@
     "name": "Doduo",
     "Color": "Brown",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -9077,6 +9161,7 @@
     "name": "Dodrio",
     "Color": "Brown",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "TRIATTACK",
@@ -9172,6 +9257,7 @@
     "name": "Seel",
     "Color": "White",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "HEADBUTT",
@@ -9284,6 +9370,7 @@
     "name": "Dewgong",
     "Color": "White",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "ICE"],
     "moves": [
       "SHEERCOLD",
@@ -9390,6 +9477,7 @@
     "name": "Grimer",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "POUND",
@@ -9510,6 +9598,7 @@
     "name": "Muk",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "POUND",
@@ -9630,6 +9719,7 @@
     "name": "Shellder",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -9728,6 +9818,7 @@
     "name": "Cloyster",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "ICE"],
     "moves": [
       "ICICLESPEAR",
@@ -9833,6 +9924,7 @@
     "name": "Gastly",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["GHOST", "POISON"],
     "moves": [
       "LICK",
@@ -9957,6 +10049,7 @@
     "name": "Haunter",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["GHOST", "POISON"],
     "moves": [
       "SHADOWPUNCH",
@@ -10075,6 +10168,7 @@
     "name": "Gengar",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["GHOST", "POISON"],
     "moves": [
       "SHADOWPUNCH",
@@ -10215,6 +10309,7 @@
     "name": "Onix",
     "Color": "Gray",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "GROUND"],
     "moves": [
       "TACKLE",
@@ -10335,6 +10430,7 @@
     "name": "Drowzee",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "POUND",
@@ -10470,6 +10566,7 @@
     "name": "Hypno",
     "Color": "Yellow",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["PSYCHIC"],
     "moves": [
       "SWITCHEROO",
@@ -10604,6 +10701,7 @@
     "name": "Krabby",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -10709,6 +10807,7 @@
     "name": "Kingler",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WIDEGUARD",
@@ -10810,6 +10909,7 @@
     "name": "Voltorb",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "CHARGE",
@@ -10899,6 +10999,7 @@
     "name": "Electrode",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "MAGNETICFLUX",
@@ -10995,6 +11096,7 @@
     "name": "Exeggcute",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS", "PSYCHIC"],
     "moves": [
       "ABSORB",
@@ -11105,6 +11207,7 @@
     "name": "Exeggutor",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS", "PSYCHIC"],
     "moves": [
       "STOMP",
@@ -11226,6 +11329,7 @@
     "name": "Cubone",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "MUDSLAP",
@@ -11345,6 +11449,7 @@
     "name": "Marowak",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "MUDSLAP",
@@ -11460,6 +11565,7 @@
     "name": "Hitmonlee",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "BRICKBREAK",
@@ -11579,6 +11685,7 @@
     "name": "Hitmonchan",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "DRAINPUNCH",
@@ -11701,6 +11808,7 @@
     "name": "Lickitung",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "LICK",
@@ -11833,6 +11941,7 @@
     "name": "Koffing",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "POISONGAS",
@@ -11942,6 +12051,7 @@
     "name": "Weezing",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "DOUBLEHIT",
@@ -12043,6 +12153,7 @@
     "name": "Rhyhorn",
     "Color": "Gray",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["GROUND", "ROCK"],
     "moves": [
       "TACKLE",
@@ -12174,6 +12285,7 @@
     "name": "Rhydon",
     "Color": "Gray",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["GROUND", "ROCK"],
     "moves": [
       "HAMMERARM",
@@ -12321,6 +12433,7 @@
     "name": "Chansey",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SWEETKISS",
@@ -12477,6 +12590,7 @@
     "name": "Tangela",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "ABSORB",
@@ -12580,6 +12694,7 @@
     "name": "Kangaskhan",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "POUND",
@@ -12719,6 +12834,7 @@
     "name": "Horsea",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -12812,6 +12928,7 @@
     "name": "Seadra",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -12900,6 +13017,7 @@
     "name": "Goldeen",
     "Color": "Red",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "PECK",
@@ -12994,6 +13112,7 @@
     "name": "Seaking",
     "Color": "Red",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "PECK",
@@ -13080,6 +13199,7 @@
     "name": "Staryu",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -13171,6 +13291,7 @@
     "name": "Starmie",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "PSYCHIC"],
     "moves": [
       "RAPIDSPIN",
@@ -13278,6 +13399,7 @@
     "name": "Mr. Mime",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["PSYCHIC", "FAIRY"],
     "moves": [
       "QUICKGUARD",
@@ -13432,6 +13554,7 @@
     "name": "Scyther",
     "Color": "Green",
     "generation": "1",
+    "flags": ["HasGenderedSprites", "Corrupted"],
     "types": ["BUG", "FLYING"],
     "moves": [
       "QUICKATTACK",
@@ -13544,6 +13667,7 @@
     "name": "Jynx",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["ICE", "PSYCHIC"],
     "moves": [
       "SWEETKISS",
@@ -13672,6 +13796,7 @@
     "name": "Electabuzz",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "QUICKATTACK",
@@ -13786,6 +13911,7 @@
     "name": "Magmar",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SMOG",
@@ -13898,6 +14024,7 @@
     "name": "Pinsir",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "VISEGRIP",
@@ -14007,6 +14134,7 @@
     "name": "Tauros",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -14117,6 +14245,7 @@
     "name": "Magikarp",
     "Color": "Red",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": ["SPLASH", "TACKLE", "FLAIL"],
     "tutor_moves": ["BOUNCE"],
@@ -14136,6 +14265,7 @@
     "name": "Gyarados",
     "Color": "Blue",
     "generation": "1",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER", "FLYING"],
     "moves": [
       "BITE",
@@ -14257,6 +14387,7 @@
     "name": "Lapras",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER", "ICE"],
     "moves": [
       "GROWL",
@@ -14387,6 +14518,7 @@
     "name": "Ditto",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": ["TRANSFORM"],
     "tutor_moves": [],
@@ -14406,6 +14538,7 @@
     "name": "Eevee",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "COVET",
@@ -14508,6 +14641,7 @@
     "name": "Vaporeon",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -14627,6 +14761,7 @@
     "name": "Jolteon",
     "Color": "Yellow",
     "generation": "1",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "THUNDERSHOCK",
@@ -14749,6 +14884,7 @@
     "name": "Flareon",
     "Color": "Red",
     "generation": "1",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "EMBER",
@@ -14866,6 +15002,7 @@
     "name": "Porygon",
     "Color": "Pink",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -14964,6 +15101,7 @@
     "name": "Omanyte",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "WATER"],
     "moves": [
       "BIND",
@@ -15070,6 +15208,7 @@
     "name": "Omastar",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "WATER"],
     "moves": [
       "CRUNCH",
@@ -15170,6 +15309,7 @@
     "name": "Kabuto",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "WATER"],
     "moves": [
       "ABSORB",
@@ -15275,6 +15415,7 @@
     "name": "Kabutops",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "WATER"],
     "moves": [
       "SLASH",
@@ -15391,6 +15532,7 @@
     "name": "Aerodactyl",
     "Color": "Purple",
     "generation": "1",
+    "flags": [],
     "types": ["ROCK", "FLYING"],
     "moves": [
       "BITE",
@@ -15514,6 +15656,7 @@
     "name": "Snorlax",
     "Color": "Black",
     "generation": "1",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "RECYCLE",
@@ -15681,6 +15824,7 @@
     "name": "Articuno",
     "Color": "Blue",
     "generation": "1",
+    "flags": ["Legendary"],
     "types": ["ICE", "FLYING"],
     "moves": [
       "GUST",
@@ -15785,6 +15929,7 @@
     "name": "Zapdos",
     "Color": "Yellow",
     "generation": "1",
+    "flags": ["Legendary"],
     "types": ["ELECTRIC", "FLYING"],
     "moves": [
       "PECK",
@@ -15888,6 +16033,7 @@
     "name": "Moltres",
     "Color": "Yellow",
     "generation": "1",
+    "flags": ["Legendary"],
     "types": ["FIRE", "FLYING"],
     "moves": [
       "GUST",
@@ -15991,6 +16137,7 @@
     "name": "Dratini",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "WRAP",
@@ -16099,6 +16246,7 @@
     "name": "Dragonair",
     "Color": "Blue",
     "generation": "1",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "WRAP",
@@ -16198,6 +16346,7 @@
     "name": "Dragonite",
     "Color": "Brown",
     "generation": "1",
+    "flags": [],
     "types": ["DRAGON", "FLYING"],
     "moves": [
       "HURRICANE",
@@ -16350,6 +16499,7 @@
     "name": "Mewtwo",
     "Color": "Purple",
     "generation": "1",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC"],
     "moves": [
       "LIFEDEW",
@@ -16527,6 +16677,7 @@
     "name": "Mew",
     "Color": "Pink",
     "generation": "1",
+    "flags": ["Mythical"],
     "types": ["PSYCHIC"],
     "moves": [
       "POUND",
@@ -16905,6 +17056,7 @@
     "name": "Chikorita",
     "Color": "Green",
     "generation": "2",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -17013,6 +17165,7 @@
     "name": "Bayleef",
     "Color": "Green",
     "generation": "2",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -17113,6 +17266,7 @@
     "name": "Meganium",
     "Color": "Green",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS"],
     "moves": [
       "PETALDANCE",
@@ -17228,6 +17382,7 @@
     "name": "Cyndaquil",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "TACKLE",
@@ -17333,6 +17488,7 @@
     "name": "Quilava",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "TACKLE",
@@ -17429,6 +17585,7 @@
     "name": "Typhlosion",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "ERUPTION",
@@ -17555,6 +17712,7 @@
     "name": "Totodile",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SCRATCH",
@@ -17681,6 +17839,7 @@
     "name": "Croconaw",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SCRATCH",
@@ -17799,6 +17958,7 @@
     "name": "Feraligatr",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "AGILITY",
@@ -17935,6 +18095,7 @@
     "name": "Sentret",
     "Color": "Brown",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SCRATCH",
@@ -18060,6 +18221,7 @@
     "name": "Furret",
     "Color": "Brown",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "AGILITY",
@@ -18183,6 +18345,7 @@
     "name": "Hoothoot",
     "Color": "Brown",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -18299,6 +18462,7 @@
     "name": "Noctowl",
     "Color": "Brown",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "SKYATTACK",
@@ -18414,6 +18578,7 @@
     "name": "Ledyba",
     "Color": "Red",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG", "FLYING"],
     "moves": [
       "TACKLE",
@@ -18514,6 +18679,7 @@
     "name": "Ledian",
     "Color": "Red",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG", "FLYING"],
     "moves": [
       "TACKLE",
@@ -18613,6 +18779,7 @@
     "name": "Spinarak",
     "Color": "Green",
     "generation": "2",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": [
       "POISONSTING",
@@ -18717,6 +18884,7 @@
     "name": "Ariados",
     "Color": "Red",
     "generation": "2",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": [
       "SWORDSDANCE",
@@ -18821,6 +18989,7 @@
     "name": "Crobat",
     "Color": "Purple",
     "generation": "2",
+    "flags": [],
     "types": ["POISON", "FLYING"],
     "moves": [
       "CROSSPOISON",
@@ -18926,6 +19095,7 @@
     "name": "Chinchou",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "ELECTRIC"],
     "moves": [
       "WATERGUN",
@@ -19034,6 +19204,7 @@
     "name": "Lanturn",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "ELECTRIC"],
     "moves": [
       "STOCKPILE",
@@ -19138,6 +19309,7 @@
     "name": "Pichu",
     "Color": "Yellow",
     "generation": "2",
+    "flags": ["SOSForm_0"],
     "types": ["ELECTRIC"],
     "moves": [
       "THUNDERSHOCK",
@@ -19239,6 +19411,7 @@
     "name": "Cleffa",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "SPLASH",
@@ -19369,6 +19542,7 @@
     "name": "Igglybuff",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL", "FAIRY"],
     "moves": [
       "SING",
@@ -19486,6 +19660,7 @@
     "name": "Togepi",
     "Color": "White",
     "generation": "2",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "GROWL",
@@ -19611,6 +19786,7 @@
     "name": "Togetic",
     "Color": "White",
     "generation": "2",
+    "flags": [],
     "types": ["FAIRY", "FLYING"],
     "moves": [
       "FAIRYWIND",
@@ -19749,6 +19925,7 @@
     "name": "Natu",
     "Color": "Green",
     "generation": "2",
+    "flags": [],
     "types": ["PSYCHIC", "FLYING"],
     "moves": [
       "PECK",
@@ -19863,6 +20040,7 @@
     "name": "Xatu",
     "Color": "Green",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["PSYCHIC", "FLYING"],
     "moves": [
       "AIRSLASH",
@@ -19975,6 +20153,7 @@
     "name": "Mareep",
     "Color": "White",
     "generation": "2",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "TACKLE",
@@ -20080,6 +20259,7 @@
     "name": "Flaaffy",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "TACKLE",
@@ -20190,6 +20370,7 @@
     "name": "Ampharos",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "THUNDERPUNCH",
@@ -20320,6 +20501,7 @@
     "name": "Bellossom",
     "Color": "Green",
     "generation": "2",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "PETALBLIZZARD",
@@ -20422,6 +20604,7 @@
     "name": "Marill",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "FAIRY"],
     "moves": [
       "ROLLOUT",
@@ -20543,6 +20726,7 @@
     "name": "Azumarill",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "FAIRY"],
     "moves": [
       "ROLLOUT",
@@ -20667,6 +20851,7 @@
     "name": "Sudowoodo",
     "Color": "Brown",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["ROCK"],
     "moves": [
       "SLAM",
@@ -20794,6 +20979,7 @@
     "name": "Politoed",
     "Color": "Green",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "BOUNCE",
@@ -20907,6 +21093,7 @@
     "name": "Hoppip",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["GRASS", "FLYING"],
     "moves": [
       "SPLASH",
@@ -21018,6 +21205,7 @@
     "name": "Skiploom",
     "Color": "Green",
     "generation": "2",
+    "flags": [],
     "types": ["GRASS", "FLYING"],
     "moves": [
       "SPLASH",
@@ -21116,6 +21304,7 @@
     "name": "Jumpluff",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["GRASS", "FLYING"],
     "moves": [
       "SPLASH",
@@ -21216,6 +21405,7 @@
     "name": "Aipom",
     "Color": "Purple",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL"],
     "moves": [
       "SCRATCH",
@@ -21354,6 +21544,7 @@
     "name": "Sunkern",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -21446,6 +21637,7 @@
     "name": "Sunflora",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "POUND",
@@ -21539,6 +21731,7 @@
     "name": "Yanma",
     "Color": "Red",
     "generation": "2",
+    "flags": [],
     "types": ["BUG", "FLYING"],
     "moves": [
       "TACKLE",
@@ -21632,6 +21825,7 @@
     "name": "Wooper",
     "Color": "Blue",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER", "GROUND"],
     "moves": [
       "WATERGUN",
@@ -21757,6 +21951,7 @@
     "name": "Quagsire",
     "Color": "Blue",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER", "GROUND"],
     "moves": [
       "WATERGUN",
@@ -21885,6 +22080,7 @@
     "name": "Espeon",
     "Color": "Purple",
     "generation": "2",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -22016,6 +22212,7 @@
     "name": "Umbreon",
     "Color": "Black",
     "generation": "2",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "SNARL",
@@ -22144,6 +22341,7 @@
     "name": "Murkrow",
     "Color": "Black",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["DARK", "FLYING"],
     "moves": [
       "PECK",
@@ -22265,6 +22463,7 @@
     "name": "Slowking",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "PSYCHIC"],
     "moves": [
       "FUTURESIGHT",
@@ -22425,6 +22624,7 @@
     "name": "Misdreavus",
     "Color": "Gray",
     "generation": "2",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "GROWL",
@@ -22557,6 +22757,7 @@
     "name": "Unown",
     "Color": "Black",
     "generation": "2",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": ["HIDDENPOWER"],
     "tutor_moves": ["HIDDENPOWER"],
@@ -22576,6 +22777,7 @@
     "name": "Wobbuffet",
     "Color": "Blue",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["PSYCHIC"],
     "moves": [
       "COUNTER",
@@ -22608,6 +22810,7 @@
     "name": "Girafarig",
     "Color": "Yellow",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL", "PSYCHIC"],
     "moves": [
       "POWERSWAP",
@@ -22746,6 +22949,7 @@
     "name": "Pineco",
     "Color": "Gray",
     "generation": "2",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "TACKLE",
@@ -22857,6 +23061,7 @@
     "name": "Forretress",
     "Color": "Purple",
     "generation": "2",
+    "flags": [],
     "types": ["BUG", "STEEL"],
     "moves": [
       "HEAVYSLAM",
@@ -22984,6 +23189,7 @@
     "name": "Dunsparce",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "FLAIL",
@@ -23130,6 +23336,7 @@
     "name": "Gligar",
     "Color": "Purple",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["GROUND", "FLYING"],
     "moves": [
       "POISONSTING",
@@ -23267,6 +23474,7 @@
     "name": "Steelix",
     "Color": "Gray",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["STEEL", "GROUND"],
     "moves": [
       "CRUNCH",
@@ -23398,6 +23606,7 @@
     "name": "Snubbull",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "ICEFANG",
@@ -23547,6 +23756,7 @@
     "name": "Granbull",
     "Color": "Purple",
     "generation": "2",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "OUTRAGE",
@@ -23692,6 +23902,7 @@
     "name": "Qwilfish",
     "Color": "Gray",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "POISON"],
     "moves": [
       "POISONSTING",
@@ -23821,6 +24032,7 @@
     "name": "Scizor",
     "Color": "Red",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG", "STEEL"],
     "moves": [
       "BULLETPUNCH",
@@ -23942,6 +24154,7 @@
     "name": "Shuckle",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["BUG", "ROCK"],
     "moves": [
       "WITHDRAW",
@@ -24058,6 +24271,7 @@
     "name": "Heracross",
     "Color": "Blue",
     "generation": "2",
+    "flags": ["HasGenderedSprites", "Corrupted"],
     "types": ["BUG", "FIGHTING"],
     "moves": [
       "ARMTHRUST",
@@ -24187,6 +24401,7 @@
     "name": "Sneasel",
     "Color": "Black",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["DARK", "ICE"],
     "moves": [
       "SCRATCH",
@@ -24323,6 +24538,7 @@
     "name": "Teddiursa",
     "Color": "Brown",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "FLING",
@@ -24454,6 +24670,7 @@
     "name": "Ursaring",
     "Color": "Brown",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL"],
     "moves": [
       "COVET",
@@ -24581,6 +24798,7 @@
     "name": "Slugma",
     "Color": "Red",
     "generation": "2",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SMOG",
@@ -24690,6 +24908,7 @@
     "name": "Magcargo",
     "Color": "Red",
     "generation": "2",
+    "flags": [],
     "types": ["FIRE", "ROCK"],
     "moves": [
       "SHELLSMASH",
@@ -24798,6 +25017,7 @@
     "name": "Swinub",
     "Color": "Brown",
     "generation": "2",
+    "flags": [],
     "types": ["ICE", "GROUND"],
     "moves": [
       "TACKLE",
@@ -24905,6 +25125,7 @@
     "name": "Piloswine",
     "Color": "Brown",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["ICE", "GROUND"],
     "moves": [
       "ICEFANG",
@@ -25006,6 +25227,7 @@
     "name": "Corsola",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "ROCK"],
     "moves": [
       "TACKLE",
@@ -25125,6 +25347,7 @@
     "name": "Remoraid",
     "Color": "Gray",
     "generation": "2",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -25230,6 +25453,7 @@
     "name": "Octillery",
     "Color": "Red",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "OCTAZOOKA",
@@ -25335,6 +25559,7 @@
     "name": "Delibird",
     "Color": "Red",
     "generation": "2",
+    "flags": [],
     "types": ["ICE", "FLYING"],
     "moves": ["PRESENT", "DRILLPECK"],
     "tutor_moves": [
@@ -25453,6 +25678,7 @@
     "name": "Mantine",
     "Color": "Purple",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "FLYING"],
     "moves": [
       "PSYBEAM",
@@ -25569,6 +25795,7 @@
     "name": "Skarmory",
     "Color": "Gray",
     "generation": "2",
+    "flags": [],
     "types": ["STEEL", "FLYING"],
     "moves": [
       "PECK",
@@ -25691,6 +25918,7 @@
     "name": "Houndour",
     "Color": "Black",
     "generation": "2",
+    "flags": [],
     "types": ["DARK", "FIRE"],
     "moves": [
       "LEER",
@@ -25813,6 +26041,7 @@
     "name": "Houndoom",
     "Color": "Black",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["DARK", "FIRE"],
     "moves": [
       "NASTYPLOT",
@@ -25931,6 +26160,7 @@
     "name": "Kingdra",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["WATER", "DRAGON"],
     "moves": [
       "WHIRLPOOL",
@@ -26031,6 +26261,7 @@
     "name": "Phanpy",
     "Color": "Blue",
     "generation": "2",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "TACKLE",
@@ -26144,6 +26375,7 @@
     "name": "Donphan",
     "Color": "Gray",
     "generation": "2",
+    "flags": ["HasGenderedSprites"],
     "types": ["GROUND"],
     "moves": [
       "FURYATTACK",
@@ -26264,6 +26496,7 @@
     "name": "Porygon2",
     "Color": "Red",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "DEFENSECURL",
@@ -26364,6 +26597,7 @@
     "name": "Stantler",
     "Color": "Brown",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -26488,6 +26722,7 @@
     "name": "Smeargle",
     "Color": "White",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": ["SKETCH"],
     "tutor_moves": [],
@@ -26507,6 +26742,7 @@
     "name": "Tyrogue",
     "Color": "Purple",
     "generation": "2",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": ["TACKLE", "HELPINGHAND", "FAKEOUT", "FOCUSENERGY"],
     "tutor_moves": [
@@ -26586,6 +26822,7 @@
     "name": "Hitmontop",
     "Color": "Brown",
     "generation": "2",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "TRIPLEKICK",
@@ -26697,6 +26934,7 @@
     "name": "Smoochum",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["ICE", "PSYCHIC"],
     "moves": [
       "LICK",
@@ -26804,6 +27042,7 @@
     "name": "Elekid",
     "Color": "Yellow",
     "generation": "2",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "QUICKATTACK",
@@ -26917,6 +27156,7 @@
     "name": "Magby",
     "Color": "Red",
     "generation": "2",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SMOG",
@@ -27029,6 +27269,7 @@
     "name": "Miltank",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -27156,6 +27397,7 @@
     "name": "Blissey",
     "Color": "Pink",
     "generation": "2",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SWEETKISS",
@@ -27309,6 +27551,7 @@
     "name": "Raikou",
     "Color": "Yellow",
     "generation": "2",
+    "flags": ["Legendary"],
     "types": ["ELECTRIC"],
     "moves": [
       "EXTREMESPEED",
@@ -27418,6 +27661,7 @@
     "name": "Entei",
     "Color": "Brown",
     "generation": "2",
+    "flags": ["Legendary"],
     "types": ["FIRE"],
     "moves": [
       "SACREDFIRE",
@@ -27522,6 +27766,7 @@
     "name": "Suicune",
     "Color": "Blue",
     "generation": "2",
+    "flags": ["Legendary"],
     "types": ["WATER"],
     "moves": [
       "SHEERCOLD",
@@ -27626,6 +27871,7 @@
     "name": "Larvitar",
     "Color": "Green",
     "generation": "2",
+    "flags": [],
     "types": ["ROCK", "GROUND"],
     "moves": [
       "TACKLE",
@@ -27741,6 +27987,7 @@
     "name": "Pupitar",
     "Color": "Gray",
     "generation": "2",
+    "flags": [],
     "types": ["ROCK", "GROUND"],
     "moves": [
       "IRONDEFENSE",
@@ -27850,6 +28097,7 @@
     "name": "Tyranitar",
     "Color": "Green",
     "generation": "2",
+    "flags": [],
     "types": ["ROCK", "DARK"],
     "moves": [
       "IRONDEFENSE",
@@ -28014,6 +28262,7 @@
     "name": "Lugia",
     "Color": "White",
     "generation": "2",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC", "FLYING"],
     "moves": [
       "DRAGONRUSH",
@@ -28149,6 +28398,7 @@
     "name": "Ho-Oh",
     "Color": "Red",
     "generation": "2",
+    "flags": ["Legendary"],
     "types": ["FIRE", "FLYING"],
     "moves": [
       "GUST",
@@ -28269,6 +28519,7 @@
     "name": "Celebi",
     "Color": "Green",
     "generation": "2",
+    "flags": ["Mythical"],
     "types": ["PSYCHIC", "GRASS"],
     "moves": [
       "CONFUSION",
@@ -28394,6 +28645,7 @@
     "name": "Treecko",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "POUND",
@@ -28519,6 +28771,7 @@
     "name": "Grovyle",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "FALSESWIPE",
@@ -28639,6 +28892,7 @@
     "name": "Sceptile",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "LEAFBLADE",
@@ -28783,6 +29037,7 @@
     "name": "Torchic",
     "Color": "Red",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -28897,6 +29152,7 @@
     "name": "Combusken",
     "Color": "Red",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["FIRE", "FIGHTING"],
     "moves": [
       "DOUBLEKICK",
@@ -29020,6 +29276,7 @@
     "name": "Blaziken",
     "Color": "Red",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["FIRE", "FIGHTING"],
     "moves": [
       "BLAZEKICK",
@@ -29166,6 +29423,7 @@
     "name": "Mudkip",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -29279,6 +29537,7 @@
     "name": "Marshtomp",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "GROUND"],
     "moves": [
       "MUDSHOT",
@@ -29394,6 +29653,7 @@
     "name": "Swampert",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "GROUND"],
     "moves": [
       "SURF",
@@ -29531,6 +29791,7 @@
     "name": "Poochyena",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "TACKLE",
@@ -29640,6 +29901,7 @@
     "name": "Mightyena",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "SNARL",
@@ -29749,6 +30011,7 @@
     "name": "Zigzagoon",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -29857,6 +30120,7 @@
     "name": "Linoone",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SLASH",
@@ -29969,6 +30233,7 @@
     "name": "Wurmple",
     "Color": "Red",
     "generation": "3",
+    "flags": [],
     "types": ["BUG"],
     "moves": ["TACKLE", "STRINGSHOT", "POISONSTING", "BUGBITE"],
     "tutor_moves": ["BUGBITE", "ELECTROWEB", "SNORE", "STRINGSHOT"],
@@ -29988,6 +30253,7 @@
     "name": "Silcoon",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["BUG"],
     "moves": ["HARDEN"],
     "tutor_moves": ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
@@ -30007,6 +30273,7 @@
     "name": "Beautifly",
     "Color": "Yellow",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG", "FLYING"],
     "moves": [
       "GUST",
@@ -30097,6 +30364,7 @@
     "name": "Cascoon",
     "Color": "Purple",
     "generation": "3",
+    "flags": [],
     "types": ["BUG"],
     "moves": ["HARDEN"],
     "tutor_moves": ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
@@ -30116,6 +30384,7 @@
     "name": "Dustox",
     "Color": "Green",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG", "POISON"],
     "moves": [
       "GUST",
@@ -30208,6 +30477,7 @@
     "name": "Lotad",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "GRASS"],
     "moves": [
       "ASTONISH",
@@ -30306,6 +30576,7 @@
     "name": "Lombre",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "GRASS"],
     "moves": [
       "TEETERDANCE",
@@ -30419,6 +30690,7 @@
     "name": "Ludicolo",
     "Color": "Green",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER", "GRASS"],
     "moves": [
       "GROWL",
@@ -30542,6 +30814,7 @@
     "name": "Seedot",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -30647,6 +30920,7 @@
     "name": "Nuzleaf",
     "Color": "Brown",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "DARK"],
     "moves": [
       "RAZORLEAF",
@@ -30775,6 +31049,7 @@
     "name": "Shiftry",
     "Color": "Brown",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "DARK"],
     "moves": [
       "LEAFBLADE",
@@ -30936,6 +31211,7 @@
     "name": "Taillow",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -31019,6 +31295,7 @@
     "name": "Swellow",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "BRAVEBIRD",
@@ -31103,6 +31380,7 @@
     "name": "Wingull",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "FLYING"],
     "moves": [
       "GROWL",
@@ -31207,6 +31485,7 @@
     "name": "Pelipper",
     "Color": "Yellow",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "FLYING"],
     "moves": [
       "PROTECT",
@@ -31317,6 +31596,7 @@
     "name": "Ralts",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["PSYCHIC", "FAIRY"],
     "moves": [
       "GROWL",
@@ -31450,6 +31730,7 @@
     "name": "Kirlia",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["PSYCHIC", "FAIRY"],
     "moves": [
       "GROWL",
@@ -31573,6 +31854,7 @@
     "name": "Gardevoir",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["PSYCHIC", "FAIRY"],
     "moves": [
       "DAZZLINGGLEAM",
@@ -31716,6 +31998,7 @@
     "name": "Surskit",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["BUG", "WATER"],
     "moves": [
       "WATERGUN",
@@ -31813,6 +32096,7 @@
     "name": "Masquerain",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["BUG", "FLYING"],
     "moves": [
       "WHIRLWIND",
@@ -31922,6 +32206,7 @@
     "name": "Shroomish",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "ABSORB",
@@ -32005,6 +32290,7 @@
     "name": "Breloom",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["GRASS", "FIGHTING"],
     "moves": [
       "MACHPUNCH",
@@ -32133,6 +32419,7 @@
     "name": "Slakoth",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SCRATCH",
@@ -32256,6 +32543,7 @@
     "name": "Vigoroth",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SCRATCH",
@@ -32391,6 +32679,7 @@
     "name": "Slaking",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SWAGGER",
@@ -32540,6 +32829,7 @@
     "name": "Nincada",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["BUG", "GROUND"],
     "moves": [
       "SANDATTACK",
@@ -32610,6 +32900,7 @@
     "name": "Ninjask",
     "Color": "Yellow",
     "generation": "3",
+    "flags": [],
     "types": ["BUG", "FLYING"],
     "moves": [
       "DOUBLETEAM",
@@ -32709,6 +33000,7 @@
     "name": "Shedinja",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["BUG", "GHOST"],
     "moves": [
       "SHADOWCLAW",
@@ -32800,6 +33092,7 @@
     "name": "Whismur",
     "Color": "Pink",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "ASTONISH",
@@ -32900,6 +33193,7 @@
     "name": "Loudred",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "BITE",
@@ -33004,6 +33298,7 @@
     "name": "Exploud",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "CRUNCH",
@@ -33128,6 +33423,7 @@
     "name": "Makuhita",
     "Color": "Yellow",
     "generation": "3",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "TACKLE",
@@ -33253,6 +33549,7 @@
     "name": "Hariyama",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "BRINE",
@@ -33379,6 +33676,7 @@
     "name": "Azurill",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL", "FAIRY"],
     "moves": [
       "SPLASH",
@@ -33469,6 +33767,7 @@
     "name": "Nosepass",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "TACKLE",
@@ -33577,6 +33876,7 @@
     "name": "Skitty",
     "Color": "Pink",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "FAKEOUT",
@@ -33689,6 +33989,7 @@
     "name": "Delcatty",
     "Color": "Purple",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "FAKEOUT",
@@ -33794,6 +34095,7 @@
     "name": "Sableye",
     "Color": "Purple",
     "generation": "3",
+    "flags": [],
     "types": ["DARK", "GHOST"],
     "moves": [
       "LEER",
@@ -33957,6 +34259,7 @@
     "name": "Mawile",
     "Color": "Black",
     "generation": "3",
+    "flags": [],
     "types": ["STEEL", "FAIRY"],
     "moves": [
       "ASTONISH",
@@ -34099,6 +34402,7 @@
     "name": "Aron",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["STEEL", "ROCK"],
     "moves": [
       "TACKLE",
@@ -34210,6 +34514,7 @@
     "name": "Lairon",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["STEEL", "ROCK"],
     "moves": [
       "TACKLE",
@@ -34313,6 +34618,7 @@
     "name": "Aggron",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["STEEL", "ROCK"],
     "moves": [
       "TACKLE",
@@ -34464,6 +34770,7 @@
     "name": "Meditite",
     "Color": "Blue",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["FIGHTING", "PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -34599,6 +34906,7 @@
     "name": "Medicham",
     "Color": "Red",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["FIGHTING", "PSYCHIC"],
     "moves": [
       "FIREPUNCH",
@@ -34732,6 +35040,7 @@
     "name": "Electrike",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "TACKLE",
@@ -34832,6 +35141,7 @@
     "name": "Manectric",
     "Color": "Yellow",
     "generation": "3",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "FIREFANG",
@@ -34927,6 +35237,7 @@
     "name": "Plusle",
     "Color": "Yellow",
     "generation": "3",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "NUZZLE",
@@ -35044,6 +35355,7 @@
     "name": "Minun",
     "Color": "Yellow",
     "generation": "3",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "NUZZLE",
@@ -35159,6 +35471,7 @@
     "name": "Volbeat",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "TACKLE",
@@ -35283,6 +35596,7 @@
     "name": "Illumise",
     "Color": "Purple",
     "generation": "3",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "TACKLE",
@@ -35410,6 +35724,7 @@
     "name": "Roselia",
     "Color": "Green",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "POISON"],
     "moves": [
       "POISONSTING",
@@ -35516,6 +35831,7 @@
     "name": "Gulpin",
     "Color": "Green",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["POISON"],
     "moves": [
       "POUND",
@@ -35631,6 +35947,7 @@
     "name": "Swalot",
     "Color": "Purple",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["POISON"],
     "moves": [
       "BODYSLAM",
@@ -35746,6 +36063,7 @@
     "name": "Carvanha",
     "Color": "Red",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "DARK"],
     "moves": [
       "AQUAJET",
@@ -35848,6 +36166,7 @@
     "name": "Sharpedo",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "DARK"],
     "moves": [
       "SLASH",
@@ -35955,6 +36274,7 @@
     "name": "Wailmer",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SPLASH",
@@ -36060,6 +36380,7 @@
     "name": "Wailord",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SOAK",
@@ -36158,6 +36479,7 @@
     "name": "Numel",
     "Color": "Yellow",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["FIRE", "GROUND"],
     "moves": [
       "GROWL",
@@ -36281,6 +36603,7 @@
     "name": "Camerupt",
     "Color": "Red",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["FIRE", "GROUND"],
     "moves": [
       "ROCKSLIDE",
@@ -36396,6 +36719,7 @@
     "name": "Torkoal",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SMOG",
@@ -36513,6 +36837,7 @@
     "name": "Spoink",
     "Color": "Black",
     "generation": "3",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "SPLASH",
@@ -36637,6 +36962,7 @@
     "name": "Grumpig",
     "Color": "Purple",
     "generation": "3",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "TEETERDANCE",
@@ -36786,6 +37112,7 @@
     "name": "Spinda",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -36910,6 +37237,7 @@
     "name": "Trapinch",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "SANDATTACK",
@@ -37003,6 +37331,7 @@
     "name": "Vibrava",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["GROUND", "DRAGON"],
     "moves": [
       "DRAGONBREATH",
@@ -37119,6 +37448,7 @@
     "name": "Flygon",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["GROUND", "DRAGON"],
     "moves": [
       "DRAGONCLAW",
@@ -37261,6 +37591,7 @@
     "name": "Cacnea",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "POISONSTING",
@@ -37392,6 +37723,7 @@
     "name": "Cacturne",
     "Color": "Green",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "DARK"],
     "moves": [
       "SPIKYSHIELD",
@@ -37524,6 +37856,7 @@
     "name": "Swablu",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -37629,6 +37962,7 @@
     "name": "Altaria",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["DRAGON", "FLYING"],
     "moves": [
       "DRAGONPULSE",
@@ -37749,6 +38083,7 @@
     "name": "Zangoose",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "DOUBLEKICK",
@@ -37910,6 +38245,7 @@
     "name": "Seviper",
     "Color": "Black",
     "generation": "3",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "WRAP",
@@ -38040,6 +38376,7 @@
     "name": "Lunatone",
     "Color": "Yellow",
     "generation": "3",
+    "flags": [],
     "types": ["ROCK", "PSYCHIC"],
     "moves": [
       "MOONBLAST",
@@ -38161,6 +38498,7 @@
     "name": "Solrock",
     "Color": "Red",
     "generation": "3",
+    "flags": [],
     "types": ["ROCK", "PSYCHIC"],
     "moves": [
       "FLAREBLITZ",
@@ -38287,6 +38625,7 @@
     "name": "Barboach",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "GROUND"],
     "moves": [
       "MUDSLAP",
@@ -38388,6 +38727,7 @@
     "name": "Whiscash",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "GROUND"],
     "moves": [
       "THRASH",
@@ -38492,6 +38832,7 @@
     "name": "Corphish",
     "Color": "Red",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -38603,6 +38944,7 @@
     "name": "Crawdaunt",
     "Color": "Red",
     "generation": "3",
+    "flags": [],
     "types": ["WATER", "DARK"],
     "moves": [
       "SWIFT",
@@ -38720,6 +39062,7 @@
     "name": "Baltoy",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["GROUND", "PSYCHIC"],
     "moves": [
       "HARDEN",
@@ -38831,6 +39174,7 @@
     "name": "Claydol",
     "Color": "Black",
     "generation": "3",
+    "flags": [],
     "types": ["GROUND", "PSYCHIC"],
     "moves": [
       "HYPERBEAM",
@@ -38954,6 +39298,7 @@
     "name": "Lileep",
     "Color": "Purple",
     "generation": "3",
+    "flags": [],
     "types": ["ROCK", "GRASS"],
     "moves": [
       "WRAP",
@@ -39049,6 +39394,7 @@
     "name": "Cradily",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["ROCK", "GRASS"],
     "moves": [
       "LEECHSEED",
@@ -39151,6 +39497,7 @@
     "name": "Anorith",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["ROCK", "BUG"],
     "moves": [
       "FURYCUTTER",
@@ -39249,6 +39596,7 @@
     "name": "Armaldo",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["ROCK", "BUG"],
     "moves": [
       "FURYCUTTER",
@@ -39354,6 +39702,7 @@
     "name": "Feebas",
     "Color": "Brown",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": ["SPLASH", "TACKLE", "FLAIL"],
     "tutor_moves": [
@@ -39423,6 +39772,7 @@
     "name": "Milotic",
     "Color": "Pink",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "WATERPULSE",
@@ -39534,6 +39884,7 @@
     "name": "Castform",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -39629,6 +39980,7 @@
     "name": "Kecleon",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "THIEF",
@@ -39769,6 +40121,7 @@
     "name": "Shuppet",
     "Color": "Black",
     "generation": "3",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "ASTONISH",
@@ -39886,6 +40239,7 @@
     "name": "Banette",
     "Color": "Black",
     "generation": "3",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "KNOCKOFF",
@@ -40004,6 +40358,7 @@
     "name": "Duskull",
     "Color": "Black",
     "generation": "3",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "ASTONISH",
@@ -40112,6 +40467,7 @@
     "name": "Dusclops",
     "Color": "Black",
     "generation": "3",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "SHADOWPUNCH",
@@ -40237,6 +40593,7 @@
     "name": "Tropius",
     "Color": "Green",
     "generation": "3",
+    "flags": [],
     "types": ["GRASS", "FLYING"],
     "moves": [
       "LEAFSTORM",
@@ -40363,6 +40720,7 @@
     "name": "Chimecho",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "HEALINGWISH",
@@ -40488,6 +40846,7 @@
     "name": "Absol",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "QUICKATTACK",
@@ -40631,6 +40990,7 @@
     "name": "Wynaut",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "COUNTER",
@@ -40659,6 +41019,7 @@
     "name": "Snorunt",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "POWDERSNOW",
@@ -40755,6 +41116,7 @@
     "name": "Glalie",
     "Color": "Gray",
     "generation": "3",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "FREEZEDRY",
@@ -40861,6 +41223,7 @@
     "name": "Spheal",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["ICE", "WATER"],
     "moves": [
       "ROLLOUT",
@@ -40959,6 +41322,7 @@
     "name": "Sealeo",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["ICE", "WATER"],
     "moves": [
       "SWAGGER",
@@ -41049,6 +41413,7 @@
     "name": "Walrein",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["ICE", "WATER"],
     "moves": [
       "SWAGGER",
@@ -41155,6 +41520,7 @@
     "name": "Clamperl",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": ["WATERGUN", "WHIRLPOOL", "IRONDEFENSE", "SHELLSMASH"],
     "tutor_moves": [
@@ -41215,6 +41581,7 @@
     "name": "Huntail",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -41299,6 +41666,7 @@
     "name": "Gorebyss",
     "Color": "Pink",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -41384,6 +41752,7 @@
     "name": "Relicanth",
     "Color": "Gray",
     "generation": "3",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER", "ROCK"],
     "moves": [
       "TACKLE",
@@ -41493,6 +41862,7 @@
     "name": "Luvdisc",
     "Color": "Pink",
     "generation": "3",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -41581,6 +41951,7 @@
     "name": "Bagon",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "EMBER",
@@ -41683,6 +42054,7 @@
     "name": "Shelgon",
     "Color": "White",
     "generation": "3",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "PROTECT",
@@ -41781,6 +42153,7 @@
     "name": "Salamence",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["DRAGON", "FLYING"],
     "moves": [
       "FLY",
@@ -41905,6 +42278,7 @@
     "name": "Beldum",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["STEEL", "PSYCHIC"],
     "moves": ["TACKLE"],
     "tutor_moves": [
@@ -41932,6 +42306,7 @@
     "name": "Metang",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["STEEL", "PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -42053,6 +42428,7 @@
     "name": "Metagross",
     "Color": "Blue",
     "generation": "3",
+    "flags": [],
     "types": ["STEEL", "PSYCHIC"],
     "moves": [
       "HAMMERARM",
@@ -42186,6 +42562,7 @@
     "name": "Regirock",
     "Color": "Brown",
     "generation": "3",
+    "flags": ["Legendary"],
     "types": ["ROCK"],
     "moves": [
       "CHARGEBEAM",
@@ -42301,6 +42678,7 @@
     "name": "Regice",
     "Color": "Blue",
     "generation": "3",
+    "flags": ["Legendary"],
     "types": ["ICE"],
     "moves": [
       "CHARGEBEAM",
@@ -42412,6 +42790,7 @@
     "name": "Registeel",
     "Color": "Gray",
     "generation": "3",
+    "flags": ["Legendary"],
     "types": ["STEEL"],
     "moves": [
       "CHARGEBEAM",
@@ -42531,6 +42910,7 @@
     "name": "Latias",
     "Color": "Red",
     "generation": "3",
+    "flags": ["Legendary"],
     "types": ["DRAGON", "PSYCHIC"],
     "moves": [
       "STOREDPOWER",
@@ -42675,6 +43055,7 @@
     "name": "Latios",
     "Color": "Blue",
     "generation": "3",
+    "flags": ["Legendary"],
     "types": ["DRAGON", "PSYCHIC"],
     "moves": [
       "STOREDPOWER",
@@ -42813,6 +43194,7 @@
     "name": "Kyogre",
     "Color": "Blue",
     "generation": "3",
+    "flags": ["Legendary"],
     "types": ["WATER"],
     "moves": [
       "ORIGINPULSE",
@@ -42910,6 +43292,7 @@
     "name": "Groudon",
     "Color": "Red",
     "generation": "3",
+    "flags": ["Legendary"],
     "types": ["GROUND"],
     "moves": [
       "PRECIPICEBLADES",
@@ -43042,6 +43425,7 @@
     "name": "Rayquaza",
     "Color": "Green",
     "generation": "3",
+    "flags": ["Legendary"],
     "types": ["DRAGON", "FLYING"],
     "moves": [
       "DRAGONASCENT",
@@ -43176,6 +43560,7 @@
     "name": "Jirachi",
     "Color": "Yellow",
     "generation": "3",
+    "flags": ["Mythical"],
     "types": ["STEEL", "PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -43308,6 +43693,7 @@
     "name": "Deoxys",
     "Color": "Red",
     "generation": "3",
+    "flags": ["Mythical"],
     "types": ["PSYCHIC"],
     "moves": [
       "LEER",
@@ -43446,6 +43832,7 @@
     "name": "Turtwig",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -43564,6 +43951,7 @@
     "name": "Grotle",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -43663,6 +44051,7 @@
     "name": "Torterra",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["GRASS", "GROUND"],
     "moves": [
       "EARTHQUAKE",
@@ -43785,6 +44174,7 @@
     "name": "Chimchar",
     "Color": "Brown",
     "generation": "4",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -43917,6 +44307,7 @@
     "name": "Monferno",
     "Color": "Brown",
     "generation": "4",
+    "flags": [],
     "types": ["FIRE", "FIGHTING"],
     "moves": [
       "MACHPUNCH",
@@ -44044,6 +44435,7 @@
     "name": "Infernape",
     "Color": "Brown",
     "generation": "4",
+    "flags": [],
     "types": ["FIRE", "FIGHTING"],
     "moves": [
       "CLOSECOMBAT",
@@ -44190,6 +44582,7 @@
     "name": "Piplup",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -44300,6 +44693,7 @@
     "name": "Prinplup",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "METALCLAW",
@@ -44403,6 +44797,7 @@
     "name": "Empoleon",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["WATER", "STEEL"],
     "moves": [
       "AQUAJET",
@@ -44539,6 +44934,7 @@
     "name": "Starly",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "TACKLE",
@@ -44631,6 +45027,7 @@
     "name": "Staravia",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "TACKLE",
@@ -44715,6 +45112,7 @@
     "name": "Staraptor",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "CLOSECOMBAT",
@@ -44806,6 +45204,7 @@
     "name": "Bidoof",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -44902,6 +45301,7 @@
     "name": "Bibarel",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL", "WATER"],
     "moves": [
       "WATERGUN",
@@ -45007,6 +45407,7 @@
     "name": "Kricketot",
     "Color": "Red",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG"],
     "moves": ["GROWL", "TACKLE", "STRUGGLEBUG", "BUGBITE"],
     "tutor_moves": [
@@ -45035,6 +45436,7 @@
     "name": "Kricketune",
     "Color": "Red",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG"],
     "moves": [
       "FURYCUTTER",
@@ -45131,6 +45533,7 @@
     "name": "Shinx",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["ELECTRIC"],
     "moves": [
       "TACKLE",
@@ -45241,6 +45644,7 @@
     "name": "Luxio",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["ELECTRIC"],
     "moves": [
       "TACKLE",
@@ -45336,6 +45740,7 @@
     "name": "Luxray",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["ELECTRIC"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -45440,6 +45845,7 @@
     "name": "Budew",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": ["ABSORB", "GROWTH", "STUNSPORE", "WORRYSEED"],
     "tutor_moves": [
@@ -45520,6 +45926,7 @@
     "name": "Roserade",
     "Color": "Green",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "POISON"],
     "moves": [
       "GRASSYTERRAIN",
@@ -45620,6 +46027,7 @@
     "name": "Cranidos",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "HEADBUTT",
@@ -45736,6 +46144,7 @@
     "name": "Rampardos",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "ENDEAVOR",
@@ -45858,6 +46267,7 @@
     "name": "Shieldon",
     "Color": "Gray",
     "generation": "4",
+    "flags": [],
     "types": ["ROCK", "STEEL"],
     "moves": [
       "TACKLE",
@@ -45973,6 +46383,7 @@
     "name": "Bastiodon",
     "Color": "Gray",
     "generation": "4",
+    "flags": [],
     "types": ["ROCK", "STEEL"],
     "moves": [
       "BLOCK",
@@ -46088,6 +46499,7 @@
     "name": "Burmy",
     "Color": "Green",
     "generation": "4",
+    "flags": ["InheritFormFromMother"],
     "types": ["BUG"],
     "moves": ["PROTECT", "TACKLE", "BUGBITE", "STRINGSHOT"],
     "tutor_moves": [
@@ -46114,6 +46526,7 @@
     "name": "Wormadam",
     "Color": "Green",
     "generation": "4",
+    "flags": ["InheritFormFromMother"],
     "types": ["BUG", "GRASS"],
     "moves": [
       "QUIVERDANCE",
@@ -46206,6 +46619,7 @@
     "name": "Mothim",
     "Color": "Yellow",
     "generation": "4",
+    "flags": ["DefaultForm_0"],
     "types": ["BUG", "FLYING"],
     "moves": [
       "QUIVERDANCE",
@@ -46298,6 +46712,7 @@
     "name": "Combee",
     "Color": "Yellow",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["BUG", "FLYING"],
     "moves": ["SWEETSCENT", "GUST", "STRUGGLEBUG", "BUGBITE"],
     "tutor_moves": [
@@ -46329,6 +46744,7 @@
     "name": "Vespiquen",
     "Color": "Yellow",
     "generation": "4",
+    "flags": [],
     "types": ["BUG", "FLYING"],
     "moves": [
       "SLASH",
@@ -46446,6 +46862,7 @@
     "name": "Pachirisu",
     "Color": "White",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["ELECTRIC"],
     "moves": [
       "GROWL",
@@ -46566,6 +46983,7 @@
     "name": "Buizel",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -46676,6 +47094,7 @@
     "name": "Floatzel",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "ICEFANG",
@@ -46786,6 +47205,7 @@
     "name": "Cherubi",
     "Color": "Pink",
     "generation": "4",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "MORNINGSUN",
@@ -46873,6 +47293,7 @@
     "name": "Cherrim",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "SUNNYDAY",
@@ -46954,6 +47375,7 @@
     "name": "Shellos",
     "Color": "Purple",
     "generation": "4",
+    "flags": ["InheritFormFromMother"],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -47057,6 +47479,7 @@
     "name": "Gastrodon",
     "Color": "Purple",
     "generation": "4",
+    "flags": ["InheritFormFromMother"],
     "types": ["WATER", "GROUND"],
     "moves": [
       "WATERGUN",
@@ -47160,6 +47583,7 @@
     "name": "Ambipom",
     "Color": "Purple",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL"],
     "moves": [
       "SCRATCH",
@@ -47288,6 +47712,7 @@
     "name": "Drifloon",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["GHOST", "FLYING"],
     "moves": [
       "MINIMIZE",
@@ -47412,6 +47837,7 @@
     "name": "Drifblim",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["GHOST", "FLYING"],
     "moves": [
       "PHANTOMFORCE",
@@ -47532,6 +47958,7 @@
     "name": "Buneary",
     "Color": "Brown",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SPLASH",
@@ -47656,6 +48083,7 @@
     "name": "Lopunny",
     "Color": "Brown",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "MIRRORCOAT",
@@ -47779,6 +48207,7 @@
     "name": "Mismagius",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "MYSTICALFIRE",
@@ -47898,6 +48327,7 @@
     "name": "Honchkrow",
     "Color": "Black",
     "generation": "4",
+    "flags": [],
     "types": ["DARK", "FLYING"],
     "moves": [
       "NIGHTSLASH",
@@ -48010,6 +48440,7 @@
     "name": "Glameow",
     "Color": "Gray",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "FAKEOUT",
@@ -48109,6 +48540,7 @@
     "name": "Purugly",
     "Color": "Gray",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "SWAGGER",
@@ -48210,6 +48642,7 @@
     "name": "Chingling",
     "Color": "Yellow",
     "generation": "4",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "WRAP",
@@ -48318,6 +48751,7 @@
     "name": "Stunky",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["POISON", "DARK"],
     "moves": [
       "POISONGAS",
@@ -48443,6 +48877,7 @@
     "name": "Skuntank",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["POISON", "DARK"],
     "moves": [
       "FLAMETHROWER",
@@ -48564,6 +48999,7 @@
     "name": "Bronzor",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["STEEL", "PSYCHIC"],
     "moves": [
       "TACKLE",
@@ -48676,6 +49112,7 @@
     "name": "Bronzong",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["STEEL", "PSYCHIC"],
     "moves": [
       "BLOCK",
@@ -48805,6 +49242,7 @@
     "name": "Bonsly",
     "Color": "Brown",
     "generation": "4",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "FAKETEARS",
@@ -48911,6 +49349,7 @@
     "name": "Mime Jr.",
     "Color": "Pink",
     "generation": "4",
+    "flags": [],
     "types": ["PSYCHIC", "FAIRY"],
     "moves": [
       "POUND",
@@ -49036,6 +49475,7 @@
     "name": "Happiny",
     "Color": "Pink",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "POUND",
@@ -49128,6 +49568,7 @@
     "name": "Chatot",
     "Color": "Black",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "HYPERVOICE",
@@ -49219,6 +49660,7 @@
     "name": "Spiritomb",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["GHOST", "DARK"],
     "moves": [
       "NIGHTSHADE",
@@ -49337,6 +49779,7 @@
     "name": "Gible",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["DRAGON", "GROUND"],
     "moves": [
       "SANDTOMB",
@@ -49448,6 +49891,7 @@
     "name": "Gabite",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["DRAGON", "GROUND"],
     "moves": [
       "SANDTOMB",
@@ -49553,6 +49997,7 @@
     "name": "Garchomp",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["DRAGON", "GROUND"],
     "moves": [
       "CRUNCH",
@@ -49670,6 +50115,7 @@
     "name": "Munchlax",
     "Color": "Black",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "LICK",
@@ -49805,6 +50251,7 @@
     "name": "Riolu",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "QUICKATTACK",
@@ -49933,6 +50380,7 @@
     "name": "Lucario",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["FIGHTING", "STEEL"],
     "moves": [
       "AURASPHERE",
@@ -50076,6 +50524,7 @@
     "name": "Hippopotas",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["GROUND"],
     "moves": [
       "TACKLE",
@@ -50177,6 +50626,7 @@
     "name": "Hippowdon",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["GROUND"],
     "moves": [
       "ICEFANG",
@@ -50277,6 +50727,7 @@
     "name": "Skorupi",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["POISON", "BUG"],
     "moves": [
       "POISONSTING",
@@ -50388,6 +50839,7 @@
     "name": "Drapion",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["POISON", "DARK"],
     "moves": [
       "THUNDERFANG",
@@ -50513,6 +50965,7 @@
     "name": "Croagunk",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["POISON", "FIGHTING"],
     "moves": [
       "POISONSTING",
@@ -50650,6 +51103,7 @@
     "name": "Toxicroak",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["POISON", "FIGHTING"],
     "moves": [
       "POISONSTING",
@@ -50786,6 +51240,7 @@
     "name": "Carnivine",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "BIND",
@@ -50878,6 +51333,7 @@
     "name": "Finneon",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -50981,6 +51437,7 @@
     "name": "Lumineon",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER"],
     "moves": [
       "SOAK",
@@ -51077,6 +51534,7 @@
     "name": "Mantyke",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["WATER", "FLYING"],
     "moves": [
       "TACKLE",
@@ -51170,6 +51628,7 @@
     "name": "Snover",
     "Color": "White",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "ICE"],
     "moves": [
       "POWDERSNOW",
@@ -51272,6 +51731,7 @@
     "name": "Abomasnow",
     "Color": "White",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS", "ICE"],
     "moves": [
       "ICEPUNCH",
@@ -51388,6 +51848,7 @@
     "name": "Weavile",
     "Color": "Black",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["DARK", "ICE"],
     "moves": [
       "ASSURANCE",
@@ -51526,6 +51987,7 @@
     "name": "Magnezone",
     "Color": "Gray",
     "generation": "4",
+    "flags": [],
     "types": ["ELECTRIC", "STEEL"],
     "moves": [
       "TRIATTACK",
@@ -51633,6 +52095,7 @@
     "name": "Lickilicky",
     "Color": "Pink",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "LICK",
@@ -51759,6 +52222,7 @@
     "name": "Rhyperior",
     "Color": "Gray",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["GROUND", "ROCK"],
     "moves": [
       "HAMMERARM",
@@ -51912,6 +52376,7 @@
     "name": "Tangrowth",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["GRASS"],
     "moves": [
       "BLOCK",
@@ -52021,6 +52486,7 @@
     "name": "Electivire",
     "Color": "Yellow",
     "generation": "4",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "QUICKATTACK",
@@ -52146,6 +52612,7 @@
     "name": "Magmortar",
     "Color": "Red",
     "generation": "4",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SMOG",
@@ -52269,6 +52736,7 @@
     "name": "Togekiss",
     "Color": "White",
     "generation": "4",
+    "flags": [],
     "types": ["FAIRY", "FLYING"],
     "moves": [
       "AIRSLASH",
@@ -52419,6 +52887,7 @@
     "name": "Yanmega",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["BUG", "FLYING"],
     "moves": [
       "HYPNOSIS",
@@ -52519,6 +52988,7 @@
     "name": "Leafeon",
     "Color": "Green",
     "generation": "4",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "RAZORLEAF",
@@ -52641,6 +53111,7 @@
     "name": "Glaceon",
     "Color": "Blue",
     "generation": "4",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "ICYWIND",
@@ -52759,6 +53230,7 @@
     "name": "Gliscor",
     "Color": "Purple",
     "generation": "4",
+    "flags": [],
     "types": ["GROUND", "FLYING"],
     "moves": [
       "THUNDERFANG",
@@ -52889,6 +53361,7 @@
     "name": "Mamoswine",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["HasGenderedSprites"],
     "types": ["ICE", "GROUND"],
     "moves": [
       "DOUBLEHIT",
@@ -53001,6 +53474,7 @@
     "name": "Porygon-Z",
     "Color": "Red",
     "generation": "4",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TRICKROOM",
@@ -53108,6 +53582,7 @@
     "name": "Gallade",
     "Color": "White",
     "generation": "4",
+    "flags": [],
     "types": ["PSYCHIC", "FIGHTING"],
     "moves": [
       "SLASH",
@@ -53294,6 +53769,7 @@
     "name": "Probopass",
     "Color": "Gray",
     "generation": "4",
+    "flags": [],
     "types": ["ROCK", "STEEL"],
     "moves": [
       "TRIATTACK",
@@ -53414,6 +53890,7 @@
     "name": "Dusknoir",
     "Color": "Black",
     "generation": "4",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "SHADOWPUNCH",
@@ -53548,6 +54025,7 @@
     "name": "Froslass",
     "Color": "White",
     "generation": "4",
+    "flags": [],
     "types": ["ICE", "GHOST"],
     "moves": [
       "HEX",
@@ -53677,6 +54155,7 @@
     "name": "Rotom",
     "Color": "Red",
     "generation": "4",
+    "flags": [],
     "types": ["ELECTRIC", "GHOST"],
     "moves": [
       "ASTONISH",
@@ -53771,6 +54250,7 @@
     "name": "Uxie",
     "Color": "Yellow",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC"],
     "moves": [
       "TRIATTACK",
@@ -53907,6 +54387,7 @@
     "name": "Mesprit",
     "Color": "Pink",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC"],
     "moves": [
       "TRIATTACK",
@@ -54041,6 +54522,7 @@
     "name": "Azelf",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC"],
     "moves": [
       "SELFDESTRUCT",
@@ -54185,6 +54667,7 @@
     "name": "Dialga",
     "Color": "White",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["STEEL", "DRAGON"],
     "moves": [
       "SCARYFACE",
@@ -54304,6 +54787,7 @@
     "name": "Palkia",
     "Color": "Purple",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["WATER", "DRAGON"],
     "moves": [
       "SCARYFACE",
@@ -54428,6 +54912,7 @@
     "name": "Heatran",
     "Color": "Brown",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["FIRE", "STEEL"],
     "moves": [
       "FIRESPIN",
@@ -54541,6 +55026,7 @@
     "name": "Regigigas",
     "Color": "White",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["NORMAL"],
     "moves": [
       "POUND",
@@ -54651,6 +55137,7 @@
     "name": "Giratina",
     "Color": "Black",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["GHOST", "DRAGON"],
     "moves": [
       "SHADOWSNEAK",
@@ -54770,6 +55257,7 @@
     "name": "Cresselia",
     "Color": "Yellow",
     "generation": "4",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -54877,6 +55365,7 @@
     "name": "Phione",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["Mythical"],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -54964,6 +55453,7 @@
     "name": "Manaphy",
     "Color": "Blue",
     "generation": "4",
+    "flags": ["Mythical"],
     "types": ["WATER"],
     "moves": [
       "HEARTSWAP",
@@ -55067,6 +55557,7 @@
     "name": "Darkrai",
     "Color": "Black",
     "generation": "4",
+    "flags": ["Mythical"],
     "types": ["DARK"],
     "moves": [
       "DISABLE",
@@ -55182,6 +55673,7 @@
     "name": "Shaymin",
     "Color": "Green",
     "generation": "4",
+    "flags": ["Mythical"],
     "types": ["GRASS"],
     "moves": [
       "GROWTH",
@@ -55273,6 +55765,7 @@
     "name": "Arceus",
     "Color": "White",
     "generation": "4",
+    "flags": ["Mythical"],
     "types": ["NORMAL"],
     "moves": [
       "SEISMICTOSS",
@@ -55463,6 +55956,7 @@
     "name": "Victini",
     "Color": "Yellow",
     "generation": "5",
+    "flags": ["Mythical"],
     "types": ["PSYCHIC", "FIRE"],
     "moves": [
       "VCREATE",
@@ -55589,6 +56083,7 @@
     "name": "Snivy",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -55696,6 +56191,7 @@
     "name": "Servine",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -55790,6 +56286,7 @@
     "name": "Serperior",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -55897,6 +56394,7 @@
     "name": "Tepig",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "TACKLE",
@@ -56006,6 +56504,7 @@
     "name": "Pignite",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIRE", "FIGHTING"],
     "moves": [
       "ARMTHRUST",
@@ -56123,6 +56622,7 @@
     "name": "Emboar",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIRE", "FIGHTING"],
     "moves": [
       "ENDURE",
@@ -56251,6 +56751,7 @@
     "name": "Oshawott",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -56358,6 +56859,7 @@
     "name": "Dewott",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -56455,6 +56957,7 @@
     "name": "Samurott",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SLASH",
@@ -56566,6 +57069,7 @@
     "name": "Patrat",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -56659,6 +57163,7 @@
     "name": "Watchog",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "CONFUSERAY",
@@ -56767,6 +57272,7 @@
     "name": "Lillipup",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -56853,6 +57359,7 @@
     "name": "Herdier",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -56941,6 +57448,7 @@
     "name": "Stoutland",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "ICEFANG",
@@ -57037,6 +57545,7 @@
     "name": "Purrloin",
     "Color": "Purple",
     "generation": "5",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "SCRATCH",
@@ -57139,6 +57648,7 @@
     "name": "Liepard",
     "Color": "Purple",
     "generation": "5",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "SCRATCH",
@@ -57242,6 +57752,7 @@
     "name": "Pansage",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "SCRATCH",
@@ -57349,6 +57860,7 @@
     "name": "Simisage",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS"],
     "moves": ["LEER", "LICK", "FURYSWIPES", "SEEDBOMB"],
     "tutor_moves": [
@@ -57434,6 +57946,7 @@
     "name": "Pansear",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -57543,6 +58056,7 @@
     "name": "Simisear",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIRE"],
     "moves": ["LEER", "LICK", "FURYSWIPES", "FLAMEBURST"],
     "tutor_moves": [
@@ -57629,6 +58143,7 @@
     "name": "Panpour",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SCRATCH",
@@ -57738,6 +58253,7 @@
     "name": "Simipour",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER"],
     "moves": ["LEER", "LICK", "FURYSWIPES", "SCALD"],
     "tutor_moves": [
@@ -57826,6 +58342,7 @@
     "name": "Munna",
     "Color": "Pink",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "STOREDPOWER",
@@ -57925,6 +58442,7 @@
     "name": "Musharna",
     "Color": "Pink",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "PSYCHICTERRAIN",
@@ -58029,6 +58547,7 @@
     "name": "Pidove",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "GUST",
@@ -58104,6 +58623,7 @@
     "name": "Tranquill",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "GUST",
@@ -58179,6 +58699,7 @@
     "name": "Unfezant",
     "Color": "Gray",
     "generation": "5",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "GUST",
@@ -58259,6 +58780,7 @@
     "name": "Blitzle",
     "Color": "Black",
     "generation": "5",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "QUICKATTACK",
@@ -58358,6 +58880,7 @@
     "name": "Zebstrika",
     "Color": "Black",
     "generation": "5",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "QUICKATTACK",
@@ -58455,6 +58978,7 @@
     "name": "Roggenrola",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "SANDATTACK",
@@ -58532,6 +59056,7 @@
     "name": "Boldore",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "POWERGEM",
@@ -58612,6 +59137,7 @@
     "name": "Gigalith",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "POWERGEM",
@@ -58701,6 +59227,7 @@
     "name": "Woobat",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC", "FLYING"],
     "moves": [
       "GUST",
@@ -58816,6 +59343,7 @@
     "name": "Swoobat",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC", "FLYING"],
     "moves": [
       "GUST",
@@ -58936,6 +59464,7 @@
     "name": "Drilbur",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "MUDSLAP",
@@ -59025,6 +59554,7 @@
     "name": "Excadrill",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["GROUND", "STEEL"],
     "moves": [
       "HORNDRILL",
@@ -59127,6 +59657,7 @@
     "name": "Audino",
     "Color": "Pink",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "POUND",
@@ -59256,6 +59787,7 @@
     "name": "Timburr",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "POUND",
@@ -59362,6 +59894,7 @@
     "name": "Gurdurr",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "POUND",
@@ -59462,6 +59995,7 @@
     "name": "Conkeldurr",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "POUND",
@@ -59571,6 +60105,7 @@
     "name": "Tympole",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "ECHOEDVOICE",
@@ -59648,6 +60183,7 @@
     "name": "Palpitoad",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER", "GROUND"],
     "moves": [
       "ECHOEDVOICE",
@@ -59731,6 +60267,7 @@
     "name": "Seismitoad",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER", "GROUND"],
     "moves": [
       "DRAINPUNCH",
@@ -59840,6 +60377,7 @@
     "name": "Throh",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "BIND",
@@ -59939,6 +60477,7 @@
     "name": "Sawk",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "ROCKSMASH",
@@ -60038,6 +60577,7 @@
     "name": "Sewaddle",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "GRASS"],
     "moves": [
       "TACKLE",
@@ -60135,6 +60675,7 @@
     "name": "Swadloon",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "GRASS"],
     "moves": [
       "PROTECT",
@@ -60219,6 +60760,7 @@
     "name": "Leavanny",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "GRASS"],
     "moves": [
       "SLASH",
@@ -60331,6 +60873,7 @@
     "name": "Venipede",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": [
       "POISONSTING",
@@ -60408,6 +60951,7 @@
     "name": "Whirlipede",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": [
       "IRONDEFENSE",
@@ -60486,6 +61030,7 @@
     "name": "Scolipede",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "POISON"],
     "moves": [
       "IRONDEFENSE",
@@ -60588,6 +61133,7 @@
     "name": "Cottonee",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS", "FAIRY"],
     "moves": [
       "ABSORB",
@@ -60678,6 +61224,7 @@
     "name": "Whimsicott",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS", "FAIRY"],
     "moves": [
       "GUST",
@@ -60778,6 +61325,7 @@
     "name": "Petilil",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "ABSORB",
@@ -60861,6 +61409,7 @@
     "name": "Lilligant",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "PETALDANCE",
@@ -60960,6 +61509,7 @@
     "name": "Basculin",
     "Color": "Green",
     "generation": "5",
+    "flags": ["InheritFormFromMother"],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -61056,6 +61606,7 @@
     "name": "Sandile",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["GROUND", "DARK"],
     "moves": [
       "POWERTRIP",
@@ -61162,6 +61713,7 @@
     "name": "Krokorok",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["GROUND", "DARK"],
     "moves": [
       "POWERTRIP",
@@ -61285,6 +61837,7 @@
     "name": "Krookodile",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["GROUND", "DARK"],
     "moves": [
       "POWERTRIP",
@@ -61423,6 +61976,7 @@
     "name": "Darumaka",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "EMBER",
@@ -61523,6 +62077,7 @@
     "name": "Darmanitan",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "HAMMERARM",
@@ -61642,6 +62197,7 @@
     "name": "Maractus",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "SPIKYSHIELD",
@@ -61734,6 +62290,7 @@
     "name": "Dwebble",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "ROCK"],
     "moves": [
       "FURYCUTTER",
@@ -61826,6 +62383,7 @@
     "name": "Crustle",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "ROCK"],
     "moves": [
       "FURYCUTTER",
@@ -61918,6 +62476,7 @@
     "name": "Scraggy",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "FIGHTING"],
     "moves": [
       "LOWKICK",
@@ -62051,6 +62610,7 @@
     "name": "Scrafty",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "FIGHTING"],
     "moves": [
       "LOWKICK",
@@ -62185,6 +62745,7 @@
     "name": "Sigilyph",
     "Color": "Black",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC", "FLYING"],
     "moves": [
       "GUST",
@@ -62295,6 +62856,7 @@
     "name": "Yamask",
     "Color": "Black",
     "generation": "5",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "ASTONISH",
@@ -62390,6 +62952,7 @@
     "name": "Cofagrigus",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "SHADOWCLAW",
@@ -62497,6 +63060,7 @@
     "name": "Tirtouga",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER", "ROCK"],
     "moves": [
       "WATERGUN",
@@ -62601,6 +63165,7 @@
     "name": "Carracosta",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER", "ROCK"],
     "moves": [
       "WATERGUN",
@@ -62705,6 +63270,7 @@
     "name": "Archen",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["ROCK", "FLYING"],
     "moves": [
       "QUICKATTACK",
@@ -62817,6 +63383,7 @@
     "name": "Archeops",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["ROCK", "FLYING"],
     "moves": [
       "QUICKATTACK",
@@ -62930,6 +63497,7 @@
     "name": "Trubbish",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "POUND",
@@ -63012,6 +63580,7 @@
     "name": "Garbodor",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["POISON"],
     "moves": [
       "TAKEDOWN",
@@ -63110,6 +63679,7 @@
     "name": "Zorua",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "SCRATCH",
@@ -63222,6 +63792,7 @@
     "name": "Zoroark",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "NIGHTSLASH",
@@ -63345,6 +63916,7 @@
     "name": "Minccino",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "POUND",
@@ -63443,6 +64015,7 @@
     "name": "Cinccino",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TAILSLAP",
@@ -63552,6 +64125,7 @@
     "name": "Gothita",
     "Color": "Purple",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "POUND",
@@ -63661,6 +64235,7 @@
     "name": "Gothorita",
     "Color": "Purple",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "POUND",
@@ -63770,6 +64345,7 @@
     "name": "Gothitelle",
     "Color": "Purple",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "POUND",
@@ -63889,6 +64465,7 @@
     "name": "Solosis",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -63999,6 +64576,7 @@
     "name": "Duosion",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -64109,6 +64687,7 @@
     "name": "Reuniclus",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "HAMMERARM",
@@ -64239,6 +64818,7 @@
     "name": "Ducklett",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["WATER", "FLYING"],
     "moves": [
       "WATERGUN",
@@ -64333,6 +64913,7 @@
     "name": "Swanna",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["WATER", "FLYING"],
     "moves": [
       "WINGATTACK",
@@ -64424,6 +65005,7 @@
     "name": "Vanillite",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "ASTONISH",
@@ -64509,6 +65091,7 @@
     "name": "Vanillish",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "ASTONISH",
@@ -64587,6 +65170,7 @@
     "name": "Vanilluxe",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "WEATHERBALL",
@@ -64672,6 +65256,7 @@
     "name": "Deerling",
     "Color": "Pink",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL", "GRASS"],
     "moves": [
       "TACKLE",
@@ -64776,6 +65361,7 @@
     "name": "Sawsbuck",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL", "GRASS"],
     "moves": [
       "HORNLEECH",
@@ -64882,6 +65468,7 @@
     "name": "Emolga",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["ELECTRIC", "FLYING"],
     "moves": [
       "NUZZLE",
@@ -64975,6 +65562,7 @@
     "name": "Karrablast",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "PECK",
@@ -65051,6 +65639,7 @@
     "name": "Escavalier",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "STEEL"],
     "moves": [
       "FELLSTINGER",
@@ -65149,6 +65738,7 @@
     "name": "Foongus",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": [
       "ABSORB",
@@ -65228,6 +65818,7 @@
     "name": "Amoonguss",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS", "POISON"],
     "moves": [
       "ABSORB",
@@ -65312,6 +65903,7 @@
     "name": "Frillish",
     "Color": "White",
     "generation": "5",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER", "GHOST"],
     "moves": [
       "ABSORB",
@@ -65411,6 +66003,7 @@
     "name": "Jellicent",
     "Color": "White",
     "generation": "5",
+    "flags": ["HasGenderedSprites"],
     "types": ["WATER", "GHOST"],
     "moves": [
       "ACIDARMOR",
@@ -65507,6 +66100,7 @@
     "name": "Alomomola",
     "Color": "Pink",
     "generation": "5",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "PLAYNICE",
@@ -65608,6 +66202,7 @@
     "name": "Joltik",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "ELECTRIC"],
     "moves": [
       "ABSORB",
@@ -65707,6 +66302,7 @@
     "name": "Galvantula",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "ELECTRIC"],
     "moves": [
       "STICKYWEB",
@@ -65805,6 +66401,7 @@
     "name": "Ferroseed",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS", "STEEL"],
     "moves": [
       "TACKLE",
@@ -65891,6 +66488,7 @@
     "name": "Ferrothorn",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["GRASS", "STEEL"],
     "moves": [
       "POWERWHIP",
@@ -65994,6 +66592,7 @@
     "name": "Klink",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["STEEL"],
     "moves": [
       "THUNDERSHOCK",
@@ -66073,6 +66672,7 @@
     "name": "Klang",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["STEEL"],
     "moves": [
       "THUNDERSHOCK",
@@ -66153,6 +66753,7 @@
     "name": "Klinklang",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["STEEL"],
     "moves": [
       "GEARUP",
@@ -66240,6 +66841,7 @@
     "name": "Tynamo",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": ["TACKLE", "THUNDERWAVE", "SPARK", "CHARGEBEAM"],
     "tutor_moves": [
@@ -66266,6 +66868,7 @@
     "name": "Eelektrik",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "CRUNCH",
@@ -66358,6 +66961,7 @@
     "name": "Eelektross",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "CRUNCH",
@@ -66479,6 +67083,7 @@
     "name": "Elgyem",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -66582,6 +67187,7 @@
     "name": "Beheeyem",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "PSYCHICTERRAIN",
@@ -66692,6 +67298,7 @@
     "name": "Litwick",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["GHOST", "FIRE"],
     "moves": [
       "ASTONISH",
@@ -66791,6 +67398,7 @@
     "name": "Lampent",
     "Color": "Black",
     "generation": "5",
+    "flags": [],
     "types": ["GHOST", "FIRE"],
     "moves": [
       "ASTONISH",
@@ -66891,6 +67499,7 @@
     "name": "Chandelure",
     "Color": "Black",
     "generation": "5",
+    "flags": [],
     "types": ["GHOST", "FIRE"],
     "moves": [
       "CONFUSERAY",
@@ -66995,6 +67604,7 @@
     "name": "Axew",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "SCRATCH",
@@ -67112,6 +67722,7 @@
     "name": "Fraxure",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "SCRATCH",
@@ -67222,6 +67833,7 @@
     "name": "Haxorus",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "SCRATCH",
@@ -67343,6 +67955,7 @@
     "name": "Cubchoo",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "POWDERSNOW",
@@ -67454,6 +68067,7 @@
     "name": "Beartic",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "ICICLECRASH",
@@ -67586,6 +68200,7 @@
     "name": "Cryogonal",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "BIND",
@@ -67679,6 +68294,7 @@
     "name": "Shelmet",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "ABSORB",
@@ -67754,6 +68370,7 @@
     "name": "Accelgor",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "WATERSHURIKEN",
@@ -67850,6 +68467,7 @@
     "name": "Stunfisk",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["GROUND", "ELECTRIC"],
     "moves": [
       "MUDSLAP",
@@ -67952,6 +68570,7 @@
     "name": "Mienfoo",
     "Color": "Yellow",
     "generation": "5",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "POUND",
@@ -68055,6 +68674,7 @@
     "name": "Mienshao",
     "Color": "Purple",
     "generation": "5",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "QUICKGUARD",
@@ -68169,6 +68789,7 @@
     "name": "Druddigon",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "SCRATCH",
@@ -68282,6 +68903,7 @@
     "name": "Golett",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GROUND", "GHOST"],
     "moves": [
       "MUDSLAP",
@@ -68401,6 +69023,7 @@
     "name": "Golurk",
     "Color": "Green",
     "generation": "5",
+    "flags": [],
     "types": ["GROUND", "GHOST"],
     "moves": [
       "MUDSLAP",
@@ -68538,6 +69161,7 @@
     "name": "Pawniard",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "STEEL"],
     "moves": [
       "SCRATCH",
@@ -68646,6 +69270,7 @@
     "name": "Bisharp",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "STEEL"],
     "moves": [
       "METALBURST",
@@ -68761,6 +69386,7 @@
     "name": "Bouffalant",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -68864,6 +69490,7 @@
     "name": "Rufflet",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -68959,6 +69586,7 @@
     "name": "Braviary",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "SUPERPOWER",
@@ -69062,6 +69690,7 @@
     "name": "Vullaby",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "FLYING"],
     "moves": [
       "GUST",
@@ -69163,6 +69792,7 @@
     "name": "Mandibuzz",
     "Color": "Brown",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "FLYING"],
     "moves": [
       "BONERUSH",
@@ -69274,6 +69904,7 @@
     "name": "Heatmor",
     "Color": "Red",
     "generation": "5",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "LICK",
@@ -69375,6 +70006,7 @@
     "name": "Durant",
     "Color": "Gray",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "STEEL"],
     "moves": [
       "FURYCUTTER",
@@ -69472,6 +70104,7 @@
     "name": "Deino",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "DRAGON"],
     "moves": [
       "TACKLE",
@@ -69567,6 +70200,7 @@
     "name": "Zweilous",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "DRAGON"],
     "moves": [
       "DOUBLEHIT",
@@ -69667,6 +70301,7 @@
     "name": "Hydreigon",
     "Color": "Blue",
     "generation": "5",
+    "flags": [],
     "types": ["DARK", "DRAGON"],
     "moves": [
       "TRIATTACK",
@@ -69804,6 +70439,7 @@
     "name": "Larvesta",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "FIRE"],
     "moves": [
       "EMBER",
@@ -69893,6 +70529,7 @@
     "name": "Volcarona",
     "Color": "White",
     "generation": "5",
+    "flags": [],
     "types": ["BUG", "FIRE"],
     "moves": [
       "QUIVERDANCE",
@@ -70004,6 +70641,7 @@
     "name": "Cobalion",
     "Color": "Blue",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["STEEL", "FIGHTING"],
     "moves": [
       "QUICKATTACK",
@@ -70116,6 +70754,7 @@
     "name": "Terrakion",
     "Color": "Gray",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["ROCK", "FIGHTING"],
     "moves": [
       "QUICKATTACK",
@@ -70222,6 +70861,7 @@
     "name": "Virizion",
     "Color": "Green",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["GRASS", "FIGHTING"],
     "moves": [
       "TAKEDOWN",
@@ -70335,6 +70975,7 @@
     "name": "Tornadus",
     "Color": "Green",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["FLYING"],
     "moves": [
       "ASTONISH",
@@ -70449,6 +71090,7 @@
     "name": "Thundurus",
     "Color": "Blue",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["ELECTRIC", "FLYING"],
     "moves": [
       "ASTONISH",
@@ -70570,6 +71212,7 @@
     "name": "Reshiram",
     "Color": "White",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["DRAGON", "FIRE"],
     "moves": [
       "DRAGONBREATH",
@@ -70690,6 +71333,7 @@
     "name": "Zekrom",
     "Color": "Black",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["DRAGON", "ELECTRIC"],
     "moves": [
       "DRAGONBREATH",
@@ -70818,6 +71462,7 @@
     "name": "Landorus",
     "Color": "Brown",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["GROUND", "FLYING"],
     "moves": [
       "SANDTOMB",
@@ -70929,6 +71574,7 @@
     "name": "Kyurem",
     "Color": "Gray",
     "generation": "5",
+    "flags": ["Legendary"],
     "types": ["DRAGON", "ICE"],
     "moves": [
       "DRAGONBREATH",
@@ -71044,6 +71690,7 @@
     "name": "Keldeo",
     "Color": "Yellow",
     "generation": "5",
+    "flags": ["Mythical"],
     "types": ["WATER", "FIGHTING"],
     "moves": [
       "AQUAJET",
@@ -71153,6 +71800,7 @@
     "name": "Meloetta",
     "Color": "White",
     "generation": "5",
+    "flags": ["Mythical"],
     "types": ["NORMAL", "PSYCHIC"],
     "moves": [
       "ROUND",
@@ -71287,6 +71935,7 @@
     "name": "Genesect",
     "Color": "Purple",
     "generation": "5",
+    "flags": ["Mythical"],
     "types": ["BUG", "STEEL"],
     "moves": [
       "FURYCUTTER",
@@ -71394,6 +72043,7 @@
     "name": "Chespin",
     "Color": "Green",
     "generation": "6",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "GROWL",
@@ -71515,6 +72165,7 @@
     "name": "Quilladin",
     "Color": "Green",
     "generation": "6",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "GROWL",
@@ -71633,6 +72284,7 @@
     "name": "Chesnaught",
     "Color": "Green",
     "generation": "6",
+    "flags": [],
     "types": ["GRASS", "FIGHTING"],
     "moves": [
       "SPIKYSHIELD",
@@ -71775,6 +72427,7 @@
     "name": "Fennekin",
     "Color": "Red",
     "generation": "6",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -71885,6 +72538,7 @@
     "name": "Braixen",
     "Color": "Red",
     "generation": "6",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -71999,6 +72653,7 @@
     "name": "Delphox",
     "Color": "Red",
     "generation": "6",
+    "flags": [],
     "types": ["FIRE", "PSYCHIC"],
     "moves": [
       "MYSTICALFIRE",
@@ -72138,6 +72793,7 @@
     "name": "Froakie",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -72248,6 +72904,7 @@
     "name": "Frogadier",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -72350,6 +73007,7 @@
     "name": "Greninja",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["WATER", "DARK"],
     "moves": [
       "WATERSHURIKEN",
@@ -72467,6 +73125,7 @@
     "name": "Bunnelby",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "MUDSLAP",
@@ -72559,6 +73218,7 @@
     "name": "Diggersby",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["NORMAL", "GROUND"],
     "moves": [
       "MUDSLAP",
@@ -72675,6 +73335,7 @@
     "name": "Fletchling",
     "Color": "Red",
     "generation": "6",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -72757,6 +73418,7 @@
     "name": "Fletchinder",
     "Color": "Red",
     "generation": "6",
+    "flags": [],
     "types": ["FIRE", "FLYING"],
     "moves": [
       "FLAMECHARGE",
@@ -72847,6 +73509,7 @@
     "name": "Talonflame",
     "Color": "Red",
     "generation": "6",
+    "flags": [],
     "types": ["FIRE", "FLYING"],
     "moves": [
       "FLAMECHARGE",
@@ -72945,6 +73608,7 @@
     "name": "Scatterbug",
     "Color": "Black",
     "generation": "6",
+    "flags": [],
     "types": ["BUG"],
     "moves": ["TACKLE", "STRINGSHOT", "STUNSPORE", "BUGBITE"],
     "tutor_moves": ["BUGBITE", "POUNCE", "STRUGGLEBUG", "TERABLAST"],
@@ -72964,6 +73628,7 @@
     "name": "Spewpa",
     "Color": "Black",
     "generation": "6",
+    "flags": [],
     "types": ["BUG"],
     "moves": ["PROTECT", "HARDEN"],
     "tutor_moves": [
@@ -72990,6 +73655,7 @@
     "name": "Vivillon",
     "Color": "White",
     "generation": "6",
+    "flags": [],
     "types": ["BUG", "FLYING"],
     "moves": [
       "GUST",
@@ -73080,6 +73746,7 @@
     "name": "Litleo",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["FIRE", "NORMAL"],
     "moves": [
       "TACKLE",
@@ -73177,6 +73844,7 @@
     "name": "Pyroar",
     "Color": "Brown",
     "generation": "6",
+    "flags": ["HasGenderedSprites"],
     "types": ["FIRE", "NORMAL"],
     "moves": [
       "HYPERBEAM",
@@ -73281,6 +73949,7 @@
     "name": "Flabébé",
     "Color": "White",
     "generation": "6",
+    "flags": ["InheritFormFromMother"],
     "types": ["FAIRY"],
     "moves": [
       "TACKLE",
@@ -73380,6 +74049,7 @@
     "name": "Floette",
     "Color": "White",
     "generation": "6",
+    "flags": ["InheritFormFromMother"],
     "types": ["FAIRY"],
     "moves": [
       "TACKLE",
@@ -73476,6 +74146,7 @@
     "name": "Florges",
     "Color": "White",
     "generation": "6",
+    "flags": ["InheritFormFromMother"],
     "types": ["FAIRY"],
     "moves": [
       "DISARMINGVOICE",
@@ -73575,6 +74246,7 @@
     "name": "Skiddo",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
@@ -73671,6 +74343,7 @@
     "name": "Gogoat",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "AERIALACE",
@@ -73778,6 +74451,7 @@
     "name": "Pancham",
     "Color": "White",
     "generation": "6",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "TACKLE",
@@ -73895,6 +74569,7 @@
     "name": "Pangoro",
     "Color": "White",
     "generation": "6",
+    "flags": [],
     "types": ["FIGHTING", "DARK"],
     "moves": [
       "NIGHTSLASH",
@@ -74033,6 +74708,7 @@
     "name": "Furfrou",
     "Color": "White",
     "generation": "6",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -74113,6 +74789,7 @@
     "name": "Espurr",
     "Color": "Gray",
     "generation": "6",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "SCRATCH",
@@ -74215,6 +74892,7 @@
     "name": "Meowstic",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "MEANLOOK",
@@ -74338,6 +75016,7 @@
     "name": "Honedge",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["STEEL", "GHOST"],
     "moves": [
       "TACKLE",
@@ -74420,6 +75099,7 @@
     "name": "Doublade",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["STEEL", "GHOST"],
     "moves": [
       "TACKLE",
@@ -74502,6 +75182,7 @@
     "name": "Aegislash",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["STEEL", "GHOST"],
     "moves": [
       "KINGSSHIELD",
@@ -74592,6 +75273,7 @@
     "name": "Spritzee",
     "Color": "Pink",
     "generation": "6",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "FAIRYWIND",
@@ -74682,6 +75364,7 @@
     "name": "Aromatisse",
     "Color": "Pink",
     "generation": "6",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "AROMATICMIST",
@@ -74781,6 +75464,7 @@
     "name": "Swirlix",
     "Color": "White",
     "generation": "6",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "TACKLE",
@@ -74865,6 +75549,7 @@
     "name": "Slurpuff",
     "Color": "White",
     "generation": "6",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "TACKLE",
@@ -74955,6 +75640,7 @@
     "name": "Inkay",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["DARK", "PSYCHIC"],
     "moves": [
       "PECK",
@@ -75060,6 +75746,7 @@
     "name": "Malamar",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["DARK", "PSYCHIC"],
     "moves": [
       "REVERSAL",
@@ -75176,6 +75863,7 @@
     "name": "Binacle",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["ROCK", "WATER"],
     "moves": [
       "SCRATCH",
@@ -75283,6 +75971,7 @@
     "name": "Barbaracle",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["ROCK", "WATER"],
     "moves": [
       "SKULLBASH",
@@ -75406,6 +76095,7 @@
     "name": "Skrelp",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["POISON", "WATER"],
     "moves": [
       "TACKLE",
@@ -75501,6 +76191,7 @@
     "name": "Dragalge",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["POISON", "DRAGON"],
     "moves": [
       "TACKLE",
@@ -75602,6 +76293,7 @@
     "name": "Clauncher",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SPLASH",
@@ -75691,6 +76383,7 @@
     "name": "Clawitzer",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "DARKPULSE",
@@ -75791,6 +76484,7 @@
     "name": "Helioptile",
     "Color": "Yellow",
     "generation": "6",
+    "flags": [],
     "types": ["ELECTRIC", "NORMAL"],
     "moves": [
       "MUDSLAP",
@@ -75879,6 +76573,7 @@
     "name": "Heliolisk",
     "Color": "Yellow",
     "generation": "6",
+    "flags": [],
     "types": ["ELECTRIC", "NORMAL"],
     "moves": [
       "EERIEIMPULSE",
@@ -75985,6 +76680,7 @@
     "name": "Tyrunt",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["ROCK", "DRAGON"],
     "moves": [
       "TACKLE",
@@ -76087,6 +76783,7 @@
     "name": "Tyrantrum",
     "Color": "Red",
     "generation": "6",
+    "flags": [],
     "types": ["ROCK", "DRAGON"],
     "moves": [
       "TACKLE",
@@ -76196,6 +76893,7 @@
     "name": "Amaura",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["ROCK", "ICE"],
     "moves": [
       "POWDERSNOW",
@@ -76309,6 +77007,7 @@
     "name": "Aurorus",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["ROCK", "ICE"],
     "moves": [
       "POWDERSNOW",
@@ -76420,6 +77119,7 @@
     "name": "Sylveon",
     "Color": "Pink",
     "generation": "6",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "DISARMINGVOICE",
@@ -76537,6 +77237,7 @@
     "name": "Hawlucha",
     "Color": "Green",
     "generation": "6",
+    "flags": [],
     "types": ["FIGHTING", "FLYING"],
     "moves": [
       "TACKLE",
@@ -76676,6 +77377,7 @@
     "name": "Dedenne",
     "Color": "Yellow",
     "generation": "6",
+    "flags": [],
     "types": ["ELECTRIC", "FAIRY"],
     "moves": [
       "NUZZLE",
@@ -76779,6 +77481,7 @@
     "name": "Carbink",
     "Color": "Gray",
     "generation": "6",
+    "flags": [],
     "types": ["ROCK", "FAIRY"],
     "moves": [
       "TACKLE",
@@ -76885,6 +77588,7 @@
     "name": "Goomy",
     "Color": "Purple",
     "generation": "6",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "ABSORB",
@@ -76959,6 +77663,7 @@
     "name": "Sliggoo",
     "Color": "Purple",
     "generation": "6",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "ACIDSPRAY",
@@ -77040,6 +77745,7 @@
     "name": "Goodra",
     "Color": "Purple",
     "generation": "6",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "AQUATAIL",
@@ -77158,6 +77864,7 @@
     "name": "Klefki",
     "Color": "Gray",
     "generation": "6",
+    "flags": [],
     "types": ["STEEL", "FAIRY"],
     "moves": [
       "ASTONISH",
@@ -77251,6 +77958,7 @@
     "name": "Phantump",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["GHOST", "GRASS"],
     "moves": [
       "ASTONISH",
@@ -77357,6 +78065,7 @@
     "name": "Trevenant",
     "Color": "Brown",
     "generation": "6",
+    "flags": [],
     "types": ["GHOST", "GRASS"],
     "moves": [
       "SHADOWCLAW",
@@ -77483,6 +78192,7 @@
     "name": "Pumpkaboo",
     "Color": "Brown",
     "generation": "6",
+    "flags": ["InheritFormFromMother"],
     "types": ["GHOST", "GRASS"],
     "moves": [
       "TRICKORTREAT",
@@ -77586,6 +78296,7 @@
     "name": "Gourgeist",
     "Color": "Brown",
     "generation": "6",
+    "flags": ["InheritFormFromMother"],
     "types": ["GHOST", "GRASS"],
     "moves": [
       "EXPLOSION",
@@ -77699,6 +78410,7 @@
     "name": "Bergmite",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "RAPIDSPIN",
@@ -77785,6 +78497,7 @@
     "name": "Avalugg",
     "Color": "Blue",
     "generation": "6",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "BODYSLAM",
@@ -77888,6 +78601,7 @@
     "name": "Noibat",
     "Color": "Purple",
     "generation": "6",
+    "flags": [],
     "types": ["FLYING", "DRAGON"],
     "moves": [
       "TACKLE",
@@ -77991,6 +78705,7 @@
     "name": "Noivern",
     "Color": "Purple",
     "generation": "6",
+    "flags": [],
     "types": ["FLYING", "DRAGON"],
     "moves": [
       "DRAGONPULSE",
@@ -78108,6 +78823,7 @@
     "name": "Xerneas",
     "Color": "Blue",
     "generation": "6",
+    "flags": ["Legendary"],
     "types": ["FAIRY"],
     "moves": [
       "TACKLE",
@@ -78209,6 +78925,7 @@
     "name": "Yveltal",
     "Color": "Red",
     "generation": "6",
+    "flags": ["Legendary"],
     "types": ["DARK", "FLYING"],
     "moves": [
       "GUST",
@@ -78311,6 +79028,7 @@
     "name": "Zygarde",
     "Color": "Green",
     "generation": "6",
+    "flags": ["Legendary"],
     "types": ["DRAGON", "GROUND"],
     "moves": [
       "THOUSANDARROWS",
@@ -78411,6 +79129,7 @@
     "name": "Diancie",
     "Color": "Pink",
     "generation": "6",
+    "flags": ["Mythical"],
     "types": ["ROCK", "FAIRY"],
     "moves": [
       "DIAMONDSTORM",
@@ -78529,6 +79248,7 @@
     "name": "Hoopa",
     "Color": "Purple",
     "generation": "6",
+    "flags": ["Mythical"],
     "types": ["PSYCHIC", "GHOST"],
     "moves": [
       "DESTINYBOND",
@@ -78657,6 +79377,7 @@
     "name": "Volcanion",
     "Color": "Brown",
     "generation": "6",
+    "flags": ["Mythical"],
     "types": ["FIRE", "WATER"],
     "moves": [
       "STEAMERUPTION",
@@ -78774,6 +79495,7 @@
     "name": "Rowlet",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS", "FLYING"],
     "moves": [
       "TACKLE",
@@ -78873,6 +79595,7 @@
     "name": "Dartrix",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS", "FLYING"],
     "moves": [
       "TACKLE",
@@ -78974,6 +79697,7 @@
     "name": "Decidueye",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS", "GHOST"],
     "moves": [
       "SPIRITSHACKLE",
@@ -79100,6 +79824,7 @@
     "name": "Litten",
     "Color": "Red",
     "generation": "7",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -79190,6 +79915,7 @@
     "name": "Torracat",
     "Color": "Red",
     "generation": "7",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
@@ -79281,6 +80007,7 @@
     "name": "Incineroar",
     "Color": "Red",
     "generation": "7",
+    "flags": [],
     "types": ["FIRE", "DARK"],
     "moves": [
       "DARKESTLARIAT",
@@ -79416,6 +80143,7 @@
     "name": "Popplio",
     "Color": "Blue",
     "generation": "7",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -79505,6 +80233,7 @@
     "name": "Brionne",
     "Color": "Blue",
     "generation": "7",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -79595,6 +80324,7 @@
     "name": "Primarina",
     "Color": "Blue",
     "generation": "7",
+    "flags": [],
     "types": ["WATER", "FAIRY"],
     "moves": [
       "SPARKLINGARIA",
@@ -79707,6 +80437,7 @@
     "name": "Pikipek",
     "Color": "Black",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "PECK",
@@ -79800,6 +80531,7 @@
     "name": "Trumbeak",
     "Color": "Black",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "ECHOEDVOICE",
@@ -79888,6 +80620,7 @@
     "name": "Toucannon",
     "Color": "Black",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "BEAKBLAST",
@@ -79988,6 +80721,7 @@
     "name": "Yungoos",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -80086,6 +80820,7 @@
     "name": "Gumshoos",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -80193,6 +80928,7 @@
     "name": "Grubbin",
     "Color": "Gray",
     "generation": "7",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "VISEGRIP",
@@ -80271,6 +81007,7 @@
     "name": "Charjabug",
     "Color": "Green",
     "generation": "7",
+    "flags": [],
     "types": ["BUG", "ELECTRIC"],
     "moves": [
       "CHARGE",
@@ -80356,6 +81093,7 @@
     "name": "Vikavolt",
     "Color": "Blue",
     "generation": "7",
+    "flags": [],
     "types": ["BUG", "ELECTRIC"],
     "moves": [
       "THUNDERBOLT",
@@ -80464,6 +81202,7 @@
     "name": "Crabrawler",
     "Color": "Purple",
     "generation": "7",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "VISEGRIP",
@@ -80566,6 +81305,7 @@
     "name": "Crabominable",
     "Color": "White",
     "generation": "7",
+    "flags": [],
     "types": ["FIGHTING", "ICE"],
     "moves": [
       "ICEPUNCH",
@@ -80675,6 +81415,7 @@
     "name": "Oricorio",
     "Color": "Red",
     "generation": "7",
+    "flags": ["InheritFormFromMother"],
     "types": ["FIRE", "FLYING"],
     "moves": [
       "POUND",
@@ -80776,6 +81517,7 @@
     "name": "Cutiefly",
     "Color": "Yellow",
     "generation": "7",
+    "flags": [],
     "types": ["BUG", "FAIRY"],
     "moves": [
       "ABSORB",
@@ -80874,6 +81616,7 @@
     "name": "Ribombee",
     "Color": "Yellow",
     "generation": "7",
+    "flags": [],
     "types": ["BUG", "FAIRY"],
     "moves": [
       "POLLENPUFF",
@@ -80984,6 +81727,7 @@
     "name": "Rockruff",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "TACKLE",
@@ -81075,6 +81819,7 @@
     "name": "Lycanroc",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "SUCKERPUNCH",
@@ -81181,6 +81926,7 @@
     "name": "Wishiwashi",
     "Color": "Blue",
     "generation": "7",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -81262,6 +82008,7 @@
     "name": "Mareanie",
     "Color": "Blue",
     "generation": "7",
+    "flags": [],
     "types": ["POISON", "WATER"],
     "moves": [
       "POISONSTING",
@@ -81352,6 +82099,7 @@
     "name": "Toxapex",
     "Color": "Blue",
     "generation": "7",
+    "flags": [],
     "types": ["POISON", "WATER"],
     "moves": [
       "BANEFULBUNKER",
@@ -81451,6 +82199,7 @@
     "name": "Mudbray",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "MUDSLAP",
@@ -81534,6 +82283,7 @@
     "name": "Mudsdale",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "MUDSLAP",
@@ -81625,6 +82375,7 @@
     "name": "Dewpider",
     "Color": "Green",
     "generation": "7",
+    "flags": [],
     "types": ["WATER", "BUG"],
     "moves": [
       "WATERGUN",
@@ -81709,6 +82460,7 @@
     "name": "Araquanid",
     "Color": "Green",
     "generation": "7",
+    "flags": [],
     "types": ["WATER", "BUG"],
     "moves": [
       "WIDEGUARD",
@@ -81802,6 +82554,7 @@
     "name": "Fomantis",
     "Color": "Pink",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "LEAFAGE",
@@ -81886,6 +82639,7 @@
     "name": "Lurantis",
     "Color": "Pink",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "PETALBLIZZARD",
@@ -81987,6 +82741,7 @@
     "name": "Morelull",
     "Color": "Purple",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS", "FAIRY"],
     "moves": [
       "ABSORB",
@@ -82065,6 +82820,7 @@
     "name": "Shiinotic",
     "Color": "Purple",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS", "FAIRY"],
     "moves": [
       "ABSORB",
@@ -82149,6 +82905,7 @@
     "name": "Salandit",
     "Color": "Black",
     "generation": "7",
+    "flags": [],
     "types": ["POISON", "FIRE"],
     "moves": [
       "SCRATCH",
@@ -82251,6 +83008,7 @@
     "name": "Salazzle",
     "Color": "Black",
     "generation": "7",
+    "flags": [],
     "types": ["POISON", "FIRE"],
     "moves": [
       "FIRELASH",
@@ -82374,6 +83132,7 @@
     "name": "Stufful",
     "Color": "Pink",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL", "FIGHTING"],
     "moves": [
       "TACKLE",
@@ -82460,6 +83219,7 @@
     "name": "Bewear",
     "Color": "Pink",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL", "FIGHTING"],
     "moves": [
       "BIND",
@@ -82560,6 +83320,7 @@
     "name": "Bounsweet",
     "Color": "Purple",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "SPLASH",
@@ -82639,6 +83400,7 @@
     "name": "Steenee",
     "Color": "Purple",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "FLAIL",
@@ -82725,6 +83487,7 @@
     "name": "Tsareena",
     "Color": "Purple",
     "generation": "7",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TROPKICK",
@@ -82826,6 +83589,7 @@
     "name": "Comfey",
     "Color": "Green",
     "generation": "7",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "WRAP",
@@ -82937,6 +83701,7 @@
     "name": "Oranguru",
     "Color": "White",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL", "PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -83059,6 +83824,7 @@
     "name": "Passimian",
     "Color": "White",
     "generation": "7",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "TACKLE",
@@ -83183,6 +83949,7 @@
     "name": "Wimpod",
     "Color": "Gray",
     "generation": "7",
+    "flags": [],
     "types": ["BUG", "WATER"],
     "moves": ["STRUGGLEBUG", "SANDATTACK", "DEFENSECURL"],
     "tutor_moves": [
@@ -83237,6 +84004,7 @@
     "name": "Golisopod",
     "Color": "Gray",
     "generation": "7",
+    "flags": [],
     "types": ["BUG", "WATER"],
     "moves": [
       "FIRSTIMPRESSION",
@@ -83351,6 +84119,7 @@
     "name": "Sandygast",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["GHOST", "GROUND"],
     "moves": [
       "ABSORB",
@@ -83456,6 +84225,7 @@
     "name": "Palossand",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["GHOST", "GROUND"],
     "moves": [
       "ABSORB",
@@ -83560,6 +84330,7 @@
     "name": "Pyukumuku",
     "Color": "Black",
     "generation": "7",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "BATONPASS",
@@ -83626,6 +84397,7 @@
     "name": "Type: Null",
     "Color": "Gray",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -83708,6 +84480,7 @@
     "name": "Silvally",
     "Color": "Gray",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["NORMAL"],
     "moves": [
       "MULTIATTACK",
@@ -83825,6 +84598,7 @@
     "name": "Minior",
     "Color": "Brown",
     "generation": "7",
+    "flags": [],
     "types": ["ROCK", "FLYING"],
     "moves": [
       "TACKLE",
@@ -83919,6 +84693,7 @@
     "name": "Komala",
     "Color": "Blue",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "DEFENSECURL",
@@ -84015,6 +84790,7 @@
     "name": "Turtonator",
     "Color": "Red",
     "generation": "7",
+    "flags": [],
     "types": ["FIRE", "DRAGON"],
     "moves": [
       "SMOG",
@@ -84124,6 +84900,7 @@
     "name": "Togedemaru",
     "Color": "Gray",
     "generation": "7",
+    "flags": [],
     "types": ["ELECTRIC", "STEEL"],
     "moves": [
       "NUZZLE",
@@ -84230,6 +85007,7 @@
     "name": "Mimikyu",
     "Color": "Yellow",
     "generation": "7",
+    "flags": [],
     "types": ["GHOST", "FAIRY"],
     "moves": [
       "SPLASH",
@@ -84341,6 +85119,7 @@
     "name": "Bruxish",
     "Color": "Pink",
     "generation": "7",
+    "flags": [],
     "types": ["WATER", "PSYCHIC"],
     "moves": [
       "WATERGUN",
@@ -84445,6 +85224,7 @@
     "name": "Drampa",
     "Color": "White",
     "generation": "7",
+    "flags": [],
     "types": ["NORMAL", "DRAGON"],
     "moves": [
       "PLAYNICE",
@@ -84560,6 +85340,7 @@
     "name": "Dhelmise",
     "Color": "Green",
     "generation": "7",
+    "flags": [],
     "types": ["GHOST", "GRASS"],
     "moves": [
       "ABSORB",
@@ -84667,6 +85448,7 @@
     "name": "Jangmo-o",
     "Color": "Gray",
     "generation": "7",
+    "flags": [],
     "types": ["DRAGON"],
     "moves": [
       "TACKLE",
@@ -84760,6 +85542,7 @@
     "name": "Hakamo-o",
     "Color": "Gray",
     "generation": "7",
+    "flags": [],
     "types": ["DRAGON", "FIGHTING"],
     "moves": [
       "TACKLE",
@@ -84868,6 +85651,7 @@
     "name": "Kommo-o",
     "Color": "Gray",
     "generation": "7",
+    "flags": [],
     "types": ["DRAGON", "FIGHTING"],
     "moves": [
       "CLANGINGSCALES",
@@ -85002,6 +85786,7 @@
     "name": "Tapu Koko",
     "Color": "Yellow",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["ELECTRIC", "FAIRY"],
     "moves": [
       "QUICKATTACK",
@@ -85107,6 +85892,7 @@
     "name": "Tapu Lele",
     "Color": "Pink",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC", "FAIRY"],
     "moves": [
       "ASTONISH",
@@ -85205,6 +85991,7 @@
     "name": "Tapu Bulu",
     "Color": "Red",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["GRASS", "FAIRY"],
     "moves": [
       "LEAFAGE",
@@ -85313,6 +86100,7 @@
     "name": "Tapu Fini",
     "Color": "Purple",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["WATER", "FAIRY"],
     "moves": [
       "DISARMINGVOICE",
@@ -85414,6 +86202,7 @@
     "name": "Cosmog",
     "Color": "Blue",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC"],
     "moves": ["SPLASH", "TELEPORT"],
     "tutor_moves": [],
@@ -85433,6 +86222,7 @@
     "name": "Cosmoem",
     "Color": "Blue",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC"],
     "moves": ["COSMICPOWER", "TELEPORT"],
     "tutor_moves": ["COSMICPOWER"],
@@ -85452,6 +86242,7 @@
     "name": "Solgaleo",
     "Color": "White",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC", "STEEL"],
     "moves": [
       "SUNSTEELSTRIKE",
@@ -85571,6 +86362,7 @@
     "name": "Lunala",
     "Color": "Purple",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC", "GHOST"],
     "moves": [
       "MOONGEISTBEAM",
@@ -85685,6 +86477,7 @@
     "name": "Nihilego",
     "Color": "White",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["ROCK", "POISON"],
     "moves": [
       "WRAP",
@@ -85784,6 +86577,7 @@
     "name": "Buzzwole",
     "Color": "Red",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["BUG", "FIGHTING"],
     "moves": [
       "POWERUPPUNCH",
@@ -85880,6 +86674,7 @@
     "name": "Pheromosa",
     "Color": "White",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["BUG", "FIGHTING"],
     "moves": [
       "FEINT",
@@ -85973,6 +86768,7 @@
     "name": "Xurkitree",
     "Color": "Black",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["ELECTRIC"],
     "moves": [
       "WRAP",
@@ -86061,6 +86857,7 @@
     "name": "Celesteela",
     "Color": "Green",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["STEEL", "FLYING"],
     "moves": [
       "ABSORB",
@@ -86155,6 +86952,7 @@
     "name": "Kartana",
     "Color": "White",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["GRASS", "STEEL"],
     "moves": [
       "FURYCUTTER",
@@ -86231,6 +87029,7 @@
     "name": "Guzzlord",
     "Color": "Black",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["DARK", "DRAGON"],
     "moves": [
       "BITE",
@@ -86336,6 +87135,7 @@
     "name": "Necrozma",
     "Color": "Black",
     "generation": "7",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC"],
     "moves": [
       "MOONLIGHT",
@@ -86453,6 +87253,7 @@
     "name": "Magearna",
     "Color": "Gray",
     "generation": "7",
+    "flags": ["Mythical"],
     "types": ["STEEL", "FAIRY"],
     "moves": [
       "GYROBALL",
@@ -86582,6 +87383,7 @@
     "name": "Marshadow",
     "Color": "Gray",
     "generation": "7",
+    "flags": ["Mythical"],
     "types": ["FIGHTING", "GHOST"],
     "moves": [
       "THUNDERPUNCH",
@@ -86697,6 +87499,7 @@
     "name": "Poipole",
     "Color": "Purple",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["POISON"],
     "moves": [
       "DRAGONPULSE",
@@ -86767,6 +87570,7 @@
     "name": "Naganadel",
     "Color": "Purple",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["POISON", "DRAGON"],
     "moves": [
       "AIRCUTTER",
@@ -86878,6 +87682,7 @@
     "name": "Stakataka",
     "Color": "Gray",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["ROCK", "STEEL"],
     "moves": [
       "TACKLE",
@@ -86975,6 +87780,7 @@
     "name": "Blacephalon",
     "Color": "White",
     "generation": "7",
+    "flags": ["UltraBeast"],
     "types": ["FIRE", "GHOST"],
     "moves": [
       "ASTONISH",
@@ -87072,6 +87878,7 @@
     "name": "Zeraora",
     "Color": "Yellow",
     "generation": "7",
+    "flags": ["Mythical"],
     "types": ["ELECTRIC"],
     "moves": [
       "POWERUPPUNCH",
@@ -87185,6 +87992,7 @@
     "name": "Meltan",
     "Color": "Gray",
     "generation": "7",
+    "flags": ["Mythical"],
     "types": ["STEEL"],
     "moves": [
       "THUNDERSHOCK",
@@ -87238,6 +88046,7 @@
     "name": "Melmetal",
     "Color": "Gray",
     "generation": "7",
+    "flags": ["Mythical"],
     "types": ["STEEL"],
     "moves": [
       "THUNDERPUNCH",
@@ -87323,6 +88132,7 @@
     "name": "Grookey",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "SCRATCH",
@@ -87418,6 +88228,7 @@
     "name": "Thwackey",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "DOUBLEHIT",
@@ -87508,6 +88319,7 @@
     "name": "Rillaboom",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "DRUMBEATING",
@@ -87622,6 +88434,7 @@
     "name": "Scorbunny",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "TACKLE",
@@ -87709,6 +88522,7 @@
     "name": "Raboot",
     "Color": "Gray",
     "generation": "8",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "TACKLE",
@@ -87800,6 +88614,7 @@
     "name": "Cinderace",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "PYROBALL",
@@ -87910,6 +88725,7 @@
     "name": "Sobble",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -87992,6 +88808,7 @@
     "name": "Drizzile",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -88068,6 +88885,7 @@
     "name": "Inteleon",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "SNIPESHOT",
@@ -88173,6 +88991,7 @@
     "name": "Skwovet",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -88250,6 +89069,7 @@
     "name": "Greedent",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "COVET",
@@ -88345,6 +89165,7 @@
     "name": "Rookidee",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["FLYING"],
     "moves": [
       "PECK",
@@ -88429,6 +89250,7 @@
     "name": "Corvisquire",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["FLYING"],
     "moves": [
       "PECK",
@@ -88507,6 +89329,7 @@
     "name": "Corviknight",
     "Color": "Purple",
     "generation": "8",
+    "flags": [],
     "types": ["FLYING", "STEEL"],
     "moves": [
       "STEELWING",
@@ -88608,6 +89431,7 @@
     "name": "Blipbug",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["BUG"],
     "moves": ["STRUGGLEBUG"],
     "tutor_moves": [],
@@ -88627,6 +89451,7 @@
     "name": "Dottler",
     "Color": "Yellow",
     "generation": "8",
+    "flags": [],
     "types": ["BUG", "PSYCHIC"],
     "moves": ["REFLECT", "LIGHTSCREEN", "CONFUSION", "STRUGGLEBUG"],
     "tutor_moves": [
@@ -88696,6 +89521,7 @@
     "name": "Orbeetle",
     "Color": "Red",
     "generation": "8",
+    "flags": [],
     "types": ["BUG", "PSYCHIC"],
     "moves": [
       "REFLECT",
@@ -88789,6 +89615,7 @@
     "name": "Nickit",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "QUICKATTACK",
@@ -88858,6 +89685,7 @@
     "name": "Thievul",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "THIEF",
@@ -88943,6 +89771,7 @@
     "name": "Gossifleur",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "LEAFAGE",
@@ -89017,6 +89846,7 @@
     "name": "Eldegoss",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "COTTONSPORE",
@@ -89090,6 +89920,7 @@
     "name": "Wooloo",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -89151,6 +89982,7 @@
     "name": "Dubwool",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -89223,6 +90055,7 @@
     "name": "Chewtle",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -89296,6 +90129,7 @@
     "name": "Drednaw",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["WATER", "ROCK"],
     "moves": [
       "ROCKTOMB",
@@ -89404,6 +90238,7 @@
     "name": "Yamper",
     "Color": "Yellow",
     "generation": "8",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "TACKLE",
@@ -89479,6 +90314,7 @@
     "name": "Boltund",
     "Color": "Yellow",
     "generation": "8",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "ELECTRIFY",
@@ -89559,6 +90395,7 @@
     "name": "Rolycoly",
     "Color": "Black",
     "generation": "8",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "TACKLE",
@@ -89635,6 +90472,7 @@
     "name": "Carkol",
     "Color": "Black",
     "generation": "8",
+    "flags": [],
     "types": ["ROCK", "FIRE"],
     "moves": [
       "FLAMECHARGE",
@@ -89725,6 +90563,7 @@
     "name": "Coalossal",
     "Color": "Black",
     "generation": "8",
+    "flags": [],
     "types": ["ROCK", "FIRE"],
     "moves": [
       "TARSHOT",
@@ -89825,6 +90664,7 @@
     "name": "Applin",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GRASS", "DRAGON"],
     "moves": ["WITHDRAW", "ASTONISH"],
     "tutor_moves": ["ATTRACT", "POUNCE", "TERABLAST"],
@@ -89844,6 +90684,7 @@
     "name": "Flapple",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GRASS", "DRAGON"],
     "moves": [
       "WINGATTACK",
@@ -89934,6 +90775,7 @@
     "name": "Appletun",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GRASS", "DRAGON"],
     "moves": [
       "HEADBUTT",
@@ -90032,6 +90874,7 @@
     "name": "Silicobra",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "WRAP",
@@ -90108,6 +90951,7 @@
     "name": "Sandaconda",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["GROUND"],
     "moves": [
       "WRAP",
@@ -90196,6 +91040,7 @@
     "name": "Cramorant",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["FLYING", "WATER"],
     "moves": [
       "BELCH",
@@ -90293,6 +91138,7 @@
     "name": "Arrokuda",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "PECK",
@@ -90369,6 +91215,7 @@
     "name": "Barraskewda",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "THROATCHOP",
@@ -90452,6 +91299,7 @@
     "name": "Toxel",
     "Color": "Purple",
     "generation": "8",
+    "flags": [],
     "types": ["ELECTRIC", "POISON"],
     "moves": ["BELCH", "TEARFULLOOK", "NUZZLE", "GROWL", "FLAIL", "ACID"],
     "tutor_moves": [
@@ -90496,6 +91344,7 @@
     "name": "Toxtricity",
     "Color": "Purple",
     "generation": "8",
+    "flags": [],
     "types": ["ELECTRIC", "POISON"],
     "moves": [
       "SPARK",
@@ -90614,11 +91463,12 @@
     "name": "Sizzlipede",
     "Color": "Red",
     "generation": "8",
+    "flags": [],
     "types": ["FIRE", "BUG"],
     "moves": [
-      "EMBER",
-      "SMOKESCREEN",
       "WRAP",
+      "SMOKESCREEN",
+      "EMBER",
       "BITE",
       "FLAMEWHEEL",
       "BUGBITE",
@@ -90681,6 +91531,7 @@
     "name": "Centiskorch",
     "Color": "Red",
     "generation": "8",
+    "flags": [],
     "types": ["FIRE", "BUG"],
     "moves": [
       "INFERNO",
@@ -90761,6 +91612,7 @@
     "name": "Clobbopus",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "ROCKSMASH",
@@ -90841,6 +91693,7 @@
     "name": "Grapploct",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "OCTOLOCK",
@@ -90928,6 +91781,7 @@
     "name": "Sinistea",
     "Color": "Purple",
     "generation": "8",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "ASTONISH",
@@ -91006,6 +91860,7 @@
     "name": "Polteageist",
     "Color": "Purple",
     "generation": "8",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "TEATIME",
@@ -91094,6 +91949,7 @@
     "name": "Hatenna",
     "Color": "Pink",
     "generation": "8",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "CONFUSION",
@@ -91183,6 +92039,7 @@
     "name": "Hattrem",
     "Color": "Pink",
     "generation": "8",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "BRUTALSWING",
@@ -91268,6 +92125,7 @@
     "name": "Hatterene",
     "Color": "Pink",
     "generation": "8",
+    "flags": [],
     "types": ["PSYCHIC", "FAIRY"],
     "moves": [
       "PSYCHOCUT",
@@ -91371,6 +92229,7 @@
     "name": "Impidimp",
     "Color": "Pink",
     "generation": "8",
+    "flags": [],
     "types": ["DARK", "FAIRY"],
     "moves": [
       "FAKEOUT",
@@ -91456,6 +92315,7 @@
     "name": "Morgrem",
     "Color": "Pink",
     "generation": "8",
+    "flags": [],
     "types": ["DARK", "FAIRY"],
     "moves": [
       "FALSESURRENDER",
@@ -91544,6 +92404,7 @@
     "name": "Grimmsnarl",
     "Color": "Purple",
     "generation": "8",
+    "flags": [],
     "types": ["DARK", "FAIRY"],
     "moves": [
       "SPIRITBREAK",
@@ -91655,6 +92516,7 @@
     "name": "Obstagoon",
     "Color": "Gray",
     "generation": "8",
+    "flags": ["DefaultForm_1", "InheritFormWithEverStone"],
     "types": ["DARK", "NORMAL"],
     "moves": [
       "OBSTRUCT",
@@ -91773,6 +92635,7 @@
     "name": "Perrserker",
     "Color": "Brown",
     "generation": "8",
+    "flags": ["DefaultForm_2", "InheritFormWithEverStone"],
     "types": ["STEEL"],
     "moves": [
       "IRONHEAD",
@@ -91907,6 +92770,7 @@
     "name": "Cursola",
     "Color": "White",
     "generation": "8",
+    "flags": ["DefaultForm_1", "InheritFormWithEverStone"],
     "types": ["GHOST"],
     "moves": [
       "PERISHSONG",
@@ -92017,6 +92881,7 @@
     "name": "Sirfetch'd",
     "Color": "White",
     "generation": "8",
+    "flags": ["DefaultForm_1", "InheritFormWithEverStone"],
     "types": ["FIGHTING"],
     "moves": [
       "IRONDEFENSE",
@@ -92111,6 +92976,7 @@
     "name": "Mr. Rime",
     "Color": "Purple",
     "generation": "8",
+    "flags": ["DefaultForm_1", "InheritFormWithEverStone"],
     "types": ["ICE", "PSYCHIC"],
     "moves": [
       "FAKETEARS",
@@ -92261,6 +93127,7 @@
     "name": "Runerigus",
     "Color": "Gray",
     "generation": "8",
+    "flags": ["DefaultForm_1", "InheritFormWithEverStone"],
     "types": ["GROUND", "GHOST"],
     "moves": [
       "SHADOWCLAW",
@@ -92368,6 +93235,7 @@
     "name": "Milcery",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "TACKLE",
@@ -92427,6 +93295,7 @@
     "name": "Alcremie",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "DECORATE",
@@ -92515,6 +93384,7 @@
     "name": "Falinks",
     "Color": "Yellow",
     "generation": "8",
+    "flags": [],
     "types": ["FIGHTING"],
     "moves": [
       "TACKLE",
@@ -92610,6 +93480,7 @@
     "name": "Pincurchin",
     "Color": "Purple",
     "generation": "8",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "PECK",
@@ -92703,6 +93574,7 @@
     "name": "Snom",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["ICE", "BUG"],
     "moves": ["POWDERSNOW", "STRUGGLEBUG"],
     "tutor_moves": [
@@ -92750,6 +93622,7 @@
     "name": "Frosmoth",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["ICE", "BUG"],
     "moves": [
       "ICYWIND",
@@ -92845,6 +93718,7 @@
     "name": "Stonjourner",
     "Color": "Gray",
     "generation": "8",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "ROCKTHROW",
@@ -92938,6 +93812,7 @@
     "name": "Eiscue",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "POWDERSNOW",
@@ -93032,6 +93907,7 @@
     "name": "Indeedee",
     "Color": "Purple",
     "generation": "8",
+    "flags": [],
     "types": ["PSYCHIC", "NORMAL"],
     "moves": [
       "STOREDPOWER",
@@ -93124,6 +94000,7 @@
     "name": "Morpeko",
     "Color": "Yellow",
     "generation": "8",
+    "flags": [],
     "types": ["ELECTRIC", "DARK"],
     "moves": [
       "THUNDERSHOCK",
@@ -93235,6 +94112,7 @@
     "name": "Cufant",
     "Color": "Yellow",
     "generation": "8",
+    "flags": [],
     "types": ["STEEL"],
     "moves": [
       "TACKLE",
@@ -93333,6 +94211,7 @@
     "name": "Copperajah",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["STEEL"],
     "moves": [
       "HEAVYSLAM",
@@ -93435,6 +94314,7 @@
     "name": "Dracozolt",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["ELECTRIC", "DRAGON"],
     "moves": [
       "TACKLE",
@@ -93525,6 +94405,7 @@
     "name": "Arctozolt",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["ELECTRIC", "ICE"],
     "moves": [
       "POWDERSNOW",
@@ -93612,6 +94493,7 @@
     "name": "Dracovish",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["WATER", "DRAGON"],
     "moves": [
       "TACKLE",
@@ -93697,6 +94579,7 @@
     "name": "Arctovish",
     "Color": "Blue",
     "generation": "8",
+    "flags": [],
     "types": ["WATER", "ICE"],
     "moves": [
       "POWDERSNOW",
@@ -93777,6 +94660,7 @@
     "name": "Duraludon",
     "Color": "White",
     "generation": "8",
+    "flags": [],
     "types": ["STEEL", "DRAGON"],
     "moves": [
       "LEER",
@@ -93871,6 +94755,7 @@
     "name": "Dreepy",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["DRAGON", "GHOST"],
     "moves": ["ASTONISH", "INFESTATION", "QUICKATTACK", "BITE"],
     "tutor_moves": [
@@ -93927,6 +94812,7 @@
     "name": "Drakloak",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["DRAGON", "GHOST"],
     "moves": [
       "DRAGONPULSE",
@@ -94026,6 +94912,7 @@
     "name": "Dragapult",
     "Color": "Green",
     "generation": "8",
+    "flags": [],
     "types": ["DRAGON", "GHOST"],
     "moves": [
       "DRAGONDARTS",
@@ -94133,6 +95020,7 @@
     "name": "Zacian",
     "Color": "Blue",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["FAIRY"],
     "moves": [
       "SACREDSWORD",
@@ -94231,6 +95119,7 @@
     "name": "Zamazenta",
     "Color": "Red",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["FIGHTING"],
     "moves": [
       "WIDEGUARD",
@@ -94334,6 +95223,7 @@
     "name": "Eternatus",
     "Color": "Purple",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["POISON", "DRAGON"],
     "moves": [
       "POISONTAIL",
@@ -94429,6 +95319,7 @@
     "name": "Kubfu",
     "Color": "Gray",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["FIGHTING"],
     "moves": [
       "ROCKSMASH",
@@ -94516,6 +95407,7 @@
     "name": "Urshifu",
     "Color": "Gray",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["FIGHTING", "DARK"],
     "moves": [
       "WICKEDBLOW",
@@ -94631,6 +95523,7 @@
     "name": "Zarude",
     "Color": "Black",
     "generation": "8",
+    "flags": ["Mythical"],
     "types": ["DARK", "GRASS"],
     "moves": [
       "BIND",
@@ -94748,6 +95641,7 @@
     "name": "Regieleki",
     "Color": "Yellow",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["ELECTRIC"],
     "moves": [
       "THUNDERSHOCK",
@@ -94829,6 +95723,7 @@
     "name": "Regidrago",
     "Color": "Green",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["DRAGON"],
     "moves": [
       "TWISTER",
@@ -94906,6 +95801,7 @@
     "name": "Glastrier",
     "Color": "White",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["ICE"],
     "moves": [
       "TACKLE",
@@ -94995,6 +95891,7 @@
     "name": "Spectrier",
     "Color": "Black",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["GHOST"],
     "moves": [
       "TACKLE",
@@ -95082,6 +95979,7 @@
     "name": "Calyrex",
     "Color": "Green",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["PSYCHIC", "GRASS"],
     "moves": [
       "POUND",
@@ -95189,6 +96087,7 @@
     "name": "Wyrdeer",
     "Color": "Gray",
     "generation": "8",
+    "flags": [],
     "types": ["NORMAL", "PSYCHIC"],
     "moves": [
       "PSYSHIELDBASH",
@@ -95282,6 +96181,7 @@
     "name": "Kleavor",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["BUG", "ROCK"],
     "moves": [
       "STONEAXE",
@@ -95365,6 +96265,7 @@
     "name": "Ursaluna",
     "Color": "Brown",
     "generation": "8",
+    "flags": [],
     "types": ["GROUND", "NORMAL"],
     "moves": [
       "HEADLONGRUSH",
@@ -95465,6 +96366,7 @@
     "name": "Basculegion",
     "Color": "Green",
     "generation": "8",
+    "flags": ["DefaultForm_2", "InheritFormWithEverStone"],
     "types": ["WATER", "GHOST"],
     "moves": [
       "SHADOWBALL",
@@ -95549,6 +96451,7 @@
     "name": "Sneasler",
     "Color": "Blue",
     "generation": "8",
+    "flags": ["DefaultForm_1", "InheritFormWithEverStone"],
     "types": ["FIGHTING", "POISON"],
     "moves": [
       "DIRECLAW",
@@ -95642,6 +96545,7 @@
     "name": "Overqwil",
     "Color": "Black",
     "generation": "8",
+    "flags": ["DefaultForm_1", "InheritFormWithEverStone"],
     "types": ["DARK", "POISON"],
     "moves": [
       "POISONSTING",
@@ -95731,6 +96635,7 @@
     "name": "Enamorus",
     "Color": "Pink",
     "generation": "8",
+    "flags": ["Legendary"],
     "types": ["FAIRY", "FLYING"],
     "moves": [
       "ASTONISH",
@@ -95809,6 +96714,7 @@
     "name": "Sprigatito",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "SCRATCH",
@@ -95883,6 +96789,7 @@
     "name": "Floragato",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "SCRATCH",
@@ -95957,6 +96864,7 @@
     "name": "Meowscarada",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "DARK"],
     "moves": [
       "FLOWERTRICK",
@@ -96059,6 +96967,7 @@
     "name": "Fuecoco",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "TACKLE",
@@ -96128,6 +97037,7 @@
     "name": "Crocalor",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "TACKLE",
@@ -96199,6 +97109,7 @@
     "name": "Skeledirge",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["FIRE", "GHOST"],
     "moves": [
       "TORCHSONG",
@@ -96292,6 +97203,7 @@
     "name": "Quaxly",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -96353,6 +97265,7 @@
     "name": "Quaxwell",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "DOUBLEHIT",
@@ -96422,6 +97335,7 @@
     "name": "Quaquaval",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["WATER", "FIGHTING"],
     "moves": [
       "AQUASTEP",
@@ -96515,6 +97429,7 @@
     "name": "Lechonk",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -96580,6 +97495,7 @@
     "name": "Oinkologne",
     "Color": "Gray",
     "generation": "9",
+    "flags": ["HasGenderedSprites"],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -96655,6 +97571,7 @@
     "name": "Tarountula",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "TACKLE",
@@ -96721,6 +97638,7 @@
     "name": "Spidops",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "SILKTRAP",
@@ -96801,6 +97719,7 @@
     "name": "Nymble",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "TACKLE",
@@ -96856,6 +97775,7 @@
     "name": "Lokix",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["BUG", "DARK"],
     "moves": [
       "LUNGE",
@@ -96934,6 +97854,7 @@
     "name": "Pawmi",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "SCRATCH",
@@ -97005,6 +97926,7 @@
     "name": "Pawmo",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["ELECTRIC", "FIGHTING"],
     "moves": [
       "ARMTHRUST",
@@ -97084,6 +98006,7 @@
     "name": "Pawmot",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["ELECTRIC", "FIGHTING"],
     "moves": [
       "REVIVALBLESSING",
@@ -97182,6 +98105,7 @@
     "name": "Tandemaus",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "POUND",
@@ -97261,6 +98185,7 @@
     "name": "Maushold",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "FOLLOWME",
@@ -97339,6 +98264,7 @@
     "name": "Fidough",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "TACKLE",
@@ -97409,6 +98335,7 @@
     "name": "Dachsbun",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["FAIRY"],
     "moves": [
       "TACKLE",
@@ -97484,6 +98411,7 @@
     "name": "Smoliv",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "NORMAL"],
     "moves": [
       "TACKLE",
@@ -97542,6 +98470,7 @@
     "name": "Dolliv",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "NORMAL"],
     "moves": [
       "TACKLE",
@@ -97600,6 +98529,7 @@
     "name": "Arboliva",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "NORMAL"],
     "moves": [
       "MIRRORCOAT",
@@ -97675,6 +98605,7 @@
     "name": "Squawkabilly",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["NORMAL", "FLYING"],
     "moves": [
       "GROWL",
@@ -97747,6 +98678,7 @@
     "name": "Nacli",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "TACKLE",
@@ -97813,6 +98745,7 @@
     "name": "Naclstack",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "SALTCURE",
@@ -97884,6 +98817,7 @@
     "name": "Garganacl",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "HAMMERARM",
@@ -97970,6 +98904,7 @@
     "name": "Charcadet",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "EMBER",
@@ -98022,6 +98957,7 @@
     "name": "Armarouge",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["FIRE", "PSYCHIC"],
     "moves": [
       "PSYSHOCK",
@@ -98109,6 +99045,7 @@
     "name": "Ceruledge",
     "Color": "Purple",
     "generation": "9",
+    "flags": [],
     "types": ["FIRE", "GHOST"],
     "moves": [
       "SHADOWCLAW",
@@ -98196,6 +99133,7 @@
     "name": "Tadbulb",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "TACKLE",
@@ -98260,6 +99198,7 @@
     "name": "Bellibolt",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["ELECTRIC"],
     "moves": [
       "SLACKOFF",
@@ -98329,6 +99268,7 @@
     "name": "Wattrel",
     "Color": "Black",
     "generation": "9",
+    "flags": [],
     "types": ["ELECTRIC", "FLYING"],
     "moves": [
       "PECK",
@@ -98404,6 +99344,7 @@
     "name": "Kilowattrel",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["ELECTRIC", "FLYING"],
     "moves": [
       "ELECTROBALL",
@@ -98478,6 +99419,7 @@
     "name": "Maschiff",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "TACKLE",
@@ -98546,6 +99488,7 @@
     "name": "Mabosstiff",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["DARK"],
     "moves": [
       "COMEUPPANCE",
@@ -98624,6 +99567,7 @@
     "name": "Shroodle",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["POISON", "NORMAL"],
     "moves": [
       "SCRATCH",
@@ -98708,6 +99652,7 @@
     "name": "Grafaiai",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["POISON", "NORMAL"],
     "moves": [
       "DOODLE",
@@ -98792,6 +99737,7 @@
     "name": "Bramblin",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "GHOST"],
     "moves": [
       "ASTONISH",
@@ -98858,6 +99804,7 @@
     "name": "Brambleghast",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "GHOST"],
     "moves": [
       "ASTONISH",
@@ -98927,6 +99874,7 @@
     "name": "Toedscool",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["GROUND", "GRASS"],
     "moves": [
       "WRAP",
@@ -99015,6 +99963,7 @@
     "name": "Toedscruel",
     "Color": "Black",
     "generation": "9",
+    "flags": [],
     "types": ["GROUND", "GRASS"],
     "moves": [
       "REFLECTTYPE",
@@ -99098,6 +100047,7 @@
     "name": "Klawf",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["ROCK"],
     "moves": [
       "VISEGRIP",
@@ -99180,6 +100130,7 @@
     "name": "Capsakid",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "LEAFAGE",
@@ -99241,6 +100192,7 @@
     "name": "Scovillain",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "FIRE"],
     "moves": [
       "SPICYEXTRACT",
@@ -99318,6 +100270,7 @@
     "name": "Rellor",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "TACKLE",
@@ -99375,6 +100328,7 @@
     "name": "Rabsca",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["BUG", "PSYCHIC"],
     "moves": [
       "REVIVALBLESSING",
@@ -99472,6 +100426,7 @@
     "name": "Flittle",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "PECK",
@@ -99539,6 +100494,7 @@
     "name": "Espathra",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["PSYCHIC"],
     "moves": [
       "LUMINACRASH",
@@ -99629,6 +100585,7 @@
     "name": "Tinkatink",
     "Color": "Pink",
     "generation": "9",
+    "flags": [],
     "types": ["FAIRY", "STEEL"],
     "moves": [
       "ASTONISH",
@@ -99699,6 +100656,7 @@
     "name": "Tinkatuff",
     "Color": "Pink",
     "generation": "9",
+    "flags": [],
     "types": ["FAIRY", "STEEL"],
     "moves": [
       "ASTONISH",
@@ -99770,6 +100728,7 @@
     "name": "Tinkaton",
     "Color": "Pink",
     "generation": "9",
+    "flags": [],
     "types": ["FAIRY", "STEEL"],
     "moves": [
       "GIGATONHAMMER",
@@ -99846,6 +100805,7 @@
     "name": "Wiglett",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -99909,6 +100869,7 @@
     "name": "Wugtrio",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -99976,6 +100937,7 @@
     "name": "Bombirdier",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["FLYING", "DARK"],
     "moves": [
       "WINGATTACK",
@@ -100065,6 +101027,7 @@
     "name": "Finizen",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "WATERGUN",
@@ -100130,6 +101093,7 @@
     "name": "Palafin",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "FLIPTURN",
@@ -100219,6 +101183,7 @@
     "name": "Varoom",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["STEEL", "POISON"],
     "moves": [
       "LICK",
@@ -100290,6 +101255,7 @@
     "name": "Revavroom",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["STEEL", "POISON"],
     "moves": [
       "SHIFTGEAR",
@@ -100372,6 +101338,7 @@
     "name": "Cyclizar",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["DRAGON", "NORMAL"],
     "moves": [
       "TACKLE",
@@ -100452,6 +101419,7 @@
     "name": "Orthworm",
     "Color": "Pink",
     "generation": "9",
+    "flags": [],
     "types": ["STEEL"],
     "moves": [
       "TACKLE",
@@ -100524,6 +101492,7 @@
     "name": "Glimmet",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["ROCK", "POISON"],
     "moves": [
       "ROCKTHROW",
@@ -100592,6 +101561,7 @@
     "name": "Glimmora",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["ROCK", "POISON"],
     "moves": [
       "MORTALSPIN",
@@ -100669,6 +101639,7 @@
     "name": "Greavard",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "TACKLE",
@@ -100752,6 +101723,7 @@
     "name": "Houndstone",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["GHOST"],
     "moves": [
       "LASTRESPECTS",
@@ -100832,6 +101804,7 @@
     "name": "Flamigo",
     "Color": "Pink",
     "generation": "9",
+    "flags": [],
     "types": ["FLYING", "FIGHTING"],
     "moves": [
       "PECK",
@@ -100908,6 +101881,7 @@
     "name": "Cetoddle",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "TACKLE",
@@ -100987,6 +101961,7 @@
     "name": "Cetitan",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["ICE"],
     "moves": [
       "TACKLE",
@@ -101063,6 +102038,7 @@
     "name": "Veluza",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["WATER", "PSYCHIC"],
     "moves": [
       "TACKLE",
@@ -101134,6 +102110,7 @@
     "name": "Dondozo",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "TACKLE",
@@ -101204,6 +102181,7 @@
     "name": "Tatsugiri",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["DRAGON", "WATER"],
     "moves": [
       "WATERGUN",
@@ -101265,6 +102243,7 @@
     "name": "Annihilape",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["FIGHTING", "GHOST"],
     "moves": [
       "SHADOWPUNCH",
@@ -101369,6 +102348,7 @@
     "name": "Clodsire",
     "Color": "Brown",
     "generation": "9",
+    "flags": ["DefaultForm_1", "InheritFormWithEverStone"],
     "types": ["POISON", "GROUND"],
     "moves": [
       "AMNESIA",
@@ -101456,6 +102436,7 @@
     "name": "Farigiraf",
     "Color": "Brown",
     "generation": "9",
+    "flags": [],
     "types": ["NORMAL", "PSYCHIC"],
     "moves": [
       "POWERSWAP",
@@ -101557,6 +102538,7 @@
     "name": "Dudunsparce",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "FLAIL",
@@ -101669,6 +102651,7 @@
     "name": "Kingambit",
     "Color": "Black",
     "generation": "9",
+    "flags": [],
     "types": ["DARK", "STEEL"],
     "moves": [
       "KOWTOWCLEAVE",
@@ -101754,6 +102737,7 @@
     "name": "Great Tusk",
     "Color": "Purple",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["GROUND", "FIGHTING"],
     "moves": [
       "SUNNYDAY",
@@ -101843,6 +102827,7 @@
     "name": "Scream Tail",
     "Color": "Pink",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["FAIRY", "PSYCHIC"],
     "moves": [
       "SUNNYDAY",
@@ -101953,6 +102938,7 @@
     "name": "Brute Bonnet",
     "Color": "White",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["GRASS", "DARK"],
     "moves": [
       "SUNNYDAY",
@@ -102028,6 +103014,7 @@
     "name": "Flutter Mane",
     "Color": "Gray",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["GHOST", "FAIRY"],
     "moves": [
       "SUNNYDAY",
@@ -102108,6 +103095,7 @@
     "name": "Slither Wing",
     "Color": "White",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["BUG", "FIGHTING"],
     "moves": [
       "SUNNYDAY",
@@ -102194,6 +103182,7 @@
     "name": "Sandy Shocks",
     "Color": "Gray",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["ELECTRIC", "GROUND"],
     "moves": [
       "SUNNYDAY",
@@ -102278,6 +103267,7 @@
     "name": "Iron Treads",
     "Color": "Gray",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["GROUND", "STEEL"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -102361,6 +103351,7 @@
     "name": "Iron Bundle",
     "Color": "Red",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["ICE", "WATER"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -102434,6 +103425,7 @@
     "name": "Iron Hands",
     "Color": "Gray",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["FIGHTING", "ELECTRIC"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -102518,6 +103510,7 @@
     "name": "Iron Jugulis",
     "Color": "Blue",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["DARK", "FLYING"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -102607,6 +103600,7 @@
     "name": "Iron Moth",
     "Color": "White",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["FIRE", "POISON"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -102691,6 +103685,7 @@
     "name": "Iron Thorns",
     "Color": "Green",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["ROCK", "ELECTRIC"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -102802,6 +103797,7 @@
     "name": "Frigibax",
     "Color": "Gray",
     "generation": "9",
+    "flags": [],
     "types": ["DRAGON", "ICE"],
     "moves": [
       "TACKLE",
@@ -102863,6 +103859,7 @@
     "name": "Arctibax",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["DRAGON", "ICE"],
     "moves": [
       "TACKLE",
@@ -102927,6 +103924,7 @@
     "name": "Baxcalibur",
     "Color": "Blue",
     "generation": "9",
+    "flags": [],
     "types": ["DRAGON", "ICE"],
     "moves": [
       "GLAIVERUSH",
@@ -103011,6 +104009,7 @@
     "name": "Gimmighoul",
     "Color": "Red",
     "generation": "9",
+    "flags": [],
     "types": ["GHOST"],
     "moves": ["ASTONISH", "TACKLE"],
     "tutor_moves": [
@@ -103047,6 +104046,7 @@
     "name": "Gholdengo",
     "Color": "Yellow",
     "generation": "9",
+    "flags": [],
     "types": ["STEEL", "GHOST"],
     "moves": [
       "ASTONISH",
@@ -103120,6 +104120,7 @@
     "name": "Wo-Chien",
     "Color": "Brown",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["DARK", "GRASS"],
     "moves": [
       "ABSORB",
@@ -103200,6 +104201,7 @@
     "name": "Chien-Pao",
     "Color": "White",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["DARK", "ICE"],
     "moves": [
       "POWDERSNOW",
@@ -103274,6 +104276,7 @@
     "name": "Ting-Lu",
     "Color": "Brown",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["DARK", "GROUND"],
     "moves": [
       "SANDTOMB",
@@ -103351,6 +104354,7 @@
     "name": "Chi-Yu",
     "Color": "Red",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["DARK", "FIRE"],
     "moves": [
       "EMBER",
@@ -103425,6 +104429,7 @@
     "name": "Roaring Moon",
     "Color": "Blue",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["DRAGON", "DARK"],
     "moves": [
       "SUNNYDAY",
@@ -103525,6 +104530,7 @@
     "name": "Iron Valiant",
     "Color": "White",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["FAIRY", "FIGHTING"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -103631,6 +104637,7 @@
     "name": "Koraidon",
     "Color": "Red",
     "generation": "9",
+    "flags": ["Legendary", "Paradox"],
     "types": ["FIGHTING", "DRAGON"],
     "moves": [
       "SUNNYDAY",
@@ -103735,6 +104742,7 @@
     "name": "Miraidon",
     "Color": "Purple",
     "generation": "9",
+    "flags": ["Legendary", "Paradox"],
     "types": ["ELECTRIC", "DRAGON"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -103822,6 +104830,7 @@
     "name": "Walking Wake",
     "Color": "Blue",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["WATER", "DRAGON"],
     "moves": [
       "SUNNYDAY",
@@ -103904,6 +104913,7 @@
     "name": "Iron Leaves",
     "Color": "Green",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["GRASS", "PSYCHIC"],
     "moves": [
       "ELECTRICTERRAIN",
@@ -103989,6 +104999,7 @@
     "name": "Dipplin",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "DRAGON"],
     "moves": [
       "DOUBLEHIT",
@@ -104057,6 +105068,7 @@
     "name": "Poltchageist",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "GHOST"],
     "moves": [
       "ASTONISH",
@@ -104121,6 +105133,7 @@
     "name": "Sinistcha",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "GHOST"],
     "moves": [
       "MATCHAGOTCHA",
@@ -104187,6 +105200,7 @@
     "name": "Okidogi",
     "Color": "Black",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["POISON", "FIGHTING"],
     "moves": [
       "BITE",
@@ -104278,6 +105292,7 @@
     "name": "Munkidori",
     "Color": "Black",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["POISON", "PSYCHIC"],
     "moves": [
       "SCRATCH",
@@ -104362,6 +105377,7 @@
     "name": "Fezandipiti",
     "Color": "Black",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["POISON", "FAIRY"],
     "moves": [
       "DOUBLEKICK",
@@ -104447,6 +105463,7 @@
     "name": "Ogerpon",
     "Color": "Green",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["GRASS"],
     "moves": [
       "DOUBLEKICK",
@@ -104532,6 +105549,7 @@
     "name": "Archaludon",
     "Color": "White",
     "generation": "9",
+    "flags": [],
     "types": ["STEEL", "DRAGON"],
     "moves": [
       "ELECTROSHOT",
@@ -104617,6 +105635,7 @@
     "name": "Hydrapple",
     "Color": "Green",
     "generation": "9",
+    "flags": [],
     "types": ["GRASS", "DRAGON"],
     "moves": [
       "FICKLEBEAM",
@@ -104700,6 +105719,7 @@
     "name": "Gouging Fire",
     "Color": "Brown",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["FIRE", "DRAGON"],
     "moves": [
       "DOUBLEKICK",
@@ -104788,6 +105808,7 @@
     "name": "Raging Bolt",
     "Color": "Yellow",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["ELECTRIC", "DRAGON"],
     "moves": [
       "ANCIENTPOWER",
@@ -104872,6 +105893,7 @@
     "name": "Iron Boulder",
     "Color": "Gray",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["ROCK", "PSYCHIC"],
     "moves": [
       "HORNATTACK",
@@ -104948,6 +105970,7 @@
     "name": "Iron Crown",
     "Color": "Blue",
     "generation": "9",
+    "flags": ["Paradox"],
     "types": ["STEEL", "PSYCHIC"],
     "moves": [
       "LEER",
@@ -105027,6 +106050,7 @@
     "name": "Terapagos",
     "Color": "Blue",
     "generation": "9",
+    "flags": ["Legendary"],
     "types": ["NORMAL"],
     "moves": [
       "WITHDRAW",
@@ -105112,6 +106136,7 @@
     "name": "Pecharunt",
     "Color": "Purple",
     "generation": "9",
+    "flags": ["Mythical"],
     "types": ["POISON", "GHOST"],
     "moves": [
       "DEFENSECURL",
@@ -105172,12 +106197,13 @@
     "name": "Behbidar",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
       "GROWL",
-      "LEAFAGE",
-      "MUDSPORT",
+      "ABSORB",
+      "MUDSHOT",
       "PROTOSHIELD",
       "MARKINGTERRITORY",
       "BULKUP",
@@ -105218,12 +106244,13 @@
     "name": "Behcedro",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["GRASS"],
     "moves": [
       "TACKLE",
       "GROWL",
-      "LEAFAGE",
-      "MUDSPORT",
+      "ABSORB",
+      "MUDSHOT",
       "PROTOSHIELD",
       "MARKINGTERRITORY",
       "BULKUP",
@@ -105264,12 +106291,13 @@
     "name": "Behdarex",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["GRASS", "GROUND"],
     "moves": [
       "TACKLE",
       "GROWL",
-      "LEAFAGE",
-      "MUDSPORT",
+      "ABSORB",
+      "MUDSHOT",
       "PROTOSHIELD",
       "MARKINGTERRITORY",
       "BULKUP",
@@ -105310,12 +106338,13 @@
     "name": "Zisinge",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
       "SANDATTACK",
-      "EMBER",
       "PECK",
+      "EMBER",
       "TOUCHTHELIMIT",
       "EXPLOSIVEFEATHER",
       "FLAMECHARGE",
@@ -105356,12 +106385,13 @@
     "name": "Zissun",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["FIRE"],
     "moves": [
       "SCRATCH",
       "SANDATTACK",
-      "EMBER",
       "PECK",
+      "EMBER",
       "TOUCHTHELIMIT",
       "EXPLOSIVEFEATHER",
       "FLAMECHARGE",
@@ -105402,12 +106432,13 @@
     "name": "Zizzenit",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["FIRE", "FLYING"],
     "moves": [
       "SCRATCH",
       "SANDATTACK",
-      "EMBER",
       "PECK",
+      "EMBER",
       "TOUCHTHELIMIT",
       "EXPLOSIVEFEATHER",
       "FLAMECHARGE",
@@ -105448,6 +106479,7 @@
     "name": "Leviatiny",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -105494,6 +106526,7 @@
     "name": "Leviateen",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "POUND",
@@ -105540,6 +106573,7 @@
     "name": "Leviatitan",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["WATER", "POISON"],
     "moves": [
       "POUND",
@@ -105586,6 +106620,7 @@
     "name": "Fataltty",
     "Color": "Black",
     "generation": "10",
+    "flags": [],
     "types": ["DARK", "GHOST"],
     "moves": [
       "TACKLE",
@@ -105632,6 +106667,7 @@
     "name": "Sorrowoof",
     "Color": "Brown",
     "generation": "10",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "TACKLE",
@@ -105678,6 +106714,7 @@
     "name": "Woofighter",
     "Color": "Brown",
     "generation": "10",
+    "flags": [],
     "types": ["NORMAL", "FIGHTING"],
     "moves": [
       "TACKLE",
@@ -105734,6 +106771,7 @@
     "name": "Growrage",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [
       "QUICKATTACK",
@@ -105780,6 +106818,7 @@
     "name": "Twylican",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["FIGHTING", "STEEL"],
     "moves": [
       "QUICKATTACK",
@@ -105826,6 +106865,7 @@
     "name": "Spibby",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["BUG", "DARK"],
     "moves": [
       "TWINEEDLE",
@@ -105867,6 +106907,7 @@
     "name": "Kingder",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["BUG", "DARK"],
     "moves": [
       "TWINEEDLE",
@@ -105889,10 +106930,7 @@
       "REFLECT",
       "TRICKROOM",
       "STEALTHROCK",
-      "SCREECH",
-      "SPIKES",
-      "STICKYWEB",
-      "STEALTHROCK"
+      "SCREECH"
     ],
     "tutor_moves": [],
     "egg_moves": [],
@@ -105911,6 +106949,7 @@
     "name": "Yuntter",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["WATER"],
     "moves": [
       "PURSUIT",
@@ -105957,6 +106996,7 @@
     "name": "Gumstter",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["WATER", "GROUND"],
     "moves": [
       "PURSUIT",
@@ -106003,6 +107043,7 @@
     "name": "Woolarva",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "TACKLE",
@@ -106010,6 +107051,7 @@
       "SLEEPPOWDER",
       "ABSORB",
       "BUGBITE",
+      "FAIRYWIND",
       "STICKYWEB",
       "SYRUPBOMB",
       "SILVERWIND",
@@ -106021,11 +107063,7 @@
       "ECHOEDVOICE",
       "POLLENPUFF",
       "SUPERSONIC",
-      "QUIVERDANCE",
-      "TAILWIND",
-      "ROOST",
-      "OMINOUSWIND",
-      "AURORAVEIL"
+      "QUIVERDANCE"
     ],
     "tutor_moves": [],
     "egg_moves": [],
@@ -106044,6 +107082,7 @@
     "name": "Woobacoon",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["BUG"],
     "moves": [
       "TACKLE",
@@ -106051,6 +107090,7 @@
       "SLEEPPOWDER",
       "ABSORB",
       "BUGBITE",
+      "FAIRYWIND",
       "STICKYWEB",
       "SYRUPBOMB",
       "SILVERWIND",
@@ -106062,11 +107102,7 @@
       "ECHOEDVOICE",
       "POLLENPUFF",
       "SUPERSONIC",
-      "QUIVERDANCE",
-      "TAILWIND",
-      "ROOST",
-      "OMINOUSWIND",
-      "AURORAVEIL"
+      "QUIVERDANCE"
     ],
     "tutor_moves": [],
     "egg_moves": [],
@@ -106085,6 +107121,7 @@
     "name": "Weamoth",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["BUG", "FAIRY"],
     "moves": [
       "TACKLE",
@@ -106131,6 +107168,7 @@
     "name": "Lizarobos",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [],
     "tutor_moves": [],
@@ -106150,6 +107188,7 @@
     "name": "Komoboros",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [],
     "tutor_moves": [],
@@ -106169,6 +107208,7 @@
     "name": "Ryuroboros",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["NORMAL"],
     "moves": [],
     "tutor_moves": [],
@@ -106188,6 +107228,7 @@
     "name": "Puprout",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["GRASS", "DARK"],
     "moves": [
       "TACKLE",
@@ -106234,6 +107275,7 @@
     "name": "Bushiera",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["GRASS", "DARK"],
     "moves": [
       "TACKLE",
@@ -106280,6 +107322,7 @@
     "name": "Werewoods",
     "Color": "Red",
     "generation": "0",
+    "flags": [],
     "types": ["GRASS", "DARK"],
     "moves": [
       "TACKLE",

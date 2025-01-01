@@ -39,25 +39,25 @@
     "internalName": "REDSHARD",
     "name": "Red Shard",
     "description": "A small red shard. It appears to be from some sort of implement made long ago.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "YELLOWSHARD",
     "name": "Yellow Shard",
     "description": "A small yellow shard. It appears to be from some sort of implement made long ago.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "BLUESHARD",
     "name": "Blue Shard",
     "description": "A small blue shard. It appears to be from some sort of implement made long ago.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "GREENSHARD",
     "name": "Green Shard",
     "description": "A small green shard. It appears to be from some sort of implement made long ago.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "FIRESTONE",
@@ -207,43 +207,43 @@
     "internalName": "REDAPRICORN",
     "name": "Red Apricorn",
     "description": "A red Apricorn. It assails your nostrils.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "YELLOWAPRICORN",
     "name": "Yellow Apricorn",
     "description": "A yellow Apricorn. It has an invigorating scent.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "BLUEAPRICORN",
     "name": "Blue Apricorn",
     "description": "A blue Apricorn. It smells a bit like grass.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "GREENAPRICORN",
     "name": "Green Apricorn",
     "description": "A green Apricorn. It has a mysterious, aromatic scent.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "PINKAPRICORN",
     "name": "Pink Apricorn",
     "description": "A pink Apricorn. It has a nice, sweet scent.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "WHITEAPRICORN",
     "name": "White Apricorn",
     "description": "A white Apricorn. It doesn't smell like anything.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "BLACKAPRICORN",
     "name": "Black Apricorn",
     "description": "A black Apricorn. It has an indescribable scent.",
-    "pocket": 1
+    "pocket": 9
   },
   {
     "internalName": "HELIXFOSSIL",
@@ -1797,283 +1797,283 @@
     "internalName": "VENUSAURITE",
     "name": "Venusaurite",
     "description": "One of a variety of mysterious Mega Stones. Have Venusaur hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "CHARIZARDITEX",
     "name": "Charizardite X",
     "description": "One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "CHARIZARDITEY",
     "name": "Charizardite Y",
     "description": "One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "BLASTOISINITE",
     "name": "Blastoisinite",
     "description": "One of a variety of mysterious Mega Stones. Have Blastoise hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "BEEDRILLITE",
     "name": "Beedrillite",
     "description": "One of a variety of mysterious Mega Stones. Have Beedrill hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "PIDGEOTITE",
     "name": "Pidgeotite",
     "description": "One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "ALAKAZITE",
     "name": "Alakazite",
     "description": "One of a variety of mysterious Mega Stones. Have Alakazam hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "SLOWBRONITE",
     "name": "Slowbronite",
     "description": "One of a variety of mysterious Mega Stones. Have Slowbro hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "GENGARITE",
     "name": "Gengarite",
     "description": "One of a variety of mysterious Mega Stones. Have Gengar hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "KANGASKHANITE",
     "name": "Kangaskhanite",
     "description": "One of a variety of mysterious Mega Stones. Have Kangaskhan hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "PINSIRITE",
     "name": "Pinsirite",
     "description": "One of a variety of mysterious Mega Stones. Have Pinsir hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "GYARADOSITE",
     "name": "Gyaradosite",
     "description": "One of a variety of mysterious Mega Stones. Have Gyarados hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "AERODACTYLITE",
     "name": "Aerodactylite",
     "description": "One of a variety of mysterious Mega Stones. Have Aerodactyl hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "MEWTWONITEX",
     "name": "Mewtwonite X",
     "description": "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "MEWTWONITEY",
     "name": "Mewtwonite Y",
     "description": "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "AMPHAROSITE",
     "name": "Ampharosite",
     "description": "One of a variety of mysterious Mega Stones. Have Ampharos hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "STEELIXITE",
     "name": "Steelixite",
     "description": "One of a variety of mysterious Mega Stones. Have Steelix hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "SCIZORITE",
     "name": "Scizorite",
     "description": "One of a variety of mysterious Mega Stones. Have Scizor hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "HERACRONITE",
     "name": "Heracronite",
     "description": "One of a variety of mysterious Mega Stones. Have Heracross hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "HOUNDOOMINITE",
     "name": "Houndoominite",
     "description": "One of a variety of mysterious Mega Stones. Have Houndoom hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "TYRANITARITE",
     "name": "Tyranitarite",
     "description": "One of a variety of mysterious Mega Stones. Have Tyranitar hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "SCEPTILITE",
     "name": "Sceptilite",
     "description": "One of a variety of mysterious Mega Stones. Have Sceptile hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "BLAZIKENITE",
     "name": "Blazikenite",
     "description": "One of a variety of mysterious Mega Stones. Have Blaziken hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "SWAMPERTITE",
     "name": "Swampertite",
     "description": "One of a variety of mysterious Mega Stones. Have Swampert hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "GARDEVOIRITE",
     "name": "Gardevoirite",
     "description": "One of a variety of mysterious Mega Stones. Have Gardevoir hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "SABLENITE",
     "name": "Sablenite",
     "description": "One of a variety of mysterious Mega Stones. Have Sableye hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "MAWILITE",
     "name": "Mawilite",
     "description": "One of a variety of mysterious Mega Stones. Have Mawile hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "AGGRONITE",
     "name": "Aggronite",
     "description": "One of a variety of mysterious Mega Stones. Have Aggron hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "MEDICHAMITE",
     "name": "Medichamite",
     "description": "One of a variety of mysterious Mega Stones. Have Medicham hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "MANECTITE",
     "name": "Manectite",
     "description": "One of a variety of mysterious Mega Stones. Have Manectric hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "SHARPEDONITE",
     "name": "Sharpedonite",
     "description": "One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "CAMERUPTITE",
     "name": "Cameruptite",
     "description": "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "ALTARIANITE",
     "name": "Altarianite",
     "description": "One of a variety of mysterious Mega Stones. Have Altaria hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "BANETTITE",
     "name": "Banettite",
     "description": "One of a variety of mysterious Mega Stones. Have Banette hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "ABSOLITE",
     "name": "Absolite",
     "description": "One of a variety of mysterious Mega Stones. Have Absol hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "GLALITITE",
     "name": "Glalitite",
     "description": "One of a variety of mysterious Mega Stones. Have Glalie hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "SALAMENCITE",
     "name": "Salamencite",
     "description": "One of a variety of mysterious Mega Stones. Have Salamence hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "METAGROSSITE",
     "name": "Metagrossite",
     "description": "One of a variety of mysterious Mega Stones. Have Metagross hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "LATIASITE",
     "name": "Latiasite",
     "description": "One of a variety of mysterious Mega Stones. Have Latias hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "LATIOSITE",
     "name": "Latiosite",
     "description": "One of a variety of mysterious Mega Stones. Have Latios hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "LOPUNNITE",
     "name": "Lopunnite",
     "description": "One of a variety of mysterious Mega Stones. Have Lopunny hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "GARCHOMPITE",
     "name": "Garchompite",
     "description": "One of a variety of mysterious Mega Stones. Have Garchomp hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "LUCARIONITE",
     "name": "Lucarionite",
     "description": "One of a variety of mysterious Mega Stones. Have Lucario hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "ABOMASITE",
     "name": "Abomasite",
     "description": "One of a variety of mysterious Mega Stones. Have Abomasnow hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "GALLADITE",
     "name": "Galladite",
     "description": "One of a variety of mysterious Mega Stones. Have Gallade hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "AUDINITE",
     "name": "Audinite",
     "description": "One of a variety of mysterious Mega Stones. Have Audino hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "DIANCITE",
     "name": "Diancite",
     "description": "One of a variety of mysterious Mega Stones. Have Diancie hold it, and it will be able to Mega Evolve.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "REDORB",
@@ -4300,5 +4300,89 @@
     "name": "TM101",
     "description": "The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.",
     "pocket": 4
+  },
+  {
+    "internalName": "TUMBLESTONE",
+    "name": "Tumblestone",
+    "description": "A normal tumblestone, super common, super generic, is just a tumblestone.",
+    "pocket": 9
+  },
+  {
+    "internalName": "WHITETUMBLESTONE",
+    "name": "White Tumblestone",
+    "description": "A Tumblestone with a white color, is nice, is a good color.",
+    "pocket": 9
+  },
+  {
+    "internalName": "REDTUMBLESTONE",
+    "name": "Red Tumblestone",
+    "description": "A Tumblestone with a red color, is quite vibrant and stands out.",
+    "pocket": 9
+  },
+  {
+    "internalName": "BLUETUMBLESTONE",
+    "name": "Blue Tumblestone",
+    "description": "A Tumblestone with a blue color, reminiscent of clear skies.",
+    "pocket": 9
+  },
+  {
+    "internalName": "BLACKTUMBLESTONE",
+    "name": "Black Tumblestone",
+    "description": "A Tumblestone with a black color, giving it a sleek and elegant look.",
+    "pocket": 9
+  },
+  {
+    "internalName": "YELLOWTUMBLESTONE",
+    "name": "Yellow Tumblestone",
+    "description": "A Tumblestone with a bright yellow color, full of energy.",
+    "pocket": 9
+  },
+  {
+    "internalName": "PINKTUMBLESTONE",
+    "name": "Pink Tumblestone",
+    "description": "A Tumblestone with a pink color, sweet and charming.",
+    "pocket": 9
+  },
+  {
+    "internalName": "GRAYTUMBLESTONE",
+    "name": "Gray Tumblestone",
+    "description": "A Tumblestone with a gray color, neutral and understated.",
+    "pocket": 9
+  },
+  {
+    "internalName": "ORANGETUMBLESTONE",
+    "name": "Orange Tumblestone",
+    "description": "A Tumblestone with an orange color, warm and inviting.",
+    "pocket": 9
+  },
+  {
+    "internalName": "PURPLETUMBLESTONE",
+    "name": "Purple Tumblestone",
+    "description": "A Tumblestone with a purple color, often associated with mystery.",
+    "pocket": 9
+  },
+  {
+    "internalName": "GREENTUMBLESTONE",
+    "name": "Green Tumblestone",
+    "description": "A Tumblestone with a green color, the best color.",
+    "pocket": 9
+  },
+  {
+    "internalName": "POKEBALLS_RECIPE_1",
+    "name": "Pokeballs Recipe",
+    "description": "A recipe for creating various types of Pokeballs.",
+    "pocket": 8
+  },
+  {
+    "internalName": "POKEBALLS_RECIPE_2",
+    "name": "Pokeballs Recipe",
+    "description": "A recipe for creating various types of specific Pokeballs.",
+    "pocket": 8
+  },
+  {
+    "internalName": "POKEBALLS_RECIPE_3",
+    "name": "Pokeballs Recipe",
+    "description": "A recipe for creating various types of very specific Pokeballs.",
+    "pocket": 8
   }
 ]

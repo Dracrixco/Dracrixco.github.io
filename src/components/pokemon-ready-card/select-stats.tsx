@@ -4,6 +4,7 @@ import {
   DialogTrigger,
   DialogContent,
   DialogTitle,
+  DialogFooter,
 } from "../ui/dialog";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
@@ -72,6 +73,32 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
 
   const getTotalEvs = () => evs.reduce((acc, curr) => acc + curr, 0);
 
+  type category = "Attack" | "Defensive" | "SpecialAttack" | "Hp" | "Support";
+  const setGenericStatCategory = (category: category) => {
+    switch (category) {
+      case "Attack":
+        setEvs([0, 252, 0, 0, 0, 252]);
+        setIvs([31, 31, 31, 31, 31, 31]);
+        break;
+      case "Defensive":
+        setEvs([0, 0, 252, 0, 252, 0]);
+        setIvs([31, 0, 31, 31, 31, 31]);
+        break;
+      case "SpecialAttack":
+        setEvs([0, 0, 0, 252, 0, 252]);
+        setIvs([31, 0, 31, 31, 31, 31]);
+        break;
+      case "Hp":
+        setEvs([252, 0, 126, 0, 126, 0]);
+        setIvs([31, 0, 31, 31, 31, 31]);
+        break;
+      case "Support":
+        setEvs([252, 0, 0, 0, 0, 252]);
+        setIvs([31, 0, 31, 31, 31, 31]);
+        break;
+    }
+  };
+
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild className={cn([className])}>
@@ -130,6 +157,24 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
         <Button className="mt-4" onClick={handleConfirm}>
           Confirmar
         </Button>
+
+        <DialogFooter className="flex flex-col sm:flex-col sm:space-x-0 space-y-2 mt-2">
+          <Button onClick={() => setGenericStatCategory("Attack")}>
+            Ataque
+          </Button>
+          <Button onClick={() => setGenericStatCategory("Defensive")}>
+            Defensa
+          </Button>
+          <Button onClick={() => setGenericStatCategory("SpecialAttack")}>
+            Ataque Especial
+          </Button>
+          <Button onClick={() => setGenericStatCategory("Hp")}>
+            Defensa Especial
+          </Button>
+          <Button onClick={() => setGenericStatCategory("Support")}>
+            Support
+          </Button>
+        </DialogFooter>
       </DialogContent>
     </Dialog>
   );

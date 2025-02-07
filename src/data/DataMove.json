@@ -9189,7 +9189,7 @@
     "internalName": "TOUCHTHELIMIT",
     "name": "Touch The Limit",
     "description": "Reduces his maximum life a lot in exchange for improving all his stats by 1 level. The move fails if the user already has limited life.",
-    "flags": [],
+    "flags": ["HpLimitReleated"],
     "type": "FIGHTING",
     "power": 0,
     "accuracy": 0,
@@ -9199,8 +9199,8 @@
   {
     "internalName": "EXPLOSIVEFEATHER",
     "name": "Explosive Feather",
-    "description": "Causes damage to the target but reduces its maximum health. The more limited the maximum health, the more damage it causes.",
-    "flags": ["CanProtect", "CanMirrorMove", "Bomb"],
+    "description": "The move is super effective against rock and steel types. Reduces the maximum life of the user.",
+    "flags": ["CanProtect", "CanMirrorMove", "Bomb", "HpLimitReleated"],
     "type": "FLYING",
     "power": 60,
     "accuracy": 100,
@@ -9211,7 +9211,7 @@
     "internalName": "BURNTHELIMIT",
     "name": "Burn The Limit",
     "description": "Causes damage according to the life limit and removes the life limiter. The move fails if the user is not life limited.",
-    "flags": ["CanProtect", "CanMirrorMove"],
+    "flags": ["CanProtect", "CanMirrorMove", "HpLimitReleated"],
     "type": "FIRE",
     "power": 120,
     "accuracy": 100,
@@ -9285,6 +9285,29 @@
     "category": "Physical"
   },
   {
+    "internalName": "SHAMANBLESSING",
+    "name": "Shaman Blessing",
+    "description": "The user applies 3 resistances.",
+    "flags": [],
+    "type": "FAIRY",
+    "power": 0,
+    "accuracy": 100,
+    "new": true,
+    "category": "Status"
+  },
+  {
+    "internalName": "DRAGONSLAYER",
+    "name": "Dragon Slayer",
+    "description": "Applies double damage if the target is a dragon type.",
+    "flags": ["Contact", "CanProtect", "CanMirrorMove"],
+    "PasiveDescription": "The user increases its attack after defeating a dragon-type Pokemon.",
+    "type": "DRAGON",
+    "power": 80,
+    "accuracy": 100,
+    "new": true,
+    "category": "Physical"
+  },
+  {
     "internalName": "FLOWERFANG",
     "name": "Flower Fang",
     "description": "Bites the target with its large fangs, reduces the targe evasion.",
@@ -9299,7 +9322,7 @@
     "internalName": "PREDATORYGAME",
     "name": "Predatory Game",
     "description": "Causes a lot of damage to the target but leaves it with at least 1 HP.",
-    "flags": ["Contact", "CanProtect", "CanMirrorMove", "Contact"],
+    "flags": ["Contact", "CanProtect", "CanMirrorMove"],
     "type": "DARK",
     "power": 100,
     "accuracy": 100,
@@ -9341,17 +9364,6 @@
     "category": "Status"
   },
   {
-    "internalName": "SHERIFFSHOT",
-    "name": "Sheriff Shot",
-    "description": "The user ignores any effects that redirect moves, allowing this move to hit the chosen target.",
-    "flags": ["CanProtect", "CanMirrorMove", "HighCriticalHitRate"],
-    "type": "GROUND",
-    "power": 90,
-    "accuracy": 90,
-    "new": true,
-    "category": "Special"
-  },
-  {
     "internalName": "INTHESPOTLIGHT",
     "name": "In The Spotlight",
     "description": "Places a target in <b>crosshairs</b>, increasing the damage and accuracy towards that target. The user cannot change and is forced to use damage moves.",
@@ -9362,6 +9374,17 @@
     "accuracy": 100,
     "new": true,
     "category": "Status"
+  },
+  {
+    "internalName": "SHERIFFSHOT",
+    "name": "Sheriff Shot",
+    "description": "The user ignores any effects that redirect moves, allowing this move to hit the chosen target.",
+    "flags": ["CanProtect", "CanMirrorMove", "HighCriticalHitRate"],
+    "type": "GROUND",
+    "power": 90,
+    "accuracy": 90,
+    "new": true,
+    "category": "Special"
   },
   {
     "internalName": "TWILIGHTCUTTING",
@@ -9398,14 +9421,59 @@
     "category": "Status"
   },
   {
-    "internalName": "HADOKEN",
-    "name": "Hadōken",
-    "description": "Causa más daño mientras más pp tenga el movimiento.",
-    "flags": [],
-    "type": "NORMAL",
+    "internalName": "MARTIALFANG",
+    "name": "Martial Fang",
+    "description": "Bites the target by applying a martial technique. Can reduce the target's defense.",
+    "flags": ["Contact", "CanProtect", "CanMirrorMove", "Biting"],
+    "type": "FIGHTING",
+    "power": 60,
+    "accuracy": 100,
+    "new": true,
+    "category": "Physical"
+  },
+  {
+    "internalName": "TELATRAPO",
+    "name": "Telatrapo",
+    "description": "Traps the enemy with a sticky cloth, preventing him from escaping for 3 turns.",
+    "flags": ["CanProtect", "CanMirrorMove"],
+    "PasiveDescription": "Reduces the evasion of targets unable to escape.",
+    "type": "BUG",
     "power": 0,
     "accuracy": 100,
-    "new": false,
+    "new": true,
+    "category": "Status"
+  },
+  {
+    "internalName": "TORTUROUSGRAB",
+    "name": "Torturous Grab",
+    "description": "Causes more damage the greater the evasion difference between the user and the target.",
+    "flags": ["CanProtect", "CanMirrorMove", "Contact"],
+    "type": "BUG",
+    "power": 90,
+    "accuracy": 90,
+    "new": true,
+    "category": "Physical"
+  },
+  {
+    "internalName": "SILKBOMB",
+    "name": "Silk Bomb",
+    "description": "This lowers the target's Evasion stat over three turns.",
+    "flags": ["CanProtect", "CanMirrorMove", "Bomb"],
+    "type": "BUG",
+    "power": 50,
+    "accuracy": 100,
+    "new": true,
+    "category": "Special"
+  },
+  {
+    "internalName": "SILKYCOCOON",
+    "name": "Silky Cocoon",
+    "description": "The user increases his defense and special defense.",
+    "flags": [],
+    "type": "BUG",
+    "power": 0,
+    "accuracy": 100,
+    "new": true,
     "category": "Status"
   }
 ]

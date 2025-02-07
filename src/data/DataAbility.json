@@ -1578,5 +1578,20 @@
     "internalName": "VAMP",
     "name": "Vamp",
     "description": "The user receives less damage from targets that are in love with the user."
+  },
+  {
+    "internalName": "TYRANNY",
+    "name": "Tyranny",
+    "description": "Causes more damage to targets unable to escape."
+  },
+  {
+    "internalName": "LIKESILK",
+    "name": "Like Silk",
+    "description": "The user is faster the more health he has."
+  },
+  {
+    "internalName": "TAILWINDBLESS",
+    "name": "Tailwind Bless",
+    "description": "Applies tailwind effect on entry for 3 turns."
   }
 ]

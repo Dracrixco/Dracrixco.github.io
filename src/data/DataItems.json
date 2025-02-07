@@ -2079,13 +2079,13 @@
     "internalName": "REDORB",
     "name": "Red Orb",
     "description": "A shiny red orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "BLUEORB",
     "name": "Blue Orb",
     "description": "A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.",
-    "pocket": 1
+    "pocket": 11
   },
   {
     "internalName": "POTION",
@@ -4248,6 +4248,54 @@
     "pocket": 10
   },
   {
+    "internalName": "BUG_CATCHER_OUTFIT",
+    "name": "Bug Catcher Outfit",
+    "description": "A suit that every bug catcher needs!",
+    "pocket": 10
+  },
+  {
+    "internalName": "FISHERMAN_OUTFIT",
+    "name": "Fisherman Outfit",
+    "description": "The perfect outfit for any fisherman.",
+    "pocket": 10
+  },
+  {
+    "internalName": "VEGETA_OUTFIT",
+    "name": "Vegeta Outfit",
+    "description": "An outfit fit for a Saiyan prince. Just don't let anyone call you Kakarot!",
+    "pocket": 10
+  },
+  {
+    "internalName": "LINK_OUTFIT",
+    "name": "Link Outfit",
+    "description": "A legendary outfit for a hero in green. Perfect for saving princesses and smashing pots!",
+    "pocket": 10
+  },
+  {
+    "internalName": "ZELDA_OUTFIT",
+    "name": "Zelda Outfit",
+    "description": "A royal outfit for the princess of Hyrule. Perfect for ruling kingdoms and wielding the Triforce of Wisdom.",
+    "pocket": 10
+  },
+  {
+    "internalName": "GOKU_OUTFIT",
+    "name": "Goku Outfit",
+    "description": "An outfit for the strongest fighter in the universe. Just make sure to keep your power level over 9000!",
+    "pocket": 10
+  },
+  {
+    "internalName": "RAM_REM_OUTFIT",
+    "name": "Ram and Rem Outfit",
+    "description": "A matching maid outfit for the twin sisters from Re:Zero. Perfect for serving tea and protecting the mansion!",
+    "pocket": 10
+  },
+  {
+    "internalName": "MEGURINE_LUKA_OUTFIT",
+    "name": "Megurine Luka Outfit",
+    "description": "An elegant outfit for the virtual diva Megurine Luka. Perfect for singing your heart out and looking fabulous!",
+    "pocket": 10
+  },
+  {
     "internalName": "PAJAMA_OUTFIT_MALE",
     "name": "Pajama Outfit Male",
     "description": "A comfortable pajama outfit for a good night's sleep.",
@@ -4278,12 +4326,6 @@
     "pocket": 8
   },
   {
-    "internalName": "MEDICINE_RECIPE",
-    "name": "Medicine Recipe",
-    "description": "A recipe for creating various medicinal items.",
-    "pocket": 8
-  },
-  {
     "internalName": "SHINYPOTION",
     "name": "Shiny Potion",
     "description": "A special potion that makes the Pokemon shiny.",
@@ -4299,6 +4341,18 @@
     "internalName": "TM101",
     "name": "TM101",
     "description": "The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.",
+    "pocket": 4
+  },
+  {
+    "internalName": "TM102",
+    "name": "TM102",
+    "description": "Bites the target with its large fangs, reduces the targe evasion.",
+    "pocket": 4
+  },
+  {
+    "internalName": "TM103",
+    "name": "TM103",
+    "description": "Bites the target by applying a martial technique. Can reduce the target's defense.",
     "pocket": 4
   },
   {
@@ -4368,6 +4422,12 @@
     "pocket": 9
   },
   {
+    "internalName": "MEDICINE_RECIPE",
+    "name": "Medicine Recipe",
+    "description": "A recipe for creating various medicinal items.",
+    "pocket": 8
+  },
+  {
     "internalName": "POKEBALLS_RECIPE_1",
     "name": "Pokeballs Recipe",
     "description": "A recipe for creating various types of Pokeballs.",
@@ -4384,5 +4444,41 @@
     "name": "Pokeballs Recipe",
     "description": "A recipe for creating various types of very specific Pokeballs.",
     "pocket": 8
+  },
+  {
+    "internalName": "SCISSORS",
+    "name": "Scissors",
+    "description": "They are capable of cutting bushes that obstruct the passage.",
+    "pocket": 8
+  },
+  {
+    "internalName": "SELECTIVEPHEROMONES",
+    "name": "Selective Pheromone",
+    "description": "Allows you to select a route Pokemon from the list of encounters. The Pokemon will have at least one perfect IV.",
+    "pocket": 1
+  },
+  {
+    "internalName": "WOODARMOR",
+    "name": "Wood Armor",
+    "description": "Generates a small proto-shield when entering combat.",
+    "pocket": 1
+  },
+  {
+    "internalName": "FIERCETEETH",
+    "name": "Fierce Teeth",
+    "description": "Denture made of resistant material that enhances the power of biting movements.",
+    "pocket": 1
+  },
+  {
+    "internalName": "COCOBERRY",
+    "name": "Coco Berry",
+    "description": "A random resistance is applied when entering combat. The berry is consumed.",
+    "pocket": 5
+  },
+  {
+    "internalName": "DEADSKIN",
+    "name": "Dead Skin",
+    "description": "It looks like skin shed by a Pokemon, probably bug-type.",
+    "pocket": 9
   }
 ]

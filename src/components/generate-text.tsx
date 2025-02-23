@@ -43,7 +43,7 @@ export const GenerateTextButton = ({
       text += `   Ball = ${pokemon.pokeball?.internalName || "POKEBALL"}\n`;
       text += `   EV = ${pokemon.evs.join(",")}\n`;
       if (pokemon.nature) {
-        text += `   Nature = ${pokemon.nature}\n`;
+        text += `   Nature = ${pokemon.nature.toUpperCase()}\n`;
       }
       text += `   Iv = ${pokemon.ivs.join(",")}\n`;
       if (pokemon.isCorrupted != undefined) {

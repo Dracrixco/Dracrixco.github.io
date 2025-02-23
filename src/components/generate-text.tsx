@@ -42,6 +42,9 @@ export const GenerateTextButton = ({
       text += `Pokemon = ${pokemon.id},${trainerLevel}\n`;
       text += `   Ball = ${pokemon.pokeball?.internalName || "POKEBALL"}\n`;
       text += `   EV = ${pokemon.evs.join(",")}\n`;
+      if (pokemon.nature) {
+        text += `   Nature = ${pokemon.nature}\n`;
+      }
       text += `   Iv = ${pokemon.ivs.join(",")}\n`;
       if (pokemon.isCorrupted != undefined) {
         text += `   Corrupted = ${pokemon.isCorrupted}\n`;

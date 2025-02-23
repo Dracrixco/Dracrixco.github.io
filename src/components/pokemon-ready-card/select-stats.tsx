@@ -56,6 +56,7 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
   //:totalhp, :attack, :defense, :spatk, :spdef, :speed
   const [evs, setEvs] = useState<number[]>(pokemon.evs);
   const [ivs, setIvs] = useState<number[]>(pokemon.ivs);
+  const [nature, setNature] = useState<string>(pokemon.nature || "");
   const [happiness, setHapiness] = useState<number>(pokemon.happiness);
 
   const handleConfirm = () => {
@@ -65,6 +66,7 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
       evs,
       ivs,
       happiness,
+      nature,
     };
 
     updatePokemon(updatedPokemon);
@@ -79,22 +81,27 @@ export const SelectStats: React.FC<SelectStatsProps> = ({
       case "Attack":
         setEvs([0, 252, 0, 0, 0, 252]);
         setIvs([31, 31, 31, 31, 31, 31]);
+        setNature("Adamant");
         break;
       case "Defensive":
         setEvs([0, 0, 252, 0, 252, 0]);
         setIvs([31, 0, 31, 31, 31, 31]);
+        setNature("Bold");
         break;
       case "SpecialAttack":
         setEvs([0, 0, 0, 252, 0, 252]);
         setIvs([31, 0, 31, 31, 31, 31]);
+        setNature("Modest");
         break;
       case "Hp":
         setEvs([252, 0, 126, 0, 126, 0]);
         setIvs([31, 0, 31, 31, 31, 31]);
+        setNature("Bold");
         break;
       case "Support":
         setEvs([252, 0, 0, 0, 0, 252]);
         setIvs([31, 0, 31, 31, 31, 31]);
+        setNature("Timid");
         break;
     }
   };

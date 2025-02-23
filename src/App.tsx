@@ -17,7 +17,7 @@ import { cn } from "./lib/utils";
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
   const [trainerName, setTrainerName] = useState<string>("");
-  const [trainerLevel, setTrainerLevel] = useState(10);
+  const [trainerLevel, setTrainerLevel] = useState(25);
   const [startText, setStartText] = useState<string>("");
   const [endText, setEndText] = useState<string>("");
   const [difficultType, setDifficultType] =

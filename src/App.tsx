@@ -11,8 +11,8 @@ import { GenerateTextButton } from "./components/generate-text";
 import { Input } from "./components/ui/input";
 import { Label } from "./components/ui/label";
 import { SelectDifficult } from "./components/select-difficult";
-import { cn } from "./lib/utils";
 import { typeDifficultyType } from "./pokemon-context";
+import { cn } from "./lib/utils";
 
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);

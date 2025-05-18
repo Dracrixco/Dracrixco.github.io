@@ -9188,7 +9188,7 @@
   {
     "internalName": "TOUCHTHELIMIT",
     "name": "Touch The Limit",
-    "description": "Reduces his maximum life a lot in exchange for improving all his stats by 1 level. The move fails if the user already has limited life.",
+    "description": "Reduces his maximum hp a lot in exchange for improving all his stats by 1 level. The move fails if the user already has limited hp.",
     "flags": ["HpLimitReleated"],
     "type": "FIGHTING",
     "power": 0,
@@ -9199,7 +9199,7 @@
   {
     "internalName": "EXPLOSIVEFEATHER",
     "name": "Explosive Feather",
-    "description": "The move is super effective against rock and steel types. Reduces the maximum life of the user.",
+    "description": "The move is super effective against rock and steel types. Reduces the maximum hp of the user.",
     "flags": ["CanProtect", "CanMirrorMove", "Bomb", "HpLimitReleated"],
     "type": "FLYING",
     "power": 60,
@@ -9210,7 +9210,7 @@
   {
     "internalName": "BURNTHELIMIT",
     "name": "Burn The Limit",
-    "description": "Causes damage according to the life limit and removes the life limiter. The move fails if the user is not life limited.",
+    "description": "Causes damage according to the hp limit and removes the hp limiter. The move fails if the user hp is not limited.",
     "flags": ["CanProtect", "CanMirrorMove", "HpLimitReleated"],
     "type": "FIRE",
     "power": 120,
@@ -9221,7 +9221,7 @@
   {
     "internalName": "PROTOSHIELD",
     "name": "Proto Shield",
-    "description": "Generates a proto shield for the user.",
+    "description": "Generate proto-shield for the user.",
     "flags": [],
     "type": "NORMAL",
     "power": 0,
@@ -9255,7 +9255,7 @@
   {
     "internalName": "NULLIFYINGSMOKE",
     "name": "Nullifying Smoke",
-    "description": "Removes from the types to the targets achieved by the movement.",
+    "description": "A heavy smokes removes the types of the target",
     "flags": [],
     "type": "DARK",
     "power": 0,
@@ -9424,7 +9424,7 @@
   {
     "internalName": "MARTIALFANG",
     "name": "Martial Fang",
-    "description": "Bites the target by applying a martial technique. Can reduce the target's defense.",
+    "description": "Bites the target by doing a martial technique. Can reduce the target's defense.",
     "flags": ["Contact", "CanProtect", "CanMirrorMove", "Biting"],
     "type": "FIGHTING",
     "power": 60,
@@ -9476,6 +9476,39 @@
     "accuracy": 100,
     "new": true,
     "category": "Status"
+  },
+  {
+    "internalName": "CRYOSWITCH",
+    "name": "Cryo Switch",
+    "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    "flags": ["CanProtect", "CanMirrorMove"],
+    "type": "ICE",
+    "power": 60,
+    "accuracy": 100,
+    "new": true,
+    "category": "Physical"
+  },
+  {
+    "internalName": "CRYOSPEED",
+    "name": "Cryo Speed",
+    "description": "This move always goes first in a hailstorm or in a Snowstorm.",
+    "flags": ["CanProtect", "CanMirrorMove"],
+    "type": "ICE",
+    "power": 80,
+    "accuracy": 100,
+    "new": true,
+    "category": "Physical"
+  },
+  {
+    "internalName": "ARCTICMALTREATMENT",
+    "name": "Arctic Maltreatment",
+    "description": "After making the attack, the user switch place with a party member. If the user is in hailstorm, this move always go first.",
+    "flags": ["CanProtect", "CanMirrorMove"],
+    "type": "ICE",
+    "power": 90,
+    "accuracy": 100,
+    "new": true,
+    "category": "Physical"
   },
   {
     "internalName": "PYROPALM",

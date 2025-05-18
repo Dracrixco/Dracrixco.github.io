@@ -1552,47 +1552,52 @@
   {
     "internalName": "JUNGLEPROTECTOR",
     "name": "Jungle Protector",
-    "description": "If the Pokémon is unable to escape or be changed, it starts generating proto-shield each turn."
+    "description": "If the Pokémon cannot escape or be switched out, it generates proto-shield at the end of each turn."
   },
   {
     "internalName": "TOTHELIMIT",
     "name": "To The Limit",
-    "description": "Each time the maximum life is limited, the Pokemon increases a random stat."
+    "description": "Each time the Pokémon's maximum HP is reduced, it boosts a random stat, pushing itself to its limits."
   },
   {
     "internalName": "NEUROTOXIN",
     "name": "Neurotoxin",
-    "description": "Contact applies a random weakness to the target, also reduces evasion to the target."
+    "description": "Contact with the Pokémon applies a random weakness to the target and reduces it's evasion."
   },
   {
     "internalName": "PREDATORTRACKING",
     "name": "Predator Tracking",
-    "description": "Moves have more accuracy and damage the less health the target has. The user has more speed if there is an enemy with low health."
+    "description": "The less health the target has, the more accurate and powerful the user's moves become. Additionally, the user gains increased speed if an enemy has low health."
   },
   {
     "internalName": "ETERNALHUNGER",
-    "name": "Eternal hunger",
-    "description": "Increases its attack and speed when its health drops below half."
+    "name": "Eternal Hunger",
+    "description": "When the Pokémon's health drops below half, its attack and speed are sharply increased, driven by an insatiable hunger."
   },
   {
     "internalName": "VAMP",
     "name": "Vamp",
-    "description": "The user receives less damage from targets that are in love with the user."
+    "description": "The user takes reduced damage from targets that are infatuated with it, feeding off their affection."
   },
   {
     "internalName": "TYRANNY",
     "name": "Tyranny",
-    "description": "Causes more damage to targets unable to escape."
+    "description": "The Pokémon deals increased damage to targets that are unable to escape, asserting its dominance."
   },
   {
     "internalName": "LIKESILK",
     "name": "Like Silk",
-    "description": "The user is faster the more health he has."
+    "description": "The Pokémon's speed increases the more health it has, moving with silky smooth precision."
   },
   {
     "internalName": "TAILWINDBLESS",
     "name": "Tailwind Bless",
-    "description": "Applies tailwind effect on entry for 3 turns."
+    "description": "Upon entering the battle, the Pokémon summons a tailwind that boosts the speed of its team for 3 turns."
+  },
+  {
+    "internalName": "ICEKING",
+    "name": "Ice King",
+    "description": "Apply Ice Weakness to all battlers when enter the battle. Just one time per battle."
   },
   {
     "internalName": "GREATPALMS",

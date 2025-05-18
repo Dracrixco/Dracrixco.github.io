@@ -8,22 +8,6 @@
     "name": "Pokémon Trainer"
   },
   {
-    "internalName": "RIVAL_DITTO",
-    "name": "Pokémon Trainer"
-  },
-  {
-    "internalName": "RIVAL_CAMELIA",
-    "name": "Pokémon Trainer"
-  },
-  {
-    "internalName": "RIVAL_CARTAMO",
-    "name": "Pokémon Trainer"
-  },
-  {
-    "internalName": "PROFESSOR_KAOBA",
-    "name": "Professor"
-  },
-  {
     "internalName": "POKEMONTRAINER_ETHAN",
     "name": "Pokémon Trainer"
   },
@@ -98,10 +82,6 @@
   {
     "internalName": "BUGCATCHER_F",
     "name": "Bug Catcher"
-  },
-  {
-    "internalName": "BUGCATCHER_GROUP",
-    "name": "Bug Catcher Group"
   },
   {
     "internalName": "CAMPER",
@@ -740,6 +720,38 @@
     "name": "Young Couple"
   },
   {
+    "internalName": "MINER_ABSOLUTION",
+    "name": "Miner"
+  },
+  {
+    "internalName": "AROMALADY_ABSOLUTION",
+    "name": "Aroma Lady"
+  },
+  {
+    "internalName": "COWBOY_ABSOLUTION",
+    "name": "Cowboy"
+  },
+  {
+    "internalName": "COWGIRL_ABSOLUTION",
+    "name": "Cowgirl"
+  },
+  {
+    "internalName": "RIVAL_DITTO",
+    "name": "Pokémon Trainer"
+  },
+  {
+    "internalName": "RIVAL_CAMELIA",
+    "name": "Pokémon Trainer"
+  },
+  {
+    "internalName": "RIVAL_CARTAMO",
+    "name": "Pokémon Trainer"
+  },
+  {
+    "internalName": "PROFESSOR_KAOBA",
+    "name": "Professor"
+  },
+  {
     "internalName": "COWGIRL_SAMANTA",
     "name": "Cowgirl"
   },
@@ -768,11 +780,7 @@
     "name": "Right Hand Of The Leader"
   },
   {
-    "internalName": "MINER_ABSOLUTION",
-    "name": "Miner"
-  },
-  {
-    "internalName": "AROMALADY_ABSOLUTION",
-    "name": "Aroma Lady"
+    "internalName": "BUGCATCHER_GROUP",
+    "name": "Bug Catcher Group"
   }
 ]

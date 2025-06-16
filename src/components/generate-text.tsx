@@ -45,7 +45,7 @@ export const GenerateTextButton = ({
       if (pokemon.nature) {
         text += `   Nature = ${pokemon.nature.toUpperCase()}\n`;
       }
-      text += `   Iv = ${pokemon.ivs.join(",")}\n`;
+      text += `   IV = ${pokemon.ivs.join(",")}\n`;
       if (pokemon.isCorrupted != undefined) {
         text += `   Corrupted = ${pokemon.isCorrupted}\n`;
       }

@@ -9219,9 +9219,20 @@
     "category": "Special"
   },
   {
+    "internalName": "SOLARDESTRUCTION",
+    "name": "Solar Destruction",
+    "description": "Causes damage according to the hp limit and removes the hp limiter. The move fails if the user hp is not limited.",
+    "flags": ["CanProtect", "CanMirrorMove", "HpLimitReleated"],
+    "type": "FIRE",
+    "power": 120,
+    "accuracy": 100,
+    "new": true,
+    "category": "Special"
+  },
+  {
     "internalName": "PROTOSHIELD",
     "name": "Proto Shield",
-    "description": "Generate proto-shield for the user.",
+    "description": "Generate a tiny proto-shield for the user. The proto-shield can be accumulated.",
     "flags": [],
     "type": "NORMAL",
     "power": 0,
@@ -9255,7 +9266,7 @@
   {
     "internalName": "NULLIFYINGSMOKE",
     "name": "Nullifying Smoke",
-    "description": "A heavy smokes removes the types of the target",
+    "description": "A heavy smokes that removes the types of the target.",
     "flags": [],
     "type": "DARK",
     "power": 0,
@@ -9288,7 +9299,7 @@
   {
     "internalName": "SHAMANBLESSING",
     "name": "Shaman Blessing",
-    "description": "The user applies 3 resistances.",
+    "description": "The user applies 3 random resistances to themself, which can be accumulated.",
     "flags": [],
     "type": "FAIRY",
     "power": 0,
@@ -9311,7 +9322,7 @@
   {
     "internalName": "FLOWERFANG",
     "name": "Flower Fang",
-    "description": "Bites the target with its large fangs, reduces the targe evasion.",
+    "description": "Bites the target with its large fangs, reduces the target evasion.",
     "flags": ["Contact", "CanProtect", "CanMirrorMove", "Biting"],
     "type": "GRASS",
     "power": 60,
@@ -9357,7 +9368,7 @@
     "name": "Supplication",
     "description": "The user begs for mercy, reducing the target's evasion.",
     "flags": [],
-    "PasiveDescription": "The move is likely to be executed when the user receiving damage.",
+    "PasiveDescription": "The move is likely to be executed when the user recieve damage.",
     "type": "NORMAL",
     "power": 0,
     "accuracy": 100,
@@ -9403,7 +9414,7 @@
     "name": "Triforce",
     "description": "Increases the attack, special attack and precision of the user.",
     "flags": [],
-    "PasiveDescription": "Applies <b>Dark Hater</b> when entering combat.",
+    "PasiveDescription": "The user get <b>Dark Hater</b> when entering combat.",
     "type": "STEEL",
     "power": 0,
     "accuracy": 100,

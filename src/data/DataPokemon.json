@@ -2175,7 +2175,7 @@
     "name": "Pikachu",
     "Color": "Yellow",
     "generation": "1",
-    "flags": ["HasGenderedSprites"],
+    "flags": ["HasGenderedSprites", "Corrupted"],
     "types": ["ELECTRIC"],
     "moves": [
       "PLAYNICE",
@@ -35724,7 +35724,7 @@
     "name": "Roselia",
     "Color": "Green",
     "generation": "3",
-    "flags": ["HasGenderedSprites"],
+    "flags": ["HasGenderedSprites", "Corrupted"],
     "types": ["GRASS", "POISON"],
     "moves": [
       "POISONSTING",
@@ -106217,6 +106217,7 @@
       "DIG"
     ],
     "tutor_moves": [
+      "FLOWERFANG",
       "ACIDSPRAY",
       "ATTRACT",
       "BIND",
@@ -106353,6 +106354,7 @@
       "STOMP"
     ],
     "tutor_moves": [
+      "FLOWERFANG",
       "ACIDSPRAY",
       "ATTRACT",
       "BIND",
@@ -106487,6 +106489,7 @@
       "STEALTHROCK"
     ],
     "tutor_moves": [
+      "FLOWERFANG",
       "ACIDSPRAY",
       "ATTRACT",
       "BIND",
@@ -106598,6 +106601,7 @@
       "INCINERATE"
     ],
     "tutor_moves": [
+      "PLUCK",
       "ACROBATICS",
       "AERIALACE",
       "AIRCUTTER",
@@ -106736,6 +106740,7 @@
       "FACADE"
     ],
     "tutor_moves": [
+      "PLUCK",
       "ACROBATICS",
       "AERIALACE",
       "AIRCUTTER",
@@ -106896,6 +106901,7 @@
       "FLAREBLITZ"
     ],
     "tutor_moves": [
+      "PLUCK",
       "ACROBATICS",
       "AERIALACE",
       "AIRCUTTER",
@@ -107994,6 +108000,7 @@
       "CLOSECOMBAT"
     ],
     "tutor_moves": [
+      "FLOWERFANG",
       "ATTRACT",
       "CAPTIVATE",
       "CHARM",
@@ -108058,7 +108065,7 @@
       "UPROAR"
     ],
     "egg_moves": ["CHARM"],
-    "abilities": ["RUNAWAY", "STAMINA"],
+    "abilities": ["RUNAWAY", "INTIMIDATE", "STAMINA"],
     "baseStats": {
       "HP": 65,
       "ATTACK": 43,
@@ -108104,6 +108111,7 @@
       "CLOSECOMBAT"
     ],
     "tutor_moves": [
+      "FLOWERFANG",
       "ATTRACT",
       "CAPTIVATE",
       "CHARM",
@@ -108223,6 +108231,7 @@
       "CLOSECOMBAT"
     ],
     "tutor_moves": [
+      "FLOWERFANG",
       "ATTRACT",
       "CAPTIVATE",
       "CHARM",
@@ -108333,6 +108342,7 @@
       "CLOSECOMBAT"
     ],
     "tutor_moves": [
+      "FLOWERFANG",
       "ATTRACT",
       "CAPTIVATE",
       "CHARM",
@@ -109316,6 +109326,7 @@
       "DRILLPECK"
     ],
     "tutor_moves": [
+      "PLUCK",
       "ACROBATICS",
       "AERIALACE",
       "AGILITY",
@@ -109416,6 +109427,7 @@
       "DRILLPECK"
     ],
     "tutor_moves": [
+      "PLUCK",
       "ACROBATICS",
       "AERIALACE",
       "AGILITY",
